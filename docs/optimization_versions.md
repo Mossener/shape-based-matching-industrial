@@ -70,4 +70,9 @@
 - 本版本仅整理维护与发布材料，不改变匹配算法、模板或性能路径，不新增性能测量。检查新增文档本地链接、原 README 字节、根许可证内容，以及已归档性能/测试来源哈希。
 - GitHub 公开维护仓库：[Mossener/shape-based-matching-industrial](https://github.com/Mossener/shape-based-matching-industrial)。历史阶段标签与原始实验一同保存，工业能力以对应里程碑验收为准。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v8` 标记各阶段。
+## V9：README 聚焦用途、用法、来源和能力
+
+- 去掉首页对维护者身份的强调，按作用、用法、来源、能力组织内容；保留来源、许可、可运行的验证入口、性能口径与能力边界。
+- 本版本仅修改文档，不改变算法与性能；检查本地链接和内容一致性后同步 GitHub。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v9` 标记各阶段。
