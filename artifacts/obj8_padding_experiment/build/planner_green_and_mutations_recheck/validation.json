@@ -1,0 +1,174 @@
+{
+  "passed": 1,
+  "script_sha256": "3a64886c3194dee9ec3a125f8f902a5b450281cc4574dcd71515f7df123918e5",
+  "compiler": "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+  "cases": [
+    {
+      "name": "green",
+      "compile_exit": 0,
+      "test_exit": 0,
+      "expected_pass": 1,
+      "header_sha256": "2a97fc2598fd7c86bf702f76250126f45f67832f881543ebbb53b84cc65875d7",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "e65c36d200742651774231c720b73d7eaafd9f3e10d8951062a15d05740813b3",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\green\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\green\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_half_refinement_margin",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "9a1c8bd6258c8c2278d10d5b10f927d04f503c15248f4fb4d7061b4cd6470acf",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "dc11db18981352b86b8281747d2c4bb0e005217305908df55471135349df2a12",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_half_refinement_margin\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_half_refinement_margin\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_missing_feature_plus_one",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "d4221d171bc7b84aa8fbb0633d0588954d48d486dab5760312eda79eb16349c1",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "b687ca4c536d1d3d9462480387d97d3446feff37a7f242b7e077a225406f5f42",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_feature_plus_one\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_feature_plus_one\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_missing_alignment",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "49851e1987e1c5abb59064c8f0286ecca67c1ccb79f43e9965d98888d1f48835",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "c7ecb043ff6b4ce8b92ec2be36fa9ab87026f707a94dd6ad5d56794cc3a80e96",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_alignment\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_alignment\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_moved_origin",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "c4b6fce94b14698fee2b56ac5287817a990ad050e4a9598bdb4950c46d0f3a76",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "4be871b8cfec3735c6f798d65a90d763275473fb7ab558f10bf9a509fd8c76c9",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_moved_origin\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_moved_origin\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_unchecked_sum",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "21cce6f65a7cc44059b3f23a34648685fd6f36e002873032b996cb7149dd4129",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "5ab3e45ed1c2850f306c47ce12c893902fbb7736cf7059681f42387370453adc",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_unchecked_sum\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_unchecked_sum\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_missing_pose_level",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "da20023251642ed1f904102a3cf182dfe43750c68f395195a17340065f5e9814",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "9655ad54329494bfe917a3decfffcf34b591d740255c0fb1ab335771caf3f843",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_pose_level\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_pose_level\\planner_test.exe"
+      ]
+    },
+    {
+      "name": "red_missing_memory_budget",
+      "compile_exit": 0,
+      "test_exit": 1,
+      "expected_pass": 0,
+      "header_sha256": "08ea95a0894485126bbf0428e7c1743467395e41ad864af56357b31e6c505d95",
+      "test_sha256": "9f733915af55e0961e275cdef453a930e651d1a67c820c561be82301fa272078",
+      "executable_sha256": "53d153deffa203b07343abc337804bea8518fd5fbc06551292da08600ac88e0f",
+      "argv": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-std=c++14",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_memory_budget\\padding_plan_test.cpp",
+        "-o",
+        "artifacts\\obj8_padding_experiment\\build\\planner_green_and_mutations_recheck\\red_missing_memory_budget\\planner_test.exe"
+      ]
+    }
+  ],
+  "all_cases_compiled": 1,
+  "semantic_green": 1,
+  "semantic_mutation_red": 7,
+  "original_stub_red_evidence": "build/planner_red_final/result.json",
+  "source_unchanged": 1,
+  "images_read": 0,
+  "matcher_calls": 0
+}

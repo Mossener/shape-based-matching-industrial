@@ -1,0 +1,6 @@
+{
+  "case": "raw_box_origin",
+  "expected_rejection": "Box/source-origin mismatch",
+  "observed_rejection": "Box/source-origin mismatch",
+  "rejected": true
+}

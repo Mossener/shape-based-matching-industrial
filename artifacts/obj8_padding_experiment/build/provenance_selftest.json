@@ -1,0 +1,19 @@
+{
+  "passed": 1,
+  "selections": [
+    8,
+    400,
+    64
+  ],
+  "rejected": [
+    "pilot",
+    "development",
+    "timing",
+    "duplicate",
+    "source_sha"
+  ],
+  "dataset_member_reads": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "script_sha256": "ca4fe57d8c778ef485463f7bb111c87199b8712c37f0a8635d66d29cff7aad75"
+}

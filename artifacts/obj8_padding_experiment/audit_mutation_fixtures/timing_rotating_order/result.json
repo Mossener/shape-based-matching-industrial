@@ -1,0 +1,6 @@
+{
+  "case": "timing_rotating_order",
+  "expected_rejection": "Order/warmup schedule changed",
+  "observed_rejection": "Order/warmup schedule changed",
+  "rejected": true
+}

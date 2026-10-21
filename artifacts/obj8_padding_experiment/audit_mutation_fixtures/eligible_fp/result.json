@@ -1,0 +1,6 @@
+{
+  "case": "eligible_fp",
+  "expected_rejection": "None/auto/visibility_ge_0_5 fp",
+  "observed_rejection": "None/auto/visibility_ge_0_5 fp",
+  "rejected": true
+}

@@ -1,0 +1,49 @@
+{
+  "passed": 1,
+  "protocol_sha256": "ab9207f2dd492622aed8f563997b00ca6d137d5c93fa0f2c99b67f7ec756573d",
+  "script_sha256": "d32a7392c47cbd834a214dab48fcba2077a2cc9d7842ee4e0fb5e03fd13462c8",
+  "templates_scanned": 3456,
+  "levels_scanned": 6912,
+  "historical_reported_infeasible_template_levels": 630,
+  "recomputed_baseline_infeasible_template_levels": 634,
+  "additional_actual_feature_boundary_template_ids": [
+    566,
+    951,
+    999,
+    1005
+  ],
+  "proposed_infeasible_template_levels": 0,
+  "planned_size": [
+    848,
+    800
+  ],
+  "planned_padding_ltrb": [
+    64,
+    64,
+    64,
+    196
+  ],
+  "hand_derived_boundary_and_coordinate_assertions": 40,
+  "rejected_invalid_cases": [
+    "empty_layers",
+    "negative_feature",
+    "feature_above_extent",
+    "zero_T",
+    "pixel_budget",
+    "axis_budget",
+    "uint64_sum",
+    "uint64_align",
+    "uint64_shift",
+    "uint64_product",
+    "negative_padding"
+  ],
+  "frames": 400,
+  "pilot": 8,
+  "timing": 64,
+  "max_match_calls": 2880,
+  "dataset_image_files_opened": 0,
+  "image_decodes": 0,
+  "compiler_calls": 0,
+  "matcher_calls": 0,
+  "limitation": "Static constraints from frozen numeric geometry; runtime must revalidate the actual loaded bank, image dimensions, allocation/stride bounds and outputs before any empirical claim."
+}

@@ -1,0 +1,132 @@
+{
+  "scope": "Static derivation from frozen full-bank geometry; no image decode or matching",
+  "geometry_sha256": "34bccdd92b99929cd7250532c405084e2d96f7bc9f9ad7d73cc43fc46fe779a6",
+  "template_count": 3456,
+  "template_levels": 6912,
+  "baseline_size": [
+    848,
+    672
+  ],
+  "alignment": 16,
+  "constraints": [
+    {
+      "level": 0,
+      "axis": "width",
+      "T": 4,
+      "kind": "nonempty_refinement_interval",
+      "maximum_declared_extent": 734,
+      "maximum_actual_feature_plus_one": 735,
+      "binding_declared_ids": [
+        2964,
+        3358
+      ],
+      "binding_feature_ids": [
+        2964
+      ],
+      "required_l0_dimension": 798
+    },
+    {
+      "level": 0,
+      "axis": "height",
+      "T": 4,
+      "kind": "nonempty_refinement_interval",
+      "maximum_declared_extent": 734,
+      "maximum_actual_feature_plus_one": 735,
+      "binding_declared_ids": [
+        2973,
+        3355
+      ],
+      "binding_feature_ids": [
+        2973
+      ],
+      "required_l0_dimension": 798
+    },
+    {
+      "level": 1,
+      "axis": "width",
+      "T": 8,
+      "kind": "whole_coarse_placement",
+      "maximum_declared_extent": 367,
+      "maximum_actual_feature_plus_one": 368,
+      "binding_declared_ids": [
+        2964,
+        3358
+      ],
+      "binding_feature_ids": [
+        3358
+      ],
+      "required_l0_dimension": 736
+    },
+    {
+      "level": 1,
+      "axis": "height",
+      "T": 8,
+      "kind": "whole_coarse_placement",
+      "maximum_declared_extent": 367,
+      "maximum_actual_feature_plus_one": 368,
+      "binding_declared_ids": [
+        2973,
+        3355
+      ],
+      "binding_feature_ids": [
+        3355
+      ],
+      "required_l0_dimension": 736
+    }
+  ],
+  "planned_auto_size": [
+    848,
+    800
+  ],
+  "planned_padding_ltrb": [
+    64,
+    64,
+    64,
+    196
+  ],
+  "pixel_area_ratio": 1.1904761904761905,
+  "original_input": [
+    720,
+    540
+  ],
+  "core_geometry_revalidation_required": 1,
+  "no_memory_safety_claim": 1,
+  "historical_reported_invalid_template_levels": 630,
+  "recomputed_baseline_invalid_template_levels": 634,
+  "additional_actual_feature_boundary_cases": [
+    {
+      "template_id": 566,
+      "level": 1,
+      "declared_height": 336,
+      "feature_max_y": 336,
+      "input_level_height": 336,
+      "actual_required_height": 337
+    },
+    {
+      "template_id": 951,
+      "level": 1,
+      "declared_height": 336,
+      "feature_max_y": 336,
+      "input_level_height": 336,
+      "actual_required_height": 337
+    },
+    {
+      "template_id": 999,
+      "level": 1,
+      "declared_height": 336,
+      "feature_max_y": 336,
+      "input_level_height": 336,
+      "actual_required_height": 337
+    },
+    {
+      "template_id": 1005,
+      "level": 1,
+      "declared_height": 336,
+      "feature_max_y": 336,
+      "input_level_height": 336,
+      "actual_required_height": 337
+    }
+  ],
+  "design_correction": "Static validation distinguishes historical declared-extent-only count630 from actual-feature-inclusive count634; original numeric report is unchanged; automatic final dimensions unchanged.",
+  "prior_static_plan_sha256": "6248ba3d760df0fcefad67762089b059126f2424e8be20b7d170977a156ee6cb"
+}

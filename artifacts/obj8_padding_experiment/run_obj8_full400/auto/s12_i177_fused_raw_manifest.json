@@ -1,0 +1,16 @@
+{
+    "scene_id": 12,
+    "image_id": 177,
+    "rgb": "test_primesense/000012/rgb/000177.png",
+    "variant": "fused",
+    "class_id": "tless_object_8",
+    "class_ids": [
+        "tless_object_8"
+    ],
+    "raw_candidate_count": 2,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/obj8_padding_experiment/run_obj8_full400/auto/s12_i177_fused_raw.csv.gz",
+    "compressed_bytes": 173.0,
+    "uncompressed_bytes": 275.0,
+    "zlib_version": "1.3.1"
+}

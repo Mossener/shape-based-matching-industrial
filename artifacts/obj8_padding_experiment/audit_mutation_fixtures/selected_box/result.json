@@ -1,0 +1,6 @@
+{
+  "case": "selected_box",
+  "expected_rejection": "Selected identities/order",
+  "observed_rejection": "Selected identities/order",
+  "rejected": true
+}

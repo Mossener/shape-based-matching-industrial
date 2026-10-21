@@ -109,6 +109,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 
 V14 的独立稠密边缘覆盖实验使用三个预先固定的阈值。在目标1的400张开发图上，覆盖阈值0.65保留37个已检测真值，误检从7842降到6397，但350张负图仍全部有误报；阈值0.80将误检降到1195，同时丢失6个原已检测真值并新增1个，总TP降为32。16张tiny开发图也观察到类似取舍。该实验保留为诊断工具，尚未接入默认匹配，也没有建立速度收益。
 
+V16 单独检验目标8的全模板自动补边。848×800使全部6912个模板层满足所检查的几何约束，但400帧的原始候选与848×672基线逐字段及分数位完全相同，仍为TP1/FP68/FN49。64帧配对测试中，完整调用耗时的auto/baseline比值中位数为1.121（fallback）和1.115（fused）。这项实验说明补齐几何条件并未解决本例漏检，因此没有更改默认补边；[完整结果与独立复算](artifacts/obj8_padding_experiment/RESULTS.md)同时保留正确性、耗时和限制。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

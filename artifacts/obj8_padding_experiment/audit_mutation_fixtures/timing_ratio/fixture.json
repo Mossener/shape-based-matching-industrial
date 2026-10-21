@@ -1,0 +1,6 @@
+{
+  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_timing64\\timing_metrics.json",
+  "original_sha256": "e14013be31bc70b12294b59ea671cd3c70bb7a7ef6a6675de38b7157fa64103c",
+  "injection": "Decoded json numeric input only; original provenance files and image bytes unchanged",
+  "expected_rejection": "Paired timing fallback external_call_median"
+}

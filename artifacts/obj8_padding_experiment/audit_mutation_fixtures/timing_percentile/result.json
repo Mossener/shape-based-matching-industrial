@@ -1,0 +1,6 @@
+{
+  "case": "timing_percentile",
+  "expected_rejection": "Timing variant ('baseline', 'fallback') match_median_ms",
+  "observed_rejection": "Timing variant ('baseline', 'fallback') match_median_ms",
+  "rejected": true
+}

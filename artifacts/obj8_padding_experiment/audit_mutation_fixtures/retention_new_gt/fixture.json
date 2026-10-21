@@ -1,0 +1,6 @@
+{
+  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_pilot\\comparison_metrics.json",
+  "original_sha256": "97ebac1938bddccbb5d321e0170b1422fd5c3c515487f4a6ef9ff35336d2d372",
+  "injection": "Decoded json numeric input only; original provenance files and image bytes unchanged",
+  "expected_rejection": "None/auto retention new_gt"
+}

@@ -1,0 +1,1 @@
+PASS planner assertions=465 rejected=15

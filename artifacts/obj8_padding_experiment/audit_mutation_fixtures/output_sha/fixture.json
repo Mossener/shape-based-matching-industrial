@@ -1,0 +1,6 @@
+{
+  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_pilot\\execution_provenance.json",
+  "original_sha256": "72e9090caa1f82b17690aff2dfbc9def18616c77d3d17f726a7404d894e5bd68",
+  "injection": "Decoded json numeric input only; original provenance files and image bytes unchanged",
+  "expected_rejection": "Changed output: candidate_equality.csv"
+}

@@ -31,3 +31,5 @@ artifacts/magnet_match/** -text whitespace=cr-at-eol
 artifacts/quality_coverage/** -text whitespace=cr-at-eol
 # Keep the compiler's captured stdout verbatim, including its final blank line.
 artifacts/quality_coverage/**/compiler_version_stdout.txt -whitespace
+artifacts/obj8_padding_experiment/** -text whitespace=cr-at-eol
+artifacts/obj8_padding_experiment/run_*/source/** -whitespace

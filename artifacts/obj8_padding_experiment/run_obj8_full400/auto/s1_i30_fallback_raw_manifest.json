@@ -1,0 +1,16 @@
+{
+    "scene_id": 1,
+    "image_id": 30,
+    "rgb": "test_primesense/000001/rgb/000030.png",
+    "variant": "fallback",
+    "class_id": "tless_object_8",
+    "class_ids": [
+        "tless_object_8"
+    ],
+    "raw_candidate_count": 0,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/obj8_padding_experiment/run_obj8_full400/auto/s1_i30_fallback_raw.csv.gz",
+    "compressed_bytes": 103.0,
+    "uncompressed_bytes": 123.0,
+    "zlib_version": "1.3.1"
+}

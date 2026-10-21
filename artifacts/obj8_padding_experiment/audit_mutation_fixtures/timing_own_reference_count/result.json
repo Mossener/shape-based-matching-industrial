@@ -1,0 +1,6 @@
+{
+  "case": "timing_own_reference_count",
+  "expected_rejection": "Timed counts differ from own arm/path reference",
+  "observed_rejection": "Timed counts differ from own arm/path reference",
+  "rejected": true
+}

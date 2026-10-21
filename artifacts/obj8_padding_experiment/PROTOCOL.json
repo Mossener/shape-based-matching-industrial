@@ -1,0 +1,210 @@
+{
+  "protocol_version": "obj8_full_bank_minimum_padding_development_v1",
+  "status": "Frozen design only; no build or matching authorized by this file",
+  "objective": "Compare existing pad64 with full-bank automatic minimum total-size padding, keeping source origin/grid phase, bank, core and thresholds fixed; report both gains and regressions",
+  "split": "development",
+  "target_objects": [
+    8
+  ],
+  "forbidden_objects": [
+    25,
+    29
+  ],
+  "heldout_image_member_reads": 0,
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "template_count": 3456,
+  "pyramid_T": [
+    4,
+    8
+  ],
+  "features_requested": 32,
+  "weak_threshold": 20,
+  "strong_threshold": 40,
+  "actual_matcher_threshold": 85,
+  "post_score_threshold": 85,
+  "nms_iou": 0.3,
+  "gt_match_iou": 0.5,
+  "eligible_visibility": 0.5,
+  "bank_policy": "Reuse exact serialized full 3456-ID bank; no retraining, dropping poses, scale changes, threshold changes or feature-count gating",
+  "baseline_policy": "Exact original left/top64 with right/bottom64+16-alignment remainder; archived baseline quality unchanged; eight fresh pilot fallback/fused outputs must match their old same-padding raw cache",
+  "auto_policy": "Preserve baseline left/top64 and at least baseline total size; A=lcm(2^l*T_l); scan every class/template/level; required refined dimension=2^l*(max declared extent+16*T_l); coarse=2^c*max(declared extent,actual max feature coordinate+1); align maximum up to A; extra area on right/bottom only",
+  "geometry_validation": "Check every actual loaded template, feature coordinates and final per-level divisibility; fail on malformed negative/inconsistent extents or declared extent<actual maximum, never rewrite features; report all binding poses and residual margins. This is geometric feasibility only, not a physical SIMD-read safety proof.",
+  "expected_current_shape": {
+    "baseline_size": [
+      848,
+      672
+    ],
+    "baseline_padding_ltrb": [
+      64,
+      64,
+      64,
+      68
+    ],
+    "auto_size": [
+      848,
+      800
+    ],
+    "auto_padding_ltrb": [
+      64,
+      64,
+      64,
+      196
+    ],
+    "alignment": 16,
+    "expected_auto_invalid_template_levels": 0,
+    "historical_reported_baseline_invalid_template_levels": 630,
+    "recomputed_baseline_invalid_template_levels": 634,
+    "additional_feature_boundary_template_ids": [
+      566,
+      951,
+      999,
+      1005
+    ]
+  },
+  "coordinate_policy": "Unchanged padded match_x/match_y; use actual left/top in frozen silhouette-origin bbox transform; compare original-image output boxes; no subtracting right/bottom and no clipping",
+  "raw_policy": "No cache reuse across padding arms. Preserve every raw candidate and manifest for each fresh call; compare fallback/fused all original fields and float32 bits within each arm; A/B outputs may legitimately differ.",
+  "pilot": {
+    "frames": 8,
+    "fresh_arms": [
+      "baseline",
+      "auto"
+    ],
+    "paths": [
+      "fallback",
+      "fused"
+    ],
+    "match_calls": 32,
+    "purpose": "Correctness/byte equivalence to old baseline, actual bank preflight, coordinate checks and resource feasibility; not tuning or a stable speed claim"
+  },
+  "full_quality": {
+    "frames": 400,
+    "fresh_arms": [
+      "auto"
+    ],
+    "baseline": "Use already frozen corresponding actual85 baseline candidate archives only after full input/core/bank/config/frame hashes and paired-path equality revalidation",
+    "paths": [
+      "fallback",
+      "fused"
+    ],
+    "match_calls": 800,
+    "run_condition": "Pilot correctness/resource checks pass even if pilot accuracy is unchanged or worse; do not select on pilot gain"
+  },
+  "timing": {
+    "frames": 64,
+    "warmup_rounds": 1,
+    "measured_rounds": 7,
+    "arms": [
+      "baseline",
+      "auto"
+    ],
+    "paths": [
+      "fallback",
+      "fused"
+    ],
+    "match_calls": 2048,
+    "ordering": "Per frame and round cycle the four arm/path combinations by round modulo4; fixed frame order from frame_schedule; no concurrent heavy workload; OMP4 dynamicFALSE activelevels1 passive wait; report samples and medians/p95/paired ratios",
+    "match_phase": "Only detector.match wall time",
+    "external_call_phase": "Input already decoded grayscale; include new copyMakeBorder, detector.match, canonical score filter/NMS and original-coordinate conversion; exclude imread/training/GT/CSV/drawing; report decode and bank load separately",
+    "correctness": "Every timed variant output must equal its own canonical arm/path frozen-quality candidate list; never require baseline==auto"
+  },
+  "resource_budget": {
+    "max_padded_axis": 2048,
+    "max_padded_pixels": 1048576,
+    "max_estimated_bytes_per_pixel": 512,
+    "max_estimated_dynamic_bytes": 536870912,
+    "max_process_peak_rss_bytes": 1610612736,
+    "max_raw_candidates_per_frame_variant": 1000000,
+    "max_all_new_raw_output_bytes": 536870912,
+    "pilot_wall_time_minutes": 10,
+    "full_quality_wall_time_minutes": 60,
+    "timing_wall_time_minutes": 30,
+    "max_match_calls_all_stages": 2880,
+    "overflow": "Checked uint64 arithmetic for shifts, LCM, alignment, pixel/stride products and resource estimates",
+    "on_budget_exceeded": "Abort and preserve incomplete failure evidence with required dimensions/binding template; never truncate, treat missing outputs as negatives, change bank/parameters, or resume with a silent new budget"
+  },
+  "quality_reporting": [
+    "allGT and eligible TP/FP/FN precision recall F1 mean TP IoU",
+    "per-scene and per-visibility results; target-negative-frame FP and frames with FP",
+    "baseline GT ID retention/loss/new coverage and exact original TP detection retention; do not equate total TP difference with old-TP loss",
+    "complete raw/post85/NMS candidate counts, bank geometry before/after, original/padded-domain candidate extents",
+    "all failures and unavailable/incomplete frames; no industrial accuracy extrapolation"
+  ],
+  "required_synthetic_checks": [
+    "one below/equal/above each refined/coarse bound, width and height independently",
+    "odd dimensions and nontrivial T arrays/LCM; arithmetic/resource overflows reject",
+    "full-bank max extents from different template IDs and feature max==declared extent",
+    "same left/top with changed right/bottom preserves coordinate transform exactly",
+    "negative/malformed loaded features explicit rejection, never normalization",
+    "strict IoU=.3 NMS boundary and one-to-one/eligible-ignore rules unchanged"
+  ],
+  "promotion": "No production-default change. Geometry restoration, positive retention, FP and speed each require independent review. Heldout remains unopened throughout this design and development comparison.",
+  "input_sha256": [
+    {
+      "path": "datasets/tless_expanded/index.json",
+      "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819"
+    },
+    {
+      "path": "artifacts/public_datasets/tless_expanded_manifest.json",
+      "sha256": "b97154a31063e14043b91da95dc8d7ce93a42f9c42394e7e8edd7ae9d9e2108c"
+    },
+    {
+      "path": "artifacts/public_evaluation/obj8_geometry_actual_input.json",
+      "sha256": "34bccdd92b99929cd7250532c405084e2d96f7bc9f9ad7d73cc43fc46fe779a6"
+    },
+    {
+      "path": "artifacts/public_evaluation/build/build_manifest.json",
+      "sha256": "3e44035b138c1298fcab40d52d6b34c7d206c1076182601a9cce867f1b2004fe"
+    },
+    {
+      "path": "artifacts/public_evaluation/tless_eval.cpp",
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef"
+    },
+    {
+      "path": "artifacts/public_evaluation/eval_metrics.hpp",
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_train/training_config.json",
+      "sha256": "cfa902a1dcd0e419184914abcd1fb1677caf81a054365d1c6ca2870b813ca7e6"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_train/execution_provenance.json",
+      "sha256": "a5520a80ab45962535449efcf25125d2f293814e8e406fccf3176b3af1adb1e3"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_train/template_metadata.json",
+      "sha256": "f353b416ca55a1181f7ee56e810ca98cdab8742a120d6db609727c4e3b5704f0"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_train/template_attempts.csv",
+      "sha256": "364e59a2a7b0e9fced7fb7a1d0e8fafaf3a6535fd47fb88c34c1666214ca54d0"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_train/templates_tless_object_8.yml.gz",
+      "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_pilot/pilot_config.json",
+      "sha256": "ce1a7c9534ecf526273b23eadf53bf4d95ba3389fd5251fcb3802c410cb2eca9"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_pilot/execution_provenance.json",
+      "sha256": "ffeb5685eaf9baaf8c6c139b6417708e6b45b238e3afe0dcf40b6a52de285ed3"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_development/frozen_config.json",
+      "sha256": "14c74e74c0689dddd2de7c0c0710288f5fc9bb2cc3d79928317b4fe80f4823bc"
+    },
+    {
+      "path": "datasets/tless_expanded_obj8_f32_development/execution_provenance.json",
+      "sha256": "4f46fef021f54215654e82d31fbcff2c3198c4bc7928d16b446b008de1a8543d"
+    }
+  ],
+  "frame_schedule_sha256": "045ccd682e4cb17e458b364105a7cc52f2cb4d38154029f585f5606a59f2266e",
+  "preflight_plan_sha256": "b41df053f170231ad9e5821bf365e62769cc6ec00fe099bc77bc8a642d3dbd8c",
+  "artifact_scope": "Static protocol/planning only; no public frozen source changes, compilation, training, decoding or matching",
+  "design_correction": {
+    "prior_protocol_sha256": "dd9fc1ca0a89d30accb1f7e0a5410471584d94a07fa03d9784cf91a58a5eade8",
+    "reason": "Static actual-feature-inclusive validation found four coarse coordinate==dimension cases omitted by historical declared-extent fit flags; preserve historical630 and separately report new634; no image experiment or policy tuning occurred."
+  }
+}
