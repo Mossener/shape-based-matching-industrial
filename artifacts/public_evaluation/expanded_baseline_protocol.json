@@ -1,0 +1,128 @@
+{
+  "protocol_version": "expanded_actual85_baseline_v1",
+  "status": "prepared; matching not started",
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "dataset": "datasets/tless_expanded",
+  "index_schema": 2,
+  "development_objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "sealed_objects": [
+    25,
+    29
+  ],
+  "development_scenes": [
+    1,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13
+  ],
+  "sealed_scenes": [
+    11,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "excluded_tiny_scenes": [
+    2,
+    3,
+    5,
+    9
+  ],
+  "matching_unit": "one target object per independent run, all 400 development images; no joint scan",
+  "training_views_per_object": 72,
+  "features": 32,
+  "angles_degrees": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ],
+  "scales": [
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "pyramid_T": [
+    4,
+    8
+  ],
+  "gradient_thresholds": [
+    20,
+    40
+  ],
+  "matcher_threshold": 85,
+  "post_threshold": 85,
+  "nms_iou": 0.3,
+  "match_iou": 0.5,
+  "eligible_visibility": 0.5,
+  "pilot_selection": "first official image in index order in each development scene, 8 images per object, selected before matching",
+  "budget": {
+    "training_attempts_per_object": 3456,
+    "all_development_training_attempts": 20736,
+    "pilot_match_calls_per_object": 16,
+    "all_object_pilot_match_calls": 96,
+    "full_match_calls_per_object": 800,
+    "all_object_full_match_calls": 4800,
+    "wall_time_estimate": "not yet measured; estimate full runtime from authorized pilot before full execution"
+  },
+  "metrics": "allGT and visibility>=0.5 TP/FP/FN/GT/IGNORE, precision/recall/F1, mean TP IoU, negative-image FP, per-object/per-scene and object macro",
+  "equivalence": "fallback/fused exact candidate multiset including class, template identity, coordinates, float32 score and box; any mismatch exits 2",
+  "future_grid_policy": "Not executed by this baseline. Predeclare feature/matcher-threshold/NMS choices and cost before development-only comparison; maximize development micro-F1, ties higher precision then higher actual matcher threshold. Retain macro and per-object reports. Never select by sealed objects/scenes.",
+  "pilot_frames": [
+    {
+      "scene_id": 1,
+      "image_id": 1
+    },
+    {
+      "scene_id": 4,
+      "image_id": 0
+    },
+    {
+      "scene_id": 6,
+      "image_id": 2
+    },
+    {
+      "scene_id": 7,
+      "image_id": 3
+    },
+    {
+      "scene_id": 8,
+      "image_id": 1
+    },
+    {
+      "scene_id": 10,
+      "image_id": 5
+    },
+    {
+      "scene_id": 12,
+      "image_id": 2
+    },
+    {
+      "scene_id": 13,
+      "image_id": 2
+    }
+  ]
+}

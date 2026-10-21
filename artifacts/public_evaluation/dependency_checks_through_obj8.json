@@ -1,0 +1,118 @@
+{
+  "manifest": "dependency_integrity.json",
+  "checks": [
+    {
+      "checked_utc": "2026-10-21T11:04:13.523373+00:00",
+      "stage": "after_obj1_full_and_tiny_v11_actual85",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:17:56.302091+00:00",
+      "stage": "before_obj2_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:19:34.958657+00:00",
+      "stage": "after_obj2_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:21:31.310986+00:00",
+      "stage": "before_obj2_pilot",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:24:49.297324+00:00",
+      "stage": "before_obj2_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:40:18.946330+00:00",
+      "stage": "after_obj2_full_before_obj5_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:41:35.325810+00:00",
+      "stage": "after_obj5_train_before_obj5_pilot",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:51:34.119309+00:00",
+      "stage": "before_obj5_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:55:13.432519+00:00",
+      "stage": "after_obj5_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T11:58:23.766634+00:00",
+      "stage": "before_obj8_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:00:45.606826+00:00",
+      "stage": "after_obj8_train_before_obj8_pilot",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:03:25.948255+00:00",
+      "stage": "before_obj8_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:05:38.543432+00:00",
+      "stage": "after_obj8_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:08:12.566662+00:00",
+      "stage": "before_obj12_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    }
+  ],
+  "note": "Includes a later object12 training-only check; no object12 quality measurements are included in this version."
+}

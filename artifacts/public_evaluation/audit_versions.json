@@ -1,0 +1,7 @@
+{
+  "note": "Raw run outputs/provenance and the predeclared protocol remain unchanged. The independent audit script was parameterized from object1 to single development objects, added schema1 tiny support and hand-derived literal checks, and now embeds its own SHA. This is audit-only reprocessing, not rerunning matching or changing parameters.",
+  "pre_generic_pilot_report": "expanded_obj1_pilot_audit_pre_generic.json",
+  "pre_generic_report_sha256": "6122e6456eac0b3fc70449349d05e67a8e01876e9e5fcb975e0c19aff178d250",
+  "script_sha256_in_pre_full_request": "a80148adb2f7829e11fc8630b1d5fae500c885ce122b4d540f3c691be474f55e",
+  "current_script_sha256": "e83f85b5901098e9afc5559e0b88376d017b86d0457f2a24aed1158d00a2778c"
+}

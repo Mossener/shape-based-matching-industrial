@@ -1,0 +1,3 @@
+class_id,split,tp,fp,fn,gt,ignored,precision,recall,f1,matched_iou_sum,mean_tp_iou,negative_frames,negative_frames_with_fp,negative_fp
+tless_object_8,allGT,0,2,1,1,0,0,0,0,0,0,7,2,2
+tless_object_8,visibility_ge_0_5,0,2,1,1,0,0,0,0,0,0,7,2,2

@@ -1,0 +1,3 @@
+scene,image,rank,class_id,score,template_id,bbox_x,bbox_y,bbox_w,bbox_h,allGT_label,allGT_id,eligible_label,eligibleGT_id
+12,2,0,tless_object_8,85.2941,3367,527,39,164,262,FP,-1,FP,-1
+13,2,0,tless_object_8,86.0294,3367,527,39,164,262,FP,-1,FP,-1

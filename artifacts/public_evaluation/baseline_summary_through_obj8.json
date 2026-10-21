@@ -1,0 +1,154 @@
+{
+  "status": "fixed actual85 development baseline through objects1/2/5/8; no accuracy improvement claim",
+  "objects_completed": [
+    1,
+    2,
+    5,
+    8
+  ],
+  "objects_not_quality_evaluated": [
+    12,
+    17
+  ],
+  "dataset_images_per_object": 400,
+  "independent_object_frame_evaluations": 1600,
+  "matcher_calls": 3200,
+  "per_object": [
+    {
+      "object_id": 1,
+      "tp": 37,
+      "fp": 7842,
+      "fn": 13,
+      "gt": 50,
+      "ignored": 0,
+      "precision": 0.004696027414646529,
+      "recall": 0.74,
+      "f1": 0.00933282885609787,
+      "matched_iou_sum": 26.20987420176928,
+      "mean_tp_iou": 0.7083749784261968,
+      "negative_frames": 350,
+      "negative_fp": 6874,
+      "raw_rows_per_variant": 78600,
+      "exact_equality_frames": 400,
+      "timing": {
+        "fallback": {
+          "mean_ms": 41.147578,
+          "min_ms": 16.2564,
+          "max_ms": 104.2902
+        },
+        "fused": {
+          "mean_ms": 38.54904675,
+          "min_ms": 16.1653,
+          "max_ms": 103.0528
+        }
+      }
+    },
+    {
+      "object_id": 2,
+      "tp": 69,
+      "fp": 10978,
+      "fn": 81,
+      "gt": 150,
+      "ignored": 0,
+      "precision": 0.006246039648773422,
+      "recall": 0.46,
+      "f1": 0.012324729838349558,
+      "matched_iou_sum": 49.36634977134345,
+      "mean_tp_iou": 0.7154543445122239,
+      "negative_frames": 300,
+      "negative_fp": 7511,
+      "raw_rows_per_variant": 74575,
+      "exact_equality_frames": 400,
+      "timing": {
+        "fallback": {
+          "mean_ms": 46.32929175,
+          "min_ms": 17.9243,
+          "max_ms": 122.5801
+        },
+        "fused": {
+          "mean_ms": 42.269648,
+          "min_ms": 16.8504,
+          "max_ms": 111.8597
+        }
+      }
+    },
+    {
+      "object_id": 5,
+      "tp": 22,
+      "fp": 2196,
+      "fn": 28,
+      "gt": 50,
+      "ignored": 0,
+      "precision": 0.009918845807033363,
+      "recall": 0.44,
+      "f1": 0.019400352733686066,
+      "matched_iou_sum": 15.36351586301605,
+      "mean_tp_iou": 0.6983416301370932,
+      "negative_frames": 350,
+      "negative_fp": 1965,
+      "raw_rows_per_variant": 8417,
+      "exact_equality_frames": 400,
+      "timing": {
+        "fallback": {
+          "mean_ms": 35.44682125,
+          "min_ms": 12.0636,
+          "max_ms": 95.668
+        },
+        "fused": {
+          "mean_ms": 33.716024,
+          "min_ms": 12.7851,
+          "max_ms": 94.7078
+        }
+      }
+    },
+    {
+      "object_id": 8,
+      "tp": 1,
+      "fp": 68,
+      "fn": 49,
+      "gt": 50,
+      "ignored": 0,
+      "precision": 0.014492753623188406,
+      "recall": 0.02,
+      "f1": 0.01680672268907563,
+      "matched_iou_sum": 0.6585365853658537,
+      "mean_tp_iou": 0.6585365853658537,
+      "negative_frames": 350,
+      "negative_fp": 63,
+      "raw_rows_per_variant": 93,
+      "exact_equality_frames": 400,
+      "timing": {
+        "fallback": {
+          "mean_ms": 19.69956075,
+          "min_ms": 10.1824,
+          "max_ms": 53.2547
+        },
+        "fused": {
+          "mean_ms": 19.913372,
+          "min_ms": 10.1491,
+          "max_ms": 53.4267
+        }
+      }
+    }
+  ],
+  "allGT_micro": {
+    "tp": 129,
+    "fp": 21084,
+    "fn": 171,
+    "gt": 300,
+    "matched_iou_sum": 91.59827642149463,
+    "precision": 0.0060811766369678975,
+    "recall": 0.43,
+    "f1": 0.011992748570631711,
+    "mean_tp_iou": 0.71006415830616
+  },
+  "object_macro": {
+    "precision": 0.00883841662341043,
+    "recall": 0.415,
+    "f1": 0.01446615852930228
+  },
+  "object8_invalid_declared_template_levels": 630,
+  "object8_geometry_note": "630 of6912 templatelevels invalid at fixed848x672, all at scale2; retained unchanged, not patched or discarded. Includes402 actual featuremax+1 exceeding a level. Exact candidate equality is regression evidence and not correctness/accuracy proof.",
+  "heldout_rgb_decoded_or_matched": false,
+  "object25_29_trained_or_matched": false
+}

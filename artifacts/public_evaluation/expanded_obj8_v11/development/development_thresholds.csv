@@ -1,0 +1,2 @@
+post_threshold,nms_iou,tp,fp,fn,gt,precision,recall,f1
+85,0.3,1,68,49,50,0.0144928,0.02,0.0168067

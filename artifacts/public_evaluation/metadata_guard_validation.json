@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-21T10:55:02.574021+00:00",
+  "metadata_only_dataset": "datasets/tless_schema2_metadata_guard",
+  "dataset_members": [
+    "index.json"
+  ],
+  "all_rgb_files_absent": true,
+  "heldout_paths_intentionally_missing": true,
+  "inspect_exit": 0,
+  "inspect_csv_lines_including_header": 833,
+  "schema2_alias_test_exit": 0,
+  "schema2_alias_test_output": "PASS schema2 heldout alias: 400 development / 400 heldout / 72 object1 training; no RGB opened",
+  "matcher_calls": 0,
+  "source_sha256": {
+    "artifacts/public_evaluation/metadata_guard_test.cpp": "a6764a715279cb15f3eeb774e5976c5e92dede23ae62ac090aada953ff295e3e",
+    "artifacts/public_evaluation/tless_eval.cpp": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef"
+  },
+  "executable_sha256": "440f98d96a28037d435950323d2e22c24b3b11e76ed7c65fa3d3f59d107050ac",
+  "clarification": "Integrity verification reads original heldout bytes and PNG headers. This alias/inspect test does not decode or match any RGB."
+}

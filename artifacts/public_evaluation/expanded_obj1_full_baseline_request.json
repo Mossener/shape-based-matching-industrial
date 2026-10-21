@@ -1,0 +1,29 @@
+{
+  "prepared_at": "2026-10-21T18:56:43.145551+08:00",
+  "output": "datasets/tless_expanded_obj1_f32_development",
+  "mode": "develop",
+  "objects": [
+    1
+  ],
+  "development_frames": 400,
+  "match_calls": 800,
+  "matcher_threshold": 85,
+  "post_threshold": 85,
+  "nms_iou": 0.3,
+  "match_iou": 0.5,
+  "input_sha256": {
+    "artifacts/public_evaluation/tless_eval.cpp": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+    "artifacts/public_evaluation/eval_metrics.hpp": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+    "artifacts/public_evaluation/build.ps1": "724160300b935fc633cf708acde8904399fd7ea4a932b3ee5c0d6d2005fd3fa4",
+    "artifacts/public_evaluation/run.ps1": "cae7dc8751049318cc741645f81338c150599c603a73af6e4f5be4a9bf31267c",
+    "artifacts/public_evaluation/expanded_baseline_protocol.json": "9214ef48792069938f53f1941f0191a1d9b66a2f2033c1ea12d2499c69d476e3",
+    "artifacts/public_evaluation/build/tless_eval.exe": "e9df27dbb815d281c3027018093307fece61b9acececbc75293bfa4f7b01efa6",
+    "artifacts/public_evaluation/build/build_manifest.json": "3e44035b138c1298fcab40d52d6b34c7d206c1076182601a9cce867f1b2004fe",
+    "artifacts/public_evaluation/audit_expanded_pilot.py": "a80148adb2f7829e11fc8630b1d5fae500c885ce122b4d540f3c691be474f55e",
+    "datasets/tless_expanded_obj1_f32_train/training_config.json": "db86c59f87066c3779e061e702268c2aae1313caab9dcbdcb6a2cc0885de3840",
+    "datasets/tless_expanded_obj1_f32_train/template_metadata.json": "c57c0f22b8f908198f0bc2d11634d0dbbac8c71627fde8b5bb96647cd860d069",
+    "datasets/tless_expanded_obj1_f32_train/templates_tless_object_1.yml.gz": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e"
+  },
+  "pilot_matcher_only_runtime_extrapolation_seconds": 32.56676,
+  "warning": "Fixed protocol baseline, no parameter tuning; heldout/object25/29 not run. Pilot cost extrapolation excludes integrity audit, archive writes/reporting."
+}

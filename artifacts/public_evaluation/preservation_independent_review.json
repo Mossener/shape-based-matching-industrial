@@ -1,0 +1,200 @@
+{
+  "script_sha256": "636a73ae8140fe04c941281b20d8bd0533f6f62aef1dba99cc8b78f8d57a8511",
+  "existing_package_checks": [
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/tiny_v11_actual85/development/preservation_manifest.json",
+      "manifest_sha256": "8345aec126e4a223306c1e08d4554b1b9ee69e0b2d510faef06bd299bc694b92",
+      "object_id": 1,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 1234154,
+      "raw_archives": 32,
+      "tar_members": 64,
+      "tar_member_bytes": 144113,
+      "tar_sha256": "832f3b14aa14ace909cd38beabe2a998eb29ff5a37ebca9dad6d52529be0dfa3"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj1_v11/development/preservation_manifest.json",
+      "manifest_sha256": "0d7579b2c1a465941942337d71b3b783810dfe9a8931208626a3fefc7ab1a850",
+      "object_id": 1,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 4208305,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 3610985,
+      "tar_sha256": "f713bc761b3e2112b1669be47b8dd1b006d4a8cde60381e6ca3a243d5926e6c6"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj1_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "424b5f73c149137ee6809b98965ee9b0571ba286fa56ee653210045a2f767f44",
+      "object_id": 1,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 819390,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 93984,
+      "tar_sha256": "c0414deaf63b6b5660e1d21f2438e3028e8a41931c9d7d89e634c3580fac2dfb"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj2_v11/development/preservation_manifest.json",
+      "manifest_sha256": "b9eb24da4bd654ea9b3fa2ef243b5257fc5cf73e898c81b2154b7c43ecff9341",
+      "object_id": 2,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 4459337,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 3647929,
+      "tar_sha256": "423d571aaccffee54a1a5448ad153c529ded0e7671b32586ed8ef9f94877cab4"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj2_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "f5c81ae257784c695db9c9d094c63be316fa0289835aad8a6bbe55696d02a640",
+      "object_id": 2,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 1064604,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 159136,
+      "tar_sha256": "0ec307c79ace89f506fe3f13142ab84367692c004f89389dbbdfd2beacc67c91"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj5_v11/development/preservation_manifest.json",
+      "manifest_sha256": "9d8a053bb3d3ab3f1914cee352c96f19f5ae47f88fd28631a81682cd9a934dc6",
+      "object_id": 5,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 1834803,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 901686,
+      "tar_sha256": "adb793a6b1e9a2ac8c4d3e5924dc55f211b2ba3ad84e9f5bc9ee62d6ee24a4ed"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj5_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "6ca2e52f123ee439a255e718fe73d9087998e5dd58992aa5dca613bcba4bf329",
+      "object_id": 5,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 1107983,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 13171,
+      "tar_sha256": "72487243689a80e192df5e0c47bc1133123e0bb7a47709684e441f82ed89928b"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj8_v11/development/preservation_manifest.json",
+      "manifest_sha256": "716f660c29b40793c968fc74f90df4ef4a501332b5e6edb93af69a83e8dde505",
+      "object_id": 8,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 1255849,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 526510,
+      "tar_sha256": "29b842cbed983033a41aa089fe9fdf146648d52a8d068d8d44baf1492aafa61a"
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj8_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "fc07eac70f2539a2682967976580cffb1653020d985b32a68a535016df75477b",
+      "object_id": 8,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 1183170,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 10474,
+      "tar_sha256": "c6d027b00caa2308d183975c6bbacb028563e68c0d95b287857b52e02112fe7c"
+    }
+  ],
+  "actual_raw_pair_checks": [
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/tiny_v11_actual85/development/preservation_manifest.json",
+      "csv": 32,
+      "manifests": 32,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj1_v11/development/preservation_manifest.json",
+      "csv": 800,
+      "manifests": 800,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj1_v11/pilot/preservation_manifest.json",
+      "csv": 16,
+      "manifests": 16,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj2_v11/development/preservation_manifest.json",
+      "csv": 800,
+      "manifests": 800,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj2_v11/pilot/preservation_manifest.json",
+      "csv": 16,
+      "manifests": 16,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj5_v11/development/preservation_manifest.json",
+      "csv": 800,
+      "manifests": 800,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj5_v11/pilot/preservation_manifest.json",
+      "csv": 16,
+      "manifests": 16,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj8_v11/development/preservation_manifest.json",
+      "csv": 800,
+      "manifests": 800,
+      "bidirectionally_paired": true
+    },
+    {
+      "manifest": "D:/h/shape_based_matching-master/artifacts/public_evaluation/expanded_obj8_v11/pilot/preservation_manifest.json",
+      "csv": 16,
+      "manifests": 16,
+      "bidirectionally_paired": true
+    }
+  ],
+  "self_test": {
+    "green_fixture_checks": 2,
+    "rejected_mutations": [
+      "copy_sha",
+      "source_sha",
+      "copy_size",
+      "parent_path",
+      "outside_package",
+      "duplicate_copy",
+      "raw_count",
+      "missing_tar_member",
+      "duplicate_tar_member",
+      "unexpected_tar_member",
+      "member_sha",
+      "member_bytes",
+      "duplicate_expected",
+      "unsafe_tar_name"
+    ],
+    "original_or_derived_images_opened": 0
+  },
+  "source_snapshot": {
+    "archive_sha256": "a9e71ee8725a612e978cf6e75c013f1181c977a61956c03a6e26d87bc078ba2e",
+    "members": 29,
+    "committed_core_and_mipp_members_byte_equal_to_git": 23
+  },
+  "finding": {
+    "orphan_manifest_only_fixture_accepted": true,
+    "scope": "Generic pair completeness omission; actual 9 published packages have exact bidirectional CSV/manifest pairs"
+  },
+  "dataset_image_reads": 0,
+  "original_dataset_paths_opened": 0
+}

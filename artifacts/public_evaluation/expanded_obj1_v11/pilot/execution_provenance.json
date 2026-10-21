@@ -1,0 +1,144 @@
+﻿{
+    "mode":  "pilot",
+    "input_sha256":  {
+                         "datasets\\tless_expanded\\index.json":  "04D99FEB07D0355A83F52CE8567C77E68DBC329F7393CC2AD694AF69D4F82819",
+                         "artifacts/public_datasets/tless_expanded_manifest.json":  "B97154A31063E14043B91DA95DC8D7CE93A42F9C42394E7E8EDD7AE9D9E2108C",
+                         "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\build_manifest.json":  "3E44035B138C1298FCAB40D52D6B34C7D206C1076182601A9CCE867F1B2004FE",
+                         "datasets\\tless_expanded_obj1_f32_train\\training_config.json":  "DB86C59F87066C3779E061E702268C2AAE1313CAAB9DCBDCB6A2CC0885DE3840",
+                         "datasets\\tless_expanded_obj1_f32_train\\template_metadata.json":  "C57C0F22B8F908198F0BC2D11634D0DBBAC8C71627FDE8B5BB96647CD860D069",
+                         "datasets\\tless_expanded_obj1_f32_train\\templates_tless_object_1.yml.gz":  "E717461BA75E10A2A281EA6A6BBF7E12E11CD4A8B691D896D8062439E70B173E"
+                     },
+    "build_manifest":  {
+                           "compiled_at":  "2026-10-21T18:05:48.6234343+08:00",
+                           "core_git_revision":  "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+                           "executable_sha256":  "E9DF27DBB815D281C3027018093307FECE61B9ACECECBC75293BFA4F7B01EFA6",
+                           "compiler":  "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+                           "flags":  [
+                                         "-std=c++17",
+                                         "-O3",
+                                         "-mssse3",
+                                         "-msse4.1",
+                                         "-fopenmp",
+                                         "-Wall",
+                                         "-Wno-sign-compare",
+                                         "-ID:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf",
+                                         "-IMIPP",
+                                         "-ID:\\opencv-4.12.0/build",
+                                         "-ID:\\opencv-4.12.0/modules/core/include",
+                                         "-ID:\\opencv-4.12.0/modules/imgproc/include",
+                                         "-ID:\\opencv-4.12.0/modules/highgui/include",
+                                         "-ID:\\opencv-4.12.0/modules/imgcodecs/include",
+                                         "-ID:\\opencv-4.12.0/modules/videoio/include"
+                                     ],
+                           "source_sha256":  {
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup.cpp":  "85B5EB328A3B5CAE3E161561E261833873D25A9F57C7457C4410DD21E52083AB",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup.h":  "C3A8F742FC897BDCFA83A82A9A025E6B304F410BC081C321695F5E6F7F461FC0",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup_local.hpp":  "1B29137FA481B7C1B5F9C210A2D948AEF21FC24219AD43FB59E5DF91BBE96001",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup_matches.hpp":  "80C8D1EE482307A0472A46D7A1E4DA868154F2F893FCDC32D53B9BE8F35C0344",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup_response.hpp":  "33075CFD694488C1B1CB46F8BB821131ED64202F50B5557E4468EEA8C0E871A9",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup_search.hpp":  "5A92C1C55BB9A2529307C825859136244E2E8EE40B5BDE3CA029248D28B8220A",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\core_source_b25df46f6ddf\\line2Dup_spread.hpp":  "FE821B7C9ECA784817FAC78334020ED34630CC2426254CDE9DF830DB9C524C5E",
+                                                 "MIPP/mipp.h":  "7A8C742A19A0797B3340F27E92E6D402669AA7BBC2075D2715D99EBC62202D42",
+                                                 "artifacts/public_evaluation/tless_eval.cpp":  "C9E4016D1CD7AD6CE37D49BC04F49F1F3D496573A0047A9D1B8DA951EB7204EF",
+                                                 "artifacts/public_evaluation/eval_metrics.hpp":  "1339092B5FBF2F5283DCED01FC0B74EEA467074223943D8248B89B6E48249DE3",
+                                                 "artifacts/public_evaluation/build.ps1":  "724160300B935FC633CF708ACDE8904399FD7EA4A932B3EE5C0D6D2005FD3FA4"
+                                             }
+                       },
+    "started_at":  "2026-10-21T18:42:23.7701451+08:00",
+    "raw_archives":  [
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s10_i5_fallback_raw.csv.gz",
+                             "sha256":  "F82380AD67DE5582BE76AF539580AA1BEFAFD3F1C938B6EE08106D01F9E36F3C",
+                             "bytes":  663
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s10_i5_fused_raw.csv.gz",
+                             "sha256":  "92CF71CF48F7B510A15D7E8EC4979E180953AB99548D5257BB63889F07D1A4A0",
+                             "bytes":  659
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s12_i2_fallback_raw.csv.gz",
+                             "sha256":  "1C1E90D98D20F1DFE0C356428050BA9F6FF4774DC3649C3721A5231ABD397B96",
+                             "bytes":  16027
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s12_i2_fused_raw.csv.gz",
+                             "sha256":  "3485B1BE48635412022B31079BBB4992AF2F1C628E9C98C6DE88A25A54FFDC8A",
+                             "bytes":  15978
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s13_i2_fallback_raw.csv.gz",
+                             "sha256":  "5B540858BE65D6E5D44CC7ED1ACE846DDEAA9A1BC4C2BEDEE0B911A446310F6A",
+                             "bytes":  541
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s13_i2_fused_raw.csv.gz",
+                             "sha256":  "F1FD000EA99BF67A7589F65CBF1B7E5B05A16A9D108767568D107F00797884CD",
+                             "bytes":  535
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s1_i1_fallback_raw.csv.gz",
+                             "sha256":  "83A68B9D0E4E460A0D5EB95A9372AB9871A169BF4E5D0906271D24FE858C9F0F",
+                             "bytes":  1240
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s1_i1_fused_raw.csv.gz",
+                             "sha256":  "0A89EDD4675BFDB60714A6478B93576BC2853F142C3FABCB011990CBD1785A29",
+                             "bytes":  1235
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s4_i0_fallback_raw.csv.gz",
+                             "sha256":  "BCDF423FAA3DDE0BAD12E9D5A79A34EDF40277BBD4DC278EFEF905E5FBEE73F0",
+                             "bytes":  5077
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s4_i0_fused_raw.csv.gz",
+                             "sha256":  "DE96F4DB1C5ED775D632A94FAEC47AE52382E8D2A694D6BA765430E1462D3936",
+                             "bytes":  5060
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s6_i2_fallback_raw.csv.gz",
+                             "sha256":  "3EEEEE755A6445672B4888C03C076A766076F3B6EFDAC233877641C8B90A42D9",
+                             "bytes":  4236
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s6_i2_fused_raw.csv.gz",
+                             "sha256":  "1CF761E47756D125AA3D18F619632FFE3D3BAD8786B6E991EFE5FF6A68F1F552",
+                             "bytes":  4220
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s7_i3_fallback_raw.csv.gz",
+                             "sha256":  "B2969229A1B1CED53607AB543AAB1C2A6BCACA8C15349A26871718958BFB8361",
+                             "bytes":  14351
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s7_i3_fused_raw.csv.gz",
+                             "sha256":  "178AC8C1807EA0A89D8754739BA8CCFA4B0FE38E109DC9CB87394EE1536C35C3",
+                             "bytes":  14290
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s8_i1_fallback_raw.csv.gz",
+                             "sha256":  "E482B6F2F711182E773CCE9546A96E6296FB2387FE44142BAD8C79DCA39517C3",
+                             "bytes":  630
+                         },
+                         {
+                             "path":  "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded_obj1_f32_pilot\\s8_i1_fused_raw.csv.gz",
+                             "sha256":  "E9BC617BB03E7CC1EBCD83DA20D029C167288673103D4D5D28667A607416D8E5",
+                             "bytes":  624
+                         }
+                     ],
+    "argv":  [
+                 "--mode",
+                 "pilot",
+                 "--dataset",
+                 "datasets/tless_expanded",
+                 "--output",
+                 "datasets/tless_expanded_obj1_f32_pilot",
+                 "--trained",
+                 "datasets/tless_expanded_obj1_f32_train"
+             ],
+    "finished_at":  "2026-10-21T18:42:30.7102287+08:00",
+    "exit_code":  0,
+    "opencv_threads":  1,
+    "openmp_threads":  4
+}
