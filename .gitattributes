@@ -1,0 +1,3 @@
+# Preserve the exact bytes covered by the immutable SHA-256 manifest.
+artifacts/response_optimization/baseline/*.cpp -text
+artifacts/response_optimization/baseline/*.h -text
