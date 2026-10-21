@@ -1,0 +1,47 @@
+{
+  "input_closure_sha256": "1ca5d92184f970f159bcd6e0879c1bbd757a21408ec7a5844cab35e02669a33e",
+  "protocol_sha256": "88a7476c6b947917978034545cd670a90b8fcc074adf4e4690429e2ebbf3c8c5",
+  "build_manifest_sha256": "78de8f0bff775ffdcb6853698058903fd0d2bc5d3f49bea31b376c455a040fd1",
+  "executable_sha256": "9c8089004a6dd5a755f44c0859e9f53dad69074b7ed529ef86bbc476c847a72d",
+  "commands": [
+    {
+      "label": "core_dependency_before",
+      "exit_code": 0
+    },
+    {
+      "label": "core_compile",
+      "exit_code": 0
+    },
+    {
+      "label": "adapter_dependency_before",
+      "exit_code": 0
+    },
+    {
+      "label": "adapter_compile",
+      "exit_code": 0
+    },
+    {
+      "label": "link",
+      "exit_code": 0
+    }
+  ],
+  "dependencies": [
+    {
+      "target": "core.o",
+      "ordered_occurrences": 402,
+      "unique_files": 399,
+      "pre_and_actual_raw_depfile_bytes_equal": true
+    },
+    {
+      "target": "adapter.o",
+      "ordered_occurrences": 513,
+      "unique_files": 506,
+      "pre_and_actual_raw_depfile_bytes_equal": true
+    }
+  ],
+  "compiler_tools_and_link_libraries": 8,
+  "compiler_runtime_files": 18,
+  "executable_runtime_files": 8,
+  "image_files_opened": 0,
+  "matcher_calls": 0
+}

@@ -39,3 +39,8 @@ artifacts/independent_reviews/capacity_dp/** -text whitespace=cr-at-eol
 artifacts/local_center_optimization/v11_candidate_experiment/baseline/** -whitespace
 artifacts/local_center_optimization/v11_candidate_experiment/candidate/** -whitespace
 artifacts/local_center_optimization/v11_candidate_experiment/candidate.patch -whitespace
+artifacts/silhouette_template_experiment/** -text whitespace=cr-at-eol
+artifacts/silhouette_template_experiment/private_v11/** -whitespace
+artifacts/silhouette_template_experiment/frozen_helpers/** -whitespace
+artifacts/silhouette_template_experiment/**/source_private_v11/** -whitespace
+artifacts/independent_reviews/silhouette_training_v1/** -text whitespace=cr-at-eol

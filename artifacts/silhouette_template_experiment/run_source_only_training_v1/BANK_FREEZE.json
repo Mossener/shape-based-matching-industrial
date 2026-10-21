@@ -1,0 +1,209 @@
+{
+  "stage": "all_six_source_only_training",
+  "native_exit_zero": false,
+  "comparison_feasible": false,
+  "training_attempts_complete": true,
+  "summary": {
+    "objects": [
+      {
+        "object_id": 1,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1"
+      },
+      {
+        "object_id": 2,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2"
+      },
+      {
+        "object_id": 5,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5"
+      },
+      {
+        "object_id": 8,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8"
+      },
+      {
+        "object_id": 12,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12"
+      },
+      {
+        "object_id": 17,
+        "attempts": 3456,
+        "successful_templates": 0,
+        "opencv_exception_attempts": 0,
+        "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17"
+      }
+    ],
+    "attempts": 20736,
+    "zero_success_objects": 6,
+    "opencv_exception_attempts": 0,
+    "training_attempts_complete": 1,
+    "comparison_feasible": 0,
+    "incomplete_comparison": 1,
+    "matcher_calls": 0,
+    "peak_rss_bytes": 56287232.0
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\failure.json",
+      "sha256": "771ed5c6749821df6e484889f2a61225fa3af1794af0783856650d28c77b3947",
+      "bytes": 217
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1\\template_attempts.csv",
+      "sha256": "909b2d4e605909b0026ab5a7f80632e6f16497c8b991bdd68e6a76d15fb0bdc7",
+      "bytes": 322056
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1\\training_config.json",
+      "sha256": "12a8219ca012bb1fa3a5d106eb6018fd5a68b92bde37c0316619d815a04f4864",
+      "bytes": 1405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12\\template_attempts.csv",
+      "sha256": "e1d52657105e8653a72d13da8e992d4b74860b1baa22db08032f31a6b00c3b31",
+      "bytes": 332926
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12\\training_config.json",
+      "sha256": "48b2c900ded45557322c56a37245d1a935ab3a79e08051ca6fd7916f236421d8",
+      "bytes": 1406
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17\\template_attempts.csv",
+      "sha256": "1db40270c40a051ce0e2432388b933d245b8e0a52cfb148d6703f0404826cfd9",
+      "bytes": 334978
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17\\training_config.json",
+      "sha256": "70517498997f1abee1277ae146442dd920d7b88872ada0af152d0f273b9d6f92",
+      "bytes": 1406
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2\\template_attempts.csv",
+      "sha256": "0204b71e01e3f26aa9191a76cc51c7397611e1267aa362ab93dfe4c8aa251e59",
+      "bytes": 323636
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2\\training_config.json",
+      "sha256": "f2784b9ef4b4fa78af725d3bfc051b416077f697f49ac16cc17e149ac3d4d09f",
+      "bytes": 1405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5\\template_attempts.csv",
+      "sha256": "ba7a37b4fe08b297782db2907dc3a8dcfd42a04d71757be66f2ae9f9f41c702a",
+      "bytes": 331294
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5\\training_config.json",
+      "sha256": "d7be594bea79a6a7e4cb6d161e6c9ec92759e90c3194e8b5e0b52702f585992c",
+      "bytes": 1405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8\\attempt_errors.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8\\template_attempts.csv",
+      "sha256": "21297475b5e33ea83cffd9be4039406f9ba736b51283362abcbe64d692276a47",
+      "bytes": 328784
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8\\template_metadata.json",
+      "sha256": "b3f67da6bbfbae6aaddbe85b014c5739427ea5b381a06a5deb275e7255f446dc",
+      "bytes": 33
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8\\training_config.json",
+      "sha256": "af72b92988839c3d2bab7ab8f40768cdd2004c07f6dee18537f9ccb089002ac0",
+      "bytes": 1405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\training_summary.json",
+      "sha256": "37ea7aebfc29daef3f15167224b8960bc3be54be6cf2536022aac368aa214575",
+      "bytes": 2191
+    }
+  ],
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\build_adapter_v2\\build_manifest.json",
+    "sha256": "78de8f0bff775ffdcb6853698058903fd0d2bc5d3f49bea31b376c455a040fd1",
+    "bytes": 255233
+  },
+  "input_closure": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\INPUT_CLOSURE.json",
+    "sha256": "1ca5d92184f970f159bcd6e0879c1bbd757a21408ec7a5844cab35e02669a33e",
+    "bytes": 352327
+  },
+  "protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\PROTOCOL.json",
+    "sha256": "88a7476c6b947917978034545cd670a90b8fcc074adf4e4690429e2ebbf3c8c5",
+    "bytes": 6845
+  },
+  "matcher_calls": 0,
+  "missing_objects_or_poses_are_not_negatives": true
+}

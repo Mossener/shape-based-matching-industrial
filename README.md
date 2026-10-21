@@ -115,6 +115,8 @@ V17 对六目标的既有数值结果分解漏检，两套独立算法在2400个
 
 V18 单独测试16项局部中心缓存，3985次正确性调用中的2880次完整有序比较，以及1350次计时调用的比较均通过，输出与冻结V11一致。LED八图的搜索中位数等权平均从25.041降到13.461 ms，内部完整调用从36.862降到25.714 ms；tiny十六图则从26.734增到27.637 ms。全部25图的完整调用配对比值中位数为0.9991，尚无普遍收益，因此缓存只保留在私有实验中，没有改为默认；[结果、全部退步样本与独立复算](artifacts/local_center_optimization/v11_candidate_experiment/RESULT.md)一并归档。
 
+V19 检验直接使用二值轮廓作为训练图、保留原特征掩膜的方案。六目标共20,736个固定姿态全部因特征不足而未生成模板，独立数值审计核对了所有姿态、几何和失败记录。因此本轮没有可用的新模板库，也没有准确率或速度收益；[实验结果](artifacts/silhouette_template_experiment/RESULTS.md)与[独立验证](artifacts/independent_reviews/silhouette_training_v1/README.md)完整保留，后续特征掩膜实验单独进行。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

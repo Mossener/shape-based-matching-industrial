@@ -1,0 +1,6 @@
+{
+    "incomplete": 1,
+    "mode": "train",
+    "reason": "At least one silhouette bank has zero successful templates; all attempts preserved, comparison incomplete",
+    "missing_frames_are_not_negatives": 1
+}

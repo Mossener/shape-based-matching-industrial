@@ -1,0 +1,31 @@
+[
+  {
+    "label": "core_dependency_before",
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+      "-std=c++17",
+      "-O3",
+      "-mssse3",
+      "-msse4.1",
+      "-fopenmp",
+      "-Wall",
+      "-Wextra",
+      "-Wno-sign-compare",
+      "-Wno-unused-function",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11\\MIPP",
+      "-ID:\\opencv-4.12.0\\build",
+      "-ID:\\opencv-4.12.0\\modules\\core\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgproc\\include",
+      "-ID:\\opencv-4.12.0\\modules\\highgui\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgcodecs\\include",
+      "-ID:\\opencv-4.12.0\\modules\\videoio\\include",
+      "-M",
+      "-MT",
+      "core.o",
+      "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11\\line2Dup.cpp"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\build_adapter_v1",
+    "exit_code": 0
+  }
+]

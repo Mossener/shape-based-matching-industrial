@@ -1,0 +1,136 @@
+{
+  "git_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "file_count": 23,
+  "files": {
+    "line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "MIPP/math/avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "MIPP/math/avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "MIPP/math/avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "MIPP/math/avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "MIPP/math/neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "MIPP/math/neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "MIPP/math/sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "MIPP/math/sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "MIPP/mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "MIPP/mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "MIPP/mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "MIPP/mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "MIPP/mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "MIPP/mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "MIPP/mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "MIPP/mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    }
+  },
+  "helpers": {
+    "tless_eval.cpp": {
+      "source": "artifacts/public_evaluation/tless_eval.cpp",
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    "eval_metrics.hpp": {
+      "source": "artifacts/public_evaluation/eval_metrics.hpp",
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    "padding_plan.hpp": {
+      "source": "artifacts/obj8_padding_experiment/padding_plan.hpp",
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    }
+  },
+  "private_sha256": "dd99f52bfca20c3241cdd75df5fb006ce22e0cfb0fbb4d5e8f6e826d133684a1",
+  "core_translation_unit": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11\\line2Dup.cpp",
+  "compile_flags": [
+    "-std=c++17",
+    "-O3",
+    "-mssse3",
+    "-msse4.1",
+    "-fopenmp",
+    "-Wall",
+    "-Wextra",
+    "-Wno-sign-compare",
+    "-Wno-unused-function",
+    "-ID:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11",
+    "-ID:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\private_v11\\MIPP"
+  ],
+  "adapter_include": "frozen_helpers/tless_eval.cpp",
+  "source_policy": "Compile actual private Git bytes and private transitive MIPP; never compile or include mutable root core",
+  "image_files_opened": 0,
+  "matcher_calls": 0,
+  "passed": true,
+  "image_decodes": 0
+}

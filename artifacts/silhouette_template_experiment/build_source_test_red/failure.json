@@ -1,0 +1,10 @@
+{
+  "incomplete": true,
+  "stage": "compiler invocation wrapper",
+  "powershell_exit_code": 1,
+  "compiler_exit_code_observed": null,
+  "reason": "Windows PowerShell 5 ErrorActionPreference=Stop converted inherited native stderr warning into terminating NativeCommandError. Child compiler was observed afterward and fully exited before second build. This is not semantic RED.",
+  "source_snapshot_reconstructed_and_sha_verified": true,
+  "image_files_opened": 0,
+  "matcher_calls": 0
+}

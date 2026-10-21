@@ -1,0 +1,45 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\build_adapter_v2\\silhouette_eval.exe",
+    "--mode",
+    "train",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native",
+    "--closure",
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\INPUT_CLOSURE.json"
+  ],
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\build_adapter_v2\\build_manifest.json",
+    "sha256": "78de8f0bff775ffdcb6853698058903fd0d2bc5d3f49bea31b376c455a040fd1",
+    "bytes": 255233
+  },
+  "input_closure": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\INPUT_CLOSURE.json",
+    "sha256": "1ca5d92184f970f159bcd6e0879c1bbd757a21408ec7a5844cab35e02669a33e",
+    "bytes": 352327
+  },
+  "native_exit_code": 1,
+  "mode": "train",
+  "training_run": null,
+  "script_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_stage.py",
+      "sha256": "05e5b25b55f17d91e8f9752dee14ef0edd9704280121f17ce753453dead650b5",
+      "bytes": 7621
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\prepare_input_closure.py",
+      "sha256": "9cf76c54176ddb2741fc5732d90118c21f9dedeed456573bb116c0f0402d7df3",
+      "bytes": 14492
+    }
+  ],
+  "runtime_path_prefix": [
+    "F:\\mysys2\\ucrt64\\bin",
+    "D:\\opencv-4.12.0\\build\\bin"
+  ]
+}

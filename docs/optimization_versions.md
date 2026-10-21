@@ -156,4 +156,12 @@
 - root重跑实际compiler/runtime/source/build/exe/gate/CSV闭包汇总，并另用不导入汇总器的脚本核对原始配对、绝对中位数、全部比值、全图中位/几何平均和回退列表。成功CSV仅记录native完整比较通过，不重复保存每次候选；独立数字审计也不冒称从CSV复原所有输出内容。
 - 缓存对LED有效但有公开样本回退，因此保留私有实验及全部退步，不默认推广，不按对象/图片身份开关或拟合容量。无准确率/内存收益声明，留出和保留对象继续封存。源码、协议、构建/执行来源、原始数据与限制见 `artifacts/local_center_optimization/v11_candidate_experiment/RESULT.md` 和 `ROOT_REVIEW.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v18` 标记各阶段。
+## V19：二值轮廓训练图的完整失败验证
+
+- 保持精确V11提取器、72训练视图、12角度、4尺度、32/16特征预算、T4/8和梯度阈值20/40，仅将训练source换成原官方warped mask的二值克隆；第三参数特征掩膜仍为原mask。六对象各3456姿态、共20736次尝试全部保留，并逐项核对原RGB训练的ROI、canvas和轮廓框几何。
+- 结果为20736次`insufficient_features`、0成功模板、0 OpenCV异常。所有六对象训练尝试完整，但质量比较不可行，native诚实返回exit1。没有伪造空bank的质量结果，没有执行后续补边规划、开发集匹配或性能测量；本版不宣称准确率/速度提升。
+- 隔离构建直接编译23份精确V11 Git源及固定helper；实际两TU的-MD依赖与预-M字节相同，保留全部402/513个有序依赖出现，允许相对路径alias解析到同文件。首次错误拒绝此类alias的构建失败及修正证据保留。源码、工具、链接库、非系统静态PE imports、exe与864训练成员SHA在真实训练前后校验通过；OS/API-set与动态插件不在完整性声明范围。
+- root独立标准库审计不导入训练实现、不读图像、不调用matcher，复核全部pose coverage、dense IDs/空metadata、原几何、config/summary、冻结文件清单与SHA；六个合成测试覆盖损坏记录拒绝，真实审计通过。失败记录中的0特征字段只是无成功serialized layer的占位，不是对提取中间特征数的独立观测。
+- 结论限定为此单一source替换在固定配方下不可用，不把失败唯一归因于mask腐蚀或NMS。后继empty-feature-mask方案使用独立协议与版本，原实验保持冻结；生产核心不变，留出图像与对象25/29继续封存。详见 `artifacts/silhouette_template_experiment/RESULTS.md` 和 `artifacts/independent_reviews/silhouette_training_v1/README.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v19` 标记各阶段。
