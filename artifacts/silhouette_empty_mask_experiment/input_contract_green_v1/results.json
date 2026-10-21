@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "scope": "static inheritance literal oracles only",
+  "rejecting_cases": [
+    "/x",
+    "../x",
+    "a/../x",
+    "C:/x",
+    "a\\..\\x",
+    "",
+    "a//b",
+    "reserved_object",
+    "missing_training",
+    "duplicate_development",
+    "wrong_version",
+    "../outside",
+    "private_v11/line2Dup.cpp",
+    "datasets/heldout.png"
+  ],
+  "training_records": 432,
+  "development_records": 400,
+  "image_files_opened": 0,
+  "image_decodes": 0,
+  "compiler_calls": 0,
+  "native_processes": 0,
+  "matcher_calls": 0
+}

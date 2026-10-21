@@ -44,3 +44,7 @@ artifacts/silhouette_template_experiment/private_v11/** -whitespace
 artifacts/silhouette_template_experiment/frozen_helpers/** -whitespace
 artifacts/silhouette_template_experiment/**/source_private_v11/** -whitespace
 artifacts/independent_reviews/silhouette_training_v1/** -text whitespace=cr-at-eol
+artifacts/silhouette_empty_mask_experiment/** -text whitespace=cr-at-eol
+artifacts/silhouette_empty_mask_experiment/private_v11/** -whitespace
+artifacts/silhouette_empty_mask_experiment/frozen_helpers/** -whitespace
+artifacts/independent_reviews/empty_mask_training_v1/** -text whitespace=cr-at-eol

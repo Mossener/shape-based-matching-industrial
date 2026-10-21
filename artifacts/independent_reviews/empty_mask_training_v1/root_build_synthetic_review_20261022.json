@@ -1,0 +1,64 @@
+{
+  "run_synthetic_red_v1": {
+    "sha256": "4fe37ad8403b6b9bafb9280c15aaddcbeed3319706429e813fcc8ed7a68dded0",
+    "native_exit": 1
+  },
+  "toys": [
+    {
+      "toy": "rectangle",
+      "template_id": 0,
+      "success": 1,
+      "error": "",
+      "layers": [
+        {
+          "level": 0,
+          "actual_features": 59,
+          "tl_x": 46,
+          "tl_y": 46,
+          "minimum_canvas_edge_distance": 47
+        },
+        {
+          "level": 1,
+          "actual_features": 16,
+          "tl_x": 23,
+          "tl_y": 23,
+          "minimum_canvas_edge_distance": 23
+        }
+      ]
+    },
+    {
+      "toy": "diagonal_polygon",
+      "template_id": 0,
+      "success": 1,
+      "error": "",
+      "layers": [
+        {
+          "level": 0,
+          "actual_features": 32,
+          "tl_x": 40,
+          "tl_y": 40,
+          "minimum_canvas_edge_distance": 41
+        },
+        {
+          "level": 1,
+          "actual_features": 18,
+          "tl_x": 20,
+          "tl_y": 20,
+          "minimum_canvas_edge_distance": 20
+        }
+      ]
+    }
+  ],
+  "run_synthetic_green_v1": {
+    "sha256": "c374f4b50a0aa5981a434e70954314bacebbba0f7a6988cebb0995effd1d2dee",
+    "native_exit": 0
+  },
+  "passed": true,
+  "adapter_build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\build_manifest.json",
+    "sha256": "c3d5a1396307c4cc80d3b930b5912640cd673298e2ae644251b76bdd869fc12f",
+    "bytes": 256233
+  },
+  "native_calls_in_review": 0,
+  "image_decodes_in_review": 0
+}

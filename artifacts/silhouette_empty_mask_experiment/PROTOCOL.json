@@ -1,0 +1,213 @@
+{
+  "version": "binary_empty_feature_mask_successor_v1",
+  "status": "static_design_pending_parent_review_no_implementation_or_image_access",
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "parent_source_only_directory": "artifacts/silhouette_template_experiment",
+  "changed_factor_vs_source_only": "addTemplate feature-selection mask becomes empty cv::Mat(); binary source clone and official silhouette mask/pose geometry unchanged",
+  "objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "reserved_objects": [
+    25,
+    29
+  ],
+  "heldout_images_allowed": false,
+  "training_views_per_object": 72,
+  "training_attempts_per_object": 3456,
+  "training_attempts_total": 20736,
+  "training_source": "clone of unchanged binary 0/255 official warped mask",
+  "feature_selection_mask": "empty cv::Mat() at addTemplate; no custom dilation/morphology/threshold tuning",
+  "official_mask_roles": [
+    "binary source",
+    "source ROI and affine",
+    "warped official silhouette box",
+    "pose metadata"
+  ],
+  "require_binary_at": [
+    "official original mask",
+    "warped official mask"
+  ],
+  "downsampled_source_binary_required": false,
+  "requested_features": [
+    32,
+    16
+  ],
+  "actual_features": "record actual counts and failures under unchanged V11 exhaustive selector; never fabricate or omit attempts",
+  "pyramid_T": [
+    4,
+    8
+  ],
+  "weak_threshold": 20,
+  "strong_threshold": 40,
+  "scales": [
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "angles": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ],
+  "training_border": 16,
+  "warp_policy": "unchanged mask ROI/canvas/affine, nearest-neighbor official mask, black border",
+  "all_pose_geometry_must_equal_original": true,
+  "feature_border_distance": "record every successful layer minimum distance of absolute feature coordinates to actual layer canvas edge; diagnostics only, no feature filtering or border selection",
+  "bbox_conversion": "match minus fixed left/top padding plus official warped mask bbox origin minus this new template's actual tl_x/tl_y; retain official width/height",
+  "cross_arm_identity": "GT IDs and object/training_image/angle/scale pose keys, never coincident numerical template IDs",
+  "zero_success_or_exception": "preserve every possible fixed training attempt; any zero-success object or extraction exception marks comparison incomplete and forbids image quality stages",
+  "source_only_training_comparison": "training feasibility and feature diagnostics only; absent source-only banks never become valid negative-image detectors",
+  "quality_arms_if_feasible": [
+    "frozen RGB bank",
+    "new binary source with empty feature-selection mask bank"
+  ],
+  "causal_limit_vs_rgb": "source and selection-mask policy both differ from RGB; a quality change is not attributed to mask policy alone",
+  "shared_padding": {
+    "union": "all loaded layers in both arms and all six objects, no template filtering",
+    "source_size": [
+      720,
+      540
+    ],
+    "minimum_size": [
+      848,
+      672
+    ],
+    "left_top": [
+      64,
+      64
+    ],
+    "alignment": 16,
+    "refined_l0": "declared extent plus 64",
+    "coarse_l1": "twice max(declared extent, actual maximum feature coordinate plus one)",
+    "freeze": "all bank/metadata/attempt/source/build hashes and complete loaded geometry CSV before first development image decode"
+  },
+  "split": "development",
+  "unique_frames": 400,
+  "pilot_frames": [
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      12,
+      2
+    ],
+    [
+      13,
+      2
+    ]
+  ],
+  "timing_schedule": "fixed 64-frame flags from the frozen frame schedule, eight per scene",
+  "match_threshold": 85,
+  "post_threshold": 85,
+  "nms_iou": 0.3,
+  "gt_iou": 0.5,
+  "eligible_visibility": 0.5,
+  "paths": [
+    "fallback",
+    "fused"
+  ],
+  "same_arm_equality": "complete ordered candidate fields and float32 score bits",
+  "calls": {
+    "old_padding_rgb_gate": 96,
+    "common_padding_pilot": 192,
+    "full_quality": 9600,
+    "timing": 12288,
+    "maximum_total": 22176
+  },
+  "timing": {
+    "frames": 64,
+    "warmup_rounds": 1,
+    "measured_rounds": 7,
+    "rotate_four_variants": true,
+    "each_call_equals_own_reference": true
+  },
+  "resources": {
+    "axis": 2048,
+    "pixels": 2097152,
+    "estimated_bytes_per_pixel": 512,
+    "estimated_dynamic_bytes": 1073741824,
+    "peak_rss_bytes": 1610612736,
+    "raw_candidates_per_frame_arm_path": 1000000,
+    "new_raw_bytes_per_quality_stage": 1073741824
+  },
+  "soft_checkpoint_minutes": {
+    "training": 120,
+    "pilot": 20,
+    "full_quality": 180,
+    "timing": 60
+  },
+  "single_native_call_interruptible": false,
+  "default_promotion": false,
+  "implementation_scope": "new sibling directory only; private V11/core/MIPP/helper snapshots and sources/builds/input/runtime gates separate from source-only evidence",
+  "input_pins": [
+    {
+      "path": "datasets/tless_expanded/index.json",
+      "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819"
+    },
+    {
+      "path": "artifacts/public_datasets/tless_expanded_manifest.json",
+      "sha256": "b97154a31063e14043b91da95dc8d7ce93a42f9c42394e7e8edd7ae9d9e2108c"
+    },
+    {
+      "path": "artifacts/obj8_padding_experiment/frame_schedule.json",
+      "sha256": "045ccd682e4cb17e458b364105a7cc52f2cb4d38154029f585f5606a59f2266e"
+    },
+    {
+      "path": "artifacts/silhouette_template_experiment/PROTOCOL.json",
+      "sha256": "88a7476c6b947917978034545cd670a90b8fcc074adf4e4690429e2ebbf3c8c5"
+    },
+    {
+      "path": "artifacts/silhouette_template_experiment/INPUT_CLOSURE.json",
+      "sha256": "1ca5d92184f970f159bcd6e0879c1bbd757a21408ec7a5844cab35e02669a33e"
+    },
+    {
+      "path": "artifacts/silhouette_template_experiment/run_source_only_training_v1/BANK_FREEZE.json",
+      "sha256": "5576e1c8113d7256a0bc7f7fd7f50ade6feb2004e06297360991f5889fc9dde1"
+    },
+    {
+      "path": "artifacts/silhouette_template_experiment/run_source_only_training_v1/native/training_summary.json",
+      "sha256": "37ea7aebfc29daef3f15167224b8960bc3be54be6cf2536022aac368aa214575"
+    },
+    {
+      "path": "artifacts/silhouette_template_experiment/PRIVATE_SOURCE_FREEZE.json",
+      "sha256": "5a6512dfe187ee66312935de1df26fb6eac99dd06ea1113d497c7e3de1ee2de2"
+    }
+  ],
+  "transitive_pin_policy": "Before implementation/runtime expand the fixed source-only closure to all original RGB/source-only attempts, banks/config/metadata/pilot references and input expected member hashes; verify source-only frozen files unchanged. New bank and common-padding hashes are bound in later immutable freeze records before image quality stages."
+}

@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 832,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      228
+    ],
+    "pixels": 705536,
+    "estimated_dynamic_bytes": 361234432,
+    "banks": 12,
+    "loaded_layers": 77870,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  },
+  "input_pins": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "cf8059280c45487beffd52fcec3130b3e566ad07cd3165872cedaef02f59c31d",
+      "bytes": 430897
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_plan_v1\\COMMON_PADDING_FREEZE.json": {
+      "sha256": "60608c3b1cd6b3d2f31b2a216e2886e43cb83cc1d74b96b80575f8ecbd9bfb50",
+      "bytes": 1157
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\BANK_FREEZE.json": {
+      "sha256": "9d92659813a947ee9c4403324468e765e0e3fea0ac8268f2d1f3e1ee4f79b737",
+      "bytes": 13207
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\templates_tless_object_1.yml.gz": {
+      "sha256": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e",
+      "bytes": 553232
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj1\\templates_tless_object_1.yml.gz": {
+      "sha256": "d1fd04a96a85482a19b02ca696c9bd5a0de32fc32cf09ebad056bbbf08b439cd",
+      "bytes": 847889
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\templates_tless_object_2.yml.gz": {
+      "sha256": "b149a0e1ea91b99b00e7da7456426fa6a26bf489f786b3f29f70f08ceea506ef",
+      "bytes": 661726
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj2\\templates_tless_object_2.yml.gz": {
+      "sha256": "f94ad7b25e0b94ed2345a6b8f444e3018db3dfdefbc618c1ce566f56fc839e91",
+      "bytes": 891963
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\templates_tless_object_5.yml.gz": {
+      "sha256": "cc804f08e51529d45f731fef13f9a770df196fad2157efa711ea9c77933d4656",
+      "bytes": 936016
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj5\\templates_tless_object_5.yml.gz": {
+      "sha256": "5f1a39d394da8d8c17546e5fa6b821d9539eb8daae8b957012480bff0b72b9c9",
+      "bytes": 958772
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\templates_tless_object_8.yml.gz": {
+      "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7",
+      "bytes": 1015469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj8\\templates_tless_object_8.yml.gz": {
+      "sha256": "0ee79c52b5cbd7a2e16dfec23731bf491edb6d5fddab197340111e349e42b8d3",
+      "bytes": 1011586
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\templates_tless_object_12.yml.gz": {
+      "sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "bytes": 893985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj12\\templates_tless_object_12.yml.gz": {
+      "sha256": "780caad0ffb7f4dc10aba7832b01e22c67da82bdc959fb1de1655ef6aafa1a74",
+      "bytes": 945857
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\templates_tless_object_17.yml.gz": {
+      "sha256": "72b3c40d30cc138497c3c2cac6e1c7aa74965f416be157ae8c8d5a4dc4bbbcdf",
+      "bytes": 878034
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_training_v1\\native\\obj17\\templates_tless_object_17.yml.gz": {
+      "sha256": "d37668ba15c2cd764363964a0af9ea536ed04568a6c1ea99c09782bb414ee8ce",
+      "bytes": 939811
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_plan_v1\\native\\loaded_layers.csv": {
+      "sha256": "25f565342cd8959cb06176f6ab9a75a0cbc76803adf410be4da13e5d3a78cc66",
+      "bytes": 4531674
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_plan_v1\\native\\common_padding_plan.json": {
+      "sha256": "c70b481ff51a8b7a051d60eb12b34dd76ab5c748f1b982672a3468ec3d6c251f",
+      "bytes": 353
+    }
+  },
+  "image_files_opened": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "audit_source_pins": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\empty_mask_training_v1\\audit_plan.py": "13e5f103e1c35e25edb4cd622af334e9f4d8880e06a40ca02fe9740e91328eed",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\empty_mask_training_v1\\bank_reader.py": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+  },
+  "limitation": "Numeric geometry only; no SIMD memory-safety, accuracy or speed proof"
+}

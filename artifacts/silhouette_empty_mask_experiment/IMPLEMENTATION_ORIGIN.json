@@ -1,0 +1,156 @@
+{
+  "predecessor_git_revision": "922428c",
+  "frozen_matcher_git_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "parent_source_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\PRIVATE_SOURCE_FREEZE.json",
+    "bytes": 4983,
+    "sha256": "5a6512dfe187ee66312935de1df26fb6eac99dd06ea1113d497c7e3de1ee2de2"
+  },
+  "parent_input_closure": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\INPUT_CLOSURE.json",
+    "bytes": 352327,
+    "sha256": "1ca5d92184f970f159bcd6e0879c1bbd757a21408ec7a5844cab35e02669a33e"
+  },
+  "parent_protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\PROTOCOL.json",
+    "bytes": 6845,
+    "sha256": "88a7476c6b947917978034545cd670a90b8fcc074adf4e4690429e2ebbf3c8c5"
+  },
+  "parent_bank_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\BANK_FREEZE.json",
+    "bytes": 10365,
+    "sha256": "5576e1c8113d7256a0bc7f7fd7f50ade6feb2004e06297360991f5889fc9dde1"
+  },
+  "successor_protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\PROTOCOL.json",
+    "bytes": 7062,
+    "sha256": "e4260feb88abc00532b096b1fdb602a4c5a785ec060788aa54ba821eacd4245b"
+  },
+  "successor_source_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json",
+    "bytes": 5128,
+    "sha256": "f0448d0f73f96555b67c7be39273222674fa3b10ae40e6e0235f4fe2b6af1198"
+  },
+  "successor_input_closure": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\INPUT_CLOSURE.json",
+    "bytes": 430897,
+    "sha256": "cf8059280c45487beffd52fcec3130b3e566ad07cd3165872cedaef02f59c31d"
+  },
+  "records": [
+    {
+      "name": "native_provenance.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\native_provenance.py",
+        "bytes": 6345,
+        "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\native_provenance.py",
+        "bytes": 6345,
+        "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+      },
+      "relationship": "byte-identical helper"
+    },
+    {
+      "name": "silhouette_source.hpp",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\silhouette_source.hpp",
+        "bytes": 535,
+        "sha256": "247e398ed15c1f697150fff892018fc30e42283664de71146b1c63a00ddd0c1d"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\silhouette_source.hpp",
+        "bytes": 535,
+        "sha256": "247e398ed15c1f697150fff892018fc30e42283664de71146b1c63a00ddd0c1d"
+      },
+      "relationship": "byte-identical helper"
+    },
+    {
+      "name": "test_native_provenance.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\test_native_provenance.py",
+        "bytes": 3751,
+        "sha256": "32bced05f71d35149aafded6e2c6faf1a6259cdad6a181ab0b63654aa0ba5d74"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\test_native_provenance.py",
+        "bytes": 3751,
+        "sha256": "32bced05f71d35149aafded6e2c6faf1a6259cdad6a181ab0b63654aa0ba5d74"
+      },
+      "relationship": "byte-identical helper"
+    },
+    {
+      "name": "test_private_source_isolation.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\test_private_source_isolation.py",
+        "bytes": 3053,
+        "sha256": "7b784172016c712b6c778d31e0cfb9a5de1faf9034bd97bbc05c0dbe9dd81603"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\test_private_source_isolation.py",
+        "bytes": 3053,
+        "sha256": "7b784172016c712b6c778d31e0cfb9a5de1faf9034bd97bbc05c0dbe9dd81603"
+      },
+      "relationship": "byte-identical helper"
+    },
+    {
+      "name": "freeze_private_sources.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\freeze_private_sources.py",
+        "bytes": 6154,
+        "sha256": "dfbf68e03cf12ac87eaf0ef4ef1dda9e10985010166a6c0ccb32b2aa1abce79f"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\freeze_private_sources.py",
+        "bytes": 6392,
+        "sha256": "f0fa601340667281b2acd0edf04d50bac3a3af270cdb29c17eed85c7c3d49624"
+      },
+      "relationship": "successor-specific adaptation; final build manifest pins actual bytes"
+    },
+    {
+      "name": "silhouette_eval.cpp",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\silhouette_eval.cpp",
+        "bytes": 16842,
+        "sha256": "325dec622b9c0fefa44f0b57979b5a49cbd048875d67377375fffaa16a53fac8"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\silhouette_eval.cpp",
+        "bytes": 19828,
+        "sha256": "54b74eb95f7d8f7298988273192882f4ac39c561d86b99cfb1a774917498ba91"
+      },
+      "relationship": "successor-specific adaptation; final build manifest pins actual bytes"
+    },
+    {
+      "name": "build_adapter.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\build_adapter.py",
+        "bytes": 6187,
+        "sha256": "afe4d7ab3ed9612fd465f3c5bb910f9d59b7f41f5aa0ad5fa386be19aae36c2e"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter.py",
+        "bytes": 6950,
+        "sha256": "c05f96a5741a5fa827cb472347341f1975c250e102ce512387c9282cdf77c50e"
+      },
+      "relationship": "successor-specific adaptation; final build manifest pins actual bytes"
+    },
+    {
+      "name": "run_stage.py",
+      "predecessor": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_stage.py",
+        "bytes": 7621,
+        "sha256": "05e5b25b55f17d91e8f9752dee14ef0edd9704280121f17ce753453dead650b5"
+      },
+      "successor_initial": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_stage.py",
+        "bytes": 7661,
+        "sha256": "d592b739c16f52c487fa7be7095d86028c374832b395d4dca54db1ed67a4203e"
+      },
+      "relationship": "successor-specific adaptation; final build manifest pins actual bytes"
+    }
+  ],
+  "scope": "Origins only. A completed native build/runner separately pins actual final successor source, tool and dependency bytes.",
+  "dataset_image_reads": 0,
+  "matcher_calls": 0
+}

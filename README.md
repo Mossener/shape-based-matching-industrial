@@ -117,6 +117,8 @@ V18 单独测试16项局部中心缓存，3985次正确性调用中的2880次完
 
 V19 检验直接使用二值轮廓作为训练图、保留原特征掩膜的方案。六目标共20,736个固定姿态全部因特征不足而未生成模板，独立数值审计核对了所有姿态、几何和失败记录。因此本轮没有可用的新模板库，也没有准确率或速度收益；[实验结果](artifacts/silhouette_template_experiment/RESULTS.md)与[独立验证](artifacts/independent_reviews/silhouette_training_v1/README.md)完整保留，后续特征掩膜实验单独进行。
 
+V20 在独立实验中保持相同二值训练图，改用空特征选择掩膜，六目标20,736个姿态全部生成模板。独立审计逐层核对41,472个新模板层，并从全部12个新旧模板库重算77,870个层的共同几何需求，得到848×832的评测画布。该版解决的是此配方无法训练的问题；准确率和速度仍需后续图像对照，不据此更改默认模板配方。详见[训练与补边结果](artifacts/silhouette_empty_mask_experiment/TRAINING_RESULTS.md)和[独立验证](artifacts/independent_reviews/empty_mask_training_v1/README.md)。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

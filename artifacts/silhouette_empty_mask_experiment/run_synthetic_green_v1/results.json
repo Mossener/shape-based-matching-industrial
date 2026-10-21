@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "expected_red": false,
+  "native_exit_code": 0,
+  "scope": "Native policy/ownership oracles and unchanged two toys; toy addTemplate outcomes are recorded, not tuned",
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\build_manifest.json",
+    "sha256": "0cef282de70b1a7977328215e0507edcbe3954899e537d2df946b2258c36e66c",
+    "bytes": 232279
+  },
+  "dataset_image_reads": 0,
+  "matcher_calls": 0,
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\execution_provenance.json",
+      "sha256": "fec740c80042bf89dceb8c76f3e13516f6cd90916c2574b16c49faac62d0aaa1",
+      "bytes": 184662
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\native.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\native.stdout",
+      "sha256": "ab65bcc6d4f805152d9729977bc5c117f5bdf62d0b443d82509b419fdd76533b",
+      "bytes": 78
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\native_result.json",
+      "sha256": "28b63086b11508665afee7b1bbac02e555ea6063a2098a19396e2df4d9dc6efe",
+      "bytes": 1562
+    }
+  ]
+}

@@ -164,4 +164,12 @@
 - root独立标准库审计不导入训练实现、不读图像、不调用matcher，复核全部pose coverage、dense IDs/空metadata、原几何、config/summary、冻结文件清单与SHA；六个合成测试覆盖损坏记录拒绝，真实审计通过。失败记录中的0特征字段只是无成功serialized layer的占位，不是对提取中间特征数的独立观测。
 - 结论限定为此单一source替换在固定配方下不可用，不把失败唯一归因于mask腐蚀或NMS。后继empty-feature-mask方案使用独立协议与版本，原实验保持冻结；生产核心不变，留出图像与对象25/29继续封存。详见 `artifacts/silhouette_template_experiment/RESULTS.md` 和 `artifacts/independent_reviews/silhouette_training_v1/README.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v19` 标记各阶段。
+## V20：空特征选择掩膜的训练可行性与完整模板库规划
+
+- 新建隔离实验，保持V19相同二值source、官方mask的ROI/仿射/轮廓框、72视图、12角度、4尺度和精确V11提取器，仅将`addTemplate`第三参数改为`cv::Mat()`。官方mask继续提供几何与source，不替换为新模板的特征框。
+- 原生RED先在确切的非空选择掩膜处失败，GREEN通过空mask调用、clone所有权、四种非法mask拒绝及相同矩形/斜边玩具。两个玩具均可训练，实际特征数分别59/16、32/18。检查中发现继承适配器将请求32/16错当实际上限，已用原始RGB成功数值的RED/GREEN验证并修正；不截断实际特征，不更改提取器。V19全失败从未触发该断言，其历史结果保留。
+- 六目标共20736次固定尝试全部成功，无OpenCV异常；训练前后图像字节SHA、源码/工具/依赖/执行文件闭包检查通过。独立标准库审计不导入训练器，从gzipped整数bank重建全部41472层的特征数、local/absolute范围和canvas边距，逐行与CSV一致，并按pose键对照RGB和source-only几何。实际特征总范围9～56，每对象最小canvas边距10～12像素；这些数字不构成匹配精度或内存安全保证。
+- 十二个新旧bank的77870个层共同规划得848×832、左上64、右下64/228；独立读取全部bank重建层CSV和尺寸、对齐与资源预算，结果一致。读到的旧数字表和RGB bank直接绑定冻结input closure，生成bank/规划文件绑定完整freeze清单，审计主文件与独立bank reader均前后pin。
+- 本版只完成训练与数字规划，尚无开发图像识别质量、计时或默认推广结论。后续固定两arm/六目标/400帧对照继续使用同一共享padding，留出场景和对象25/29继续封存；磁片回归不删。详见`artifacts/silhouette_empty_mask_experiment/TRAINING_RESULTS.md`及`artifacts/independent_reviews/empty_mask_training_v1/README.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v20` 标记各阶段。

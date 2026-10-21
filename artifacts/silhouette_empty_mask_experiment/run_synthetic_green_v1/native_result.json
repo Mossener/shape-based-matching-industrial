@@ -1,0 +1,55 @@
+{
+    "clone_ownership_passed": 1,
+    "selection_mask_empty_spy_passed": 1,
+    "invalid_masks_rejected": 4,
+    "toys": [
+        {
+            "toy": "rectangle",
+            "template_id": 0,
+            "success": 1,
+            "error": "",
+            "layers": [
+                {
+                    "level": 0,
+                    "actual_features": 59,
+                    "tl_x": 46,
+                    "tl_y": 46,
+                    "minimum_canvas_edge_distance": 47
+                },
+                {
+                    "level": 1,
+                    "actual_features": 16,
+                    "tl_x": 23,
+                    "tl_y": 23,
+                    "minimum_canvas_edge_distance": 23
+                }
+            ]
+        },
+        {
+            "toy": "diagonal_polygon",
+            "template_id": 0,
+            "success": 1,
+            "error": "",
+            "layers": [
+                {
+                    "level": 0,
+                    "actual_features": 32,
+                    "tl_x": 40,
+                    "tl_y": 40,
+                    "minimum_canvas_edge_distance": 41
+                },
+                {
+                    "level": 1,
+                    "actual_features": 18,
+                    "tl_x": 20,
+                    "tl_y": 20,
+                    "minimum_canvas_edge_distance": 20
+                }
+            ]
+        }
+    ],
+    "passed": 1,
+    "dataset_image_reads": 0,
+    "matcher_calls": 0,
+    "synthetic_image_count": 2
+}

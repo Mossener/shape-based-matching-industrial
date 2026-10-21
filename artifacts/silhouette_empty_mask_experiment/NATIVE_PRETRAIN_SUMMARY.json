@@ -1,0 +1,340 @@
+{
+  "passed": true,
+  "builds": [
+    {
+      "build_directory": "build_synthetic_red_v1",
+      "target": "source-test-red",
+      "build_manifest": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\build_manifest.json",
+        "sha256": "9b4cf8c016390d0088e11620d6444d0384d0e16cc90582e608eb2429a80b5c9f",
+        "bytes": 232690
+      },
+      "executable": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\empty_mask_source_test.exe",
+        "sha256": "a1c062dc651ffde7f581372214335dd226051741d8ea186f37c47df652bc6a76",
+        "bytes": 347716
+      },
+      "commands": [
+        {
+          "label": "core_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "core_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "link",
+          "exit_code": 0
+        }
+      ],
+      "dependency_units": [
+        {
+          "target": "core.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\private_v11\\line2Dup.cpp",
+          "ordered_occurrences": 402,
+          "unique_files": 399,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\core_before.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\core.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          }
+        },
+        {
+          "target": "adapter.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\empty_mask_source_test.cpp",
+          "ordered_occurrences": 402,
+          "unique_files": 399,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\adapter_before.d",
+            "sha256": "79a8500a6e69599ccf5014d4b60f9832af6d769ea1dff2abfcf1b4dd260376bf",
+            "bytes": 26053
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_red_v1\\adapter.d",
+            "sha256": "79a8500a6e69599ccf5014d4b60f9832af6d769ea1dff2abfcf1b4dd260376bf",
+            "bytes": 26053
+          }
+        }
+      ],
+      "compiler_tools_and_libraries": 8,
+      "compiler_runtime_files": 18,
+      "executable_runtime_files": 7,
+      "dataset_image_reads": 0,
+      "matcher_calls": 0
+    },
+    {
+      "build_directory": "build_synthetic_green_v1",
+      "target": "source-test-green",
+      "build_manifest": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\build_manifest.json",
+        "sha256": "0cef282de70b1a7977328215e0507edcbe3954899e537d2df946b2258c36e66c",
+        "bytes": 232279
+      },
+      "executable": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\empty_mask_source_test.exe",
+        "sha256": "738db0b80d8bbf1c59f7697dc1ce5a3fe9ed614c1eda93eb9da746d1ce7f9670",
+        "bytes": 347716
+      },
+      "commands": [
+        {
+          "label": "core_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "core_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "link",
+          "exit_code": 0
+        }
+      ],
+      "dependency_units": [
+        {
+          "target": "core.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\private_v11\\line2Dup.cpp",
+          "ordered_occurrences": 402,
+          "unique_files": 399,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\core_before.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\core.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          }
+        },
+        {
+          "target": "adapter.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\empty_mask_source_test.cpp",
+          "ordered_occurrences": 402,
+          "unique_files": 399,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\adapter_before.d",
+            "sha256": "76f5085bc1c04b6ffd753446fa25c12a9223fba04c9fd6e89215ba7e5f76a505",
+            "bytes": 26030
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_synthetic_green_v1\\adapter.d",
+            "sha256": "76f5085bc1c04b6ffd753446fa25c12a9223fba04c9fd6e89215ba7e5f76a505",
+            "bytes": 26030
+          }
+        }
+      ],
+      "compiler_tools_and_libraries": 8,
+      "compiler_runtime_files": 18,
+      "executable_runtime_files": 7,
+      "dataset_image_reads": 0,
+      "matcher_calls": 0
+    },
+    {
+      "build_directory": "build_adapter_v1",
+      "target": "adapter",
+      "build_manifest": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\build_manifest.json",
+        "sha256": "c3d5a1396307c4cc80d3b930b5912640cd673298e2ae644251b76bdd869fc12f",
+        "bytes": 256233
+      },
+      "executable": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\silhouette_eval.exe",
+        "sha256": "6133f4c8aec95b89e19893613572a58d4f4fea2033c1f04666992ff795b407d5",
+        "bytes": 739018
+      },
+      "commands": [
+        {
+          "label": "core_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "core_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_dependency_before",
+          "exit_code": 0
+        },
+        {
+          "label": "adapter_compile",
+          "exit_code": 0
+        },
+        {
+          "label": "link",
+          "exit_code": 0
+        }
+      ],
+      "dependency_units": [
+        {
+          "target": "core.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\private_v11\\line2Dup.cpp",
+          "ordered_occurrences": 402,
+          "unique_files": 399,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\core_before.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\core.d",
+            "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+            "bytes": 26176
+          }
+        },
+        {
+          "target": "adapter.o",
+          "source": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\silhouette_eval.cpp",
+          "ordered_occurrences": 514,
+          "unique_files": 507,
+          "raw_pre_actual_depfile_bytes_equal": true,
+          "pre_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\adapter_before.d",
+            "sha256": "6057d69407cf59781366bf6bb85b6b780373ad3d057f184cf647cd150c84b42a",
+            "bytes": 31112
+          },
+          "actual_depfile": {
+            "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter_v1\\adapter.d",
+            "sha256": "6057d69407cf59781366bf6bb85b6b780373ad3d057f184cf647cd150c84b42a",
+            "bytes": 31112
+          }
+        }
+      ],
+      "compiler_tools_and_libraries": 8,
+      "compiler_runtime_files": 18,
+      "executable_runtime_files": 8,
+      "dataset_image_reads": 0,
+      "matcher_calls": 0
+    }
+  ],
+  "synthetic_runs": [
+    {
+      "directory": "run_synthetic_red_v1",
+      "expected_red": true,
+      "native_exit_code": 1,
+      "results": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_red_v1\\results.json",
+        "sha256": "4fe37ad8403b6b9bafb9280c15aaddcbeed3319706429e813fcc8ed7a68dded0",
+        "bytes": 1317
+      }
+    },
+    {
+      "directory": "run_synthetic_green_v1",
+      "expected_red": false,
+      "native_exit_code": 0,
+      "results": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\results.json",
+        "sha256": "c374f4b50a0aa5981a434e70954314bacebbba0f7a6988cebb0995effd1d2dee",
+        "bytes": 1589
+      }
+    }
+  ],
+  "native_green_result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_synthetic_green_v1\\native_result.json",
+    "sha256": "28b63086b11508665afee7b1bbac02e555ea6063a2098a19396e2df4d9dc6efe",
+    "bytes": 1562
+  },
+  "native_toys": [
+    {
+      "toy": "rectangle",
+      "template_id": 0,
+      "success": 1,
+      "error": "",
+      "layers": [
+        {
+          "level": 0,
+          "actual_features": 59,
+          "tl_x": 46,
+          "tl_y": 46,
+          "minimum_canvas_edge_distance": 47
+        },
+        {
+          "level": 1,
+          "actual_features": 16,
+          "tl_x": 23,
+          "tl_y": 23,
+          "minimum_canvas_edge_distance": 23
+        }
+      ]
+    },
+    {
+      "toy": "diagonal_polygon",
+      "template_id": 0,
+      "success": 1,
+      "error": "",
+      "layers": [
+        {
+          "level": 0,
+          "actual_features": 32,
+          "tl_x": 40,
+          "tl_y": 40,
+          "minimum_canvas_edge_distance": 41
+        },
+        {
+          "level": 1,
+          "actual_features": 18,
+          "tl_x": 20,
+          "tl_y": 20,
+          "minimum_canvas_edge_distance": 20
+        }
+      ]
+    }
+  ],
+  "protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\PROTOCOL.json",
+    "sha256": "e4260feb88abc00532b096b1fdb602a4c5a785ec060788aa54ba821eacd4245b",
+    "bytes": 7062
+  },
+  "private_source_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json",
+    "sha256": "f0448d0f73f96555b67c7be39273222674fa3b10ae40e6e0235f4fe2b6af1198",
+    "bytes": 5128
+  },
+  "input_closure": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\INPUT_CLOSURE.json",
+    "sha256": "cf8059280c45487beffd52fcec3130b3e566ad07cd3165872cedaef02f59c31d",
+    "bytes": 430897
+  },
+  "origin_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\IMPLEMENTATION_ORIGIN.json",
+    "sha256": "4b019f61c69413da4ab1cf198af225ba3f21c5f6ece75d1a41e262dbefcbd0ee",
+    "bytes": 7449
+  },
+  "summarizer": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\summarize_pretraining.py",
+    "sha256": "513f45fe124fa2d6780e13b28fc08a31b5253226b146b4a29b49cef3c8567c6b",
+    "bytes": 5034
+  },
+  "actual_synthetic_extraction_calls": 2,
+  "real_training_attempts": 0,
+  "development_image_decodes": 0,
+  "dataset_image_reads": 0,
+  "matcher_calls": 0,
+  "scope": "Actual private native builds and unchanged generated toys only; no real-bank feasibility, accuracy or timing result"
+}
