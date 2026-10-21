@@ -3,3 +3,5 @@ artifacts/response_optimization/baseline/*.cpp -text
 artifacts/response_optimization/baseline/*.h -text
 artifacts/search_optimization/baseline/*.cpp -text
 artifacts/search_optimization/baseline/*.h -text
+# Keep imported Markdown hard breaks and its original trailing blank line.
+README.upstream.md -text -whitespace

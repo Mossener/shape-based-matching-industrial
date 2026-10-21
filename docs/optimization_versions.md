@@ -62,4 +62,12 @@
 - 使用更早不可变原版交错校准 153 次，case1 原版搜索 2.568 ms；历史 README 为约 360 个模板搜一张图，并非本次 900 姿态 LED。之前 LED 同轮原版/V4 搜索为 27.026/27.219 ms，说明搜索占比上升来自构建加快；当前校准和正式优化基准属于不同运行，不能跨轮相减。
 - 详细结果与复现命令见 `artifacts/search_optimization/README.md`。V5～V7 本地提交分别保存内核、集成、测量说明；源码及结果均可回溯。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v7` 标记各阶段，均保存在本地仓库。
+## V8：公开维护、来源声明与工业化路线
+
+- 将项目首页整理为由 Mossener 独立维护的工业视觉演进项目，首屏标注来源 `meiqua/shape_based_matching`；保留根 BSD 许可证和导入快照中的 README 原始字节。
+- 新增 `docs/source-provenance.md`、`THIRD_PARTY_NOTICES.md`，区分本地历史、上游来源、MIPP/数学代码许可、外部 OpenCV 及文献/样本来源；未核实的上游提交和素材许可不补造结论。
+- 新增维护指南、缺陷/功能 issue 模板和 PR 模板，以及分阶段工业化路线与验收标准；把跨平台构建/CI、ROI与姿态范围、候选NMS、连续精修、标注验证及部署观测明确列为后续工作。
+- 本版本仅整理维护与发布材料，不改变匹配算法、模板或性能路径，不新增性能测量。检查新增文档本地链接、原 README 字节、根许可证内容，以及已归档性能/测试来源哈希。
+- GitHub 公开维护仓库：[Mossener/shape-based-matching-industrial](https://github.com/Mossener/shape-based-matching-industrial)。历史阶段标签与原始实验一同保存，工业能力以对应里程碑验收为准。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v8` 标记各阶段。

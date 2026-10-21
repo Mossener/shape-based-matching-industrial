@@ -1,108 +1,82 @@
-# shape_based_matching  
+# shape-based-matching-industrial
 
-本地 LED/SMD 优化：[响应构建验证](artifacts/response_optimization/README.md) · [模板搜索优化及 README 7 ms 校准](artifacts/search_optimization/README.md) · [Git 版本说明](docs/optimization_versions.md)。原调用接口保留，新接口支持独立开关、跨帧缓冲区及分阶段计时。
+面向工业视觉轮廓定位持续改进的 C++ 梯度方向模板匹配器，由 [Mossener](https://github.com/Mossener) 独立维护。
 
-update:   
-**[fusion implementation to run faster!](https://github.com/meiqua/shape_based_matching/issues/77)**  
-**[icp is also refined to be faster and easier to use](https://github.com/meiqua/shape_based_matching/issues/100)**  
+**来源：本项目基于 [meiqua/shape_based_matching](https://github.com/meiqua/shape_based_matching) 的本地源码快照继续开发，原项目采用 BSD-2-Clause 许可证。** 感谢原作者及 OpenCV LINEMOD、MIPP 等相关项目的工作。原许可证和第三方声明保留；导入时的说明保存在 [README.upstream.md](README.upstream.md)。当前 Git 历史从本地基线开始，尚未核实快照对应的上游提交，详情见 [来源与维护边界](docs/source-provenance.md) 和 [第三方声明](THIRD_PARTY_NOTICES.md)。
 
-[Transforms in shape-based matching](./Transforms%20in%20shape-based%20matching.pdf)  
-[pose refine with icp branch](https://github.com/meiqua/shape_based_matching/tree/icp2D), 0.1-0.5 degree accuracy   
-[icp + subpixel branch](https://github.com/meiqua/shape_based_matching/tree/subpixel), < 0.1 degree accuracy  
-[icp + subpixel + sim3(previous is so3) branch](https://github.com/meiqua/shape_based_matching/tree/sim3), deal with scale error  
+目前处于工业化演进阶段，已完成 LED/SMD 样本验证和若干保持结果一致的性能优化；通用工业数据集、稳定跨平台构建、连续姿态精修和现场验收仍需继续建设。
 
-try to implement halcon shape based matching, refer to machine vision algorithms and applications, page 317 3.11.5, written by halcon engineers  
-We find that shape based matching is the same as linemod. [linemod pdf](Gradient%20Response%20Maps%20for%20Real-TimeDetection%20of%20Textureless%20Objects.pdf)  
+## 工作原理与现有能力
 
-halcon match solution guide for how to select matching methods([halcon documentation](https://www.mvtec.com/products/halcon/documentation/#reference_manual)):  
-![match](./match.png)  
+模板保存稀疏特征点的相对位置和梯度方向。输入图像经过金字塔、梯度量化、方向扩散、响应查表及内存重排后，与模板做批量累加评分；先在粗层全图搜索，再逐层局部精修。
 
-## steps
+- 使用八类梯度方向，方向模 180°；当前查表响应为 0/3/4，最终分数归一化为 0～100，分数不是识别概率。
+- 支持灰度/彩色输入、图像金字塔、mask、角度/尺度模板枚举和 OpenMP 模板并行；角度与尺度来自姿态模板，金字塔不替代尺度枚举。
+- 提供独立优化开关、每调用线程独占的 `MatchWorkspace`、跨帧缓冲复用和构建/搜索分段计时。
+- 保留原 `Detector::match` 调用接口；当前结果提供离散位置、模板编号及分数，可通过模板元数据取得角度和尺度。
+- `LED/ku.smd` 的导入代码只适配当前提供的文件布局，不是通用 SMD 读取器，也不表示兼容任何商业软件的匹配引擎。
 
-1. change test.cpp line 9 prefix to top level folder
+当前主线没有通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和通用工业准确率报告。上游 README 中的 ICP/subpixel/sim3 链接指向上游其他分支，不能视为本分支已实现的功能。
 
-2. in cmakeList line 23, change /opt/ros/kinetic to somewhere opencv3 can be found(if opencv3 is installed in default env then don't need to)
+## 已验证的性能
 
-3. cmake make & run. To learn usage, see different tests in test.cpp. Particularly, scale_test are fully commented.
+测试机器为 Windows / i5-13500HX / GCC 15.1 / OpenCV 4.12，CV1/OMP4。LED 为八张 768×576 图，补边后 896×704，900 个姿态、三层金字塔、阈值 75。下表为各图正式样本中位数的等权平均，单位 ms。
 
-NOTE: On windows, it's confirmed that visual studio 17 works fine, but there are some problems with MIPP in vs13. You may want old codes without [MIPP](https://github.com/aff3ct/MIPP): [old commit](https://github.com/meiqua/shape_based_matching/tree/fc3560a1a3bc7c6371eacecdb6822244baac17ba)  
+| 实验 | 对照 → 优化 | 观察结果 |
+| --- | --- | --- |
+| V4 响应优化，同轮原版对照 | 构建 14.794 → 9.677；外部完整调用 42.621 → 36.983 | 构建减少 34.6%，完整调用减少 13.2% |
+| V7 搜索优化，同轮冻结 V4 对照 | 搜索 28.781 → 27.666；内部完整调用 38.763 → 37.873 | 搜索减少 3.87%，完整调用减少 2.30% |
 
-## thoughts about the method
+两行来自不同运行，计时范围也分别注明，不能跨行相减或相加。搜索收益较小、存在波动，整数最大值单项在本轮优于三项组合；直接 8U 和搜索缓冲复用未建立稳定的独立收益，case1 搜索未提速。
 
-The key of shape based matching, or linemod, is using gradient orientation only. Though both edge and orientation are resistant to disturbance,
-edge have only 1bit info(there is an edge or not), so it's hard to dig wanted shapes out if there are too many edges, but we have to have as many edges as possible if we want to find all the target shapes. It's quite a dilemma.  
+- [响应优化：实现、五项测试、原始数据和审计](artifacts/response_optimization/README.md)
+- [搜索优化：八种组合验证、独立消融和审计](artifacts/search_optimization/README.md)
+- [README 历史“360 模板 / 7 ms”与当前 LED 的区别](artifacts/search_optimization/CALIBRATION.md)
+- [V0～V8 本地版本与测量记录](docs/optimization_versions.md)
 
-However, gradient orientation has much more info than edge, so we can easily match shape orientation in the overwhelming img orientation by template matching across the img.  
+正确性测试检查实现等价性；性能测试检查耗时。现有八张 LED 图含一张模板来源图及七张其他正样本，不能据此报告通用召回率、误检率或现场节拍保证。
 
-Speed is also important. Thanks to the speeding up magic in linemod, we can handle 1000 templates in 20ms or so.  
+## 本机复现
 
-[Chinese blog about the thoughts](https://www.zhihu.com/question/39513724/answer/441677905)  
+当前验证路径为 Windows PowerShell、GCC 15.1、OpenCV 4.12 和 Python 3.10。先准备依赖，在仓库根目录运行：
 
-## improvment
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/response_optimization/run_tests.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimization/run_benchmark.ps1 -Test
+```
 
-Comparing to opencv linemod src, we improve from 6 aspects:  
+脚本默认使用 `F:\mysys2\ucrt64\bin\g++.exe` 和 `D:\opencv-4.12.0`，可通过 `-Compiler`、`-OpenCV` 参数替换路径。当前链接名固定为 `opencv_world4120`，更换 OpenCV 版本还需调整构建脚本，尚未实现版本无关的构建。
 
-1. delete depth modality so we don't need virtual func, this may speed up  
+搜索性能实验须单独启动，避免同时运行其他 CPU 基准，输出目录必须是新目录：
 
-2. opencv linemod can't use more than 63 features. Now wo can have up to 8191  
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimization/run_benchmark.ps1 -SkipCompile -Run -OutputDirectory artifacts/search_optimization/my_run
+```
 
-3. simple codes for rotating and scaling img for training. see test.cpp for examples  
+原 `CMakeLists.txt` 保留了上游 OpenCV 3 和 ROS 路径配置，尚未完成跨平台构建迁移。当前没有已验证的 GitHub Actions 测试流水线；相关工作列为路线图 P0。
 
-4. nms for accurate edge selection  
+## 匹配接口
 
-5. one channel orientation extraction to save time, slightly faster for gray img
+训练或读取模板后，在帧循环外创建工作区：
 
-6. use [MIPP](https://github.com/aff3ct/MIPP) for multiple platforms SIMD, for example, x86 SSE AVX, arm neon.
-   To have better performance, we have extended MIPP to uint8_t for some instructions.(Otherwise we can only use
-   half feature points to avoid int8_t overflow)  
+```cpp
+line2Dup::MatchWorkspace workspace;
+line2Dup::MatchOptions options;
+line2Dup::MatchTimings timing;
 
-7. rotate features directly to speed up template extractions; selectScatteredFeatures more 
-evenly; exautive select all features if not enough rather than abort templates(but features <= 4 will abort)
+auto matches = detector.match(frame, 75.f, workspace, options, &timing, {"LED"});
+// timing.preprocess_ms: 金字塔、梯度、扩散、响应和重排
+// timing.search_ms: 模板搜索、精修、排序和去重
+```
 
-## some test
+每个并发调用必须独占工作区。Detector 的只读匹配可使用不同工作区并发执行，训练和模板修改不得与匹配并发。库不更改 OpenCV/OpenMP 的全局线程配置。
 
-### Example for circle shape  
+六项优化开关为 `separable_spread`、`fused_response`、`reuse_buffers`、`integer_local_max`、`direct_8bit_search`、`reuse_search_buffers`，均默认开启。关闭开关可进行等价性检查和性能消融；`reuse_buffers=false` 时工作区状态仅在本次调用内存在。
 
-#### You can imagine how many circles we will find if use edges  
-![circle1](test/case0/1.jpg)
-![circle1](test/case0/result/1.png)  
+## 持续维护
 
-#### Not that circular  
-![circle2](test/case0/2.jpg)
-![circle2](test/case0/result/2.png)  
+工业化工作按 [路线图与验收标准](docs/industrial-roadmap.md) 推进：先建立可移植构建、CI 和接口契约，再实现搜索范围与候选管理、连续精修、标注数据验证和部署观测。
 
-#### Blur  
-![circle3](test/case0/3.png)
-![circle3](test/case0/result/3.png)  
+修改前后保留独立基线，逐项验证功能和性能，每个版本记录具体改动、测量条件、结果及限制。提交规范和复现要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。问题可通过本仓库 Issues 报告，请附最小复现、依赖版本、模板配置及期望结果。
 
-### circle template before and after nms  
-
-#### before nms
-
-![before](test/case0/features/no_nms_templ.png)
-
-#### after nms
-
-![after](test/case0/features/nms_templ.png)  
-
-### Simple example for arbitary shape
-
-Well, the example is too simple to show the robustness  
-running time: 1024x1024, 60ms to construct response map, 7ms for 360 templates  
-
-test img & templ features  
-![test](./test/case1/result.png)  
-![templ](test/case1/templ.png)  
-
-
-### noise test  
-
-![test2](test/case2/result/together.png)  
-
-## some issues you may want to know  
-Well, issues are not clearly classified and many questions are discussed in one issue sometimes. For better reference, some typical discussions are pasted here.  
-
-[object too small?](https://github.com/meiqua/shape_based_matching/issues/13#issuecomment-474780205)  
-[failure case?](https://github.com/meiqua/shape_based_matching/issues/19#issuecomment-481153907)  
-[how to run even faster?](https://github.com/meiqua/shape_based_matching/issues/21#issuecomment-489664586)  
-
+源码许可见 [LICENSE](LICENSE)，第三方代码、文献和样本来源见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
