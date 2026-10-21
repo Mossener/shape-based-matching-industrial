@@ -1,4 +1,6 @@
 #include "line2Dup.h"
+#include "line2Dup_spread.hpp"
+#include "line2Dup_response.hpp"
 #include <iostream>
 
 using namespace std;
@@ -204,13 +206,14 @@ bool ColorGradientPyramid::selectScatteredFeatures(const std::vector<Candidate> 
 \****************************************************************************************/
 
 void hysteresisGradient(Mat &magnitude, Mat &quantized_angle,
-                        Mat &angle, float threshold)
+                        Mat &angle, float threshold, Mat *scratch = nullptr)
 {
     // Quantize 360 degree range of orientations into 16 buckets
     // Note that [0, 11.25), [348.75, 360) both get mapped in the end to label 0,
     // for stability of horizontal and vertical features.
-    Mat_<unsigned char> quantized_unfiltered;
+    Mat_<unsigned char> quantized_unfiltered = scratch ? Mat_<unsigned char>(*scratch) : Mat_<unsigned char>();
     angle.convertTo(quantized_unfiltered, CV_8U, 16.0 / 360.0);
+    if (scratch) *scratch = quantized_unfiltered;
 
     // Zero out top and bottom rows
     /// @todo is this necessary, or even correct?
@@ -283,22 +286,36 @@ void hysteresisGradient(Mat &magnitude, Mat &quantized_angle,
     }
 }
 
-static void quantizedOrientations(const Mat &src, Mat &magnitude,
-                                  Mat &angle, Mat& angle_ori, float threshold)
+struct GradientScratch
 {
-    Mat smoothed;
+    Mat smoothed, sobel_dx, sobel_dy, sobel_ag, sobel_3dx, sobel_3dy;
+    Mat magnitude_dx, magnitude_dy;
+    Mat quantized_unfiltered, response_low, response_high;
+};
+
+static void quantizedOrientations(const Mat &src, Mat &magnitude,
+                                  Mat &angle, Mat& angle_ori, float threshold,
+                                  GradientScratch *workspace = nullptr)
+{
+    GradientScratch local;
+    GradientScratch &buffers = workspace ? *workspace : local;
+    Mat &smoothed = buffers.smoothed;
     // Compute horizontal and vertical image derivatives on all color channels separately
     static const int KERNEL_SIZE = 7;
     // For some reason cvSmooth/cv::GaussianBlur, cvSobel/cv::Sobel have different defaults for border handling...
     GaussianBlur(src, smoothed, Size(KERNEL_SIZE, KERNEL_SIZE), 0, 0, BORDER_REPLICATE);
 
     if(src.channels() == 1){
-        Mat sobel_dx, sobel_dy, sobel_ag;
+        Mat &sobel_dx = buffers.sobel_dx, &sobel_dy = buffers.sobel_dy, &sobel_ag = buffers.sobel_ag;
         Sobel(smoothed, sobel_dx, CV_32F, 1, 0, 3, 1.0, 0.0, BORDER_REPLICATE);
         Sobel(smoothed, sobel_dy, CV_32F, 0, 1, 3, 1.0, 0.0, BORDER_REPLICATE);
-        magnitude = sobel_dx.mul(sobel_dx) + sobel_dy.mul(sobel_dy);
+        // Keep the two products allocated across frames; retain the original
+        // float multiply-then-add order (verified against the frozen source).
+        multiply(sobel_dx, sobel_dx, buffers.magnitude_dx);
+        multiply(sobel_dy, sobel_dy, buffers.magnitude_dy);
+        add(buffers.magnitude_dx, buffers.magnitude_dy, magnitude);
         phase(sobel_dx, sobel_dy, sobel_ag, true);
-        hysteresisGradient(magnitude, angle, sobel_ag, threshold * threshold);
+        hysteresisGradient(magnitude, angle, sobel_ag, threshold * threshold, &buffers.quantized_unfiltered);
         angle_ori = sobel_ag;
 
     }else{
@@ -307,11 +324,13 @@ static void quantizedOrientations(const Mat &src, Mat &magnitude,
 
         // Allocate temporary buffers
         Size size = src.size();
-        Mat sobel_3dx;              // per-channel horizontal derivative
-        Mat sobel_3dy;              // per-channel vertical derivative
-        Mat sobel_dx(size, CV_32F); // maximum horizontal derivative
-        Mat sobel_dy(size, CV_32F); // maximum vertical derivative
-        Mat sobel_ag;               // final gradient orientation (unquantized)
+        Mat &sobel_3dx = buffers.sobel_3dx; // per-channel horizontal derivative
+        Mat &sobel_3dy = buffers.sobel_3dy; // per-channel vertical derivative
+        Mat &sobel_dx = buffers.sobel_dx; // maximum horizontal derivative
+        Mat &sobel_dy = buffers.sobel_dy; // maximum vertical derivative
+        Mat &sobel_ag = buffers.sobel_ag;
+        sobel_dx.create(size, CV_32F);
+        sobel_dy.create(size, CV_32F);
 
         Sobel(smoothed, sobel_3dx, CV_16S, 1, 0, 3, 1.0, 0.0, BORDER_REPLICATE);
         Sobel(smoothed, sobel_3dy, CV_16S, 0, 1, 3, 1.0, 0.0, BORDER_REPLICATE);
@@ -369,7 +388,7 @@ static void quantizedOrientations(const Mat &src, Mat &magnitude,
 
         // Calculate the final gradient orientations
         phase(sobel_dx, sobel_dy, sobel_ag, true);
-        hysteresisGradient(magnitude, angle, sobel_ag, threshold * threshold);
+        hysteresisGradient(magnitude, angle, sobel_ag, threshold * threshold, &buffers.quantized_unfiltered);
         angle_ori = sobel_ag;
     }
 
@@ -418,7 +437,8 @@ void ColorGradientPyramid::pyrDown()
 
 void ColorGradientPyramid::quantize(Mat &dst) const
 {
-    dst = Mat::zeros(angle.size(), CV_8U);
+    dst.create(angle.size(), CV_8U);
+    dst.setTo(0); // masked copy must clear pixels left by the previous frame
     angle.copyTo(dst, mask);
 }
 
@@ -562,7 +582,7 @@ static void orUnaligned8u(const uchar *src, const int src_stride,
         int c = 0;
 
         // not aligned, which will happen because we move 1 bytes a time for spreading
-        while (reinterpret_cast<unsigned long long>(src + c) % 16 != 0) {
+        while (c < width && reinterpret_cast<unsigned long long>(src + c) % 16 != 0) {
             dst[c] |= src[c];
             c++;
         }
@@ -592,9 +612,9 @@ static void spread(const Mat &src, Mat &dst, int T)
     dst = Mat::zeros(src.size(), CV_8U);
 
     // Fill in spread gradient image (section 2.3)
-    for (int r = 0; r < T; ++r)
+    for (int r = 0; r < std::min(T, src.rows); ++r)
     {
-        for (int c = 0; c < T; ++c)
+        for (int c = 0; c < std::min(T, src.cols); ++c)
         {
             orUnaligned8u(&src.at<unsigned char>(r, c), static_cast<const int>(src.step1()), dst.ptr(),
                           static_cast<const int>(dst.step1()), src.cols - c, src.rows - r);
@@ -607,7 +627,8 @@ static const unsigned char LUT3 = 3;
 CV_DECL_ALIGNED(16)
 static const unsigned char SIMILARITY_LUT[256] = {0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, 0, LUT3, 4, 4, LUT3, LUT3, 4, 4, 0, LUT3, 4, 4, LUT3, LUT3, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, LUT3, 4, 4, 4, 4, LUT3, LUT3, LUT3, LUT3, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, LUT3, LUT3, LUT3, 4, 4, 4, 4, 4, 4, 4, 4, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, LUT3, 0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 4, LUT3, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, 4, 4, LUT3, LUT3, 4, 4, 0, LUT3, 4, 4, LUT3, LUT3, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, LUT3, LUT3, 4, 4, 4, 4, LUT3, LUT3, LUT3, LUT3, 4, 4, 4, 4, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, LUT3, 0, 0, 0, 0, LUT3, LUT3, LUT3, LUT3, 4, 4, 4, 4, 4, 4, 4, 4};
 
-static void computeResponseMaps(const Mat &src, std::vector<Mat> &response_maps)
+static void computeResponseMaps(const Mat &src, std::vector<Mat> &response_maps,
+                                Mat *low_workspace = nullptr, Mat *high_workspace = nullptr)
 {
     CV_Assert((src.rows * src.cols) % 16 == 0);
 
@@ -616,8 +637,11 @@ static void computeResponseMaps(const Mat &src, std::vector<Mat> &response_maps)
     for (int i = 0; i < 8; ++i)
         response_maps[i].create(src.size(), CV_8U);
 
-    Mat lsb4(src.size(), CV_8U);
-    Mat msb4(src.size(), CV_8U);
+    Mat low_local, high_local;
+    Mat &lsb4 = low_workspace ? *low_workspace : low_local;
+    Mat &msb4 = high_workspace ? *high_workspace : high_local;
+    lsb4.create(src.size(), CV_8U);
+    msb4.create(src.size(), CV_8U);
 
     for (int r = 0; r < src.rows; ++r)
     {
@@ -1024,6 +1048,25 @@ static void similarityLocal_64(const std::vector<Mat> &linear_memories, const Te
 *                                                             High-level Detector API                                                                    *
 \****************************************************************************************/
 
+struct MatchWorkspace::Impl
+{
+    struct Level
+    {
+        Mat source, mask; // owned, downsampled inputs; level zero never retains the caller's Mats
+        Mat magnitude, angle, angle_ori, quantized, spread_quantized, spread_scratch;
+        GradientScratch gradient;
+        std::vector<Mat> response_maps;
+    };
+    std::vector<Level> levels;
+    std::vector<std::vector<std::vector<Mat>>> lm_pyramid;
+    std::vector<Size> sizes;
+};
+
+MatchWorkspace::MatchWorkspace() : impl_(new Impl) {}
+MatchWorkspace::~MatchWorkspace() = default;
+MatchWorkspace::MatchWorkspace(MatchWorkspace&&) noexcept = default;
+MatchWorkspace& MatchWorkspace::operator=(MatchWorkspace&&) noexcept = default;
+
 Detector::Detector()
 {
     this->modality = makePtr<ColorGradient>();
@@ -1049,55 +1092,104 @@ Detector::Detector(int num_features, std::vector<int> T, float weak_thresh, floa
 std::vector<Match> Detector::match(Mat source, float threshold,
                                    const std::vector<std::string> &class_ids, const Mat mask) const
 {
-    Timer timer;
-    std::vector<Match> matches;
+    thread_local MatchWorkspace workspace;
+    return match(source, threshold, workspace, MatchOptions(), nullptr, class_ids, mask);
+}
 
-    // Initialize each ColorGradient with our sources
-    std::vector<Ptr<ColorGradientPyramid>> quantizers;
-    CV_Assert(mask.empty() || mask.size() == source.size());
-    quantizers.push_back(modality->process(source, mask));
+std::vector<Match> Detector::match(Mat source, float threshold, MatchWorkspace &workspace,
+                                   const MatchOptions &options, MatchTimings *timings,
+                                   const std::vector<std::string> &class_ids, const Mat mask) const
+{
+    using Clock = std::chrono::steady_clock;
+    const bool measure = timings != nullptr || options.log_timing;
+    const auto start = measure ? Clock::now() : Clock::time_point();
+    auto stamp = [&]() { return measure ? Clock::now() : Clock::time_point(); };
+    auto milliseconds = [&](Clock::time_point from) {
+        return measure ? std::chrono::duration<double, std::milli>(Clock::now()-from).count() : 0.0;
+    };
+    MatchTimings measured;
+    CV_Assert(!source.empty() && source.depth() == CV_8U && (source.channels() == 1 || source.channels() == 3));
+    CV_Assert(mask.empty() || (mask.type() == CV_8UC1 && mask.size() == source.size()));
+    CV_Assert(pyramid_levels > 0 && T_at_level.size() == size_t(pyramid_levels));
 
-    // pyramid level -> ColorGradient -> quantization
-    LinearMemoryPyramid lm_pyramid(pyramid_levels,
-                                   std::vector<LinearMemories>(1, LinearMemories(8)));
+    // A call-local state is essential for a real no-reuse comparison.
+    MatchWorkspace::Impl local;
+    if (options.reuse_buffers && !workspace.impl_) workspace.impl_.reset(new MatchWorkspace::Impl);
+    MatchWorkspace::Impl &state = options.reuse_buffers ? *workspace.impl_ : local;
+    state.levels.resize(pyramid_levels);
+    state.lm_pyramid.resize(pyramid_levels);
+    state.sizes.resize(pyramid_levels);
+    static const detail::ResponseLUT response_lut(SIMILARITY_LUT);
 
-    // For each pyramid level, precompute linear memories for each ColorGradient
-    std::vector<Size> sizes;
+    // Each level owns distinct destinations so pyrDown never overwrites its input.
     for (int l = 0; l < pyramid_levels; ++l)
     {
-        int T = T_at_level[l];
-        std::vector<LinearMemories> &lm_level = lm_pyramid[l];
-
+        auto &level = state.levels[l];
+        const int T = T_at_level[l];
+        const auto pyramid_start = stamp();
         if (l > 0)
         {
-            for (int i = 0; i < (int)quantizers.size(); ++i)
-                quantizers[i]->pyrDown();
+            const Mat &previous = l == 1 ? source : state.levels[l-1].source;
+            const Size next_size(previous.cols/2, previous.rows/2);
+            cv::pyrDown(previous, level.source, next_size);
+            if (!mask.empty())
+            {
+                const Mat &previous_mask = l == 1 ? mask : state.levels[l-1].mask;
+                resize(previous_mask, level.mask, next_size, 0.0, 0.0, INTER_NEAREST);
+            }
+            else level.mask.release();
         }
+        measured.pyramid_ms += milliseconds(pyramid_start);
+        const Mat &input = l == 0 ? source : level.source;
+        const Mat &input_mask = l == 0 ? mask : level.mask;
+        CV_Assert(T > 0 && input.cols % T == 0 && input.rows % T == 0);
 
-        Mat quantized, spread_quantized;
-        std::vector<Mat> response_maps;
-        for (int i = 0; i < (int)quantizers.size(); ++i)
+        const auto gradient_start = stamp();
+        quantizedOrientations(input, level.magnitude, level.angle, level.angle_ori,
+                              modality->weak_threshold, &level.gradient);
+        level.quantized.create(input.size(), CV_8U);
+        level.quantized.setTo(0);
+        level.angle.copyTo(level.quantized, input_mask);
+        measured.gradient_ms += milliseconds(gradient_start);
+
+        const auto spread_start = stamp();
+        if (options.separable_spread)
+            detail::spreadSeparable(level.quantized, level.spread_quantized, level.spread_scratch, T);
+        else
+            spread(level.quantized, level.spread_quantized, T);
+        measured.spread_ms += milliseconds(spread_start);
+
+        state.lm_pyramid[l].resize(1);
+        LinearMemories &memories = state.lm_pyramid[l][0];
+        const auto response_start = stamp();
+        if (options.fused_response)
+            response_lut.linearize(level.spread_quantized, memories, T);
+        else
         {
-            quantizers[i]->quantize(quantized);
-            spread(quantized, spread_quantized, T);
-            computeResponseMaps(spread_quantized, response_maps);
-
-            LinearMemories &memories = lm_level[i];
-            for (int j = 0; j < 8; ++j)
-                linearize(response_maps[j], memories[j], T);
+            computeResponseMaps(level.spread_quantized, level.response_maps,
+                                &level.gradient.response_low, &level.gradient.response_high);
         }
-
-        sizes.push_back(quantized.size());
+        measured.response_ms += milliseconds(response_start);
+        if (!options.fused_response)
+        {
+            const auto linearize_start = stamp();
+            memories.resize(8);
+            for (int ori = 0; ori < 8; ++ori) linearize(level.response_maps[ori], memories[ori], T);
+            measured.linearize_ms += milliseconds(linearize_start);
+        }
+        state.sizes[l] = input.size();
     }
 
-    timer.out("construct response map");
+    measured.preprocess_ms = milliseconds(start);
+    const auto search_start = stamp();
+    std::vector<Match> matches;
 
     if (class_ids.empty())
     {
         // Match all templates
         TemplatesMap::const_iterator it = class_templates.begin(), itend = class_templates.end();
         for (; it != itend; ++it)
-            matchClass(lm_pyramid, sizes, threshold, matches, it->first, it->second);
+            matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second);
     }
     else
     {
@@ -1106,7 +1198,7 @@ std::vector<Match> Detector::match(Mat source, float threshold,
         {
             TemplatesMap::const_iterator it = class_templates.find(class_ids[i]);
             if (it != class_templates.end())
-                matchClass(lm_pyramid, sizes, threshold, matches, it->first, it->second);
+                matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second);
         }
     }
 
@@ -1115,7 +1207,15 @@ std::vector<Match> Detector::match(Mat source, float threshold,
     std::vector<Match>::iterator new_end = std::unique(matches.begin(), matches.end());
     matches.erase(new_end, matches.end());
 
-    timer.out("templ match");
+    measured.search_ms = milliseconds(search_start);
+    // Include transient buffer destruction in total_ms, just as an external
+    // caller timing the no-reuse overload would. Search excludes this cleanup.
+    if (!options.reuse_buffers) local = MatchWorkspace::Impl();
+    measured.total_ms = milliseconds(start);
+    if (timings) *timings = measured;
+    if (options.log_timing)
+        std::cout << "construct response map: " << measured.preprocess_ms << " ms\n"
+                  << "templ match: " << measured.search_ms << " ms\n";
 
     return matches;
 }

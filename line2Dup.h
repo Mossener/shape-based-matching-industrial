@@ -4,6 +4,7 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <map>
+#include <memory>
 
 #include "mipp.h"  // for SIMD in different platforms
 
@@ -140,6 +141,46 @@ inline Match::Match(int _x, int _y, float _similarity, const std::string &_class
 {
 }
 
+// Switch each stage independently for regression tests and performance tuning.
+// OpenCV/OpenMP thread counts remain controlled by the application.
+struct MatchOptions
+{
+    bool separable_spread = true;
+    bool fused_response = true;
+    bool reuse_buffers = true;
+    bool log_timing = false;
+};
+
+struct MatchTimings
+{
+    double pyramid_ms = 0;
+    double gradient_ms = 0; // blur, derivatives, orientation, masked quantization
+    double spread_ms = 0;
+    double response_ms = 0; // includes linearization when fused_response is true
+    double linearize_ms = 0; // zero when fused_response is true
+    double preprocess_ms = 0; // inclusive wall time, not the sum of rounded stages
+    double search_ms = 0; // template search, sorting and duplicate removal
+    double total_ms = 0;
+};
+
+// Use one workspace per concurrent worker. Its allocations can be reused by
+// different detectors serially. Every call refreshes image/mask data; no
+// caller-owned input Mat is retained.
+class MatchWorkspace
+{
+public:
+    MatchWorkspace();
+    ~MatchWorkspace();
+    MatchWorkspace(MatchWorkspace&&) noexcept;
+    MatchWorkspace& operator=(MatchWorkspace&&) noexcept;
+    MatchWorkspace(const MatchWorkspace&) = delete;
+    MatchWorkspace& operator=(const MatchWorkspace&) = delete;
+private:
+    struct Impl;
+    std::unique_ptr<Impl> impl_;
+    friend class Detector;
+};
+
 class Detector
 {
 public:
@@ -154,6 +195,12 @@ public:
     std::vector<Match> match(cv::Mat sources, float threshold,
                                                      const std::vector<std::string> &class_ids = std::vector<std::string>(),
                                                      const cv::Mat masks = cv::Mat()) const;
+
+    std::vector<Match> match(cv::Mat source, float threshold, MatchWorkspace &workspace,
+                            const MatchOptions &options = MatchOptions(),
+                            MatchTimings *timings = nullptr,
+                            const std::vector<std::string> &class_ids = std::vector<std::string>(),
+                            const cv::Mat mask = cv::Mat()) const;
 
     int addTemplate(const cv::Mat sources, const std::string &class_id,
                                     const cv::Mat &object_mask, int num_features = 0);
