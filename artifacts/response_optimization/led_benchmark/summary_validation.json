@@ -1,0 +1,16 @@
+{
+  "rows": 5184,
+  "measured_groups": 288,
+  "expected_measured_groups": 288,
+  "missing_measured_groups": 0,
+  "unexpected_measured_groups": 0,
+  "incorrect_phase_sample_counts": 0,
+  "minimum_measured_samples": 15,
+  "semantic_failures": 0,
+  "strict_set_differences": 0,
+  "raw_count_differences": 0,
+  "p95_method": "linear interpolation at (n-1)*0.95; descriptive sample quantile",
+  "rollup_method": "arithmetic mean of per-image medians; each image equal weight",
+  "paired_speedup_method": "baseline/variant for the same image/thread/mode/round; median over pairs",
+  "original_total_limit": "includes immutable adapter log-capture and Match-to-Result vector allocation/copy conversion overhead; see all_false contrast"
+}

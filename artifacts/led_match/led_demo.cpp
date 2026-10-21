@@ -1,5 +1,5 @@
 // One-off experiment: use the contours stored in LED/ku.smd with this
-// repository's unmodified line2Dup matcher. Not a general SMD format reader.
+// repository's current line2Dup matcher. Not a general SMD format reader.
 #include "line2Dup.h"
 #include <opencv2/imgcodecs.hpp>
 #include <omp.h>

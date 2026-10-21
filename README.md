@@ -1,5 +1,7 @@
 # shape_based_matching  
 
+本地 LED/SMD 响应构建优化：[验证与性能记录](artifacts/response_optimization/README.md) · [Git 版本说明](docs/optimization_versions.md)。原调用接口保留，新接口支持独立开关、跨帧缓冲区及分阶段计时。
+
 update:   
 **[fusion implementation to run faster!](https://github.com/meiqua/shape_based_matching/issues/77)**  
 **[icp is also refined to be faster and easier to use](https://github.com/meiqua/shape_based_matching/issues/100)**  

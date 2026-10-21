@@ -1,0 +1,14 @@
+{
+  "benchmark":"same-process response construction ablation",
+  "pyramid_steps":[4,8,8],"template_count":900,"feature_counts":[236,111,46],
+  "threshold":75,"padding":64,"openmp_threads":4,"opencv_threads":[1,2,4],"images":[1,2,3,4,5,6,7,8],
+  "repeats":15,"warmups_per_image_case_threads_mode":2,
+  "cases":["original","all_false","spread_only","fusion_only","reuse_only","all"],
+  "modes":["full","preprocess_only"],
+  "measured_order":"rotate all six cases each round and image; alternate direction each round",
+  "cold_definition":"first call per image/config/thread/mode, fresh workspace; not fresh process or cache flush",
+  "original_stage_timing":"preprocess/search parsed from original log; finer stages unavailable; external total includes adapter log capture overhead",
+  "semantic_key":"set(x,y,float_score_bits,class_id); drops template_id to handle equal-score duplicate pruning",
+  "strict_key":"set(x,y,float_score_bits,class_id,template_id); raw match_count also recorded",
+  "timing_scope":"wall surrounds match call only; key comparison, input I/O, template import, CSV excluded"
+}

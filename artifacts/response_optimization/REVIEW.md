@@ -34,9 +34,24 @@ one addition, with default unit scale and unchanged float depth. The scratch
 outputs must not alias the derivative inputs or magnitude. Each output is fully
 overwritten on every grayscale call, and OpenCV recreates it when dimensions
 change; the color path does not consume these buffers. This removes repeated
-temporary image allocation without caching computed pixels. The patch remains
-subject to the root-run byte-for-byte intermediate-output tests and allocation
-counter regression; no CPU tests were run by this reviewer for this follow-up.
+temporary image allocation without caching computed pixels.
+
+The validation conditions are satisfied. Existing `test_results.json` confirms
+all suites pass: spread 3,208 checks, response 127 cases / 1,610,176 compared
+bytes, pipeline 1,512 byte-exact intermediate comparisons including float
+magnitude after the multiply/add change, enhanced Workspace regression, and
+52 allocation-counter frames across four scenarios. On stable warm frames,
+grayscale allocation requests fall from 116 calls / 39,109,124 bytes to
+27 calls / 516 bytes; color requests fall from 146 calls / 44,471,292 bytes to
+57 calls / 1,020 bytes. These count requested bytes, not resident-memory usage
+or a claim of zero allocations. Resize transitions and allocator restoration
+also pass.
+
+The existing benchmark `led_benchmark/summary_validation.json` records 5,184
+calls, all 288 expected measured groups, and zero semantic-set, strict-set or
+raw-count differences. `led_benchmark/AUDIT.md` independently confirms all 19
+recorded source/input SHA-256 hashes match. This follow-up reviewed those saved
+results only; no additional CPU tests or benchmarks were run by this reviewer.
 
 ## Correctness evidence
 
