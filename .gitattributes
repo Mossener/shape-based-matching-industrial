@@ -28,3 +28,6 @@ tools/datasets/** -text whitespace=cr-at-eol
 artifacts/public_datasets/** -text whitespace=cr-at-eol
 artifacts/public_evaluation/** -text whitespace=cr-at-eol
 artifacts/magnet_match/** -text whitespace=cr-at-eol
+artifacts/quality_coverage/** -text whitespace=cr-at-eol
+# Keep the compiler's captured stdout verbatim, including its final blank line.
+artifacts/quality_coverage/**/compiler_version_stdout.txt -whitespace

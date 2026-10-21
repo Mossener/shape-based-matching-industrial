@@ -96,6 +96,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 - [T-LESS 扩展数据获取与覆盖报告](docs/datasets/tless-expanded-acquisition.md)和[固定评测协议](docs/datasets/tless-expanded-protocol.md)
 - [确定性候选回归、阶段计时与独立审查](artifacts/match_consolidation/README.md)
 - [公开开发评测与原始候选审计](artifacts/public_evaluation/README.md)
+- [独立边缘覆盖实验、召回损失与误检结果](artifacts/quality_coverage/DEVELOPMENT_RESULTS_20261021.md)
 - [历史“360 模板 / 7 ms”与当前 LED 的测试条件区别](artifacts/search_optimization/CALIBRATION.md)
 
 ### 当前范围
@@ -104,7 +105,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 
 新增磁片回归定位了两种“完全无法识别”的原因：尺度未覆盖目标，以及大模板在深金字塔中没有可行的精修中心区间。统一扩大尺度范围、按模板库补边后，六张非来源图均通过 IoU≥0.5 的粗框定位检查；这六张都已参与开发观察，且没有负图，不能据此声称通用准确率或测量精度提高。原始失败、因果诊断和独立审查一同保留。
 
-公开 T-LESS 数据已经扩展到 800 张测试图、576 张训练视图、8 个目标和 16 个新场景；开发与场景留出各 400 张，另保留两个物体作泛化检查。V13 固定 actual-85 开发基线已完成 tiny 和目标 1、2、5、8；四个目标分别评估同一组 400 张开发图，不能相加为 1600 张不同图像。目标 8 为 TP1/FP68/FN49，部分大尺度模板还存在几何区间不可行的问题。当前基线既有误检也有漏检，不能把更大数据量、实现等价或匹配分数当成准确率提高。目标 12、17 的质量评测和独立边缘覆盖实验在后续版本单独记录。
+公开 T-LESS 数据已经扩展到 800 张测试图、576 张训练视图、8 个目标和 16 个新场景；开发与场景留出各 400 张，另保留两个物体作泛化检查。V13 固定 actual-85 开发基线已完成 tiny 和目标 1、2、5、8；四个目标分别评估同一组 400 张开发图，不能相加为 1600 张不同图像。目标 8 为 TP1/FP68/FN49，部分大尺度模板还存在几何区间不可行的问题。当前基线既有误检也有漏检，不能把更大数据量、实现等价或匹配分数当成准确率提高。目标 12、17 的质量评测在后续版本单独记录。
+
+V14 的独立稠密边缘覆盖实验使用三个预先固定的阈值。在目标1的400张开发图上，覆盖阈值0.65保留37个已检测真值，误检从7842降到6397，但350张负图仍全部有误报；阈值0.80将误检降到1195，同时丢失6个原已检测真值并新增1个，总TP降为32。16张tiny开发图也观察到类似取舍。该实验保留为诊断工具，尚未接入默认匹配，也没有建立速度收益。
 
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 

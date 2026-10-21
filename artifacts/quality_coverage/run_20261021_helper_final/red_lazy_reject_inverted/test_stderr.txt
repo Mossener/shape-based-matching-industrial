@@ -1,0 +1,1 @@
+FAIL after 12020 checks: full/lazy retained count

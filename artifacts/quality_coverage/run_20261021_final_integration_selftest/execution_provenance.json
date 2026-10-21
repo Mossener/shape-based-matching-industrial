@@ -1,0 +1,28 @@
+﻿{
+    "exit_code":  0,
+    "build_manifest_sha256":  "CD477C0942AC615F29DC5485A5C6DDAD7B550CEFF47732A65F62F4661E248768",
+    "finished_at":  "2026-10-21T20:02:10.1506230+08:00",
+    "verified_inputs_sha256":  "",
+    "heldout_images_read":  0,
+    "executable_sha256":  "5D08F5722EB022F9F34743A152882592BD7DF244FCB0D86CE77BF711BB450645",
+    "inputs_unchanged":  true,
+    "started_at":  "2026-10-21T20:02:09.5939540+08:00",
+    "output_sha256":  {
+                          "build_manifest.json":  "CD477C0942AC615F29DC5485A5C6DDAD7B550CEFF47732A65F62F4661E248768",
+                          "integration_selftest.json":  "2C1E49CA1E12EBE97888DDDAB1F439A677BC9BA7FA5F4610A2C7C88F98E1F112",
+                          "s99_i3_fallback_raw.csv.gz":  "D8B18F99179F13129595E21D3E6FB9CCC3954517654C1A786D8EF7DDEF755623",
+                          "s99_i3_fallback_raw_manifest.json":  "0EE6BFA812B0D2051C67CC11E798C5491710C694BDFAB59BB5649E060297C3E4",
+                          "stderr.txt":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                          "stdout.txt":  "1AC28607CA77C5912DA884F682ED9672D556BEFC89A588CA42832267D33AC75F"
+                      },
+    "sources_unchanged":  true,
+    "mode":  "selftest",
+    "dataset_images_evaluated":  0,
+    "scope":  "Frozen actual85 development coverage comparison; no heldout mode, no paired performance claim",
+    "argv":  [
+                 "--mode",
+                 "selftest",
+                 "--output",
+                 "artifacts/quality_coverage/run_20261021_final_integration_selftest"
+             ]
+}

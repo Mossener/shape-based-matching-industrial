@@ -1,0 +1,1 @@
+FAIL after 1 checks: orientation 7 must support label 0 at radius-2 diagonal

@@ -1,0 +1,14 @@
+{
+    "pass": 1,
+    "dataset_images_read": 0,
+    "single_bit_labels": 8,
+    "asymmetric_warp_cases": 12,
+    "multibit_rejected": 1,
+    "strong_equality_excluded": 1,
+    "noncontiguous_roi": 1,
+    "padded_context_difference": 1,
+    "histogram_label_bridge": 1,
+    "known_sha256_fixture": 1,
+    "raw_exact_roundtrip": 1,
+    "raw_metadata_mismatch_rejected": 1
+}
