@@ -5,3 +5,16 @@ artifacts/search_optimization/baseline/*.cpp -text
 artifacts/search_optimization/baseline/*.h -text
 # Keep imported Markdown hard breaks and its original trailing blank line.
 README.upstream.md -text -whitespace
+# Keep the byte hashes in the new profiling/benchmark evidence reproducible.
+line2Dup.cpp -text
+line2Dup.h -text
+line2Dup_local.hpp -text
+tests/local_accumulator_test.cpp -text
+tests/local_search_workspace_test.cpp -text
+artifacts/search_optimization/fixtures.hpp -text
+artifacts/search_profile/** -text whitespace=cr-at-eol
+artifacts/local_center_profile/** -text whitespace=cr-at-eol
+artifacts/local_search_optimization/** -text whitespace=cr-at-eol
+# Namespaced snapshots preserve legacy whitespace along with source hashes.
+artifacts/search_profile/source/** -whitespace
+artifacts/local_center_profile/source/** -whitespace

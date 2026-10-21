@@ -1,0 +1,35 @@
+{
+  "audited_at": "2026-10-21T08:02:13.210260+00:00",
+  "passed": true,
+  "snapshot_git_head": "6b7be69f96cffc1a914674691c6f20d80ea09106",
+  "checks": [
+    "Snapshot source hashes match the original run environment; all five generated files match their immutable manifest.",
+    "Driver/header hashes match the run environment. No production-source refresh or matching rerun was performed.",
+    "Nine pre-profile current/instrumented comparisons passed semantic sets, strict sets, and raw counts.",
+    "All 90 cold/warmup/measured calls passed semantic, strict, and raw-count checks; phase counts are 9/18/63.",
+    "All 52,927 template rows and 156,254 level rows have aligned CSV fields and unique expected keys.",
+    "Every template has exactly its expected pyramid levels; coarse output equals next-level input and local output equals next-level input.",
+    "Every local call count equals its candidate input count; clamping counts are bounded by calls.",
+    "Per-template region census partitions map = accumulated prefix + zero tail and prefix = valid rectangle + wrapped positions.",
+    "All measured call counts and all five worker stage sums reconcile independently with template/level CSVs.",
+    "Sum of L0 outputs equals pre-sort count; post-unique count equals validated current count.",
+    "Per-image medians, worker-share percentages, census percentages, and dataset equal-weight means were independently recalculated."
+  ],
+  "csv_rows": {
+    "validation": 9,
+    "calls": 90,
+    "templates": 52927,
+    "levels": 156254
+  },
+  "sha256": {
+    "environment.json": "ddfffcb4968b5d267a6914c5029fe958437feffc76cbecc04fa8d43c98a7eccc",
+    "config.json": "2d6a39bbc5c5ea93321c063dc40a288dfe2264ecf3101d668f83f8c2a551d05d",
+    "validation.csv": "accbac94399c6c8c13d5a0f8c0c6eef3e31521aa26fc5f26251093ae543c83fc",
+    "calls.csv": "89e7d83bd8110cc77ff4d065a1ac34bf0febe9935c8110d95bc8dd8b3a0b96e7",
+    "templates.csv": "afd6aa1d9a9c8106ae26604614e8c9725f00e37d80d58bd80110b69d4b964a26",
+    "levels.csv": "3b8a933ccafa973dfa8e0369918a1c1d88dfb62a5617254467963179f15953e5",
+    "summary_by_image.csv": "aac40adc823daf7dfe19cdee0fc5164c18334eefe9221122bfb04cea64830e70",
+    "summary_by_dataset.csv": "018d0434d8e957c1c3120196f22116769ab19dd080a1c3199505b7738b2ff8b6",
+    "summary_levels.csv": "a6f1a771fd0cecec6c5b5b7e69f7218e2e02d9c0389c54fc7c8ce4f2535e0e23"
+  }
+}

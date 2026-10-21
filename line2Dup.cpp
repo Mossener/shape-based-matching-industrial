@@ -2,6 +2,7 @@
 #include "line2Dup_spread.hpp"
 #include "line2Dup_response.hpp"
 #include "line2Dup_search.hpp"
+#include "line2Dup_local.hpp"
 #ifdef _OPENMP
 #include <omp.h>
 #endif
@@ -1052,10 +1053,35 @@ static void similarityLocal_64(const std::vector<Mat> &linear_memories, const Te
 *                                                             High-level Detector API                                                                    *
 \****************************************************************************************/
 
+#if defined(MIPP_SSE)
+static detail::LocalMaximum similarityLocalMaximum(
+    const std::vector<Mat>& linear_memories, const Template& templ,
+    Size size, int T, Point center, std::vector<const unsigned char*>& streams)
+{
+    const int W = size.width / T;
+    const int offset_x = (center.x / T - 8) * T;
+    const int offset_y = (center.y / T - 8) * T;
+    streams.clear();
+    streams.reserve(templ.features.size());
+    for (const auto& original : templ.features) {
+        Feature f = original;
+        f.x += offset_x;
+        f.y += offset_y;
+        // Keep the original adjusted-coordinate check, including negative
+        // source features and undersized-image clamping behavior.
+        if (f.x < 0 || f.y < 0 || f.x >= size.width || f.y >= size.height) continue;
+        streams.push_back(accessLinearMemory(linear_memories, f, T, W));
+    }
+    return detail::localMaximum16x16(streams.data(), streams.size(), W,
+                                   static_cast<int>(templ.features.size()));
+}
+#endif
+
 struct SearchScratch
 {
     Mat coarse_similarities, local_similarities;
     std::vector<Match> candidates;
+    std::vector<const unsigned char*> local_streams;
 };
 
 struct MatchWorkspace::Impl
@@ -1386,28 +1412,33 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
                 x = std::min(x, max_x);
                 y = std::min(y, max_y);
 
-                // Compute local similarity maps for each ColorGradient
-                int numFeatures = 0;
-
+                detail::LocalMaximum best;
+#if defined(MIPP_SSE)
+                if (options.fused_local_search && options.integer_local_max && size.width / T >= 16) {
+                    best = similarityLocalMaximum(lms[0], tp[start], size, T, Point(x, y),
+                                                  scratch.local_streams);
+                } else
+#endif
                 {
-                    const Template &templ = tp[start];
-                    numFeatures += static_cast<int>(templ.features.size());
-
-                    if (templ.features.size() < 64){
-                        similarityLocal_64(lms[0], templ, similarities2, size, T, Point(x, y));
-                        if (!options.direct_8bit_search) similarities2.convertTo(similarities2, CV_16U);
-                    }else if (templ.features.size() < 8192){
-                        similarityLocal(lms[0], templ, similarities2, size, T, Point(x, y));
-                    }else{
-                        CV_Error(Error::StsBadArg, "feature size too large");
+                    // Compute local similarity maps for each ColorGradient.
+                    int numFeatures = 0;
+                    {
+                        const Template &templ = tp[start];
+                        numFeatures += static_cast<int>(templ.features.size());
+                        if (templ.features.size() < 64) {
+                            similarityLocal_64(lms[0], templ, similarities2, size, T, Point(x, y));
+                            if (!options.direct_8bit_search) similarities2.convertTo(similarities2, CV_16U);
+                        } else if (templ.features.size() < 8192) {
+                            similarityLocal(lms[0], templ, similarities2, size, T, Point(x, y));
+                        } else {
+                            CV_Error(Error::StsBadArg, "feature size too large");
+                        }
                     }
+                    best = options.integer_local_max
+                        ? detail::localMaximum(similarities2, numFeatures)
+                        : (similarities2.type() == CV_8UC1 ? floatLocalMaximum<uchar>(similarities2, numFeatures)
+                                                          : floatLocalMaximum<ushort>(similarities2, numFeatures));
                 }
-
-                // Find best local adjustment
-                const detail::LocalMaximum best = options.integer_local_max
-                    ? detail::localMaximum(similarities2, numFeatures)
-                    : (similarities2.type() == CV_8UC1 ? floatLocalMaximum<uchar>(similarities2, numFeatures)
-                                                      : floatLocalMaximum<ushort>(similarities2, numFeatures));
                 // Update current match
                 match2.similarity = best.score;
                 match2.x = (x / T - 8 + best.col) * T + offset;

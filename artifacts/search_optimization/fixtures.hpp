@@ -70,6 +70,8 @@ inline line2Dup::MatchOptions options(unsigned bits) {
     result.integer_local_max=(bits&1)!=0;
     result.direct_8bit_search=(bits&2)!=0;
     result.reuse_search_buffers=(bits&4)!=0;
+    // Freeze the historical three-option experiment when later options appear.
+    result.fused_local_search=false;
     return result;
 }
 }

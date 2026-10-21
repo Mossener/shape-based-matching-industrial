@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "v4_semantic_count_checks": 9,
+  "strict_set_differences": 0,
+  "center_level_rows": 17,
+  "template_level_rows": 14761,
+  "histogram_rows": 182,
+  "checks": [
+    "private snapshot hashes",
+    "V4 semantic/raw-count equivalence",
+    "template unique keys",
+    "per-template totals",
+    "histogram total/unique/duplicate/max consistency",
+    "V9 local call and clamp counts unchanged"
+  ],
+  "sha256": {
+    "environment.json": "189ea7ded8e12bd570cd31b8760a8dd9c023bba64ac3f2564caba21c28b245ad",
+    "config.json": "b2587484e7513428f7fcb95a780518743eff9e1e507bb7595c05564f2ec92992",
+    "validation.csv": "a305445e9808e40deccf56002bfe9bc20532aa76c91b1be6cb7cbfd4e2c70043",
+    "centers_by_level.csv": "18ef605323a170002bb38f526ab7345eea5bee22d31c1d7e39bf05fabd945211",
+    "center_frequency.csv": "d9cc33b5976004f0eff5db3cf915436203041bf8c0b7d0bcc0fb6d03304573a6",
+    "centers_by_template.csv": "b8aeafcdbf44ac8c47b7ef015d1313bc6635c3ec590d9f97e3bdfe1271b508fb",
+    "status.json": "a0470eb8afc67d8b4d368a83cea992af5ad1a58d6ab5a3ad0167e75c10d2b670"
+  }
+}

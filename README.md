@@ -17,6 +17,7 @@
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/response_optimization/run_tests.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimization/run_benchmark.ps1 -Test
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optimization/run_tests.ps1
 ```
 
 脚本默认使用 `F:\mysys2\ucrt64\bin\g++.exe` 和 `D:\opencv-4.12.0`，可通过 `-Compiler`、`-OpenCV` 参数替换路径。当前链接名固定为 `opencv_world4120`，更换 OpenCV 版本还需调整脚本。
@@ -40,7 +41,7 @@ auto matches = detector.match(frame, 75.f, workspace, options, &timing, {"LED"})
 
 每个并发调用必须独占工作区。Detector 可供不同工作区只读匹配，训练和模板修改不得与匹配并发。OpenCV/OpenMP 线程数由应用设置，库不修改全局线程配置。模板生成示例见 [test.cpp](test.cpp)，给定 SMD 样本的使用示例见 [led_demo.cpp](artifacts/led_match/led_demo.cpp)。
 
-六项优化开关为 `separable_spread`、`fused_response`、`reuse_buffers`、`integer_local_max`、`direct_8bit_search`、`reuse_search_buffers`，默认开启，可分别关闭做对照。`reuse_buffers=false` 时工作区状态仅在本次调用内存在。
+优化开关为 `separable_spread`、`fused_response`、`reuse_buffers`、`integer_local_max`、`direct_8bit_search`、`reuse_search_buffers`、`fused_local_search`，默认开启，可分别关闭做对照。`fused_local_search` 在 SSE 且整数最大值开启时融合局部累加与最大值选择，其他路径保留已有实现。`reuse_buffers=false` 时工作区状态仅在本次调用内存在。
 
 ### 性能测试
 
@@ -48,6 +49,7 @@ auto matches = detector.match(frame, 75.f, workspace, options, &timing, {"LED"})
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimization/run_benchmark.ps1 -SkipCompile -Run -OutputDirectory artifacts/search_optimization/my_run
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optimization/run_benchmark.ps1 -Run -OutputDirectory artifacts/local_search_optimization/my_run
 ```
 
 ## 来源
@@ -73,11 +75,14 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimizatio
 | --- | --- | --- |
 | V4 响应优化，同轮原版对照 | 构建 14.794 → 9.677；外部完整调用 42.621 → 36.983 | 构建减少 34.6%，完整调用减少 13.2% |
 | V7 搜索优化，同轮冻结 V4 对照 | 搜索 28.781 → 27.666；内部完整调用 38.763 → 37.873 | 搜索减少 3.87%，完整调用减少 2.30% |
+| V10 局部累加融合，同轮关闭该项对照 | 搜索 31.835 → 20.463；内部完整调用 42.153 → 30.823 | 搜索减少 35.72%，完整调用减少 26.88% |
 
-两行来自不同运行，不能跨行相减或相加。搜索收益较小且有波动；整数最大值单项在本轮优于组合，直接 8U 和搜索缓冲复用未建立稳定的独立收益，case1 搜索未提速。
+各行来自不同运行，不能跨行相减或相加。V7 的搜索收益较小且有波动，直接 8U 和搜索缓冲复用未建立稳定的独立收益。V10 的两轮 LED 搜索分别减少 25.39% 和 35.72%，8/8 图中位数均改善；case1 未建立稳定的完整调用收益，不能外推为普遍加速。
 
 - [响应优化测试与原始数据](artifacts/response_optimization/README.md)
 - [搜索优化测试与原始数据](artifacts/search_optimization/README.md)
+- [局部累加融合、两轮数据与独立审查](artifacts/local_search_optimization/README.md)
+- [搜索细分诊断](artifacts/search_profile/run_v9/REPORT.md)与[重复局部中心统计](artifacts/local_center_profile/run_v9_centers/REPORT.md)
 - [历史“360 模板 / 7 ms”与当前 LED 的测试条件区别](artifacts/search_optimization/CALIBRATION.md)
 
 ### 当前范围

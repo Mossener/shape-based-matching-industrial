@@ -1,0 +1,10 @@
+dataset,image,v4_count,instrumented_count,v4_semantic,instrumented_semantic,semantic_equal,strict_equal,count_equal
+LED,1.bmp,52,52,52,52,1,1,1
+LED,2.bmp,43,43,43,43,1,1,1
+LED,3.bmp,33,33,33,33,1,1,1
+LED,4.bmp,15,15,15,15,1,1,1
+LED,5.bmp,37,37,37,37,1,1,1
+LED,6.bmp,35,35,35,35,1,1,1
+LED,7.bmp,41,41,41,41,1,1,1
+LED,8.bmp,15,15,15,15,1,1,1
+case1,case1,7,7,7,7,1,1,1

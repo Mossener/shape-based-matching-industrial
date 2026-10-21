@@ -152,6 +152,9 @@ struct MatchOptions
     bool integer_local_max = true;
     bool direct_8bit_search = true;
     bool reuse_search_buffers = true;
+    // SSE row-register accumulation with fused first-maximum selection.
+    // Other SIMD backends and float-per-pixel mode retain the existing path.
+    bool fused_local_search = true;
 };
 
 struct MatchTimings

@@ -1,0 +1,10 @@
+dataset,image,case,matches,semantic_equal,strict_equal,count_equal,semantic_hash,strict_hash
+LED,1.bmp,fused_requested_float,52,1,1,1,5ddfe60398e81678,11d0684c4ac2d81b
+LED,2.bmp,fused_requested_float,43,1,1,1,b07f24bc53fbc2f6,691a88793991c076
+LED,3.bmp,fused_requested_float,33,1,1,1,b80521b75bfed0c2,407d03d8911f43df
+LED,4.bmp,fused_requested_float,15,1,1,1,712c7c3bc752b062,f404078726662fb6
+LED,5.bmp,fused_requested_float,37,1,1,1,9cae9a86f094c395,d80b87be3d0f0218
+LED,6.bmp,fused_requested_float,35,1,1,1,ea354442297fa09b,7e9faa2bdfc7e650
+LED,7.bmp,fused_requested_float,41,1,1,1,8b2ee878bf4259e4,9b8f7e91ecd0d347
+LED,8.bmp,fused_requested_float,15,1,1,1,535f657af0e2a5d5,e2b72c08d6551856
+case1,case1,fused_requested_float,7,1,1,1,2d91de2fc8183dd0,d8cee433e665ad82

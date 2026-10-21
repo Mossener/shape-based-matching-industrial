@@ -1,0 +1,17 @@
+{
+  "git_head": "6b7be69f96cffc1a914674691c6f20d80ea09106",
+  "source_sha256": {
+    "line2Dup.cpp": "ebd5aa5c1d32cfbecf3d45214c97c9222def9050008b1c8b1a2cab297c28d121",
+    "line2Dup.h": "6e2c0b901d605946eeddeb5efd1bbcafb0037e010451b76c2753858439b034bd",
+    "line2Dup_spread.hpp": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+    "line2Dup_response.hpp": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+    "line2Dup_search.hpp": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a"
+  },
+  "generated_sha256": {
+    "source/line2Dup.cpp": "4dd55b9f8853cde8d2f65c27702cd4e626d6d6c4ab85203fcff02a90ad6722bd",
+    "source/line2Dup.h": "e098f0662c6c155447f9cc5c30b20dd84580ae028988afe499dc5777a275a9b2",
+    "source/line2Dup_spread.hpp": "e7d35576efae9b0067de300bb5ab21aa5afaf13769ae6194453e1a20af95b820",
+    "source/line2Dup_response.hpp": "11d05ac8a27b04dd4c038871c510178957daa46d537353e69f6872eb68392fc6",
+    "source/line2Dup_search.hpp": "5d83468cc061e92d123f076b82c548181d1481ad7561e0aa71f1d1694cf2a7b6"
+  }
+}

@@ -1,0 +1,59 @@
+﻿{
+    "compiler_flags":  [
+                           "-std=c++14",
+                           "-O3",
+                           "-mssse3",
+                           "-msse4.1",
+                           "-fopenmp",
+                           "-I.",
+                           "-IMIPP",
+                           "-ID:\\opencv-4.12.0/build",
+                           "-ID:\\opencv-4.12.0/modules/core/include",
+                           "-ID:\\opencv-4.12.0/modules/imgproc/include",
+                           "-ID:\\opencv-4.12.0/modules/highgui/include",
+                           "-ID:\\opencv-4.12.0/modules/imgcodecs/include",
+                           "-ID:\\opencv-4.12.0/modules/videoio/include"
+                       ],
+    "compiler":  "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+    "source_sha256":  {
+                          "line2Dup.cpp":  "21410A0BB99AE1E0C90DA7F8B54547DD6F3C190DF7D811662F15A98227BA8700",
+                          "line2Dup.h":  "C3A8F742FC897BDCFA83A82A9A025E6B304F410BC081C321695F5E6F7F461FC0",
+                          "line2Dup_local.hpp":  "1B29137FA481B7C1B5F9C210A2D948AEF21FC24219AD43FB59E5DF91BBE96001",
+                          "line2Dup_search.hpp":  "5A92C1C55BB9A2529307C825859136244E2E8EE40B5BDE3CA029248D28B8220A",
+                          "line2Dup_spread.hpp":  "FE821B7C9ECA784817FAC78334020ED34630CC2426254CDE9DF830DB9C524C5E",
+                          "line2Dup_response.hpp":  "33075CFD694488C1B1CB46F8BB821131ED64202F50B5557E4468EEA8C0E871A9",
+                          "tests/local_accumulator_test.cpp":  "1827EF03970A766657BFAC5B91D2C5C395BF496D6534A5A46C5D2B7A3849A846",
+                          "tests/local_search_workspace_test.cpp":  "E25A1C8ADFAEC419D2EA37592816C2D8F9D4842DD2EC2942E35897A23906991A",
+                          "tests/search_reference_matcher.cpp":  "72D52A634A3C29F058F5968F2BC009E65D0027281753684B6524BCFC2F67209D",
+                          "tests/search_reference_matcher.hpp":  "A8C2A8046607C287DE31273529E0CE1E0D8E5AE6F00975C1090636A1C9EA822F",
+                          "artifacts/search_optimization/fixtures.hpp":  "F828E59D40F387BE982936A3FC044EA31FD3861D0F71F0D8236234ECD9FF1096",
+                          "artifacts/led_match/led_demo.cpp":  "3B6521E0D8EDB6C2CE7AD49FB22B50ADA76BDA1CF5AFDA37549972042F491E13",
+                          "artifacts/search_optimization/baseline/line2Dup.cpp":  "7E2DE234DA8EDEE41BE0E75248313BB9312038D9C90CB9A9B659E5A741A6CF26",
+                          "artifacts/search_optimization/baseline/line2Dup.h":  "8C77FFC8DBB09A7F33A3D8A506E872BAA7703E8299594392A9853390F2BF1CA5"
+                      },
+    "omp_thread_matrix":  [
+                              1,
+                              4,
+                              2,
+                              4
+                          ],
+    "completed_at":  "2026-10-21T16:16:47.8987253+08:00",
+    "tests":  [
+                  {
+                      "passed":  true,
+                      "executable_sha256":  "386EFC9079253C6932144422B5738DD9F20BF1960A6C1BE4CB8F36C6815698B5",
+                      "name":  "local_accumulator",
+                      "output":  "PASS local accumulator: 544 scalar-oracle cases; byte/word extremes, ties, zero/skipped features and strides",
+                      "exit_code":  0
+                  },
+                  {
+                      "passed":  true,
+                      "executable_sha256":  "76E5707185F240C2D6A3BC422F4DAC03DAE1C1F501E00C5C05F85568A43A58B9",
+                      "name":  "local_search_workspace",
+                      "output":  "SMD points: 236 111 46 22\nPASS local search: 96 independent preparation cases, 450 V4 calls; masks, float fallback, workspace resize/move and concurrency; strict_differences=0",
+                      "exit_code":  0
+                  }
+              ],
+    "omp_wait_policy":  "PASSIVE",
+    "cv_threads":  1
+}
