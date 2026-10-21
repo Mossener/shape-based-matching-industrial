@@ -1,0 +1,18 @@
+{
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13500HX",
+  "compiler": "F:/mysys2/ucrt64/bin/g++.exe GCC 15.1.0",
+  "opencv": "D:/opencv-4.12.0 OpenCV 4.12.0",
+  "flags": [
+    "-std=c++14",
+    "-O3",
+    "-mssse3",
+    "-msse4.1",
+    "-fopenmp"
+  ],
+  "source_sha256": {
+    "line2Dup.cpp": "7fa403399af09f8b4e1b9fd0cdc0a77268ddfb6b1b233e61972cc886d9ab4157",
+    "line2Dup.h": "79b0a0ed678abbfaeb035092c47e4710ed0ea6c329b51b69cf7eb49c7ea060ef",
+    "artifacts\\led_match\\led_demo.cpp": "16b06212a85bf40e71c574efefbed7ba6b609b601c5150959e51fd99954771b5",
+    "LED\\ku.smd": "d469170319f76f6924597a45c2b820572b8c0be2d78cbbc95d00f2ece517a3e0"
+  }
+}

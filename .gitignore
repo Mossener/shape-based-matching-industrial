@@ -1,0 +1,10 @@
+build/
+.idea/
+.vscode/
+CMakeLists.txt.user
+*.exe
+*.o
+*.obj
+*.dll
+*.log
+__pycache__/

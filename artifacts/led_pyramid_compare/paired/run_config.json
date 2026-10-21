@@ -1,0 +1,1 @@
+{"levels":[2,3],"repeats_per_image_per_configuration":10,"warmups":1,"template_count_per_configuration":900,"threshold":75,"openmp_threads":4,"opencv_threads":1,"padding":64,"angle_step_degrees":2,"scales":[0.90,0.95,1.0,1.05,1.10],"T_l2":[4,8],"T_l3":[4,8,8],"order":"Even repeats L2,L3; odd repeats L3,L2 in the same process"}

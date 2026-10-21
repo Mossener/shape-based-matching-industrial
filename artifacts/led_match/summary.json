@@ -1,0 +1,55 @@
+{
+  "model": "LED/ku.smd",
+  "model_sha256": "d469170319f76f6924597a45c2b820572b8c0be2d78cbbc95d00f2ece517a3e0",
+  "template_source": "1.bmp, exact pixel match to crop x=389,y=225,width=184,height=184",
+  "independent_positive_images": 7,
+  "source_images": 8,
+  "matches_above_threshold": 8,
+  "threshold": 75,
+  "score_min": 86.017,
+  "score_max": 98.411,
+  "repetitions_per_image": 5,
+  "time_statistic": "Median of five detector.match calls per image; mean of these medians",
+  "mean_ms": 63.99363749999999,
+  "min_ms": 52.6941,
+  "max_ms": 83.9555,
+  "approx_fps_from_mean": 15.626553499166228,
+  "input_size": [
+    768,
+    576
+  ],
+  "padded_match_size": [
+    896,
+    704
+  ],
+  "template_poses": 900,
+  "angle_step_degrees": 2,
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13500HX",
+  "scales": [
+    0.9,
+    0.95,
+    1.0,
+    1.05,
+    1.1
+  ],
+  "contour_points_per_pyramid": [
+    236,
+    111,
+    46,
+    22
+  ],
+  "pyramids_used": [
+    0,
+    1
+  ],
+  "openmp_threads": 4,
+  "opencv_threads": 1,
+  "limits": [
+    "Template image is a crop of 1.bmp; the other seven images are positive examples only",
+    "No labeled accuracy or false-positive rate",
+    "Scores are similarities, not calibrated probabilities",
+    "Angles may be ambiguous due to contour symmetry and unsigned gradients",
+    "SMD decoder supports only this supplied file layout",
+    "Timing excludes image I/O, template generation, padding, drawing and saving"
+  ]
+}
