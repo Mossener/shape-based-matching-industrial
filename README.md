@@ -1,6 +1,6 @@
 # shape_based_matching  
 
-本地 LED/SMD 响应构建优化：[验证与性能记录](artifacts/response_optimization/README.md) · [Git 版本说明](docs/optimization_versions.md)。原调用接口保留，新接口支持独立开关、跨帧缓冲区及分阶段计时。
+本地 LED/SMD 优化：[响应构建验证](artifacts/response_optimization/README.md) · [模板搜索优化及 README 7 ms 校准](artifacts/search_optimization/README.md) · [Git 版本说明](docs/optimization_versions.md)。原调用接口保留，新接口支持独立开关、跨帧缓冲区及分阶段计时。
 
 update:   
 **[fusion implementation to run faster!](https://github.com/meiqua/shape_based_matching/issues/77)**  

@@ -1,0 +1,22 @@
+{
+  "rows": 972,
+  "phase_groups": 162,
+  "missing_groups": 0,
+  "extra_groups": 0,
+  "incorrect_round_sets": 0,
+  "incorrect_case_order_sets": 0,
+  "semantic_flags_failed": 0,
+  "strict_flags_failed": 0,
+  "count_flags_failed": 0,
+  "nonpositive_result_rows": 0,
+  "invalid_or_overlapping_phase_timers": 0,
+  "hashes_checked": 25,
+  "all_recorded_hashes_match": true,
+  "hash_mismatches": [],
+  "v4_manifest_matches": true,
+  "no_new_performance_run": true,
+  "paired_quantile_method": "formal summary: linear interpolation at sorted index (n-1)*p; audit JSON originally contained no quantile calculation",
+  "led_all_vs_v4_search_speedup_p05": 0.8074578963271236,
+  "led_all_vs_v4_search_speedup_p95": 1.3124535440022507,
+  "paired_quantile_source": "paired_speedups.csv, LED/v4/all/search_ms, 120 pairs"
+}
