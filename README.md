@@ -18,6 +18,7 @@
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/response_optimization/run_tests.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/search_optimization/run_benchmark.ps1 -Test
 powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optimization/run_tests.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/match_consolidation/run_unit_tests.ps1
 ```
 
 脚本默认使用 `F:\mysys2\ucrt64\bin\g++.exe` 和 `D:\opencv-4.12.0`，可通过 `-Compiler`、`-OpenCV` 参数替换路径。当前链接名固定为 `opencv_world4120`，更换 OpenCV 版本还需调整脚本。
@@ -65,6 +66,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 - 支持灰度/彩色输入、mask、图像金字塔、多姿态模板和 OpenMP 模板并行。
 - 使用八类梯度方向，方向模 180°；查表响应为 0/3/4，匹配分数归一化为 0～100，分数不是识别概率。
 - 支持跨帧缓冲复用、构建/搜索分段计时，保留原 `Detector::match` 调用接口。
+- 匹配结果在相同 `(class_id,x,y,exact score)` 上采用确定性的最小模板编号和完整排序；这使 OpenMP 合并顺序不会改变重复候选的身份。有限分数的契约、回归矩阵和独立 oracle 见 [V11 验证记录](artifacts/match_consolidation/README.md)。
 - 已完成不可变基线对照、内核边界测试、八种搜索开关组合、工作区切换及独立并发验证。
 
 ### 实测性能
@@ -83,11 +85,15 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 - [搜索优化测试与原始数据](artifacts/search_optimization/README.md)
 - [局部累加融合、两轮数据与独立审查](artifacts/local_search_optimization/README.md)
 - [搜索细分诊断](artifacts/search_profile/run_v9/REPORT.md)与[重复局部中心统计](artifacts/local_center_profile/run_v9_centers/REPORT.md)
+- [T-LESS 扩展数据获取与覆盖报告](docs/datasets/tless-expanded-acquisition.md)和[固定评测协议](docs/datasets/tless-expanded-protocol.md)
+- [确定性候选回归、阶段计时与独立审查](artifacts/match_consolidation/README.md)
 - [历史“360 模板 / 7 ms”与当前 LED 的测试条件区别](artifacts/search_optimization/CALIBRATION.md)
 
 ### 当前范围
 
 现有 LED 验证包含一张模板来源图及七张其他正样本，用于检查实现与耗时，尚未建立通用工业召回率、误检率或现场节拍保证。`LED/ku.smd` 导入仅适配当前文件布局，未验证通用 SMD 兼容性。
+
+公开 T-LESS 数据已经扩展到 800 张测试图、576 张训练视图、8 个目标和 16 个新场景；开发与场景留出各 400 张，另保留两个物体作泛化检查。采集和独立校验已完成，完整识别评测仍在进行。先前单物体 tiny 开发实验误检较多，不能把更大数据量、实现等价或匹配分数当成准确率提高。
 
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 

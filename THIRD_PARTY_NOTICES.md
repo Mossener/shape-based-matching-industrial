@@ -57,6 +57,19 @@ MIT 许可要求在软件的副本或实质部分中保留版权与许可通知�
 
 本地 SMD 读取实验只针对所提供的 `ku.smd` 文件布局进行了验证。文件扩展名和实验结果不构成通用 HALCON、CKVision 或其他厂商 SMD 格式兼容性声明，也不代表获得相关厂商的授权或认可。
 
+## 新增的 T-LESS 公开验证子集
+
+数据来自 T-LESS / BOP 官方链接的固定版本，适用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。
+署名：T. Hodaň, P. Haluza, Š. Obdržálek, J. Matas, M. Lourakis, X. Zabulis，
+“T-LESS: An RGB-D Dataset for 6D Pose Estimation of Texture-less Objects”，IEEE WACV 2017。
+本项目选择少量原始 RGB、mask 和标注并产生简化索引；原始成员未修改，外部图片保存在
+忽略的本地缓存中。数据不适用本仓库的根 BSD 代码许可。
+
+官方出处、固定提交、抽样规则、下载范围、逐文件 CRC/SHA 及适用边界见
+[tiny 数据说明](docs/datasets/public-dataset-survey.md)、[扩展获取报告](docs/datasets/tless-expanded-acquisition.md)、
+[来源 manifest](artifacts/public_datasets/tless_tiny_manifest.json)和
+[扩展 manifest](artifacts/public_datasets/tless_expanded_manifest.json)。
+
 ## 后续补充原则
 
 如取得准确的上游提交、历史代码来源、资料原始链接或素材授权，应在保留已有通知的基础上补充记录。新增贡献的版权声明仅覆盖相应新增贡献，不替代继承代码及第三方素材的声明。本文件中“尚未核实”的事项表示当前证据不足，不是对侵权或授权状态的确定判断。

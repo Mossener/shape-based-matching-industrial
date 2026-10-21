@@ -1,0 +1,221 @@
+{
+  "warning": "Raw identity examples only; the selected post85/NMS.3 final development detections were equal on all 16 frames. No heldout or matcher rerun.",
+  "examples": [
+    {
+      "scene_id": 5,
+      "image_id": 7,
+      "semantic_match_xy_exactscore": [
+        89,
+        165,
+        60.60606002807617
+      ],
+      "candidate_presence": "fused_only",
+      "template_difference": {
+        "template_id": 645,
+        "training_image_id": 360,
+        "angle": 150.0,
+        "scale": 1.0,
+        "bbox": [
+          16.0,
+          92.0,
+          75.0,
+          97.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 611,
+        "training_image_id": 342,
+        "angle": 210.0,
+        "scale": 1.0,
+        "bbox": [
+          19.0,
+          90.0,
+          70.0,
+          91.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.8401888064733648,
+      "at_selected_post85": false
+    },
+    {
+      "scene_id": 5,
+      "image_id": 7,
+      "semantic_match_xy_exactscore": [
+        661,
+        65,
+        55.71428680419922
+      ],
+      "candidate_presence": "fallback_only",
+      "template_difference": {
+        "template_id": 812,
+        "training_image_id": 450,
+        "angle": 0.0,
+        "scale": 1.5,
+        "bbox": [
+          594.0,
+          -2.0,
+          89.0,
+          157.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 731,
+        "training_image_id": 396,
+        "angle": 210.0,
+        "scale": 1.5,
+        "bbox": [
+          591.0,
+          -1.0,
+          108.0,
+          145.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.7714610234337638,
+      "at_selected_post85": false
+    },
+    {
+      "scene_id": 5,
+      "image_id": 70,
+      "semantic_match_xy_exactscore": [
+        737,
+        89,
+        75.0
+      ],
+      "candidate_presence": "fused_only",
+      "template_difference": {
+        "template_id": 2064,
+        "training_image_id": 1206,
+        "angle": 0.0,
+        "scale": 1.0,
+        "bbox": [
+          672.0,
+          21.0,
+          58.0,
+          64.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 1894,
+        "training_image_id": 1116,
+        "angle": 300.0,
+        "scale": 1.0,
+        "bbox": [
+          660.0,
+          22.0,
+          69.0,
+          63.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.803715308863026,
+      "at_selected_post85": false
+    },
+    {
+      "scene_id": 5,
+      "image_id": 70,
+      "semantic_match_xy_exactscore": [
+        673,
+        85,
+        55.30303192138672
+      ],
+      "candidate_presence": "fallback_only",
+      "template_difference": {
+        "template_id": 883,
+        "training_image_id": 486,
+        "angle": 330.0,
+        "scale": 1.5,
+        "bbox": [
+          609.0,
+          18.0,
+          116.0,
+          150.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 856,
+        "training_image_id": 468,
+        "angle": 0.0,
+        "scale": 2.0,
+        "bbox": [
+          608.0,
+          17.0,
+          116.0,
+          210.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.7037943696450428,
+      "at_selected_post85": false
+    },
+    {
+      "scene_id": 5,
+      "image_id": 127,
+      "semantic_match_xy_exactscore": [
+        61,
+        65,
+        56.25
+      ],
+      "candidate_presence": "fallback_only",
+      "template_difference": {
+        "template_id": 496,
+        "training_image_id": 288,
+        "angle": 0.0,
+        "scale": 1.0,
+        "bbox": [
+          -9.0,
+          0.0,
+          60.0,
+          97.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 1248,
+        "training_image_id": 738,
+        "angle": 0.0,
+        "scale": 1.5,
+        "bbox": [
+          -5.0,
+          -1.0,
+          87.0,
+          156.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.3891117478510029,
+      "at_selected_post85": false
+    },
+    {
+      "scene_id": 5,
+      "image_id": 215,
+      "semantic_match_xy_exactscore": [
+        61,
+        157,
+        66.21621704101562
+      ],
+      "candidate_presence": "fused_only",
+      "template_difference": {
+        "template_id": 1896,
+        "training_image_id": 1116,
+        "angle": 0.0,
+        "scale": 1.5,
+        "bbox": [
+          -5.0,
+          91.0,
+          87.0,
+          111.0
+        ]
+      },
+      "same_semantic_other_template": {
+        "template_id": 1616,
+        "training_image_id": 972,
+        "angle": 0.0,
+        "scale": 1.5,
+        "bbox": [
+          -4.0,
+          89.0,
+          85.0,
+          144.0
+        ]
+      },
+      "predicted_bbox_IoU_between_templates": 0.7571015888300433,
+      "at_selected_post85": false
+    }
+  ]
+}

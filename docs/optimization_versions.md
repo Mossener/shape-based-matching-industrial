@@ -85,4 +85,13 @@
 - 新的中心普查发现 LED 最细层80.64%局部调用重复同一template/level中心，其他层4.18%，case1无重复。本版本仅记录该优化机会，未缓存结果、缩小搜索或删除候选。
 - 复现、原始数据和审查见 `artifacts/local_search_optimization/`；诊断来源和审计见 `artifacts/search_profile/`、`artifacts/local_center_profile/`。这些结果证明本轮实现等价与耗时改善，不构成通用识别准确率或其他指令集验证。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v10` 标记各阶段。
+## V11：扩大公开数据、稳定候选输出与跨线程回归
+
+- 在固定的官方 T-LESS 子集上扩大验证范围：800 张测试图来自 16 个新场景，576 张训练图覆盖 8 个物体；开发场景与场景留出各 400 张，物体 25/29 单独保留作泛化检查。取样在下载和匹配前由 GT、旋转矩阵和固定场景规则确定，没有按匹配难度选图。
+- 通过 Range 请求保留 6,100 个原始成员，累计响应体 1,460,279,529 bytes；逐文件 CRC32、SHA-256、尺寸、PNG 尺寸、GT 框/可见比例、训练视角选择和 split 覆盖均通过独立离线审计。外部图像留在忽略的本地缓存，完整 ZIP 和 depth 没有落盘。
+- 修复了旧的全局 `sort`/相邻 `unique` 组合：相同 `(class_id,x,y,exact float score)` 现在完整分组，保留最小 template ID，并对最终的 score/template/class/位置优先级给出确定顺序。旧实现会因 OpenMP 合并顺序改变重复候选的保留身份和数量；新契约只改变重复记录的代表和顺序，不重新计算分数或坐标。
+- 300 种随机排列的字面量 RED/GREEN 测试、全部 8,191 个合法特征数、1,024 个固定种子的随机累加流和 262,144 个独立标量 patch 位置均通过。25 个输入、475 次跨线程/两种局部路径回归中，400 次当前输出逐字段等于独立 map oracle，75 次冻结 V10/V4 结果 canonical 等价；heldout 图像仍未匹配。
+- 新 helper 的完整排序会增加后处理成本，故另行记录相同候选向量的阶段计时：LED 8 图中位后处理约增加 0.004–0.011 ms，T-LESS 开发样本约增加 20.8–56.7 ms，完整 T-LESS API 中位数约为 309.1 ms（冻结 V10 参考约 255.4 ms）。这项正确性修复不是普遍加速，下一轮应先优化确定性去重的算法，再恢复局部中心缓存。
+- 限制已经写入独立审查：当前验证未覆盖 cache-on、NaN/非标准浮点、多类真实联合调用的所有组合，也不构成识别准确率或工业节拍保证。详见 `artifacts/match_consolidation/`、`docs/datasets/tless-expanded-acquisition.md` 和 `docs/datasets/tless-expanded-protocol.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v11` 标记各阶段。

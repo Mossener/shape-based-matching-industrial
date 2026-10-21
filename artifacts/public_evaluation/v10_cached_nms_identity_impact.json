@@ -1,0 +1,225 @@
+{
+  "post_threshold": 85,
+  "nms_iou": 0.3,
+  "warning": "Cached-output diagnostic only. Failed strict-equivalence run retained; no matcher rerun, no heldout and no accuracy-improvement claim.",
+  "frames": [
+    {
+      "scene_id": 5,
+      "image_id": 7,
+      "fallback_raw_ge85": 48,
+      "fused_raw_ge85": 52,
+      "fallback_nms_count": 2,
+      "fused_nms_count": 2,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 70,
+      "fallback_raw_ge85": 166,
+      "fused_raw_ge85": 155,
+      "fallback_nms_count": 23,
+      "fused_nms_count": 23,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 127,
+      "fallback_raw_ge85": 389,
+      "fused_raw_ge85": 400,
+      "fallback_nms_count": 32,
+      "fused_nms_count": 32,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 215,
+      "fallback_raw_ge85": 601,
+      "fused_raw_ge85": 559,
+      "fallback_nms_count": 44,
+      "fused_nms_count": 44,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 293,
+      "fallback_raw_ge85": 159,
+      "fused_raw_ge85": 131,
+      "fallback_nms_count": 16,
+      "fused_nms_count": 16,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 353,
+      "fallback_raw_ge85": 80,
+      "fused_raw_ge85": 100,
+      "fallback_nms_count": 8,
+      "fused_nms_count": 8,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 436,
+      "fallback_raw_ge85": 1109,
+      "fused_raw_ge85": 1118,
+      "fallback_nms_count": 28,
+      "fused_nms_count": 28,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 5,
+      "image_id": 493,
+      "fallback_raw_ge85": 231,
+      "fused_raw_ge85": 238,
+      "fallback_nms_count": 19,
+      "fused_nms_count": 19,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 3,
+      "fallback_raw_ge85": 1656,
+      "fused_raw_ge85": 1808,
+      "fallback_nms_count": 14,
+      "fused_nms_count": 14,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 92,
+      "fallback_raw_ge85": 1270,
+      "fused_raw_ge85": 1384,
+      "fallback_nms_count": 38,
+      "fused_nms_count": 38,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 153,
+      "fallback_raw_ge85": 586,
+      "fused_raw_ge85": 560,
+      "fallback_nms_count": 20,
+      "fused_nms_count": 20,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 214,
+      "fallback_raw_ge85": 676,
+      "fused_raw_ge85": 727,
+      "fallback_nms_count": 35,
+      "fused_nms_count": 35,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 295,
+      "fallback_raw_ge85": 357,
+      "fused_raw_ge85": 388,
+      "fallback_nms_count": 12,
+      "fused_nms_count": 12,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 374,
+      "fallback_raw_ge85": 453,
+      "fused_raw_ge85": 480,
+      "fallback_nms_count": 25,
+      "fused_nms_count": 25,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 446,
+      "fallback_raw_ge85": 1155,
+      "fused_raw_ge85": 1182,
+      "fallback_nms_count": 32,
+      "fused_nms_count": 32,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    },
+    {
+      "scene_id": 2,
+      "image_id": 494,
+      "fallback_raw_ge85": 96,
+      "fused_raw_ge85": 99,
+      "fallback_nms_count": 9,
+      "fused_nms_count": 9,
+      "post_nms_full_detections_equal": true,
+      "python_nms_exactly_reproduced_cpp_fallback": true
+    }
+  ],
+  "template_identity_examples": [
+    {
+      "scene_id": 2,
+      "image_id": 3,
+      "match_xy_score": [
+        349,
+        405,
+        89.8648681640625
+      ],
+      "fallback": [
+        {
+          "template_id": 2140,
+          "training_image": 1242,
+          "angle": 0.0,
+          "scale": 1.5,
+          "bbox": [
+            275.0,
+            340.0,
+            87.0,
+            89.0
+          ]
+        }
+      ],
+      "fused": [
+        {
+          "template_id": 2140,
+          "training_image": 1242,
+          "angle": 0.0,
+          "scale": 1.5,
+          "bbox": [
+            275.0,
+            340.0,
+            87.0,
+            89.0
+          ]
+        },
+        {
+          "template_id": 2143,
+          "training_image": 1242,
+          "angle": 90.0,
+          "scale": 1.5,
+          "bbox": [
+            284.0,
+            337.0,
+            89.0,
+            87.0
+          ]
+        }
+      ],
+      "surviving_fallback_ids": [],
+      "surviving_fused_ids": []
+    }
+  ],
+  "summary": {
+    "frames": 16,
+    "exact_post_nms_equal_frames": 16,
+    "high_score_template_identity_examples": 1
+  }
+}

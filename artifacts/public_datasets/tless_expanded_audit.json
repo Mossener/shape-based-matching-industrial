@@ -1,0 +1,440 @@
+{
+  "passed": true,
+  "plan_sha256": "bd0dfd7dc76a4788a80328f23a925ca5332895e01ac6be3b13d5348f777190eb",
+  "manifest_sha256": "b97154a31063e14043b91da95dc8d7ce93a42f9c42394e7e8edd7ae9d9e2108c",
+  "index_sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819",
+  "original_members": 6100,
+  "training_images": 576,
+  "test_images": 800,
+  "development_images": 400,
+  "heldout_scene_images": 400,
+  "all_member_crc_sha_size_verified": true,
+  "all_image_mask_dimensions_verified": true,
+  "all_gt_instance_bbox_visibility_values_verified": true,
+  "training_farthest_selection_recomputed": true,
+  "no_depth_saved": true,
+  "existing_tiny_scenes_excluded": true,
+  "matching_run": false,
+  "object_scene_split_coverage": {
+    "1": {
+      "development": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 49,
+        "positive_frames": 50
+      },
+      "heldout_scene": {
+        "negative_frames": 250,
+        "instances": 650,
+        "eligible_visib_0_5_instances": 423,
+        "positive_frames": 150
+      }
+    },
+    "2": {
+      "development": {
+        "instances": 150,
+        "eligible_visib_0_5_instances": 137,
+        "positive_frames": 100,
+        "negative_frames": 300
+      },
+      "heldout_scene": {
+        "negative_frames": 350,
+        "instances": 250,
+        "eligible_visib_0_5_instances": 153,
+        "positive_frames": 50
+      }
+    },
+    "5": {
+      "development": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 45,
+        "positive_frames": 50
+      },
+      "heldout_scene": {
+        "instances": 50,
+        "eligible_visib_0_5_instances": 45,
+        "positive_frames": 50,
+        "negative_frames": 350
+      }
+    },
+    "8": {
+      "development": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 50,
+        "positive_frames": 50
+      },
+      "heldout_scene": {
+        "instances": 50,
+        "eligible_visib_0_5_instances": 49,
+        "positive_frames": 50,
+        "negative_frames": 350
+      }
+    },
+    "12": {
+      "development": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 44,
+        "positive_frames": 50
+      },
+      "heldout_scene": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 44,
+        "positive_frames": 50
+      }
+    },
+    "17": {
+      "development": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 49,
+        "positive_frames": 50
+      },
+      "heldout_scene": {
+        "negative_frames": 300,
+        "instances": 100,
+        "eligible_visib_0_5_instances": 90,
+        "positive_frames": 100
+      }
+    },
+    "25": {
+      "development": {
+        "instances": 50,
+        "eligible_visib_0_5_instances": 47,
+        "positive_frames": 50,
+        "negative_frames": 350
+      },
+      "heldout_scene": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 44,
+        "positive_frames": 50
+      }
+    },
+    "29": {
+      "development": {
+        "instances": 50,
+        "eligible_visib_0_5_instances": 49,
+        "positive_frames": 50,
+        "negative_frames": 350
+      },
+      "heldout_scene": {
+        "negative_frames": 350,
+        "instances": 50,
+        "eligible_visib_0_5_instances": 47,
+        "positive_frames": 50
+      }
+    }
+  },
+  "training_view_direction_coverage": {
+    "1": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -86.09873020112958,
+        85.44928762703492
+      ],
+      "available_model_frame_elevation_deg": [
+        -86.14453263217487,
+        85.4827931235366
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 25.21919504296821
+    },
+    "2": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -86.23859696630734,
+        86.02416509084463
+      ],
+      "available_model_frame_elevation_deg": [
+        -86.48432727686523,
+        86.03887916482533
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 24.834346732918892
+    },
+    "5": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -85.48785080278184,
+        85.69971317527194
+      ],
+      "available_model_frame_elevation_deg": [
+        -85.48785080278184,
+        85.69971317527194
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 23.18570494798171
+    },
+    "8": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -84.76757098405223,
+        84.92974669067337
+      ],
+      "available_model_frame_elevation_deg": [
+        -84.81060455254655,
+        84.98863696403168
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 25.41989316353931
+    },
+    "12": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -86.85947588077674,
+        84.75134870203453
+      ],
+      "available_model_frame_elevation_deg": [
+        -86.93718013745925,
+        84.80132283270098
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 24.129500130512564
+    },
+    "17": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -85.71673291503015,
+        85.64021020856478
+      ],
+      "available_model_frame_elevation_deg": [
+        -85.74876728348382,
+        85.65256147546707
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 24.99863549805476
+    },
+    "25": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -85.28975518928011,
+        84.47710661290824
+      ],
+      "available_model_frame_elevation_deg": [
+        -85.31633399194027,
+        84.51775629828686
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 24.43875052296364
+    },
+    "29": {
+      "available_real_views": 1296,
+      "selected_views": 72,
+      "selected_model_frame_elevation_deg": [
+        -85.13877022410207,
+        84.65861353636474
+      ],
+      "available_model_frame_elevation_deg": [
+        -85.15144310450229,
+        84.69816516984467
+      ],
+      "worst_nearest_selected_view_direction_angle_deg": 22.99103624176463
+    }
+  },
+  "download": {
+    "response_body_bytes": 1460279529,
+    "metadata_response_body_bytes": 16941514,
+    "acquisition_response_body_bytes": 1443338015,
+    "body_limit_bytes": 2000000000,
+    "requests": [
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 47,
+        "end_inclusive": 48073744,
+        "body_bytes": 48073698,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 48073745,
+        "end_inclusive": 101062454,
+        "body_bytes": 52988710,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 211647056,
+        "end_inclusive": 300023902,
+        "body_bytes": 88376847,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 534068077,
+        "end_inclusive": 734555242,
+        "body_bytes": 200487166,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 991277367,
+        "end_inclusive": 1065750598,
+        "body_bytes": 74473232,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 1291929964,
+        "end_inclusive": 1401104238,
+        "body_bytes": 109174275,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 1879482335,
+        "end_inclusive": 1966301053,
+        "body_bytes": 86818719,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_train_primesense.zip",
+        "start": 2281748993,
+        "end_inclusive": 2393171883,
+        "body_bytes": 111422891,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 46,
+        "end_inclusive": 36789541,
+        "body_bytes": 36789496,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 113420561,
+        "end_inclusive": 151180851,
+        "body_bytes": 37760291,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 188911516,
+        "end_inclusive": 226868469,
+        "body_bytes": 37956954,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 226868470,
+        "end_inclusive": 265255864,
+        "body_bytes": 38387395,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 265255865,
+        "end_inclusive": 302717675,
+        "body_bytes": 37461811,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 340705613,
+        "end_inclusive": 383773115,
+        "body_bytes": 43067503,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 427474656,
+        "end_inclusive": 472494568,
+        "body_bytes": 45019913,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 472494569,
+        "end_inclusive": 515614913,
+        "body_bytes": 43120345,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 383773116,
+        "end_inclusive": 427474655,
+        "body_bytes": 43701540,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 515614914,
+        "end_inclusive": 557790210,
+        "body_bytes": 42175297,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 557790211,
+        "end_inclusive": 600469216,
+        "body_bytes": 42679006,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 600469217,
+        "end_inclusive": 644489884,
+        "body_bytes": 44020668,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 644489885,
+        "end_inclusive": 689850335,
+        "body_bytes": 45360451,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 689850336,
+        "end_inclusive": 734469309,
+        "body_bytes": 44618974,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 734469310,
+        "end_inclusive": 778440107,
+        "body_bytes": 43970798,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      },
+      {
+        "archive": "tless_test_primesense_bop19.zip",
+        "start": 778440108,
+        "end_inclusive": 823872142,
+        "body_bytes": 45432035,
+        "status": 206,
+        "resolved_host": "us.aws.cdn.hf.co"
+      }
+    ],
+    "whole_archives_downloaded": false,
+    "depth_saved": false
+  }
+}

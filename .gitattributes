@@ -18,3 +18,12 @@ artifacts/local_search_optimization/** -text whitespace=cr-at-eol
 # Namespaced snapshots preserve legacy whitespace along with source hashes.
 artifacts/search_profile/source/** -whitespace
 artifacts/local_center_profile/source/** -whitespace
+line2Dup_matches.hpp -text
+tests/match_consolidation_test.cpp -text
+tests/local_accumulator_stress_test.cpp -text
+artifacts/match_consolidation/** -text whitespace=cr-at-eol
+artifacts/local_center_optimization/** -text whitespace=cr-at-eol
+artifacts/local_center_optimization/baseline/** -whitespace
+tools/datasets/** -text whitespace=cr-at-eol
+artifacts/public_datasets/** -text whitespace=cr-at-eol
+artifacts/public_evaluation/** -text whitespace=cr-at-eol

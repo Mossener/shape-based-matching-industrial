@@ -1,0 +1,17 @@
+scene_id,split,frames,joint_target_positive_frames,joint_target_negative_frames,all_gt_instances,target_instances,eligible_target_instances_vis_ge_0_5,distractor_instances
+1,development,50,50,0,200,150,145,50
+4,development,50,50,0,200,100,95,100
+6,development,50,50,0,250,50,44,200
+7,development,50,50,0,400,100,98,300
+8,development,50,0,50,300,0,0,300
+10,development,50,0,50,300,0,0,300
+11,heldout_scene,50,50,0,200,100,94,100
+12,development,50,50,0,300,100,88,200
+13,development,50,0,50,400,0,0,400
+14,heldout_scene,50,0,50,350,0,0,350
+15,heldout_scene,50,50,0,300,100,91,200
+16,heldout_scene,50,50,0,400,100,89,300
+17,heldout_scene,50,50,0,350,150,131,200
+18,heldout_scene,50,50,0,350,150,83,200
+19,heldout_scene,50,50,0,450,50,45,400
+20,heldout_scene,50,50,0,900,600,362,300

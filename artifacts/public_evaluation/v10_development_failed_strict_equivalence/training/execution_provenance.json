@@ -1,0 +1,58 @@
+﻿{
+    "mode":  "train",
+    "input_sha256":  {
+                         "datasets\\tless_tiny\\index.json":  "0892DAC1341B544C5114328BB26C25E8041E06DD637C1CD2AA69911B2085F0B3",
+                         "artifacts/public_datasets/tless_tiny_manifest.json":  "C8E28DB5AE181B53CC9EDACABF9686AD628299F007A68C17EB2B2B13BB3FE757",
+                         "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\build_manifest.json":  "2925886DF8B701E7EB19C193CAF97AA319711A27A7895C4C860A0C222077F1C5"
+                     },
+    "build_manifest":  {
+                           "compiled_at":  "2026-10-21T16:25:44.5964621+08:00",
+                           "core_git_revision":  "c41f04762fb62ca5598f60e5d66ea9cfa2fbc2a0",
+                           "executable_sha256":  "3E5BC4B4CF32872C3FBAC70360A107D46F7632DE98C2FC0805C50F7D527DB19B",
+                           "compiler":  "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+                           "flags":  [
+                                         "-std=c++17",
+                                         "-O3",
+                                         "-mssse3",
+                                         "-msse4.1",
+                                         "-fopenmp",
+                                         "-Wall",
+                                         "-Wno-sign-compare",
+                                         "-ID:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source",
+                                         "-IMIPP",
+                                         "-ID:\\opencv-4.12.0/build",
+                                         "-ID:\\opencv-4.12.0/modules/core/include",
+                                         "-ID:\\opencv-4.12.0/modules/imgproc/include",
+                                         "-ID:\\opencv-4.12.0/modules/highgui/include",
+                                         "-ID:\\opencv-4.12.0/modules/imgcodecs/include",
+                                         "-ID:\\opencv-4.12.0/modules/videoio/include"
+                                     ],
+                           "source_sha256":  {
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup.cpp":  "21410A0BB99AE1E0C90DA7F8B54547DD6F3C190DF7D811662F15A98227BA8700",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup.h":  "C3A8F742FC897BDCFA83A82A9A025E6B304F410BC081C321695F5E6F7F461FC0",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup_local.hpp":  "1B29137FA481B7C1B5F9C210A2D948AEF21FC24219AD43FB59E5DF91BBE96001",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup_search.hpp":  "5A92C1C55BB9A2529307C825859136244E2E8EE40B5BDE3CA029248D28B8220A",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup_response.hpp":  "33075CFD694488C1B1CB46F8BB821131ED64202F50B5557E4468EEA8C0E871A9",
+                                                 "D:\\h\\shape_based_matching-master\\artifacts\\public_evaluation\\build\\v10_source\\line2Dup_spread.hpp":  "FE821B7C9ECA784817FAC78334020ED34630CC2426254CDE9DF830DB9C524C5E",
+                                                 "MIPP/mipp.h":  "7A8C742A19A0797B3340F27E92E6D402669AA7BBC2075D2715D99EBC62202D42",
+                                                 "artifacts/public_evaluation/tless_eval.cpp":  "CA9EB54931CA4F0DDAE563D887412618BDD0ED22E0C84F66C33FA2044B5908D3",
+                                                 "artifacts/public_evaluation/eval_metrics.hpp":  "34CADC66F043B897A3D4AA6439217DA9FBF2F3BF6E07C08C28885FA6B588CAF4",
+                                                 "artifacts/public_evaluation/build.ps1":  "35623C050B9C6474B085A8EC9961E1D9997F2607172CF28E88F11BB1E69089C1"
+                                             }
+                       },
+    "started_at":  "2026-10-21T16:26:21.4181691+08:00",
+    "argv":  [
+                 "--mode",
+                 "train",
+                 "--dataset",
+                 "datasets/tless_tiny",
+                 "--output",
+                 "datasets/tless_train_f32",
+                 "--features",
+                 "32"
+             ],
+    "finished_at":  "2026-10-21T16:26:24.9236532+08:00",
+    "exit_code":  0,
+    "opencv_threads":  1,
+    "openmp_threads":  4
+}

@@ -1,0 +1,31 @@
+{
+  "source_input_output_sha256": {
+    "artifacts/local_center_optimization/v10_reference.cpp": "185238103640BF7858A2E7549ED73A1E0AD5DF1D41D0E85213AB0FFECD7486BC",
+    "artifacts/local_center_optimization/v10_reference.hpp": "B139BB9DFB1ED2E0994B8937259B7F9E62C67CDDE17571D1A99E0BDE0A89CBE3",
+    "artifacts/local_center_optimization/public_repeat_probe.cpp": "6BB8E222A603D794EA061DBBB2D2FAA9EBFFA5263BE8FB2BA0A8C1D5447AB95A",
+    "artifacts/local_center_optimization/baseline/manifest.json": "108074D6A06FE36AE43CCAF254214C56D95F31103B763D3CB6C99F337F142478",
+    "artifacts/local_center_optimization/build/public_repeat_probe.exe": "AC09CA74B00202C7FAA2D4A1649BF6872DAEBD01C498C7A92DC4D9D6E73A7475",
+    "artifacts/local_center_optimization/public_repeat_v10.csv": "788A88CD441295426C6DFB941045A584501737134F9C3DEE46D3BE149572148A",
+    "datasets/tless_train_f32/templates_tless_object_1.yml.gz": "0D802CD031D4441DD42BFF73BFDEA103BE9CF6ACE3E9A8B47FBDE086B5B66AED",
+    "datasets/tless_tiny/test_primesense/000005/rgb/000070.png": "1DB382FB7F33CDEA9FD36798E270F5DB51C58E17440E799948E8352BBF051B9C"
+  },
+  "input_color": "grayscale",
+  "cv_threads": 1,
+  "repeat_per_variant": 2,
+  "compiler": "F:/mysys2/ucrt64/bin/g++.exe",
+  "frozen_matcher_commit": "c41f04762fb62ca5598f60e5d66ea9cfa2fbc2a0",
+  "omp_thread_matrix": [
+    1,
+    4
+  ],
+  "completed_at": "2026-10-21T16:36:07.6214057+08:00",
+  "threshold": 50,
+  "padding": {
+    "bottom": 68,
+    "right": 64,
+    "top": 64,
+    "left": 64
+  },
+  "flags": "-std=c++14 -O3 -mssse3 -msse4.1 -fopenmp",
+  "current_production_linked": false
+}

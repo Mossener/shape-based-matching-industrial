@@ -3,6 +3,7 @@
 #include "line2Dup_response.hpp"
 #include "line2Dup_search.hpp"
 #include "line2Dup_local.hpp"
+#include "line2Dup_matches.hpp"
 #ifdef _OPENMP
 #include <omp.h>
 #endif
@@ -1248,9 +1249,7 @@ std::vector<Match> Detector::match(Mat source, float threshold, MatchWorkspace &
     }
 
     // Sort matches by similarity, and prune any duplicates introduced by pyramid refinement
-    std::sort(matches.begin(), matches.end());
-    std::vector<Match>::iterator new_end = std::unique(matches.begin(), matches.end());
-    matches.erase(new_end, matches.end());
+    detail::consolidateMatches(matches);
 
     measured.search_ms = milliseconds(search_start);
     // Include transient buffer destruction in total_ms, just as an external
