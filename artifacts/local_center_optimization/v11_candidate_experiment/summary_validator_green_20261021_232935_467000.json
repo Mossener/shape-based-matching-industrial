@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "matcher_calls": 0,
+  "image_decodes": 0,
+  "summary_source_sha256": "BFB8D329B0D622D59B934A92CF6FF522726CBA9395462A5C77428DA1704CD79A",
+  "test_source_sha256": "FF213D080DA01F5CE5470059DCBD0090948757E792042661B6B7C185B28598C6",
+  "outcomes": [
+    {
+      "case": "valid_synthetic_pairing",
+      "accepted": true,
+      "search_ratio": 0.8
+    },
+    {
+      "case": "changed_source_txt",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\source.txt"
+    },
+    {
+      "case": "changed_protected_txt",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\protected.txt"
+    },
+    {
+      "case": "changed_BENCHMARK_PROTOCOL_json",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\BENCHMARK_PROTOCOL.json"
+    },
+    {
+      "case": "changed_build_manifest_json",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\build_manifest.json"
+    },
+    {
+      "case": "changed_build_manifest_sha256",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\build_manifest.sha256"
+    },
+    {
+      "case": "changed_benchmark_exe",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\benchmark.exe"
+    },
+    {
+      "case": "changed_core_csv",
+      "rejected": true,
+      "reason": "Pinned bytes changed: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\core.csv"
+    },
+    {
+      "case": "wrong_case_position",
+      "rejected": true,
+      "reason": "Case order differs from protocol"
+    },
+    {
+      "case": "wrong_threshold",
+      "rejected": true,
+      "reason": "Template bank/threshold differs from protocol"
+    },
+    {
+      "case": "wrong_bank",
+      "rejected": true,
+      "reason": "Template bank/threshold differs from protocol"
+    },
+    {
+      "case": "changing_dimensions",
+      "rejected": true,
+      "reason": "Image dimensions/bank/threshold changed between calls"
+    },
+    {
+      "case": "wrong_image_identity",
+      "rejected": true,
+      "reason": "Unexpected image identity"
+    },
+    {
+      "case": "mid_read_source_change",
+      "rejected": true,
+      "reason": "Pinned bytes changed while summarizing: D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\build\\summary_contract_20261021_232935_467000\\source.txt"
+    }
+  ],
+  "limitation": "Synthetic validator checks are not matcher correctness, speed or accuracy evidence."
+}

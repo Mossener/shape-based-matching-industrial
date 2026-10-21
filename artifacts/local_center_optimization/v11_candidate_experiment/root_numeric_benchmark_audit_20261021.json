@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "rows": 1350,
+  "csv_sha256": "AB57905C39986F5E25DF092D083B239D31391C20F5F97CF3DA7C093C672726A3",
+  "summary_sha256": "44590038D04CF126C4CFE62569DA3C781297F0CE94A7A63740EDA1DD21681143",
+  "auditor_sha256": "3E4592EEEAB4C5113A86A59D9DEE44FE400479B17A1EF53A00D3D257D5B55BF8",
+  "descriptive_dataset_groups": {
+    "LED8": {
+      "search_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 25.26345,
+          "candidate_off": 25.040725000000002,
+          "candidate_on": 13.4614125
+        },
+        "median_of_image_paired_on_off_medians": 0.5434872784382003
+      },
+      "total_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 36.8196125,
+          "candidate_off": 36.8619125,
+          "candidate_on": 25.714025
+        },
+        "median_of_image_paired_on_off_medians": 0.6865639575286866
+      },
+      "adapter_wall_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 36.827725,
+          "candidate_off": 36.8635875,
+          "candidate_on": 25.7164625
+        },
+        "median_of_image_paired_on_off_medians": 0.6865874124530995
+      }
+    },
+    "case1": {
+      "search_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 2.7315,
+          "candidate_off": 2.9881,
+          "candidate_on": 2.4044
+        },
+        "median_of_image_paired_on_off_medians": 0.888558642799893
+      },
+      "total_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 23.7281,
+          "candidate_off": 23.9685,
+          "candidate_on": 23.9125
+        },
+        "median_of_image_paired_on_off_medians": 0.9895760982809516
+      },
+      "adapter_wall_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 23.7335,
+          "candidate_off": 23.9715,
+          "candidate_on": 23.9241
+        },
+        "median_of_image_paired_on_off_medians": 0.9896419444278653
+      }
+    },
+    "tiny16": {
+      "search_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 16.02634375,
+          "candidate_off": 15.21875,
+          "candidate_on": 16.11709375
+        },
+        "median_of_image_paired_on_off_medians": 1.0474106633320632
+      },
+      "total_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 27.30915,
+          "candidate_off": 26.7344375,
+          "candidate_on": 27.6370375
+        },
+        "median_of_image_paired_on_off_medians": 1.0530621581155908
+      },
+      "adapter_wall_ms": {
+        "equal_weight_mean_of_image_medians_ms": {
+          "exact_v11": 27.3147875,
+          "candidate_off": 26.7364375,
+          "candidate_on": 27.639475
+        },
+        "median_of_image_paired_on_off_medians": 1.0530872412338002
+      }
+    }
+  },
+  "limitation": "Arithmetic and sample pairing audit only; native pinned comparator supplies ordered-output equality. Dataset group summaries are descriptive, not a new predeclared acceptance rule. No memory, accuracy, universal speed or production-promotion conclusion."
+}

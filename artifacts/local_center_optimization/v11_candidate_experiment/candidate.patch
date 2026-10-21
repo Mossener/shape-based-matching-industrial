@@ -1,0 +1,58 @@
+--- baseline/line2Dup.cpp
++++ candidate/line2Dup.cpp
+@@ -4,6 +4,7 @@
+ #include "line2Dup_search.hpp"
+ #include "line2Dup_local.hpp"
+ #include "line2Dup_matches.hpp"
++#include "line2Dup_local_cache.hpp"
+ #ifdef _OPENMP
+ #include <omp.h>
+ #endif
+@@ -1083,6 +1084,7 @@
+     Mat coarse_similarities, local_similarities;
+     std::vector<Match> candidates;
+     std::vector<const unsigned char*> local_streams;
++    detail::LocalCenterCache local_centers;
+ };
+ 
+ struct MatchWorkspace::Impl
+@@ -1396,6 +1398,9 @@
+             int max_x = size.width - tp[start].width - border;
+             int max_y = size.height - tp[start].height - border;
+ 
++            detail::LocalCenterCache &local_cache = scratch.local_centers;
++            local_cache.reset();
++            const bool reuse_local_centers = options.reuse_local_centers && l == 0 && candidates.size() > 1;
+             Mat &similarities2 = scratch.local_similarities;
+             for (int m = 0; m < (int)candidates.size(); ++m)
+             {
+@@ -1412,6 +1417,9 @@
+                 y = std::min(y, max_y);
+ 
+                 detail::LocalMaximum best;
++                const int cell_x = x / T, cell_y = y / T;
++                if (!reuse_local_centers || !local_cache.find(cell_x, cell_y, best))
++                {
+ #if defined(MIPP_SSE)
+                 if (options.fused_local_search && options.integer_local_max && size.width / T >= 16) {
+                     best = similarityLocalMaximum(lms[0], tp[start], size, T, Point(x, y),
+@@ -1438,6 +1446,8 @@
+                         : (similarities2.type() == CV_8UC1 ? floatLocalMaximum<uchar>(similarities2, numFeatures)
+                                                           : floatLocalMaximum<ushort>(similarities2, numFeatures));
+                 }
++                    if (reuse_local_centers) local_cache.insert(cell_x, cell_y, best);
++                }
+                 // Update current match
+                 match2.similarity = best.score;
+                 match2.x = (x / T - 8 + best.col) * T + offset;
+--- baseline/line2Dup.h
++++ candidate/line2Dup.h
+@@ -155,6 +155,8 @@
+     // SSE row-register accumulation with fused first-maximum selection.
+     // Other SIMD backends and float-per-pixel mode retain the existing path.
+     bool fused_local_search = true;
++    // Private experiment only; callers explicitly select cache off/on.
++    bool reuse_local_centers = false;
+ };
+ 
+ struct MatchTimings

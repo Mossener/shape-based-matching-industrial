@@ -35,3 +35,7 @@ artifacts/obj8_padding_experiment/** -text whitespace=cr-at-eol
 artifacts/obj8_padding_experiment/run_*/source/** -whitespace
 artifacts/quality_failure_analysis/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/capacity_dp/** -text whitespace=cr-at-eol
+# Preserve frozen V11 source and inherited third-party whitespace.
+artifacts/local_center_optimization/v11_candidate_experiment/baseline/** -whitespace
+artifacts/local_center_optimization/v11_candidate_experiment/candidate/** -whitespace
+artifacts/local_center_optimization/v11_candidate_experiment/candidate.patch -whitespace

@@ -147,4 +147,13 @@
 - 单独检查全部400个GT与所有既有模板框的理想平移IoU上界，每个GT至少有一个尺寸兼容框。该结论只排除“所有框尺寸都不相容”，不证明轮廓、梯度、角度或栅格位置可正确匹配，支持下一轮检查训练描述子而非盲目扩尺度。
 - root新鲜核对56个来源/输入文件、两套逐帧CSV、源码快照、215个唯一GT身份及尺寸结果；原11个合成测试、独立DP字面量和分数精度/碰撞fixture均通过。未解码图像、未调用matcher，留出和对象25/29继续封存。本版不改生产核心、模板配方、阈值或默认行为，无速度/准确率收益声明。详见 `artifacts/quality_failure_analysis/RESULTS.md` 和 `artifacts/independent_reviews/capacity_dp/README.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v17` 标记各阶段。
+## V18：局部中心缓存的完整等价与分数据性能验证
+
+- 只在私有V11副本加入worker独占的16项局部最大值缓存，按template/level重置，键为既有clamp后的有符号整数商；保存完整raw/score/row/col，未命中或满缓存时仍完整计算，不删候选。独立开关默认关闭，生产核心未改。
+- 字面量RED编译成功并按缺失命中失败，原测试GREEN通过。core/flags/lifetime三阶段共3985次matcher调用、2880次完整有序向量比较全部通过，覆盖128计算开关组合、线程1/4/2/4、mask/空结果/零最大值、尺寸/BGR/Detector切换、move及独立并发。root新鲜复核113文件闭包、23个V11 Git来源及CSV，未重复all路线。
+- 25图按冻结协议轮转exact V11/off/on，各cold1/warm2/measured15，共1350调用、1125正式样本，所有输出逐字段及float32分数位相同。LED八图搜索/内部完整调用中位数等权平均off25.0407/36.8619→on13.4614/25.7140 ms；tiny十六图则15.2188/26.7344→16.1171/27.6370 ms。case1完整调用23.9685→23.9125 ms，单轮未建立稳定收益。
+- 每图15个配对on/off比值先取中位再按图汇总，全部25图搜索/完整调用中位比为0.99775/0.99907，几何平均0.84391/0.91084；12图搜索回退、12图完整调用回退，最坏分别1.14644/1.13020。LED组完整调用配对比中位0.68656，tiny组1.05306。以上不是绝对中位数相除，分位仅描述本轮波动；V11适配器的额外输出复制也没有作为cache收益。
+- root重跑实际compiler/runtime/source/build/exe/gate/CSV闭包汇总，并另用不导入汇总器的脚本核对原始配对、绝对中位数、全部比值、全图中位/几何平均和回退列表。成功CSV仅记录native完整比较通过，不重复保存每次候选；独立数字审计也不冒称从CSV复原所有输出内容。
+- 缓存对LED有效但有公开样本回退，因此保留私有实验及全部退步，不默认推广，不按对象/图片身份开关或拟合容量。无准确率/内存收益声明，留出和保留对象继续封存。源码、协议、构建/执行来源、原始数据与限制见 `artifacts/local_center_optimization/v11_candidate_experiment/RESULT.md` 和 `ROOT_REVIEW.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v18` 标记各阶段。
