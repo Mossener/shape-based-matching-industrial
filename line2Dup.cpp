@@ -1,6 +1,10 @@
 #include "line2Dup.h"
 #include "line2Dup_spread.hpp"
 #include "line2Dup_response.hpp"
+#include "line2Dup_search.hpp"
+#ifdef _OPENMP
+#include <omp.h>
+#endif
 #include <iostream>
 
 using namespace std;
@@ -1048,6 +1052,12 @@ static void similarityLocal_64(const std::vector<Mat> &linear_memories, const Te
 *                                                             High-level Detector API                                                                    *
 \****************************************************************************************/
 
+struct SearchScratch
+{
+    Mat coarse_similarities, local_similarities;
+    std::vector<Match> candidates;
+};
+
 struct MatchWorkspace::Impl
 {
     struct Level
@@ -1060,6 +1070,7 @@ struct MatchWorkspace::Impl
     std::vector<Level> levels;
     std::vector<std::vector<std::vector<Mat>>> lm_pyramid;
     std::vector<Size> sizes;
+    std::vector<SearchScratch> search_workers;
 };
 
 MatchWorkspace::MatchWorkspace() : impl_(new Impl) {}
@@ -1183,13 +1194,21 @@ std::vector<Match> Detector::match(Mat source, float threshold, MatchWorkspace &
     measured.preprocess_ms = milliseconds(start);
     const auto search_start = stamp();
     std::vector<Match> matches;
+    if (options.reuse_search_buffers)
+    {
+        int workers = 1;
+#ifdef _OPENMP
+        workers = omp_get_max_threads();
+#endif
+        state.search_workers.resize(workers);
+    }
 
     if (class_ids.empty())
     {
         // Match all templates
         TemplatesMap::const_iterator it = class_templates.begin(), itend = class_templates.end();
         for (; it != itend; ++it)
-            matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second);
+            matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second, state, options);
     }
     else
     {
@@ -1198,7 +1217,7 @@ std::vector<Match> Detector::match(Mat source, float threshold, MatchWorkspace &
         {
             TemplatesMap::const_iterator it = class_templates.find(class_ids[i]);
             if (it != class_templates.end())
-                matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second);
+                matchClass(state.lm_pyramid, state.sizes, threshold, matches, it->first, it->second, state, options);
         }
     }
 
@@ -1228,11 +1247,67 @@ struct MatchPredicate
     float threshold;
 };
 
+template<class Pixel>
+static void collectCandidates(const Mat &similarities, int num_features, float threshold,
+                              int T, const std::string &class_id, int template_id,
+                              std::vector<Match> &candidates)
+{
+    for (int r = 0; r < similarities.rows; ++r)
+    {
+        const Pixel *row = similarities.ptr<Pixel>(r);
+        for (int c = 0; c < similarities.cols; ++c)
+        {
+            const int raw_score = row[c];
+            const float score = (raw_score * 100.f) / (4 * num_features);
+            if (score > threshold)
+            {
+                const int offset = T / 2 + (T % 2 - 1);
+                candidates.emplace_back(c*T+offset, r*T+offset, score, class_id, template_id);
+            }
+        }
+    }
+}
+
+template<class Pixel>
+static detail::LocalMaximum floatLocalMaximum(const Mat &map, int num_features)
+{
+    detail::LocalMaximum best;
+    for (int r = 0; r < map.rows; ++r)
+    {
+        const Pixel *row = map.ptr<Pixel>(r);
+        for (int c = 0; c < map.cols; ++c)
+        {
+            const int raw = row[c];
+            const float score = (raw * 100.f) / (4 * num_features);
+            if (score > best.score) best = {static_cast<unsigned>(raw), score, r, c};
+        }
+    }
+    return best;
+}
+
 void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
                           const std::vector<Size> &sizes,
                           float threshold, std::vector<Match> &matches,
                           const std::string &class_id,
                           const std::vector<TemplatePyramid> &template_pyramids) const
+{
+    MatchWorkspace workspace;
+    MatchOptions options;
+    int workers = 1;
+#ifdef _OPENMP
+    workers = omp_get_max_threads();
+#endif
+    workspace.impl_->search_workers.resize(workers);
+    matchClass(lm_pyramid, sizes, threshold, matches, class_id, template_pyramids,
+               *workspace.impl_, options);
+}
+
+void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
+                          const std::vector<Size> &sizes,
+                          float threshold, std::vector<Match> &matches,
+                          const std::string &class_id,
+                          const std::vector<TemplatePyramid> &template_pyramids,
+                          MatchWorkspace::Impl &workspace, const MatchOptions &options) const
 {
 #pragma omp declare reduction \
     (omp_insert: std::vector<Match>: omp_out.insert(omp_out.end(), omp_in.begin(), omp_in.end()))
@@ -1245,10 +1320,17 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
         /// @todo Factor this out into separate function
         const std::vector<LinearMemories> &lowest_lm = lm_pyramid.back();
 
-        std::vector<Match> candidates;
+        SearchScratch transient;
+        int worker = 0;
+#ifdef _OPENMP
+        worker = omp_get_thread_num();
+#endif
+        SearchScratch &scratch = options.reuse_search_buffers ? workspace.search_workers[worker] : transient;
+        std::vector<Match> &candidates = scratch.candidates;
+        candidates.clear();
         {
             // Compute similarity maps for each ColorGradient at lowest pyramid level
-            Mat similarities;
+            Mat &similarities = scratch.coarse_similarities;
             int lowest_start = static_cast<int>(tp.size() - 1);
             int lowest_T = T_at_level.back();
             int num_features = 0;
@@ -1259,7 +1341,7 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
 
                 if (templ.features.size() < 64){
                     similarity_64(lowest_lm[0], templ, similarities, sizes.back(), lowest_T);
-                    similarities.convertTo(similarities, CV_16U);
+                    if (!options.direct_8bit_search) similarities.convertTo(similarities, CV_16U);
                 }else if (templ.features.size() < 8192){
                     similarity(lowest_lm[0], templ, similarities, sizes.back(), lowest_T);
                 }else{
@@ -1268,23 +1350,12 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
             }
 
             // Find initial matches
-            for (int r = 0; r < similarities.rows; ++r)
-            {
-                ushort *row = similarities.ptr<ushort>(r);
-                for (int c = 0; c < similarities.cols; ++c)
-                {
-                    int raw_score = row[c];
-                    float score = (raw_score * 100.f) / (4 * num_features);
-
-                    if (score > threshold)
-                    {
-                        int offset = lowest_T / 2 + (lowest_T % 2 - 1);
-                        int x = c * lowest_T + offset;
-                        int y = r * lowest_T + offset;
-                        candidates.push_back(Match(x, y, score, class_id, static_cast<int>(template_id)));
-                    }
-                }
-            }
+            if (similarities.type() == CV_8UC1)
+                collectCandidates<uchar>(similarities, num_features, threshold, lowest_T,
+                                         class_id, int(template_id), candidates);
+            else
+                collectCandidates<ushort>(similarities, num_features, threshold, lowest_T,
+                                          class_id, int(template_id), candidates);
         }
 
 
@@ -1300,7 +1371,7 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
             int max_x = size.width - tp[start].width - border;
             int max_y = size.height - tp[start].height - border;
 
-            Mat similarities2;
+            Mat &similarities2 = scratch.local_similarities;
             for (int m = 0; m < (int)candidates.size(); ++m)
             {
                 Match &match2 = candidates[m];
@@ -1324,7 +1395,7 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
 
                     if (templ.features.size() < 64){
                         similarityLocal_64(lms[0], templ, similarities2, size, T, Point(x, y));
-                        similarities2.convertTo(similarities2, CV_16U);
+                        if (!options.direct_8bit_search) similarities2.convertTo(similarities2, CV_16U);
                     }else if (templ.features.size() < 8192){
                         similarityLocal(lms[0], templ, similarities2, size, T, Point(x, y));
                     }else{
@@ -1333,28 +1404,14 @@ void Detector::matchClass(const LinearMemoryPyramid &lm_pyramid,
                 }
 
                 // Find best local adjustment
-                float best_score = 0;
-                int best_r = -1, best_c = -1;
-                for (int r = 0; r < similarities2.rows; ++r)
-                {
-                    ushort *row = similarities2.ptr<ushort>(r);
-                    for (int c = 0; c < similarities2.cols; ++c)
-                    {
-                        int score_int = row[c];
-                        float score = (score_int * 100.f) / (4 * numFeatures);
-
-                        if (score > best_score)
-                        {
-                            best_score = score;
-                            best_r = r;
-                            best_c = c;
-                        }
-                    }
-                }
+                const detail::LocalMaximum best = options.integer_local_max
+                    ? detail::localMaximum(similarities2, numFeatures)
+                    : (similarities2.type() == CV_8UC1 ? floatLocalMaximum<uchar>(similarities2, numFeatures)
+                                                      : floatLocalMaximum<ushort>(similarities2, numFeatures));
                 // Update current match
-                match2.similarity = best_score;
-                match2.x = (x / T - 8 + best_c) * T + offset;
-                match2.y = (y / T - 8 + best_r) * T + offset;
+                match2.similarity = best.score;
+                match2.x = (x / T - 8 + best.col) * T + offset;
+                match2.y = (y / T - 8 + best.row) * T + offset;
             }
 
             // Filter out any matches that drop below the similarity threshold

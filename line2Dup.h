@@ -149,6 +149,9 @@ struct MatchOptions
     bool fused_response = true;
     bool reuse_buffers = true;
     bool log_timing = false;
+    bool integer_local_max = true;
+    bool direct_8bit_search = true;
+    bool reuse_search_buffers = true;
 };
 
 struct MatchTimings
@@ -249,6 +252,12 @@ protected:
                                     float threshold, std::vector<Match> &matches,
                                     const std::string &class_id,
                                     const std::vector<TemplatePyramid> &template_pyramids) const;
+
+    void matchClass(const LinearMemoryPyramid &lm_pyramid,
+                    const std::vector<cv::Size> &sizes, float threshold,
+                    std::vector<Match> &matches, const std::string &class_id,
+                    const std::vector<TemplatePyramid> &template_pyramids,
+                    MatchWorkspace::Impl &workspace, const MatchOptions &options) const;
 };
 
 } // namespace line2Dup
