@@ -1,0 +1,263 @@
+{
+  "annotation_sha256": "e9fa4fbe15155e6cfc9262df97283e07616ff46b629472bde43d33fb651ffbc2",
+  "raw_csv_sha256": "04acf01db80e091ba619f47a4c48421245a128395ca7cce9577d5bfb29e5ee05",
+  "results_csv_sha256": "1d06c927685e2cc4dc8bc95b1dc90a5048f9fddcbf0de848f3665282b6c54a1e",
+  "evaluator_sha256": "29bd550bb8a1d306de6e318f1492166dca6bc962de2ce2417888f9b19af25465",
+  "nms_iou": 0.3,
+  "nms_suppression_rule": "IoU > .3",
+  "match_iou": 0.5,
+  "box_rule": "Continuous L0 transformed point extent [min,max], width=max-min; no +1 or clipping",
+  "literal_tests_passed": true,
+  "groups": {
+    "source_selfcheck": {
+      "tp": 1,
+      "fp": 0,
+      "fn": 0,
+      "gt": 1,
+      "images": 1,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "non_source_regression": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "gt": 6,
+      "images": 6,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "images": [
+    {
+      "image": "M01.bmp",
+      "levels": 3,
+      "role": "template_source_selfcheck",
+      "raw_count": 3,
+      "raw_matching_gt": 3,
+      "raw_duplicate_hypotheses": 2,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9935871546076934,
+      "detections": [
+        {
+          "score": 99.8558502,
+          "template_id": 1440,
+          "match_x": 129.0,
+          "match_y": 117.0,
+          "angle": 0.0,
+          "scale": 1.0,
+          "box": [
+            131.0,
+            118.0,
+            394.0,
+            256.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M02.bmp",
+      "levels": 3,
+      "role": "non_source",
+      "raw_count": 3,
+      "raw_matching_gt": 3,
+      "raw_duplicate_hypotheses": 2,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9746811935124428,
+      "detections": [
+        {
+          "score": 99.2174606,
+          "template_id": 1557,
+          "match_x": 157.0,
+          "match_y": 73.0,
+          "angle": 234.0,
+          "scale": 1.0,
+          "box": [
+            158.0,
+            73.0,
+            336.0,
+            377.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M03.bmp",
+      "levels": 3,
+      "role": "non_source",
+      "raw_count": 4,
+      "raw_matching_gt": 4,
+      "raw_duplicate_hypotheses": 3,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9886039886039886,
+      "detections": [
+        {
+          "score": 99.0115356,
+          "template_id": 1510,
+          "match_x": 137.0,
+          "match_y": 85.0,
+          "angle": 140.0,
+          "scale": 1.0,
+          "box": [
+            140.0,
+            87.0,
+            370.0,
+            347.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M04.bmp",
+      "levels": 3,
+      "role": "non_source_development",
+      "raw_count": 5,
+      "raw_matching_gt": 5,
+      "raw_duplicate_hypotheses": 4,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9648394241417497,
+      "detections": [
+        {
+          "score": 99.4851761,
+          "template_id": 516,
+          "match_x": 193.0,
+          "match_y": 109.0,
+          "angle": 312.0,
+          "scale": 0.700000048,
+          "box": [
+            195.0,
+            110.0,
+            246.0,
+            255.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M05.bmp",
+      "levels": 3,
+      "role": "non_source",
+      "raw_count": 4,
+      "raw_matching_gt": 4,
+      "raw_duplicate_hypotheses": 3,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9605382796872158,
+      "detections": [
+        {
+          "score": 98.249588,
+          "template_id": 490,
+          "match_x": 213.0,
+          "match_y": 113.0,
+          "angle": 260.0,
+          "scale": 0.700000048,
+          "box": [
+            216.0,
+            113.0,
+            190.0,
+            278.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M06.bmp",
+      "levels": 3,
+      "role": "non_source",
+      "raw_count": 2,
+      "raw_matching_gt": 2,
+      "raw_duplicate_hypotheses": 1,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9727663432993404,
+      "detections": [
+        {
+          "score": 98.7232285,
+          "template_id": 2429,
+          "match_x": 73.0,
+          "match_y": 129.0,
+          "angle": 178.0,
+          "scale": 1.25,
+          "box": [
+            74.0,
+            131.0,
+            493.0,
+            321.0
+          ]
+        }
+      ]
+    },
+    {
+      "image": "M07.bmp",
+      "levels": 3,
+      "role": "non_source",
+      "raw_count": 2,
+      "raw_matching_gt": 2,
+      "raw_duplicate_hypotheses": 1,
+      "after_nms": 1,
+      "counts": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "gt": 1
+      },
+      "best_iou": 0.9722078775644336,
+      "detections": [
+        {
+          "score": 89.7034607,
+          "template_id": 1121,
+          "match_x": 201.0,
+          "match_y": 73.0,
+          "angle": 82.0,
+          "scale": 0.900000036,
+          "box": [
+            201.0,
+            75.0,
+            238.0,
+            358.0
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Seven supplied positive images only; source selfcheck separate",
+    "Manual boxes approximate +/-3 pixels; no pixel/angle/scale truth",
+    "No negative-image false-positive probability or general industrial accuracy",
+    "All images previously observed; this is same-group regression, not heldout"
+  ]
+}

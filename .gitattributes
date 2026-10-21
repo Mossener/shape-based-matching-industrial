@@ -27,3 +27,4 @@ artifacts/local_center_optimization/baseline/** -whitespace
 tools/datasets/** -text whitespace=cr-at-eol
 artifacts/public_datasets/** -text whitespace=cr-at-eol
 artifacts/public_evaluation/** -text whitespace=cr-at-eol
+artifacts/magnet_match/** -text whitespace=cr-at-eol

@@ -42,6 +42,14 @@ auto matches = detector.match(frame, 75.f, workspace, options, &timing, {"LED"})
 
 每个并发调用必须独占工作区。Detector 可供不同工作区只读匹配，训练和模板修改不得与匹配并发。OpenCV/OpenMP 线程数由应用设置，库不修改全局线程配置。模板生成示例见 [test.cpp](test.cpp)，给定 SMD 样本的使用示例见 [led_demo.cpp](artifacts/led_match/led_demo.cpp)。
 
+磁片样本的读取、全姿态补边预检和定位回归见 [磁片验证](artifacts/magnet_match/README.md)。使用本地 `磁片/` 原始文件时，可运行：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/magnet_match/run.ps1 -Run -Validate -OutputDirectory artifacts/magnet_match/my_new_coverage
+```
+
+该入口保留原 SMD 轮廓，按整个姿态模板库计算所需输入尺寸，并搜索 0.60～1.40 的尺度。它只适配已核验的磁片文件布局；输出目录须为新目录，原始素材需在本地提供。
+
 优化开关为 `separable_spread`、`fused_response`、`reuse_buffers`、`integer_local_max`、`direct_8bit_search`、`reuse_search_buffers`、`fused_local_search`，默认开启，可分别关闭做对照。`fused_local_search` 在 SSE 且整数最大值开启时融合局部累加与最大值选择，其他路径保留已有实现。`reuse_buffers=false` 时工作区状态仅在本次调用内存在。
 
 ### 性能测试
@@ -92,6 +100,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 ### 当前范围
 
 现有 LED 验证包含一张模板来源图及七张其他正样本，用于检查实现与耗时，尚未建立通用工业召回率、误检率或现场节拍保证。`LED/ku.smd` 导入仅适配当前文件布局，未验证通用 SMD 兼容性。
+
+新增磁片回归定位了两种“完全无法识别”的原因：尺度未覆盖目标，以及大模板在深金字塔中没有可行的精修中心区间。统一扩大尺度范围、按模板库补边后，六张非来源图均通过 IoU≥0.5 的粗框定位检查；这六张都已参与开发观察，且没有负图，不能据此声称通用准确率或测量精度提高。原始失败、因果诊断和独立审查一同保留。
 
 公开 T-LESS 数据已经扩展到 800 张测试图、576 张训练视图、8 个目标和 16 个新场景；开发与场景留出各 400 张，另保留两个物体作泛化检查。采集和独立校验已完成，完整识别评测仍在进行。先前单物体 tiny 开发实验误检较多，不能把更大数据量、实现等价或匹配分数当成准确率提高。
 

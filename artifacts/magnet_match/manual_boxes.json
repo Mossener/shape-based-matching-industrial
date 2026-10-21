@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "purpose": "Coarse independent localization check for the supplied positive magnetic-sheet images",
+  "annotation_method": "Visual axis-aligned boxes marked from the original 640x480 inputs before inspecting any expanded-scale predictions; approximately +/-3 pixels, not pixel-accurate masks",
+  "box_semantics": "Visible complete outer object extent, xywh, original pixels. Internal hole is inside the box. All seven originals contain exactly one visible target.",
+  "limitations": "Small positive-only local set; M01 is the embedded SMD source image and must be reported separately. These boxes support coarse localization/recall checks, not defect accuracy, calibrated confidence, exact pose/scale truth, false-positive probability or industrial deployment accuracy.",
+  "matching_rule": "A prediction uses the transformed L0 outer-point axis extent, not the rotated rectangular training ROI. One-to-one IoU >= 0.5; unmatched spatial detections are FP. Report source and non-source separately.",
+  "images": [
+    {"file": "M01.bmp", "role": "template_source_selfcheck", "objects": [{"id": 0, "bbox_xywh": [131, 117, 395, 257]}]},
+    {"file": "M02.bmp", "role": "non_source", "objects": [{"id": 0, "bbox_xywh": [159, 74, 340, 378]}]},
+    {"file": "M03.bmp", "role": "non_source", "objects": [{"id": 0, "bbox_xywh": [140, 87, 370, 351]}]},
+    {"file": "M04.bmp", "role": "non_source_development", "objects": [{"id": 0, "bbox_xywh": [193, 109, 252, 258]}]},
+    {"file": "M05.bmp", "role": "non_source", "objects": [{"id": 0, "bbox_xywh": [215, 112, 195, 282]}]},
+    {"file": "M06.bmp", "role": "non_source", "objects": [{"id": 0, "bbox_xywh": [76, 133, 495, 322]}]},
+    {"file": "M07.bmp", "role": "non_source", "objects": [{"id": 0, "bbox_xywh": [201, 79, 236, 351]}]}
+  ]
+}

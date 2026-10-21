@@ -1,0 +1,45 @@
+﻿{
+    "padding_left_top":  128,
+    "padding_policy":  "Preflight every pose/refine level; min full extent=(template extent+16*T)*2^level; keep left/top128 and grow only right/bottom, align32. See actual_padding.json/padding_preflight.csv",
+    "timing":  "One diagnostic call/image, no warmups, not performance evidence",
+    "opencv_threads":  1,
+    "test_images":  [
+                        "M02.bmp",
+                        "M03.bmp",
+                        "M04.bmp",
+                        "M05.bmp",
+                        "M06.bmp",
+                        "M07.bmp"
+                    ],
+    "templates":  3060,
+    "nms_iou":  0.3,
+    "openmp_threads":  4,
+    "match_iou":  0.5,
+    "threshold":  75,
+    "scales":  [
+                   0.6,
+                   0.65,
+                   0.7,
+                   0.75,
+                   0.8,
+                   0.85,
+                   0.9,
+                   0.95,
+                   1,
+                   1.05,
+                   1.1,
+                   1.15,
+                   1.2000000000000002,
+                   1.25,
+                   1.3,
+                   1.35,
+                   1.4
+               ],
+    "mode":  "expanded_scale_regression",
+    "scope":  "Fixed continuous scale .60..1.40 step .05, all seven images; no pose/scale GT; previously observed same-group regression",
+    "source_image":  "M01.bmp",
+    "levels":  [
+                   3
+               ],
+    "angle_step_degrees":  2
+}

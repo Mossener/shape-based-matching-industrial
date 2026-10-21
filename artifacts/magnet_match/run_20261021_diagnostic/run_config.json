@@ -1,0 +1,45 @@
+﻿{
+    "scope":  "Four targeted causal checks, no threshold reduction or broad grid; single calls are not performance evidence",
+    "cases":  [
+                  {
+                      "levels":  4,
+                      "angles":  [
+                                     0
+                                 ],
+                      "case":  "L4_source_pad64",
+                      "image":  "M01.bmp",
+                      "padding":  64,
+                      "scale":  1
+                  },
+                  {
+                      "levels":  4,
+                      "angles":  [
+                                     0
+                                 ],
+                      "case":  "L4_source_pad256",
+                      "image":  "M01.bmp",
+                      "padding":  256,
+                      "scale":  1
+                  },
+                  {
+                      "levels":  3,
+                      "angle_step":  2,
+                      "case":  "L3_M04_scale070",
+                      "image":  "M04.bmp",
+                      "padding":  128,
+                      "scale":  0.7
+                  },
+                  {
+                      "levels":  3,
+                      "angle_step":  2,
+                      "case":  "L3_M06_scale125",
+                      "image":  "M06.bmp",
+                      "padding":  128,
+                      "scale":  1.25
+                  }
+              ],
+    "openmp_threads":  4,
+    "opencv_threads":  1,
+    "threshold":  75,
+    "mode":  "focused_diagnostic"
+}

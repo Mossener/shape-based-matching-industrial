@@ -1,0 +1,5 @@
+case,levels,image,padding,padded_width,padded_height,scale,poses,status,score,angle_deg,center_x,center_y,candidates,preprocess_ms,search_ms,api_total_ms
+L4_source_pad64,4,M01.bmp,64,768,640,1,1,no_match_ge75,,,,,0,9.3232,1.0178,10.341
+L4_source_pad256,4,M01.bmp,256,1152,1024,1,1,match,99.8559,0,328,246.5,1,25.4736,0.5966,26.0703
+L3_M04_scale070,3,M04.bmp,128,896,736,0.7,180,match,99.4852,312,321.9,241.25,5,11.5278,3.2153,14.7432
+L3_M06_scale125,3,M06.bmp,128,896,736,1.25,180,match,98.7232,178,319.75,292.875,2,11.6371,2.1649,13.8024

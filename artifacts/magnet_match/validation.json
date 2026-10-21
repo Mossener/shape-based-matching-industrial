@@ -1,0 +1,54 @@
+{
+  "runs": [
+    {
+      "name": "run_20261021_initial",
+      "source_snapshots_verified": 3,
+      "exit_code": 0,
+      "input_stability": true,
+      "source_stability": true
+    },
+    {
+      "name": "run_20261021_diagnostic",
+      "source_snapshots_verified": 3,
+      "exit_code": 0,
+      "input_stability": true,
+      "source_stability": true
+    },
+    {
+      "name": "run_20261021_scale_coverage",
+      "source_snapshots_verified": 4,
+      "exit_code": 0,
+      "input_stability": true,
+      "source_stability": true
+    }
+  ],
+  "preflight_checks": 6120,
+  "preflight_all_feasible": true,
+  "padded_dimensions": [
+    896,
+    832
+  ],
+  "raw_candidates": 23,
+  "raw_duplicate_hypotheses": 16,
+  "nms_detections": 7,
+  "source_counts": {
+    "tp": 1,
+    "fp": 0,
+    "fn": 0,
+    "gt": 1,
+    "images": 1,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "nonsource_counts": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 0,
+    "gt": 6,
+    "images": 6,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "literal_metric_tests_passed": true,
+  "current_code_modified": false
+}
