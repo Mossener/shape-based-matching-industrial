@@ -1,0 +1,6 @@
+{
+  "case": "changed_frame_fn",
+  "rejected": true,
+  "expected": "Synthetic numeric result differs",
+  "observed": "Synthetic numeric result differs"
+}

@@ -1,0 +1,46 @@
+{
+  "key": [
+    10,
+    103
+  ],
+  "selected": {
+    "scene": "10",
+    "image": "103",
+    "rank": "0",
+    "class_id": "tless_object_1",
+    "score": "89.4231",
+    "template_id": "1064",
+    "bbox_x": "142",
+    "bbox_y": "390",
+    "bbox_w": "76",
+    "bbox_h": "102",
+    "allGT_label": "FP",
+    "allGT_id": "-1",
+    "eligible_label": "FP",
+    "eligibleGT_id": "-1"
+  },
+  "matching_template_box_raw": [
+    {
+      "scene": "10",
+      "image": "103",
+      "variant": "fallback",
+      "class_id": "tless_object_1",
+      "rank": "0",
+      "score": "89.423080444335938",
+      "template_id": "1064",
+      "training_image": "611",
+      "angle": "30",
+      "scale": "1",
+      "match_x": "209",
+      "match_y": "465",
+      "bbox_x": "142",
+      "bbox_y": "390",
+      "bbox_w": "76",
+      "bbox_h": "102"
+    }
+  ],
+  "selected_score_float32": "a1d8b242",
+  "raw_score_float32": [
+    "9ed8b242"
+  ]
+}

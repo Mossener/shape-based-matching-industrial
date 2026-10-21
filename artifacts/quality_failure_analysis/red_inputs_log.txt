@@ -1,0 +1,22 @@
+FF
+======================================================================
+FAIL: test_raw_frame_variant_rank_class_and_finite_score_are_enforced (test_inputs.InputContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\test_inputs.py", line 23, in test_raw_frame_variant_rank_class_and_finite_score_are_enforced
+    self.assertEqual(len(rows), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_sealed_and_training_entries_are_excluded (test_inputs.InputContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\test_inputs.py", line 16, in test_sealed_and_training_entries_are_excluded
+    self.assertEqual(set(development_frames(index)), {(1, 2)})
+AssertionError: Items in the second set but not the first:
+(1, 2)
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

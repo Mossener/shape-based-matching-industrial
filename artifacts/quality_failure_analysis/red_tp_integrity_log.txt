@@ -1,0 +1,13 @@
+...F...
+======================================================================
+FAIL: test_fp_cannot_lend_geometric_capacity_to_invalid_tp_labels (test_diagnose.DiagnosticContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\test_diagnose.py", line 67, in test_fp_cannot_lend_geometric_capacity_to_invalid_tp_labels
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.021s
+
+FAILED (failures=1)

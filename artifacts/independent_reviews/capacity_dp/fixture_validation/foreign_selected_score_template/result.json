@@ -1,0 +1,6 @@
+{
+  "case": "foreign_selected_score_template",
+  "rejected": true,
+  "expected": "Selected identity absent from raw",
+  "observed": "Selected identity absent from raw"
+}

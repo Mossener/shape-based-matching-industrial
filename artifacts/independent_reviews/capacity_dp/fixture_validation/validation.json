@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "literal_core_oracles": 5,
+  "dp_selftest": {
+    "passed": true,
+    "literal_dp_cases": 7,
+    "invalid_dp_cases_rejected": 4,
+    "rejected": [
+      "DP adjacency outside target set",
+      "DP adjacency outside target set",
+      "DP adjacency outside target set",
+      "DP target budget"
+    ],
+    "image_files_opened": 0,
+    "matcher_calls": 0
+  },
+  "rejecting_semantic_fixtures": 11,
+  "results": [
+    {
+      "case": "wrong_tp_gt_id",
+      "rejected": true,
+      "expected": "Independent GT labels/IDs differ",
+      "observed": "Independent GT labels/IDs differ"
+    },
+    {
+      "case": "duplicate_tp_assignment",
+      "rejected": true,
+      "expected": "Independent GT labels/IDs differ",
+      "observed": "Independent GT labels/IDs differ"
+    },
+    {
+      "case": "foreign_selected_score_template",
+      "rejected": true,
+      "expected": "Selected identity absent from raw",
+      "observed": "Selected identity absent from raw"
+    },
+    {
+      "case": "changed_frame_fn",
+      "rejected": true,
+      "expected": "Synthetic numeric result differs",
+      "observed": "Synthetic numeric result differs"
+    },
+    {
+      "case": "redistributed_fp_categories",
+      "rejected": true,
+      "expected": "Synthetic numeric result differs",
+      "observed": "Synthetic numeric result differs"
+    },
+    {
+      "case": "outside_graph",
+      "rejected": true,
+      "expected": "DP ",
+      "observed": "DP adjacency outside target set"
+    },
+    {
+      "case": "negative_adjacency",
+      "rejected": true,
+      "expected": "DP ",
+      "observed": "DP adjacency outside target set"
+    },
+    {
+      "case": "nonempty_zero_gt",
+      "rejected": true,
+      "expected": "DP ",
+      "observed": "DP adjacency outside target set"
+    },
+    {
+      "case": "target_budget",
+      "rejected": true,
+      "expected": "DP ",
+      "observed": "DP target budget"
+    },
+    {
+      "case": "raw_origin",
+      "rejected": true,
+      "expected": "Raw metadata/source-origin box",
+      "observed": "Raw metadata/source-origin box"
+    },
+    {
+      "case": "raw_pose",
+      "rejected": true,
+      "expected": "Raw training/pose metadata",
+      "observed": "Raw training/pose metadata"
+    }
+  ],
+  "corrupted_gzip_rejected": true,
+  "auditor_sha256": "8d64385d53b88baa705fe64c2a684877d4179b90837a03814efaae3f1ab6ea21",
+  "test_sha256": "78c98056a0202d96e7808db123505eea8ca5966a205cf6d352cba2189106ca40",
+  "image_files_opened": 0,
+  "matcher_calls": 0
+}

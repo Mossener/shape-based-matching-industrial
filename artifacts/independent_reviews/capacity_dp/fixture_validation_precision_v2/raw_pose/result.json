@@ -1,0 +1,6 @@
+{
+  "case": "raw_pose",
+  "rejected": true,
+  "expected": "Raw training/pose metadata",
+  "observed": "Raw training/pose metadata"
+}

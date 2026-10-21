@@ -1,0 +1,45 @@
+{
+  "version": "ideal_template_box_size_coverage_v1",
+  "objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "split": "development",
+  "iou_threshold": 0.5,
+  "box_policy": "Existing serialized warped silhouette boxes only; no rescaling, no clipping, no retraining; best continuous translation upper bound using maximal rectangle intersection.",
+  "interpretation": "IoU<.5 for every existing template proves bounding-box geometry incompatibility at every translation. IoU>=.5 proves only possibility at an ideal translation, not correct gradients or recognition. This upper bound ignores detector grid quantization. No template or threshold is tuned here.",
+  "input_sha256": [
+    {
+      "path": "datasets/tless_expanded/index.json",
+      "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj1_v11/training/template_metadata.json.gz",
+      "sha256": "d1b4d28bb581a98e1e0a9dec362ba9d6346b66013eee0b8b26fa491f149e1514"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj2_v11/training/template_metadata.json.gz",
+      "sha256": "7531b4437b7c0786cf3f19f05ebef719a82b4e430a7fdc376623c07f6928ed66"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj5_v11/training/template_metadata.json.gz",
+      "sha256": "67332df6a3fe451d606b73a69f5e718a6d96068845583aa490717d240e7b9fee"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj8_v11/training/template_metadata.json.gz",
+      "sha256": "0ff4be50d901780a132447901fd1c194a420ea9e77fffc5f9f13512e48251e15"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj12_v11/training/template_metadata.json.gz",
+      "sha256": "fdb4bf78baa7c4feaa5f8ff55659ede0a80a0f1498ea4a852eae7e65d0a29d87"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj17_v11/training/template_metadata.json.gz",
+      "sha256": "b39dfc8178ccfe56ba1e0f9fd2ac8acf63da5400a2dcb377cf0cfd90e3e1a0fa"
+    }
+  ]
+}

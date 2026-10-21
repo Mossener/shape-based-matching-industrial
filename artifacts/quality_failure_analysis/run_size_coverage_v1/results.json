@@ -1,0 +1,98 @@
+{
+  "per_object": [
+    {
+      "object_id": 1,
+      "templates": 2153,
+      "gt": 50,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 50,
+      "min_best_ideal_iou": 0.7273954116059379,
+      "max_best_ideal_iou": 0.9380142622051564
+    },
+    {
+      "object_id": 2,
+      "templates": 2646,
+      "gt": 150,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 150,
+      "min_best_ideal_iou": 0.8448457223001402,
+      "max_best_ideal_iou": 1.0
+    },
+    {
+      "object_id": 5,
+      "templates": 3416,
+      "gt": 50,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 50,
+      "min_best_ideal_iou": 0.8943019943019943,
+      "max_best_ideal_iou": 1.0
+    },
+    {
+      "object_id": 8,
+      "templates": 3456,
+      "gt": 50,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 50,
+      "min_best_ideal_iou": 0.8771478667445938,
+      "max_best_ideal_iou": 0.9945054945054945
+    },
+    {
+      "object_id": 12,
+      "templates": 3372,
+      "gt": 50,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 50,
+      "min_best_ideal_iou": 0.8674248325284312,
+      "max_best_ideal_iou": 1.0
+    },
+    {
+      "object_id": 17,
+      "templates": 3156,
+      "gt": 50,
+      "gt_without_geometrically_compatible_template": 0,
+      "gt_with_geometrically_compatible_template": 50,
+      "min_best_ideal_iou": 0.887302396736359,
+      "max_best_ideal_iou": 1.0
+    }
+  ],
+  "protocol_sha256": "351cd4cb7e1af392ad32c29156e3b3812190ee0173a0cab7d16d1eb7f9dfe285",
+  "interpretation": "IoU<.5 for every existing template proves bounding-box geometry incompatibility at every translation. IoU>=.5 proves only possibility at an ideal translation, not correct gradients or recognition. This upper bound ignores detector grid quantization. No template or threshold is tuned here.",
+  "image_files_opened": 0,
+  "heldout_frames_processed": 0,
+  "matcher_calls": 0,
+  "source_sha256": {
+    "size_coverage.py": "640abf9e4f52ac0caedc1e3a19d296d2ddb4691ebbafc6d0353e0e9c7b087544",
+    "read_inputs.py": "b67a582152714248803f2e4a39ecabc824998110a39508cb00ca989227869c83"
+  },
+  "input_sha256": [
+    {
+      "path": "datasets/tless_expanded/index.json",
+      "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj1_v11/training/template_metadata.json.gz",
+      "sha256": "d1b4d28bb581a98e1e0a9dec362ba9d6346b66013eee0b8b26fa491f149e1514"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj2_v11/training/template_metadata.json.gz",
+      "sha256": "7531b4437b7c0786cf3f19f05ebef719a82b4e430a7fdc376623c07f6928ed66"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj5_v11/training/template_metadata.json.gz",
+      "sha256": "67332df6a3fe451d606b73a69f5e718a6d96068845583aa490717d240e7b9fee"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj8_v11/training/template_metadata.json.gz",
+      "sha256": "0ff4be50d901780a132447901fd1c194a420ea9e77fffc5f9f13512e48251e15"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj12_v11/training/template_metadata.json.gz",
+      "sha256": "fdb4bf78baa7c4feaa5f8ff55659ede0a80a0f1498ea4a852eae7e65d0a29d87"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj17_v11/training/template_metadata.json.gz",
+      "sha256": "b39dfc8178ccfe56ba1e0f9fd2ac8acf63da5400a2dcb377cf0cfd90e3e1a0fa"
+    }
+  ],
+  "per_gt_sha256": "38a9f8349bd12bcbac51beae742c9525b16b01396fde98b4ac3d63907e392b88"
+}

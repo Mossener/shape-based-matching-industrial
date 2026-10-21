@@ -1,0 +1,22 @@
+{
+  "raw_capacity": 2,
+  "selected_capacity": 2,
+  "actual_tp": 1,
+  "raw_capacity_deficit": 0,
+  "selected_capacity_loss": 0,
+  "assignment_capacity_loss": 1,
+  "gt_without_raw_overlap": 0,
+  "gt": 2,
+  "fp": 1,
+  "fn": 2,
+  "raw": 2,
+  "selected": 2,
+  "negative_frames": 0,
+  "fp_associations": {
+    "target_ge_0_5": 1,
+    "other_ge_0_5": 0,
+    "target_ge_0_1": 0,
+    "other_ge_0_1": 0,
+    "no_overlap_ge_0_1": 0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "scene": 1,
+  "image": 2,
+  "variant": "fallback",
+  "class_id": "tless_object_8",
+  "rank": 0,
+  "score": 90,
+  "template_id": 0,
+  "training_image": 0,
+  "angle": 30,
+  "scale": 1,
+  "match_x": 64,
+  "match_y": 64,
+  "bbox_x": 0,
+  "bbox_y": 0,
+  "bbox_w": 10,
+  "bbox_h": 10
+}

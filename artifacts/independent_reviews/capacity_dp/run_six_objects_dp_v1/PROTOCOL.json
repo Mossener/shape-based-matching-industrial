@@ -1,0 +1,107 @@
+{
+  "version": "independent_capacity_gt_bitmask_dp_v1",
+  "root_run": "artifacts/quality_failure_analysis/run_six_objects_v1",
+  "diagnosis_protocol_sha256": "973f93cf2c9f49a939c54508c002fb20977eab9047d7bc0b681448f750f8cf5c",
+  "objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "split": "development",
+  "unique_frames": 400,
+  "object_frame_pairs": 2400,
+  "iou_threshold": 0.5,
+  "fp_association_priority": [
+    "target_ge_0_5",
+    "other_ge_0_5",
+    "target_ge_0_1",
+    "other_ge_0_1",
+    "no_overlap_ge_0_1"
+  ],
+  "algorithm": "GT-bitmask reachable subsets after each candidate; no Kuhn/augmenting path code or root analysis imports",
+  "max_targets_per_frame": 20,
+  "image_files_opened": 0,
+  "heldout_frames_processed": 0,
+  "matcher_calls": 0,
+  "input_sha256": [
+    {
+      "path": "datasets/tless_expanded/index.json",
+      "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819"
+    },
+    {
+      "path": "artifacts/public_evaluation/baseline_summary_all_six.json",
+      "sha256": "40be54e11c3244d45fcf17da702252fdc30c6a4aae9b7bb3d22d12468ac358e1"
+    },
+    {
+      "path": "artifacts/public_evaluation/audit_preservation.py",
+      "sha256": "a16c648de1644712f3386a2f1cf36d30f895e29a4a69b05d4767ef06802edb81"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj1_v11/development/preservation_manifest.json",
+      "sha256": "0d7579b2c1a465941942337d71b3b783810dfe9a8931208626a3fefc7ab1a850"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj2_v11/development/preservation_manifest.json",
+      "sha256": "b9eb24da4bd654ea9b3fa2ef243b5257fc5cf73e898c81b2154b7c43ecff9341"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj5_v11/development/preservation_manifest.json",
+      "sha256": "9d8a053bb3d3ab3f1914cee352c96f19f5ae47f88fd28631a81682cd9a934dc6"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj8_v11/development/preservation_manifest.json",
+      "sha256": "716f660c29b40793c968fc74f90df4ef4a501332b5e6edb93af69a83e8dde505"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj12_v11/development/preservation_manifest.json",
+      "sha256": "d5729a44345f8ae9c2da79d92882328b41360c403752ab7c120e4df193a1b3a8"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj17_v11/development/preservation_manifest.json",
+      "sha256": "584fc1d2114b434c87ad0b3fac05fb07b607fd3b016751d894470bea9368e473"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/PROTOCOL.json",
+      "sha256": "973f93cf2c9f49a939c54508c002fb20977eab9047d7bc0b681448f750f8cf5c"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/run_six_objects_v1/results.json",
+      "sha256": "1357e4b8bfea745cd77499561fb98bfde37a981a31e98bc10d3ea169baadfbcb"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/run_six_objects_v1/per_frame.csv",
+      "sha256": "c5070812a3e0d5722d11f83d0da5b606e978183274007a2479b6449715240f8e"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/SIZE_PROTOCOL.json",
+      "sha256": "351cd4cb7e1af392ad32c29156e3b3812190ee0173a0cab7d16d1eb7f9dfe285"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj1_v11/training/template_metadata.json.gz",
+      "sha256": "d1b4d28bb581a98e1e0a9dec362ba9d6346b66013eee0b8b26fa491f149e1514"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj2_v11/training/template_metadata.json.gz",
+      "sha256": "7531b4437b7c0786cf3f19f05ebef719a82b4e430a7fdc376623c07f6928ed66"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj5_v11/training/template_metadata.json.gz",
+      "sha256": "67332df6a3fe451d606b73a69f5e718a6d96068845583aa490717d240e7b9fee"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj8_v11/training/template_metadata.json.gz",
+      "sha256": "0ff4be50d901780a132447901fd1c194a420ea9e77fffc5f9f13512e48251e15"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj12_v11/training/template_metadata.json.gz",
+      "sha256": "fdb4bf78baa7c4feaa5f8ff55659ede0a80a0f1498ea4a852eae7e65d0a29d87"
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj17_v11/training/template_metadata.json.gz",
+      "sha256": "b39dfc8178ccfe56ba1e0f9fd2ac8acf63da5400a2dcb377cf0cfd90e3e1a0fa"
+    }
+  ]
+}

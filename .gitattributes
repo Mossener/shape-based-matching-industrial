@@ -33,3 +33,5 @@ artifacts/quality_coverage/** -text whitespace=cr-at-eol
 artifacts/quality_coverage/**/compiler_version_stdout.txt -whitespace
 artifacts/obj8_padding_experiment/** -text whitespace=cr-at-eol
 artifacts/obj8_padding_experiment/run_*/source/** -whitespace
+artifacts/quality_failure_analysis/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/capacity_dp/** -text whitespace=cr-at-eol

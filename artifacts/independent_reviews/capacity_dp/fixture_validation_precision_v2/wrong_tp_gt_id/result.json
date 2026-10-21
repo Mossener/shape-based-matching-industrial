@@ -1,0 +1,6 @@
+{
+  "case": "wrong_tp_gt_id",
+  "rejected": true,
+  "expected": "Independent GT labels/IDs differ",
+  "observed": "Independent GT labels/IDs differ"
+}
