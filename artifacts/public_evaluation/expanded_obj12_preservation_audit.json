@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "audit_script_sha256": "a16c648de1644712f3386a2f1cf36d30f895e29a4a69b05d4767ef06802edb81",
+  "scope": "Only published numeric copies and tar bytes; no original source path is opened.",
+  "self_test": null,
+  "packages": [
+    {
+      "manifest": "artifacts/public_evaluation/expanded_obj12_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "fe646ce6b5507faacaf42eb616f58656310cfe681dd379242867e8ab381d0c90",
+      "object_id": 12,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 1134845,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 43775,
+      "tar_sha256": "870f62446a85b1fb133bb9669fb08deaa1044f3a21a120b483a41eb802f55d24"
+    },
+    {
+      "manifest": "artifacts/public_evaluation/expanded_obj12_v11/development/preservation_manifest.json",
+      "manifest_sha256": "d5729a44345f8ae9c2da79d92882328b41360c403752ab7c120e4df193a1b3a8",
+      "object_id": 12,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 2287482,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 1420877,
+      "tar_sha256": "e52d103af7c030594da0b03f9094ae858a4f636f74bae3137eef0d6e299c9642"
+    }
+  ]
+}

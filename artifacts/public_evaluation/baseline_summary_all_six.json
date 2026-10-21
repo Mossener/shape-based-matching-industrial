@@ -1,0 +1,453 @@
+{
+  "status": "Completed fixed actual85 development baseline, all six preregistered objects. Accuracy failure baseline; no accuracy improvement claim.",
+  "protocol": "expanded_baseline_protocol.json",
+  "protocol_sha256": "9214ef48792069938f53f1941f0191a1d9b66a2f2033c1ea12d2499c69d476e3",
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "objects_completed": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "unique_development_images": 400,
+  "independent_object_frame_evaluations": 2400,
+  "matcher_calls": 4800,
+  "one_vs_rest_per_object": true,
+  "joint_scan": false,
+  "allGT_micro": {
+    "tp": 215,
+    "fp": 42098,
+    "fn": 185,
+    "gt": 400,
+    "ignored": 0,
+    "matched_iou_sum": 154.92515984319368,
+    "precision": 0.005081180724600004,
+    "recall": 0.5375,
+    "f1": 0.010067192657972983,
+    "mean_tp_iou": 0.720582138805552
+  },
+  "visibility_ge_0_5_micro": {
+    "tp": 209,
+    "fp": 42098,
+    "fn": 165,
+    "gt": 374,
+    "ignored": 6,
+    "matched_iou_sum": 151.18507110480857,
+    "precision": 0.0049400808376864344,
+    "recall": 0.5588235294117647,
+    "f1": 0.009793584967549963,
+    "mean_tp_iou": 0.7233735459560219
+  },
+  "object_macro": {
+    "precision": 0.007676763002015329,
+    "recall": 0.5633333333333334,
+    "f1": 0.01318312255230316
+  },
+  "negative_fp": 35076,
+  "raw_rows_per_variant": 457376,
+  "exact_candidate_equality_object_frames": 2400,
+  "per_object": [
+    {
+      "object_id": 1,
+      "training_attempts": 3456,
+      "successful_templates": 2153,
+      "training_views": 72,
+      "allGT": {
+        "tp": 37,
+        "fp": 7842,
+        "fn": 13,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.004696027414646529,
+        "recall": 0.74,
+        "f1": 0.00933282885609787,
+        "matched_iou_sum": 26.20987420176928,
+        "mean_tp_iou": 0.7083749784261968
+      },
+      "visibility_ge_0_5": {
+        "tp": 37,
+        "fp": 7842,
+        "fn": 12,
+        "gt": 49,
+        "ignored": 0,
+        "precision": 0.004696027414646529,
+        "recall": 0.7551020408163265,
+        "f1": 0.009334006054490415,
+        "matched_iou_sum": 26.20987420176928,
+        "mean_tp_iou": 0.7083749784261968
+      },
+      "negative_frames": 350,
+      "negative_frames_with_fp": 350,
+      "negative_fp": 6874,
+      "raw_rows_per_variant": 78600,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 41.147578,
+          "min_ms": 16.2564,
+          "max_ms": 104.2902
+        },
+        "fused": {
+          "mean_ms": 38.54904675,
+          "min_ms": 16.1653,
+          "max_ms": 103.0528
+        }
+      },
+      "training_wall_seconds": 6.713452,
+      "full_wrapper_wall_seconds": 54.493177,
+      "geometry": {
+        "invalid_declared_template_levels": 0,
+        "actual_feature_max_plus_one_exceeds_level": 0,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj1_development_audit.json",
+        "audit_sha256": "77d6d1ed6aada78f72817c92965fae12fff46ae2d0a9eaab87a2f8b712c99e4c",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj1_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "9ba3ec4c293a406b2e274435c9d15882006b6a6233555ae758787df659440f80",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj1_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "83adde59b2e6c108af2e19c7047fc68f7398ba8e6d31c1c3a4fade3c2bc82334",
+        "geometry_copy_sha256": "7a277ef98ed0eac60c2810b362e997459d661b722decd88f4b053ea098388b05",
+        "development_raw_tar_sha256": "f713bc761b3e2112b1669be47b8dd1b006d4a8cde60381e6ca3a243d5926e6c6",
+        "development_raw_tar_bytes": 3240091
+      }
+    },
+    {
+      "object_id": 2,
+      "training_attempts": 3456,
+      "successful_templates": 2646,
+      "training_views": 72,
+      "allGT": {
+        "tp": 69,
+        "fp": 10978,
+        "fn": 81,
+        "gt": 150,
+        "ignored": 0,
+        "precision": 0.006246039648773422,
+        "recall": 0.46,
+        "f1": 0.012324729838349558,
+        "matched_iou_sum": 49.36634977134345,
+        "mean_tp_iou": 0.7154543445122239
+      },
+      "visibility_ge_0_5": {
+        "tp": 65,
+        "fp": 10978,
+        "fn": 72,
+        "gt": 137,
+        "ignored": 4,
+        "precision": 0.005886081680702707,
+        "recall": 0.4744525547445255,
+        "f1": 0.011627906976744186,
+        "matched_iou_sum": 47.02891100931451,
+        "mean_tp_iou": 0.7235217078356079
+      },
+      "negative_frames": 300,
+      "negative_frames_with_fp": 300,
+      "negative_fp": 7511,
+      "raw_rows_per_variant": 74575,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 46.32929175,
+          "min_ms": 17.9243,
+          "max_ms": 122.5801
+        },
+        "fused": {
+          "mean_ms": 42.269648,
+          "min_ms": 16.8504,
+          "max_ms": 111.8597
+        }
+      },
+      "training_wall_seconds": 7.682082,
+      "full_wrapper_wall_seconds": 57.511323,
+      "geometry": {
+        "invalid_declared_template_levels": 0,
+        "actual_feature_max_plus_one_exceeds_level": 0,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj2_development_audit.json",
+        "audit_sha256": "017c2e8f76f457d332ecbdaa3ad3f79d8e387289888966a28453f29712901c6e",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj2_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "350c8c4137638b4e6d0cd97b8ffef73eb0e823ce2e43fd8b1ce4e9b64757e78e",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj2_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "13ebf1bfde94360b63dfc2f51eb57681a8b4e2f4e5d410e4ae3930f059cd3634",
+        "geometry_copy_sha256": "996d1f914c82079ad02c00a4ffb11c2409935d95157778d80c1194d6b385fe7a",
+        "development_raw_tar_sha256": "423d571aaccffee54a1a5448ad153c529ded0e7671b32586ed8ef9f94877cab4",
+        "development_raw_tar_bytes": 3277816
+      }
+    },
+    {
+      "object_id": 5,
+      "training_attempts": 3456,
+      "successful_templates": 3416,
+      "training_views": 72,
+      "allGT": {
+        "tp": 22,
+        "fp": 2196,
+        "fn": 28,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.009918845807033363,
+        "recall": 0.44,
+        "f1": 0.019400352733686066,
+        "matched_iou_sum": 15.36351586301605,
+        "mean_tp_iou": 0.6983416301370932
+      },
+      "visibility_ge_0_5": {
+        "tp": 22,
+        "fp": 2196,
+        "fn": 23,
+        "gt": 45,
+        "ignored": 0,
+        "precision": 0.009918845807033363,
+        "recall": 0.4888888888888889,
+        "f1": 0.019443216968625717,
+        "matched_iou_sum": 15.36351586301605,
+        "mean_tp_iou": 0.6983416301370932
+      },
+      "negative_frames": 350,
+      "negative_frames_with_fp": 305,
+      "negative_fp": 1965,
+      "raw_rows_per_variant": 8417,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 35.44682125,
+          "min_ms": 12.0636,
+          "max_ms": 95.668
+        },
+        "fused": {
+          "mean_ms": 33.716024,
+          "min_ms": 12.7851,
+          "max_ms": 94.7078
+        }
+      },
+      "training_wall_seconds": 12.434858,
+      "full_wrapper_wall_seconds": 47.859918,
+      "geometry": {
+        "invalid_declared_template_levels": 0,
+        "actual_feature_max_plus_one_exceeds_level": 0,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj5_development_audit.json",
+        "audit_sha256": "81d4bb5a98a35cc0beb33764882613f7a8f93edcdc53fd47660dd3b8b0115af5",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj5_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "4cc326310b5e2efa4548e6c631f6852db14592d9d4a269d7ca73babe4527fc82",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj5_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "39cd1c03506bd47c89085c24c0b69d6c69e7789e30e73f01310ec41a6efd80b7",
+        "geometry_copy_sha256": "88691932c596336fec36d596829f6debe288543d0294608a20f12c9d86c96d3e",
+        "development_raw_tar_sha256": "adb793a6b1e9a2ac8c4d3e5924dc55f211b2ba3ad84e9f5bc9ee62d6ee24a4ed",
+        "development_raw_tar_bytes": 504923
+      }
+    },
+    {
+      "object_id": 8,
+      "training_attempts": 3456,
+      "successful_templates": 3456,
+      "training_views": 72,
+      "allGT": {
+        "tp": 1,
+        "fp": 68,
+        "fn": 49,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.014492753623188406,
+        "recall": 0.02,
+        "f1": 0.01680672268907563,
+        "matched_iou_sum": 0.6585365853658537,
+        "mean_tp_iou": 0.6585365853658537
+      },
+      "visibility_ge_0_5": {
+        "tp": 1,
+        "fp": 68,
+        "fn": 49,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.014492753623188406,
+        "recall": 0.02,
+        "f1": 0.01680672268907563,
+        "matched_iou_sum": 0.6585365853658537,
+        "mean_tp_iou": 0.6585365853658537
+      },
+      "negative_frames": 350,
+      "negative_frames_with_fp": 51,
+      "negative_fp": 63,
+      "raw_rows_per_variant": 93,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 19.69956075,
+          "min_ms": 10.1824,
+          "max_ms": 53.2547
+        },
+        "fused": {
+          "mean_ms": 19.913372,
+          "min_ms": 10.1491,
+          "max_ms": 53.4267
+        }
+      },
+      "training_wall_seconds": 39.709973,
+      "full_wrapper_wall_seconds": 30.555604,
+      "geometry": {
+        "invalid_declared_template_levels": 630,
+        "actual_feature_max_plus_one_exceeds_level": 402,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj8_development_audit.json",
+        "audit_sha256": "fa140cf46cba33ccd1403e56524dbc8f7cdffe8cea07c515f3ed30441ef51f5b",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj8_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "a5520a80ab45962535449efcf25125d2f293814e8e406fccf3176b3af1adb1e3",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj8_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "e1a7bc9dce63c080683c52bf7bd99f764e4d7e356783fd6c050e157c25c54015",
+        "geometry_copy_sha256": "c541d8dcddd7ded637ffeb53d9cbb1d50680d8d4301fa5c33a1fd96db77c6f34",
+        "development_raw_tar_sha256": "29b842cbed983033a41aa089fe9fdf146648d52a8d068d8d44baf1492aafa61a",
+        "development_raw_tar_bytes": 54463
+      }
+    },
+    {
+      "object_id": 12,
+      "training_attempts": 3456,
+      "successful_templates": 3372,
+      "training_views": 72,
+      "allGT": {
+        "tp": 36,
+        "fp": 4665,
+        "fn": 14,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.007657945118059987,
+        "recall": 0.72,
+        "f1": 0.015154704272784677,
+        "matched_iou_sum": 23.226127712353414,
+        "mean_tp_iou": 0.6451702142320392
+      },
+      "visibility_ge_0_5": {
+        "tp": 35,
+        "fp": 4665,
+        "fn": 9,
+        "gt": 44,
+        "ignored": 1,
+        "precision": 0.007446808510638298,
+        "recall": 0.7954545454545454,
+        "f1": 0.01475548060708263,
+        "matched_iou_sum": 22.675337644633323,
+        "mean_tp_iou": 0.6478667898466663
+      },
+      "negative_frames": 350,
+      "negative_frames_with_fp": 350,
+      "negative_fp": 4169,
+      "raw_rows_per_variant": 19778,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 40.5383405,
+          "min_ms": 14.8031,
+          "max_ms": 110.5469
+        },
+        "fused": {
+          "mean_ms": 38.5111535,
+          "min_ms": 15.5837,
+          "max_ms": 109.7769
+        }
+      },
+      "training_wall_seconds": 9.461828,
+      "full_wrapper_wall_seconds": 55.510052,
+      "geometry": {
+        "invalid_declared_template_levels": 0,
+        "actual_feature_max_plus_one_exceeds_level": 0,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj12_development_audit.json",
+        "audit_sha256": "a863410c2c3e855c7949227274d59b7137b869c658286f11c21b9a730b3ada4c",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj12_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "e71c3b1e6b04e129ed5349c3ee87928a261e2ddc82e5d3c96b76bffb4e8adc54",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj12_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "6aef7c5a4c941facafeff080c07064f9748b6c4c8afc50a4ec359cbcdd848b29",
+        "geometry_copy_sha256": "27060e7d433ff13f76875d86188162445e6f2f5b9bc53b9974f3faabed299775",
+        "development_raw_tar_sha256": "e52d103af7c030594da0b03f9094ae858a4f636f74bae3137eef0d6e299c9642",
+        "development_raw_tar_bytes": 1032943
+      }
+    },
+    {
+      "object_id": 17,
+      "training_attempts": 3456,
+      "successful_templates": 3156,
+      "training_views": 72,
+      "allGT": {
+        "tp": 50,
+        "fp": 16349,
+        "fn": 0,
+        "gt": 50,
+        "ignored": 0,
+        "precision": 0.0030489664003902676,
+        "recall": 1.0,
+        "f1": 0.006079396923825157,
+        "matched_iou_sum": 40.10075570934563,
+        "mean_tp_iou": 0.8020151141869125
+      },
+      "visibility_ge_0_5": {
+        "tp": 49,
+        "fp": 16349,
+        "fn": 0,
+        "gt": 49,
+        "ignored": 1,
+        "precision": 0.002988169288937675,
+        "recall": 1.0,
+        "f1": 0.005958533471149754,
+        "matched_iou_sum": 39.24889580070956,
+        "mean_tp_iou": 0.8009978734838686
+      },
+      "negative_frames": 350,
+      "negative_frames_with_fp": 350,
+      "negative_fp": 14494,
+      "raw_rows_per_variant": 275913,
+      "exact_equality_frames": 400,
+      "timing_single_pass_diagnostic": {
+        "fallback": {
+          "mean_ms": 55.31991825,
+          "min_ms": 17.2175,
+          "max_ms": 128.4069
+        },
+        "fused": {
+          "mean_ms": 49.34939975,
+          "min_ms": 16.7745,
+          "max_ms": 122.2257
+        }
+      },
+      "training_wall_seconds": 19.747044,
+      "full_wrapper_wall_seconds": 69.105672,
+      "geometry": {
+        "invalid_declared_template_levels": 0,
+        "actual_feature_max_plus_one_exceeds_level": 0,
+        "full_physical_load_safety_proven": false
+      },
+      "sources": {
+        "audit": "artifacts/public_evaluation/expanded_obj17_development_audit.json",
+        "audit_sha256": "1b2bb3087e9d40614db2963406ac67a3c031eca9e6884445db7fb519be41e797",
+        "training_provenance_copy": "artifacts/public_evaluation/expanded_obj17_v11/training/execution_provenance.json",
+        "training_provenance_copy_sha256": "3e5f3ed408e7d2c382235b1af0a8660670d25c33d06c9932fd565fee865a0c61",
+        "development_provenance_copy": "artifacts/public_evaluation/expanded_obj17_v11/development/execution_provenance.json.gz",
+        "development_provenance_copy_sha256": "4c709c61bc54f360cb61d04fb28c8e5258dc3b6f59dcef82ab2da88651991b53",
+        "geometry_copy_sha256": "282531528667320611245c78f998a81b33d1216247fc1470c31c3aac0bedafed",
+        "development_raw_tar_sha256": "b08494a05ebcc8605bd2ccd52678a595316cb7c5825d98c42df34b7957068e59",
+        "development_raw_tar_bytes": 10024947
+      }
+    }
+  ],
+  "limitations": [
+    "All six objects were evaluated on the same 400 development images independently; this is not 2400 distinct images and not joint multi-class scanning.",
+    "Fixed parameters were not tuned based on these results. Actual match threshold85 and post threshold85; NMS IoU0.3, GT IoU0.5.",
+    "Fallback-first single calls are timing diagnostics only, not controlled speed benchmarks. Full wrapper wall includes integrity verification and output work.",
+    "Object8 retains 630 geometrically inapplicable declared template levels and 402 levels with feature max+1 beyond input level; all such templates were retained unchanged.",
+    "Geometry metadata checks and fallback/fused exact candidate equality are not correctness, accuracy, or physical SIMD load safety proofs.",
+    "Heldout RGB was not decoded, viewed, or matched; full integrity verification may read sealed file bytes and headers. Objects25/29 were not trained or matched."
+  ],
+  "heldout_rgb_decoded_viewed_or_matched": false,
+  "object25_29_trained_or_matched": false
+}

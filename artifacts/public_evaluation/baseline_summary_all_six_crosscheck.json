@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "audit_script_sha256": "46a5d02dfee0412655d99520b79bcb6f5e5592132344a15392ece6ff5c461986",
+  "scope": "Cross-check the six-object summary against all six preserved metrics files, independently of the summary construction source audits. No image or local dataset source opened.",
+  "summary_sha256": "40be54e11c3244d45fcf17da702252fdc30c6a4aae9b7bb3d22d12468ac358e1",
+  "objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "unique_images": 400,
+  "object_frames": 2400,
+  "matcher_calls": 4800,
+  "checked": "Per-object/micro/macro quality, visibility, negative FP, raw counts, actual matcher/post thresholds, NMS/GT IoU, exact equality, frame identity and evaluation unit.",
+  "sources": [
+    {
+      "path": "artifacts/public_evaluation/expanded_obj1_v11/development/metrics.json.gz",
+      "sha256": "147a1dda5960bbb17837f487c23baf595265f4f57d068e24e47010e262d5b7ff",
+      "frames": 400,
+      "object_id": 1
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj2_v11/development/metrics.json.gz",
+      "sha256": "ef822697120032997207c53866fe8a468ad00b5617c660b3a2292ddf43f87437",
+      "frames": 400,
+      "object_id": 2
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj5_v11/development/metrics.json.gz",
+      "sha256": "717a0cfc9641dde166df71e8f8a6585a135e01bb536ea8ea0f8bd2e23e371b26",
+      "frames": 400,
+      "object_id": 5
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj8_v11/development/metrics.json.gz",
+      "sha256": "6a969a2a000aa3f744bff7ac467fcc9fe3fee0cb39d25c3cba13a7b5afb086c5",
+      "frames": 400,
+      "object_id": 8
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj12_v11/development/metrics.json.gz",
+      "sha256": "63acd28d3207a82de7404f698ee92826b45b28911bba68800c7070e0320e1809",
+      "frames": 400,
+      "object_id": 12
+    },
+    {
+      "path": "artifacts/public_evaluation/expanded_obj17_v11/development/metrics.json.gz",
+      "sha256": "5ad198ae148b05e4c3de24e3abb373f2aad5f493c3a9929a97d6507d164e47b3",
+      "frames": 400,
+      "object_id": 17
+    }
+  ]
+}

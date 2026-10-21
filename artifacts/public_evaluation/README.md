@@ -6,6 +6,12 @@ slices. Dataset policy, NMS and metrics remain outside the matcher. This is a
 Dataset sources, license and selection are recorded in
 [the dataset survey](../../docs/datasets/public-dataset-survey.md).
 
+The six-object fixed baseline is now complete. See
+[`BASELINE_COMPLETION.md`](BASELINE_COMPLETION.md) and
+[`baseline_summary_all_six.json`](baseline_summary_all_six.json) for objects
+12/17 and the six-object totals. The section below preserves V13's historical
+through-object8 scope; its original runs, protocol and reports are unchanged.
+
 ## Fixed actual-85 development baseline through object 8
 
 Objects **1, 2, 5 and 8** each completed one independent 400-frame development

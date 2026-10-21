@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "audit_script_sha256": "a16c648de1644712f3386a2f1cf36d30f895e29a4a69b05d4767ef06802edb81",
+  "scope": "Only published numeric copies and tar bytes; no original source path is opened.",
+  "self_test": null,
+  "packages": [
+    {
+      "manifest": "artifacts/public_evaluation/expanded_obj17_v11/pilot/preservation_manifest.json",
+      "manifest_sha256": "ea6552d61ac87d3bbcd86d4a1d2ce9b44cea9b96b99497632545855dd8545ab0",
+      "object_id": 17,
+      "stage": "pilot",
+      "copied_files": 14,
+      "copied_bytes": 1277763,
+      "raw_archives": 16,
+      "tar_members": 32,
+      "tar_member_bytes": 95510,
+      "tar_sha256": "d1ee23a486048dc63ded3c5b23030763d184e2ebf4aeb619d707013e7c1dc71b"
+    },
+    {
+      "manifest": "artifacts/public_evaluation/expanded_obj17_v11/development/preservation_manifest.json",
+      "manifest_sha256": "584fc1d2114b434c87ad0b3fac05fb07b607fd3b016751d894470bea9368e473",
+      "object_id": 17,
+      "stage": "development",
+      "copied_files": 14,
+      "copied_bytes": 11627114,
+      "raw_archives": 800,
+      "tar_members": 1600,
+      "tar_member_bytes": 10345116,
+      "tar_sha256": "b08494a05ebcc8605bd2ccd52678a595316cb7c5825d98c42df34b7957068e59"
+    }
+  ]
+}

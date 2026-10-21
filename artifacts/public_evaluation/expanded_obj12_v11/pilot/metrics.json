@@ -1,0 +1,1666 @@
+{
+    "features": 32,
+    "angle_step": 30,
+    "scales": [ 0.75, 1.0, 1.5, 2.0 ],
+    "pyramid_T": [ 4, 8 ],
+    "weak_threshold": 20,
+    "strong_threshold": 40,
+    "training_border": 16,
+    "input_padding": 64,
+    "coarse_threshold": 85.0,
+    "post_threshold_grid": [ 85.0 ],
+    "selected_post_threshold": 85.0,
+    "nms_iou": 0.29999999999999999,
+    "match_iou": 0.5,
+    "eligible_visibility": 0.5,
+    "score_semantics": "Coarse candidate score strictly > fixed coarse_threshold; refined scores >= coarse_threshold. Post score filter >= selected_post_threshold. Filtering cached fixed-coarse results is not equivalent to match(selected_post_threshold), because intermediate pyramid candidate filtering may differ.",
+    "ordering": "score descending, class_id ascending, template_id ascending, match_y ascending, match_x ascending, then bbox y/x/w/h",
+    "nms_rule": "Adapter only; within each class suppress IoU strictly > nms_iou. No candidate truncation.",
+    "ignore_rule": "Eligible GT first, greedy one-to-one; then each low-visibility GT may ignore at most one remaining detection by IoU>=match_iou. Extra duplicates remain FP.",
+    "quality_source": "fallback candidates; fused comparison is equivalence evidence, not a quality improvement",
+    "frames": [
+        {
+            "scene_id": 1,
+            "image_id": 1,
+            "split": "development",
+            "rgb": "test_primesense/000001/rgb/000001.png",
+            "raw_count": 7,
+            "fused_raw_count": 7,
+            "exact_candidate_equality": 1,
+            "selected_count": 5,
+            "fallback_match_ms": 27.424099999999999,
+            "fused_match_ms": 19.099900000000002,
+            "allGT": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 89.705879211425781,
+                    "template_id": 286,
+                    "bbox_obj": [
+                        256.0,
+                        336.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        653.0,
+                        76.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        22.0,
+                        31.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        -22.0,
+                        291.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 85.15625,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        -11.0,
+                        168.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s1_i1.png"
+        },
+        {
+            "scene_id": 4,
+            "image_id": 0,
+            "split": "development",
+            "rgb": "test_primesense/000004/rgb/000000.png",
+            "raw_count": 97,
+            "fused_raw_count": 97,
+            "exact_candidate_equality": 1,
+            "selected_count": 11,
+            "fallback_match_ms": 14.000400000000001,
+            "fused_match_ms": 13.873699999999999,
+            "allGT": {
+                "tp": 0,
+                "fp": 11,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 11,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 95.3125,
+                    "template_id": 279,
+                    "bbox_obj": [
+                        225.0,
+                        308.0,
+                        100.0,
+                        76.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 89.84375,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        -22.0,
+                        287.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 89.0625,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        -6.0,
+                        155.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        6.0,
+                        99.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1847,
+                    "bbox_obj": [
+                        660.0,
+                        0.0,
+                        74.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 5,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1380,
+                    "bbox_obj": [
+                        667.0,
+                        241.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 6,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1380,
+                    "bbox_obj": [
+                        655.0,
+                        325.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 7,
+                    "class_id": "tless_object_12",
+                    "score": 86.666664123535156,
+                    "template_id": 1847,
+                    "bbox_obj": [
+                        660.0,
+                        52.0,
+                        74.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 8,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        14.0,
+                        31.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 9,
+                    "class_id": "tless_object_12",
+                    "score": 85.714286804199219,
+                    "template_id": 2084,
+                    "bbox_obj": [
+                        262.0,
+                        197.0,
+                        99.0,
+                        81.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 10,
+                    "class_id": "tless_object_12",
+                    "score": 85.15625,
+                    "template_id": 1380,
+                    "bbox_obj": [
+                        651.0,
+                        121.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s4_i0.png"
+        },
+        {
+            "scene_id": 6,
+            "image_id": 2,
+            "split": "development",
+            "rgb": "test_primesense/000006/rgb/000002.png",
+            "raw_count": 124,
+            "fused_raw_count": 124,
+            "exact_candidate_equality": 1,
+            "selected_count": 7,
+            "fallback_match_ms": 16.772400000000001,
+            "fused_match_ms": 16.778300000000002,
+            "allGT": {
+                "tp": 1,
+                "fp": 6,
+                "fn": 0,
+                "gt": 1,
+                "ignored": 0,
+                "precision": 0.14285714285714285,
+                "recall": 1.0,
+                "f1": 0.25,
+                "matched_iou_sum": 0.62619696037951333,
+                "mean_tp_iou": 0.62619696037951333
+            },
+            "visibility_ge_0_5": {
+                "tp": 1,
+                "fp": 6,
+                "fn": 0,
+                "gt": 1,
+                "ignored": 0,
+                "precision": 0.14285714285714285,
+                "recall": 1.0,
+                "f1": 0.25,
+                "matched_iou_sum": 0.62619696037951333,
+                "mean_tp_iou": 0.62619696037951333
+            },
+            "ground_truth": [
+                {
+                    "gt_id": 4,
+                    "class_id": "tless_object_12",
+                    "visibility": 0.89723684210526311,
+                    "bbox_obj": [
+                        399.0,
+                        299.0,
+                        111.0,
+                        97.0
+                    ]
+                }
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 97.794120788574219,
+                    "template_id": 283,
+                    "bbox_obj": [
+                        411.0,
+                        292.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "TP",
+                    "allGT_id": 4,
+                    "eligible_label": "TP",
+                    "eligibleGT_id": 4
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 92.647056579589844,
+                    "template_id": 283,
+                    "bbox_obj": [
+                        279.0,
+                        332.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 89.0625,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        642.0,
+                        -1.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        562.0,
+                        -5.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        642.0,
+                        451.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 5,
+                    "class_id": "tless_object_12",
+                    "score": 85.15625,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        645.0,
+                        308.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 6,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1847,
+                    "bbox_obj": [
+                        656.0,
+                        384.0,
+                        74.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s6_i2.png"
+        },
+        {
+            "scene_id": 7,
+            "image_id": 3,
+            "split": "development",
+            "rgb": "test_primesense/000007/rgb/000003.png",
+            "raw_count": 188,
+            "fused_raw_count": 188,
+            "exact_candidate_equality": 1,
+            "selected_count": 13,
+            "fallback_match_ms": 20.881599999999999,
+            "fused_match_ms": 25.3309,
+            "allGT": {
+                "tp": 0,
+                "fp": 13,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 13,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 97.058822631835938,
+                    "template_id": 280,
+                    "bbox_obj": [
+                        287.0,
+                        387.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 94.117645263671875,
+                    "template_id": 280,
+                    "bbox_obj": [
+                        159.0,
+                        199.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 92.647056579589844,
+                    "template_id": 283,
+                    "bbox_obj": [
+                        155.0,
+                        300.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 92.1875,
+                    "template_id": 238,
+                    "bbox_obj": [
+                        297.0,
+                        224.0,
+                        81.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 90.789474487304688,
+                    "template_id": 324,
+                    "bbox_obj": [
+                        216.0,
+                        106.0,
+                        78.0,
+                        99.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 5,
+                    "class_id": "tless_object_12",
+                    "score": 88.461540222167969,
+                    "template_id": 1340,
+                    "bbox_obj": [
+                        14.0,
+                        72.0,
+                        98.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 6,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1337,
+                    "bbox_obj": [
+                        591.0,
+                        -14.0,
+                        94.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 7,
+                    "class_id": "tless_object_12",
+                    "score": 86.84210205078125,
+                    "template_id": 1951,
+                    "bbox_obj": [
+                        529.0,
+                        -25.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 8,
+                    "class_id": "tless_object_12",
+                    "score": 86.111114501953125,
+                    "template_id": 51,
+                    "bbox_obj": [
+                        408.0,
+                        93.0,
+                        82.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 9,
+                    "class_id": "tless_object_12",
+                    "score": 85.526313781738281,
+                    "template_id": 1945,
+                    "bbox_obj": [
+                        613.0,
+                        470.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 10,
+                    "class_id": "tless_object_12",
+                    "score": 85.483871459960938,
+                    "template_id": 1388,
+                    "bbox_obj": [
+                        -6.0,
+                        137.0,
+                        98.0,
+                        96.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 11,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 283,
+                    "bbox_obj": [
+                        439.0,
+                        240.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 12,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        635.0,
+                        313.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s7_i3.png"
+        },
+        {
+            "scene_id": 8,
+            "image_id": 1,
+            "split": "development",
+            "rgb": "test_primesense/000008/rgb/000001.png",
+            "raw_count": 7,
+            "fused_raw_count": 7,
+            "exact_candidate_equality": 1,
+            "selected_count": 5,
+            "fallback_match_ms": 16.128499999999999,
+            "fused_match_ms": 14.620900000000001,
+            "allGT": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 91.40625,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        657.0,
+                        232.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 89.0625,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        653.0,
+                        152.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 88.28125,
+                    "template_id": 1386,
+                    "bbox_obj": [
+                        656.0,
+                        358.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        657.0,
+                        92.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 1386,
+                    "bbox_obj": [
+                        -4.0,
+                        122.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s8_i1.png"
+        },
+        {
+            "scene_id": 10,
+            "image_id": 5,
+            "split": "development",
+            "rgb": "test_primesense/000010/rgb/000005.png",
+            "raw_count": 26,
+            "fused_raw_count": 26,
+            "exact_candidate_equality": 1,
+            "selected_count": 15,
+            "fallback_match_ms": 61.108199999999997,
+            "fused_match_ms": 67.110799999999998,
+            "allGT": {
+                "tp": 0,
+                "fp": 15,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 15,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 91.666664123535156,
+                    "template_id": 1517,
+                    "bbox_obj": [
+                        250.0,
+                        158.0,
+                        105.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 88.15789794921875,
+                    "template_id": 1951,
+                    "bbox_obj": [
+                        629.0,
+                        395.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 87.903228759765625,
+                    "template_id": 1391,
+                    "bbox_obj": [
+                        625.0,
+                        41.0,
+                        96.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 86.84210205078125,
+                    "template_id": 1942,
+                    "bbox_obj": [
+                        -9.0,
+                        141.0,
+                        94.0,
+                        93.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 86.84210205078125,
+                    "template_id": 1945,
+                    "bbox_obj": [
+                        517.0,
+                        -6.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 5,
+                    "class_id": "tless_object_12",
+                    "score": 86.76470947265625,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        599.0,
+                        129.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 6,
+                    "class_id": "tless_object_12",
+                    "score": 86.538459777832031,
+                    "template_id": 1340,
+                    "bbox_obj": [
+                        10.0,
+                        92.0,
+                        98.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 7,
+                    "class_id": "tless_object_12",
+                    "score": 86.428573608398438,
+                    "template_id": 103,
+                    "bbox_obj": [
+                        377.0,
+                        99.0,
+                        99.0,
+                        81.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 8,
+                    "class_id": "tless_object_12",
+                    "score": 86.0,
+                    "template_id": 1334,
+                    "bbox_obj": [
+                        53.0,
+                        43.0,
+                        98.0,
+                        93.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 9,
+                    "class_id": "tless_object_12",
+                    "score": 85.714286804199219,
+                    "template_id": 1526,
+                    "bbox_obj": [
+                        215.0,
+                        106.0,
+                        100.0,
+                        105.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 10,
+                    "class_id": "tless_object_12",
+                    "score": 85.526313781738281,
+                    "template_id": 1942,
+                    "bbox_obj": [
+                        -25.0,
+                        61.0,
+                        94.0,
+                        93.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 11,
+                    "class_id": "tless_object_12",
+                    "score": 85.526313781738281,
+                    "template_id": 1951,
+                    "bbox_obj": [
+                        601.0,
+                        455.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 12,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        447.0,
+                        13.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 13,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        503.0,
+                        229.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 14,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1334,
+                    "bbox_obj": [
+                        85.0,
+                        -5.0,
+                        98.0,
+                        93.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s10_i5.png"
+        },
+        {
+            "scene_id": 12,
+            "image_id": 2,
+            "split": "development",
+            "rgb": "test_primesense/000012/rgb/000002.png",
+            "raw_count": 307,
+            "fused_raw_count": 307,
+            "exact_candidate_equality": 1,
+            "selected_count": 18,
+            "fallback_match_ms": 80.802800000000005,
+            "fused_match_ms": 71.472200000000001,
+            "allGT": {
+                "tp": 0,
+                "fp": 18,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 18,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 99.242424011230469,
+                    "template_id": 287,
+                    "bbox_obj": [
+                        396.0,
+                        117.0,
+                        78.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 96.969696044921875,
+                    "template_id": 287,
+                    "bbox_obj": [
+                        328.0,
+                        93.0,
+                        78.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 95.588233947753906,
+                    "template_id": 277,
+                    "bbox_obj": [
+                        460.0,
+                        155.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 89.84375,
+                    "template_id": 2,
+                    "bbox_obj": [
+                        262.0,
+                        199.0,
+                        83.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 89.84375,
+                    "template_id": 564,
+                    "bbox_obj": [
+                        329.0,
+                        318.0,
+                        76.0,
+                        110.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 5,
+                    "class_id": "tless_object_12",
+                    "score": 88.970588684082031,
+                    "template_id": 283,
+                    "bbox_obj": [
+                        439.0,
+                        284.0,
+                        88.0,
+                        88.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 6,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        637.0,
+                        380.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 7,
+                    "class_id": "tless_object_12",
+                    "score": 86.71875,
+                    "template_id": 1389,
+                    "bbox_obj": [
+                        630.0,
+                        -9.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 8,
+                    "class_id": "tless_object_12",
+                    "score": 86.538459777832031,
+                    "template_id": 1337,
+                    "bbox_obj": [
+                        555.0,
+                        246.0,
+                        94.0,
+                        98.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 9,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 564,
+                    "bbox_obj": [
+                        385.0,
+                        310.0,
+                        76.0,
+                        110.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 10,
+                    "class_id": "tless_object_12",
+                    "score": 85.9375,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        649.0,
+                        432.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 11,
+                    "class_id": "tless_object_12",
+                    "score": 85.833335876464844,
+                    "template_id": 1536,
+                    "bbox_obj": [
+                        -27.0,
+                        175.0,
+                        135.0,
+                        140.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 12,
+                    "class_id": "tless_object_12",
+                    "score": 85.526313781738281,
+                    "template_id": 1945,
+                    "bbox_obj": [
+                        349.0,
+                        210.0,
+                        93.0,
+                        94.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 13,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        219.0,
+                        53.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 14,
+                    "class_id": "tless_object_12",
+                    "score": 85.294120788574219,
+                    "template_id": 1527,
+                    "bbox_obj": [
+                        187.0,
+                        441.0,
+                        105.0,
+                        101.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 15,
+                    "class_id": "tless_object_12",
+                    "score": 85.15625,
+                    "template_id": 1338,
+                    "bbox_obj": [
+                        470.0,
+                        462.0,
+                        72.0,
+                        84.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 16,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1517,
+                    "bbox_obj": [
+                        390.0,
+                        378.0,
+                        105.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 17,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1519,
+                    "bbox_obj": [
+                        620.0,
+                        324.0,
+                        74.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s12_i2.png"
+        },
+        {
+            "scene_id": 13,
+            "image_id": 2,
+            "split": "development",
+            "rgb": "test_primesense/000013/rgb/000002.png",
+            "raw_count": 5,
+            "fused_raw_count": 5,
+            "exact_candidate_equality": 1,
+            "selected_count": 5,
+            "fallback_match_ms": 49.193100000000001,
+            "fused_match_ms": 44.999400000000001,
+            "allGT": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "visibility_ge_0_5": {
+                "tp": 0,
+                "fp": 5,
+                "fn": 0,
+                "gt": 0,
+                "ignored": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "matched_iou_sum": 0.0,
+                "mean_tp_iou": 0.0
+            },
+            "ground_truth": [
+            ],
+            "detections": [
+                {
+                    "rank": 0,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1383,
+                    "bbox_obj": [
+                        653.0,
+                        244.0,
+                        84.0,
+                        72.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 1,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1519,
+                    "bbox_obj": [
+                        656.0,
+                        76.0,
+                        74.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 2,
+                    "class_id": "tless_object_12",
+                    "score": 87.5,
+                    "template_id": 1526,
+                    "bbox_obj": [
+                        527.0,
+                        402.0,
+                        100.0,
+                        105.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 3,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1517,
+                    "bbox_obj": [
+                        306.0,
+                        30.0,
+                        105.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                },
+                {
+                    "rank": 4,
+                    "class_id": "tless_object_12",
+                    "score": 85.0,
+                    "template_id": 1525,
+                    "bbox_obj": [
+                        95.0,
+                        11.0,
+                        74.0,
+                        100.0
+                    ],
+                    "allGT_label": "FP",
+                    "allGT_id": -1,
+                    "eligible_label": "FP",
+                    "eligibleGT_id": -1
+                }
+            ],
+            "failure_image": "D:/h/shape_based_matching-master/datasets/tless_expanded_obj12_f32_pilot/failure_images/s13_i2.png"
+        }
+    ],
+    "allGT_total": {
+        "tp": 1,
+        "fp": 78,
+        "fn": 0,
+        "gt": 1,
+        "ignored": 0,
+        "precision": 0.012658227848101266,
+        "recall": 1.0,
+        "f1": 0.025000000000000001,
+        "matched_iou_sum": 0.62619696037951333,
+        "mean_tp_iou": 0.62619696037951333
+    },
+    "visibility_ge_0_5_total": {
+        "tp": 1,
+        "fp": 78,
+        "fn": 0,
+        "gt": 1,
+        "ignored": 0,
+        "precision": 0.012658227848101266,
+        "recall": 1.0,
+        "f1": 0.025000000000000001,
+        "matched_iou_sum": 0.62619696037951333,
+        "mean_tp_iou": 0.62619696037951333
+    },
+    "all_frames_exact_candidate_equality": 1,
+    "negative_frames": 7,
+    "negative_frames_with_fp": 7,
+    "negative_fp": 72,
+    "allGT_object_macro": {
+        "objects": 1,
+        "precision": 0.012658227848101266,
+        "recall": 1.0,
+        "f1": 0.025000000000000001
+    },
+    "visibility_ge_0_5_object_macro": {
+        "objects": 1,
+        "precision": 0.012658227848101266,
+        "recall": 1.0,
+        "f1": 0.025000000000000001
+    }
+}

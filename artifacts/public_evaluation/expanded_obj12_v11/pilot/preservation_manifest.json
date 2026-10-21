@@ -1,0 +1,268 @@
+{
+  "warning": "Numeric evidence only. No original or derived RGB/failure PNG is copied. Raw local files are untouched. Source absolute paths in copied provenance retain their execution context.",
+  "object_id": 12,
+  "stage": "pilot",
+  "source_run": "datasets\\tless_expanded_obj12_f32_pilot",
+  "raw_archives": 16,
+  "raw_archive_members": [
+    {
+      "name": "s10_i5_fallback_raw.csv.gz",
+      "bytes": 752,
+      "sha256": "d0d2c581a7db5da6c90ad9f918a325ff507870ef9aa5a55b989fc0b9d4876a48"
+    },
+    {
+      "name": "s10_i5_fallback_raw_manifest.json",
+      "bytes": 544,
+      "sha256": "7b6f78fb8d5e9fc1f422bccd924b360695f7aea6a78793363c64f98e5a46dc5d"
+    },
+    {
+      "name": "s10_i5_fused_raw.csv.gz",
+      "bytes": 747,
+      "sha256": "8906ef1e83e48ad7e0b5e93d242d144730a0e1ca9a05d9fc30f3a2c13020b8de"
+    },
+    {
+      "name": "s10_i5_fused_raw_manifest.json",
+      "bytes": 538,
+      "sha256": "7493aaf016333652eef359840bd9a11814df229207ddd0be8b360df62c87e415"
+    },
+    {
+      "name": "s12_i2_fallback_raw.csv.gz",
+      "bytes": 6538,
+      "sha256": "9d48e101b86c79cb6e3ccc166e8d8af998e03ba0d06d71b4f34c9bb8ae69cd77"
+    },
+    {
+      "name": "s12_i2_fallback_raw_manifest.json",
+      "bytes": 547,
+      "sha256": "08c1cf7867ba752e4dce2bf7d0ec67ed21132d2fb9d5ae72f10d6856e9a4de8b"
+    },
+    {
+      "name": "s12_i2_fused_raw.csv.gz",
+      "bytes": 6519,
+      "sha256": "b1f826bb15c20e14f720ecc75ea70f0dee9e2516b87d407e22dc5bd43637c525"
+    },
+    {
+      "name": "s12_i2_fused_raw_manifest.json",
+      "bytes": 541,
+      "sha256": "fc670321b9b27c383488ebca40f4a11acd3ab964928cb58b3d2cbf8e193a0954"
+    },
+    {
+      "name": "s13_i2_fallback_raw.csv.gz",
+      "bytes": 252,
+      "sha256": "d2291ec9e42f0087e278254f56ec39934b8c0102aed15346dbe71f7d01abacac"
+    },
+    {
+      "name": "s13_i2_fallback_raw_manifest.json",
+      "bytes": 542,
+      "sha256": "63c2df4865bf153fdbbe2f7e98f6dfa7a8d02a521f94e9d3f1889ebbce8bdda6"
+    },
+    {
+      "name": "s13_i2_fused_raw.csv.gz",
+      "bytes": 250,
+      "sha256": "1d7f4d8b67c631666e4816e5b5f806d34ca1ff1fc3350880bab96875d682031f"
+    },
+    {
+      "name": "s13_i2_fused_raw_manifest.json",
+      "bytes": 536,
+      "sha256": "9c0a58474ffab672aa6a66c9cb858a2c7ff8f9a92bc5ce60893199f1f24bcac5"
+    },
+    {
+      "name": "s1_i1_fallback_raw.csv.gz",
+      "bytes": 315,
+      "sha256": "d87ad85581d5bc6f33763fd24d4c235d8a0a08480921c8680f06c3060ee682e7"
+    },
+    {
+      "name": "s1_i1_fallback_raw_manifest.json",
+      "bytes": 540,
+      "sha256": "037a65392ee6040127d4adceef6f5edbb60d5717e72804d8333d24fc638ff944"
+    },
+    {
+      "name": "s1_i1_fused_raw.csv.gz",
+      "bytes": 310,
+      "sha256": "d164f86e2a4c5a42f7c4e81bbac232a3dbea07f5ef7f57f694ce06b6972c01c0"
+    },
+    {
+      "name": "s1_i1_fused_raw_manifest.json",
+      "bytes": 534,
+      "sha256": "85cc24344e9450a595ebb346b8f282e427b1bbfdad76dfe575dadba866e13871"
+    },
+    {
+      "name": "s4_i0_fallback_raw.csv.gz",
+      "bytes": 2341,
+      "sha256": "92a1b512c29807f866dc34be5aa2059d0f17273fff0991e683f6e6d508ed248f"
+    },
+    {
+      "name": "s4_i0_fallback_raw_manifest.json",
+      "bytes": 543,
+      "sha256": "effc8f2ab92e03809055da820606eb5bbf962d42d4a45b655c04dc7ec9f5037b"
+    },
+    {
+      "name": "s4_i0_fused_raw.csv.gz",
+      "bytes": 2330,
+      "sha256": "c5a1ad3dcafe93623314ab0e2438d14d430f826c418098f5d51d1b1d389d3cec"
+    },
+    {
+      "name": "s4_i0_fused_raw_manifest.json",
+      "bytes": 537,
+      "sha256": "157ed1a2b83a71cc7c5ac72a7d569f999032a051b37fd9c0899db1d85582f333"
+    },
+    {
+      "name": "s6_i2_fallback_raw.csv.gz",
+      "bytes": 2902,
+      "sha256": "a961c7bc848bf7ca107b8ba020a19e513ea3699b355dd18574de355a6fa11a48"
+    },
+    {
+      "name": "s6_i2_fallback_raw_manifest.json",
+      "bytes": 545,
+      "sha256": "d9575ad8a52b015c5d821649a619918fe6df1526d7f175b40eef53142c3f3591"
+    },
+    {
+      "name": "s6_i2_fused_raw.csv.gz",
+      "bytes": 2885,
+      "sha256": "8e8d5ef17ee4f106aeeda9912dad8ba279162ae74c23ccdb00de999bf73eb646"
+    },
+    {
+      "name": "s6_i2_fused_raw_manifest.json",
+      "bytes": 539,
+      "sha256": "709e3c708d139cfa0cf09794aa39878c249946cc79a99f8657d0c8435351feee"
+    },
+    {
+      "name": "s7_i3_fallback_raw.csv.gz",
+      "bytes": 4205,
+      "sha256": "907baa2359951410cffbcffe10396846a1c7b31dc5d773743fbaf7e07836260a"
+    },
+    {
+      "name": "s7_i3_fallback_raw_manifest.json",
+      "bytes": 545,
+      "sha256": "2686ad373e01bd7b2e6cc98bac349f3cf996baff42e6f947c451aa6fc8482595"
+    },
+    {
+      "name": "s7_i3_fused_raw.csv.gz",
+      "bytes": 4186,
+      "sha256": "d230e2964160e945e3bed3b27452b4582258be5cf4c5cd132cd2dbfe5048b639"
+    },
+    {
+      "name": "s7_i3_fused_raw_manifest.json",
+      "bytes": 539,
+      "sha256": "e458401cc19391f7bb41d55fe39e1e90776b682bce2119ba53cda5d9bf7a0883"
+    },
+    {
+      "name": "s8_i1_fallback_raw.csv.gz",
+      "bytes": 301,
+      "sha256": "2213e0d90587be1f3d43f2181cbf6e9a9d20e5129548de6044248ea314ab5584"
+    },
+    {
+      "name": "s8_i1_fallback_raw_manifest.json",
+      "bytes": 540,
+      "sha256": "5c2639084b720d110d6f46a1f08322c100e0fa6ffa62cb545dfd83374b1bc48b"
+    },
+    {
+      "name": "s8_i1_fused_raw.csv.gz",
+      "bytes": 298,
+      "sha256": "4754db26f66cd433140b84eb3df45bbea7a42d4f31e1214c9bf4b0c75c1f1b68"
+    },
+    {
+      "name": "s8_i1_fused_raw_manifest.json",
+      "bytes": 534,
+      "sha256": "e60704da7ef7d27c82552a37d8fe34499b8c77d867b0f74b07a52f5ace2247ac"
+    }
+  ],
+  "files": [
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_train\\training_config.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\training\\training_config.json",
+      "source_sha256": "8cee385be8c1ff51077d2ef4c91591eb7f978c42ee02d8827740ab109a34a846",
+      "copy_sha256": "8cee385be8c1ff51077d2ef4c91591eb7f978c42ee02d8827740ab109a34a846",
+      "bytes": 1416
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_train\\execution_provenance.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\training\\execution_provenance.json",
+      "source_sha256": "e71c3b1e6b04e129ed5349c3ee87928a261e2ddc82e5d3c96b76bffb4e8adc54",
+      "copy_sha256": "e71c3b1e6b04e129ed5349c3ee87928a261e2ddc82e5d3c96b76bffb4e8adc54",
+      "bytes": 5154
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_train\\template_attempts.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\training\\template_attempts.csv.gz",
+      "source_sha256": "221d845ca6bb6370d1759ea59d53bbfcc88707b8972367d7856b983f7b16feeb",
+      "copy_sha256": "8145a45ac5214e7dd7af423d4368cdc68506b1bf9e46efd59c349207db30ac78",
+      "bytes": 55257
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_train\\template_metadata.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\training\\template_metadata.json.gz",
+      "source_sha256": "2546aab5f7707f5c0f336a4a8704173c00965e9e50f9ce11ccbeac43f252b7e8",
+      "copy_sha256": "fdb4bf78baa7c4feaa5f8ff55659ede0a80a0f1498ea4a852eae7e65d0a29d87",
+      "bytes": 64741
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_train\\templates_tless_object_12.yml.gz",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\training\\templates_tless_object_12.yml.gz",
+      "source_sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "copy_sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "bytes": 893985
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\candidate_equality.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\candidate_equality.csv",
+      "source_sha256": "1fc248ca84ad2de47fc9e9a30f3b7ddb5b3da9402cdd66ce1fd719a117d016fe",
+      "copy_sha256": "1fc248ca84ad2de47fc9e9a30f3b7ddb5b3da9402cdd66ce1fd719a117d016fe",
+      "bytes": 329
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\development_thresholds.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\development_thresholds.csv",
+      "source_sha256": "4e0f42d629f8444125a5c5584ef6788ceab98ac74ddd5dacce259a60307cfb9e",
+      "copy_sha256": "4e0f42d629f8444125a5c5584ef6788ceab98ac74ddd5dacce259a60307cfb9e",
+      "bytes": 91
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\execution_provenance.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\execution_provenance.json",
+      "source_sha256": "3fb734e1782db5f97778f657d2abf54d9d8b02c63bf5ecde3cfe5948a25ec2f5",
+      "copy_sha256": "3fb734e1782db5f97778f657d2abf54d9d8b02c63bf5ecde3cfe5948a25ec2f5",
+      "bytes": 11315
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\metrics.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\metrics.json",
+      "source_sha256": "bfbd3f7ae49854420b8a82cbbf39e5b7da7d5140fe4263192b48939b61fc91a5",
+      "copy_sha256": "bfbd3f7ae49854420b8a82cbbf39e5b7da7d5140fe4263192b48939b61fc91a5",
+      "bytes": 57800
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\per_object_metrics.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\per_object_metrics.csv",
+      "source_sha256": "dca193b7055ae57de846f667f70358886b8d55a9152a59cd6da5531d8aa0bd28",
+      "copy_sha256": "dca193b7055ae57de846f667f70358886b8d55a9152a59cd6da5531d8aa0bd28",
+      "bytes": 302
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\per_scene_metrics.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\per_scene_metrics.csv",
+      "source_sha256": "e5afa8c55119bf9093cdb11313332a3ad09c8e61bb14d39b0fd6953ae931b5f4",
+      "copy_sha256": "e5afa8c55119bf9093cdb11313332a3ad09c8e61bb14d39b0fd6953ae931b5f4",
+      "bytes": 862
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\pilot_config.json",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\pilot_config.json",
+      "source_sha256": "5801f71550b7bdaa216372f5bc3dca9ef28d62f29a7949322d2063c1d1ca16d0",
+      "copy_sha256": "5801f71550b7bdaa216372f5bc3dca9ef28d62f29a7949322d2063c1d1ca16d0",
+      "bytes": 1618
+    },
+    {
+      "source": "datasets\\tless_expanded_obj12_f32_pilot\\selected_detections.csv",
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\selected_detections.csv",
+      "source_sha256": "2c73a167fa0b62a977281292f1c5dfd9afb25d1abb9343268e95602d72717b77",
+      "copy_sha256": "2c73a167fa0b62a977281292f1c5dfd9afb25d1abb9343268e95602d72717b77",
+      "bytes": 4992
+    },
+    {
+      "copy": "artifacts\\public_evaluation\\expanded_obj12_v11\\pilot\\raw_numeric.tar.gz",
+      "copy_sha256": "870f62446a85b1fb133bb9669fb08deaa1044f3a21a120b483a41eb802f55d24",
+      "bytes": 36983,
+      "members": 32
+    }
+  ]
+}

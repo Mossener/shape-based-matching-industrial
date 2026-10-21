@@ -1,0 +1,88 @@
+{
+  "manifest": "dependency_integrity.json",
+  "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+  "source_log": "build/dependency_checks.jsonl",
+  "checks": [
+    {
+      "checked_utc": "2026-10-21T12:08:12.566662+00:00",
+      "stage": "before_obj12_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:19:00.500335+00:00",
+      "stage": "after_obj12_train_before_obj12_pilot",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:22:47.692774+00:00",
+      "stage": "before_obj12_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:24:37.015749+00:00",
+      "stage": "after_obj12_full",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:25:31.295755+00:00",
+      "stage": "before_obj17_train",
+      "root_head_now": "6d16debedb9bb92497dc4c7c9898d3d5e3917086",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T12:59:40.434677+00:00",
+      "stage": "after_obj17_train",
+      "root_head_now": "a419198da3789c000e6862ae2ec3c0c20509a438",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T13:00:26.571821+00:00",
+      "stage": "before_obj17_pilot",
+      "root_head_now": "a419198da3789c000e6862ae2ec3c0c20509a438",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T13:01:29.242894+00:00",
+      "stage": "after_obj17_pilot",
+      "root_head_now": "a419198da3789c000e6862ae2ec3c0c20509a438",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T13:02:25.734115+00:00",
+      "stage": "before_obj17_full",
+      "root_head_now": "a419198da3789c000e6862ae2ec3c0c20509a438",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    },
+    {
+      "checked_utc": "2026-10-21T13:04:59.589202+00:00",
+      "stage": "after_obj17_full",
+      "root_head_now": "a419198da3789c000e6862ae2ec3c0c20509a438",
+      "manifest_sha256": "39bda64d4c066a4ca15b41a709065a92b015f8b01242443c21d07911aa5f2e83",
+      "files_verified": 23,
+      "passed": true
+    }
+  ],
+  "stage_note": "after_obj12_train_before_obj12_pilot serves both named boundaries. before_obj12_full occurred after the completed obj12 pilot and before full matching; original stage names and timestamps are retained. after_obj17_train was recovered after interruption; completed training provenance has exit0 and the frozen23 files still matched."
+}
