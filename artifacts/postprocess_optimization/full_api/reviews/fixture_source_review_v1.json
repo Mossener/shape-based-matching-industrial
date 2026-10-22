@@ -1,0 +1,78 @@
+{
+  "schema": "whole_api_fixture_source_review_v1",
+  "accepted_source_only": true,
+  "reviewed_source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixtures.hpp",
+      "bytes": 7888,
+      "sha256": "3a4a1e76b9f22622aa43fc81b989764796eb173dc30580cc488ff3cafbbf62d3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixture_banks.hpp",
+      "bytes": 571,
+      "sha256": "97eae2004bed3e18d22a31967701b215472ebcce42d6ac68d8673889b30c0ebc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixture_bank_methods.inc",
+      "bytes": 3769,
+      "sha256": "97079004a2fa4c5cd5669d4f16ac964ff940f7df19997c25edc355718200d77f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\prepare_fixture_sources.py",
+      "bytes": 7904,
+      "sha256": "61d37c569da115d19c0f27cfc13e03d2460b012566ff081db2557303a19c540f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\test_fixture_sources.py",
+      "bytes": 2376,
+      "sha256": "197e5eea3cae6e3ff4146b9d681c4369dd388177aa7cd8800f626f6ffb03af45"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FIXTURE_SOURCE_NOTES.md",
+      "bytes": 3571,
+      "sha256": "92e0e6032de9e6fe2019eb600343b18fd0ea13f44db9d23259996acc3d8ce966"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\fixture_contract.cpp",
+      "bytes": 2809,
+      "sha256": "0991a59711fe239b34afdbeb3b7148503d3acec3a27b311a5f59d7f570a6fe3c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\exact_v11.cpp",
+      "bytes": 636,
+      "sha256": "d107a9b9b8a388ffabfefcd96a4a9aae8f8f14e48248188b01b7bd7ba4c7ad78"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated_fixtures\\FIXTURE_SOURCE_MANIFEST.json",
+      "bytes": 18986,
+      "sha256": "162f38b1b2d92268c0f8fc62c6e3bcaa27ff0e5cae91e22489e54cef3669e3d2"
+    }
+  ],
+  "source_metadata_recheck_files": 32,
+  "literal_adapter_block_equalities": 2,
+  "common_catalog": 29,
+  "private_catalog": 16,
+  "observations": [
+    "One exact private-core TU builds LED, zero and magnet banks; both matchers receive the same exported YAML bytes",
+    "Exact common25 order and fixed development scene/frame paths; per-frame tiny padded storage avoids historical destination alias",
+    "inputs appends zero/full/partial/empty/larger in fixed order to make32; two classes and legal zero-maxima retained",
+    "Magnet uses scale-major float expression,3060 templates and6120 refinement intervals; no timing insertion",
+    "Both original private inputs and existing ASCII paths remain local and are not opened by this review"
+  ],
+  "runner_requirements": [
+    "Validate catalog path/role/hash/size types and containment before reading any input",
+    "Freshly hash exact allowed common/private bytes before and after their granted native stage",
+    "Pin generated headers and every fixture/wrapper source before native work",
+    "Run OpenCV-only fixture_contract synthetic ownership test before decoding any image"
+  ],
+  "limitations": [
+    "Static source/metadata-only review; no compile/link/API/image/SMD/bank reads",
+    "Source generator pin merge is not a general hostile-manifest parser; runner must use stricter fixed allowlist validation",
+    "No API equality, latency, accuracy or production-adoption claim"
+  ],
+  "native_compilations": 0,
+  "native_executions": 0,
+  "detector_calls": 0,
+  "image_smd_bank_content_reads": 0,
+  "git_commands": 0
+}

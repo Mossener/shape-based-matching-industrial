@@ -1,0 +1,17 @@
+In file included from D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\generated/baseline/line2Dup.h:9,
+                 from D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\replay.cpp:3:
+D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\generated\baseline\MIPP/mipp.h:37:9: warning: '__SSE2__' redefined
+   37 | #define __SSE2__
+      |         ^~~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\generated\baseline\MIPP/mipp.h:38:9: warning: '__SSE__' redefined
+   38 | #define __SSE__
+      |         ^~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\replay.cpp: In member function 'uint32_t {anonymous}::Reader::u32()':
+D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\replay.cpp:26:9: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   26 |         for(unsigned i=0;i<4;++i)value|=std::uint32_t(bytes_[position_++])<<(8*i);return value;
+      |         ^~~
+D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\build\build_v2\source\replay.cpp:26:83: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   26 |         for(unsigned i=0;i<4;++i)value|=std::uint32_t(bytes_[position_++])<<(8*i);return value;
+      |                                                                                   ^~~~~~

@@ -1,0 +1,19 @@
+E
+======================================================================
+ERROR: test_fixture_sources (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_fixture_sources
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\test_fixture_sources.py", line 3, in <module>
+    import prepare_fixture_sources as f
+ModuleNotFoundError: No module named 'prepare_fixture_sources'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

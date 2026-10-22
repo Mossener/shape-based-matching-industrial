@@ -1,0 +1,628 @@
+{
+  "schema": "whole_api_stage_v1",
+  "phase": "replay",
+  "accepted": false,
+  "started_utc": "2026-10-22T02:53:22.193413+00:00",
+  "commands": [],
+  "cpu_slot_granted": true,
+  "dataset_stage_granted": false,
+  "limitation": "Local byte/dependency/import-file provenance; not all compiler helper, startup, linker, OS or loader reads. Returned U-vector destruction is outside symmetric direct API clocks; old N-vector destruction is inside the helper. Exact-output performance experiment, no accuracy improvement, peak-memory or production-adoption claim. Earlier26 allocation fault interceptions do not establish failure injection inside dynamically linked libstdc++ non-SSO string copies.",
+  "host": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "logical_processors": 20
+  },
+  "git_commands": 0,
+  "production_modified": false,
+  "binding": {
+    "source_manifest_sha256": "e44bc645b73087c280992a87a7e7f25056346a7818daa177888410a77eb2bb3e",
+    "source_manifest_path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FULL_API_SOURCE_MANIFEST.json",
+    "baseline_commit": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed"
+  },
+  "environment": {
+    "stripped_override_names": [],
+    "openmp": {
+      "OMP_NUM_THREADS": "4",
+      "OMP_DYNAMIC": "FALSE",
+      "OMP_MAX_ACTIVE_LEVELS": "1",
+      "OMP_WAIT_POLICY": "PASSIVE"
+    },
+    "normal_priority": true,
+    "cpu_affinity_changed": false,
+    "power_settings_changed": false
+  },
+  "error": {
+    "type": "ValueError",
+    "message": "Prior evidence pin escaped fixed build/source/toolchain scope"
+  },
+  "completed_utc": "2026-10-22T02:53:22.379202+00:00",
+  "input_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FULL_API_SOURCE_MANIFEST.json",
+      "bytes": 16024,
+      "sha256": "e44bc645b73087c280992a87a7e7f25056346a7818daa177888410a77eb2bb3e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\records.hpp",
+      "bytes": 714,
+      "sha256": "e7283cab65ee596e602878209e07d81922e7acd5b98b05efc32b33b30e25cf9a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\matcher.hpp",
+      "bytes": 1749,
+      "sha256": "02fb3d78600108ed55942e20354b71ef29215c2b08d85bf556f148b98da79c7f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\wrapper_methods.inc",
+      "bytes": 5552,
+      "sha256": "ce7c2e2811b57bfa483372ee8a545d3f500adbc5464283dfcb7dd19b6d72d522"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\exact_v11.cpp",
+      "bytes": 622,
+      "sha256": "00f7509a07e409420983aa3af36e80af32d90c5b77bae01a7ed6e9a40366b6ca"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\index_reserve.cpp",
+      "bytes": 593,
+      "sha256": "cd453a1428a75cf6c6f82bdb535810cad7cf7788a495b6170d79bde76112b9e7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\output_binary.hpp",
+      "bytes": 1496,
+      "sha256": "246ba96d7bd8221723031073764cb77f3b4edb72ebacc049e929d3800ee61624"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\evidence.hpp",
+      "bytes": 6197,
+      "sha256": "79cc1904f0d352951838a096128a87ea4f1e70fe2e1b8d1fa26e4d57eaab29d4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\correctness.cpp",
+      "bytes": 12690,
+      "sha256": "f75bfaace1ac6bc3ad005978368db03f388c4b94a7b18a8879491a67c3129eaa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\benchmark.cpp",
+      "bytes": 4568,
+      "sha256": "83993c03d91ba46b40c6bb83d6e55a2c78e08b4fa48569ceb19d00c871909e1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\replay.cpp",
+      "bytes": 5667,
+      "sha256": "698fd2f7f1f84f5e6860d24385d64585c8a2df5eadc7a4fda0e35ab7e507628e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixtures.hpp",
+      "bytes": 7888,
+      "sha256": "3a4a1e76b9f22622aa43fc81b989764796eb173dc30580cc488ff3cafbbf62d3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixture_banks.hpp",
+      "bytes": 571,
+      "sha256": "97eae2004bed3e18d22a31967701b215472ebcce42d6ac68d8673889b30c0ebc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\fixture_bank_methods.inc",
+      "bytes": 3769,
+      "sha256": "97079004a2fa4c5cd5669d4f16ac964ff940f7df19997c25edc355718200d77f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\prepare_fixture_sources.py",
+      "bytes": 7904,
+      "sha256": "61d37c569da115d19c0f27cfc13e03d2460b012566ff081db2557303a19c540f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\test_fixture_sources.py",
+      "bytes": 2376,
+      "sha256": "197e5eea3cae6e3ff4146b9d681c4369dd388177aa7cd8800f626f6ffb03af45"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FIXTURE_SOURCE_NOTES.md",
+      "bytes": 3571,
+      "sha256": "92e0e6032de9e6fe2019eb600343b18fd0ea13f44db9d23259996acc3d8ce966"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\SOURCE_STATUS.md",
+      "bytes": 3081,
+      "sha256": "c2fa6e1324946297c68ec0694de57f754fcd231d4487c7a634ea71b58efa04d8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generate_sources.py",
+      "bytes": 9193,
+      "sha256": "f4daa72cc330d03c3d577172c622e9658366d9a6d6251814d8f5537d01e99677"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\source_list.py",
+      "bytes": 2401,
+      "sha256": "abb36146bad42a199f611c0aa48d282fe78b8decd381819c01c07677f623e619"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\freeze_manifest.py",
+      "bytes": 1739,
+      "sha256": "c3d58ef77b939a1748564db0d3c13d03a758fddcc413e78f338b41246fbdc7ac"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\prepare_historical_catalog.py",
+      "bytes": 2375,
+      "sha256": "69248d60fd97974b8e593d2ff317aedd51f50d420b6f20a1d238bd9eaeca5408"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\HISTORICAL_TRACE_PINS.json",
+      "bytes": 27683,
+      "sha256": "18b271885f5776f80beb405c611d86240f4f38438abbad47f9c8e76e83d75e08"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\build_policy.py",
+      "bytes": 6798,
+      "sha256": "5ca262527ad42075a2ed4fa35879c2542e0a043e03a8c939205e00c4f5e85146"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\output_contract.py",
+      "bytes": 9122,
+      "sha256": "0a17abf71a8168dc92541fd4fcdc59292864eabcc13f88ed5dfde152afe8332b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\correctness_contract.py",
+      "bytes": 15577,
+      "sha256": "40ae6a287bf5cff37c1e596bc7d9ff341e8a3e40e1a67d923d502534c9182c23"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\run_full_api.py",
+      "bytes": 30192,
+      "sha256": "c13872bf3cff4ff97c23091058410ae180eb243e72c19cee28a4969cec910161"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FULL_API_RUNNER_DESIGN.md",
+      "bytes": 6310,
+      "sha256": "49c23d656f33fa3754e45f7956579b706c0c9bc075c535f220568e31c8f98b28"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\output_binary_contract.cpp",
+      "bytes": 2207,
+      "sha256": "fe166237388e140826034b19d1792b49380b27375bfb744926bfc8e9c95fd617"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\fixture_contract.cpp",
+      "bytes": 2809,
+      "sha256": "0991a59711fe239b34afdbeb3b7148503d3acec3a27b311a5f59d7f570a6fe3c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\test_source_generation.py",
+      "bytes": 2618,
+      "sha256": "530477c2d61cb9802676addf4590f15c58675062b2b49412b1a40a8113129f49"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\test_build_policy.py",
+      "bytes": 6120,
+      "sha256": "21003e7f78207b3ab253d10a88a296895ef6d9b98c71f0b52d49b6f70561ac96"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\test_output_contract.py",
+      "bytes": 9877,
+      "sha256": "6d4114c10a649a4db0aa97679374c70626aaa80a227721a7f761a59c5db6b820"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\test_correctness_contract.py",
+      "bytes": 19192,
+      "sha256": "b91388b9db7f17ff398c4f059f04c9452d154fe2fd113c22b302340a97cab8bd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\test_runner_contract.py",
+      "bytes": 3175,
+      "sha256": "af6071e95d564ce0c8336a1a26246ff7ea7bf0dacb519ab00fd0fd9ad1d43751"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\SOURCE_RECEIPT.json",
+      "bytes": 16683,
+      "sha256": "5f9591b488609cdb63ebbf1c293148ee78b814774324280cde49d5d7dd9b1473"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated_fixtures\\FIXTURE_SOURCE_MANIFEST.json",
+      "bytes": 18986,
+      "sha256": "162f38b1b2d92268c0f8fc62c6e3bcaa27ff0e5cae91e22489e54cef3669e3d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated_fixtures\\led.hpp",
+      "bytes": 4520,
+      "sha256": "4ba635fa77999535a2020ba5c5e8ef64dcc5c3e39b375dcc80dda666fa848a6f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated_fixtures\\magnet.hpp",
+      "bytes": 4210,
+      "sha256": "323b46f072bfe64ddbe00cd96007d6623e4c1151991e9298f84b82916c9aa85e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup.cpp",
+      "bytes": 63388,
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup.h",
+      "bytes": 12702,
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup_local.hpp",
+      "bytes": 2785,
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup_search.hpp",
+      "bytes": 1596,
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup_response.hpp",
+      "bytes": 2379,
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup_spread.hpp",
+      "bytes": 2791,
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\line2Dup_matches.hpp",
+      "bytes": 1452,
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\avx512_mathfun.h",
+      "bytes": 600,
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\avx512_mathfun.hxx",
+      "bytes": 20680,
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\avx_mathfun.h",
+      "bytes": 1602,
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\avx_mathfun.hxx",
+      "bytes": 23405,
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\neon_mathfun.h",
+      "bytes": 1477,
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\neon_mathfun.hxx",
+      "bytes": 9360,
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\sse_mathfun.h",
+      "bytes": 1670,
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\math\\sse_mathfun.hxx",
+      "bytes": 21775,
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp.h",
+      "bytes": 44587,
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_impl_AVX.hxx",
+      "bytes": 124908,
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_impl_AVX512.hxx",
+      "bytes": 152957,
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_impl_NEON.hxx",
+      "bytes": 95936,
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_impl_SSE.hxx",
+      "bytes": 116318,
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_object.hxx",
+      "bytes": 53284,
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_scalar_op.h",
+      "bytes": 748,
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\baseline\\MIPP\\mipp_scalar_op.hxx",
+      "bytes": 6187,
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup.cpp",
+      "bytes": 63432,
+      "sha256": "6cf1fbd9c99bd8d86036f250fb7869853b8c4507e2a6601a5f2db10048ba65f2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup.h",
+      "bytes": 12702,
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup_local.hpp",
+      "bytes": 2785,
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup_search.hpp",
+      "bytes": 1596,
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup_response.hpp",
+      "bytes": 2379,
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup_spread.hpp",
+      "bytes": 2791,
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\line2Dup_matches.hpp",
+      "bytes": 1452,
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\avx512_mathfun.h",
+      "bytes": 600,
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\avx512_mathfun.hxx",
+      "bytes": 20680,
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\avx_mathfun.h",
+      "bytes": 1602,
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\avx_mathfun.hxx",
+      "bytes": 23405,
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\neon_mathfun.h",
+      "bytes": 1477,
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\neon_mathfun.hxx",
+      "bytes": 9360,
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\sse_mathfun.h",
+      "bytes": 1670,
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\math\\sse_mathfun.hxx",
+      "bytes": 21775,
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp.h",
+      "bytes": 44587,
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_impl_AVX.hxx",
+      "bytes": 124908,
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_impl_AVX512.hxx",
+      "bytes": 152957,
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_impl_NEON.hxx",
+      "bytes": 95936,
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_impl_SSE.hxx",
+      "bytes": 116318,
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_object.hxx",
+      "bytes": 53284,
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_scalar_op.h",
+      "bytes": 748,
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\MIPP\\mipp_scalar_op.hxx",
+      "bytes": 6187,
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\generated\\candidate\\hash_consolidation.hpp",
+      "bytes": 3898,
+      "sha256": "c45e21978fb142d697e139bc2aa3c83e78247052c717e52d188e13da909cbbda"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\SOURCE_ORIGINS.json",
+      "bytes": 11579,
+      "sha256": "f43361feb0d350f2487044fa8c13e0aa04d1ed80b66111d05a97b8dedf3267eb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\postprocess_actual_match_v1\\ROOT_V11_ORIGIN_20261022.json",
+      "bytes": 8445,
+      "sha256": "b34a31bbbb9d1923ced4dc63a46179bb9f6be6ab0b9e0c035294995505dc87ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\build\\red_20261022_100607_058998\\stage_result.json",
+      "bytes": 241599,
+      "sha256": "6db3f48ea591433dec82c212706dd3b3c031466ecfa0a80e41ed5b0891ab4a5b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\build\\green_20261022_100729_165374\\stage_result.json",
+      "bytes": 247483,
+      "sha256": "60b129e7073cf154a016fd986bfd956cf9907b746c072ad6dcfc57be50cbfc4e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\postprocess_actual_match_v1\\review_actual_red_green_20261022.json",
+      "bytes": 6228,
+      "sha256": "ba51ab5d5259ed20958bfe5e94ad6e451a21f32e880f9f6d14c2d6a2147cb696"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\standalone_contract.py",
+      "bytes": 6716,
+      "sha256": "5d85b257183f893f98ef72fc2c1df5533b1938e93270220734583a858b5a2eff"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\manifest.json",
+      "bytes": 5078,
+      "sha256": "505c0ccd0ebad8b2db6b51b0e341433f6fb44849dd8dd3adbe42899692491aa2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup.cpp",
+      "bytes": 63388,
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup.h",
+      "bytes": 12702,
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_local.hpp",
+      "bytes": 2785,
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_search.hpp",
+      "bytes": 1596,
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_response.hpp",
+      "bytes": 2379,
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_spread.hpp",
+      "bytes": 2791,
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_matches.hpp",
+      "bytes": 1452,
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\avx512_mathfun.h",
+      "bytes": 600,
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\avx512_mathfun.hxx",
+      "bytes": 20680,
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\avx_mathfun.h",
+      "bytes": 1602,
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\avx_mathfun.hxx",
+      "bytes": 23405,
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\neon_mathfun.h",
+      "bytes": 1477,
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\neon_mathfun.hxx",
+      "bytes": 9360,
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\sse_mathfun.h",
+      "bytes": 1670,
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\math\\sse_mathfun.hxx",
+      "bytes": 21775,
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp.h",
+      "bytes": 44587,
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_impl_AVX.hxx",
+      "bytes": 124908,
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_impl_AVX512.hxx",
+      "bytes": 152957,
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_impl_NEON.hxx",
+      "bytes": 95936,
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_impl_SSE.hxx",
+      "bytes": 116318,
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_object.hxx",
+      "bytes": 53284,
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_scalar_op.h",
+      "bytes": 748,
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\MIPP\\mipp_scalar_op.hxx",
+      "bytes": 6187,
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\build\\build_v1\\stage_result.json",
+      "bytes": 749499,
+      "sha256": "e3ae70205c2067421eeda832f16b95d530f89c573872db76da2ebe2fe6a55d3f"
+    }
+  ],
+  "final_recheck_errors": [],
+  "artifact_pins": []
+}

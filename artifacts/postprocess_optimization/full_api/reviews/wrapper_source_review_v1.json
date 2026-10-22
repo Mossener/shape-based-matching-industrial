@@ -1,0 +1,189 @@
+{
+  "status": "accepted_source_only",
+  "passed_static_review": true,
+  "blocking_findings": [],
+  "review": "Private whole-API wrapper and output-encoding source review v1",
+  "native_compilation": false,
+  "native_execution": false,
+  "target_implementation_imports": false,
+  "image_bytes_opened": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "git_invoked": false,
+  "production_modified": false,
+  "inputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\records.hpp",
+      "bytes": 714,
+      "sha256": "e7283cab65ee596e602878209e07d81922e7acd5b98b05efc32b33b30e25cf9a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\matcher.hpp",
+      "bytes": 1749,
+      "sha256": "02fb3d78600108ed55942e20354b71ef29215c2b08d85bf556f148b98da79c7f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\wrapper_methods.inc",
+      "bytes": 5552,
+      "sha256": "ce7c2e2811b57bfa483372ee8a545d3f500adbc5464283dfcb7dd19b6d72d522"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\exact_v11.cpp",
+      "bytes": 600,
+      "sha256": "9477f0261e0c26553aee2bc9abfe66ea4581df0229608100db0ecd0437cd621d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\index_reserve.cpp",
+      "bytes": 591,
+      "sha256": "36f4813af0cd314533482c21fff6b3128a45023f4da77ac8b291fb8618db1508"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\output_binary.hpp",
+      "bytes": 1496,
+      "sha256": "246ba96d7bd8221723031073764cb77f3b4edb72ebacc049e929d3800ee61624"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\tests\\output_binary_contract.cpp",
+      "bytes": 2207,
+      "sha256": "fe166237388e140826034b19d1792b49380b27375bfb744926bfc8e9c95fd617"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\WHOLE_MATCHER_DESIGN.md",
+      "bytes": 19520,
+      "sha256": "d69eafbed57bc5839fad980d8d8b6f866a081473d5229b7fa3db4b60c2fd0cf5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\WHOLE_MATCHER_PROTOCOL.json",
+      "bytes": 4530,
+      "sha256": "f6e37184d8a7621bce9d500ecff9c60324ea00b0c019c1c04719a7e2a0ffc04b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup.h",
+      "bytes": 12702,
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup.cpp",
+      "bytes": 63388,
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup_matches.hpp",
+      "bytes": 1452,
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344"
+    }
+  ],
+  "checks": [
+    {
+      "file": "exact_v11.cpp",
+      "line": 4,
+      "end": 10,
+      "result": "Private exact core namespace, shape namespace and global Timer are renamed before core include and immediately undefined afterward; wrapper implementation remains in its own namespace."
+    },
+    {
+      "file": "index_reserve.cpp",
+      "line": 4,
+      "end": 10,
+      "result": "Candidate uses distinct core/shape/Timer names and the same wrapper implementation include; no raw private Match crosses wrapper boundary."
+    },
+    {
+      "file": "matcher.hpp",
+      "line": 11,
+      "end": 18,
+      "result": "Each wrapper owns a unique implementation shell; copying is forbidden. Move construction is allowed to allocate wrapper shell; only core moves are required noexcept."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 9,
+      "end": 22,
+      "result": "Actual core MatchWorkspace is stored and explicitly moved; static assertions preserve its actual noexcept move properties."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 45,
+      "end": 55,
+      "result": "Move construction and assignment move the actual core value while retaining source shell and moved-from core object. Actual Detector::match reinitializes null core impl on reuse; no-reuse uses actual local state. Reset replaces actual workspace outside call clocks."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 70,
+      "end": 85,
+      "result": "All seven V11 option bits map correctly, flags above 127 reject, log_timing is explicit. API clock starts immediately before actual match and ends after returned raw vector is materialized. Neutral conversion and returned-vector destruction occur after end stamp."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 87,
+      "end": 104,
+      "result": "Legacy and explicit-default overloads exactly match frozen API signatures; legacy TLS workspace belongs to each private core. Both use identical external clock boundaries and record conversion."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 25,
+      "end": 39,
+      "result": "Copies signed32 x/y/template ID, complete class string and binary32 score through memcpy; timing fields match actual MatchTimings field order. No candidate field or order is filtered."
+    },
+    {
+      "file": "output_binary.hpp",
+      "line": 17,
+      "end": 30,
+      "result": "HMOUT001, call ID/count and per-record signed coordinates/template ID modulo uint32, raw score bits and uint64 class byte length are little-endian. Class byte insertion preserves embedded NUL and high bytes, output order and duplicate multiplicity."
+    },
+    {
+      "file": "tests/output_binary_contract.cpp",
+      "line": 12,
+      "end": 35,
+      "result": "Prepared literal fixtures cover signed fields, signed-zero bits, embedded NUL, empty output, duplicate multiplicity, order and call identity. Independent standard-library literal arithmetic confirms 51-byte single and 78-byte duplicate encodings; native encoder test remains unexecuted."
+    },
+    {
+      "file": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\baseline\\line2Dup.cpp",
+      "line": 1249,
+      "end": 1266,
+      "result": "Existing core stamps search immediately after consolidation and total after no-reuse cleanup; candidate old-input destruction remains inside its helper, before either stamp. Wrapper returned-U-vector destruction is outside external clock by design."
+    }
+  ],
+  "wire_literal_arithmetic": {
+    "single_record_bytes": 51,
+    "duplicate_record_bytes": 78,
+    "magic": "HMOUT001",
+    "endianness": "little",
+    "class_bytes_hex": "410042",
+    "score_bits_hex": "80000000"
+  },
+  "remaining_validation": [
+    {
+      "file": "exact_v11.cpp",
+      "line": 7,
+      "required": "Generate and freeze exact baseline bytes and candidate two-seam transform, including all copied headers/helper bytes, before compiling either TU."
+    },
+    {
+      "file": "index_reserve.cpp",
+      "line": 7,
+      "required": "Independently prove candidate only adds one helper include and replaces the unique consolidation call; verify source/dependency closures and symbol isolation after actual build."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 50,
+      "required": "Native lifetime matrix must exercise real core workspace move construction, move assignment, moved-from reuse, reset, size/detector switches and independent concurrent workspaces."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 80,
+      "required": "Actual full-API correctness matrix and complete output archives must verify all option combinations, masks, default/legacy and class-filter routes before timing."
+    },
+    {
+      "file": "tests/output_binary_contract.cpp",
+      "line": 10,
+      "required": "Compile/run the literal output contract, then independently decode every retained archive and reject field/order/score-bit/count corruption."
+    },
+    {
+      "file": "wrapper_methods.inc",
+      "line": 79,
+      "required": "No timing result exists yet; measure the declared balanced full-call schedule only after frozen build, replay and correctness gates pass. No speed/accuracy/memory or production adoption claim follows from static review."
+    }
+  ],
+  "limitations": [
+    "Generated core snapshots and a full harness are not available in this static slice, so no compile/link or actual behavioral result is asserted.",
+    "Private namespace and Timer isolation are source-level only until actual dependency and symbol evidence is available.",
+    "The separate standalone allocation-fault limitation remains: 26 observed executable-global-new faults do not independently demonstrate dynamic-runtime string-copy allocation failure."
+  ]
+}

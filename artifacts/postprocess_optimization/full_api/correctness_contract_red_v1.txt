@@ -1,0 +1,270 @@
+EEEEEEEEEEEEEEEEEEEEEEEEEE
+======================================================================
+ERROR: test_class_filter_semantics_and_move_concurrent_routes_cannot_be_substituted (test_correctness_contract.CorrectnessContract.test_class_filter_semantics_and_move_concurrent_routes_cannot_be_substituted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 275, in test_class_filter_semantics_and_move_concurrent_routes_cannot_be_substituted
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_empty_negative_zero_and_full_mask_controls_are_independent (test_correctness_contract.CorrectnessContract.test_empty_negative_zero_and_full_mask_controls_are_independent) (input='LED_zero_mask')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 266, in test_empty_negative_zero_and_full_mask_controls_are_independent
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_empty_negative_zero_and_full_mask_controls_are_independent (test_correctness_contract.CorrectnessContract.test_empty_negative_zero_and_full_mask_controls_are_independent) (input='LED_empty_candidates')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 266, in test_empty_negative_zero_and_full_mask_controls_are_independent
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_empty_negative_zero_and_full_mask_controls_are_independent (test_correctness_contract.CorrectnessContract.test_empty_negative_zero_and_full_mask_controls_are_independent) (input='synthetic_zero_maxima')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 266, in test_empty_negative_zero_and_full_mask_controls_are_independent
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_empty_negative_zero_and_full_mask_controls_are_independent (test_correctness_contract.CorrectnessContract.test_empty_negative_zero_and_full_mask_controls_are_independent) (input='synthetic_zero_maxima')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 266, in test_empty_negative_zero_and_full_mask_controls_are_independent
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_empty_negative_zero_and_full_mask_controls_are_independent (test_correctness_contract.CorrectnessContract.test_empty_negative_zero_and_full_mask_controls_are_independent) (input='LED_full_mask')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 266, in test_empty_negative_zero_and_full_mask_controls_are_independent
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_literal_schedule_budget_boundaries_and_concurrent_archive_order (test_correctness_contract.CorrectnessContract.test_literal_schedule_budget_boundaries_and_concurrent_archive_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 125, in test_literal_schedule_budget_boundaries_and_concurrent_archive_order
+    rows, comparisons = c.expected_correctness_schedule()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 5, in expected_correctness_schedule
+    raise NotImplementedError('RED: independent schedule not implemented')
+NotImplementedError: RED: independent schedule not implemented
+
+======================================================================
+ERROR: test_paths_hash_size_counts_and_missing_files_fail_without_noncanonical_read (test_correctness_contract.CorrectnessContract.test_paths_hash_size_counts_and_missing_files_fail_without_noncanonical_read)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 221, in test_paths_hash_size_counts_and_missing_files_fail_without_noncanonical_read
+    c.audit_correctness(changed, comparisons, read, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_positive_archive_reference_and_full_matrix (test_correctness_contract.CorrectnessContract.test_positive_archive_reference_and_full_matrix)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 145, in test_positive_archive_reference_and_full_matrix
+    result = c.audit_correctness(rows, comparisons, read, refs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_records_fields_bits_order_length_and_duplicate_multiplicity (test_correctness_contract.CorrectnessContract.test_records_fields_bits_order_length_and_duplicate_multiplicity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 240, in test_records_fields_bits_order_length_and_duplicate_multiplicity
+    self.changed_archive_rejected(rows, comparisons, outputs, refs, 2, (Record(**values), original[1]))
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 232, in changed_archive_rejected
+    c.audit_correctness(changed, comparisons, archives.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_reference_binding_detects_consistently_wrong_baseline_and_candidate (test_correctness_contract.CorrectnessContract.test_reference_binding_detects_consistently_wrong_baseline_and_candidate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 248, in test_reference_binding_detects_consistently_wrong_baseline_and_candidate
+    c.audit_correctness(rows, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_reference_literal_signed_fields_nul_and_score_bits (test_correctness_contract.CorrectnessContract.test_reference_literal_signed_fields_nul_and_score_bits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 154, in test_reference_literal_signed_fields_nul_and_score_bits
+    self.assertEqual(c.decode_v21_reference(reference_wire(records)), records)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 9, in decode_v21_reference
+    raise NotImplementedError('RED: independent V21 reference decoder not implemented')
+NotImplementedError: RED: independent V21 reference decoder not implemented
+
+======================================================================
+ERROR: test_reference_rejects_truncation_extra_nonfinite_version_counts_and_limits (test_correctness_contract.CorrectnessContract.test_reference_rejects_truncation_extra_nonfinite_version_counts_and_limits)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 169, in test_reference_rejects_truncation_extra_nonfinite_version_counts_and_limits
+    c.decode_v21_reference(raw)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 9, in decode_v21_reference
+    raise NotImplementedError('RED: independent V21 reference decoder not implemented')
+NotImplementedError: RED: independent V21 reference decoder not implemented
+
+======================================================================
+ERROR: test_rejects_clock_presence_nonfinite_negative_bool_and_extra_fields (test_correctness_contract.CorrectnessContract.test_rejects_clock_presence_nonfinite_negative_bool_and_extra_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 201, in test_rejects_clock_presence_nonfinite_negative_bool_and_extra_fields
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='call_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='stage')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='route')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='variant')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='input')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='threads')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='flags')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='pass')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='repeat')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='worker')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings) (field='step')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 181, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+======================================================================
+ERROR: test_rejects_schedule_fields_types_rows_order_and_comparison_pairings (test_correctness_contract.CorrectnessContract.test_rejects_schedule_fields_types_rows_order_and_comparison_pairings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\tests\test_correctness_contract.py", line 184, in test_rejects_schedule_fields_types_rows_order_and_comparison_pairings
+    c.audit_correctness(changed, comparisons, outputs.__getitem__, refs)
+  File "D:\h\shape_based_matching-master\artifacts\postprocess_optimization\full_api\correctness_contract.py", line 13, in audit_correctness
+    raise NotImplementedError('RED: complete ordered correctness audit not implemented')
+NotImplementedError: RED: complete ordered correctness audit not implemented
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.553s
+
+FAILED (errors=26)

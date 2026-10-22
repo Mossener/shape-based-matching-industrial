@@ -1,0 +1,1 @@
+PASS output_binary literal contract; matcher_calls=0 image_decodes=0

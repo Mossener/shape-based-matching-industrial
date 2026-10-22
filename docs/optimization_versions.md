@@ -210,3 +210,12 @@
 - 本版完成原因定位，没有新增速度/准确率收益，不改变默认。下一轮依据证据检查特征选择和评分；完整接口哈希去重优化单独验证。详见`artifacts/quality_failure_analysis/score_path_probe_v2/RESULTS_PHASE2_V25.md`。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v25` 标记各阶段。
+
+## V26：完整接口去重回放与性能闭环
+
+- 新增独立的完整 API 验证矩阵：2,722 次真实接口调用、1,602 次完整有序比较，覆盖 32 个输入、128 个选项组合、工作区移动/复用、并发、类别筛选和 7 个本地磁片回归；V11 基线与候选输出逐字段、顺序、分数字节和多重性一致。
+- 25 个固定开发输入完成 950 次交错性能调用（每个变体每张图正式位置 8/8），保存 950 个完整输出和 800 个正式计时行。独立复核重新解码全部输出并通过 25 个历史真值门禁。
+- 候选 `index_reserve_copy_actual_match` 在本次运行没有整体速度收益：400 个正式配对的 API wall 中位数为 1.003566、内部搜索为 1.005949、内部总计为 1.003566；按 25 张图的等图中位数分别为 1.006232、1.001271、1.006228，低于 1 才表示更快。三项指标均有 13/25 张图回归，完整输出正确性保持不变。
+- 因而该候选继续作为独立实验记录，不接入生产默认；V11 核心和默认路径保持不变。完整证据见 `artifacts/postprocess_optimization/full_api/` 及独立复核 `artifacts/independent_reviews/postprocess_full_api_v2/`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v26` 标记各阶段。

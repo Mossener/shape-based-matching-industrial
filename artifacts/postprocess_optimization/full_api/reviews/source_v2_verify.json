@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FULL_API_SOURCE_MANIFEST_v2.json",
+    "bytes": 16024,
+    "sha256": "a97e54bd4159a247a8d5f08b4189f246b39da5ae687ce7552365491dcbd10595"
+  },
+  "tracked_pins": 116,
+  "changed_sources": [
+    "run_full_api.py",
+    "tests/test_runner_contract.py"
+  ],
+  "preserved_v1_evidence": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\FULL_API_SOURCE_MANIFEST.json",
+      "bytes": 16024,
+      "sha256": "e44bc645b73087c280992a87a7e7f25056346a7818daa177888410a77eb2bb3e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\build\\build_v1\\stage_result.json",
+      "bytes": 749499,
+      "sha256": "e3ae70205c2067421eeda832f16b95d530f89c573872db76da2ebe2fe6a55d3f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\build\\replay_v1\\stage_result.json",
+      "bytes": 31700,
+      "sha256": "c3c20df8e9345966fbfdb5f117f54a5523caa27f1d3e7b42b27f3e272e997fd6"
+    }
+  ],
+  "red_evidence": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\reviews\\prior_python_scope_red_v2.json",
+    "bytes": 827,
+    "sha256": "7d050d12b2998131cfeb85014dc14b59a099cd9d59ffbc9a8f9bc552ebf15e9d"
+  },
+  "green_evidence": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\postprocess_optimization\\full_api\\reviews\\prior_python_scope_green_v2.json",
+    "bytes": 815,
+    "sha256": "d48b39b10fe3578660e1574f37688730effced6b7051d0ee6bc2d8cf69b7354f"
+  },
+  "first_verification_invocation": "ImportError: cannot import name recheck from build_policy; no verification or native action began. Corrected invocation uses run_full_api.recheck.",
+  "native_compilations": 0,
+  "matcher_calls": 0,
+  "image_smd_bank_content_reads": 0
+}
