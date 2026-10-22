@@ -7,8 +7,10 @@ separate `quality_eval.cpp`, `quality_support.hpp`, `build_quality.py` and
 The static checks described below were the pre-execution gate. The
 fixed stages later completed with 96 old-gate, 192 pilot and 9,600 development
 matcher calls. See [QUALITY_RESULTS_V22.md](QUALITY_RESULTS_V22.md) and the
-independent numeric audit for the actual quality result. The timing stage was
-not run; no quality-stage speed claim is made.
+independent numeric audit for the actual quality result. V23 subsequently
+completed the separate fixed timing stage with 12,288 calls and passed its
+independent numeric audit. See [TIMING_RESULTS_V23.md](TIMING_RESULTS_V23.md)
+for the paired timings, object-specific regressions and measurement limits.
 
 `QUALITY_INPUT_FREEZE.json` SHA-256 is
 `398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c`.

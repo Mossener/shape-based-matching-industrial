@@ -1,0 +1,71 @@
+{
+    "passed": 1,
+    "stage": "timing",
+    "objects": [ 1, 2, 5, 8, 12, 17 ],
+    "unique_frames": 64,
+    "object_frame_combinations": 384,
+    "matcher_calls": 12288.0,
+    "warmup_rounds": 1,
+    "measured_rounds": 7,
+    "exact_own_reference_every_call": 1,
+    "decode_total_ms": 4378.8892000000014,
+    "peak_rss_bytes": 170176512.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 1,
+    "variants": [
+        {
+            "arm": "rgb",
+            "path": "fallback",
+            "samples": 2688,
+            "match_median_ms": 40.017200000000003,
+            "match_p95_ms": 172.45320000000001,
+            "external_median_ms": 40.272199999999998,
+            "external_p95_ms": 172.55860000000001
+        },
+        {
+            "arm": "rgb",
+            "path": "fused",
+            "samples": 2688,
+            "match_median_ms": 36.894599999999997,
+            "match_p95_ms": 156.55250000000001,
+            "external_median_ms": 37.070300000000003,
+            "external_p95_ms": 156.70359999999999
+        },
+        {
+            "arm": "binary_empty_mask",
+            "path": "fallback",
+            "samples": 2688,
+            "match_median_ms": 31.758099999999999,
+            "match_p95_ms": 124.3541,
+            "external_median_ms": 31.854099999999999,
+            "external_p95_ms": 124.47539999999999
+        },
+        {
+            "arm": "binary_empty_mask",
+            "path": "fused",
+            "samples": 2688,
+            "match_median_ms": 30.4177,
+            "match_p95_ms": 117.1082,
+            "external_median_ms": 30.512499999999999,
+            "external_p95_ms": 118.1176
+        }
+    ],
+    "paired_binary_over_rgb": [
+        {
+            "path": "fallback",
+            "samples": 2688,
+            "match_ratio_median": 0.80201930948451738,
+            "match_ratio_p95": 1.2456228363830031,
+            "external_ratio_median": 0.80269246678041473,
+            "external_ratio_p95": 1.2488560292241273
+        },
+        {
+            "path": "fused",
+            "samples": 2688,
+            "match_ratio_median": 0.8304565222732746,
+            "match_ratio_p95": 1.2867527848200746,
+            "external_ratio_median": 0.83149395692984551,
+            "external_ratio_p95": 1.2879947531570775
+        }
+    ]
+}

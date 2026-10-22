@@ -123,6 +123,8 @@ V21 完成两项隔离速度实验。25份真实候选的哈希合并回放中�
 
 V22 完成六目标、400帧开发集的二值轮廓训练对照。空特征选择掩膜的模板库在固定共同补边下把误检从42,112降到11,882、精度从0.508%升到1.712%，F1从0.010064升到0.033149，但TP从215降到207、召回从53.75%降到51.75%；目标1出现F1退化，其他五目标改善。独立审计逐条重算raw、NMS、GT、分数位、源坐标和跨臂保留，未读取图像或调用matcher；[完整结果](artifacts/silhouette_empty_mask_experiment/QUALITY_RESULTS_V22.md)和[审计证据](artifacts/independent_reviews/empty_mask_quality_v1/run_development_audit_20261022_v3/result.json)保留了所有退化和限制。该训练策略仍不改生产默认，磁片和留出场景继续单独保留。
 
+V23 补齐固定64帧、六目标、12,288次调用的计时：二值方案/RGB的配对完整调用耗时比中位数为0.8027（fallback）和0.8315（fused）；按帧取配对中位数后等权平均，fused为0.8516，但103/384个目标/帧组合变慢，目标1和8的均值退化。独立数字诊断把二值方案丢失的67个RGB真阳性分为57个在去重后raw中无合格框、10个被NMS抑制；现有输出还不能区分分数不足、搜索剪枝和跨模板去重。速度收益伴随V22的召回损失，继续保留为实验方案；详见[计时与限制](artifacts/silhouette_empty_mask_experiment/TIMING_RESULTS_V23.md)和[漏检诊断](artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/RESULTS.md)。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

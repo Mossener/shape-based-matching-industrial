@@ -1,0 +1,157 @@
+{
+  "stage": "timing",
+  "completed": true,
+  "native_exit_code": 0,
+  "actual_matcher_calls": 12288.0,
+  "maximum_matcher_calls": 12288,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "7655197e7464e715bef2f8a4611456bf91412fa1dcc09f35684df401bddef2fe",
+    "bytes": 256142
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c",
+    "bytes": 130369
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "20246a3b21d69344536a2b0090dd7fbda7ea9676f6c8d93fcbc1bab4fe9c9d28",
+    "bytes": 3811
+  },
+  "previous_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_development_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "ebcb78f1beb5c84d9921a0b3aa3e1a1a51b9fb0ef2f353ae77d7655581f80c91",
+    "bytes": 5855301
+  },
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_stage_reservations\\timing.json",
+    "sha256": "3402b54aa29554344052abd7a1d860ac28a73c04d1db457c4e8188f946fccb61",
+    "bytes": 638
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\native\\bank_load_timings.csv",
+      "sha256": "81363947e4efd11778fbee1be67a3739fad2f05c7eeeb5969f9d68f419b7e231",
+      "bytes": 678
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\native\\stage_summary.json",
+      "sha256": "0c453e343e06b925b1d367a57b62f92abf9493a2a32685bde339528a508aab8f",
+      "bytes": 2394
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\native\\timing_samples.csv",
+      "sha256": "ed854126b36e72a32e787a409b3902bb28a7f53238a965157a6a7e9b8e834c47",
+      "bytes": 905311
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\execution_provenance.json",
+      "sha256": "4242bc8bffd3bbb2b2b0acfa723f3278fc1966f1ba84be4713ec6d31f006e0bb",
+      "bytes": 3355
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\native.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\native.stdout",
+      "sha256": "6edcb2e6e8ab035024d46f12d293f2a60a09010122226089a6ac1170dbdff319",
+      "bytes": 13990
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\verified_after.json",
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "bytes": 748
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_timing_v1\\verified_before.json",
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "bytes": 748
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "stage": "timing",
+    "objects": [
+      1,
+      2,
+      5,
+      8,
+      12,
+      17
+    ],
+    "unique_frames": 64,
+    "object_frame_combinations": 384,
+    "matcher_calls": 12288.0,
+    "warmup_rounds": 1,
+    "measured_rounds": 7,
+    "exact_own_reference_every_call": 1,
+    "decode_total_ms": 4378.889200000001,
+    "peak_rss_bytes": 170176512.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 1,
+    "variants": [
+      {
+        "arm": "rgb",
+        "path": "fallback",
+        "samples": 2688,
+        "match_median_ms": 40.0172,
+        "match_p95_ms": 172.4532,
+        "external_median_ms": 40.2722,
+        "external_p95_ms": 172.5586
+      },
+      {
+        "arm": "rgb",
+        "path": "fused",
+        "samples": 2688,
+        "match_median_ms": 36.8946,
+        "match_p95_ms": 156.5525,
+        "external_median_ms": 37.0703,
+        "external_p95_ms": 156.7036
+      },
+      {
+        "arm": "binary_empty_mask",
+        "path": "fallback",
+        "samples": 2688,
+        "match_median_ms": 31.7581,
+        "match_p95_ms": 124.3541,
+        "external_median_ms": 31.8541,
+        "external_p95_ms": 124.4754
+      },
+      {
+        "arm": "binary_empty_mask",
+        "path": "fused",
+        "samples": 2688,
+        "match_median_ms": 30.4177,
+        "match_p95_ms": 117.1082,
+        "external_median_ms": 30.5125,
+        "external_p95_ms": 118.1176
+      }
+    ],
+    "paired_binary_over_rgb": [
+      {
+        "path": "fallback",
+        "samples": 2688,
+        "match_ratio_median": 0.8020193094845174,
+        "match_ratio_p95": 1.245622836383003,
+        "external_ratio_median": 0.8026924667804147,
+        "external_ratio_p95": 1.2488560292241273
+      },
+      {
+        "path": "fused",
+        "samples": 2688,
+        "match_ratio_median": 0.8304565222732746,
+        "match_ratio_p95": 1.2867527848200746,
+        "external_ratio_median": 0.8314939569298455,
+        "external_ratio_p95": 1.2879947531570775
+      }
+    ]
+  },
+  "post_verification_passed": true,
+  "missing_frames_are_not_negatives": true,
+  "heldout_images_allowed": false
+}

@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "scope": "Exact V23 timing source/numeric publication selection",
+  "native_matcher_calls": 12288,
+  "formal_timing_rows": 10752,
+  "independent_audit_matcher_calls": 0,
+  "independent_audit_image_decodes": 0,
+  "production_core": "V11 unchanged",
+  "source_and_evidence_only": true,
+  "file_count": 38,
+  "total_bytes": 2034237,
+  "frozen_reference_pins": {
+    "timing_stage": {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/QUALITY_STAGE_FREEZE.json",
+      "size_bytes": 5919,
+      "sha256": "e7585e22bfe29d398cd344ab14c9c72923c27fbeb093b3a8df98f7062bc1dfa4"
+    },
+    "previous_v22_inventory": {
+      "path": "artifacts/silhouette_empty_mask_experiment/V22_QUALITY_PUBLICATION_INVENTORY.json",
+      "size_bytes": 6152578,
+      "sha256": "3d3d3a52a9a947d028c4f873fc7bf970b9c6e9e45eb198593b5fe66a45cde814"
+    }
+  },
+  "exclusions": [
+    "images",
+    "executables",
+    "object files",
+    "Python bytecode",
+    "unrelated diagnostics",
+    "synthetic_a prior source snapshots",
+    "pending probes",
+    "separately published lost-GT analysis"
+  ],
+  "files": [
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/ORIGIN.json",
+      "size_bytes": 2291,
+      "sha256": "192eb0f4a5f83caec3a9b84e129c18b1d7706474a5203e9c143f0bc7fd510142",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/README.md",
+      "size_bytes": 2486,
+      "sha256": "74eae192ac7d4a50de174c5c70d4e3679ac16534c863a72daf32362c6a744d61",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/root_arithmetic_review.py",
+      "size_bytes": 4411,
+      "sha256": "9d771becaaf1b793ab72202c47a80a421c529a229645d81df29e46f86c92cb36",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/root_arithmetic_review_20261022.json",
+      "size_bytes": 5719,
+      "sha256": "932a86fc33d482246dd60874ab936ea5384916a64b1f1b4332a852fb4a412e58",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/result.json",
+      "size_bytes": 856710,
+      "sha256": "0d6573de68574dd2a1364dc43805f3ff49b3c77cea4cd30fbbca80584d9810b2",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/ORIGIN.json",
+      "size_bytes": 2291,
+      "sha256": "192eb0f4a5f83caec3a9b84e129c18b1d7706474a5203e9c143f0bc7fd510142",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/README.md",
+      "size_bytes": 2486,
+      "sha256": "74eae192ac7d4a50de174c5c70d4e3679ac16534c863a72daf32362c6a744d61",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/run_synthetic.py",
+      "size_bytes": 1990,
+      "sha256": "ad524091641972ab01110d899600289c4a6d162b8561c28ed9b42de4ce082987",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/test_timing_audit.py",
+      "size_bytes": 10301,
+      "sha256": "2ad0e42ef8c2327533f2d264852e41b28a232e846dd41ad7ac2d7d0776e0d9d7",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/test_timing_provenance.py",
+      "size_bytes": 14378,
+      "sha256": "23dba5215e147ee037586736dd6e6c6ac83238334c9276169a93adb02e9144b4",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_20261022_timing_audit_v1/source/timing_audit.py",
+      "size_bytes": 36237,
+      "sha256": "9523029633376461a83c4f72f200e630c5dfdfeac999c99fda03d2a95b2fc887",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic.py",
+      "size_bytes": 1990,
+      "sha256": "ad524091641972ab01110d899600289c4a6d162b8561c28ed9b42de4ce082987",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/result.json",
+      "size_bytes": 1201,
+      "sha256": "0fba6f2a5968db146b87b9149ae5629614c96aefff72c76f01ea17558812fa18",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/ORIGIN.json",
+      "size_bytes": 2291,
+      "sha256": "192eb0f4a5f83caec3a9b84e129c18b1d7706474a5203e9c143f0bc7fd510142",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/README.md",
+      "size_bytes": 2486,
+      "sha256": "74eae192ac7d4a50de174c5c70d4e3679ac16534c863a72daf32362c6a744d61",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/run_synthetic.py",
+      "size_bytes": 1990,
+      "sha256": "ad524091641972ab01110d899600289c4a6d162b8561c28ed9b42de4ce082987",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/test_timing_audit.py",
+      "size_bytes": 10301,
+      "sha256": "2ad0e42ef8c2327533f2d264852e41b28a232e846dd41ad7ac2d7d0776e0d9d7",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/test_timing_provenance.py",
+      "size_bytes": 14378,
+      "sha256": "23dba5215e147ee037586736dd6e6c6ac83238334c9276169a93adb02e9144b4",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/source/timing_audit.py",
+      "size_bytes": 36237,
+      "sha256": "9523029633376461a83c4f72f200e630c5dfdfeac999c99fda03d2a95b2fc887",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/run_synthetic_20261022_b/tests.txt",
+      "size_bytes": 3987,
+      "sha256": "e04165d221f69baa0613adfb64e0d7186ad991410daf2829c16eaf6e46c2a8b2",
+      "category": "independent_timing_audit_or_synthetic_evidence"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/source_review_20261022.json",
+      "size_bytes": 2641,
+      "sha256": "9c8275b49445cccbeaa4d6c1d867e41b160029b27da3a63ab1ba799953275a79",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/test_timing_audit.py",
+      "size_bytes": 10301,
+      "sha256": "2ad0e42ef8c2327533f2d264852e41b28a232e846dd41ad7ac2d7d0776e0d9d7",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/test_timing_provenance.py",
+      "size_bytes": 14378,
+      "sha256": "23dba5215e147ee037586736dd6e6c6ac83238334c9276169a93adb02e9144b4",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/independent_reviews/empty_mask_timing_v1/timing_audit.py",
+      "size_bytes": 36237,
+      "sha256": "9523029633376461a83c4f72f200e630c5dfdfeac999c99fda03d2a95b2fc887",
+      "category": "independent_timing_source_or_review"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/QUALITY_STAGE_README.md",
+      "size_bytes": 6504,
+      "sha256": "90004a24904d24e2e7bf77f7ddf53e4515a5adedcafe94aad22455f5197b5cd3",
+      "category": "timing_documentation_and_publication_source"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/TIMING_RESULTS_V23.md",
+      "size_bytes": 6014,
+      "sha256": "6f2eb6a2b1559f1525be49c423e172bca9748de87831fbc57b79715cc70e9a8b",
+      "category": "timing_documentation_and_publication_source"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/prepare_timing_publication_inventory.py",
+      "size_bytes": 6471,
+      "sha256": "bf9d31ea1dc9983c78e02639afda3f090e0e5f3d5c3242bc33d772d72b3cde40",
+      "category": "timing_documentation_and_publication_source"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/quality_stage_reservations/timing.json",
+      "size_bytes": 638,
+      "sha256": "3402b54aa29554344052abd7a1d860ac28a73c04d1db457c4e8188f946fccb61",
+      "category": "timing_documentation_and_publication_source"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/QUALITY_STAGE_FREEZE.json",
+      "size_bytes": 5919,
+      "sha256": "e7585e22bfe29d398cd344ab14c9c72923c27fbeb093b3a8df98f7062bc1dfa4",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/execution_provenance.json",
+      "size_bytes": 3355,
+      "sha256": "4242bc8bffd3bbb2b2b0acfa723f3278fc1966f1ba84be4713ec6d31f006e0bb",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/native.stderr",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/native.stdout",
+      "size_bytes": 13990,
+      "sha256": "6edcb2e6e8ab035024d46f12d293f2a60a09010122226089a6ac1170dbdff319",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/native/bank_load_timings.csv",
+      "size_bytes": 678,
+      "sha256": "81363947e4efd11778fbee1be67a3739fad2f05c7eeeb5969f9d68f419b7e231",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/native/stage_summary.json",
+      "size_bytes": 2394,
+      "sha256": "0c453e343e06b925b1d367a57b62f92abf9493a2a32685bde339528a508aab8f",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/native/timing_samples.csv",
+      "size_bytes": 905311,
+      "sha256": "ed854126b36e72a32e787a409b3902bb28a7f53238a965157a6a7e9b8e834c47",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/verified_after.json",
+      "size_bytes": 748,
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/run_quality_timing_v1/verified_before.json",
+      "size_bytes": 748,
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "category": "native_timing_evidence_and_execution_closure"
+    },
+    {
+      "path": "artifacts/silhouette_empty_mask_experiment/test_timing_publication_inventory.py",
+      "size_bytes": 3749,
+      "sha256": "a67d23dd99ec3019299fcc621c6f7db917f742c5b0c79b3b76f4f0a5caf230dc",
+      "category": "timing_documentation_and_publication_source"
+    }
+  ]
+}

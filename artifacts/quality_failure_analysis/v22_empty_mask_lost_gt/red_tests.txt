@@ -1,0 +1,88 @@
+FFFFFFF.
+======================================================================
+FAIL: test_capacity_exhaustive_three_by_three (test_diagnostic.DiagnosticTests.test_capacity_exhaustive_three_by_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 79, in test_capacity_exhaustive_three_by_three
+    self.assertEqual(maximum_capacity(graph, 3), brute)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_classify_absent_raw_candidate (test_diagnostic.DiagnosticTests.test_classify_absent_raw_candidate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 31, in test_classify_absent_raw_candidate
+    self.assertEqual(classify(0, truth, raw, kept, blockers, labels)['category'],
+AssertionError: 'unimplemented' != 'no_raw_candidate_ge_0_5'
+- unimplemented
++ no_raw_candidate_ge_0_5
+
+
+======================================================================
+FAIL: test_detected_and_assignment_id_tiebreak (test_diagnostic.DiagnosticTests.test_detected_and_assignment_id_tiebreak)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 63, in test_detected_and_assignment_id_tiebreak
+    self.assertEqual(labels, [('TP', 3)])
+AssertionError: Lists differ: [] != [('TP', 3)]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('TP', 3)
+
+- []
++ [('TP', 3)]
+
+======================================================================
+FAIL: test_gt_identity_competition_is_not_automatically_capacity_loss (test_diagnostic.DiagnosticTests.test_gt_identity_competition_is_not_automatically_capacity_loss)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 52, in test_gt_identity_competition_is_not_automatically_capacity_loss
+    self.assertEqual(labels, [('TP', 1)])
+AssertionError: Lists differ: [] != [('TP', 1)]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('TP', 1)
+
+- []
++ [('TP', 1)]
+
+======================================================================
+FAIL: test_iou_half_boundary_and_invalid_box (test_diagnostic.DiagnosticTests.test_iou_half_boundary_and_invalid_box)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 14, in test_iou_half_boundary_and_invalid_box
+    self.assertEqual(iou((0, 0, 2, 2), (0, 0, 1, 2)), .5)
+AssertionError: 0.0 != 0.5
+
+======================================================================
+FAIL: test_nms_strict_boundary_and_first_blocker (test_diagnostic.DiagnosticTests.test_nms_strict_boundary_and_first_blocker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 23, in test_nms_strict_boundary_and_first_blocker
+    self.assertEqual(kept, [0, 1])
+AssertionError: Lists differ: [] != [0, 1]
+
+Second list contains 2 additional elements.
+First extra element 0:
+0
+
+- []
++ [0, 1]
+
+======================================================================
+FAIL: test_nms_suppression_is_directly_proven (test_diagnostic.DiagnosticTests.test_nms_suppression_is_directly_proven)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v22_empty_mask_lost_gt\test_diagnostic.py", line 41, in test_nms_suppression_is_directly_proven
+    self.assertEqual(detail['category'], 'all_overlapping_raw_suppressed_by_nms')
+AssertionError: 'unimplemented' != 'all_overlapping_raw_suppressed_by_nms'
+- unimplemented
++ all_overlapping_raw_suppressed_by_nms
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.027s
+
+FAILED (failures=7)

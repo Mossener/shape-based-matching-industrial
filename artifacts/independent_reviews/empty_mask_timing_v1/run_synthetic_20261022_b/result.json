@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "tests": 25,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "source_pins": [
+    {
+      "name": "run_synthetic.py",
+      "bytes": 1990,
+      "sha256": "ad524091641972ab01110d899600289c4a6d162b8561c28ed9b42de4ce082987"
+    },
+    {
+      "name": "test_timing_audit.py",
+      "bytes": 10301,
+      "sha256": "2ad0e42ef8c2327533f2d264852e41b28a232e846dd41ad7ac2d7d0776e0d9d7"
+    },
+    {
+      "name": "test_timing_provenance.py",
+      "bytes": 14378,
+      "sha256": "23dba5215e147ee037586736dd6e6c6ac83238334c9276169a93adb02e9144b4"
+    },
+    {
+      "name": "timing_audit.py",
+      "bytes": 36237,
+      "sha256": "9523029633376461a83c4f72f200e630c5dfdfeac999c99fda03d2a95b2fc887"
+    },
+    {
+      "name": "README.md",
+      "bytes": 2486,
+      "sha256": "74eae192ac7d4a50de174c5c70d4e3679ac16534c863a72daf32362c6a744d61"
+    },
+    {
+      "name": "ORIGIN.json",
+      "bytes": 2291,
+      "sha256": "192eb0f4a5f83caec3a9b84e129c18b1d7706474a5203e9c143f0bc7fd510142"
+    }
+  ],
+  "dataset_image_bytes_opened": 0,
+  "image_decodes": 0,
+  "native_matcher_calls": 0,
+  "evidence_kind": "Isolated tiny synthetic numeric/provenance tests; no real timing run audited"
+}
