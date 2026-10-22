@@ -1,0 +1,566 @@
+{
+  "schema": "independent_three_arm_quality_source_selftest_v1",
+  "passed": true,
+  "synthetic_only": true,
+  "sources_before": {
+    "numeric.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    "evidence.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence.py",
+      "bytes": 4368,
+      "sha256": "49169118b22c0ccea0b18cc42af275ec0d8d094c0377e2de0041980295b0d6b6"
+    },
+    "contract.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\contract.py",
+      "bytes": 14428,
+      "sha256": "ece19633c56ddbe9b42f8637bfb3cab12744dd03f92df0c3ca7f0c28088ab07d"
+    },
+    "quality_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\quality_audit.py",
+      "bytes": 21272,
+      "sha256": "78ffd59e4027f971750cea59a3e699a97140ccd7854f1c5b6b8d20ed2d72a6b8"
+    },
+    "test_quality_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\test_quality_audit.py",
+      "bytes": 24176,
+      "sha256": "b533c24794d9ca694e79b4d8110ddd799256d4bdb5b1ffed361a52ca10d88d7b"
+    },
+    "run_selftest.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\run_selftest.py",
+      "bytes": 6423,
+      "sha256": "8d99feb8452fe165ec3ef06f1c7fdf632073ee0756979db3822c3f242c34724e"
+    },
+    "SOURCE_ORIGINS.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\SOURCE_ORIGINS.json",
+      "bytes": 1437,
+      "sha256": "a4270eb1a569ec9236557bb4c045c85608d5f69e5e8a4672f6af8c0e098b430b"
+    },
+    "README.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\README.md",
+      "bytes": 1998,
+      "sha256": "9a507894410af4eca2e48aa79cf0aa6549422a2f719705252fd9e64f38bf9d4f"
+    },
+    "MIGRATION_PLAN.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\MIGRATION_PLAN.md",
+      "bytes": 5893,
+      "sha256": "f3b9adae00292f8c45171ca3f9fdf3bdf92c4b35b90a31a56a28c1ae0f038111"
+    }
+  },
+  "sources_after": {
+    "numeric.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    "evidence.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence.py",
+      "bytes": 4368,
+      "sha256": "49169118b22c0ccea0b18cc42af275ec0d8d094c0377e2de0041980295b0d6b6"
+    },
+    "contract.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\contract.py",
+      "bytes": 14428,
+      "sha256": "ece19633c56ddbe9b42f8637bfb3cab12744dd03f92df0c3ca7f0c28088ab07d"
+    },
+    "quality_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\quality_audit.py",
+      "bytes": 21272,
+      "sha256": "78ffd59e4027f971750cea59a3e699a97140ccd7854f1c5b6b8d20ed2d72a6b8"
+    },
+    "test_quality_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\test_quality_audit.py",
+      "bytes": 24176,
+      "sha256": "b533c24794d9ca694e79b4d8110ddd799256d4bdb5b1ffed361a52ca10d88d7b"
+    },
+    "run_selftest.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\run_selftest.py",
+      "bytes": 6423,
+      "sha256": "8d99feb8452fe165ec3ef06f1c7fdf632073ee0756979db3822c3f242c34724e"
+    },
+    "SOURCE_ORIGINS.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\SOURCE_ORIGINS.json",
+      "bytes": 1437,
+      "sha256": "a4270eb1a569ec9236557bb4c045c85608d5f69e5e8a4672f6af8c0e098b430b"
+    },
+    "README.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\README.md",
+      "bytes": 1998,
+      "sha256": "9a507894410af4eca2e48aa79cf0aa6549422a2f719705252fd9e64f38bf9d4f"
+    },
+    "MIGRATION_PLAN.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\MIGRATION_PLAN.md",
+      "bytes": 5893,
+      "sha256": "f3b9adae00292f8c45171ca3f9fdf3bdf92c4b35b90a31a56a28c1ae0f038111"
+    }
+  },
+  "source_snapshot": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\evidence.py",
+      "bytes": 4368,
+      "sha256": "49169118b22c0ccea0b18cc42af275ec0d8d094c0377e2de0041980295b0d6b6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\contract.py",
+      "bytes": 14428,
+      "sha256": "ece19633c56ddbe9b42f8637bfb3cab12744dd03f92df0c3ca7f0c28088ab07d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\quality_audit.py",
+      "bytes": 21272,
+      "sha256": "78ffd59e4027f971750cea59a3e699a97140ccd7854f1c5b6b8d20ed2d72a6b8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\test_quality_audit.py",
+      "bytes": 24176,
+      "sha256": "b533c24794d9ca694e79b4d8110ddd799256d4bdb5b1ffed361a52ca10d88d7b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\run_selftest.py",
+      "bytes": 6423,
+      "sha256": "8d99feb8452fe165ec3ef06f1c7fdf632073ee0756979db3822c3f242c34724e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\SOURCE_ORIGINS.json",
+      "bytes": 1437,
+      "sha256": "a4270eb1a569ec9236557bb4c045c85608d5f69e5e8a4672f6af8c0e098b430b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\README.md",
+      "bytes": 1998,
+      "sha256": "9a507894410af4eca2e48aa79cf0aa6549422a2f719705252fd9e64f38bf9d4f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\MIGRATION_PLAN.md",
+      "bytes": 5893,
+      "sha256": "f3b9adae00292f8c45171ca3f9fdf3bdf92c4b35b90a31a56a28c1ae0f038111"
+    }
+  ],
+  "sources_unchanged": true,
+  "imports": {
+    "numeric.py": [
+      "collections",
+      "struct"
+    ],
+    "evidence.py": [
+      "csv",
+      "hashlib",
+      "io",
+      "json",
+      "math",
+      "pathlib",
+      "re"
+    ],
+    "contract.py": [
+      "evidence",
+      "pathlib"
+    ],
+    "quality_audit.py": [
+      "argparse",
+      "collections",
+      "contract",
+      "evidence",
+      "gzip",
+      "io",
+      "json",
+      "numeric",
+      "pathlib",
+      "sys"
+    ],
+    "test_quality_audit.py": [
+      "contract",
+      "copy",
+      "evidence",
+      "gzip",
+      "hashlib",
+      "json",
+      "numeric",
+      "pathlib",
+      "quality_audit",
+      "tempfile",
+      "unittest"
+    ],
+    "run_selftest.py": [
+      "ast",
+      "datetime",
+      "hashlib",
+      "json",
+      "os",
+      "pathlib",
+      "shutil",
+      "subprocess",
+      "sys"
+    ]
+  },
+  "green": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_quality_audit"
+    ],
+    "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot",
+    "exit_code": 0,
+    "stdout": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\green.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\source_snapshot\\green.stderr.txt",
+      "bytes": 2670,
+      "sha256": "2525e4b2aee1af2bc59058f96771738ca92327b89c600be874fcb43f224560fa"
+    }
+  },
+  "mutant_red": [
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_raw_order_and_each_selected_field"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_equality",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_equality\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_equality\\red.stderr.txt",
+        "bytes": 3010,
+        "sha256": "a81b278df36160c64efaeb4b190cfac23e774e7bf2ca2d13cc583e21da65fc90"
+      },
+      "name": "ignore_raw_equality",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_equality\\quality_audit.py",
+        "bytes": 21562,
+        "sha256": "8105b0351e89245f62ef636005cc01e5785f53a87510cc9bc8f42c2542620135"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_metadata_box_uses_each_arms_own_origin"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_own_origin",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_own_origin\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_own_origin\\red.stderr.txt",
+        "bytes": 2270,
+        "sha256": "76449b07b315503fad53a166013244dad3f96bb899ed7e571d7ce8a19a3cd659"
+      },
+      "name": "ignore_own_origin",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_own_origin\\quality_audit.py",
+        "bytes": 21609,
+        "sha256": "fbbdbf34e1cacf690205c3c752a66900c23eba17c0e8bb4ab28100af3e68554a"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_retention_arm",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_retention_arm\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_retention_arm\\red.stderr.txt",
+        "bytes": 3223,
+        "sha256": "e17585b1b2e446c9ec2f76aec0117057e547e30cf8adf0dde1f95bb53846f90a"
+      },
+      "name": "ignore_retention_arm",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_retention_arm\\quality_audit.py",
+        "bytes": 21560,
+        "sha256": "8b752f69b907232a4bd181f99e3ea7cdb8651e7ddacbf2301c912b059bad91b2"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_full_raw_archive_manifest_order_metadata_and_score_bits"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_order",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_order\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_order\\red.stderr.txt",
+        "bytes": 1298,
+        "sha256": "3ea8f70b4aefecc3a8b8fb7db545422edf545ffe32c7c91e9c4d905d5155b59d"
+      },
+      "name": "ignore_raw_order",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_raw_order\\quality_audit.py",
+        "bytes": 21545,
+        "sha256": "53fe8acdbca3661a7418522122cbfcc6f6c4bb258e56055b546a32eea9ed5b50"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_gzip_decoder_caps_expansion_before_materializing_payload"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_unbounded_decode",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_unbounded_decode\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_unbounded_decode\\red.stderr.txt",
+        "bytes": 1720,
+        "sha256": "93e1aa8c542cda6634b6be2a39509820ca31ad86ef5d98af07cf1ac747ac5d0b"
+      },
+      "name": "unbounded_decode",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_unbounded_decode\\quality_audit.py",
+        "bytes": 21609,
+        "sha256": "e9323b6a372189c08fd9328373e8158f1f74169bd8858c34c5eec728bb94804c"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_bank_pins_bind_all_18_own_directories_and_counts"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_bank_origin",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_bank_origin\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_bank_origin\\red.stderr.txt",
+        "bytes": 1269,
+        "sha256": "44be4ba50f79b5b0acb8ebcd46d1c6ff349ad2c30bf47467772eec451ac31145"
+      },
+      "name": "ignore_bank_origin",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_bank_origin\\contract.py",
+        "bytes": 14572,
+        "sha256": "602abaa0c2e8cb0e9e5e85d9d74a80feff11e4d9478ff64541f45025011fa01a"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_inherited_C0_bank_common_and_original_raw_source_closures"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_common_original_closure",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_common_original_closure\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_common_original_closure\\red.stderr.txt",
+        "bytes": 3383,
+        "sha256": "cd6fb055744b85a644e898d8d7be4ff7dac10438219d80d3fda0ef9965b8e4b6"
+      },
+      "name": "ignore_common_original_closure",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_common_original_closure\\contract.py",
+        "bytes": 14583,
+        "sha256": "9b8a44530305656b8d8f8c5f94ffc649e49fd9a52612fdfecbd8e5b3a6ef1f25"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_stage_complete_inventory_physical_summary_and_parent_bindings"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_physical_summary",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_physical_summary\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_physical_summary\\red.stderr.txt",
+        "bytes": 1349,
+        "sha256": "aca425a387c3beb99868d299d1e0bb2971b042328b6012c4a2449c745da55fe9"
+      },
+      "name": "ignore_physical_summary",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_ignore_physical_summary\\contract.py",
+        "bytes": 14560,
+        "sha256": "57010293f48ac694908dcf1ab1775908798d466fd67359596861699ca5a19bb5"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_quality_gate_uses_B_and_keeps_P_diagnostic"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_substitute_P_primary",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_substitute_P_primary\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_substitute_P_primary\\red.stderr.txt",
+        "bytes": 935,
+        "sha256": "4df690ef06462671121fb6493a826fa49c43e0fabcdaa6db947371ccf036fad2"
+      },
+      "name": "substitute_P_primary",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_substitute_P_primary\\contract.py",
+        "bytes": 14651,
+        "sha256": "04a484df5fe9273f99dde3d7e2fa441137303852196f01bc31ed52c06bc97989"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_nms_gt_ignore_and_threshold_boundaries"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_nms_strict_boundary",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_nms_strict_boundary\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_nms_strict_boundary\\red.stderr.txt",
+        "bytes": 1405,
+        "sha256": "3c76f149062b097892d6c15839a0028b361ab56baba400d430a1b041bf2ddad1"
+      },
+      "name": "nms_strict_boundary",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_nms_strict_boundary\\numeric.py",
+        "bytes": 3051,
+        "sha256": "ae6695d4054b8aca4a89f4f41875cbcd2e9211ceb22c7f130bac47246f27664e"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_quality_audit.NumericTests.test_nms_gt_ignore_and_threshold_boundaries"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_reuse_ignore_GT",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_reuse_ignore_GT\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_reuse_ignore_GT\\red.stderr.txt",
+        "bytes": 1180,
+        "sha256": "d05fed0fe7701ed0c5a421caa7dd1fbbdd508fea9a57ad96ced66ae3f8c2819b"
+      },
+      "name": "reuse_ignore_GT",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T171856.927969Z_quality_source\\mutant_reuse_ignore_GT\\numeric.py",
+        "bytes": 3038,
+        "sha256": "55b576f25c43fd38809ac6bdb951348ae8ee9f6028cf5349c64a4759d2696308"
+      },
+      "detected": true
+    }
+  ],
+  "interpreter": {
+    "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "version": "3.12.10 (main, Apr 18 2025, 06:12:02)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+    "pin": {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  },
+  "matcher_calls": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "real_bank_reads": 0,
+  "real_raw_archive_reads": 0,
+  "production_promotion": false,
+  "limitations": [
+    "No actual raw archive, template bank, metadata, dataset index or image read during source preparation",
+    "No native matcher execution",
+    "Saved numeric replay does not regenerate native RGB gradient or NMS candidate acquisition",
+    "Native source/runtime/resource closure and exact geometry acceptance are separate root evidence"
+  ]
+}

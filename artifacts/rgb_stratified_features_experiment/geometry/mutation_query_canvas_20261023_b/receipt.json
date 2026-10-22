@@ -1,0 +1,46 @@
+{
+  "schema": "rgb_stratified_geometry_mutation_receipt_v1",
+  "passed": true,
+  "mutation": "query-canvas",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_query_canvas_20261023_b\\driver.py",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry",
+    "planner",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_query_canvas_20261023_b\\mutated_source.py"
+  ],
+  "exit": 1,
+  "expected_detecting_test": "test_pose_training_canvas_differs_from_query_source_size",
+  "old_seam": "row, _ = _layer_geometry(layer, source_size=tuple(canvas_size),",
+  "new_seam": "row, _ = _layer_geometry(layer, source_size=(source_w, source_h),",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+      "bytes": 18861,
+      "sha256": "1487309daa013f17f4805070e8ec1096361c5e35aa56fa251c28cd207145e28b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_geometry.py",
+      "bytes": 21755,
+      "sha256": "9f2e8c12bced50639ef031dc68002d828d6409becd422d9f27e497112915a302"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py",
+      "bytes": 10446,
+      "sha256": "0257f4ddf90f8546e4484bbfb89f2481ad26a656fa7d484a64c2ac2061815c25"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_run_geometry.py",
+      "bytes": 11572,
+      "sha256": "21e1b787adc18db59eb7d84361734e3a9dae39f10d822460985b4001d2baa7e5"
+    }
+  ],
+  "source_unchanged_during_execution": true,
+  "synthetic_payloads_only": true,
+  "bank_files_opened": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "native_executions": 0,
+  "matcher_calls": 0
+}

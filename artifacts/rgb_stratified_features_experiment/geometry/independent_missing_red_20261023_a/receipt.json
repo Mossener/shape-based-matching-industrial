@@ -1,0 +1,12 @@
+{
+  "schema": "independent_geometry_missing_source_red_v1",
+  "exit": 1,
+  "expected": "No module named independent_geometry_audit",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_missing_red_20261023_a\\source\\test_independent_geometry.py"
+  ],
+  "real_bank_reads": 0,
+  "native_executions": 0
+}

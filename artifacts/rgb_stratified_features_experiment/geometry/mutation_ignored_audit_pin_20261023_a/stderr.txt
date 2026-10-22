@@ -1,0 +1,14 @@
+........................F.............
+======================================================================
+FAIL: test_bank_pin_must_match_even_when_audit_closure_before_after_agree (test_run_geometry.GeometryRunnerTests.test_bank_pin_must_match_even_when_audit_closure_before_after_agree)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\test_run_geometry.py", line 120, in test_bank_pin_must_match_even_when_audit_closure_before_after_agree
+    with self.assertRaisesRegex(ValueError,'bank pin differs'): self.scan()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 38 tests in 1.835s
+
+FAILED (failures=1)

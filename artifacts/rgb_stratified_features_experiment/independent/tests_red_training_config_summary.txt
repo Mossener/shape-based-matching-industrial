@@ -1,0 +1,14 @@
+test_inherited_config_builder_and_full_observed_summary_contract (__main__.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) ... FAIL
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (__main__.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 309, in test_inherited_config_builder_and_full_observed_summary_contract
+    self.assertTrue(hasattr(audit,'expected_training_configs'),'independent config builder is missing')
+AssertionError: False is not true : independent config builder is missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

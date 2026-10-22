@@ -1,0 +1,4 @@
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\packing\run_missing_red_20261022_a\source\pack_literal_tests.cpp:1:10: fatal error: numeric_pack.hpp: No such file or directory
+    1 | #include "numeric_pack.hpp"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.

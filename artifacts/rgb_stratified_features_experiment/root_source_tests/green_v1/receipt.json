@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\preserve_training_evidence.py",
+      "bytes": 8693,
+      "sha256": "20c0151d22aae7d83d9096589acf1f5a47af98aabaf8e36a412643c92379dea3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\test_preserve_training_evidence.py",
+      "bytes": 3505,
+      "sha256": "2147b952100b7a2da16ae8d07887deeb72918c854156ece00175ac82cbf67e2d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\accept_training_execution.py",
+      "bytes": 10552,
+      "sha256": "cf1fb0a91b71955f4eb6542522991b0a226db686f6d37061ef86b29a140293ed"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\test_training_execution.py",
+      "bytes": 2021,
+      "sha256": "6af2a4ad514800b672734c711a49e7af8a680381920060aad5608561ece28f37"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\run_training.py",
+      "bytes": 8799,
+      "sha256": "0021cf9d0b565aa8024a525ed400b77e48d7e430a85ffe8c28a9e364fab3cf1d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\native_provenance.py",
+      "bytes": 6345,
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\source\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    }
+  ],
+  "stdout": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\green_v1\\stderr.txt",
+    "bytes": 947,
+    "sha256": "6a3b847f7c3f9aa8264b6969a3a7f165673be6a25813b7c1646ac44e9dd71ad3"
+  },
+  "native_calls": 0,
+  "real_image_reads": 0
+}

@@ -1,0 +1,20 @@
+test_gzip_decoder_caps_expansion_before_materializing_payload (test_quality_audit.NumericTests.test_gzip_decoder_caps_expansion_before_materializing_payload) ... FAIL
+
+======================================================================
+FAIL: test_gzip_decoder_caps_expansion_before_materializing_payload (test_quality_audit.NumericTests.test_gzip_decoder_caps_expansion_before_materializing_payload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172653.154616Z_quality_source\mutant_unbounded_decode\test_quality_audit.py", line 331, in test_gzip_decoder_caps_expansion_before_materializing_payload
+    with self.assertRaises(ValueError): a.bounded_gzip(gzip.compress(plain),64)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172653.154616Z_quality_source\mutant_unbounded_decode\quality_audit.py", line 69, in bounded_gzip
+    decoded=archive.read()
+            ^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172653.154616Z_quality_source\mutant_unbounded_decode\test_quality_audit.py", line 326, in limited_read
+    self.assertGreaterEqual(size,0,'unbounded decoded read')
+AssertionError: -1 not greater than or equal to 0 : unbounded decoded read
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

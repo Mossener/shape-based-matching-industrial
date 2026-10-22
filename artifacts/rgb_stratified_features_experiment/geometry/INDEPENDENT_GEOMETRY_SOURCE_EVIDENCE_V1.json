@@ -1,0 +1,407 @@
+{
+  "schema": "independent_geometry_source_evidence_v1",
+  "source_only": true,
+  "scope": "exact_geometry_only",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_geometry_audit.py",
+      "bytes": 22858,
+      "sha256": "db984c77ae3b1779bd1cb872f1a5db7cb24aa08c8f1a16451e0c3a671ab61022"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_independent_geometry_audit.py",
+      "bytes": 12058,
+      "sha256": "8bbe225e82f8c6c78215ec3295d765338dfd7c9685adcaf51d8d1c235ce49024"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_independent_geometry.py",
+      "bytes": 16740,
+      "sha256": "9cc37180d2ce613f2d168f62ba247bdede35f34837d8815aa2521f47095ddde8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_independent_tests.py",
+      "bytes": 2579,
+      "sha256": "b600a6e2fd5be6fe2d9722ee1a3e3d84a009da6ee0849666da9af498a86d3e59"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_independent_mutation.py",
+      "bytes": 4043,
+      "sha256": "147f5679e75877364a5ef193bf0da04f80267f4e9dc5b86934c49ddcd9262d40"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\INDEPENDENT_AUDIT_CONTRACT.md",
+      "bytes": 4936,
+      "sha256": "9ce87f9184d7088513baeb4911a9fe6df8bfa4130de32d7edfdfd15dc3810b8d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PROTOCOL.json",
+      "bytes": 15197,
+      "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\frozen_helpers\\padding_plan.hpp",
+      "bytes": 3974,
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    }
+  ],
+  "synthetic_test_cases": 17,
+  "additional_per_field_subtests": true,
+  "current_green": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\receipt.json",
+    "bytes": 4879,
+    "sha256": "e61f55bb175e8ec26bbc6c534c3afa4c2b2b4f9f05902abe587a38ce235b4137"
+  },
+  "expected_red_mutations": [
+    "query_canvas",
+    "missing_plus_one"
+  ],
+  "retained_evidence": {
+    "independent_missing_red_20261023_a": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_missing_red_20261023_a\\receipt.json",
+        "bytes": 441,
+        "sha256": "1efd91c6ed66311a508435cdb42c6bf61d7d2ba605babdfc05135cdb3ff8be9c"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_missing_red_20261023_a\\source\\test_independent_geometry.py",
+        "bytes": 12991,
+        "sha256": "9cba7b5ca51971a98b4cea4f1747d2f513370cb4195da885cdfdddb8c64d3916"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_missing_red_20261023_a\\stderr.txt",
+        "bytes": 347,
+        "sha256": "9cbd0797afb6e6a9421b78d24991c0c30f2893ae0b02b45a205521d7c72d9af2"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_missing_red_20261023_a\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "independent_source_red_20261023_b": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\receipt.json",
+        "bytes": 4880,
+        "sha256": "434fd3b1ae19e16ae47aed17b3477256c5648a0cd92fe2768bfc561a20c0a495"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\execution_guard.py",
+        "bytes": 6376,
+        "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\independent_geometry_audit.py",
+        "bytes": 22735,
+        "sha256": "be8fbcded3452186b673444a8cf512142621df36f2b4d4b33bb78909b53dd191"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\padding_plan.hpp",
+        "bytes": 3974,
+        "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\PROTOCOL.json",
+        "bytes": 15197,
+        "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\run_independent_geometry_audit.py",
+        "bytes": 11442,
+        "sha256": "27a662adeec8e0f7ae0c968efec92651136cf287f12155d3eea6e95338614fc3"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\run_independent_tests.py",
+        "bytes": 2579,
+        "sha256": "b600a6e2fd5be6fe2d9722ee1a3e3d84a009da6ee0849666da9af498a86d3e59"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\strict_bank_reader.py",
+        "bytes": 3670,
+        "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\source\\test_independent_geometry.py",
+        "bytes": 15360,
+        "sha256": "48c120b8d7e5f272755fa511c018d73fa6565fc645211dc0c46892f84368e4e5"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\stderr.txt",
+        "bytes": 3374,
+        "sha256": "ce89170f4ead2d64bf3e47ad4681bb5230b1e25e66a5d7f4457562ae41c8f374"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_red_20261023_b\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "independent_source_green_20261023_a": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\receipt.json",
+        "bytes": 4879,
+        "sha256": "a97d858d298267d9d7407436548408e18f083d336930923479d27e8026b4a509"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\execution_guard.py",
+        "bytes": 6376,
+        "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\independent_geometry_audit.py",
+        "bytes": 22858,
+        "sha256": "db984c77ae3b1779bd1cb872f1a5db7cb24aa08c8f1a16451e0c3a671ab61022"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\padding_plan.hpp",
+        "bytes": 3974,
+        "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\PROTOCOL.json",
+        "bytes": 15197,
+        "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\run_independent_geometry_audit.py",
+        "bytes": 12058,
+        "sha256": "8bbe225e82f8c6c78215ec3295d765338dfd7c9685adcaf51d8d1c235ce49024"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\run_independent_tests.py",
+        "bytes": 2579,
+        "sha256": "b600a6e2fd5be6fe2d9722ee1a3e3d84a009da6ee0849666da9af498a86d3e59"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\strict_bank_reader.py",
+        "bytes": 3670,
+        "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\source\\test_independent_geometry.py",
+        "bytes": 15360,
+        "sha256": "48c120b8d7e5f272755fa511c018d73fa6565fc645211dc0c46892f84368e4e5"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\stderr.txt",
+        "bytes": 2752,
+        "sha256": "37489a6955b871635cfe5cf93a44caf7870facd90d78379c233271cbbe92907d"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_a\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "independent_source_green_20261023_b": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\receipt.json",
+        "bytes": 4879,
+        "sha256": "e61f55bb175e8ec26bbc6c534c3afa4c2b2b4f9f05902abe587a38ce235b4137"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\execution_guard.py",
+        "bytes": 6376,
+        "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\independent_geometry_audit.py",
+        "bytes": 22858,
+        "sha256": "db984c77ae3b1779bd1cb872f1a5db7cb24aa08c8f1a16451e0c3a671ab61022"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\padding_plan.hpp",
+        "bytes": 3974,
+        "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\PROTOCOL.json",
+        "bytes": 15197,
+        "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\run_independent_geometry_audit.py",
+        "bytes": 12058,
+        "sha256": "8bbe225e82f8c6c78215ec3295d765338dfd7c9685adcaf51d8d1c235ce49024"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\run_independent_tests.py",
+        "bytes": 2579,
+        "sha256": "b600a6e2fd5be6fe2d9722ee1a3e3d84a009da6ee0849666da9af498a86d3e59"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\strict_bank_reader.py",
+        "bytes": 3670,
+        "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\source\\test_independent_geometry.py",
+        "bytes": 16740,
+        "sha256": "9cc37180d2ce613f2d168f62ba247bdede35f34837d8815aa2521f47095ddde8"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\stderr.txt",
+        "bytes": 2950,
+        "sha256": "eeca837dcd5d9cad8b9215619a789173a7d1a98dc30d3831dcb29b4891f7fe64"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_source_green_20261023_b\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "independent_mutation_query_canvas_20261023_a": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\harness.py",
+        "bytes": 583,
+        "sha256": "6e75cd2af287f612b496df035d1a53523afdbe0f45e567e11ae49626164c71fb"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\receipt.json",
+        "bytes": 3586,
+        "sha256": "705bf753b09f8902511e717e7c4eedc1b97bf59e6e3d67b6a67901c555eb5324"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\execution_guard.py",
+        "bytes": 6376,
+        "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\independent_geometry_audit.py",
+        "bytes": 22858,
+        "sha256": "db984c77ae3b1779bd1cb872f1a5db7cb24aa08c8f1a16451e0c3a671ab61022"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\mutated_independent_geometry_audit.py",
+        "bytes": 22855,
+        "sha256": "f2900265812f07238f71301ca1974ceeb943e71cebba669d3be2b376d534a9a4"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\padding_plan.hpp",
+        "bytes": 3974,
+        "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\PROTOCOL.json",
+        "bytes": 15197,
+        "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\run_independent_geometry_audit.py",
+        "bytes": 12058,
+        "sha256": "8bbe225e82f8c6c78215ec3295d765338dfd7c9685adcaf51d8d1c235ce49024"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\run_independent_mutation.py",
+        "bytes": 4043,
+        "sha256": "147f5679e75877364a5ef193bf0da04f80267f4e9dc5b86934c49ddcd9262d40"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\strict_bank_reader.py",
+        "bytes": 3670,
+        "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\source\\test_independent_geometry.py",
+        "bytes": 16740,
+        "sha256": "9cc37180d2ce613f2d168f62ba247bdede35f34837d8815aa2521f47095ddde8"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\stderr.txt",
+        "bytes": 2284,
+        "sha256": "3ca2158576dee7e8b2bd6ca7a4092fa63b4d9b9890663db05399645db9e76f3f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_query_canvas_20261023_a\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "independent_mutation_missing_plus_one_20261023_a": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\harness.py",
+        "bytes": 583,
+        "sha256": "6e75cd2af287f612b496df035d1a53523afdbe0f45e567e11ae49626164c71fb"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\receipt.json",
+        "bytes": 3627,
+        "sha256": "758fd1b4b246c0f571195f2eb52c0ff7cbb46a31e0fce8c300c3bde6420193ca"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\execution_guard.py",
+        "bytes": 6376,
+        "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\independent_geometry_audit.py",
+        "bytes": 22858,
+        "sha256": "db984c77ae3b1779bd1cb872f1a5db7cb24aa08c8f1a16451e0c3a671ab61022"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\mutated_independent_geometry_audit.py",
+        "bytes": 22856,
+        "sha256": "9053bcee9bd889dd92198abc959775e8dfac5903cd09ff51f0421243713170ff"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\padding_plan.hpp",
+        "bytes": 3974,
+        "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\PROTOCOL.json",
+        "bytes": 15197,
+        "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\run_independent_geometry_audit.py",
+        "bytes": 12058,
+        "sha256": "8bbe225e82f8c6c78215ec3295d765338dfd7c9685adcaf51d8d1c235ce49024"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\run_independent_mutation.py",
+        "bytes": 4043,
+        "sha256": "147f5679e75877364a5ef193bf0da04f80267f4e9dc5b86934c49ddcd9262d40"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\strict_bank_reader.py",
+        "bytes": 3670,
+        "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\source\\test_independent_geometry.py",
+        "bytes": 16740,
+        "sha256": "9cc37180d2ce613f2d168f62ba247bdede35f34837d8815aa2521f47095ddde8"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\stderr.txt",
+        "bytes": 1210,
+        "sha256": "485d8d2e4ae00c30355bd1237047c9a52f3835c2b503200b0137634b0df98718"
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_mutation_missing_plus_one_20261023_a\\stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "real_bank_files_opened": 0,
+  "actual_guard_executions": 0,
+  "native_executions": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "quality_claim": false,
+  "performance_claim": false,
+  "production_promotion": false,
+  "real_execution_owned_by_root": true
+}

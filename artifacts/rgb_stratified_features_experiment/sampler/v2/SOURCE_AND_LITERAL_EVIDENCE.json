@@ -1,0 +1,112 @@
+{
+  "schema": "v31_pure_sampler_literal_evidence_v2_signed_int64",
+  "explicit_successor_of": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\SOURCE_AND_LITERAL_EVIDENCE.json",
+    "bytes": 2412,
+    "sha256": "c19a89f3b456081e789f6647ac5c65d509cd08a13cca40d6b624b9da3fe310a1"
+  },
+  "frozen_protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PROTOCOL.json",
+    "bytes": 15197,
+    "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+  },
+  "v1_protocol_conforming": false,
+  "v1_preserved_original_sources_and_receipts_rehashed": true,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\stratified_sampler.hpp",
+      "bytes": 8379,
+      "sha256": "7d7956a9d92adb3b56306a6f4424b32736af5d49dba68fbd1e318c852554720c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\sampler_literal_tests.cpp",
+      "bytes": 14374,
+      "sha256": "e323f3522579cf7fade1115233ef0a1d5c18733bd0eb4b0dfe3d7b66c7d52d36"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_literal.py",
+      "bytes": 6094,
+      "sha256": "0dcee8ee5f25a9a1384ed5a38b2b5d3bbdf95e7d361308d9fa50457391b55170"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\README.md",
+      "bytes": 4227,
+      "sha256": "430a9f06b4948bb63cd08a4f409995dad80214787c54f4bf51b06a367a100fe1"
+    }
+  ],
+  "explanation": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\README_SUCCESSOR_V2.md",
+      "bytes": 896,
+      "sha256": "f122261a5cb8f30db267b4f4544fc112531c42f95d06634faf33b44b4ba309b3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\FAILURE_HISTORY.md",
+      "bytes": 3192,
+      "sha256": "739fdda3be0e401c1714a89c5f1b667a9ac14ecaaff2eaa29d6ae1f4ff34527f"
+    }
+  ],
+  "receipts": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_signed_limit_v1_red_20261022_a\\receipt.json",
+      "bytes": 5180,
+      "sha256": "0a8b252fbb77f8f3a652c29f0a38cb88590fa826f37ca707d5cc4dcf23e0596d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_green_20261022_a\\receipt.json",
+      "bytes": 4715,
+      "sha256": "7a2a05197a6e16de1feb2374b1092cd8231e3ccfc010d1e8f0677f0d121ecce0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_wrong_ordinal_red_20261022_a\\receipt.json",
+      "bytes": 5543,
+      "sha256": "3ce6f09c02f0c25c4785a3c484f2c8cfc75e220ab03037852f21dc641ba66118"
+    }
+  ],
+  "v1_text_seam": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_signed_limit_v1_red_20261022_a\\v1_source_seam.json",
+    "bytes": 1454,
+    "sha256": "80b1bbc761490e2a462ca98360faa32fadafb347fde4148367406252969a6729"
+  },
+  "expected_v1_signed_boundary_red": {
+    "compile_exit": 0,
+    "run_exit": 1,
+    "completed_cases": 0,
+    "assertions": 3,
+    "reason": "full int32 axial distance above INT64_MAX accepted",
+    "original_v1_header_unmodified": true
+  },
+  "native_green": {
+    "passed": true,
+    "cases": 19,
+    "assertions": 169,
+    "image_decodes": 0,
+    "matcher_calls": 0
+  },
+  "expected_v2_ordinal_red": {
+    "compile_exit": 0,
+    "run_exit": 1,
+    "completed_cases": 10,
+    "assertions": 89,
+    "reason": "literal selected ordinal differs",
+    "mutation": "reverse-ordinal-tie-only"
+  },
+  "red_tests_identical_to_green_tests": true,
+  "distance_contract": "all computed squared Euclidean distances checked <= INT64_MAX; int64 return/trace/minima",
+  "api_contract": {
+    "ordinal": "unique uint64; canonical uint32 serialization gate is external",
+    "magnitude": "finite float32 bits; negative finite and signed zero allowed",
+    "theta": "opaque uint32 all patterns allowed"
+  },
+  "source_and_receipt_file_pins_freshly_reverified": true,
+  "image_bytes_opened": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "training_runs": 0,
+  "quality_claim": false,
+  "performance_claim": false,
+  "production_promotion": false,
+  "independent_geometry_oracle_run": false,
+  "toolchain_limitation": "Compiler executable/version pinned; not full transitive compiler/runtime closure",
+  "scope": "Pure literal C++14 sampler only; no candidate collection, mask geometry, real-pool, quality or timing acceptance"
+}

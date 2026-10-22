@@ -1,0 +1,18 @@
+test_source_change_consumes_attempt_without_running_child (test_run_audit.RunnerTests.test_source_change_consumes_attempt_without_running_child) ... FAIL
+
+======================================================================
+FAIL: test_source_change_consumes_attempt_without_running_child (test_run_audit.RunnerTests.test_source_change_consumes_attempt_without_running_child)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172906.035125Z_quality_source\mutant_ignore_source_freeze\test_run_audit.py", line 71, in test_source_change_consumes_attempt_without_running_child
+    self.assertFalse(result['passed']); child.assert_not_called()
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\mysys2\ucrt64\lib\python3.12\unittest\mock.py", line 910, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'run_guard' to not have been called. Called 1 times.
+Calls: [call(['F:\\mysys2\\ucrt64\\bin\\python.exe', '-B', 'D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence\\20261022T172906.035125Z_quality_source\\mutant_ignore_source_freeze\\quality_audit.py', '--stage-freeze', 'C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcnds_bv8\\native_run\\QUALITY_STAGE_FREEZE.json', '--stage-sha256', 'a9cac3fbcacf21e0d06ba8aa2acc5a55fef74f21f0bcb5f80d6bfa91e45dd2f0', '--stage-bytes', '342', '--output', 'C:\\Users\\HP\\AppData\\Local\\Temp\\tmpcnds_bv8\\audit_evidence\\audit_output'], WindowsPath('C:/Users/HP/AppData/Local/Temp/tmpcnds_bv8/audit_evidence/audit_output'), WindowsPath('C:/Users/HP/AppData/Local/Temp/tmpcnds_bv8/audit_evidence/execution'))].
+
+----------------------------------------------------------------------
+Ran 1 test in 0.032s
+
+FAILED (failures=1)

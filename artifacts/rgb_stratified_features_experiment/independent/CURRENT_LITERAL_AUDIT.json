@@ -1,0 +1,11 @@
+{
+  "directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T140503.148639Z_native_literal",
+  "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_literal_v1_PROVENANCE.json",
+  "bytes": 9973,
+  "sha256": "de58e5c3cbdc9289c083d0d9b9bb5236882c7c4132e98e31050e2273a67c0156",
+  "output_pins_path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T140503.148639Z_native_literal\\OUTPUT_PINS.json",
+  "output_pins_sha256": "4dfb97e1e7166a079a0495c5427a866f65c7b7f2f2b8063e89e83453d8c64474",
+  "native_literal_only": true,
+  "native_calls_by_this_audit": 0,
+  "image_reads_by_this_audit": 0
+}

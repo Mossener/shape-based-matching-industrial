@@ -1,0 +1,15 @@
+test_combined_report_numeric_and_promotion_flags_are_truthful (test_quality_regressions.QualityRegressionTest.test_combined_report_numeric_and_promotion_flags_are_truthful) ... FAIL
+
+======================================================================
+FAIL: test_combined_report_numeric_and_promotion_flags_are_truthful (test_quality_regressions.QualityRegressionTest.test_combined_report_numeric_and_promotion_flags_are_truthful)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\quality\source_red_combined_flags_v1\source\test_quality_regressions.py", line 219, in test_combined_report_numeric_and_promotion_flags_are_truthful
+    with self.assertRaises(ValueError,msg='Combined report failure/promotion contradiction accepted'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised : Combined report failure/promotion contradiction accepted
+
+----------------------------------------------------------------------
+Ran 1 test in 0.321s
+
+FAILED (failures=1)

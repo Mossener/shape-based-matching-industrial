@@ -1,0 +1,28 @@
+{
+  "expected": "RED",
+  "exit_code": 1,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\export_red_v1\\source\\preserve_training_evidence.py",
+      "bytes": 8675,
+      "sha256": "ef9d27bdc80a0364582a008c2b13445d31a6432078e3f7c30f70f761785dba98"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\export_red_v1\\source\\test_preserve_training_evidence.py",
+      "bytes": 3505,
+      "sha256": "2147b952100b7a2da16ae8d07887deeb72918c854156ece00175ac82cbf67e2d"
+    }
+  ],
+  "stdout": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\export_red_v1\\stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\export_red_v1\\stderr.txt",
+    "bytes": 1436,
+    "sha256": "fbf07eeceb41e49beabbcfe0cd240edc56eb87fd4189c323a888b6d04e3e64d5"
+  },
+  "native_calls": 0,
+  "real_image_reads": 0
+}

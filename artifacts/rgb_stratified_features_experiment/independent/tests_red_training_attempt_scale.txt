@@ -1,0 +1,28 @@
+test_attempt_scale_numeric_token_equivalence_keeps_bool_strict (__main__.TrainingLiterals.test_attempt_scale_numeric_token_equivalence_keeps_bool_strict) ... FAIL
+
+======================================================================
+FAIL: test_attempt_scale_numeric_token_equivalence_keeps_bool_strict (__main__.TrainingLiterals.test_attempt_scale_numeric_token_equivalence_keeps_bool_strict)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 166, in test_attempt_scale_numeric_token_equivalence_keeps_bool_strict
+    audit.audit_training_stream(schedule,iter(pools),iter(selections),iter(attempts))
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 229, in audit_training_stream
+    same(row,expected,"ordered arm attempt/crop/geometry/status differs")
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 35, in same
+    require(json.dumps(actual,sort_keys=True,allow_nan=False,separators=(",",":"))==
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 30, in require
+    if not value: raise ValueError(message)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: ordered arm attempt/crop/geometry/status differs
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 168, in test_attempt_scale_numeric_token_equivalence_keeps_bool_strict
+    self.fail('valid integral scale token rejected: '+str(error))
+AssertionError: valid integral scale token rejected: ordered arm attempt/crop/geometry/status differs
+
+----------------------------------------------------------------------
+Ran 1 test in 0.017s
+
+FAILED (failures=1)

@@ -1,0 +1,11 @@
+test_changed_original_rejected (test_preserve_training_evidence.Export.test_changed_original_rejected) ... ok
+test_changed_stored_member_rejected_before_restore (test_preserve_training_evidence.Export.test_changed_stored_member_rejected_before_restore) ... ok
+test_complete_roundtrip_compressed_text_and_identity_bank (test_preserve_training_evidence.Export.test_complete_roundtrip_compressed_text_and_identity_bank) ... ok
+test_missing_extra_and_path_escape_rejected (test_preserve_training_evidence.Export.test_missing_extra_and_path_escape_rejected) ... ok
+test_cross_image_boundary_and_all_phases (test_training_execution.Progress.test_cross_image_boundary_and_all_phases) ... ok
+test_missing_extra_phase_call_decode_and_types_rejected (test_training_execution.Progress.test_missing_extra_phase_call_decode_and_types_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.363s
+
+OK

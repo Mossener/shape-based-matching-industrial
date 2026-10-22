@@ -1,0 +1,4 @@
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\integration\run_missing_header_red_v1\source\integration\test_shared_training.cpp:2:10: fatal error: shared_training.hpp: No such file or directory
+    2 | #include "shared_training.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.

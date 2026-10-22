@@ -1,0 +1,23 @@
+{
+  "passed": false,
+  "exit_code": 1,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\geometry_acceptance_red_v2\\source\\accept_training_geometry.py",
+      "bytes": 9039,
+      "sha256": "93d6d7042287430c18745ec2f5b4a4a260a5849da980b5aa07b4b2bfbadd03d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\geometry_acceptance_red_v2\\source\\test_accept_training_geometry.py",
+      "bytes": 7766,
+      "sha256": "0db5a14c52fb75c282ca8a46fe6d7010c80dc3ae1060261c5f187005ff500a54"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\geometry_acceptance_red_v2\\source\\native_provenance.py",
+      "bytes": 6345,
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+    }
+  ],
+  "native_calls": 0,
+  "real_image_reads": 0
+}

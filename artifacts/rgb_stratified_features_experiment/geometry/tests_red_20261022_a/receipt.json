@@ -1,0 +1,5 @@
+{
+  "command": "python -B geometry/test_geometry.py",
+  "expected": "module missing before implementation",
+  "exit": 1
+}

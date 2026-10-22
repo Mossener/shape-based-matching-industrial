@@ -1,0 +1,16 @@
+test_full_raw_archive_manifest_order_metadata_and_score_bits (test_quality_audit.NumericTests.test_full_raw_archive_manifest_order_metadata_and_score_bits) ... 
+  test_full_raw_archive_manifest_order_metadata_and_score_bits (test_quality_audit.NumericTests.test_full_raw_archive_manifest_order_metadata_and_score_bits) (mutant='order') ... FAIL
+
+======================================================================
+FAIL: test_full_raw_archive_manifest_order_metadata_and_score_bits (test_quality_audit.NumericTests.test_full_raw_archive_manifest_order_metadata_and_score_bits) (mutant='order')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172513.621525Z_quality_source\mutant_ignore_raw_order\test_quality_audit.py", line 311, in test_full_raw_archive_manifest_order_metadata_and_score_bits
+    with self.subTest(mutant=mutant),self.assertRaises(ValueError): run(rows,change)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.090s
+
+FAILED (failures=1)

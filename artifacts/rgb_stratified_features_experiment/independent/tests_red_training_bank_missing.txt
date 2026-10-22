@@ -1,0 +1,23 @@
+test_strict_serialized_bank_and_metadata_full_order_fields (__main__.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) ... FAIL
+test_all_artifact_inventory_rejects_extra_missing_bank_and_config (__main__.TrainingLiterals.test_all_artifact_inventory_rejects_extra_missing_bank_and_config) ... FAIL
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (__main__.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 170, in test_strict_serialized_bank_and_metadata_full_order_fields
+    self.assertTrue(hasattr(audit,'verify_serialized_object'),'serialized bank verifier is missing')
+AssertionError: False is not true : serialized bank verifier is missing
+
+======================================================================
+FAIL: test_all_artifact_inventory_rejects_extra_missing_bank_and_config (__main__.TrainingLiterals.test_all_artifact_inventory_rejects_extra_missing_bank_and_config)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 191, in test_all_artifact_inventory_rejects_extra_missing_bank_and_config
+    self.assertTrue(hasattr(audit,'verify_bank_artifacts'),'bank directory verifier is missing')
+AssertionError: False is not true : bank directory verifier is missing
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

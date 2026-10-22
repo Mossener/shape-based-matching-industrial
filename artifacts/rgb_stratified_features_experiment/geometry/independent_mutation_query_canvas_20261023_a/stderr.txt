@@ -1,0 +1,26 @@
+test_literal_complete_union_matches_every_field (test_independent_geometry.IndependentGeometryTests.test_literal_complete_union_matches_every_field) ... ERROR
+
+======================================================================
+ERROR: test_literal_complete_union_matches_every_field (test_independent_geometry.IndependentGeometryTests.test_literal_complete_union_matches_every_field)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\test_independent_geometry.py", line 86, in test_literal_complete_union_matches_every_field
+    r=self.audit();self.assertTrue(r['numeric_audit_passed']);self.assertEqual(r['scope'],'exact_geometry_only')
+      ^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\test_independent_geometry.py", line 78, in audit
+    return independent.audit_geometry(self.f['input_pin'],self.f['scanner_pin'],read_bytes=self.f['read'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\independent_mutation_query_canvas_20261023_a\source\mutated_independent_geometry_audit.py", line 302, in audit_geometry
+    expected=recompute(inputs,training_audit,acquire)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\independent_mutation_query_canvas_20261023_a\source\mutated_independent_geometry_audit.py", line 249, in recompute
+    require(0<=absolute_x<side and 0<=absolute_y<side,'Independent feature outside own-layer training canvas')
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\independent_mutation_query_canvas_20261023_a\source\mutated_independent_geometry_audit.py", line 36, in require
+    if not value:raise ValueError(message)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Independent feature outside own-layer training canvas
+
+----------------------------------------------------------------------
+Ran 1 test in 0.625s
+
+FAILED (errors=1)

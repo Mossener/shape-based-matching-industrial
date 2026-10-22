@@ -1,0 +1,19 @@
+{
+  "schema": "v31_independent_timing_source_status_v1",
+  "status": "source_only_pending_frozen_actual_timing_and_quality_inputs",
+  "current_source_receipt": "source_freeze_v1/receipt.json",
+  "source_test_count": 18,
+  "expected_calls": 29952,
+  "formal_rows": 27648,
+  "paired_rows": 27648,
+  "formal_samples_per_variant": 4608,
+  "balanced_order_occurrences_per_frame_variant": 2,
+  "native_compiled": false,
+  "native_runs": 0,
+  "real_image_reads": 0,
+  "real_bank_payload_reads": 0,
+  "real_raw_archive_reads": 0,
+  "actual_accuracy_accepted": false,
+  "actual_performance_accepted": false,
+  "production_promotion": false
+}

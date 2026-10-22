@@ -1,0 +1,12 @@
+{
+  "schema": "geometry_canvas_red_v2",
+  "exit": 1,
+  "expected": "BankTemplate does not accept canvas_size; query dimensions were used for training geometry",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\canvas_red_20261023_a\\source\\test_geometry.py"
+  ],
+  "bank_files_opened": 0,
+  "native_executions": 0
+}

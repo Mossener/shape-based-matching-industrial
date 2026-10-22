@@ -1,0 +1,30 @@
+{
+  "schema": "independent_v31_quality_source_origins_v1",
+  "synthetic_source_preparation_only": true,
+  "numeric_core": {
+    "target": "numeric.py",
+    "origin": "artifacts/independent_reviews/rgb_dilated_mask_quality_v1/numeric.py",
+    "relationship": "byte-identical copy",
+    "bytes": 2975,
+    "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+  },
+  "reference_sources": [
+    {
+      "path": "artifacts/independent_reviews/rgb_dilated_mask_quality_v1/audit.py",
+      "sha256": "a6410732baec678852e57f93240c2becfb1f8989e4126145e601550a80db05f3",
+      "use": "numeric raw/selected/GT replay conventions; V31 is a separate implementation"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_dilated_mask_quality_v1/experiment_contract.py",
+      "sha256": "5c38b611dad86ff13bcc19bd1a4c8b6e9e2db541c94969b4d6775ff03297f757",
+      "use": "independent pin and acceptance binding conventions"
+    }
+  ],
+  "new_implementation": ["evidence.py", "contract.py", "quality_audit.py", "test_quality_audit.py", "run_selftest.py"],
+  "limitations": [
+    "No actual raw archive, template bank, metadata, dataset index or image read during source preparation",
+    "No native matcher execution",
+    "Saved numeric replay does not regenerate native RGB gradient or NMS candidate acquisition",
+    "Native source/runtime/resource closure and exact geometry acceptance are separate root evidence"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "unmodified-v1-squared-distance-text-seam",
+  "header": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\sampler\\v2\\run_signed_limit_v1_red_20261022_a\\source\\stratified_sampler.hpp",
+    "bytes": 8307,
+    "sha256": "ce21d1de05a25e047fbb379e6954a0bcec55348e1d357ab80da28678f5937dfa"
+  },
+  "start_line": 74,
+  "end_line": 87,
+  "function_utf8": "inline std::uint64_t squared_distance(const Candidate& left, const Candidate& right) {\n    const std::int64_t dx = static_cast<std::int64_t>(left.x) - static_cast<std::int64_t>(right.x);\n    const std::int64_t dy = static_cast<std::int64_t>(left.y) - static_cast<std::int64_t>(right.y);\n    const auto ax = static_cast<std::uint64_t>(dx < 0 ? -dx : dx);\n    const auto ay = static_cast<std::uint64_t>(dy < 0 ? -dy : dy);\n    const auto maximum = std::numeric_limits<std::uint64_t>::max();\n    if ((ax != 0 && ax > maximum / ax) || (ay != 0 && ay > maximum / ay))\n        throw std::overflow_error(\"squared coordinate difference exceeds uint64\");\n    const auto x2 = ax * ax;\n    const auto y2 = ay * ay;\n    if (x2 > maximum - y2)\n        throw std::overflow_error(\"squared Euclidean distance exceeds uint64\");\n    return x2 + y2;\n}",
+  "function_bytes": 832,
+  "function_sha256": "f628d3d9f7cdfdeeb0a8905cdbf7b5815a99eb02801431d40b887f70ab50736f",
+  "expected_failure": "full int32 axial distance above INT64_MAX accepted"
+}

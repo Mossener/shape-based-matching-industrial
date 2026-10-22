@@ -1,0 +1,28 @@
+test_strict_serialized_bank_and_metadata_full_order_fields (__main__.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) ... FAIL
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (__main__.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 181, in test_strict_serialized_bank_and_metadata_full_order_fields
+    audit.verify_serialized_object(text,[native_metadata],1,expected)
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 197, in verify_serialized_object
+    same(observed,entry["metadata"],"complete serialized metadata differs")
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 31, in same
+    require(json.dumps(actual,sort_keys=True,allow_nan=False,separators=(",",":"))==
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\training_audit.py", line 26, in require
+    if not value: raise ValueError(message)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: complete serialized metadata differs
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 183, in test_strict_serialized_bank_and_metadata_full_order_fields
+    self.fail('valid V11 float metadata representation was rejected: '+str(error))
+AssertionError: valid V11 float metadata representation was rejected: complete serialized metadata differs
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (failures=1)

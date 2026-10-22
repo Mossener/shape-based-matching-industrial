@@ -1,0 +1,17 @@
+test_all_eighteen_banks_and_six_originals (test_prepare_geometry_inputs.GeometryInputs.test_all_eighteen_banks_and_six_originals) ... ok
+test_failed_audit_changed_outputs_or_unbound_original_rejected (test_prepare_geometry_inputs.GeometryInputs.test_failed_audit_changed_outputs_or_unbound_original_rejected) ... ok
+test_numeric_input_freeze_must_match_accepted_provenance (test_prepare_geometry_inputs.GeometryInputs.test_numeric_input_freeze_must_match_accepted_provenance) ... FAIL
+
+======================================================================
+FAIL: test_numeric_input_freeze_must_match_accepted_provenance (test_prepare_geometry_inputs.GeometryInputs.test_numeric_input_freeze_must_match_accepted_provenance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\test_prepare_geometry_inputs.py", line 88, in test_numeric_input_freeze_must_match_accepted_provenance
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.287s
+
+FAILED (failures=1)

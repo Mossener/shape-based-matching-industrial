@@ -1,0 +1,16 @@
+test_child_failure_or_wrong_stage_preserved (test_run_audit.RunnerTests.test_child_failure_or_wrong_stage_preserved) ... 
+  test_child_failure_or_wrong_stage_preserved (test_run_audit.RunnerTests.test_child_failure_or_wrong_stage_preserved) (fault='guard') ... FAIL
+
+======================================================================
+FAIL: test_child_failure_or_wrong_stage_preserved (test_run_audit.RunnerTests.test_child_failure_or_wrong_stage_preserved) (fault='guard')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172653.154616Z_quality_source\mutant_ignore_guard_result\test_run_audit.py", line 90, in test_child_failure_or_wrong_stage_preserved
+    self.assertFalse(result['passed']); self.assertTrue(result['failure_preserved'])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.102s
+
+FAILED (failures=1)

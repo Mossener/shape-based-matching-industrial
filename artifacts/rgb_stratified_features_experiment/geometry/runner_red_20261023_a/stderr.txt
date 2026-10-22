@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\runner_red_20261023_a\source\test_run_geometry.py", line 14, in <module>
+    import run_geometry as runner
+ModuleNotFoundError: No module named 'run_geometry'

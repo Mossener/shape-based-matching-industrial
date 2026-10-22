@@ -1,0 +1,1 @@
+PASS packing: canonical payload, gzip boundaries, SHA256, hard byte limits, partial preservation and malformed input

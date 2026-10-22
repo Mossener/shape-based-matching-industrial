@@ -1,0 +1,14 @@
+test_runtime_small_equivalence_gate_is_explicit (__main__.BoundedEquivalence.test_runtime_small_equivalence_gate_is_explicit) ... FAIL
+
+======================================================================
+FAIL: test_runtime_small_equivalence_gate_is_explicit (__main__.BoundedEquivalence.test_runtime_small_equivalence_gate_is_explicit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_bounded_classifier.py", line 74, in test_runtime_small_equivalence_gate_is_explicit
+    self.assertTrue(hasattr(bounded,'verify_equivalence_fixture'),'runtime equivalence fixture is missing')
+AssertionError: False is not true : runtime equivalence fixture is missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

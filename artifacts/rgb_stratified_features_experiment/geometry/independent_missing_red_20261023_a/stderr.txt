@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\independent_missing_red_20261023_a\source\test_independent_geometry.py", line 11, in <module>
+    import independent_geometry_audit as independent
+ModuleNotFoundError: No module named 'independent_geometry_audit'

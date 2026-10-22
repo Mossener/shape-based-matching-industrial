@@ -1,0 +1,47 @@
+test_complete_join_retains_scope_and_both_freeze_pins (test_accept_training_geometry.JoinedAcceptance.test_complete_join_retains_scope_and_both_freeze_pins) ... ok
+test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) ... 
+  test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='reservation_training') ... FAIL
+  test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='reservation_geometry') ... FAIL
+  test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='consumed') ... FAIL
+  test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='command') ... FAIL
+
+======================================================================
+FAIL: test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='reservation_training')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\test_accept_training_geometry.py", line 115, in test_failed_unrelated_changed_or_incomplete_evidence_rejected
+    with self.subTest(change=change),self.assertRaises((ValueError,KeyError)):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (<class 'ValueError'>, <class 'KeyError'>) not raised
+
+======================================================================
+FAIL: test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='reservation_geometry')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\test_accept_training_geometry.py", line 115, in test_failed_unrelated_changed_or_incomplete_evidence_rejected
+    with self.subTest(change=change),self.assertRaises((ValueError,KeyError)):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (<class 'ValueError'>, <class 'KeyError'>) not raised
+
+======================================================================
+FAIL: test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='consumed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\test_accept_training_geometry.py", line 115, in test_failed_unrelated_changed_or_incomplete_evidence_rejected
+    with self.subTest(change=change),self.assertRaises((ValueError,KeyError)):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (<class 'ValueError'>, <class 'KeyError'>) not raised
+
+======================================================================
+FAIL: test_failed_unrelated_changed_or_incomplete_evidence_rejected (test_accept_training_geometry.JoinedAcceptance.test_failed_unrelated_changed_or_incomplete_evidence_rejected) (change='command')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\test_accept_training_geometry.py", line 115, in test_failed_unrelated_changed_or_incomplete_evidence_rejected
+    with self.subTest(change=change),self.assertRaises((ValueError,KeyError)):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (<class 'ValueError'>, <class 'KeyError'>) not raised
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.105s
+
+FAILED (failures=4)

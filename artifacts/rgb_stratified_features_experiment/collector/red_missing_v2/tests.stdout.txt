@@ -1,0 +1,32 @@
+FAIL	dense_rowmajor	literal candidate count: got 0 expected 3
+SUMMARY	passed=0	failed=1	collector_invocations=1	image_decodes=0	matcher_calls=0
+MODULE	D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v2\collector_tests.exe
+MODULE	C:\Windows\SYSTEM32\ntdll.dll
+MODULE	C:\Windows\System32\KERNEL32.DLL
+MODULE	C:\Windows\System32\KERNELBASE.dll
+MODULE	C:\Windows\System32\ucrtbase.dll
+MODULE	F:\mysys2\ucrt64\bin\libstdc++-6.dll
+MODULE	F:\mysys2\ucrt64\bin\libgcc_s_seh-1.dll
+MODULE	F:\mysys2\ucrt64\bin\libwinpthread-1.dll
+MODULE	D:\opencv-4.12.0\build\bin\libopencv_world4120.dll
+MODULE	C:\Windows\System32\ADVAPI32.dll
+MODULE	C:\Windows\System32\msvcrt.dll
+MODULE	C:\Windows\System32\sechost.dll
+MODULE	C:\Windows\System32\RPCRT4.dll
+MODULE	C:\Windows\System32\comdlg32.dll
+MODULE	C:\Windows\System32\msvcp_win.dll
+MODULE	C:\Windows\System32\combase.dll
+MODULE	C:\Windows\System32\shcore.dll
+MODULE	C:\Windows\System32\USER32.dll
+MODULE	C:\Windows\System32\win32u.dll
+MODULE	C:\Windows\System32\GDI32.dll
+MODULE	C:\Windows\System32\gdi32full.dll
+MODULE	C:\Windows\System32\SHLWAPI.dll
+MODULE	C:\Windows\System32\SHELL32.dll
+MODULE	C:\Windows\System32\ole32.dll
+MODULE	C:\Windows\System32\OLEAUT32.dll
+MODULE	C:\Windows\System32\WS2_32.dll
+MODULE	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd\COMCTL32.dll
+MODULE	C:\Windows\System32\IMM32.DLL
+MODULE	C:\Windows\SYSTEM32\CRYPTBASE.DLL
+MODULE	C:\Windows\System32\bcryptPrimitives.dll

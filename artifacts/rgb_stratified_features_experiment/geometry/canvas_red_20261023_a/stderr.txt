@@ -1,0 +1,23 @@
+................EE.....
+======================================================================
+ERROR: test_pose_canvas_own_layer_origin_must_fit_even_when_query_larger (__main__.GeometryPlannerTests.test_pose_canvas_own_layer_origin_must_fit_even_when_query_larger)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\canvas_red_20261023_a\source\test_geometry.py", line 249, in test_pose_canvas_own_layer_origin_must_fit_even_when_query_larger
+    (BankTemplate(0, layers, canvas_size=(256, 256)),))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BankTemplate.__init__() got an unexpected keyword argument 'canvas_size'
+
+======================================================================
+ERROR: test_pose_training_canvas_differs_from_query_source_size (__main__.GeometryPlannerTests.test_pose_training_canvas_differs_from_query_source_size)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\canvas_red_20261023_a\source\test_geometry.py", line 238, in test_pose_training_canvas_differs_from_query_source_size
+    (BankTemplate(0, layers, canvas_size=(1024, 1024)),))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BankTemplate.__init__() got an unexpected keyword argument 'canvas_size'
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.027s
+
+FAILED (errors=2)

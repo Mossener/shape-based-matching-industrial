@@ -1,0 +1,35 @@
+{
+  "schema": "v31_source_only_geometry_literal_receipt_v1",
+  "passed": true,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py"
+  ],
+  "exit": 0,
+  "tests": "21 unittest cases; synthetic layers only",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+      "bytes": 18233,
+      "sha256": "16cd83f8da3cf77cfa31d55ce6c7de1606f8d12da4a9a679ae1bc370426d09c9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py",
+      "bytes": 9428,
+      "sha256": "243227a0c602acbe7c0c77146f4bc38769acaee0ffdf2f1a7b21427699924c13"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_tests.py",
+      "bytes": 2170,
+      "sha256": "e4704120b36a86426f89f4e40c2bd3a74209a55adcf54a8638062d54b083f45d"
+    }
+  ],
+  "native_executions": 0,
+  "image_decodes": 0,
+  "bank_files_opened": 0,
+  "matcher_calls": 0,
+  "quality_claim": false,
+  "performance_claim": false,
+  "scope": "Exact V30 padding helper arithmetic adapted to frozen V31 eighteen-bank geometry"
+}

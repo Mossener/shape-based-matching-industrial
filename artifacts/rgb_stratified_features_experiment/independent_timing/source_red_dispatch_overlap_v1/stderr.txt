@@ -1,0 +1,15 @@
+test_watchdog_rejects_overlapping_outputs_before_dispatch (test_timing_evidence.EvidenceTests.test_watchdog_rejects_overlapping_outputs_before_dispatch) ... FAIL
+
+======================================================================
+FAIL: test_watchdog_rejects_overlapping_outputs_before_dispatch (test_timing_evidence.EvidenceTests.test_watchdog_rejects_overlapping_outputs_before_dispatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_timing\source_red_dispatch_overlap_v1\source\test_timing_evidence.py", line 96, in test_watchdog_rejects_overlapping_outputs_before_dispatch
+    with self.assertRaises(e.a.AuditError,msg='Overlapping audit/guard paths reached dispatch'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AuditError not raised : Overlapping audit/guard paths reached dispatch
+
+----------------------------------------------------------------------
+Ran 1 test in 0.005s
+
+FAILED (failures=1)

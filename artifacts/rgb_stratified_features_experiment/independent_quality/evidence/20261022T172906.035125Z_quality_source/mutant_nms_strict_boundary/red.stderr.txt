@@ -1,0 +1,33 @@
+test_nms_gt_ignore_and_threshold_boundaries (test_quality_audit.NumericTests.test_nms_gt_ignore_and_threshold_boundaries) ... FAIL
+
+======================================================================
+FAIL: test_nms_gt_ignore_and_threshold_boundaries (test_quality_audit.NumericTests.test_nms_gt_ignore_and_threshold_boundaries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T172906.035125Z_quality_source\mutant_nms_strict_boundary\test_quality_audit.py", line 78, in test_nms_gt_ignore_and_threshold_boundaries
+    self.assertEqual(nms([y,x]),[x,y])
+AssertionError: Lists differ: [('tl[78 chars]520))] != [('tl[78 chars]520)), ('tless_object_1', 0, 107, 200, 1119092[44 chars]20))]
+
+Second list contains 1 additional elements.
+First extra element 1:
+('tless_object_1', 0, 107, 200, 1119092736, (7, 0, 13, 1), (7, 1106247680, 1069547520))
+
+  [('tless_object_1',
+    0,
+    100,
+    200,
+    1119092736,
+    (0, 0, 13, 1),
++   (7, 1106247680, 1069547520)),
++  ('tless_object_1',
++   0,
++   107,
++   200,
++   1119092736,
++   (7, 0, 13, 1),
+    (7, 1106247680, 1069547520))]
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "expected": "green",
+  "exit_code": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-v"
+  ],
+  "timed_out": false,
+  "timeout_seconds": 180,
+  "original_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+      "bytes": 9142,
+      "sha256": "bb095f0eadbde9944fa2216fc89685cb2cf993ff054951594f9fbcac6d0f04fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\evidence.py",
+      "bytes": 8619,
+      "sha256": "579263992657f9bb2d4c4121c38eaaedc6e208427c2b5332cd3d42856ceb6838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\frozen_v30_timing.py",
+      "bytes": 39474,
+      "sha256": "375a1d8d3aef2d492c121001c7faf1b4e24c34aeee0463299cafdc7db558e2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\ORIGIN.json",
+      "bytes": 556,
+      "sha256": "df44ef599c0476382b005e8b4ee116aa65bdbb1136b4fe132a635d8e1c83fb8d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\run_audit.py",
+      "bytes": 8282,
+      "sha256": "fd9830256a129bc659321c149fc2fab219a6ef771a96ac282e600dec22667afa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\run_source_tests.py",
+      "bytes": 3556,
+      "sha256": "4145f2f8f60591581ec4b33a10a0b8c5950eb1c24fa18c930fae31c7d77dbafc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\test_timing_audit.py",
+      "bytes": 10193,
+      "sha256": "781694db86cfe5c1036092f848a1644c23ec9d6dd585a01b3344849331231282"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\test_timing_evidence.py",
+      "bytes": 13081,
+      "sha256": "559a2d750abb855ce59546e67c915d507dbce1ea830b6fdb74cdf97283445ee9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\timing_audit.py",
+      "bytes": 14082,
+      "sha256": "bd809d7a70dd19fd29959a5729af341d4cb986facd5c7feff26ff2f0e57129e4"
+    }
+  ],
+  "snapshot_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\audit.py",
+      "bytes": 9142,
+      "sha256": "bb095f0eadbde9944fa2216fc89685cb2cf993ff054951594f9fbcac6d0f04fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\evidence.py",
+      "bytes": 8619,
+      "sha256": "579263992657f9bb2d4c4121c38eaaedc6e208427c2b5332cd3d42856ceb6838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\frozen_v30_timing.py",
+      "bytes": 39474,
+      "sha256": "375a1d8d3aef2d492c121001c7faf1b4e24c34aeee0463299cafdc7db558e2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\ORIGIN.json",
+      "bytes": 556,
+      "sha256": "df44ef599c0476382b005e8b4ee116aa65bdbb1136b4fe132a635d8e1c83fb8d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\run_audit.py",
+      "bytes": 8282,
+      "sha256": "fd9830256a129bc659321c149fc2fab219a6ef771a96ac282e600dec22667afa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\run_source_tests.py",
+      "bytes": 3556,
+      "sha256": "4145f2f8f60591581ec4b33a10a0b8c5950eb1c24fa18c930fae31c7d77dbafc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\test_timing_audit.py",
+      "bytes": 10193,
+      "sha256": "781694db86cfe5c1036092f848a1644c23ec9d6dd585a01b3344849331231282"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\test_timing_evidence.py",
+      "bytes": 13081,
+      "sha256": "559a2d750abb855ce59546e67c915d507dbce1ea830b6fdb74cdf97283445ee9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\source\\timing_audit.py",
+      "bytes": 14082,
+      "sha256": "bd809d7a70dd19fd29959a5729af341d4cb986facd5c7feff26ff2f0e57129e4"
+    }
+  ],
+  "supporting_original_sources": [],
+  "supporting_snapshot_sources": [],
+  "stdout": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_execution_v1\\stderr.txt",
+    "bytes": 3001,
+    "sha256": "d08533425e7d66a34e8df80eb3869ca8a2f9ddeca719703ae0f764eb38aa0b40"
+  },
+  "python_executable": {
+    "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "bytes": 101477,
+    "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+  },
+  "python_version": "3.12.10 (main, Apr 18 2025, 06:12:02)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+  "native_runs": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "bank_payload_reads": 0,
+  "limitation": "Python behavior and static native-source contracts only; no C++ compilation/execution claim"
+}

@@ -1,0 +1,27 @@
+test_accepted_receipt_binds_both_original_freezes (test_quality_audit.NumericTests.test_accepted_receipt_binds_both_original_freezes) ... ok
+test_accepted_report_cannot_be_failed_or_literal_only (test_quality_audit.NumericTests.test_accepted_report_cannot_be_failed_or_literal_only) ... ok
+test_bank_pins_bind_all_18_own_directories_and_counts (test_quality_audit.NumericTests.test_bank_pins_bind_all_18_own_directories_and_counts) ... ok
+test_empty_raw_archive_is_present_and_pinned_not_missing (test_quality_audit.NumericTests.test_empty_raw_archive_is_present_and_pinned_not_missing) ... ok
+test_exact_canonical_input_version (test_quality_audit.NumericTests.test_exact_canonical_input_version) ... ok
+test_full_raw_archive_manifest_order_metadata_and_score_bits (test_quality_audit.NumericTests.test_full_raw_archive_manifest_order_metadata_and_score_bits) ... ok
+test_gt_schedule_rejects_duplicate_identity_class_and_visibility (test_quality_audit.NumericTests.test_gt_schedule_rejects_duplicate_identity_class_and_visibility) ... ok
+test_gzip_decoder_caps_expansion_before_materializing_payload (test_quality_audit.NumericTests.test_gzip_decoder_caps_expansion_before_materializing_payload) ... ok
+test_inherited_C0_bank_common_and_original_raw_source_closures (test_quality_audit.NumericTests.test_inherited_C0_bank_common_and_original_raw_source_closures) ... ok
+test_metadata_box_uses_each_arms_own_origin (test_quality_audit.NumericTests.test_metadata_box_uses_each_arms_own_origin) ... ok
+test_nms_gt_ignore_and_threshold_boundaries (test_quality_audit.NumericTests.test_nms_gt_ignore_and_threshold_boundaries) ... ok
+test_padding_and_frozen_schedule_boundaries (test_quality_audit.NumericTests.test_padding_and_frozen_schedule_boundaries) ... ok
+test_pinned_reader_refuses_unregistered_changed_images_and_dataset (test_quality_audit.NumericTests.test_pinned_reader_refuses_unregistered_changed_images_and_dataset) ... ok
+test_quality_gate_uses_B_and_keeps_P_diagnostic (test_quality_audit.NumericTests.test_quality_gate_uses_B_and_keeps_P_diagnostic) ... ok
+test_raw_order_and_each_selected_field (test_quality_audit.NumericTests.test_raw_order_and_each_selected_field) ... ok
+test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) ... ok
+test_stage_complete_inventory_physical_summary_and_parent_bindings (test_quality_audit.NumericTests.test_stage_complete_inventory_physical_summary_and_parent_bindings) ... ok
+test_three_arm_coverage_keeps_empty_and_negative_frames (test_quality_audit.NumericTests.test_three_arm_coverage_keeps_empty_and_negative_frames) ... ok
+test_child_failure_or_wrong_stage_preserved (test_run_audit.RunnerTests.test_child_failure_or_wrong_stage_preserved) ... ok
+test_execute_one_guarded_child_and_no_retry (test_run_audit.RunnerTests.test_execute_one_guarded_child_and_no_retry) ... ok
+test_reserve_reads_no_stage_members_and_refuses_second_reservation (test_run_audit.RunnerTests.test_reserve_reads_no_stage_members_and_refuses_second_reservation) ... ok
+test_source_change_consumes_attempt_without_running_child (test_run_audit.RunnerTests.test_source_change_consumes_attempt_without_running_child) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.325s
+
+OK

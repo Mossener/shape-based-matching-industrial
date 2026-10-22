@@ -1,0 +1,16 @@
+test_stage_complete_inventory_physical_summary_and_parent_bindings (test_quality_audit.NumericTests.test_stage_complete_inventory_physical_summary_and_parent_bindings) ... 
+  test_stage_complete_inventory_physical_summary_and_parent_bindings (test_quality_audit.NumericTests.test_stage_complete_inventory_physical_summary_and_parent_bindings) (mutant='embedded') ... FAIL
+
+======================================================================
+FAIL: test_stage_complete_inventory_physical_summary_and_parent_bindings (test_quality_audit.NumericTests.test_stage_complete_inventory_physical_summary_and_parent_bindings) (mutant='embedded')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T171856.927969Z_quality_source\mutant_ignore_physical_summary\test_quality_audit.py", line 169, in test_stage_complete_inventory_physical_summary_and_parent_bindings
+    with self.subTest(mutant=mutant),self.assertRaises(ValueError): check(wrong)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.082s
+
+FAILED (failures=1)

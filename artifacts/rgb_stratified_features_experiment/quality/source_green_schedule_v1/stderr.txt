@@ -1,0 +1,13 @@
+test_fixed_budgets (test_quality_source.QualityContractTest.test_fixed_budgets) ... ok
+test_full_timing_rotation (test_quality_source.QualityContractTest.test_full_timing_rotation) ... ok
+test_geometry_is_actual_not_guessed (test_quality_source.QualityContractTest.test_geometry_is_actual_not_guessed) ... ok
+test_native_source_contract (test_quality_source.QualityContractTest.test_native_source_contract) ... ok
+test_native_source_mutations_are_rejected (test_quality_source.QualityContractTest.test_native_source_mutations_are_rejected) ... ok
+test_reservation_persists_after_failure (test_quality_source.QualityContractTest.test_reservation_persists_after_failure) ... ok
+test_specs_are_independent_copies (test_quality_source.QualityContractTest.test_specs_are_independent_copies) ... ok
+test_timing_requires_independent_quality_audit (test_quality_source.QualityContractTest.test_timing_requires_independent_quality_audit) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.030s
+
+OK

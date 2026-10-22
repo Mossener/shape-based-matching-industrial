@@ -1,0 +1,328 @@
+test_changed_sha_and_size_rejected (test_publication.PublicationTests.test_changed_sha_and_size_rejected) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpxeho8sg2\publication\selection.json
+
+  test_changed_sha_and_size_rejected (test_publication.PublicationTests.test_changed_sha_and_size_rejected) (data=b'{"v":2}\n') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp3sdn1o2s\publication\selection.json
+  test_changed_sha_and_size_rejected (test_publication.PublicationTests.test_changed_sha_and_size_rejected) (data=b'{"changed":true}\n') ... FAIL
+test_duplicate_members_and_duplicate_json_keys_rejected (test_publication.PublicationTests.test_duplicate_members_and_duplicate_json_keys_rejected) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpdcq6hra5\publication\selection.json
+FAIL
+test_exact_index_blobs_for_sha1_and_sha256 (test_publication.PublicationTests.test_exact_index_blobs_for_sha1_and_sha256) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpp8_ene9s\publication\selection.json
+
+  test_exact_index_blobs_for_sha1_and_sha256 (test_publication.PublicationTests.test_exact_index_blobs_for_sha1_and_sha256) (format='sha1', fault='green') ... ERROR
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmphfje5rc6\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpyb44i6w0\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpyzzzwoqv\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmphzzuyyhu\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpgn8mqreg\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpzz32h61y\publication\selection.json
+  test_exact_index_blobs_for_sha1_and_sha256 (test_publication.PublicationTests.test_exact_index_blobs_for_sha1_and_sha256) (format='sha256', fault='green') ... ERROR
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp7gqwef9k\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpxvacsh5_\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmphc4dv592\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpvdzgttdr\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpi0d_fc3j\publication\selection.json
+test_explicit_selection_without_git_or_default_manifest (test_publication.PublicationTests.test_explicit_selection_without_git_or_default_manifest) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpff0zthsx\publication\selection.json
+FAIL
+test_forbidden_and_oversize_members_rejected_before_read (test_publication.PublicationTests.test_forbidden_and_oversize_members_rejected_before_read) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpgcl1_nq1\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpzbb0drte\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpy9d1iz2g\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp9lkoq0lr\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpmdganrbq\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpbyqqlu14\publication\selection.json
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpquuf8y38\publication\selection.json
+ok
+test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpcf6rg5bu\publication\selection.json
+
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='../outside.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp571q_lwg\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='/outside.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpf3b_74je\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='C:/outside.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp5944qvjj\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a\\b.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpaycynbfv\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='./evidence.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpqclmus85\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a//b.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmp5d6_8uhw\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a/../evidence.json') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpggk1iq9d\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='evidence.json:stream') ... FAIL
+usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpciji5xqs\publication\selection.json
+  test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='evidence.json\n') ... FAIL
+test_selection_must_be_inside_repository (test_publication.PublicationTests.test_selection_must_be_inside_repository) ... usage: verify [-h] [--staged]
+verify: error: unrecognized arguments: --selection C:\Users\HP\AppData\Local\Temp\tmpliced5t7\publication\selection.json
+FAIL
+
+======================================================================
+ERROR: test_exact_index_blobs_for_sha1_and_sha256 (test_publication.PublicationTests.test_exact_index_blobs_for_sha1_and_sha256) (format='sha1', fault='green')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 112, in test_exact_index_blobs_for_sha1_and_sha256
+    if fault=='green': self.assertTrue(self.verify(root,path,True,git)['passed'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 38, in verify
+    VERIFY.main()
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\verify_selection.py", line 24, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 1908, in parse_args
+    self.error(msg)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+======================================================================
+ERROR: test_exact_index_blobs_for_sha1_and_sha256 (test_publication.PublicationTests.test_exact_index_blobs_for_sha1_and_sha256) (format='sha256', fault='green')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 112, in test_exact_index_blobs_for_sha1_and_sha256
+    if fault=='green': self.assertTrue(self.verify(root,path,True,git)['passed'])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 38, in verify
+    VERIFY.main()
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\verify_selection.py", line 24, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 1908, in parse_args
+    self.error(msg)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+======================================================================
+FAIL: test_changed_sha_and_size_rejected (test_publication.PublicationTests.test_changed_sha_and_size_rejected) (data=b'{"v":2}\n')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 69, in test_changed_sha_and_size_rejected
+    with self.assertRaisesRegex(SystemExit,'selected bytes changed'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "selected bytes changed" does not match "2"
+
+======================================================================
+FAIL: test_changed_sha_and_size_rejected (test_publication.PublicationTests.test_changed_sha_and_size_rejected) (data=b'{"changed":true}\n')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 69, in test_changed_sha_and_size_rejected
+    with self.assertRaisesRegex(SystemExit,'selected bytes changed'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "selected bytes changed" does not match "2"
+
+======================================================================
+FAIL: test_duplicate_members_and_duplicate_json_keys_rejected (test_publication.PublicationTests.test_duplicate_members_and_duplicate_json_keys_rejected)
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 61, in test_duplicate_members_and_duplicate_json_keys_rejected
+    with self.assertRaisesRegex(SystemExit,'duplicate selected path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "duplicate selected path" does not match "2"
+
+======================================================================
+FAIL: test_explicit_selection_without_git_or_default_manifest (test_publication.PublicationTests.test_explicit_selection_without_git_or_default_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 44, in test_explicit_selection_without_git_or_default_manifest
+    try: result=self.verify(root,path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 38, in verify
+    VERIFY.main()
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\verify_selection.py", line 24, in main
+    args = parser.parse_args()
+           ^^^^^^^^^^^^^^^^^^^
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 1908, in parse_args
+    self.error(msg)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "F:\mysys2\ucrt64\lib\python3.12\argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 45, in test_explicit_selection_without_git_or_default_manifest
+    except SystemExit as error: self.fail('valid explicit selection rejected: '+str(error))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: valid explicit selection rejected: 2
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='../outside.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='/outside.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='C:/outside.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a\\b.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='./evidence.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a//b.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='a/../evidence.json')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='evidence.json:stream')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_path_escape_and_noncanonical_paths_rejected (test_publication.PublicationTests.test_path_escape_and_noncanonical_paths_rejected) (path='evidence.json\n')
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 54, in test_path_escape_and_noncanonical_paths_rejected
+    with self.assertRaisesRegex(SystemExit,'invalid path'): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "invalid path" does not match "2"
+
+======================================================================
+FAIL: test_selection_must_be_inside_repository (test_publication.PublicationTests.test_selection_must_be_inside_repository)
+----------------------------------------------------------------------
+SystemExit: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\source_red_cli_v1\source\test_publication.py", line 90, in test_selection_must_be_inside_repository
+    with self.assertRaisesRegex(SystemExit,'selection.*repository'): self.verify(other,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "selection.*repository" does not match "2"
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.136s
+
+FAILED (failures=14, errors=2)

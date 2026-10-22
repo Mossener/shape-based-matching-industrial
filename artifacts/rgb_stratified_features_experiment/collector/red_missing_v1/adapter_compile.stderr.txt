@@ -1,0 +1,16 @@
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v1\source\test_candidate_collector.cpp: In function 'void {anonymous}::print_loaded_modules()':
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v1\source\test_candidate_collector.cpp:252:5: error: 'MODULEENTRY32A' was not declared in this scope; did you mean 'MODULEENTRY32W'?
+  252 |     MODULEENTRY32A entry{};entry.dwSize=sizeof(entry);
+      |     ^~~~~~~~~~~~~~
+      |     MODULEENTRY32W
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v1\source\test_candidate_collector.cpp:252:28: error: 'entry' was not declared in this scope
+  252 |     MODULEENTRY32A entry{};entry.dwSize=sizeof(entry);
+      |                            ^~~~~
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v1\source\test_candidate_collector.cpp:253:13: error: 'Module32FirstA' was not declared in this scope; did you mean 'Module32FirstW'?
+  253 |     require(Module32FirstA(snap,&entry)!=0,"first loaded module");
+      |             ^~~~~~~~~~~~~~
+      |             Module32FirstW
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\collector\red_missing_v1\source\test_candidate_collector.cpp:254:65: error: 'Module32NextA' was not declared in this scope; did you mean 'Module32NextW'?
+  254 |     do { std::cout<<"MODULE\t"<<entry.szExePath<<'\n'; } while (Module32NextA(snap,&entry));
+      |                                                                 ^~~~~~~~~~~~~
+      |                                                                 Module32NextW

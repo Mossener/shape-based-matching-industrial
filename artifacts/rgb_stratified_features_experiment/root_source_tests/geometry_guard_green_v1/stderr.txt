@@ -1,0 +1,8 @@
+test_changed_source_stops_before_process_creation (test_guarded_scan.GuardedScan.test_changed_source_stops_before_process_creation) ... ok
+test_complete_scanner_is_bound_to_guard_and_single_launch (test_guarded_scan.GuardedScan.test_complete_scanner_is_bound_to_guard_and_single_launch) ... ok
+test_failed_child_preserves_failure_and_cannot_retry (test_guarded_scan.GuardedScan.test_failed_child_preserves_failure_and_cannot_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.059s
+
+OK

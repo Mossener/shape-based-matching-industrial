@@ -1,0 +1,112 @@
+{
+  "passed": true,
+  "mode": "green",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\source\\pack_literal_tests.cpp",
+    "-lz",
+    "-lbcrypt",
+    "-o",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\pack_literal_tests.exe"
+  ],
+  "compile_exit": 0,
+  "run_exit": 0,
+  "compiler": {
+    "path": "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+    "bytes": 3098071,
+    "sha256": "405619f85721c1fb8a5410216a08ced1083fc28a4d2fa77de2c7e1900ed7b24f"
+  },
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\pack_literal_tests.cpp",
+      "bytes": 3707,
+      "sha256": "9b0ef3114174e59a19704d24be3aeee36d48024de5d28d54c1e234519131ed7b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_literal.py",
+      "bytes": 2457,
+      "sha256": "fc26b20ff8d8294a4ffff25bb4970e697e11432ff8dc21cb03e6b1e9cd6b1005"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\numeric_pack.hpp",
+      "bytes": 11040,
+      "sha256": "31e34929d5fe6d93eb0b4e900a3cdb4a1ac0dc384de6afc3e4bc62b3001c0fa1"
+    }
+  ],
+  "source_unchanged": true,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "training_poses": 0,
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\compile.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\compile.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\data\\ok\\pools.jsonl",
+      "bytes": 1074,
+      "sha256": "d7d435f3434bda03be0bd8dcfac79d2b5e7ff70a8d1d255bf9acac4e68790463"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\data\\ok\\pools_000000.bin.gz",
+      "bytes": 71,
+      "sha256": "24ea2547727f12aac552790867399553bf13c439a73a00900d6b9ac5d617eba1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\data\\ok\\pools_000001.bin.gz",
+      "bytes": 71,
+      "sha256": "373d9d19c7bce8f4f783d1f107fad8cf4c159771adffef6e8fe160d3db00f3a0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\data\\ok\\shards.jsonl",
+      "bytes": 348,
+      "sha256": "d9358674f039595a333879a917a7f13b5822b873d833c8d7854e3367fa88fec9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\data\\physical\\partial.txt",
+      "bytes": 2,
+      "sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\pack_literal_tests.exe",
+      "bytes": 221992,
+      "sha256": "7a2b0aef1138f81b391a472667fa6d20c72aadb91396e665fae61f4c4cbd6fb5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\run.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\run.stdout",
+      "bytes": 118,
+      "sha256": "10a21c9369493121ebb5344dbc7402675c51c4e0825daefeef200676b8507fc1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\source\\numeric_pack.hpp",
+      "bytes": 11040,
+      "sha256": "31e34929d5fe6d93eb0b4e900a3cdb4a1ac0dc384de6afc3e4bc62b3001c0fa1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\source\\pack_literal_tests.cpp",
+      "bytes": 3707,
+      "sha256": "9b0ef3114174e59a19704d24be3aeee36d48024de5d28d54c1e234519131ed7b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\packing\\run_green_20261022_d\\source\\run_literal.py",
+      "bytes": 2457,
+      "sha256": "fc26b20ff8d8294a4ffff25bb4970e697e11432ff8dc21cb03e6b1e9cd6b1005"
+    }
+  ]
+}

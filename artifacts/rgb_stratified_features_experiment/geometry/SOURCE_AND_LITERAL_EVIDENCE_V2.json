@@ -1,0 +1,241 @@
+{
+  "schema": "v31_geometry_source_literal_evidence_v2",
+  "status": "source_and_synthetic_payload_validation_only_pending_root_authorized_real_geometry",
+  "explicit_successor_of": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\SOURCE_AND_LITERAL_EVIDENCE.json",
+    "bytes": 3162,
+    "sha256": "d4931cf646f4e6c05e26264754647d800ce2620b2e3b6af8947615950e3fb0eb"
+  },
+  "original_v1_sources_preserved": [
+    {
+      "original_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+        "bytes": 18233,
+        "sha256": "16cd83f8da3cf77cfa31d55ce6c7de1606f8d12da4a9a679ae1bc370426d09c9"
+      },
+      "preserved_copy": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_v1_preserved_20261023_a\\planner.py",
+        "bytes": 18233,
+        "sha256": "16cd83f8da3cf77cfa31d55ce6c7de1606f8d12da4a9a679ae1bc370426d09c9"
+      },
+      "exact_bytes_preserved": true
+    },
+    {
+      "original_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py",
+        "bytes": 9428,
+        "sha256": "243227a0c602acbe7c0c77146f4bc38769acaee0ffdf2f1a7b21427699924c13"
+      },
+      "preserved_copy": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_v1_preserved_20261023_a\\test_geometry.py",
+        "bytes": 9428,
+        "sha256": "243227a0c602acbe7c0c77146f4bc38769acaee0ffdf2f1a7b21427699924c13"
+      },
+      "exact_bytes_preserved": true
+    },
+    {
+      "original_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_tests.py",
+        "bytes": 2170,
+        "sha256": "e4704120b36a86426f89f4e40c2bd3a74209a55adcf54a8638062d54b083f45d"
+      },
+      "preserved_copy": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_v1_preserved_20261023_a\\run_tests.py",
+        "bytes": 2170,
+        "sha256": "e4704120b36a86426f89f4e40c2bd3a74209a55adcf54a8638062d54b083f45d"
+      },
+      "exact_bytes_preserved": true
+    },
+    {
+      "original_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\README.md",
+        "bytes": 1590,
+        "sha256": "14c28d47d8b3828b32ae82d7f722ddb2a5be8e84e52be9ba840f866283f5b640"
+      },
+      "preserved_copy": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_v1_preserved_20261023_a\\README.md",
+        "bytes": 1590,
+        "sha256": "14c28d47d8b3828b32ae82d7f722ddb2a5be8e84e52be9ba840f866283f5b640"
+      },
+      "exact_bytes_preserved": true
+    },
+    {
+      "original_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\FAILURE_HISTORY.md",
+        "bytes": 709,
+        "sha256": "d74e30167128ceb701e4f4178718031b32aa5eb777afa42fa221d2e71606d40c"
+      },
+      "preserved_copy": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_v1_preserved_20261023_a\\FAILURE_HISTORY.md",
+        "bytes": 709,
+        "sha256": "d74e30167128ceb701e4f4178718031b32aa5eb777afa42fa221d2e71606d40c"
+      },
+      "exact_bytes_preserved": true
+    }
+  ],
+  "original_receipt_pins_reverified": true,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+      "bytes": 18861,
+      "sha256": "1487309daa013f17f4805070e8ec1096361c5e35aa56fa251c28cd207145e28b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py",
+      "bytes": 10446,
+      "sha256": "0257f4ddf90f8546e4484bbfb89f2481ad26a656fa7d484a64c2ac2061815c25"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_geometry.py",
+      "bytes": 21755,
+      "sha256": "9f2e8c12bced50639ef031dc68002d828d6409becd422d9f27e497112915a302"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_run_geometry.py",
+      "bytes": 11572,
+      "sha256": "21e1b787adc18db59eb7d84361734e3a9dae39f10d822460985b4001d2baa7e5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_tests.py",
+      "bytes": 3069,
+      "sha256": "1c66f26bbfaaec1ea9ce4e61e9853ca18c7c1c79161fb1949c6ffa35c340edfe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_mutation_tests.py",
+      "bytes": 3742,
+      "sha256": "12f1d7a8e1761fec4398ae7dfea4ff09b0903ffee0e348aca4e0dbc58795b87c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\README.md",
+      "bytes": 2501,
+      "sha256": "0c888ae058e343e50a38312c35aa8831b838c281e5f3470e17f67913814e0204"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\INPUT_SCHEMA.md",
+      "bytes": 4954,
+      "sha256": "0c78384be5224bd5e2f8092cbb20895454a0e142b8f3e3ebadd879b5335d0e35"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\FAILURE_HISTORY.md",
+      "bytes": 3229,
+      "sha256": "cf74e08bbcec2c0683154c6e4560ff82f90a50293c5d1eb50f3ff434a4b0c9cf"
+    }
+  ],
+  "frozen_protocol": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PROTOCOL.json",
+    "bytes": 15197,
+    "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+  },
+  "strict_reader": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+    "bytes": 3670,
+    "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+  },
+  "inherited_padding_helper": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\frozen_helpers\\padding_plan.hpp",
+    "bytes": 3974,
+    "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+  },
+  "receipts": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\canvas_red_20261023_a\\receipt.json",
+      "bytes": 446,
+      "sha256": "e93841f6a522335abfe894afe25d7b2204b27cb305d3d676435c839cddf99036"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\runner_red_20261023_a\\receipt.json",
+      "bytes": 396,
+      "sha256": "f39d39e1fd67f8ce63b3ef1bd665ab8b20342c800cf4836f64f4f5db12366667"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_a\\receipt.json",
+      "bytes": 2255,
+      "sha256": "e4c710c32d3cff9b00487aa5c054fd11763a3abecb88e2e9b3ae177d61a7629d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_b\\receipt.json",
+      "bytes": 2256,
+      "sha256": "be490bc815247b085643a45de1d60755bd6e6487c1748fd5776c0aec2ca893cb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_c\\receipt.json",
+      "bytes": 2256,
+      "sha256": "f6da49288b3fff35a5547b104b4497b0c7c6793066f0d4e32b53e3c573908a19"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_d\\receipt.json",
+      "bytes": 2256,
+      "sha256": "f409a05af51490441185e06a746d0d267f5cd8f002199ed92a8fcfce98944c69"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_final\\receipt.json",
+      "bytes": 2256,
+      "sha256": "f409a05af51490441185e06a746d0d267f5cd8f002199ed92a8fcfce98944c69"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_e\\receipt.json",
+      "bytes": 2256,
+      "sha256": "f2f63003d23a13d1440293598072049073f2719d66f5e75c4ab32a835e2c5f6b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_query_canvas_20261023_a\\receipt.json",
+      "bytes": 2054,
+      "sha256": "26531b6631ca158d9218a1393123c1616ed0804e02924505f4d3dfe5d374dc18"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_ignored_audit_pin_20261023_a\\receipt.json",
+      "bytes": 2038,
+      "sha256": "9f04a460cd05dec8d7f34a4d84beb7a8aa17e2e106b0f73dd4959f925e44a6d3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_query_canvas_20261023_b\\receipt.json",
+      "bytes": 2054,
+      "sha256": "be2a5cfc68987e6e64cae716216cf45dd3f9e35273e8683826adb3bb64890060"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_ignored_audit_pin_20261023_b\\receipt.json",
+      "bytes": 2038,
+      "sha256": "1f63fe19821c5bdc1864f6118c16b6cceaabf83cb4de7abf777053cdb2291d83"
+    }
+  ],
+  "current_green": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\source_tests_20261023_e\\receipt.json",
+    "bytes": 2256,
+    "sha256": "f2f63003d23a13d1440293598072049073f2719d66f5e75c4ab32a835e2c5f6b"
+  },
+  "green_tests": 39,
+  "expected_mutation_red": [
+    "query-canvas: 2 failures + 2 errors",
+    "ignore-audited-bank-pin: 1 failure"
+  ],
+  "changes": [
+    "explicit per-template training canvas; query geometry still720x540",
+    "pinned source audit and accepted 18-bank/6-CSV input schema",
+    "independent strict YAML scan of all features and own-layer origins",
+    "one-shot reserve/execute with persistent consumed marker and preserved failure",
+    "fresh output plan/report/freeze own source and result pins",
+    "fresh timestamped source tests; old receipts never overwritten",
+    "actual file size bounded before reads even when supplied pin is stale/small"
+  ],
+  "real_bank_files_opened": 0,
+  "dataset_images_opened": 0,
+  "image_decodes": 0,
+  "native_executions": 0,
+  "matcher_calls": 0,
+  "quality_claim": false,
+  "performance_claim": false,
+  "production_promotion": false,
+  "limitation": "Synthetic payload readers exercise runner logic; actual training source/runtime acceptance, real geometry scan and independent geometry acceptance remain root responsibilities",
+  "current_mutations": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_query_canvas_20261023_b\\receipt.json",
+      "bytes": 2054,
+      "sha256": "be2a5cfc68987e6e64cae716216cf45dd3f9e35273e8683826adb3bb64890060"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_ignored_audit_pin_20261023_b\\receipt.json",
+      "bytes": 2038,
+      "sha256": "1f63fe19821c5bdc1864f6118c16b6cceaabf83cb4de7abf777053cdb2291d83"
+    }
+  ]
+}

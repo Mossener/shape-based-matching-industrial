@@ -1,0 +1,14 @@
+test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl (__main__.TrainingLiterals.test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl) ... FAIL
+
+======================================================================
+FAIL: test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl (__main__.TrainingLiterals.test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 235, in test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl
+    self.assertTrue(hasattr(audit,'load_frozen_schedule'),'pinned schedule loader is missing')
+AssertionError: False is not true : pinned schedule loader is missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

@@ -1,0 +1,14 @@
+test_full_directory_cli_boundary_pins_inventory_summary_and_literal_scope (__main__.TrainingLiterals.test_full_directory_cli_boundary_pins_inventory_summary_and_literal_scope) ... FAIL
+
+======================================================================
+FAIL: test_full_directory_cli_boundary_pins_inventory_summary_and_literal_scope (__main__.TrainingLiterals.test_full_directory_cli_boundary_pins_inventory_summary_and_literal_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 400, in test_full_directory_cli_boundary_pins_inventory_summary_and_literal_scope
+    self.assertTrue(hasattr(audit,'audit_native_directory'),'full directory auditor is missing')
+AssertionError: False is not true : full directory auditor is missing
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

@@ -1,0 +1,104 @@
+{
+  "schema": "v31_publication_source_tests_v1",
+  "passed": true,
+  "exit_code": 0,
+  "tests": 7,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source",
+    "-p",
+    "test_publication.py",
+    "-v"
+  ],
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\test_publication.py",
+      "bytes": 7552,
+      "sha256": "16e6ee16824faae3fdfe4ba46d46e12bebd8978f7a17d902a53048c0d15bfefb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\run_tests.py",
+      "bytes": 2478,
+      "sha256": "0ecefd26feb8f8395a8ea6ce3696a2291a44248d90a74d940532f904d121a175"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\README.md",
+      "bytes": 1753,
+      "sha256": "a408cb23b22f0c094f9107205426927525e87ac868f0dfa14c55545247d68b32"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\SOURCE_PUBLICATION_PLAN.md",
+      "bytes": 4416,
+      "sha256": "b0ff197ad95859a6021e5aef75c13880d9722349e7ea4245095a35328bbd6003"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\SOURCE_ORIGIN.json",
+      "bytes": 1065,
+      "sha256": "828fe0cbb05d3b42631048a984845285ede7861bb2915d24ab381ab4cce1b42c"
+    }
+  ],
+  "source_snapshot_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\verify_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\test_publication.py",
+      "bytes": 7552,
+      "sha256": "16e6ee16824faae3fdfe4ba46d46e12bebd8978f7a17d902a53048c0d15bfefb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\run_tests.py",
+      "bytes": 2478,
+      "sha256": "0ecefd26feb8f8395a8ea6ce3696a2291a44248d90a74d940532f904d121a175"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\README.md",
+      "bytes": 1753,
+      "sha256": "a408cb23b22f0c094f9107205426927525e87ac868f0dfa14c55545247d68b32"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\SOURCE_PUBLICATION_PLAN.md",
+      "bytes": 4416,
+      "sha256": "b0ff197ad95859a6021e5aef75c13880d9722349e7ea4245095a35328bbd6003"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\source\\SOURCE_ORIGIN.json",
+      "bytes": 1065,
+      "sha256": "828fe0cbb05d3b42631048a984845285ede7861bb2915d24ab381ab4cce1b42c"
+    }
+  ],
+  "source_unchanged": true,
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\source_green_v1\\stderr.txt",
+      "bytes": 1085,
+      "sha256": "3a937b30e1d8da6fef0e8a86a08870b99bf7f71517bce6c5ab1d0a9cbaf008f6"
+    }
+  ],
+  "synthetic_only": true,
+  "real_git_commands_run": 0,
+  "real_index_reads": 0,
+  "real_image_reads": 0,
+  "real_bank_reads": 0,
+  "real_raw_archive_reads": 0,
+  "matcher_calls": 0,
+  "final_selection_created": false,
+  "limitation": "Temporary byte fixtures and mocked read-only Git; no actual publication or result acceptance"
+}

@@ -1,0 +1,8 @@
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\packing\run_compression_bound_red_20261022_a\source\pack_literal_tests.cpp: In lambda function:
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\packing\run_compression_bound_red_20261022_a\source\pack_literal_tests.cpp:21:19: error: too many arguments to function 'rgb_stratified::packing::Bytes rgb_stratified::packing::gzip(const Bytes&)'
+   21 |   rejects([&]{gzip(raw,16);});
+      |               ~~~~^~~~~~~~
+In file included from D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\packing\run_compression_bound_red_20261022_a\source\pack_literal_tests.cpp:1:
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\packing\run_compression_bound_red_20261022_a\source\numeric_pack.hpp:91:14: note: declared here
+   91 | inline Bytes gzip(const Bytes& data) {
+      |              ^~~~

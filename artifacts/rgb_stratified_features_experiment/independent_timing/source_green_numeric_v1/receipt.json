@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "expected": "green",
+  "exit_code": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "test_timing_audit",
+    "-v"
+  ],
+  "timed_out": false,
+  "timeout_seconds": 180,
+  "original_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\frozen_v30_timing.py",
+      "bytes": 39474,
+      "sha256": "375a1d8d3aef2d492c121001c7faf1b4e24c34aeee0463299cafdc7db558e2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\run_source_tests.py",
+      "bytes": 3491,
+      "sha256": "1f54af41a17bff6d0344c565474adc269c636ea3e3e61365ca029d94d897d9b4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\test_timing_audit.py",
+      "bytes": 7842,
+      "sha256": "171666bcbd4011184ff85d797b76ee76c269fb78aa5f3778dd0b77e6d8b18430"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\timing_audit.py",
+      "bytes": 14082,
+      "sha256": "bd809d7a70dd19fd29959a5729af341d4cb986facd5c7feff26ff2f0e57129e4"
+    }
+  ],
+  "snapshot_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\source\\frozen_v30_timing.py",
+      "bytes": 39474,
+      "sha256": "375a1d8d3aef2d492c121001c7faf1b4e24c34aeee0463299cafdc7db558e2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\source\\run_source_tests.py",
+      "bytes": 3491,
+      "sha256": "1f54af41a17bff6d0344c565474adc269c636ea3e3e61365ca029d94d897d9b4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\source\\test_timing_audit.py",
+      "bytes": 7842,
+      "sha256": "171666bcbd4011184ff85d797b76ee76c269fb78aa5f3778dd0b77e6d8b18430"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\source\\timing_audit.py",
+      "bytes": 14082,
+      "sha256": "bd809d7a70dd19fd29959a5729af341d4cb986facd5c7feff26ff2f0e57129e4"
+    }
+  ],
+  "supporting_original_sources": [],
+  "supporting_snapshot_sources": [],
+  "stdout": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\stdout.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\source_green_numeric_v1\\stderr.txt",
+    "bytes": 1135,
+    "sha256": "d4506cae491c0c6ec6a41e358a66df411db305c3bb74241a9b7dd6f11de70d76"
+  },
+  "python_executable": {
+    "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "bytes": 101477,
+    "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+  },
+  "python_version": "3.12.10 (main, Apr 18 2025, 06:12:02)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+  "native_runs": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "bank_payload_reads": 0,
+  "limitation": "Python behavior and static native-source contracts only; no C++ compilation/execution claim"
+}

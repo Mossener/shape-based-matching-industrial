@@ -1,0 +1,46 @@
+{
+  "schema": "rgb_stratified_geometry_mutation_receipt_v1",
+  "passed": true,
+  "mutation": "ignore-audited-bank-pin",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_ignored_audit_pin_20261023_a\\driver.py",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry",
+    "run_geometry",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\mutation_ignored_audit_pin_20261023_a\\mutated_source.py"
+  ],
+  "exit": 1,
+  "expected_detecting_test": "test_bank_pin_must_match_even_when_audit_closure_before_after_agree",
+  "old_seam": "require(audit['output_pins_after'].get(relative)==_small(pin),",
+  "new_seam": "require(True,",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+      "bytes": 18861,
+      "sha256": "1487309daa013f17f4805070e8ec1096361c5e35aa56fa251c28cd207145e28b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_geometry.py",
+      "bytes": 21414,
+      "sha256": "a5ecaa5179c5c75a8179ee5ae2c0e819913555e5f74d9abea1693e2a55a79c0b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_geometry.py",
+      "bytes": 10446,
+      "sha256": "0257f4ddf90f8546e4484bbfb89f2481ad26a656fa7d484a64c2ac2061815c25"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\test_run_geometry.py",
+      "bytes": 11168,
+      "sha256": "ac21959d43b361971ecc8b009fc7f02246f58a16d46fff52f05d16aafb897702"
+    }
+  ],
+  "source_unchanged_during_execution": true,
+  "synthetic_payloads_only": true,
+  "bank_files_opened": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "native_executions": 0,
+  "matcher_calls": 0
+}

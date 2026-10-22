@@ -1,0 +1,22 @@
+test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited (__main__.TrainingLiterals.test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited) ... FAIL
+
+======================================================================
+FAIL: test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited (__main__.TrainingLiterals.test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 294, in test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited
+    report=audit.audit_training_stream(schedule,iter(pools),iter(selections),iter(attempts),observations=iter(observations))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: audit_training_stream() got an unexpected keyword argument 'observations'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\test_training_audit.py", line 296, in test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited
+    self.fail('full pool observation stream is not accepted by auditor')
+AssertionError: full pool observation stream is not accepted by auditor
+
+----------------------------------------------------------------------
+Ran 1 test in 0.013s
+
+FAILED (failures=1)

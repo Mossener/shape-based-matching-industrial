@@ -1,0 +1,36 @@
+test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) ... 
+  test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='omit') ... FAIL
+  test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='pose') ... FAIL
+  test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='status') ... FAIL
+
+======================================================================
+FAIL: test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='omit')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T171856.927969Z_quality_source\mutant_ignore_retention_arm\test_quality_audit.py", line 108, in test_retention_P_and_B_separate_with_pose_identity
+    with self.subTest(mutant=mutant),self.assertRaises(ValueError): a.check_retention(wrong,expected)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='pose')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T171856.927969Z_quality_source\mutant_ignore_retention_arm\test_quality_audit.py", line 108, in test_retention_P_and_B_separate_with_pose_identity
+    with self.subTest(mutant=mutant),self.assertRaises(ValueError): a.check_retention(wrong,expected)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_retention_P_and_B_separate_with_pose_identity (test_quality_audit.NumericTests.test_retention_P_and_B_separate_with_pose_identity) (mutant='status')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality\evidence\20261022T171856.927969Z_quality_source\mutant_ignore_retention_arm\test_quality_audit.py", line 108, in test_retention_P_and_B_separate_with_pose_identity
+    with self.subTest(mutant=mutant),self.assertRaises(ValueError): a.check_retention(wrong,expected)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=3)
