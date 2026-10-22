@@ -1,0 +1,200 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "slice": "all",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\test_source_contract.py"
+  ],
+  "source_pins": [
+    {
+      "name": "accept_training_audit.py",
+      "sha256": "432e676a47818d376a6912bb5a45f701fbdb96686df87aebbc65e3501b107e11",
+      "bytes": 3264
+    },
+    {
+      "name": "bank_reader.py",
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80",
+      "bytes": 3670
+    },
+    {
+      "name": "build_quality.py",
+      "sha256": "a2cbb43916342f179b3ab1f3427e91765229daacd2c67d3968d6a44f4ee1e896",
+      "bytes": 6591
+    },
+    {
+      "name": "build_training.py",
+      "sha256": "1240a95c10d15877db474d312e419a3986be416a07e1f007232034e4c6023cc7",
+      "bytes": 7439
+    },
+    {
+      "name": "build_training_v2.py",
+      "sha256": "cbcd8840b7ca7cd774b77844dc9a8557f5f0efcf14784cb48cb24b899bbd78a9",
+      "bytes": 7464
+    },
+    {
+      "name": "freeze_private_sources.py",
+      "sha256": "10d839330886f4d80e5db66b3b57a3dc67383b1fdce13886827d2e8c2708b567",
+      "bytes": 6317
+    },
+    {
+      "name": "INPUT_CLOSURE.json",
+      "sha256": "9f0a6fd135716495cb51cde6918a022fd6514e2177941cd453ff6eb19a83f2ff",
+      "bytes": 430260
+    },
+    {
+      "name": "literal_mask_test.cpp",
+      "sha256": "916d5129105fefabbe5033776fc244ce09acfd6e934005eb8260f32992f05afe",
+      "bytes": 3515
+    },
+    {
+      "name": "native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "name": "prepare_input_closure.py",
+      "sha256": "e647b78fa3671cd074126b0296c2ef803653d99032f59fe21e6abead47993bd8",
+      "bytes": 2200
+    },
+    {
+      "name": "prepare_quality_inputs.py",
+      "sha256": "6d8e66597ce854ccdb7dceafe862cffc31d6ab60d814c7208b079b4581dc7bab",
+      "bytes": 5156
+    },
+    {
+      "name": "prepare_sources.py",
+      "sha256": "eaf84f5113db90ca6bfab4f03d3114d3248cb080bdfa920c0c4a79d981c200c1",
+      "bytes": 11525
+    },
+    {
+      "name": "PRIVATE_SOURCE_FREEZE.json",
+      "sha256": "6187aac5c1ca1b49b0398770ef37740014c0c734bc7102771662a1f2761143d7",
+      "bytes": 8699
+    },
+    {
+      "name": "PROTOCOL.json",
+      "sha256": "ee313755ba5fad4311e7f2d80ffcb0fc1277c878cf1735a0d1a92b0b99635b6f",
+      "bytes": 6853
+    },
+    {
+      "name": "quality_contract.py",
+      "sha256": "daf56c7a9dbbc050dcfc7e2aa03297736542d01ca6571fe0b0df7ce05f600a52",
+      "bytes": 1719
+    },
+    {
+      "name": "quality_eval.cpp",
+      "sha256": "4d88c28887a8cba26b58d56fc02c8364de34c1eb6b946ead5901f7f12e5c515f",
+      "bytes": 17844
+    },
+    {
+      "name": "quality_support.hpp",
+      "sha256": "4400541896c9c46b7d31c333c996e2955492ca2d7b59964b7442a1759a313adc",
+      "bytes": 10802
+    },
+    {
+      "name": "rgb_dilated_mask_policy.hpp",
+      "sha256": "c9c6e5fc9bd4d7c604549d795676501d27374e70779cbce6759184532dd1daed",
+      "bytes": 841
+    },
+    {
+      "name": "rgb_dilated_mask_source_test.cpp",
+      "sha256": "f480119bc49450ec1b966b856e6cc47c57127e6c6f15a1bff61eeb6212cf755c",
+      "bytes": 1640
+    },
+    {
+      "name": "run_native_test.py",
+      "sha256": "c59f0d51d04417a944fd77818ef6d065f9a88a587a00e02ac2faa171ac28b69c",
+      "bytes": 3334
+    },
+    {
+      "name": "run_quality.py",
+      "sha256": "fe2d85fe816863b71eca82de058904d5fca341309dd9054a03b41d248245dafa",
+      "bytes": 9355
+    },
+    {
+      "name": "run_static_tests.py",
+      "sha256": "753cb91fb78fd439c3eb02f6723f72691d506191de97b916b33022668d1affd4",
+      "bytes": 2042
+    },
+    {
+      "name": "run_training.py",
+      "sha256": "0ad66f72c355757254f54abab25c0a7a3c2fbac53c063865c0e426c65dee029e",
+      "bytes": 13382
+    },
+    {
+      "name": "source_contract.py",
+      "sha256": "b65b5972a914cd1f0b657390fd3ab1f140e5b127bb6cfd7fb04e25d9309db6c5",
+      "bytes": 2409
+    },
+    {
+      "name": "SOURCE_ORIGINS.json",
+      "sha256": "d16d4f716b044e14598922ed2d3b1dcfcd4937b225e5228346572f5cd02f191f",
+      "bytes": 5438
+    },
+    {
+      "name": "source_status.json",
+      "sha256": "31acdeccef302a02f44b2d9833c7967bb37bfa51c9ed5a7c00c8334d04890444",
+      "bytes": 354
+    },
+    {
+      "name": "test_audit_acceptance.py",
+      "sha256": "9a585f2b6a39021a2a29173eab9aaff782243974b9cacf630ef25f01eba581ae",
+      "bytes": 2501
+    },
+    {
+      "name": "test_source_contract.py",
+      "sha256": "c798f0f7062ed8ff96befc9c79bee32f115db0ee8ee6fc52b190c5d1ea31d314",
+      "bytes": 10134
+    },
+    {
+      "name": "TOY_TEST_EXPECTATIONS.json",
+      "sha256": "45ae7790bbe7b31dafaf4f53c5eb542c8fbda73e825de5ba412061f5e4d7facb",
+      "bytes": 2838
+    },
+    {
+      "name": "toy_verification_20261022_a.json",
+      "sha256": "106d481571915e428fd6a9ab7d38f3bd353876b475d5cf9ca721999d6da5b411",
+      "bytes": 6003
+    },
+    {
+      "name": "toy_verification_20261022_b.json",
+      "sha256": "106d481571915e428fd6a9ab7d38f3bd353876b475d5cf9ca721999d6da5b411",
+      "bytes": 6003
+    },
+    {
+      "name": "toy_verification_root_20261022.json",
+      "sha256": "106d481571915e428fd6a9ab7d38f3bd353876b475d5cf9ca721999d6da5b411",
+      "bytes": 6003
+    },
+    {
+      "name": "TRAINING_BUILD_V2_ORIGIN.json",
+      "sha256": "243738fba5f7230f44f2a857a7e16c01f5444256b3d930cc605d9545afef826d",
+      "bytes": 650
+    },
+    {
+      "name": "training_numeric.py",
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889",
+      "bytes": 6072
+    },
+    {
+      "name": "TRAINING_VALIDATOR_ORIGIN.json",
+      "sha256": "1b2f67cc604b6fe7c06ed049676798ed11b41d44f247afbd21c8a8488922471b",
+      "bytes": 781
+    },
+    {
+      "name": "train_rgb_dilated_mask.cpp",
+      "sha256": "1363bc56df8a8b15db99c00189ff8c4a5b0ab92e6844f4480c17297ca835d241",
+      "bytes": 19894
+    },
+    {
+      "name": "verify_toy_receipts.py",
+      "sha256": "a7b94627586aad162c45ad1a37e989cad24aaf83412377ee9cf7342b25513252",
+      "bytes": 5015
+    }
+  ],
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "native_compilations": 0
+}

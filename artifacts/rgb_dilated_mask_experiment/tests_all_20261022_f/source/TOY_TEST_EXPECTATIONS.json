@@ -1,0 +1,75 @@
+{
+  "schema": "rgb_dilated_mask_toy_expectations_v1",
+  "recorded_before_expected_red_run": true,
+  "status": "successor_oracle_not_in_already_started_build",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\literal_mask_test.cpp",
+      "sha256": "916d5129105fefabbe5033776fc244ce09acfd6e934005eb8260f32992f05afe",
+      "bytes": 3515
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\rgb_dilated_mask_source_test.cpp",
+      "sha256": "f480119bc49450ec1b966b856e6cc47c57127e6c6f15a1bff61eeb6212cf755c",
+      "bytes": 1640
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\rgb_dilated_mask_policy.hpp",
+      "sha256": "c9c6e5fc9bd4d7c604549d795676501d27374e70779cbce6759184532dd1daed",
+      "bytes": 841
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_training.py",
+      "sha256": "1240a95c10d15877db474d312e419a3986be416a07e1f007232034e4c6023cc7",
+      "bytes": 7439
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_native_test.py",
+      "sha256": "c59f0d51d04417a944fd77818ef6d065f9a88a587a00e02ac2faa171ac28b69c",
+      "bytes": 3334
+    }
+  ],
+  "cases": [
+    {
+      "build": "build_literal_control_v1",
+      "run": "run_literal_control_v1",
+      "target": "literal-test",
+      "core_arm": "control",
+      "expected_morphology": "erode",
+      "native_exit_code": 0,
+      "stdout_suffix": "PASS literal mask tests expected_dilation=0 native_matcher_calls=0 dataset_decodes=0\n",
+      "stderr_exact": ""
+    },
+    {
+      "build": "build_literal_control_red_v1",
+      "run": "run_literal_control_red_v1",
+      "target": "literal-test",
+      "core_arm": "control",
+      "expected_morphology": "dilate",
+      "native_exit_code": 1,
+      "stderr_exact": "FAIL literal morphology acceptance differs\n"
+    },
+    {
+      "build": "build_literal_treatment_v1",
+      "run": "run_literal_treatment_v1",
+      "target": "literal-test",
+      "core_arm": "treatment",
+      "expected_morphology": "dilate",
+      "native_exit_code": 0,
+      "stdout_suffix": "PASS literal mask tests expected_dilation=1 native_matcher_calls=0 dataset_decodes=0\n",
+      "stderr_exact": ""
+    },
+    {
+      "build": "build_source_test_v1",
+      "run": "run_source_test_v1",
+      "target": "source-test",
+      "core_arm": "treatment",
+      "expected_morphology": "dilate",
+      "native_exit_code": 0,
+      "stdout_suffix": "PASS same RGB and official mask pointers; calls=1\n",
+      "stderr_exact": ""
+    }
+  ],
+  "image_decodes": 0,
+  "matcher_calls": 0
+}

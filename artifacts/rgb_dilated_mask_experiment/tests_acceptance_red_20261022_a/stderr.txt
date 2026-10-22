@@ -1,0 +1,29 @@
+test_acceptance_is_separate_and_requires_both_frozen_inputs (__main__.AuditAcceptanceTests.test_acceptance_is_separate_and_requires_both_frozen_inputs) ... FAIL
+test_unrelated_failed_or_stale_audit_is_rejected (__main__.AuditAcceptanceTests.test_unrelated_failed_or_stale_audit_is_rejected) ... FAIL
+
+======================================================================
+FAIL: test_acceptance_is_separate_and_requires_both_frozen_inputs (__main__.AuditAcceptanceTests.test_acceptance_is_separate_and_requires_both_frozen_inputs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_dilated_mask_experiment\test_audit_acceptance.py", line 20, in test_acceptance_is_separate_and_requires_both_frozen_inputs
+    c=self.load_module()
+      ^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_dilated_mask_experiment\test_audit_acceptance.py", line 14, in load_module
+    self.assertTrue(path.is_file(),'missing independent-audit acceptance implementation')
+AssertionError: False is not true : missing independent-audit acceptance implementation
+
+======================================================================
+FAIL: test_unrelated_failed_or_stale_audit_is_rejected (__main__.AuditAcceptanceTests.test_unrelated_failed_or_stale_audit_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_dilated_mask_experiment\test_audit_acceptance.py", line 33, in test_unrelated_failed_or_stale_audit_is_rejected
+    c=self.load_module()
+      ^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\rgb_dilated_mask_experiment\test_audit_acceptance.py", line 14, in load_module
+    self.assertTrue(path.is_file(),'missing independent-audit acceptance implementation')
+AssertionError: False is not true : missing independent-audit acceptance implementation
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

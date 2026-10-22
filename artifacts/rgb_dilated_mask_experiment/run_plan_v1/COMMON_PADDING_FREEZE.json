@@ -1,0 +1,73 @@
+{
+  "version": "rgb_dilated_mask_common_padding_freeze_v1",
+  "passed": true,
+  "bank_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\BANK_FREEZE.json",
+    "sha256": "7c274fbe55ce231c25b309f690e862f0c57190bf74a38f032b6966b19208b394",
+    "bytes": 13946
+  },
+  "plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 832,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      228
+    ],
+    "pixels": 705536.0,
+    "estimated_dynamic_bytes": 361234432.0,
+    "banks": 12,
+    "loaded_layers": 77822.0,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\common_padding_plan.json",
+      "sha256": "6965565bf9c9c745e4cda1bb56cee5d0d02e1f9b310dd65897959eb55d3d8f8a",
+      "bytes": 353
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\loaded_layers.csv",
+      "sha256": "1b488a27884825012d177d434a2c96d7a1db7fef0e3edf9aaf5a83b095efa019",
+      "bytes": 4777030
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\plan_audit.json",
+      "sha256": "63fd6e84f9452e940d813a2f552bf62eb4a385f79e91049ccad138552e97c80c",
+      "bytes": 558
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\execution_provenance.json",
+      "sha256": "d528b6e387214f5945d9da062a446acd276486b2264583ee166ae4fc4a22f11f",
+      "bytes": 2656
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\training_stage_reservations\\plan.json",
+    "sha256": "44044ea29c076215c1c9666c80740b2e33c6f8eba89d94670c9dd7297982c0bd",
+    "bytes": 544
+  },
+  "independent_audit_required": true,
+  "image_decodes": 0,
+  "matcher_calls": 0
+}

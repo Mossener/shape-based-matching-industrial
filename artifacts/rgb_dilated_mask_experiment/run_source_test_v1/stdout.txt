@@ -1,0 +1,1 @@
+PASS same RGB and official mask pointers; calls=1

@@ -1,0 +1,1269 @@
+{
+  "passed": true,
+  "version": "rgb_dilated_mask_independent_training_geometry_audit_v2",
+  "source_seam": {
+    "passed": true,
+    "source_files": 23,
+    "changed_files": [
+      "line2Dup.cpp"
+    ],
+    "original_core_sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+    "treatment_core_sha256": "0cc2f52aa92786c80e3dc90d09e6979e01874435dacbd73b562dc9b90d27dab6",
+    "factor": "per-actual-layer erode-to-dilate, official mask retained"
+  },
+  "objects": [
+    {
+      "object_id": 1,
+      "attempts": 3456,
+      "successful_templates": 3432,
+      "insufficient_features": 24,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3432,
+      "serialized_layers_checked": 6864,
+      "actual_feature_count_range": [
+        5,
+        41
+      ],
+      "minimum_canvas_edge_distance": 11,
+      "control_successful_templates": 2153,
+      "control_failed_treatment_successful": 1279
+    },
+    {
+      "object_id": 2,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        6,
+        40
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 2646,
+      "control_failed_treatment_successful": 810
+    },
+    {
+      "object_id": 5,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        14,
+        40
+      ],
+      "minimum_canvas_edge_distance": 9,
+      "control_successful_templates": 3416,
+      "control_failed_treatment_successful": 40
+    },
+    {
+      "object_id": 8,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        16,
+        37
+      ],
+      "minimum_canvas_edge_distance": 11,
+      "control_successful_templates": 3456,
+      "control_failed_treatment_successful": 0
+    },
+    {
+      "object_id": 12,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        14,
+        43
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 3372,
+      "control_failed_treatment_successful": 84
+    },
+    {
+      "object_id": 17,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        9,
+        39
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 3156,
+      "control_failed_treatment_successful": 300
+    }
+  ],
+  "training_attempts": 20736,
+  "serialized_treatment_layers": 41424,
+  "plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 832,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      228
+    ],
+    "pixels": 705536,
+    "estimated_dynamic_bytes": 361234432,
+    "banks": 12,
+    "loaded_layers": 77822,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  },
+  "input_pins": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "9f0a6fd135716495cb51cde6918a022fd6514e2177941cd453ff6eb19a83f2ff",
+      "bytes": 430260
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PROTOCOL.json": {
+      "sha256": "ee313755ba5fad4311e7f2d80ffcb0fc1277c878cf1735a0d1a92b0b99635b6f",
+      "bytes": 6853
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "c98625c7f83c443577393363f9a1e575148af9668258179efd4caa3936d422e6",
+      "bytes": 429873
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PRIVATE_SOURCE_FREEZE.json": {
+      "sha256": "6187aac5c1ca1b49b0398770ef37740014c0c734bc7102771662a1f2761143d7",
+      "bytes": 8699
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json": {
+      "sha256": "7451fcb34eb445a880232116b0a1965ee51b5d0224069c133aa36c360ad1e4aa",
+      "bytes": 5107
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup.cpp": {
+      "sha256": "0cc2f52aa92786c80e3dc90d09e6979e01874435dacbd73b562dc9b90d27dab6",
+      "bytes": 63389
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\tless_eval.cpp": {
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\tless_eval.cpp": {
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\eval_metrics.hpp": {
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\eval_metrics.hpp": {
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\padding_plan.hpp": {
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\padding_plan.hpp": {
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\BANK_FREEZE.json": {
+      "sha256": "7c274fbe55ce231c25b309f690e862f0c57190bf74a38f032b6966b19208b394",
+      "bytes": 13946
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_summary.json": {
+      "sha256": "a00b314a9257e03f656a734220a83797c11bd906f2914ae222c007fc3a036152",
+      "bytes": 2071
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\COMMON_PADDING_FREEZE.json": {
+      "sha256": "23cda535508f66bb5f5f43649ca1d895b51563e179e96cb219d4e2b68d9385a7",
+      "bytes": 2647
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\feature_geometry.csv": {
+      "sha256": "e5152c53712d2b05f9ed64d644b873489e0e8517b24591a36af066dbfeb8f351",
+      "bytes": 566543
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_attempts.csv": {
+      "sha256": "23f744cccea8d4d4d295b2e14056955bc1fe5167904c5a803852ab18fa35b099",
+      "bytes": 269028
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_metadata.json": {
+      "sha256": "a13bd94e3aa218eeec4e1d92e60f6a0625f608df7002d851fb6fff601cf3b931",
+      "bytes": 1326268
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\templates_tless_object_1.yml.gz": {
+      "sha256": "3a053d30a576e434f4433a3c44b28e6c1f32f7f388f8b33b676cee8fd5218051",
+      "bytes": 840138
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\training_config.json": {
+      "sha256": "3f1dbb346eccd6438489c52b3e376be0f8d0cfefcb5eab28c5a8bd59da8df985",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\feature_geometry.csv": {
+      "sha256": "4f034b05fa6e8c875ecd3ab63b2387194920581d7afbf96a52a824e122cabdba",
+      "bytes": 594462
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_attempts.csv": {
+      "sha256": "14389a8934c175d24532198d24eed5e591525be8f40272cfafed4b8e18678e2d",
+      "bytes": 280000
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_metadata.json": {
+      "sha256": "c842de298d054d177d3f3c790767eba9631160df2c77ef9db82bf091b00038ef",
+      "bytes": 1341880
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\templates_tless_object_12.yml.gz": {
+      "sha256": "c1ef893e1a8675dcaad58437c1a485620e0c2472d0a0b4b2e35b178d78892c3b",
+      "bytes": 950017
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\training_config.json": {
+      "sha256": "4657753317a1ce54f8f25a6b765bdb613001c0a19512e917e2dee5607bd3000e",
+      "bytes": 1470
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\feature_geometry.csv": {
+      "sha256": "7cc2bcc37cdc722165a3dea86a55c0c5548c5834079beb24710126f7066c24f5",
+      "bytes": 604401
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_attempts.csv": {
+      "sha256": "6d0bc1c19dddd7a14c5e3d7c4b4c3c50f6966b38473c72fe3d88d24417b82350",
+      "bytes": 282536
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_metadata.json": {
+      "sha256": "214d9a46421b31611db6ec1523fea05517f793ddc8214de37614572e44ed38c8",
+      "bytes": 1343748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\templates_tless_object_17.yml.gz": {
+      "sha256": "e29fd93ad7f39ba9d21e7a7ed8896c3aa730aa5ab0344f79758a099be19a4a56",
+      "bytes": 961541
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\training_config.json": {
+      "sha256": "3ab114b6c224a3b656f7c07fccde8d949f9367e0b0c03d219dcc9420827de659",
+      "bytes": 1470
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\feature_geometry.csv": {
+      "sha256": "4fa8d504087628cffc854eb23cf718330cb1539660190b23145949d068e77728",
+      "bytes": 575692
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_attempts.csv": {
+      "sha256": "3e6cc5be6ba2021e65ad0037a7e31ab7fc116eedf0e90cb07eca07732ec3d18a",
+      "bytes": 270482
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_metadata.json": {
+      "sha256": "70b63ee18bec3e2f88758620bb3caa6e9cb1a86e8de7fbc3e975b9793c09ca9b",
+      "bytes": 1336550
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\templates_tless_object_2.yml.gz": {
+      "sha256": "b353150b546a1646f8792892b47766773c63f8e8be71711895d0659ee7fb7eb5",
+      "bytes": 872653
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\training_config.json": {
+      "sha256": "de11b334fe72be25fe5c70c3b164743c44fe1359051ceb55fc33b4968a5c2e99",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\feature_geometry.csv": {
+      "sha256": "0880196278ec14ffdd8f70e702ba6ad9738caf4211bcca3e6b15abc496e58d7b",
+      "bytes": 594078
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_attempts.csv": {
+      "sha256": "1352cf4eeeb2eb27e47b7592d1f28b6c1dd1da8884ff9420a6da86a3bb98bc78",
+      "bytes": 278796
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_metadata.json": {
+      "sha256": "2b06df09e8697b859e1735748efcbfc2c708d842625e4b72640fe4888f9767c6",
+      "bytes": 1339908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\templates_tless_object_5.yml.gz": {
+      "sha256": "719a8d23d9667388895c8dad8254e18da35e7bd26d015764a4d16217c52b16a2",
+      "bytes": 963359
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\training_config.json": {
+      "sha256": "4220dbb922d812523a521565c14fc4fc0d1925830122448374da40a0c5d2051e",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\feature_geometry.csv": {
+      "sha256": "b1d7f33a520a24164c9624c13448e9b45eb5fef390646ff278cdd21531dc3b99",
+      "bytes": 612901
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_attempts.csv": {
+      "sha256": "9b6ec95625f5478bd6b0d8446cde5289f13e2e9d98554314859ecad9e96af4de",
+      "bytes": 278833
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_metadata.json": {
+      "sha256": "425c0325528241bf12a34cb7af427b6ba7c8236e905cafafec04ca886eb9710b",
+      "bytes": 1345081
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\templates_tless_object_8.yml.gz": {
+      "sha256": "30e852bae1bfaf40c9e60ca76078fb42f424a45684377192c5ca50c84bef79ff",
+      "bytes": 1014334
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\training_config.json": {
+      "sha256": "919bf54fb86764b2b3baececa826d92ee61b7dcf15da7f50b086d18eb00ef88c",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_audit.json": {
+      "sha256": "959351f08119c9668a8c79889709f33171e7f7b44cfcc8049000547abd69e348",
+      "bytes": 4579
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\template_attempts.csv": {
+      "sha256": "8d8f74f44a16d679af9f3787c58c6df9c40e209f154b7afadd5ca162ae4be570",
+      "bytes": 288224
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\templates_tless_object_1.yml.gz": {
+      "sha256": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e",
+      "bytes": 553232
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\template_attempts.csv": {
+      "sha256": "61372a9a12a37b2a9bf7114fc1821eb343540d25244646ccbe54a9c02147063d",
+      "bytes": 282072
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\templates_tless_object_2.yml.gz": {
+      "sha256": "b149a0e1ea91b99b00e7da7456426fa6a26bf489f786b3f29f70f08ceea506ef",
+      "bytes": 661726
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\template_attempts.csv": {
+      "sha256": "06e12d8c2344391ce8a9ee9926e8395a32a3781ab1f01344fb1f84f426a81664",
+      "bytes": 279417
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\templates_tless_object_5.yml.gz": {
+      "sha256": "cc804f08e51529d45f731fef13f9a770df196fad2157efa711ea9c77933d4656",
+      "bytes": 936016
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\template_attempts.csv": {
+      "sha256": "364e59a2a7b0e9fced7fb7a1d0e8fafaf3a6535fd47fb88c34c1666214ca54d0",
+      "bytes": 278924
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\templates_tless_object_8.yml.gz": {
+      "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7",
+      "bytes": 1015469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\template_attempts.csv": {
+      "sha256": "221d845ca6bb6370d1759ea59d53bbfcc88707b8972367d7856b983f7b16feeb",
+      "bytes": 280828
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\templates_tless_object_12.yml.gz": {
+      "sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "bytes": 893985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\template_attempts.csv": {
+      "sha256": "31e8e776cc26b493fb48da8293f00f8e6883f688bfc69355f1a624e241959100",
+      "bytes": 287815
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\templates_tless_object_17.yml.gz": {
+      "sha256": "72b3c40d30cc138497c3c2cac6e1c7aa74965f416be157ae8c8d5a4dc4bbbcdf",
+      "bytes": 878034
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\loaded_layers.csv": {
+      "sha256": "1b488a27884825012d177d434a2c96d7a1db7fef0e3edf9aaf5a83b095efa019",
+      "bytes": 4777030
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\common_padding_plan.json": {
+      "sha256": "6965565bf9c9c745e4cda1bb56cee5d0d02e1f9b310dd65897959eb55d3d8f8a",
+      "bytes": 353
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\plan_audit.json": {
+      "sha256": "63fd6e84f9452e940d813a2f552bf62eb4a385f79e91049ccad138552e97c80c",
+      "bytes": 558
+    }
+  },
+  "input_pins_after": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "9f0a6fd135716495cb51cde6918a022fd6514e2177941cd453ff6eb19a83f2ff",
+      "bytes": 430260
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PROTOCOL.json": {
+      "sha256": "ee313755ba5fad4311e7f2d80ffcb0fc1277c878cf1735a0d1a92b0b99635b6f",
+      "bytes": 6853
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "c98625c7f83c443577393363f9a1e575148af9668258179efd4caa3936d422e6",
+      "bytes": 429873
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PRIVATE_SOURCE_FREEZE.json": {
+      "sha256": "6187aac5c1ca1b49b0398770ef37740014c0c734bc7102771662a1f2761143d7",
+      "bytes": 8699
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json": {
+      "sha256": "7451fcb34eb445a880232116b0a1965ee51b5d0224069c133aa36c360ad1e4aa",
+      "bytes": 5107
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup.cpp": {
+      "sha256": "0cc2f52aa92786c80e3dc90d09e6979e01874435dacbd73b562dc9b90d27dab6",
+      "bytes": 63389
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\tless_eval.cpp": {
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\tless_eval.cpp": {
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\eval_metrics.hpp": {
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\eval_metrics.hpp": {
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\padding_plan.hpp": {
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\padding_plan.hpp": {
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\BANK_FREEZE.json": {
+      "sha256": "7c274fbe55ce231c25b309f690e862f0c57190bf74a38f032b6966b19208b394",
+      "bytes": 13946
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_summary.json": {
+      "sha256": "a00b314a9257e03f656a734220a83797c11bd906f2914ae222c007fc3a036152",
+      "bytes": 2071
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\COMMON_PADDING_FREEZE.json": {
+      "sha256": "23cda535508f66bb5f5f43649ca1d895b51563e179e96cb219d4e2b68d9385a7",
+      "bytes": 2647
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\feature_geometry.csv": {
+      "sha256": "e5152c53712d2b05f9ed64d644b873489e0e8517b24591a36af066dbfeb8f351",
+      "bytes": 566543
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_attempts.csv": {
+      "sha256": "23f744cccea8d4d4d295b2e14056955bc1fe5167904c5a803852ab18fa35b099",
+      "bytes": 269028
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_metadata.json": {
+      "sha256": "a13bd94e3aa218eeec4e1d92e60f6a0625f608df7002d851fb6fff601cf3b931",
+      "bytes": 1326268
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\templates_tless_object_1.yml.gz": {
+      "sha256": "3a053d30a576e434f4433a3c44b28e6c1f32f7f388f8b33b676cee8fd5218051",
+      "bytes": 840138
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\training_config.json": {
+      "sha256": "3f1dbb346eccd6438489c52b3e376be0f8d0cfefcb5eab28c5a8bd59da8df985",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\feature_geometry.csv": {
+      "sha256": "4f034b05fa6e8c875ecd3ab63b2387194920581d7afbf96a52a824e122cabdba",
+      "bytes": 594462
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_attempts.csv": {
+      "sha256": "14389a8934c175d24532198d24eed5e591525be8f40272cfafed4b8e18678e2d",
+      "bytes": 280000
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_metadata.json": {
+      "sha256": "c842de298d054d177d3f3c790767eba9631160df2c77ef9db82bf091b00038ef",
+      "bytes": 1341880
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\templates_tless_object_12.yml.gz": {
+      "sha256": "c1ef893e1a8675dcaad58437c1a485620e0c2472d0a0b4b2e35b178d78892c3b",
+      "bytes": 950017
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\training_config.json": {
+      "sha256": "4657753317a1ce54f8f25a6b765bdb613001c0a19512e917e2dee5607bd3000e",
+      "bytes": 1470
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\feature_geometry.csv": {
+      "sha256": "7cc2bcc37cdc722165a3dea86a55c0c5548c5834079beb24710126f7066c24f5",
+      "bytes": 604401
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_attempts.csv": {
+      "sha256": "6d0bc1c19dddd7a14c5e3d7c4b4c3c50f6966b38473c72fe3d88d24417b82350",
+      "bytes": 282536
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_metadata.json": {
+      "sha256": "214d9a46421b31611db6ec1523fea05517f793ddc8214de37614572e44ed38c8",
+      "bytes": 1343748
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\templates_tless_object_17.yml.gz": {
+      "sha256": "e29fd93ad7f39ba9d21e7a7ed8896c3aa730aa5ab0344f79758a099be19a4a56",
+      "bytes": 961541
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\training_config.json": {
+      "sha256": "3ab114b6c224a3b656f7c07fccde8d949f9367e0b0c03d219dcc9420827de659",
+      "bytes": 1470
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\feature_geometry.csv": {
+      "sha256": "4fa8d504087628cffc854eb23cf718330cb1539660190b23145949d068e77728",
+      "bytes": 575692
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_attempts.csv": {
+      "sha256": "3e6cc5be6ba2021e65ad0037a7e31ab7fc116eedf0e90cb07eca07732ec3d18a",
+      "bytes": 270482
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_metadata.json": {
+      "sha256": "70b63ee18bec3e2f88758620bb3caa6e9cb1a86e8de7fbc3e975b9793c09ca9b",
+      "bytes": 1336550
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\templates_tless_object_2.yml.gz": {
+      "sha256": "b353150b546a1646f8792892b47766773c63f8e8be71711895d0659ee7fb7eb5",
+      "bytes": 872653
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\training_config.json": {
+      "sha256": "de11b334fe72be25fe5c70c3b164743c44fe1359051ceb55fc33b4968a5c2e99",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\feature_geometry.csv": {
+      "sha256": "0880196278ec14ffdd8f70e702ba6ad9738caf4211bcca3e6b15abc496e58d7b",
+      "bytes": 594078
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_attempts.csv": {
+      "sha256": "1352cf4eeeb2eb27e47b7592d1f28b6c1dd1da8884ff9420a6da86a3bb98bc78",
+      "bytes": 278796
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_metadata.json": {
+      "sha256": "2b06df09e8697b859e1735748efcbfc2c708d842625e4b72640fe4888f9767c6",
+      "bytes": 1339908
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\templates_tless_object_5.yml.gz": {
+      "sha256": "719a8d23d9667388895c8dad8254e18da35e7bd26d015764a4d16217c52b16a2",
+      "bytes": 963359
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\training_config.json": {
+      "sha256": "4220dbb922d812523a521565c14fc4fc0d1925830122448374da40a0c5d2051e",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\feature_geometry.csv": {
+      "sha256": "b1d7f33a520a24164c9624c13448e9b45eb5fef390646ff278cdd21531dc3b99",
+      "bytes": 612901
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_attempts.csv": {
+      "sha256": "9b6ec95625f5478bd6b0d8446cde5289f13e2e9d98554314859ecad9e96af4de",
+      "bytes": 278833
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_metadata.json": {
+      "sha256": "425c0325528241bf12a34cb7af427b6ba7c8236e905cafafec04ca886eb9710b",
+      "bytes": 1345081
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\templates_tless_object_8.yml.gz": {
+      "sha256": "30e852bae1bfaf40c9e60ca76078fb42f424a45684377192c5ca50c84bef79ff",
+      "bytes": 1014334
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\training_config.json": {
+      "sha256": "919bf54fb86764b2b3baececa826d92ee61b7dcf15da7f50b086d18eb00ef88c",
+      "bytes": 1469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_audit.json": {
+      "sha256": "959351f08119c9668a8c79889709f33171e7f7b44cfcc8049000547abd69e348",
+      "bytes": 4579
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\template_attempts.csv": {
+      "sha256": "8d8f74f44a16d679af9f3787c58c6df9c40e209f154b7afadd5ca162ae4be570",
+      "bytes": 288224
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\templates_tless_object_1.yml.gz": {
+      "sha256": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e",
+      "bytes": 553232
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\template_attempts.csv": {
+      "sha256": "61372a9a12a37b2a9bf7114fc1821eb343540d25244646ccbe54a9c02147063d",
+      "bytes": 282072
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\templates_tless_object_2.yml.gz": {
+      "sha256": "b149a0e1ea91b99b00e7da7456426fa6a26bf489f786b3f29f70f08ceea506ef",
+      "bytes": 661726
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\template_attempts.csv": {
+      "sha256": "06e12d8c2344391ce8a9ee9926e8395a32a3781ab1f01344fb1f84f426a81664",
+      "bytes": 279417
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\templates_tless_object_5.yml.gz": {
+      "sha256": "cc804f08e51529d45f731fef13f9a770df196fad2157efa711ea9c77933d4656",
+      "bytes": 936016
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\template_attempts.csv": {
+      "sha256": "364e59a2a7b0e9fced7fb7a1d0e8fafaf3a6535fd47fb88c34c1666214ca54d0",
+      "bytes": 278924
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\templates_tless_object_8.yml.gz": {
+      "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7",
+      "bytes": 1015469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\template_attempts.csv": {
+      "sha256": "221d845ca6bb6370d1759ea59d53bbfcc88707b8972367d7856b983f7b16feeb",
+      "bytes": 280828
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\templates_tless_object_12.yml.gz": {
+      "sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "bytes": 893985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\template_attempts.csv": {
+      "sha256": "31e8e776cc26b493fb48da8293f00f8e6883f688bfc69355f1a624e241959100",
+      "bytes": 287815
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\templates_tless_object_17.yml.gz": {
+      "sha256": "72b3c40d30cc138497c3c2cac6e1c7aa74965f416be157ae8c8d5a4dc4bbbcdf",
+      "bytes": 878034
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\loaded_layers.csv": {
+      "sha256": "1b488a27884825012d177d434a2c96d7a1db7fef0e3edf9aaf5a83b095efa019",
+      "bytes": 4777030
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\common_padding_plan.json": {
+      "sha256": "6965565bf9c9c745e4cda1bb56cee5d0d02e1f9b310dd65897959eb55d3d8f8a",
+      "bytes": 353
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\plan_audit.json": {
+      "sha256": "63fd6e84f9452e940d813a2f552bf62eb4a385f79e91049ccad138552e97c80c",
+      "bytes": 558
+    }
+  },
+  "inputs_unchanged_before_after": true,
+  "audit_source_pins": {
+    "audit.py": {
+      "sha256": "43f6cf5329cfeaca6560185cd7f9dce4de04057e626f72f5f9991d0223b31d63",
+      "bytes": 24962
+    },
+    "audit_v2.py": {
+      "sha256": "e96d9c20848646c640dacf4b670c6bc5f0a2929aa6e8363bec788e9494ab9bf8",
+      "bytes": 25707
+    },
+    "bank_reader.py": {
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80",
+      "bytes": 3670
+    },
+    "ORIGIN.json": {
+      "sha256": "e25555bd9904ba78f82243c38a0fe39f2adb4e28551ae74071c98874f713532b",
+      "bytes": 1293
+    },
+    "ORIGIN_V2.json": {
+      "sha256": "944fc429076c1d645cf2535796e69c53ead8488d6cdb65cfdd0c524b56b9d2b1",
+      "bytes": 1160
+    },
+    "test_bank.py": {
+      "sha256": "0bc764ff73d010f4bc0a41f328dec1ed97fe56e69a3e5df02888c1a28ade4e2d",
+      "bytes": 3310
+    },
+    "test_numeric.py": {
+      "sha256": "df81db5e9bf2b6730ab808833254c6a5856cd63d7bb178fe14b7b4a08bdd8a51",
+      "bytes": 7028
+    },
+    "test_scope_and_seam.py": {
+      "sha256": "b2e55738d4931bd79292b09db8ee2fea4f5c645eaa5a55fef25aa26ffc9a730a",
+      "bytes": 7590
+    },
+    "test_v2_schema.py": {
+      "sha256": "dd84e84acb27476c71697cfa8691cded6fa57bbdd2a41223425aa1880040ca63",
+      "bytes": 5340
+    },
+    "training_numeric.py": {
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889",
+      "bytes": 6072
+    }
+  },
+  "image_files_opened": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "reported_training_freeze_image_decodes": 864,
+  "counter_note": "432 RGB training views plus 432 official mask inputs imply 864 native decode operations; audit itself reads no image bytes or pixels.",
+  "limitation": "Numeric serialized evidence only; does not independently re-extract pixels, observe failed partial features, establish SIMD safety or prove quality/speed gains."
+}

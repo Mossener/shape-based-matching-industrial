@@ -1,0 +1,4115 @@
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 0 attempts 48 successful 48
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 6 attempts 96 successful 96
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 12 attempts 144 successful 144
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 21 attempts 192 successful 192
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 29 attempts 240 successful 240
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 36 attempts 288 successful 288
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 42 attempts 336 successful 336
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 49 attempts 384 successful 384
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 57 attempts 432 successful 432
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 65 attempts 480 successful 480
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 169 attempts 528 successful 528
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 176 attempts 576 successful 576
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 212 attempts 624 successful 624
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 233 attempts 672 successful 672
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 262 attempts 720 successful 720
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 269 attempts 768 successful 768
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 275 attempts 816 successful 816
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 289 attempts 864 successful 864
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 297 attempts 912 successful 912
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 317 attempts 960 successful 960
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 326 attempts 1008 successful 1008
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 353 attempts 1056 successful 1056
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 383 attempts 1104 successful 1104
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 437 attempts 1152 successful 1152
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 445 attempts 1200 successful 1200
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 464 attempts 1248 successful 1248
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 474 attempts 1296 successful 1296
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 481 attempts 1344 successful 1344
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 492 attempts 1392 successful 1392
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 500 attempts 1440 successful 1440
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 522 attempts 1488 successful 1488
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 558 attempts 1536 successful 1536
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 584 attempts 1584 successful 1584
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 603 attempts 1632 successful 1632
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 611 attempts 1680 successful 1680
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 621 attempts 1728 successful 1728
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 639 attempts 1776 successful 1776
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 647 attempts 1824 successful 1824
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 651 attempts 1872 successful 1872
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 659 attempts 1920 successful 1920
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 687 attempts 1968 successful 1968
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 695 attempts 2016 successful 2016
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 705 attempts 2064 successful 2064
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 740 attempts 2112 successful 2112
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 750 attempts 2160 successful 2160
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 786 attempts 2208 successful 2208
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 889 attempts 2256 successful 2256
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 899 attempts 2304 successful 2304
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 910 attempts 2352 successful 2352
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 925 attempts 2400 successful 2400
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 935 attempts 2448 successful 2448
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 940 attempts 2496 successful 2496
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 950 attempts 2544 successful 2544
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 955 attempts 2592 successful 2592
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 976 attempts 2640 successful 2640
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 987 attempts 2688 successful 2688
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1038 attempts 2736 successful 2736
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1074 attempts 2784 successful 2784
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1088 attempts 2832 successful 2832
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1103 attempts 2880 successful 2880
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1124 attempts 2928 successful 2928
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1139 attempts 2976 successful 2976
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1228 attempts 3024 successful 3024
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1236 attempts 3072 successful 3072
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1242 attempts 3120 successful 3116
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1251 attempts 3168 successful 3164
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1257 attempts 3216 successful 3212
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1264 attempts 3264 successful 3260
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1272 attempts 3312 successful 3308
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1278 attempts 3360 successful 3348
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1287 attempts 3408 successful 3392
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+too few features, abort
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 1 image 1293 attempts 3456 successful 3432
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 0 attempts 48 successful 48
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 8 attempts 96 successful 96
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 15 attempts 144 successful 144
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 23 attempts 192 successful 192
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 29 attempts 240 successful 240
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 36 attempts 288 successful 288
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 44 attempts 336 successful 336
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 51 attempts 384 successful 384
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 59 attempts 432 successful 432
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 66 attempts 480 successful 480
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 148 attempts 528 successful 528
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 176 attempts 576 successful 576
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 184 attempts 624 successful 624
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 234 attempts 672 successful 672
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 242 attempts 720 successful 720
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 270 attempts 768 successful 768
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 278 attempts 816 successful 816
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 297 attempts 864 successful 864
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 323 attempts 912 successful 912
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 332 attempts 960 successful 960
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 359 attempts 1008 successful 1008
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 375 attempts 1056 successful 1056
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 410 attempts 1104 successful 1104
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 437 attempts 1152 successful 1152
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 456 attempts 1200 successful 1200
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 463 attempts 1248 successful 1248
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 492 attempts 1296 successful 1296
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 499 attempts 1344 successful 1344
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 523 attempts 1392 successful 1392
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 559 attempts 1440 successful 1440
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 578 attempts 1488 successful 1488
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 586 attempts 1536 successful 1536
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 604 attempts 1584 successful 1584
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 614 attempts 1632 successful 1632
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 622 attempts 1680 successful 1680
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 640 attempts 1728 successful 1728
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 648 attempts 1776 successful 1776
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 663 attempts 1824 successful 1824
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 670 attempts 1872 successful 1872
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 676 attempts 1920 successful 1920
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 684 attempts 1968 successful 1968
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 699 attempts 2016 successful 2016
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 706 attempts 2064 successful 2064
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 712 attempts 2112 successful 2112
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 728 attempts 2160 successful 2160
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 764 attempts 2208 successful 2208
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 824 attempts 2256 successful 2256
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 860 attempts 2304 successful 2304
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 867 attempts 2352 successful 2352
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 882 attempts 2400 successful 2400
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 903 attempts 2448 successful 2448
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 918 attempts 2496 successful 2496
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 962 attempts 2544 successful 2544
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 998 attempts 2592 successful 2592
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1008 attempts 2640 successful 2640
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1016 attempts 2688 successful 2688
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1022 attempts 2736 successful 2736
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1044 attempts 2784 successful 2784
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1052 attempts 2832 successful 2832
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1058 attempts 2880 successful 2880
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1109 attempts 2928 successful 2928
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1145 attempts 2976 successful 2976
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1170 attempts 3024 successful 3024
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1206 attempts 3072 successful 3072
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1227 attempts 3120 successful 3120
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1235 attempts 3168 successful 3168
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1250 attempts 3216 successful 3216
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1256 attempts 3264 successful 3264
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1263 attempts 3312 successful 3312
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1271 attempts 3360 successful 3360
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1286 attempts 3408 successful 3408
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 2 image 1293 attempts 3456 successful 3456
+RGB_DILATED_MASK_TRAIN object 5 image 0 attempts 48 successful 48
+RGB_DILATED_MASK_TRAIN object 5 image 9 attempts 96 successful 96
+RGB_DILATED_MASK_TRAIN object 5 image 17 attempts 144 successful 144
+RGB_DILATED_MASK_TRAIN object 5 image 26 attempts 192 successful 192
+RGB_DILATED_MASK_TRAIN object 5 image 36 attempts 240 successful 240
+RGB_DILATED_MASK_TRAIN object 5 image 45 attempts 288 successful 288
+RGB_DILATED_MASK_TRAIN object 5 image 53 attempts 336 successful 336
+RGB_DILATED_MASK_TRAIN object 5 image 62 attempts 384 successful 384
+RGB_DILATED_MASK_TRAIN object 5 image 149 attempts 432 successful 432
+RGB_DILATED_MASK_TRAIN object 5 image 157 attempts 480 successful 480
+RGB_DILATED_MASK_TRAIN object 5 image 166 attempts 528 successful 528
+RGB_DILATED_MASK_TRAIN object 5 image 176 attempts 576 successful 576
+RGB_DILATED_MASK_TRAIN object 5 image 184 attempts 624 successful 624
+RGB_DILATED_MASK_TRAIN object 5 image 193 attempts 672 successful 672
+RGB_DILATED_MASK_TRAIN object 5 image 202 attempts 720 successful 720
+RGB_DILATED_MASK_TRAIN object 5 image 212 attempts 768 successful 768
+RGB_DILATED_MASK_TRAIN object 5 image 288 attempts 816 successful 816
+RGB_DILATED_MASK_TRAIN object 5 image 297 attempts 864 successful 864
+RGB_DILATED_MASK_TRAIN object 5 image 306 attempts 912 successful 912
+RGB_DILATED_MASK_TRAIN object 5 image 315 attempts 960 successful 960
+RGB_DILATED_MASK_TRAIN object 5 image 324 attempts 1008 successful 1008
+RGB_DILATED_MASK_TRAIN object 5 image 333 attempts 1056 successful 1056
+RGB_DILATED_MASK_TRAIN object 5 image 342 attempts 1104 successful 1104
+RGB_DILATED_MASK_TRAIN object 5 image 351 attempts 1152 successful 1152
+RGB_DILATED_MASK_TRAIN object 5 image 438 attempts 1200 successful 1200
+RGB_DILATED_MASK_TRAIN object 5 image 455 attempts 1248 successful 1248
+RGB_DILATED_MASK_TRAIN object 5 image 482 attempts 1296 successful 1296
+RGB_DILATED_MASK_TRAIN object 5 image 491 attempts 1344 successful 1344
+RGB_DILATED_MASK_TRAIN object 5 image 578 attempts 1392 successful 1392
+RGB_DILATED_MASK_TRAIN object 5 image 587 attempts 1440 successful 1440
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 5 image 595 attempts 1488 successful 1488
+RGB_DILATED_MASK_TRAIN object 5 image 605 attempts 1536 successful 1536
+RGB_DILATED_MASK_TRAIN object 5 image 614 attempts 1584 successful 1584
+RGB_DILATED_MASK_TRAIN object 5 image 622 attempts 1632 successful 1632
+RGB_DILATED_MASK_TRAIN object 5 image 631 attempts 1680 successful 1680
+RGB_DILATED_MASK_TRAIN object 5 image 641 attempts 1728 successful 1728
+RGB_DILATED_MASK_TRAIN object 5 image 652 attempts 1776 successful 1776
+RGB_DILATED_MASK_TRAIN object 5 image 661 attempts 1824 successful 1824
+RGB_DILATED_MASK_TRAIN object 5 image 670 attempts 1872 successful 1872
+RGB_DILATED_MASK_TRAIN object 5 image 678 attempts 1920 successful 1920
+RGB_DILATED_MASK_TRAIN object 5 image 687 attempts 1968 successful 1968
+RGB_DILATED_MASK_TRAIN object 5 image 696 attempts 2016 successful 2016
+RGB_DILATED_MASK_TRAIN object 5 image 707 attempts 2064 successful 2064
+RGB_DILATED_MASK_TRAIN object 5 image 716 attempts 2112 successful 2112
+RGB_DILATED_MASK_TRAIN object 5 image 792 attempts 2160 successful 2160
+RGB_DILATED_MASK_TRAIN object 5 image 801 attempts 2208 successful 2208
+RGB_DILATED_MASK_TRAIN object 5 image 809 attempts 2256 successful 2256
+RGB_DILATED_MASK_TRAIN object 5 image 818 attempts 2304 successful 2304
+RGB_DILATED_MASK_TRAIN object 5 image 827 attempts 2352 successful 2352
+RGB_DILATED_MASK_TRAIN object 5 image 836 attempts 2400 successful 2400
+RGB_DILATED_MASK_TRAIN object 5 image 846 attempts 2448 successful 2448
+RGB_DILATED_MASK_TRAIN object 5 image 855 attempts 2496 successful 2496
+RGB_DILATED_MASK_TRAIN object 5 image 940 attempts 2544 successful 2544
+RGB_DILATED_MASK_TRAIN object 5 image 949 attempts 2592 successful 2592
+RGB_DILATED_MASK_TRAIN object 5 image 958 attempts 2640 successful 2640
+RGB_DILATED_MASK_TRAIN object 5 image 967 attempts 2688 successful 2688
+RGB_DILATED_MASK_TRAIN object 5 image 976 attempts 2736 successful 2736
+RGB_DILATED_MASK_TRAIN object 5 image 985 attempts 2784 successful 2784
+RGB_DILATED_MASK_TRAIN object 5 image 995 attempts 2832 successful 2832
+RGB_DILATED_MASK_TRAIN object 5 image 1004 attempts 2880 successful 2880
+RGB_DILATED_MASK_TRAIN object 5 image 1088 attempts 2928 successful 2928
+RGB_DILATED_MASK_TRAIN object 5 image 1115 attempts 2976 successful 2976
+RGB_DILATED_MASK_TRAIN object 5 image 1124 attempts 3024 successful 3024
+RGB_DILATED_MASK_TRAIN object 5 image 1133 attempts 3072 successful 3072
+RGB_DILATED_MASK_TRAIN object 5 image 1228 attempts 3120 successful 3120
+RGB_DILATED_MASK_TRAIN object 5 image 1238 attempts 3168 successful 3168
+RGB_DILATED_MASK_TRAIN object 5 image 1247 attempts 3216 successful 3216
+RGB_DILATED_MASK_TRAIN object 5 image 1255 attempts 3264 successful 3264
+RGB_DILATED_MASK_TRAIN object 5 image 1264 attempts 3312 successful 3312
+RGB_DILATED_MASK_TRAIN object 5 image 1272 attempts 3360 successful 3360
+RGB_DILATED_MASK_TRAIN object 5 image 1281 attempts 3408 successful 3408
+RGB_DILATED_MASK_TRAIN object 5 image 1290 attempts 3456 successful 3456
+RGB_DILATED_MASK_TRAIN object 8 image 0 attempts 48 successful 48
+RGB_DILATED_MASK_TRAIN object 8 image 6 attempts 96 successful 96
+RGB_DILATED_MASK_TRAIN object 8 image 12 attempts 144 successful 144
+RGB_DILATED_MASK_TRAIN object 8 image 21 attempts 192 successful 192
+RGB_DILATED_MASK_TRAIN object 8 image 29 attempts 240 successful 240
+RGB_DILATED_MASK_TRAIN object 8 image 36 attempts 288 successful 288
+RGB_DILATED_MASK_TRAIN object 8 image 42 attempts 336 successful 336
+RGB_DILATED_MASK_TRAIN object 8 image 48 attempts 384 successful 384
+RGB_DILATED_MASK_TRAIN object 8 image 57 attempts 432 successful 432
+RGB_DILATED_MASK_TRAIN object 8 image 65 attempts 480 successful 480
+RGB_DILATED_MASK_TRAIN object 8 image 177 attempts 528 successful 528
+RGB_DILATED_MASK_TRAIN object 8 image 213 attempts 576 successful 576
+RGB_DILATED_MASK_TRAIN object 8 image 233 attempts 624 successful 624
+RGB_DILATED_MASK_TRAIN object 8 image 239 attempts 672 successful 672
+RGB_DILATED_MASK_TRAIN object 8 image 269 attempts 720 successful 720
+RGB_DILATED_MASK_TRAIN object 8 image 275 attempts 768 successful 768
+RGB_DILATED_MASK_TRAIN object 8 image 288 attempts 816 successful 816
+RGB_DILATED_MASK_TRAIN object 8 image 296 attempts 864 successful 864
+RGB_DILATED_MASK_TRAIN object 8 image 316 attempts 912 successful 912
+RGB_DILATED_MASK_TRAIN object 8 image 324 attempts 960 successful 960
+RGB_DILATED_MASK_TRAIN object 8 image 332 attempts 1008 successful 1008
+RGB_DILATED_MASK_TRAIN object 8 image 352 attempts 1056 successful 1056
+RGB_DILATED_MASK_TRAIN object 8 image 436 attempts 1104 successful 1104
+RGB_DILATED_MASK_TRAIN object 8 image 445 attempts 1152 successful 1152
+RGB_DILATED_MASK_TRAIN object 8 image 456 attempts 1200 successful 1200
+RGB_DILATED_MASK_TRAIN object 8 image 464 attempts 1248 successful 1248
+RGB_DILATED_MASK_TRAIN object 8 image 472 attempts 1296 successful 1296
+RGB_DILATED_MASK_TRAIN object 8 image 481 attempts 1344 successful 1344
+RGB_DILATED_MASK_TRAIN object 8 image 500 attempts 1392 successful 1392
+RGB_DILATED_MASK_TRAIN object 8 image 522 attempts 1440 successful 1440
+RGB_DILATED_MASK_TRAIN object 8 image 558 attempts 1488 successful 1488
+RGB_DILATED_MASK_TRAIN object 8 image 583 attempts 1536 successful 1536
+RGB_DILATED_MASK_TRAIN object 8 image 602 attempts 1584 successful 1584
+RGB_DILATED_MASK_TRAIN object 8 image 610 attempts 1632 successful 1632
+RGB_DILATED_MASK_TRAIN object 8 image 619 attempts 1680 successful 1680
+RGB_DILATED_MASK_TRAIN object 8 image 638 attempts 1728 successful 1728
+RGB_DILATED_MASK_TRAIN object 8 image 646 attempts 1776 successful 1776
+RGB_DILATED_MASK_TRAIN object 8 image 664 attempts 1824 successful 1824
+RGB_DILATED_MASK_TRAIN object 8 image 675 attempts 1872 successful 1872
+RGB_DILATED_MASK_TRAIN object 8 image 683 attempts 1920 successful 1920
+RGB_DILATED_MASK_TRAIN object 8 image 700 attempts 1968 successful 1968
+RGB_DILATED_MASK_TRAIN object 8 image 711 attempts 2016 successful 2016
+RGB_DILATED_MASK_TRAIN object 8 image 719 attempts 2064 successful 2064
+RGB_DILATED_MASK_TRAIN object 8 image 727 attempts 2112 successful 2112
+RGB_DILATED_MASK_TRAIN object 8 image 741 attempts 2160 successful 2160
+RGB_DILATED_MASK_TRAIN object 8 image 763 attempts 2208 successful 2208
+RGB_DILATED_MASK_TRAIN object 8 image 777 attempts 2256 successful 2256
+RGB_DILATED_MASK_TRAIN object 8 image 805 attempts 2304 successful 2304
+RGB_DILATED_MASK_TRAIN object 8 image 841 attempts 2352 successful 2352
+RGB_DILATED_MASK_TRAIN object 8 image 866 attempts 2400 successful 2400
+RGB_DILATED_MASK_TRAIN object 8 image 953 attempts 2448 successful 2448
+RGB_DILATED_MASK_TRAIN object 8 image 961 attempts 2496 successful 2496
+RGB_DILATED_MASK_TRAIN object 8 image 969 attempts 2544 successful 2544
+RGB_DILATED_MASK_TRAIN object 8 image 975 attempts 2592 successful 2592
+RGB_DILATED_MASK_TRAIN object 8 image 989 attempts 2640 successful 2640
+RGB_DILATED_MASK_TRAIN object 8 image 997 attempts 2688 successful 2688
+RGB_DILATED_MASK_TRAIN object 8 image 1005 attempts 2736 successful 2736
+RGB_DILATED_MASK_TRAIN object 8 image 1016 attempts 2784 successful 2784
+RGB_DILATED_MASK_TRAIN object 8 image 1052 attempts 2832 successful 2832
+RGB_DILATED_MASK_TRAIN object 8 image 1080 attempts 2880 successful 2880
+RGB_DILATED_MASK_TRAIN object 8 image 1108 attempts 2928 successful 2928
+RGB_DILATED_MASK_TRAIN object 8 image 1145 attempts 2976 successful 2976
+RGB_DILATED_MASK_TRAIN object 8 image 1228 attempts 3024 successful 3024
+RGB_DILATED_MASK_TRAIN object 8 image 1237 attempts 3072 successful 3072
+RGB_DILATED_MASK_TRAIN object 8 image 1243 attempts 3120 successful 3120
+RGB_DILATED_MASK_TRAIN object 8 image 1249 attempts 3168 successful 3168
+RGB_DILATED_MASK_TRAIN object 8 image 1256 attempts 3216 successful 3216
+RGB_DILATED_MASK_TRAIN object 8 image 1264 attempts 3264 successful 3264
+RGB_DILATED_MASK_TRAIN object 8 image 1273 attempts 3312 successful 3312
+RGB_DILATED_MASK_TRAIN object 8 image 1279 attempts 3360 successful 3360
+RGB_DILATED_MASK_TRAIN object 8 image 1285 attempts 3408 successful 3408
+RGB_DILATED_MASK_TRAIN object 8 image 1293 attempts 3456 successful 3456
+RGB_DILATED_MASK_TRAIN object 12 image 0 attempts 48 successful 48
+RGB_DILATED_MASK_TRAIN object 12 image 6 attempts 96 successful 96
+RGB_DILATED_MASK_TRAIN object 12 image 12 attempts 144 successful 144
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 12 image 21 attempts 192 successful 192
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 12 image 29 attempts 240 successful 240
+RGB_DILATED_MASK_TRAIN object 12 image 36 attempts 288 successful 288
+RGB_DILATED_MASK_TRAIN object 12 image 51 attempts 336 successful 336
+RGB_DILATED_MASK_TRAIN object 12 image 59 attempts 384 successful 384
+RGB_DILATED_MASK_TRAIN object 12 image 66 attempts 432 successful 432
+RGB_DILATED_MASK_TRAIN object 12 image 115 attempts 480 successful 480
+RGB_DILATED_MASK_TRAIN object 12 image 147 attempts 528 successful 528
+RGB_DILATED_MASK_TRAIN object 12 image 176 attempts 576 successful 576
+RGB_DILATED_MASK_TRAIN object 12 image 232 attempts 624 successful 624
+RGB_DILATED_MASK_TRAIN object 12 image 238 attempts 672 successful 672
+RGB_DILATED_MASK_TRAIN object 12 image 272 attempts 720 successful 720
+RGB_DILATED_MASK_TRAIN object 12 image 278 attempts 768 successful 768
+RGB_DILATED_MASK_TRAIN object 12 image 296 attempts 816 successful 816
+RGB_DILATED_MASK_TRAIN object 12 image 316 attempts 864 successful 864
+RGB_DILATED_MASK_TRAIN object 12 image 324 attempts 912 successful 912
+RGB_DILATED_MASK_TRAIN object 12 image 339 attempts 960 successful 960
+RGB_DILATED_MASK_TRAIN object 12 image 359 attempts 1008 successful 1008
+RGB_DILATED_MASK_TRAIN object 12 image 373 attempts 1056 successful 1056
+RGB_DILATED_MASK_TRAIN object 12 image 403 attempts 1104 successful 1104
+RGB_DILATED_MASK_TRAIN object 12 image 419 attempts 1152 successful 1152
+RGB_DILATED_MASK_TRAIN object 12 image 435 attempts 1200 successful 1200
+RGB_DILATED_MASK_TRAIN object 12 image 455 attempts 1248 successful 1248
+RGB_DILATED_MASK_TRAIN object 12 image 463 attempts 1296 successful 1296
+RGB_DILATED_MASK_TRAIN object 12 image 499 attempts 1344 successful 1344
+RGB_DILATED_MASK_TRAIN object 12 image 522 attempts 1392 successful 1392
+RGB_DILATED_MASK_TRAIN object 12 image 559 attempts 1440 successful 1440
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 12 image 585 attempts 1488 successful 1488
+RGB_DILATED_MASK_TRAIN object 12 image 602 attempts 1536 successful 1536
+RGB_DILATED_MASK_TRAIN object 12 image 610 attempts 1584 successful 1584
+RGB_DILATED_MASK_TRAIN object 12 image 617 attempts 1632 successful 1632
+RGB_DILATED_MASK_TRAIN object 12 image 623 attempts 1680 successful 1680
+RGB_DILATED_MASK_TRAIN object 12 image 639 attempts 1728 successful 1728
+RGB_DILATED_MASK_TRAIN object 12 image 647 attempts 1776 successful 1776
+RGB_DILATED_MASK_TRAIN object 12 image 655 attempts 1824 successful 1824
+RGB_DILATED_MASK_TRAIN object 12 image 662 attempts 1872 successful 1872
+RGB_DILATED_MASK_TRAIN object 12 image 668 attempts 1920 successful 1920
+RGB_DILATED_MASK_TRAIN object 12 image 676 attempts 1968 successful 1968
+RGB_DILATED_MASK_TRAIN object 12 image 701 attempts 2016 successful 2016
+RGB_DILATED_MASK_TRAIN object 12 image 711 attempts 2064 successful 2064
+RGB_DILATED_MASK_TRAIN object 12 image 720 attempts 2112 successful 2112
+RGB_DILATED_MASK_TRAIN object 12 image 757 attempts 2160 successful 2160
+RGB_DILATED_MASK_TRAIN object 12 image 765 attempts 2208 successful 2208
+RGB_DILATED_MASK_TRAIN object 12 image 842 attempts 2256 successful 2256
+RGB_DILATED_MASK_TRAIN object 12 image 850 attempts 2304 successful 2304
+RGB_DILATED_MASK_TRAIN object 12 image 859 attempts 2352 successful 2352
+RGB_DILATED_MASK_TRAIN object 12 image 874 attempts 2400 successful 2400
+RGB_DILATED_MASK_TRAIN object 12 image 895 attempts 2448 successful 2448
+RGB_DILATED_MASK_TRAIN object 12 image 904 attempts 2496 successful 2496
+RGB_DILATED_MASK_TRAIN object 12 image 954 attempts 2544 successful 2544
+RGB_DILATED_MASK_TRAIN object 12 image 962 attempts 2592 successful 2592
+RGB_DILATED_MASK_TRAIN object 12 image 989 attempts 2640 successful 2640
+RGB_DILATED_MASK_TRAIN object 12 image 998 attempts 2688 successful 2688
+RGB_DILATED_MASK_TRAIN object 12 image 1013 attempts 2736 successful 2736
+RGB_DILATED_MASK_TRAIN object 12 image 1044 attempts 2784 successful 2784
+RGB_DILATED_MASK_TRAIN object 12 image 1052 attempts 2832 successful 2832
+RGB_DILATED_MASK_TRAIN object 12 image 1078 attempts 2880 successful 2880
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 12 image 1102 attempts 2928 successful 2928
+RGB_DILATED_MASK_TRAIN object 12 image 1110 attempts 2976 successful 2976
+RGB_DILATED_MASK_TRAIN object 12 image 1162 attempts 3024 successful 3024
+RGB_DILATED_MASK_TRAIN object 12 image 1227 attempts 3072 successful 3072
+RGB_DILATED_MASK_TRAIN object 12 image 1242 attempts 3120 successful 3120
+RGB_DILATED_MASK_TRAIN object 12 image 1249 attempts 3168 successful 3168
+RGB_DILATED_MASK_TRAIN object 12 image 1257 attempts 3216 successful 3216
+RGB_DILATED_MASK_TRAIN object 12 image 1265 attempts 3264 successful 3264
+RGB_DILATED_MASK_TRAIN object 12 image 1271 attempts 3312 successful 3312
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 12 image 1278 attempts 3360 successful 3360
+RGB_DILATED_MASK_TRAIN object 12 image 1284 attempts 3408 successful 3408
+RGB_DILATED_MASK_TRAIN object 12 image 1290 attempts 3456 successful 3456
+RGB_DILATED_MASK_TRAIN object 17 image 0 attempts 48 successful 48
+RGB_DILATED_MASK_TRAIN object 17 image 8 attempts 96 successful 96
+RGB_DILATED_MASK_TRAIN object 17 image 15 attempts 144 successful 144
+RGB_DILATED_MASK_TRAIN object 17 image 24 attempts 192 successful 192
+RGB_DILATED_MASK_TRAIN object 17 image 30 attempts 240 successful 240
+RGB_DILATED_MASK_TRAIN object 17 image 36 attempts 288 successful 288
+RGB_DILATED_MASK_TRAIN object 17 image 43 attempts 336 successful 336
+RGB_DILATED_MASK_TRAIN object 17 image 51 attempts 384 successful 384
+RGB_DILATED_MASK_TRAIN object 17 image 59 attempts 432 successful 432
+RGB_DILATED_MASK_TRAIN object 17 image 65 attempts 480 successful 480
+RGB_DILATED_MASK_TRAIN object 17 image 148 attempts 528 successful 528
+RGB_DILATED_MASK_TRAIN object 17 image 155 attempts 576 successful 576
+RGB_DILATED_MASK_TRAIN object 17 image 183 attempts 624 successful 624
+RGB_DILATED_MASK_TRAIN object 17 image 235 attempts 672 successful 672
+RGB_DILATED_MASK_TRAIN object 17 image 271 attempts 720 successful 720
+RGB_DILATED_MASK_TRAIN object 17 image 278 attempts 768 successful 768
+RGB_DILATED_MASK_TRAIN object 17 image 296 attempts 816 successful 816
+RGB_DILATED_MASK_TRAIN object 17 image 316 attempts 864 successful 864
+RGB_DILATED_MASK_TRAIN object 17 image 324 attempts 912 successful 912
+RGB_DILATED_MASK_TRAIN object 17 image 333 attempts 960 successful 960
+RGB_DILATED_MASK_TRAIN object 17 image 359 attempts 1008 successful 1008
+RGB_DILATED_MASK_TRAIN object 17 image 373 attempts 1056 successful 1056
+RGB_DILATED_MASK_TRAIN object 17 image 382 attempts 1104 successful 1104
+RGB_DILATED_MASK_TRAIN object 17 image 410 attempts 1152 successful 1152
+RGB_DILATED_MASK_TRAIN object 17 image 509 attempts 1200 successful 1200
+RGB_DILATED_MASK_TRAIN object 17 image 523 attempts 1248 successful 1248
+RGB_DILATED_MASK_TRAIN object 17 image 537 attempts 1296 successful 1296
+RGB_DILATED_MASK_TRAIN object 17 image 559 attempts 1344 successful 1344
+RGB_DILATED_MASK_TRAIN object 17 image 567 attempts 1392 successful 1392
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 586 attempts 1440 successful 1440
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 603 attempts 1488 successful 1488
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 614 attempts 1536 successful 1536
+RGB_DILATED_MASK_TRAIN object 17 image 622 attempts 1584 successful 1584
+RGB_DILATED_MASK_TRAIN object 17 image 647 attempts 1632 successful 1632
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 650 attempts 1680 successful 1680
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 660 attempts 1728 successful 1728
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 677 attempts 1776 successful 1776
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 688 attempts 1824 successful 1824
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 697 attempts 1872 successful 1872
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 713 attempts 1920 successful 1920
+RGB_DILATED_MASK_TRAIN object 17 image 726 attempts 1968 successful 1968
+have no enough features, exaustive mode
+RGB_DILATED_MASK_TRAIN object 17 image 740 attempts 2016 successful 2016
+RGB_DILATED_MASK_TRAIN object 17 image 776 attempts 2064 successful 2064
+RGB_DILATED_MASK_TRAIN object 17 image 807 attempts 2112 successful 2112
+RGB_DILATED_MASK_TRAIN object 17 image 827 attempts 2160 successful 2160
+RGB_DILATED_MASK_TRAIN object 17 image 836 attempts 2208 successful 2208
+RGB_DILATED_MASK_TRAIN object 17 image 862 attempts 2256 successful 2256
+RGB_DILATED_MASK_TRAIN object 17 image 916 attempts 2304 successful 2304
+RGB_DILATED_MASK_TRAIN object 17 image 924 attempts 2352 successful 2352
+RGB_DILATED_MASK_TRAIN object 17 image 940 attempts 2400 successful 2400
+RGB_DILATED_MASK_TRAIN object 17 image 960 attempts 2448 successful 2448
+RGB_DILATED_MASK_TRAIN object 17 image 967 attempts 2496 successful 2496
+RGB_DILATED_MASK_TRAIN object 17 image 976 attempts 2544 successful 2544
+RGB_DILATED_MASK_TRAIN object 17 image 1002 attempts 2592 successful 2592
+RGB_DILATED_MASK_TRAIN object 17 image 1020 attempts 2640 successful 2640
+RGB_DILATED_MASK_TRAIN object 17 image 1026 attempts 2688 successful 2688
+RGB_DILATED_MASK_TRAIN object 17 image 1056 attempts 2736 successful 2736
+RGB_DILATED_MASK_TRAIN object 17 image 1063 attempts 2784 successful 2784
+RGB_DILATED_MASK_TRAIN object 17 image 1107 attempts 2832 successful 2832
+RGB_DILATED_MASK_TRAIN object 17 image 1114 attempts 2880 successful 2880
+RGB_DILATED_MASK_TRAIN object 17 image 1142 attempts 2928 successful 2928
+RGB_DILATED_MASK_TRAIN object 17 image 1150 attempts 2976 successful 2976
+RGB_DILATED_MASK_TRAIN object 17 image 1226 attempts 3024 successful 3024
+RGB_DILATED_MASK_TRAIN object 17 image 1233 attempts 3072 successful 3072
+RGB_DILATED_MASK_TRAIN object 17 image 1240 attempts 3120 successful 3120
+RGB_DILATED_MASK_TRAIN object 17 image 1247 attempts 3168 successful 3168
+RGB_DILATED_MASK_TRAIN object 17 image 1254 attempts 3216 successful 3216
+RGB_DILATED_MASK_TRAIN object 17 image 1262 attempts 3264 successful 3264
+RGB_DILATED_MASK_TRAIN object 17 image 1269 attempts 3312 successful 3312
+RGB_DILATED_MASK_TRAIN object 17 image 1276 attempts 3360 successful 3360
+RGB_DILATED_MASK_TRAIN object 17 image 1283 attempts 3408 successful 3408
+RGB_DILATED_MASK_TRAIN object 17 image 1291 attempts 3456 successful 3456

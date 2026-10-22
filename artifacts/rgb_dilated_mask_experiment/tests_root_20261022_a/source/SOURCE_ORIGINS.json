@@ -1,0 +1,135 @@
+{
+  "generated_files": [
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/train_rgb_empty_mask.cpp",
+      "destination": "train_rgb_dilated_mask.cpp",
+      "origin": {
+        "sha256": "1e3c13420571938855bb399bb4c63c905bc5cb9401162ef10caedbb84182d514",
+        "bytes": 20101
+      },
+      "result": {
+        "sha256": "1363bc56df8a8b15db99c00189ff8c4a5b0ab92e6844f4480c17297ca835d241",
+        "bytes": 19894
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/build_training.py",
+      "destination": "build_training.py",
+      "origin": {
+        "sha256": "ae087ce26a24a140519b226cee3465f3b2398602e5564913710fac5d06a090ad",
+        "bytes": 6807
+      },
+      "result": {
+        "sha256": "1240a95c10d15877db474d312e419a3986be416a07e1f007232034e4c6023cc7",
+        "bytes": 7439
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/build_quality.py",
+      "destination": "build_quality.py",
+      "origin": {
+        "sha256": "97122c279b16148cf095c41a1c860dda8c1f3d0684414c833402df67aafc16ed",
+        "bytes": 6589
+      },
+      "result": {
+        "sha256": "a2cbb43916342f179b3ab1f3427e91765229daacd2c67d3968d6a44f4ee1e896",
+        "bytes": 6591
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/run_quality.py",
+      "destination": "run_quality.py",
+      "origin": {
+        "sha256": "5293b8c12b9ad7df5c013f9109be68e44cc9306aa3dd2e35548d7821f25e4385",
+        "bytes": 9484
+      },
+      "result": {
+        "sha256": "fe2d85fe816863b71eca82de058904d5fca341309dd9054a03b41d248245dafa",
+        "bytes": 9355
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/prepare_quality_inputs.py",
+      "destination": "prepare_quality_inputs.py",
+      "origin": {
+        "sha256": "c9bdc0d8a37d0017a6cefb9d474c3a4b25e4e3010dbe8196b6ffdfff5a099f89",
+        "bytes": 4586
+      },
+      "result": {
+        "sha256": "6d8e66597ce854ccdb7dceafe862cffc31d6ab60d814c7208b079b4581dc7bab",
+        "bytes": 5156
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/quality_support.hpp",
+      "destination": "quality_support.hpp",
+      "origin": {
+        "sha256": "bb0ac9eaf6e5ad4fbd57ddc4e3c3001b994f143e9309cddaa105c73c1a838b52",
+        "bytes": 10880
+      },
+      "result": {
+        "sha256": "4400541896c9c46b7d31c333c996e2955492ca2d7b59964b7442a1759a313adc",
+        "bytes": 10802
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/quality_eval.cpp",
+      "destination": "quality_eval.cpp",
+      "origin": {
+        "sha256": "9593b8fda2d65370dfad85c220deae3c7ac7caaeeeacc775fc65d3d4d8ab8ee6",
+        "bytes": 17932
+      },
+      "result": {
+        "sha256": "4d88c28887a8cba26b58d56fc02c8364de34c1eb6b946ead5901f7f12e5c515f",
+        "bytes": 17844
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/quality_contract.py",
+      "destination": "quality_contract.py",
+      "origin": {
+        "sha256": "8f8164dc5a09869b8d63c243680b37af340a3330c1c82a7f0348f1578c2a02ca",
+        "bytes": 1749
+      },
+      "result": {
+        "sha256": "daf56c7a9dbbc050dcfc7e2aa03297736542d01ca6571fe0b0df7ce05f600a52",
+        "bytes": 1719
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/native_provenance.py",
+      "destination": "native_provenance.py",
+      "origin": {
+        "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+        "bytes": 6345
+      },
+      "result": {
+        "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+        "bytes": 6345
+      },
+      "transformation": "explicit source preparation rename and declared bounded adaptations; no execution outputs"
+    }
+  ],
+  "source_freeze_origin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json",
+    "sha256": "7451fcb34eb445a880232116b0a1965ee51b5d0224069c133aa36c360ad1e4aa",
+    "bytes": 5107
+  },
+  "official_rgb_helper_origin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\tless_eval.cpp",
+    "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+    "bytes": 37373
+  },
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "native_compilations": 0,
+  "bank_byte_reads": 0
+}

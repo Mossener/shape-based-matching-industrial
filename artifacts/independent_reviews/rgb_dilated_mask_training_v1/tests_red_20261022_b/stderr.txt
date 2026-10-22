@@ -1,0 +1,23 @@
+test_fine_margin_and_coarse_coordinate_edge_are_strict (test_scope_and_seam.ScopeAndSeam.test_fine_margin_and_coarse_coordinate_edge_are_strict) ... ok
+test_fixed_resources_and_feature_targets_are_not_caps (test_scope_and_seam.ScopeAndSeam.test_fixed_resources_and_feature_targets_are_not_caps) ... ok
+test_full_union_does_not_allow_duplicate_layers (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_duplicate_layers) ... ok
+test_full_union_does_not_allow_incomplete_pose (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_incomplete_pose) ... ok
+test_full_union_requires_all_six_objects_and_both_arms (test_scope_and_seam.ScopeAndSeam.test_full_union_requires_all_six_objects_and_both_arms) ... ok
+test_geometry_plan_rejects_wrong_padding_or_protocol_factor (test_scope_and_seam.ScopeAndSeam.test_geometry_plan_rejects_wrong_padding_or_protocol_factor) ... ok
+test_numeric_reader_requires_pinned_inherited_path_and_forbids_images (test_scope_and_seam.ScopeAndSeam.test_numeric_reader_requires_pinned_inherited_path_and_forbids_images) ... ok
+test_reader_rejects_malformed_or_changed_numeric_tables (test_scope_and_seam.ScopeAndSeam.test_reader_rejects_malformed_or_changed_numeric_tables) ... FAIL
+test_seam_rejects_extra_delta_and_ambiguous_occurrence (test_scope_and_seam.ScopeAndSeam.test_seam_rejects_extra_delta_and_ambiguous_occurrence) ... ok
+
+======================================================================
+FAIL: test_reader_rejects_malformed_or_changed_numeric_tables (test_scope_and_seam.ScopeAndSeam.test_reader_rejects_malformed_or_changed_numeric_tables)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 92, in test_reader_rejects_malformed_or_changed_numeric_tables
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.017s
+
+FAILED (failures=1)

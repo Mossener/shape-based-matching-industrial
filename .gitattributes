@@ -64,6 +64,15 @@ artifacts/rgb_empty_mask_experiment/frozen_helpers/** -whitespace
 artifacts/independent_reviews/rgb_empty_mask_quality_v1/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/rgb_empty_mask_training_v1/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/rgb_empty_mask_timing_v1/** -text whitespace=cr-at-eol
+# Preserve official-mask dilation source and independently audited evidence bytes.
+artifacts/rgb_dilated_mask_experiment/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/rgb_dilated_mask_training_v1/** -text whitespace=cr-at-eol
+# Preserve inherited source whitespace and final blank lines without editing frozen bytes.
+artifacts/rgb_dilated_mask_experiment/control_v11/** -whitespace
+artifacts/rgb_dilated_mask_experiment/private_v11/** -whitespace
+artifacts/rgb_dilated_mask_experiment/**/quality_eval.cpp -whitespace
+artifacts/rgb_dilated_mask_experiment/**/training_numeric.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_training_v1/**/training_numeric.py -whitespace
 # Preserve frozen audit/helper line endings and the compiled evaluator's final blank line.
 artifacts/independent_reviews/rgb_empty_mask_training_v1/training_numeric.py -whitespace
 artifacts/rgb_empty_mask_experiment/quality_eval.cpp -whitespace

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\release_v29",
+    "-p",
+    "test_publication.py",
+    "-v"
+  ],
+  "source_pins": {
+    "publication.py": {
+      "bytes": 15779,
+      "sha256": "4304b4183f41084cc9b488a43770fe24b2892a181752681ce73f4560799d88c3"
+    },
+    "run_tests.py": {
+      "bytes": 1644,
+      "sha256": "430b4b1cf996b8335f7e0c4096a5e6db1b9594bc97ba96e51ccae5d717c4b18d"
+    },
+    "test_publication.py": {
+      "bytes": 4305,
+      "sha256": "7c225b7bfd4d0b32e20af209afc069ea51e82c1c0301877a48c3c19828e9f8a1"
+    }
+  },
+  "image_reads": 0,
+  "matcher_calls": 0,
+  "repository_git_writes": 0
+}

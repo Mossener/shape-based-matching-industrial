@@ -241,3 +241,13 @@
 详见 `artifacts/quality_failure_analysis/v27_rgb_empty_mask_losses/RESULTS.md`、该目录独立复核记录和 `artifacts/quality_failure_analysis/template_feature_regions_v1/DESIGN.md`。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v28` 标记各阶段。
+
+## V29：官方掩膜逐层膨胀的训练与独立几何验证
+
+- 在隔离 V11 副本中只将实际层的掩膜 `erode` 改为同参数 `dilate`，保留 RGB 灰度源、官方 warped mask、姿态、阈值和几何。原版 sanity、预声明的原版 RED、膨胀版 GREEN 和掩膜转发 spy 均按预期完成；不替换生产默认。
+- 六对象 20,736 次固定姿态尝试全部完成，20,712 个成功模板、24 次对象 1 的特征不足、0 个 OpenCV 异常；41,424 个实际序列化层保留全部特征，实际数量范围 5～43。训练峰值工作集 64,069,632 字节；864 次图像解码由完整训练循环推导。
+- 十二个新旧模板库的 77,822 层联合规划严格通过 848×832、补边 `[64,64,64,228]` 和对齐 16，没有扩画布或删模板。独立标准库审计重算全部姿态、失败、特征及联合几何，35 项合成/变异测试和 root 真实审计通过；root 再校验 135 个输入、10 个审计源 pin 均不变。
+- 审计器 v1 的文件成员规则与实际训练输出格式不符，合成复现后用显式 v2 修正；原源及失败保留，未重跑训练或修改 freeze。验收标记单独绑定原训练/规划和真实独立审计，质量输入已准备。尚无完整开发识别或计时结果，因此不宣称准确率或速度改善。
+- 生产核心继续冻结；留出场景和对象 25/29 未使用，私有磁片/SMD 原图不发布。详见 `artifacts/rgb_dilated_mask_experiment/ROOT_REVIEW_PRE_QUALITY.md`、阶段报告及 `artifacts/independent_reviews/rgb_dilated_mask_training_v1/`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v29` 标记各阶段。

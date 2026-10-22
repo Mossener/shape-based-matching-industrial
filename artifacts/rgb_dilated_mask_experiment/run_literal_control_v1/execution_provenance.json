@@ -1,0 +1,22 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_literal_control_v1\\literal_mask_test.exe"
+  ],
+  "build": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_literal_control_v1\\build_manifest.json",
+    "sha256": "4fe80b8b4489355b715d7d6b51feb4e343993fa11bfcf8963e7726d708678676",
+    "bytes": 230756
+  },
+  "runner": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_native_test.py",
+    "sha256": "c59f0d51d04417a944fd77818ef6d065f9a88a587a00e02ac2faa171ac28b69c",
+    "bytes": 3334
+  },
+  "native_exit_code": 0,
+  "expected_morphology": "erode",
+  "core_arm": "control",
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "dataset_files_opened": 0,
+  "passed": true
+}

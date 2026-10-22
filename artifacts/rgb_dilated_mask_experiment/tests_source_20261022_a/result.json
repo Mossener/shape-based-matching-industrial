@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "slice": "source",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\test_source_contract.py",
+    "SourceContractTests.test_attempt_dense_ids_failures_counts_and_geometry",
+    "SourceContractTests.test_exact_one_line_transform_and_second_seam_rejected",
+    "SourceContractTests.test_frozen_helper_matches_original_mask_contract",
+    "SourceContractTests.test_future_quality_uses_freeze_counts_and_new_paths",
+    "SourceContractTests.test_native_literal_positions_and_branches_are_prefixed",
+    "SourceContractTests.test_origin_and_generated_adapter_pins",
+    "SourceContractTests.test_policy_forwards_same_nonempty_official_mask",
+    "SourceContractTests.test_private_snapshot_has_only_authorized_core_delta",
+    "SourceContractTests.test_protocol_exists_and_fixed_factor",
+    "SourceContractTests.test_python_syntax_and_local_adapters_have_no_old_experiment_names",
+    "SourceContractTests.test_scope_rejects_heldout_reserved_and_private_paths",
+    "SourceContractTests.test_toy_replicated_3x3_dilation_keeps_boundary",
+    "SourceContractTests.test_training_adapter_restores_mask_and_pre_call_snapshot"
+  ],
+  "source_pins": [
+    {
+      "name": "build_quality.py",
+      "sha256": "a2cbb43916342f179b3ab1f3427e91765229daacd2c67d3968d6a44f4ee1e896",
+      "bytes": 6591
+    },
+    {
+      "name": "build_training.py",
+      "sha256": "c42bc18127547ca0a7ef3e90c67aa65e41b3a8c18742c791414aef608ff82201",
+      "bytes": 7381
+    },
+    {
+      "name": "freeze_private_sources.py",
+      "sha256": "10d839330886f4d80e5db66b3b57a3dc67383b1fdce13886827d2e8c2708b567",
+      "bytes": 6317
+    },
+    {
+      "name": "INPUT_CLOSURE.json",
+      "sha256": "9f0a6fd135716495cb51cde6918a022fd6514e2177941cd453ff6eb19a83f2ff",
+      "bytes": 430260
+    },
+    {
+      "name": "literal_mask_test.cpp",
+      "sha256": "916d5129105fefabbe5033776fc244ce09acfd6e934005eb8260f32992f05afe",
+      "bytes": 3515
+    },
+    {
+      "name": "native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "name": "prepare_input_closure.py",
+      "sha256": "e647b78fa3671cd074126b0296c2ef803653d99032f59fe21e6abead47993bd8",
+      "bytes": 2200
+    },
+    {
+      "name": "prepare_quality_inputs.py",
+      "sha256": "b10410825f89dc677bfc2bb7d96082d8c4d4d9a6b58c192298294dce3e01ab0e",
+      "bytes": 4570
+    },
+    {
+      "name": "prepare_sources.py",
+      "sha256": "6f59aef0e96bd0ac89235e637129b1119140a92a34c71d19b5f8d9b34c990ebe",
+      "bytes": 9901
+    },
+    {
+      "name": "PRIVATE_SOURCE_FREEZE.json",
+      "sha256": "6187aac5c1ca1b49b0398770ef37740014c0c734bc7102771662a1f2761143d7",
+      "bytes": 8699
+    },
+    {
+      "name": "PROTOCOL.json",
+      "sha256": "ee313755ba5fad4311e7f2d80ffcb0fc1277c878cf1735a0d1a92b0b99635b6f",
+      "bytes": 6853
+    },
+    {
+      "name": "quality_contract.py",
+      "sha256": "daf56c7a9dbbc050dcfc7e2aa03297736542d01ca6571fe0b0df7ce05f600a52",
+      "bytes": 1719
+    },
+    {
+      "name": "quality_eval.cpp",
+      "sha256": "4d88c28887a8cba26b58d56fc02c8364de34c1eb6b946ead5901f7f12e5c515f",
+      "bytes": 17844
+    },
+    {
+      "name": "quality_support.hpp",
+      "sha256": "4400541896c9c46b7d31c333c996e2955492ca2d7b59964b7442a1759a313adc",
+      "bytes": 10802
+    },
+    {
+      "name": "rgb_dilated_mask_policy.hpp",
+      "sha256": "c9c6e5fc9bd4d7c604549d795676501d27374e70779cbce6759184532dd1daed",
+      "bytes": 841
+    },
+    {
+      "name": "rgb_dilated_mask_source_test.cpp",
+      "sha256": "f480119bc49450ec1b966b856e6cc47c57127e6c6f15a1bff61eeb6212cf755c",
+      "bytes": 1640
+    },
+    {
+      "name": "run_native_test.py",
+      "sha256": "c59f0d51d04417a944fd77818ef6d065f9a88a587a00e02ac2faa171ac28b69c",
+      "bytes": 3334
+    },
+    {
+      "name": "run_quality.py",
+      "sha256": "fe2d85fe816863b71eca82de058904d5fca341309dd9054a03b41d248245dafa",
+      "bytes": 9355
+    },
+    {
+      "name": "run_static_tests.py",
+      "sha256": "753cb91fb78fd439c3eb02f6723f72691d506191de97b916b33022668d1affd4",
+      "bytes": 2042
+    },
+    {
+      "name": "source_contract.py",
+      "sha256": "b65b5972a914cd1f0b657390fd3ab1f140e5b127bb6cfd7fb04e25d9309db6c5",
+      "bytes": 2409
+    },
+    {
+      "name": "SOURCE_ORIGINS.json",
+      "sha256": "b175540c603788e10d30c36490f81eddefea95d13889e3906f3d852f42f9a732",
+      "bytes": 5438
+    },
+    {
+      "name": "source_status.json",
+      "sha256": "31acdeccef302a02f44b2d9833c7967bb37bfa51c9ed5a7c00c8334d04890444",
+      "bytes": 354
+    },
+    {
+      "name": "test_source_contract.py",
+      "sha256": "2935a56fffe734d61cacdba534155de4382ae0752804385a2dcad33772d1ebea",
+      "bytes": 7996
+    },
+    {
+      "name": "train_rgb_dilated_mask.cpp",
+      "sha256": "1363bc56df8a8b15db99c00189ff8c4a5b0ab92e6844f4480c17297ca835d241",
+      "bytes": 19894
+    }
+  ],
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "native_compilations": 0
+}

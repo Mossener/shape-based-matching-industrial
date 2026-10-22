@@ -1,0 +1,18 @@
+{
+  "parent_source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_training.py",
+    "sha256": "1240a95c10d15877db474d312e419a3986be416a07e1f007232034e4c6023cc7",
+    "bytes": 7439
+  },
+  "new_source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_training_v2.py",
+    "sha256": "cbcd8840b7ca7cd774b77844dc9a8557f5f0efcf14784cb48cb24b899bbd78a9",
+    "bytes": 7464
+  },
+  "changes": [
+    "pin v2 builder itself",
+    "explicitly pin imported source_contract.py"
+  ],
+  "historical_builder_unchanged": true,
+  "native_calls": 0
+}

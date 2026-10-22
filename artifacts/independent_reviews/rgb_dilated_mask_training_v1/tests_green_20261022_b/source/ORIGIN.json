@@ -1,0 +1,30 @@
+{
+  "description": "Independent dilation training/geometry audit adapted from prior independent RGB training audit; no trainer/evaluator imports; literal and mutation tests only until real training is authorized",
+  "parents": [
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_training_v1/audit.py",
+      "bytes": 13233,
+      "sha256": "c4df980f24b8a99c0f5715a16117c4e13dfa7c029f19e584368b9969214f1933"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_training_v1/bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_training_v1/training_numeric.py",
+      "bytes": 6072,
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_training_v1/test_bank.py",
+      "bytes": 3310,
+      "sha256": "0bc764ff73d010f4bc0a41f328dec1ed97fe56e69a3e5df02888c1a28ade4e2d"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_training_v1/test_numeric.py",
+      "bytes": 7028,
+      "sha256": "df81db5e9bf2b6730ab808833254c6a5856cd63d7bb178fe14b7b4a08bdd8a51"
+    }
+  ]
+}

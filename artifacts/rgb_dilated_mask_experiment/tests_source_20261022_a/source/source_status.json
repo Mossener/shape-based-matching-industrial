@@ -1,0 +1,13 @@
+{
+  "status": "source_only_no_native_or_dataset_reads",
+  "native_compilations": 0,
+  "native_runs": 0,
+  "matcher_calls": 0,
+  "image_decodes": 0,
+  "bank_byte_reads": 0,
+  "private_smd_reads": 0,
+  "source_snapshot": "private_v11",
+  "literal_control_snapshot": "control_v11",
+  "source_only_grant": true,
+  "production_modified": false
+}

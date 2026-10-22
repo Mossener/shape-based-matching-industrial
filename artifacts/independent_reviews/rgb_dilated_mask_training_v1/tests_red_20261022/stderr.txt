@@ -1,0 +1,64 @@
+test_fine_margin_and_coarse_coordinate_edge_are_strict (test_scope_and_seam.ScopeAndSeam.test_fine_margin_and_coarse_coordinate_edge_are_strict) ... ok
+test_fixed_resources_and_feature_targets_are_not_caps (test_scope_and_seam.ScopeAndSeam.test_fixed_resources_and_feature_targets_are_not_caps) ... ok
+test_full_union_does_not_allow_duplicate_layers (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_duplicate_layers) ... FAIL
+test_full_union_does_not_allow_incomplete_pose (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_incomplete_pose) ... FAIL
+test_full_union_requires_all_six_objects_and_both_arms (test_scope_and_seam.ScopeAndSeam.test_full_union_requires_all_six_objects_and_both_arms) ... FAIL
+test_geometry_plan_rejects_wrong_padding_or_protocol_factor (test_scope_and_seam.ScopeAndSeam.test_geometry_plan_rejects_wrong_padding_or_protocol_factor) ... FAIL
+test_numeric_reader_requires_pinned_inherited_path_and_forbids_images (test_scope_and_seam.ScopeAndSeam.test_numeric_reader_requires_pinned_inherited_path_and_forbids_images) ... FAIL
+test_seam_rejects_extra_delta_and_ambiguous_occurrence (test_scope_and_seam.ScopeAndSeam.test_seam_rejects_extra_delta_and_ambiguous_occurrence) ... FAIL
+
+======================================================================
+FAIL: test_full_union_does_not_allow_duplicate_layers (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_duplicate_layers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 21, in test_full_union_does_not_allow_duplicate_layers
+    with self.assertRaisesRegex(ValueError, "Duplicate"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_full_union_does_not_allow_incomplete_pose (test_scope_and_seam.ScopeAndSeam.test_full_union_does_not_allow_incomplete_pose)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 25, in test_full_union_does_not_allow_incomplete_pose
+    with self.assertRaisesRegex(ValueError, "Incomplete"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_full_union_requires_all_six_objects_and_both_arms (test_scope_and_seam.ScopeAndSeam.test_full_union_requires_all_six_objects_and_both_arms)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 30, in test_full_union_requires_all_six_objects_and_both_arms
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_geometry_plan_rejects_wrong_padding_or_protocol_factor (test_scope_and_seam.ScopeAndSeam.test_geometry_plan_rejects_wrong_padding_or_protocol_factor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 84, in test_geometry_plan_rejects_wrong_padding_or_protocol_factor
+    self.assertTrue(callable(getattr(audit, "validate_protocol", None)), "Independent protocol validator missing")
+AssertionError: False is not true : Independent protocol validator missing
+
+======================================================================
+FAIL: test_numeric_reader_requires_pinned_inherited_path_and_forbids_images (test_scope_and_seam.ScopeAndSeam.test_numeric_reader_requires_pinned_inherited_path_and_forbids_images)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 71, in test_numeric_reader_requires_pinned_inherited_path_and_forbids_images
+    self.assertTrue(callable(getattr(reader, "allow_inherited", None)), "Pinned inherited reader missing")
+AssertionError: False is not true : Pinned inherited reader missing
+
+======================================================================
+FAIL: test_seam_rejects_extra_delta_and_ambiguous_occurrence (test_scope_and_seam.ScopeAndSeam.test_seam_rejects_extra_delta_and_ambiguous_occurrence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_training_v1\test_scope_and_seam.py", line 52, in test_seam_rejects_extra_delta_and_ambiguous_occurrence
+    self.assertTrue(callable(getattr(audit, "check_core_pair", None)), "Independent seam checker missing")
+AssertionError: False is not true : Independent seam checker missing
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.015s
+
+FAILED (failures=6)

@@ -1,0 +1,7 @@
+{
+  "incomplete": true,
+  "reason": "Native toy test failed; all diagnostics retained",
+  "native_exit_code": 1,
+  "image_decodes": 0,
+  "matcher_calls": 0
+}

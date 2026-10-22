@@ -1,0 +1,5 @@
+too few features, abort
+too few features, abort
+too few features, abort
+too few features, abort
+PASS literal mask tests expected_dilation=0 native_matcher_calls=0 dataset_decodes=0

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "artifacts\\independent_reviews\\rgb_dilated_mask_training_v1",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "bytes": 24673,
+      "sha256": "2c58301b1c7256dbc42220fd2cb7c39c7a5cc5d5f55cf3baff4468a65d0f2776"
+    },
+    {
+      "name": "bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "name": "ORIGIN.json",
+      "bytes": 1293,
+      "sha256": "e25555bd9904ba78f82243c38a0fe39f2adb4e28551ae74071c98874f713532b"
+    },
+    {
+      "name": "test_bank.py",
+      "bytes": 3310,
+      "sha256": "0bc764ff73d010f4bc0a41f328dec1ed97fe56e69a3e5df02888c1a28ade4e2d"
+    },
+    {
+      "name": "test_numeric.py",
+      "bytes": 7028,
+      "sha256": "df81db5e9bf2b6730ab808833254c6a5856cd63d7bb178fe14b7b4a08bdd8a51"
+    },
+    {
+      "name": "test_scope_and_seam.py",
+      "bytes": 7590,
+      "sha256": "b2e55738d4931bd79292b09db8ee2fea4f5c645eaa5a55fef25aa26ffc9a730a"
+    },
+    {
+      "name": "training_numeric.py",
+      "bytes": 6072,
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889"
+    }
+  ],
+  "sources_unchanged_after": true,
+  "native_calls": 0,
+  "image_reads": 0,
+  "real_bank_reads": 0,
+  "test_scope": "stdlib literal/mutations plus actual prepared source and JSON protocol seam only"
+}

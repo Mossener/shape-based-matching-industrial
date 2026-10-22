@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-c",
+    "import importlib,sys,unittest; successor=importlib.import_module('audit_v2'); sys.modules['audit']=successor; suite=unittest.defaultTestLoader.discover('.',pattern='test_*.py'); result=unittest.TextTestRunner(verbosity=2).run(suite); sys.exit(not result.wasSuccessful())"
+  ],
+  "tests_run": 35,
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "sha256": "43f6cf5329cfeaca6560185cd7f9dce4de04057e626f72f5f9991d0223b31d63",
+      "bytes": 24962
+    },
+    {
+      "name": "audit_v2.py",
+      "sha256": "e96d9c20848646c640dacf4b670c6bc5f0a2929aa6e8363bec788e9494ab9bf8",
+      "bytes": 25707
+    },
+    {
+      "name": "bank_reader.py",
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80",
+      "bytes": 3670
+    },
+    {
+      "name": "ORIGIN.json",
+      "sha256": "e25555bd9904ba78f82243c38a0fe39f2adb4e28551ae74071c98874f713532b",
+      "bytes": 1293
+    },
+    {
+      "name": "ORIGIN_V2.json",
+      "sha256": "944fc429076c1d645cf2535796e69c53ead8488d6cdb65cfdd0c524b56b9d2b1",
+      "bytes": 1160
+    },
+    {
+      "name": "test_bank.py",
+      "sha256": "0bc764ff73d010f4bc0a41f328dec1ed97fe56e69a3e5df02888c1a28ade4e2d",
+      "bytes": 3310
+    },
+    {
+      "name": "test_numeric.py",
+      "sha256": "df81db5e9bf2b6730ab808833254c6a5856cd63d7bb178fe14b7b4a08bdd8a51",
+      "bytes": 7028
+    },
+    {
+      "name": "test_scope_and_seam.py",
+      "sha256": "b2e55738d4931bd79292b09db8ee2fea4f5c645eaa5a55fef25aa26ffc9a730a",
+      "bytes": 7590
+    },
+    {
+      "name": "test_v2_schema.py",
+      "sha256": "dd84e84acb27476c71697cfa8691cded6fa57bbdd2a41223425aa1880040ca63",
+      "bytes": 5340
+    },
+    {
+      "name": "training_numeric.py",
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889",
+      "bytes": 6072
+    }
+  ],
+  "sources_unchanged_after": true,
+  "frozen_v1_sha256": "43f6cf5329cfeaca6560185cd7f9dce4de04057e626f72f5f9991d0223b31d63",
+  "test_import_binding": "All existing test imports of audit are bound to audit_v2 in a fresh child interpreter; default schema module audit_v2",
+  "scope": "Stdlib literal/mutations plus prepared source/protocol seam only; no real bank audit",
+  "real_bank_reads": 0,
+  "image_reads": 0,
+  "native_calls": 0
+}
