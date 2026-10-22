@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "timestamp": "2026-10-21T17:37:37.818352+00:00",
+  "command": [
+    "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-m",
+    "unittest",
+    "discover",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "exit_code": 0,
+  "source_pins": [
+    {
+      "name": "analysis_core.py",
+      "sha256": "7ff025346605303bf8f3a9bcda22efac7dd86a00f105f99fba6cf38b63b28bec",
+      "bytes": 2818
+    },
+    {
+      "name": "audit_quality.py",
+      "sha256": "08f978c1b98cf938ab52f9d71c01c82c7b8facb6a924b3c7c32f93d650b3b74e",
+      "bytes": 28142
+    },
+    {
+      "name": "checked.py",
+      "sha256": "3b4d6a3f8c299b70e7e155a59ef184555cd37a8a0500355970d1e9dc75222804",
+      "bytes": 6636
+    },
+    {
+      "name": "evidence.py",
+      "sha256": "1b7c4d4b07aa2ab43fed9fc637e407bda2291eb0f0c77cbc9c44362811328048",
+      "bytes": 10136
+    },
+    {
+      "name": "numeric.py",
+      "sha256": "d4824efc4643a39df470cd0b5d4a4f9fc12ea14a79df59ab96a1f859a5ac5475",
+      "bytes": 2079
+    },
+    {
+      "name": "root_build_selftest_review.py",
+      "sha256": "25f3f34095d8b6767c0768296c749f59555386fd3fe3544774f2f9a36d7e7b88",
+      "bytes": 3874
+    },
+    {
+      "name": "root_stage_gate_review.py",
+      "sha256": "c5cc32d3ad0042d418a39858d6141da3704d94d9ed75e1b334a1997355161e46",
+      "bytes": 3068
+    },
+    {
+      "name": "run_synthetic.py",
+      "sha256": "dcd25448847f16d6c2d25cbbe3b7edad7f4b1d8012818dfe6a48c784f3e6d2a6",
+      "bytes": 1722
+    },
+    {
+      "name": "test_analysis_core.py",
+      "sha256": "eaf769be359763211f67707c6f47bc48449d2ea01dc30370746278ae4a4f5d60",
+      "bytes": 1944
+    },
+    {
+      "name": "test_checked.py",
+      "sha256": "d34ae87cbbbbe48cb0c28eb2cb488eaf4a8d9a58c8c2598c9c52b18a30a8b984",
+      "bytes": 4488
+    },
+    {
+      "name": "test_evidence.py",
+      "sha256": "1bcc6705623c279be731481946d7180653b0a57ef9eb3b6f3fe59326a317ecad",
+      "bytes": 1927
+    },
+    {
+      "name": "test_numeric.py",
+      "sha256": "ddc9583b0becda2f7e30fda9c58ed3b939a7cce1e8f84e9463ebb3ed3e01e3f2",
+      "bytes": 2752
+    },
+    {
+      "name": "test_report.py",
+      "sha256": "5adf27894f6a6935da3e6138b89cff512fdf73c270a7d9f536221af86e1b8173",
+      "bytes": 1689
+    },
+    {
+      "name": "DESIGN.md",
+      "sha256": "a666bb1df6f43e78a482ca02bccb7b30378a2887fcfe47800aa569470bfbd90f",
+      "bytes": 3326
+    },
+    {
+      "name": "ORIGIN.json",
+      "sha256": "82b6d3142d407ca4abc9d30102452abfce142ce0746d0ecd2ea89380b3d451cb",
+      "bytes": 1298
+    }
+  ],
+  "synthetic_only": true,
+  "image_files_opened": 0,
+  "matcher_calls": 0
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "quality_input_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c",
+    "bytes": 130369
+  },
+  "numeric_pins": 45,
+  "dataset_image_reads": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0
+}

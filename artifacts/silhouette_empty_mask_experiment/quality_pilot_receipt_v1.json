@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "stage": "pilot",
+  "stage_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "af4c9175f064ea3412537b20643e7884876b47bcc5f39853ffc3178ef08eef46",
+    "bytes": 136596
+  },
+  "stage_summary": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\stage_summary.json",
+    "sha256": "8ca442267b5cdb946e03b641200da7eee3655e5fd744e21bc3634aaaec72daca",
+    "bytes": 20227
+  },
+  "candidate_equality": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\candidate_equality.csv",
+    "sha256": "c8d905b487da29515553d711d302408d1e1ef820d8476f0812cc8778fc55e9ca",
+    "bytes": 9199
+  },
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_stage_reservations\\pilot.json",
+    "sha256": "ade3c2305222ef06b8133879ce86e0f32c732357db7c0efc6e8d63c3f0280e7e",
+    "bytes": 626
+  },
+  "actual_matcher_calls": 192,
+  "expected_matcher_calls": 192,
+  "object_frame_combinations": 48,
+  "unique_frames": 8,
+  "per_object_arm": {
+    "1:rgb": {
+      "frames": 8,
+      "raw_per_path": 1905
+    },
+    "1:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 9940
+    },
+    "2:rgb": {
+      "frames": 8,
+      "raw_per_path": 3517
+    },
+    "2:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 8528
+    },
+    "5:rgb": {
+      "frames": 8,
+      "raw_per_path": 52
+    },
+    "5:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 489
+    },
+    "8:rgb": {
+      "frames": 8,
+      "raw_per_path": 2
+    },
+    "8:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 4
+    },
+    "12:rgb": {
+      "frames": 8,
+      "raw_per_path": 761
+    },
+    "12:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 61
+    },
+    "17:rgb": {
+      "frames": 8,
+      "raw_per_path": 2320
+    },
+    "17:binary_empty_mask": {
+      "frames": 8,
+      "raw_per_path": 648
+    }
+  },
+  "complete_raw_archives": 192,
+  "all_same_arm_paths_ordered_fields_float32_score_bits_equal": true,
+  "raw_output_bytes": 1288974.0,
+  "peak_rss_bytes": 166584320.0,
+  "rgb_quality": {
+    "allGT": {
+      "tp": 6,
+      "fp": 670,
+      "fn": 2,
+      "gt": 8,
+      "ignored": 0,
+      "precision": 0.008875739644970414,
+      "recall": 0.75,
+      "f1": 0.017543859649122806,
+      "matched_iou_sum": 4.501833683586649,
+      "mean_tp_iou": 0.7503056139311082
+    },
+    "visibility_ge_0_5": {
+      "tp": 6,
+      "fp": 670,
+      "fn": 2,
+      "gt": 8,
+      "ignored": 0,
+      "precision": 0.008875739644970414,
+      "recall": 0.75,
+      "f1": 0.017543859649122806,
+      "matched_iou_sum": 4.501833683586649,
+      "mean_tp_iou": 0.7503056139311082
+    },
+    "raw_candidates": 8557.0,
+    "negative_frames": 41,
+    "negative_frames_with_fp": 33,
+    "negative_fp": 549
+  },
+  "binary_empty_mask_quality": {
+    "allGT": {
+      "tp": 7,
+      "fp": 224,
+      "fn": 1,
+      "gt": 8,
+      "ignored": 0,
+      "precision": 0.030303030303030304,
+      "recall": 0.875,
+      "f1": 0.058577405857740586,
+      "matched_iou_sum": 5.558445731689741,
+      "mean_tp_iou": 0.7940636759556773
+    },
+    "visibility_ge_0_5": {
+      "tp": 7,
+      "fp": 224,
+      "fn": 1,
+      "gt": 8,
+      "ignored": 0,
+      "precision": 0.030303030303030304,
+      "recall": 0.875,
+      "f1": 0.058577405857740586,
+      "matched_iou_sum": 5.558445731689741,
+      "mean_tp_iou": 0.7940636759556773
+    },
+    "raw_candidates": 19670.0,
+    "negative_frames": 41,
+    "negative_frames_with_fp": 30,
+    "negative_fp": 187
+  },
+  "quality_labels_not_yet_independently_recomputed": true,
+  "heldout_images_read": 0,
+  "development_run": false,
+  "cpu_slot_returned": true
+}

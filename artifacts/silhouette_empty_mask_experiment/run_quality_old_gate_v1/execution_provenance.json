@@ -1,0 +1,66 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\quality_eval.exe",
+    "--mode",
+    "old_gate",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_old_gate_v1\\native",
+    "--inputs",
+    "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json"
+  ],
+  "mode": "old_gate",
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "7655197e7464e715bef2f8a4611456bf91412fa1dcc09f35684df401bddef2fe",
+    "bytes": 256142
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c",
+    "bytes": 130369
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "20246a3b21d69344536a2b0090dd7fbda7ea9676f6c8d93fcbc1bab4fe9c9d28",
+    "bytes": 3811
+  },
+  "previous_stage": null,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_stage_reservations\\old_gate.json",
+    "sha256": "826db2416ad8cdc9f12c2ebcc8f002a149d1d55810ab978df18767849d6f9626",
+    "bytes": 372
+  },
+  "script_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality.py",
+      "sha256": "8c6a48deb38bece07ab1981149f7ca79da6790e95bdbac8dae37beb72004e071",
+      "bytes": 9451
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_contract.py",
+      "sha256": "c24d14a0766945f0ac828ac7687b1e3e369c9d41c928f9bc6e9737d4fcbe5f82",
+      "bytes": 1712
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\prepare_quality_inputs.py",
+      "sha256": "3af93624c5bd2628472b5f6e8712564e7332fcf3a7645b270e0e14f904abeeff",
+      "bytes": 4632
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\prepare_input_closure.py",
+      "sha256": "cc3c263ebacd87964fb5c11b80e8316c50e01d298da1745937647b20fb245c4d",
+      "bytes": 10666
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    }
+  ],
+  "native_exit_code": 0,
+  "runtime_path_prefix": [
+    "F:\\mysys2\\ucrt64\\bin",
+    "D:\\opencv-4.12.0\\build\\bin"
+  ],
+  "maximum_matcher_calls": 96
+}

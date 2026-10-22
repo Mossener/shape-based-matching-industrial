@@ -1,0 +1,7 @@
+{
+  "incomplete": true,
+  "reason": "Preserved numeric copy absent/duplicate",
+  "matcher_calls": 0,
+  "missing_frames_are_not_negatives": true,
+  "no_accuracy_claim_from_partial_evidence": true
+}

@@ -1,0 +1,68 @@
+test_allgt_and_eligible_ignores_are_one_to_one (test_numeric.NumericQuality) ... FAIL
+test_eligible_tp_pass_precedes_ignore_and_gt_tie_uses_smallest_id (test_numeric.NumericQuality) ... FAIL
+test_half_iou_is_accepted_and_negative_frame_keeps_fp (test_numeric.NumericQuality) ... FAIL
+test_nms_does_not_suppress_exact_point_three (test_numeric.NumericQuality) ... ok
+test_nms_uses_score_then_stable_full_identity_and_class (test_numeric.NumericQuality) ... FAIL
+
+======================================================================
+FAIL: test_allgt_and_eligible_ignores_are_one_to_one (test_numeric.NumericQuality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\empty_mask_quality_v1\run_20261022_numeric_red\source\test_numeric.py", line 30, in test_allgt_and_eligible_ignores_are_one_to_one
+    self.assertEqual(all_counts, dict(tp=2, fp=2, fn=0, gt=2, ignored=0, matched_iou_sum=2.))
+AssertionError: {} != {'tp': 2, 'fp': 2, 'fn': 0, 'gt': 2, 'ignored': 0, 'matched_iou_sum': 2.0}
+- {}
++ {'fn': 0, 'fp': 2, 'gt': 2, 'ignored': 0, 'matched_iou_sum': 2.0, 'tp': 2}
+
+======================================================================
+FAIL: test_eligible_tp_pass_precedes_ignore_and_gt_tie_uses_smallest_id (test_numeric.NumericQuality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\empty_mask_quality_v1\run_20261022_numeric_red\source\test_numeric.py", line 41, in test_eligible_tp_pass_precedes_ignore_and_gt_tie_uses_smallest_id
+    self.assertEqual(labels, [('TP', 3)])
+AssertionError: Lists differ: [] != [('TP', 3)]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('TP', 3)
+
+- []
++ [('TP', 3)]
+
+======================================================================
+FAIL: test_half_iou_is_accepted_and_negative_frame_keeps_fp (test_numeric.NumericQuality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\empty_mask_quality_v1\run_20261022_numeric_red\source\test_numeric.py", line 47, in test_half_iou_is_accepted_and_negative_frame_keeps_fp
+    self.assertEqual(labels, [('TP', 2)])
+AssertionError: Lists differ: [] != [('TP', 2)]
+
+Second list contains 1 additional elements.
+First extra element 0:
+('TP', 2)
+
+- []
++ [('TP', 2)]
+
+======================================================================
+FAIL: test_nms_uses_score_then_stable_full_identity_and_class (test_numeric.NumericQuality)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\empty_mask_quality_v1\run_20261022_numeric_red\source\test_numeric.py", line 17, in test_nms_uses_score_then_stable_full_identity_and_class
+    self.assertEqual(nms([distant, lower, other_class, first]), [first, other_class, distant])
+AssertionError: Lists differ: [('tless_object_1', 3, 84, 64, b'\x00\x00\xaeB', (20, 0.0, 10[271 chars].0))] != [('tless_object_1', 0, 64, 64, b'\x00\x00\xb4B', (0, 0.0, 10,[187 chars].0))]
+
+First differing element 0:
+('tless_object_1', 3, 84, 64, b'\x00\x00\xaeB', (20, 0.0, 10[18 chars]1.0))
+('tless_object_1', 0, 64, 64, b'\x00\x00\xb4B', (0, 0.0, 10,[17 chars]1.0))
+
+First list contains 1 additional elements.
+First extra element 3:
+('tless_object_1', 0, 64, 64, b'\x00\x00\xb4B', (0, 0.0, 10, 10.0), (7, 0.0, 1.0))
+
+Diff is 652 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.003s
+
+FAILED (failures=4)

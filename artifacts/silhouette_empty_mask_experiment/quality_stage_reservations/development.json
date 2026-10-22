@@ -1,0 +1,13 @@
+{
+  "stage": "development",
+  "run": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_development_v1",
+  "maximum_calls": 9600,
+  "previous_stage": "pilot",
+  "previous_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "af4c9175f064ea3412537b20643e7884876b47bcc5f39853ffc3178ef08eef46",
+    "bytes": 136596
+  },
+  "total_protocol_maximum": 22176,
+  "policy": "One attempt per fixed stage; reservation survives failure; missing frames are never negatives"
+}

@@ -1,0 +1,74 @@
+{
+  "scope": "Initial new quality implementation origins; actual completed build separately pins final compiled bytes",
+  "v20_commit": "d071ee756cd693a691b6cfe321482ca555daacbb",
+  "private_core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "unchanged_helpers": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_helpers\\tless_eval.cpp",
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_helpers\\eval_metrics.hpp",
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\frozen_helpers\\padding_plan.hpp",
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361",
+      "bytes": 3974
+    }
+  ],
+  "derived_conventions_from": [
+    {
+      "source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\padding_eval.cpp",
+        "sha256": "00511b11ec256e736f663e62922ad2ab006f1c7561eafc9378a2cf0ad61d79db",
+        "bytes": 27552
+      },
+      "relationship": "New separately implemented exact-row/raw/pipeline/timing conventions; original file is not compiled or included"
+    },
+    {
+      "source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_adapter.py",
+        "sha256": "c05f96a5741a5fa827cb472347341f1975c250e102ce512387c9282cdf77c50e",
+        "bytes": 6950
+      },
+      "relationship": "build_quality.py derived from frozen V20 build gate; original file unchanged"
+    }
+  ],
+  "initial_new_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_eval.cpp",
+      "sha256": "77bcbef40f301efe45099f8990af232285c91541609e61bdc83c0d19049021c4",
+      "bytes": 17767
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_support.hpp",
+      "sha256": "727c0d0aeb63cc5e0a6d94e690a9807c816f388b768a334fb513e3576197021f",
+      "bytes": 10815
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality.py",
+      "sha256": "1c2945055f715b10972962b0788b25a66448cfeaf6e812701672d5bc20ed15e6",
+      "bytes": 6604
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality.py",
+      "sha256": "8c6a48deb38bece07ab1981149f7ca79da6790e95bdbac8dae37beb72004e071",
+      "bytes": 9451
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_contract.py",
+      "sha256": "c24d14a0766945f0ac828ac7687b1e3e369c9d41c928f9bc6e9737d4fcbe5f82",
+      "bytes": 1712
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\prepare_quality_inputs.py",
+      "sha256": "3af93624c5bd2628472b5f6e8712564e7332fcf3a7645b270e0e14f904abeeff",
+      "bytes": 4632
+    }
+  ],
+  "dataset_image_reads": 0,
+  "matcher_calls": 0
+}

@@ -1,0 +1,16 @@
+{
+    "scene_id": 8,
+    "image_id": 92,
+    "rgb": "test_primesense/000008/rgb/000092.png",
+    "variant": "fused",
+    "class_id": "tless_object_1",
+    "class_ids": [
+        "tless_object_1"
+    ],
+    "raw_candidate_count": 42,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/run_quality_development_v1/native/obj1/rgb/s8_i92_fused_raw.csv.gz",
+    "compressed_bytes": 982.0,
+    "uncompressed_bytes": 3475.0,
+    "zlib_version": "1.3.1"
+}

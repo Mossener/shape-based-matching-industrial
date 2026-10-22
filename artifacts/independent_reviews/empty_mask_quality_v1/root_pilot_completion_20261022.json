@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "stage": "pilot",
+  "stage_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "af4c9175f064ea3412537b20643e7884876b47bcc5f39853ffc3178ef08eef46",
+    "bytes": 136596
+  },
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "7655197e7464e715bef2f8a4611456bf91412fa1dcc09f35684df401bddef2fe",
+    "bytes": 256142
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c",
+    "bytes": 130369
+  },
+  "equality_csv": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\candidate_equality.csv",
+    "sha256": "c8d905b487da29515553d711d302408d1e1ef820d8476f0812cc8778fc55e9ca",
+    "bytes": 9199
+  },
+  "rows": 96,
+  "native_declared_matcher_calls": 192.0,
+  "matcher_calls_in_review": 0,
+  "image_decodes_in_review": 0,
+  "audit_source_sha256": "c5cc32d3ad0042d418a39858d6141da3704d94d9ed75e1b334a1997355161e46",
+  "limitation": "Source/byte/schedule/completion gate; native declares exact raw equality, full independent quality arithmetic remains separate"
+}

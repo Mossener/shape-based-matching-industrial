@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "7655197e7464e715bef2f8a4611456bf91412fa1dcc09f35684df401bddef2fe",
+    "bytes": 256142
+  },
+  "selftest_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "20246a3b21d69344536a2b0090dd7fbda7ea9676f6c8d93fcbc1bab4fe9c9d28",
+    "bytes": 3811
+  },
+  "actual_command_count": 5,
+  "ordered_dependency_occurrences": [
+    402,
+    512
+  ],
+  "log_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\core_dependency_before.stdout",
+      "sha256": "f39601271487da99367eeceef7921dc8c1a17748e95616d83f7d92f16975012e",
+      "bytes": 26176
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\core_dependency_before.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\core_compile.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\core_compile.stderr",
+      "sha256": "072b7bae78d67905eeb0bd4825eba6a3bb4ad4f66ad158c85659ee1cf78dac35",
+      "bytes": 3604
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\adapter_dependency_before.stdout",
+      "sha256": "15fa95bf1528b0fac4725d92d13054a0342e45563c76e8f01bd3a479ac50ed1e",
+      "bytes": 30893
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\adapter_dependency_before.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\adapter_compile.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\adapter_compile.stderr",
+      "sha256": "629d19fc72798150827ae1f5f18134b2e9a9f17b66e200d892627181cb096c25",
+      "bytes": 5478
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\link.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\link.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "audit_source_sha256": "25f3f34095d8b6767c0768296c749f59555386fd3fe3544774f2f9a36d7e7b88",
+  "matcher_calls": 0,
+  "image_decodes": 0,
+  "limitation": "Saved byte/recipe/selftest checks; native selftest supplies numeric oracles, no quality or speed claim"
+}

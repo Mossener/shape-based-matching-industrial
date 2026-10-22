@@ -1,0 +1,16 @@
+{
+    "scene_id": 0,
+    "image_id": 0,
+    "rgb": "synthetic/no-dataset-image",
+    "variant": "fallback",
+    "class_id": "tless_object_1",
+    "class_ids": [
+        "tless_object_1"
+    ],
+    "raw_candidate_count": 2048,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/run_quality_selftest_v1/native/s0_i0_fallback_raw.csv.gz",
+    "compressed_bytes": 27330.0,
+    "uncompressed_bytes": 180999.0,
+    "zlib_version": "1.3.1"
+}

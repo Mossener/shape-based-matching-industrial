@@ -1,0 +1,2637 @@
+{
+  "stage": "pilot",
+  "completed": true,
+  "native_exit_code": 0,
+  "actual_matcher_calls": 192.0,
+  "maximum_matcher_calls": 192,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "7655197e7464e715bef2f8a4611456bf91412fa1dcc09f35684df401bddef2fe",
+    "bytes": 256142
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "398a0185588e7d73a0a1cccdf62a3172e29861742de3475316680258585dc40c",
+    "bytes": 130369
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "20246a3b21d69344536a2b0090dd7fbda7ea9676f6c8d93fcbc1bab4fe9c9d28",
+    "bytes": 3811
+  },
+  "previous_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_old_gate_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "0cbc372f6584df505cf48cc964277d061a79eece28cf2e71550892176f054766",
+    "bytes": 70954
+  },
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\quality_stage_reservations\\pilot.json",
+    "sha256": "ade3c2305222ef06b8133879ce86e0f32c732357db7c0efc6e8d63c3f0280e7e",
+    "bytes": 626
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\bank_load_timings.csv",
+      "sha256": "478bdc11530448b37ee472bf50fc2c9b86d11e490c1632f00cd6055b1fa7d66a",
+      "bytes": 654
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\candidate_equality.csv",
+      "sha256": "c8d905b487da29515553d711d302408d1e1ef820d8476f0812cc8778fc55e9ca",
+      "bytes": 9199
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\ground_truth.csv",
+      "sha256": "270e1b3980bedcd74fcc566e96319fc82aaffe9d759042b2b507714ed648775f",
+      "bytes": 553
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\gt_retention.csv",
+      "sha256": "5886b4a3b2671fa7b97429eaf721bdf62680e4715db6a01d2b05fcfcde751ad9",
+      "bytes": 455
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "b304e67406cab5626875c65c3def9ffb449b551ff1735c5f5e828c735f572157",
+      "bytes": 12313
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "bc0b07caf93b3f2059351b94e06440f7f5a47f48ce873309b3e949d479fbda9d",
+      "bytes": 600
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "486f8b7578b47584b76690847f6121f65a4b43ff84ccbc3fe463b7b2d0055449",
+      "bytes": 12278
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "af0d3f5a040fa642e3907fae40040fbaab4435c0de50ccfabc261526c3298c07",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "48d00ca16a52f6c43276abef7a877d258a27556ffcaa52f3fc6369173c473fd7",
+      "bytes": 57062
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "a885f38e802bf056e11797a1600f90c4935a18bf1be30b55cba37a5adbf34bc5",
+      "bytes": 602
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "d559e0419f1f6e678b0357408704af73ac0768b6b6c2f6a17e01ef1a3764d186",
+      "bytes": 56892
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "c38873e007649f8af0c28a802e96c73ab9e4059e660c1c4fa1973162d4f9a679",
+      "bytes": 596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "d2ed9c7b676289e40ee2439728ba9c6f06ac538e1c187581f5472e1ba99a239d",
+      "bytes": 1083
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "eef25a80de74a012689381ce9d16aa0fc154dd49746f20c8aa0b309023c10810",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "5ecd15ff2451ccd1d941de035f410f092613737d2a7503dd22078cb25ce117be",
+      "bytes": 1077
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "3efe9779206842413699ffe96a1329fd44c344619dc15b6411a66ec65e870fc1",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "9422f19fee9e472e69bc1223e84931c4e71ca0d3840e8fd0a2cd630041b47e31",
+      "bytes": 12028
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "a4a017e10dbc338d8217907592d27322402c8846c11bdd359e528a0b7f4ec014",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "65d635878651c3b0c3743ad1e3ae6c23e98d3eefd65cb4ef21c35ce465c6cb9b",
+      "bytes": 11972
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "6b1b2f7abc7cf1673affe9a0cb9fc5d46f1057ff02c3c4cb28531d34b940977f",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "b64a399f3bb4353d29e37f4c80dff745cc16ecb43766ebabe8cd1bc611039b36",
+      "bytes": 13925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "073b6f5917e11b3cc5f055233bcea05aaa521bd32094bfe2354e145a2e34122c",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "f30b15048a86b241f04b209fbd41a632a663a5497c0a066ff6b50bdb57b7a760",
+      "bytes": 13877
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "ac689427d8253fac34624b5621cf913163ded7a4354fbbdeb1c45fc1c17bc601",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "22856854f4a2f45b8f5e9ff6a304304eb837cc2756a78eab09765a249cc86ab8",
+      "bytes": 19397
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "245f5e30d32bc0214f1f72b24399ad00c9c9b2b2d31ccc3ee92ca28ed7134a7c",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "562de52d9333a5b22dabc99245c65d3dee81f68f9c08b1ad0853c054f2a280bd",
+      "bytes": 19303
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "7ac7fe94570b2b650db1c97748f853bc7318c27805f3b66707b73c5ceca1304a",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "1608ccf2731cdfefb31f01b43592441ad3d2b89c2fcc7fd6e157c1171fbeac12",
+      "bytes": 70781
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "67e3fb744d4f208ff0c59890d8f202b9baaa8a24fa21ed9a59d84b04e2af1ae3",
+      "bytes": 600
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "6b057c625ee02ff011e43bea088618f41ea204546ab5ad54c5ac0d86b19b2d2b",
+      "bytes": 70528
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "2984bb1c68bf268541510c9da0ce6db41a3278fc062a65e8e2a2ef93c0cc1f3a",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "db3da077475843f49bd75e2eb50972fbc8b713f3ca6eaf39a06d6b5665134cc2",
+      "bytes": 13062
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "b49ec99ad24c2bed3a96e6c9948d1daf174a0e70c2dbc9492fcabf9dc21e9686",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "4f555bf4d9dcd03e719b74d475e4c8d8b4396785802e4f32aa71231f916072fe",
+      "bytes": 12993
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "0e927cfd7e6228edb341e8c09a7d79fe4d5b0067abae722d69ca3c7c1b7429fc",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\metrics.json",
+      "sha256": "820a84689c9f9b7d5130054aa14bd85d62d96db0e51cf6a2b4ee9aab3db12e0e",
+      "bytes": 18698
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "f82380ad67de5582be76af539580aa1befafd3f1c938b6ee08106d01f9e36f3c",
+      "bytes": 663
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "723cec13c616d1e430dd49b7d655264ce505d2e91884323f2c2a9d5e733449e3",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "92cf71cf48f7b510a15d7e8ec4979e180953ab99548d5257bb63889f07d1a4a0",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "0a5a594d745ab011b1d25521476d5c21a26a39ce8a67508c2f02ae38a9cedcae",
+      "bytes": 576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "1c1e90d98d20f1dfe0c356428050ba9f6ff4774dc3649c3721a5231abd397b96",
+      "bytes": 16027
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "45e55cf2d3ba21d71148e9ae70f2d55022f15b323f34d99bd3c27ada5d479873",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "3485b1be48635412022b31079bbb4992af2f1c628e9c98c6de88a25a54ffdc8a",
+      "bytes": 15978
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "4471e1df8e1f942465cfe96427f7a4d4454a508fde4e788316d2d9647a01acd0",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "5b540858be65d6e5d44cc7ed1ace846ddeaa9a1bc4c2bedee0b911a446310f6a",
+      "bytes": 541
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "97083b5a3ebde3fbb95b313483f254a18f11b114466f2f0cc3bae10ceb53ba66",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "f1fd000ea99bf67a7589f65cbf1b7e5b05a16a9d108767568d107f00797884cd",
+      "bytes": 535
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "7ef56d5b22260039cb1efe828eca15977c5d1f5212d9cbab2ce12b5c5b8ebcb5",
+      "bytes": 576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "83a68b9d0e4e460a0d5eb95a9372ab9871a169bf4e5d0906271d24fe858c9f0f",
+      "bytes": 1240
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "ae47536cc815da90e9437072b342641a6cf091b4fca2044d1fd94e632658a1c5",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "0a89edd4675bfdb60714a6478b93576bc2853f142c3fabcb011990cbd1785a29",
+      "bytes": 1235
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "c7a06d71ba44b94386cb85e6112578ed868cc42f42703d62db4b177f557be30d",
+      "bytes": 575
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "bcdf423faa3dde0bad12e9d5a79a34edf40277bbd4dc278efef905e5fbee73f0",
+      "bytes": 5077
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "d7324b3ccd509901fbdd4712856325e8608570abde799988a01c0be1358b3975",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "de96f4db1c5ed775d632a94faec47ae52382e8d2a694d6ba765430e1462d3936",
+      "bytes": 5060
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "302fcd5c6ba802b536122e98c0e84dc524e444a3a8a627477870f7a53a5aef81",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "3eeeee755a6445672b4888c03c076a766076f3b6efdac233877641c8b90a42d9",
+      "bytes": 4236
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "39d790942f65188f414aaf3fe343dfbfbc0380fd1f05d2e86ac5f345d804d5fb",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "1cf761e47756d125aa3d18f619632ffe3d3bad8786b6e991efe5ff6a68f1f552",
+      "bytes": 4220
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "7508563fcdd523c521aa019ffc87dec052a6453bbd149f351c570c090d3589b9",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "b2969229a1b1ced53607ab543aab1c2a6bcaca8c15349a26871718958bfb8361",
+      "bytes": 14351
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "4853933eb5c7bccc8161078d0c99b59bfd6d40ef3623522edac98d3ad8efa19d",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "178ac8c1807ea0a89d8754739ba8ccfa4b0fe38e109dc9cb87394ee1536c35c3",
+      "bytes": 14290
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "32bd98704db8f32c339bef344fc7fa1844a96f3ad6b01cae03f4181d692fb33f",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "e482b6f2f711182e773cce9546a96e6296fb2387fe44142bad8c79dca39517c3",
+      "bytes": 630
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "c3e3fc9ac57d9ce99fe11a501e0f3d3dadabc606f66187128a0f0006e34d8788",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "e9bc617bb03e7cc1ebcd83da20d029c167288673103d4d5d28667a607416d8e5",
+      "bytes": 624
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj1\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "de84bbf76b96f86ffdb036f80d9c8c20ad7a940a6a31a707d94d4fc39180f86f",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "9801c4911fbcc99179961664e9b87312090ed0461cb733c442a91ea9e9f078f1",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "ac31fa12aedef45fd44d677ed202791d5ea99fd3f0000fd4ec9bae60c8d8bccc",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "0a7b51c77a20d1153116280288fbd46ab7c183c130d2ce802cddd85ef2bd3884",
+      "bytes": 526
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "91458be54624d57bff231d435f2855018444aea130de34e2dbb62a6bcc5dad02",
+      "bytes": 599
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "e362093c7cdf99e5a30dfb2236e5ee50fb6588ba01fce1314e3e1a273e6cd603",
+      "bytes": 522
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "dddc1206075387ffe1ef2c32960ca7368f30197ad14558887d7cd149fcf1572b",
+      "bytes": 593
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "5d41b5e25c6823d17a5ed670ddc4cfbda003a800e122855fa869e1208abe7ed6",
+      "bytes": 163
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "15e86561308c24f8c926dda7dfdfbe5c2327eacd8c6f024ad9d1e9c84dd04cc8",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "b565738bee7d81a75835016d5d877277b3fb846fcb04b9a0e3ced4774ff37ed7",
+      "bytes": 162
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "cd618e2f0b149a96aab9318b3c540addbe410e4aded066e78fad3cb04816f9e0",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "6fc5918c4c38f4b8d060e3cbb727aac78ca1ce8f2315e325f9d996a36afb45e9",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "7431b4687ba79cc95474e890adacb1b1a1768f1d6d8070bdd50dfc2281d79e3f",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "725d64f733386d63e9821e77c34da20b77b45da10d0c9d7283aec3cfea6cd3a4",
+      "bytes": 999
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "88c6aaa85d8c654ba89f878ee70fc3e8cfdae87c604b552e4bfbd73dc7edce4d",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "7e4a88821692eb762f51d450d4307f3e798daddc844d5e929f9ec20af2292cd2",
+      "bytes": 992
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "df9cce330a7ab7fcc5c6549d10ea2e8e561aef5b28f6477fe8f2e006e027ab46",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "1bbab8a61ef86a62e33c7fc351835d685dae88e49a969328c06a8c4a83d292cb",
+      "bytes": 351
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "bc6b045df7ce7741fb307fb915cbabc83ab012b86e7d8e86c80ce609913e13b5",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "1677e1d437fbfe56117b26f88e57f7e116e24bf17d6e7877dd5ac8b071bd6bb0",
+      "bytes": 347
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "88695b576e5f190cbad8426a2bfa0d5fca44773d232cd140010fa565e7cf5c6e",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "e3f920051891290d52e974f0dfdbe9ac9e29d52bd58edf3112f700dda4209b05",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "00b560aa3ff509f7fda20444b46a16a67367bd7d3a4f9da95a4c1045e6fa5c38",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "a93cbceed270a7663d4a743d552c97706e6cbee0bb80cde1348d9a1693e5948c",
+      "bytes": 257
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "3032f3efc684a7b7fc4063a72c33f1d8efcfdc0c666ed77bdd1551ddb5908972",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "fb8a31b8f38f0dadefe0ed8296c2d0c9eaf642632e3a42317198180f16d8abd1",
+      "bytes": 162
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "e6a027a90720eddd88d3f763d9e161f40dd663c4040076e8a838e965ca5d2ea6",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "85374c66d8d1a2ad1d1080cd11e59a7bb1c9a9d6c792c8a87b730761ae13e1be",
+      "bytes": 161
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "0d7d082e6478baa6ec3bbc05bd67e4481a6f111c4caa38cb0e1721edb49cdb9c",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\metrics.json",
+      "sha256": "64450f27a1bde46a0b2cef945737635cd3cc9322a1ebd582c8ca1b145e30986e",
+      "bytes": 18558
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "d0d2c581a7db5da6c90ad9f918a325ff507870ef9aa5a55b989fc0b9d4876a48",
+      "bytes": 752
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "8288eca543335bc038a5fc9a4aa42b91fb894ac0891a29c4abafc3024b96259f",
+      "bytes": 585
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "8906ef1e83e48ad7e0b5e93d242d144730a0e1ca9a05d9fc30f3a2c13020b8de",
+      "bytes": 747
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "b5837d0f12dad62566c3a08c349ca45e588796e243b02f1c712728d191b626b8",
+      "bytes": 579
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "9d48e101b86c79cb6e3ccc166e8d8af998e03ba0d06d71b4f34c9bb8ae69cd77",
+      "bytes": 6538
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "1e65bb73fa38c30f5fbe3bbc596e817fe691dd8d63f60ac2644272a8bcf3557e",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "b1f826bb15c20e14f720ecc75ea70f0dee9e2516b87d407e22dc5bd43637c525",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "ab8f198eff0ea136896a2e5facf2959c77ff994d8f6be0c446ba6a6a81b0985b",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "d2291ec9e42f0087e278254f56ec39934b8c0102aed15346dbe71f7d01abacac",
+      "bytes": 252
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "3cb0b94fbdbd05addb452eb1667500df8a2d4b000c37dc65a7c3f361b7fc5db2",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "1d7f4d8b67c631666e4816e5b5f806d34ca1ff1fc3350880bab96875d682031f",
+      "bytes": 250
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "10eba8554b7aa32f2f97c921404e18fed3002db1a91513e1d31a52692a53161c",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "d87ad85581d5bc6f33763fd24d4c235d8a0a08480921c8680f06c3060ee682e7",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "33b5d963c54118e848c6362ff1e9e21879298f8e32a267d16f6ff49f884c8e4e",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "d164f86e2a4c5a42f7c4e81bbac232a3dbea07f5ef7f57f694ce06b6972c01c0",
+      "bytes": 310
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "fadd53f03b19c1f30ac1cce2dcc942c211c36e3aa5edb92ab7968e00fc9a8359",
+      "bytes": 575
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "92a1b512c29807f866dc34be5aa2059d0f17273fff0991e683f6e6d508ed248f",
+      "bytes": 2341
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "fbc90068904f18e28dd6b83bafda88637b835ed4c4e56d82123f5a90b7667cc1",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "c5a1ad3dcafe93623314ab0e2438d14d430f826c418098f5d51d1b1d389d3cec",
+      "bytes": 2330
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "02ffafdb4e970c980835778806d9cb85105d2805babef6afe04c84e40624b7cb",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "a961c7bc848bf7ca107b8ba020a19e513ea3699b355dd18574de355a6fa11a48",
+      "bytes": 2902
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "c390355b66cb91a1e9394f36d4bf4d31df823c71e678141cd076de5d90195d2a",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "8e8d5ef17ee4f106aeeda9912dad8ba279162ae74c23ccdb00de999bf73eb646",
+      "bytes": 2885
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "c2e3be45fa389e7099914a34d8317419059c018cdedd31bb083a4115390433ae",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "907baa2359951410cffbcffe10396846a1c7b31dc5d773743fbaf7e07836260a",
+      "bytes": 4205
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "9fc0b5e87dd0ce9ce2620b10a030c0569c8d3d1d3763913c0dad42278fefe8a0",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "d230e2964160e945e3bed3b27452b4582258be5cf4c5cd132cd2dbfe5048b639",
+      "bytes": 4186
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "01e0c9f14d2d01269f8607148935406c1933b3d8cf125af37e0b2983af85e19b",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "2213e0d90587be1f3d43f2181cbf6e9a9d20e5129548de6044248ea314ab5584",
+      "bytes": 301
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "bd0c27f2837275f07adca01ce5112c650f53bb96d0f1ddff113e2dd716fcdaff",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "4754db26f66cd433140b84eb3df45bbea7a42d4f31e1214c9bf4b0c75c1f1b68",
+      "bytes": 298
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj12\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "b73822823aa2378c52fa143aa3833014d46c0ec7127f2fb472fca3f690296c98",
+      "bytes": 575
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "dd2d9802df304407e3af2e9a8285cae88e7e96b998ea704fa067659097c91d06",
+      "bytes": 300
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "00891707b5e1303c0731f67ed71a39b52e351a4d72614507d803950a410d5b41",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "1b4a3348c3276a1368942426b396159787b4d9097578a9054593f7b2d7ee6903",
+      "bytes": 297
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "28dcbfa898cd006b3bd6838be6261d82c48800a74c9585fecbbf8d8e012d58a5",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "b713303f2a333f4381d72e6e0b3801b73b65c5b4e809acd53f81033b8d0830da",
+      "bytes": 162
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "dbc11aa8832b600412e8b72d22c3b213e46f01288e99e875a4d65277cee7dfb3",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "072fbda385dec7544ee5f84bb7a75421953d48d55c488c4dde375c0c03b86cbe",
+      "bytes": 161
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "5ff07eab905b9ce58f235f79681e7fdcffbe6aca56ad6014e5eec6c20eb3fb4e",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "c8b9b716234bef0fe7ef3b92a3f0a41a236c35b7456adba8c413ef2cade1e1b8",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "ea3ae6a1af5c3abf7135054e4f959fc8d377b143d3906d5e02b0e758b3c2e89b",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "825314b4e263d587c2d4ddb436ab27e2e2815729530e17ef2e0d582723fbd15b",
+      "bytes": 193
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "0a5969a4939f9a1ea1bab4e72af5f29234cd18a0420e2ba246152d5187e06677",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "2364958cebcb146e7c566b7751e9465958c018969d91e2851560dbb1a937c38f",
+      "bytes": 190
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "db56a4da482af0bfe6f586f64e4abfcfbca7f17e7685435340548d13936d0a19",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "d3d14a2f4e63fde7e16f477edcb56ea67a0a4efe90fbf3ca1b3ada66c61305a4",
+      "bytes": 747
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "321053182b3d821449a9edf9cc218fb01a2e116c4a1c63f1ceedccf0266089f1",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "92f490109614aed77ae511aa0729e384f9194e5838cdb5b424fce733cd36c915",
+      "bytes": 741
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "b14f2ebcd47d2aad77573789a44e35942a385fc2d8347eeb8b57636ced08906d",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "350227ecaebba638deaa1395cc168a0aa26a7ed54396086f8935ac835ad3546d",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "3bd6b6e3b904c282d9628205bbeb22695446f2f7cca3fd827eb58d85bfd31521",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "4083e45b16ebd98605690c258a7fbcfdc5edcb9436832a95362c67028a4e584a",
+      "bytes": 12674
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "3306bdc169f36af8894ed59c46468d03e0137075289b5ff24c7e5233b1e460b4",
+      "bytes": 601
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "876e60105ece5e14a37678c6d60ffaa4883d1fba0dd649c01652ff1229a4c597",
+      "bytes": 12625
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "63e2659728295c4487c89ffa9719d1c311f10670178f533fd09bcc9614a41f25",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "3ed43f1d1bbbb1184826e83441f151f02d232b3819ed0235f3b7da992ec34b1b",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "f6fbeeee1adacae1f52d2ffe657cd5a9a472cd414dc453ed8df83cfa0f584c68",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\metrics.json",
+      "sha256": "03a86a53148151a49e02c774aa2a597a4dec72062dedd4042953373cfb3d62a3",
+      "bytes": 18608
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "e73d334623babd6577e9436d2f3aed4a9d4e5aa736b5d1a3f89176e319540fc4",
+      "bytes": 7414
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "6c0385443cf7fa364b7b98e94b28dfaa666b526c94a9a109c4597df27142146e",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "8c08a7c7a8d333e335d6237d49b15b4e6b784eac3ed415445c33a9751af90778",
+      "bytes": 7396
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "9b34623f4de6b91e6bbef3ce5f4b658693802c5547d556dbb64287a9e7cdbfb4",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "81bd89cde44067d65a06bca4ce1378e1a6c744b8b2ca3e3fc4fb84a06a7c50d1",
+      "bytes": 7197
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "04f3844fbead61c0f9c9ec8ae940aab03288172c695add64040ba8615051ab2e",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "4e03e410330696cb97ec7c35404519643638ea3647eedf9706f119a4fa1409de",
+      "bytes": 7178
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "009b5ac925df2cfa3545158bc7446fedf525c5a3b361e448e3c52b1fec486727",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "0d602933516d54ffecf462b44d651d4c826ec0fa57da2d10b2f0014756eb3e94",
+      "bytes": 4530
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "6405191aaf06b6e9497309aa9bb1d45487b31698d57c62605084af667ed4f3b2",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "2cff2625302b5fea4ec1f6d255566bb53dadc5f613e344b8ed98501891c5568d",
+      "bytes": 4520
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "5099d0f480a64f6604599109cb371214b6b99b913ed164546cfe84f9ddb54ebc",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "b952b0c396d5afd26baae213474e3b8b82d8e1b6c9257b4e6a8beed397473d04",
+      "bytes": 5172
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "846909f0e1693e2c626763496d63abe302680daaf5ec0557ae7750c3d46c662d",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "7ce7861813d7fe263bc384ed9be68c760f720958879e74e96f9dd7ef9d66fe48",
+      "bytes": 5168
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "7ce4d240d882205c84d641ff7531a3754fa5aa0c4899327986f43579a5b86912",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "77d58d6151417e0925bbbd5af88dc781b1161a3df69d9a3309aabbe2ff64ee6e",
+      "bytes": 6112
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "781d99ff766b98524dafc245ef6a395e1f1edebe031de0d1b8d0bcb57824486d",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "939dcbc6eb10f6ba52718b30d3f7989c06305bf5f64e1f1b4579c1accf771d8c",
+      "bytes": 6103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "421a9812f6fe243ac13205816415be73bf798415abce2a1446becc383cd533c5",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "4b5541a8bfaf6d14f54b4073f75d5bad98c2de59c48eb901cbd51c367315d3aa",
+      "bytes": 2752
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "43f8bf8513698837baefe4657d087048cb08a2be485ceb45366d2896a6c5a049",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "0e1d83f6969cc4e1e6a53c6067494720f8dda7847e8401d244431bc9e9b7cbcd",
+      "bytes": 2741
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "e5c316f94420fd6674b9c8cbacb56ec49d596863fe52b8640bd6d14616bd4452",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "949ea795802918888f3fa91f6217c0ab861487763089baa08387a63c8acf47cb",
+      "bytes": 6705
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "b3c5464c3b43b16033d376bd4d46e440f477d3ce907263c715cfe78cd731931f",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "4c3ce14aa119775fc85a1b1ec02e8f324e80e70430bf40bd61b2f9c2d1fb0290",
+      "bytes": 6694
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "895595c0aa87c54189810472635482ccfd560af92483b0c8cc53e1ac4bb1a03f",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "ccd72411dbe84ef98fe4429bcb7c08e3525c05acde2178e0c15ab05fcf5165fe",
+      "bytes": 3576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "b4bee14d7bd615c3f0d083c424482b2637cd82af3c45449295b13eae7dc5dd87",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "d9d451c325e2fafec7f450208bf7c7a39b60513a8bc00cdd27d8fef40e99a115",
+      "bytes": 3568
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj17\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "231435c14827cb0ce855c4885e1423281667ca61751bba435ddbf2f67b839141",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "77b94d09a2d6b90ab6d8cc3e9033ad6c9cce5f4f8803f113bb39e4a6dd599278",
+      "bytes": 8243
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "430b293fc59ced03aa3026be45d2e245b54581cb3b82d60e14eb67a38c47bec8",
+      "bytes": 599
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "1690b0773db5a8eb6d54ee0f59d64593049130e3d94b3d4c893d3dc9e87fd770",
+      "bytes": 8222
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "b8521113b2f4f94a49f60f8065d95f35fbcabe39fe0a6f94fa31c3f8eaec005b",
+      "bytes": 593
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "9a73dbfb1aad45ceae0b6def3d53dbe6cb25e300f45f9c92a5af05f21ba6eb6c",
+      "bytes": 47125
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "dbe5a5fd397db2ec8a41480b39c591e026ea56c33fea497c7d2171c457b40508",
+      "bytes": 602
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "b6e605b26a0baf8134e92c7763c89658e5fe808578fd0b95d8a124b84ab76f98",
+      "bytes": 47051
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "e94a216bf7737342e83dbd2b6af353493dc2947878b8970eecb92228d7505e34",
+      "bytes": 596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "ce11cdbb407756dd4d36717ae97c9264229e969a717f4d1ad09a5454d59afc44",
+      "bytes": 978
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "31b85d41909eebd9cc67b6847c441b835f0ae8c203f08fcf1a0c809c712a1e7c",
+      "bytes": 596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "c2bbcd5110865d99bbeae27cb63ceebf5226bff84bc9a84902f2e74ebf786973",
+      "bytes": 972
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "a42e93ceadffa30011b7fb0f960876bdb371b043f3b82550fad2b21777c2cd9b",
+      "bytes": 590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "45b3917e16220179a60f02f2e838d85a9e2d48a70f57b7204093bcf9fa756955",
+      "bytes": 10837
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "4acf2cd3e62b0c2d4ff5e82141b48f75dc2bd13ff3f59bddf340b652288c3c18",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "a509c1b4b7b274112683c67c252348b7f1ff713184146a5633db2d008b86cca8",
+      "bytes": 10794
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "15f2c3c3ea522f913865d7d666109fa02f9381dc613837d2d4ba1d8deaf6c89f",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "5300020c80f84566919067c0ba755047dfc5b680808b11b7065fc4427472ceb1",
+      "bytes": 12777
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "1853645c344b928508de7fb288fd474afca769031ba24eae068bbccf843b1161",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "4c63e162c7d4cd596f7cd250f5d99baea70705cb477f4548fdfdee1b06e50d1e",
+      "bytes": 12722
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "51c84fb91626528c1d1b9f0b71024961a370afd38d9c867cbb7865d9c572c723",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "6b2d0b5cec2b9692a51f9bd85c93d5569fcd2b24f7e0a36aba837ec838bbb12b",
+      "bytes": 19538
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "84885c43aa41a6e610332db1b37eebaff55d180a72903663c12781eab74da4db",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "b82748bd0cb2a58d85f23fb820ba75a7240642729fccf417d71502d95d1d3c87",
+      "bytes": 19430
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "d6f0172a02dfc9d4ed3a6c145e64ac4eee49e5a897cb7f203a714252f6b8f81b",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "51c309e2092db76e7aef6d5cb2e6614132199fd86ed51e47d416f1a36a12855d",
+      "bytes": 60621
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "fdb20e993cfa4f6d616ae048a8e7aebba02caef9a6175247f354532ffa935cce",
+      "bytes": 600
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "49d6d493e961232b1993e3837fac843f2b635e55ee54197e28539ff7f43f9f72",
+      "bytes": 60499
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "c9db6b2742adb73040cb583ede690b6b9b0f8c5dc413477c4923d5983cebd0fc",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "257bd098ded7ffc59fd15090909f85fbf62ad1c683b0f256449ec55ec85199ca",
+      "bytes": 16186
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "dd81db1e41a18bba493d75f23181eca3014c598c7a021680144cbb758122482b",
+      "bytes": 598
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "9fe43d85fe62073010be9d1ae77f3e21b48fb7ec18a9b3a7fed6b9b469fe0e9b",
+      "bytes": 16113
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "7da715a6b595b2c54901027fdc35d45155c361ebb735cb8ba94fa62673a79ecf",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\metrics.json",
+      "sha256": "431cfbc2fd5b61d346d5fee3ac5ad216207a3d333e8d3a66c183bc296991d3d5",
+      "bytes": 18954
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "39fbf0f3ab3bed0785d9b4b729e9da6d1a197dab1ff9a8ed770d9da083c61321",
+      "bytes": 1936
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "ee92c1f2e51738ffaabb56367926d350a85b0f31508ce5a82afcedd3597763b0",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "96ca2a18c7ad5def537f714237e32e9c09d75490c6797998cbd68136dbd768ab",
+      "bytes": 1926
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "b38f5e714bec94140875ef41d986f6b0e45bd83a0d15c0b20beaaad8769979db",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "fac01bdfd3d7c1ee00ad6ca6b1b958706ee16cc524a51057c17cf9ef2d526e36",
+      "bytes": 26799
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "3e8ff808b0b50c155a287e67cff2c14cb2d727712a64af58a4f6c23df1a54d02",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "55b6d88b3b7245b2f1b3c64638982b5dd4cdafc5d993ba689318779b0036cc95",
+      "bytes": 26702
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "35f0cf79288c2a207caac5cda6b330ee559b738abc0a8de3ca1375b5348e5b4a",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "6e01b8670b82303dfc698cc9966c5d2b9c7a1cef5eeb843bf09bb3f911046400",
+      "bytes": 809
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "04b34ff45c2937ba5d5c16bc31b0f2ce128bfbdcb197331446f04b9de081d419",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "5071d8522c3d076b9d835f363d1c6bd9d73c18e1bf6f967cafc995ac5f0cf00f",
+      "bytes": 800
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "23a57d9e92d3e7910c81a226b175c3ae5bdc5ed9dc4c5851f48fa0556ffb2f70",
+      "bytes": 576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "fcb16417e2d5fcd0fcbda7c0badf5a69f824ad197392fccd32afd0d442744c63",
+      "bytes": 3685
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "f73b426c0348fae8bdf303367c1cfe0d74ebb144582289c91939331005c9a655",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "8d8d90f0989d90678fec7aaae93e83cb88b7427c5f0223aabd1dd2d052221cf2",
+      "bytes": 3660
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "8ac6e621a16dc072784abf7fe095ed994682fcf1f4b31a481fef7eae8fdcc777",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "00d18bfa15e4641e3ace0422c7b85e374a025463067410dde5dca4190f8cff32",
+      "bytes": 4950
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "e55e44f2b4a9ed558abee21c6ee4ce5ebc6ffa05cd097a389b58445d0e8eb655",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "19728d04a0399eaf25e97014401043814cf1799413e3701b7923450dbc10c9ef",
+      "bytes": 4925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "5cd1d08e43347d6e2e4d5d9ebcaa265a5c0923f8945c9370f3fc39791bcc1b14",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "96fcfd3b183795efb010e662d6bdf835fad7fcf5bf2b977811182d466a7e70fd",
+      "bytes": 7193
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "739d518f53858856395ae47834654347a699467d02f1f87e5808a0be8902aa8d",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "cc0059ab6045fa254468d3e1efd80b9cb0ff1112d022bc1bad1c81a08434aff0",
+      "bytes": 7161
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "8e696cb6d4d7109e8eb859ee3dc79ce796fe57bd450ab32f653fdc4fbefd87e4",
+      "bytes": 577
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "279612ec3df804e6bd795338ba4f5422b4ca306b727477dba9ee3d11a3db1b16",
+      "bytes": 29595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "4611c48c27c93a950a830980bc859bb1acdcded12a12824b047ca9bb11647b6b",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "b6cbc536524740835794bf0e18c3724765ed266f07a99c96d9de5ff482fe8f13",
+      "bytes": 29487
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "1576cc78732d075b59f07b0194c1e684cae89f10f19bbd04017fac819162b85c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "b01efbd16e97b9c907703cfd872a326330e2ec02d6f0f03b4933aa1fe5249f54",
+      "bytes": 440
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "1dd5336ab31cbb59400a581f0598963573203e6643f5da677bfbe792be85365c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "0d8217161b16f10f1898b7702d1f4ba3ce715b89b0e1dfd9a093bcd039b2eb41",
+      "bytes": 436
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj2\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "ff1ae7855ca516cbf59c9e3750e56ab18db760027e1e2c1a66cf23b405da89be",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "20565806f5fa2190abec6fa8b84e9b89754f5e1b2437d2097540bbac2226c5c5",
+      "bytes": 833
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "a7795052198e29815c617c568fbc620556d39ea77426571ef73153eb31e98050",
+      "bytes": 596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "36c11c326c3f27bf40cbe3ce3967836e3b0b9bea19e91086bb8a12920dfefb2a",
+      "bytes": 826
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "940a006a4e655ba2fa87f573d9e4defcd7025587c8f015acb3981b94feeff02b",
+      "bytes": 590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "f12a863d4dd73e0374b066210e2070b190e807c88766496662f3da3d25a8f5ee",
+      "bytes": 3306
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "12ab45eefa506ba976fce9a311e94f5e6f4f2ef77b0373ace404bebd10fc44ad",
+      "bytes": 599
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "a4a985c04d17966078f1e07bd9357b9c2c743fb33521ec7d9d23e82c0513d373",
+      "bytes": 3295
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "beb3e6655454e0ab9c8d78f50c768ac1d30910d561a136c3eb786ccf3a726e06",
+      "bytes": 593
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "6345dfe35260bb74a1bae375c83ad7d6d0a14423a9ddb88e42dfc3d5cce13fed",
+      "bytes": 576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "65ab7c8e495231b05b30978609525b880d1cd2a3548ec49f8fc81a4a12d8427a",
+      "bytes": 596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "0e15b55232de4841f2423828e0d0fede1a6b7940b086270c6e786568b19e1e3e",
+      "bytes": 571
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "c919bc37950a0b2098a0e6eea9ea7873b329727dac538ab6466baa3cdc67931a",
+      "bytes": 590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "ec25f95313a671b053c20a291a6ed6189126613cbbe241e097ff361e97b75727",
+      "bytes": 1397
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "a6a497cbc19b887483db314cc705402a1162f9c662882c3dea1813446c44e5b4",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "923faf62a0577ad6df299f27a06726a10f15bd8e6f3826cb711fc7326a132543",
+      "bytes": 1389
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "dfb4a7653e50eb7d60a8b26a9dbc41cf87a122052662ff9fa91dae09016629a7",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "fb49cd72209153c2ec1041ec8c073c320c773ffaf35209ef2a24ebfc0c1452ca",
+      "bytes": 3681
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "6eba0e9b71422b09149c787fdf46763270922b71b6ab1a93260ca321f55fa7e2",
+      "bytes": 597
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "405eacd124b5f9335f9777ed8403ac95e6bea1b3d8c6c534bf458cd6369bccb0",
+      "bytes": 3659
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "1fa6d8728c4c47a3ec54e981ed2627de91b88cf0f8bff693a943cd268dd8ba88",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "0c202ebad883c7b20c01de2cc256c7578c8a55996e4f2946fc53f5562eedc07c",
+      "bytes": 447
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "fb574f8222de35c80c20b77ecbeb3b91910ace4285a5f64d7bbe4f18596cd7d8",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "b133f22e9d05fa3127ea785cb9c08d66cdcbc1fd7e2b45e7e39b84a82b787db7",
+      "bytes": 445
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "c00adf0d8f139f92593e8157db6cc168730861c790eedc2cd85effb40db0eacf",
+      "bytes": 587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "2c1910f1c4d114d64fc4e3c0148986b7a417385dc5ef2f874c41fc6a196814a3",
+      "bytes": 1972
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "11b832eda59154493b22b437483bcdefa8fc79baa1d27f3fdd85e6ed028b92e6",
+      "bytes": 595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "3f4ace43cee4f96450f12f832f6349f5a9212b882127cb50a70c30403f54a076",
+      "bytes": 1963
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "d940492675570736bccd4670a415a720a824aa5bb8aa867ba681e4cfa13debd5",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "3bb416fa540183620f0e1586f3e7314e9a4f60287dadf1a3c6efc3b2008e1f4c",
+      "bytes": 500
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "a530bb51d98c6d762d8bf6f8502f7bf355dab6382a2163db215c30eb293cdbf7",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "e457e07231458beb3816989433648cd881a2b0ce8cd20b282929c4cb31c04b6a",
+      "bytes": 496
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "23b557b5763e066c4462a642b6b3b167ba723d162cdcb39d469c0e55233cf5ec",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\metrics.json",
+      "sha256": "e9bd2b07438a1603d2356947d4c51680751140b4f0836802642f9759ecaab8f5",
+      "bytes": 18579
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "531f13ff964f1159ee4b98f4f26939b0ab9f18ff9404ec3a24192358e502d080",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "4bc9c474c2b63c4c7d08436c8c89e9af0d97e4aa71da2b0ebeb58dd35b979a3d",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "ac6b0fbacb4f15d4281c4e44c94775e7a7750675fbcb7ad1c0f6a7ed9271b21d",
+      "bytes": 187
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "8481be3b422f26674c5ab7c86d442040dad48da3a4c3d1ad42355920143a115f",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "49c61c54b2e42ec22001062e723319dca609540321b6d07fd7273036fb62f3d9",
+      "bytes": 875
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "2205e48e72559113c9053dedcc690f90a22a977d1e8f6968a5ae76bdde203c69",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "bb74c59959d9e133cae0c3e64b1b2ed1bb759f2290487de6e6f88f9cac098150",
+      "bytes": 870
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "489b923e7969212f1d6b4e0e40c07513cb45b7fe39ceca2fd6db0f1e57228c56",
+      "bytes": 576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "fbe6f361c33ce471cf2cd4c9bbda0535593c1e5062e39c1d4af9e476b2ddef4c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "5a397bf3056bb1f6ddf12c6c87d853950086e3ae384add9814b1d68448a50196",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "ef00538a6124cbbc0b7ab22f76bdeaf5e9a72a0299c114d9dc5ec800c6f60ed8",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "f183a70c7b389936ff2de449e322d02c5a5296678af767180a65c74a4669c950",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "e8ffb314822586465c08dd8287815d5e0abfc1c237c5644d7e3fe2dd79dd7d77",
+      "bytes": 554
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "ffd1aa14cee1c34d73f82502a478034e7a68ffcf684ac1cb88cc0a3337e0cca2",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "f60361e2fc99bf2a13a4c6eaf841822bacfafc535e010748f4f9213e54d17819",
+      "bytes": 549
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "c2dd4dc567bf93c2200cbb8f7d62a710f240afe29a1784a90c927f86dff5e431",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "560d33dbdf4ad8891f91541659292382b8655ea2cc7f0bf7ca69bb6afb96d73e",
+      "bytes": 193
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "4a999d28e8f1a305ccea60fd563ef37a7982f31acf292281483d1d413c36448d",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "21a33a4fdd8c5c8712af8443b3f0a91e20bd77b30c1799ed9d203e60fb301584",
+      "bytes": 192
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "704c05fcdf482796eb9de839218f719bd55098a2e751e7c8944a9b4b1c634658",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "d8c1c695ed33d504f564b3fdc32886f47ea0bd35037d99d8ec66497e588dfcf3",
+      "bytes": 190
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "aec836130843d6db4a557a242a1967ac537892e20bc5ce0e71d69ba010ea47e1",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "e8c39acd4c507662d7a16ef5b0c716987a7d505404a404bb25dd5ab4451033ca",
+      "bytes": 190
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "e82654016e2e0116f7356794a8fc7e2dbe038df7fab80df981f87b0696a40296",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "929d9fbb41ddade92d1df0e87226f532ec4251ac0d914692c8cac3e7a04f5b39",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj5\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "6bf28a77cd0be418035587c3943d5963e3f2292aab202b0c075f28eae2669cfe",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "4d1e956fe5177595ae1cf68240def6ec4403aa338f0ea6473cd6934b5573b57a",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s10_i5_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s10_i5_fused_raw_manifest.json",
+      "sha256": "a63e34e125a954194793904b7080b4134d439c3b79e29a5095280f96c0f36573",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "761ceae0a3304d901ad393b4924ef697f7cc4b8706a9298c16aeb5ab71d1e3c1",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s12_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s12_i2_fused_raw_manifest.json",
+      "sha256": "3587d0b2c6f93656b87f12dae25965e46741bc3f0bd10498113e0ae485beb0b2",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "6ec7e161c052355c36f3a87c38bb4c41ea7a066f1f5decadbcd37265e57a82ef",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s13_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s13_i2_fused_raw_manifest.json",
+      "sha256": "dc4c055c2551a6dc4bd709ff7739b1f99fe13ce281f06b9482d920c1a9b75a70",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "d0814ee2ca2cf91159a07b91cbcfcf3e5c32bacd238e2f0dabfb21ac19665e59",
+      "bytes": 259
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "b517784f51ca77e39b05927c22328c98733b5b7ca8daaee755c92481b2632d2f",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s1_i1_fused_raw.csv.gz",
+      "sha256": "a7d7b5f2b090e5f86b8914c21b96f2f9a9c48432fb1f64f3997ea99b1cb9793c",
+      "bytes": 256
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s1_i1_fused_raw_manifest.json",
+      "sha256": "ae19f8c250c7be5af1f94570096543541b4836e1a8ee1a6cf430771051c90b64",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "cafdb8daa3b31d49eca61886198a3635b02826aaa9a7a8aac4f0be30f7d74cd6",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s4_i0_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s4_i0_fused_raw_manifest.json",
+      "sha256": "9d06086e25b18a73deb30bd32b117af490412f6922cc90bd20fb911e86c455e0",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "18ea3b8b491bf808ad917ea12908def8060893fed5d34c4e4007694511d44fc2",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s6_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s6_i2_fused_raw_manifest.json",
+      "sha256": "6705492e9cd8c1ed2089164a7ad0a10f7983155ec3d9711c258ec30e3f28833e",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "fb06d2e811bc8899477c0ae6ca67524e69e80416948ace4d9b3e339036e6c335",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s7_i3_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s7_i3_fused_raw_manifest.json",
+      "sha256": "86c0073c9aa89a97d106e9e81b1bf5044cd84d60ad8e0b5d96a6126889ab952e",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "dbcb5ad3c3d58089318034e17808279cdfe4b201ee03145ddce11a76fea724cd",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\binary_empty_mask\\s8_i1_fused_raw_manifest.json",
+      "sha256": "8a8207c199317f93542620874f205ec4e78d5b20d020afad357b542b022d291b",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\metrics.json",
+      "sha256": "047f6f93d5a88d59a58a53fbc9c4b34a199bff6650bc7760411b5aca82e70de8",
+      "bytes": 18102
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "3a588c571da5f837096d1d8291c38d88d600a830ec8aa1a6f0fee8b712bdc2bf",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s10_i5_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s10_i5_fused_raw_manifest.json",
+      "sha256": "d767a915b0bb20888eba8462c3325241add6991fbd022c4df45006f4afa3489f",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "ac72a4fdf19d2af8edb3468e65b59fcd9e5ee05d4c8296a6a902dbf1d3c95dfb",
+      "bytes": 171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "0fd949f534a52190219015c0b73ab3abd9e30816dda3458075d11ed91d483cbc",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s12_i2_fused_raw.csv.gz",
+      "sha256": "be66522b9105916a8e5c99f0a7e0c3849018ed7378d3615fe449c88159465855",
+      "bytes": 170
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s12_i2_fused_raw_manifest.json",
+      "sha256": "d3bc6fc31bff52be18037a92525835aa0b189eab3387aaccf82567804aad3b28",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "8f220f3179ee7bdc316fb1e6a4d7d460218e57fa9ddfb75bebc6805eef348dba",
+      "bytes": 171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "647115f524b1e08cd1c5f0faa360717501507a4a77050c661ad5306ed20ec5de",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s13_i2_fused_raw.csv.gz",
+      "sha256": "1f85701b5fbab3f0b5e86ae9df10519ab8c79bef4586554c597128ac66f42ff9",
+      "bytes": 170
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s13_i2_fused_raw_manifest.json",
+      "sha256": "ae6aeb75df1517c186f25107c7e7f884751ef3487718b0ee5c54e600e361e5ae",
+      "bytes": 574
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "329487067c881e8df47cc9847507320e7ddc09750a8f8b767beb6b2f717577b2",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s1_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s1_i1_fused_raw_manifest.json",
+      "sha256": "afb07492968cfe1d17e72f5d67511493776c5b2fa622ec5e44f690696365f2ee",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "1ace82d36a9dbeb40e9b2daceccc92a0e0a2e7ecb449e6721e251c6d31aa15c2",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s4_i0_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s4_i0_fused_raw_manifest.json",
+      "sha256": "65b703017b2bc798b72e6a43ff2751a9c13f015815566fd24384efd2f6a49f69",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "0ee18e4d5cafecd33e88e0e0f33df63b5407da86af5cc517b1324a05b31bd328",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s6_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s6_i2_fused_raw_manifest.json",
+      "sha256": "dd5d3af4fa938010063be3defb390deffd6642e6d01cb0a1119ab093f2715ce4",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "8da7bc91a21615e806d9798d716e06aed5574079b80758f841920a0e00f41757",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s7_i3_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s7_i3_fused_raw_manifest.json",
+      "sha256": "51b27cac340abb109ea1932241034f99a827714672e287af3d6935e30d75d856",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "b3db310d5d5a56230dbbc996421650bea6712eed21ecd1951e257f25e6ee7bc3",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\obj8\\rgb\\s8_i1_fused_raw_manifest.json",
+      "sha256": "8ec6e08c67bb55515afe682356d4ad80969989a7b1b7a92df79f366e4bfb3da3",
+      "bytes": 572
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\per_frame_metrics.csv",
+      "sha256": "06105d620d3207c379052a51dd9321bd5cd1c5a9e5ff495e42513997626320fa",
+      "bytes": 5287
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\selected_detections.csv",
+      "sha256": "cddf8af9fb23ef403120abac4b4c0de59d2e84d760f2586a333ed436fd557c86",
+      "bytes": 99451
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native\\stage_summary.json",
+      "sha256": "8ca442267b5cdb946e03b641200da7eee3655e5fd744e21bc3634aaaec72daca",
+      "bytes": 20227
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\execution_provenance.json",
+      "sha256": "066080e8523ee5cac504b43e9ab0c7f25f31f236c1c61fc3e765f360699ee816",
+      "bytes": 3341
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\native.stdout",
+      "sha256": "c3cf520cac2d03fb733975c2a0c6507c31c96dd3ba9a8943ff0dcb4df435c6f7",
+      "bytes": 1928
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\verified_after.json",
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "bytes": 748
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_empty_mask_experiment\\run_quality_pilot_v1\\verified_before.json",
+      "sha256": "647481d1eb3aa0f46784447cdc710188be78732b70358511134784542a628168",
+      "bytes": 748
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "stage": "pilot",
+    "objects": [
+      1,
+      2,
+      5,
+      8,
+      12,
+      17
+    ],
+    "unique_frames": 8,
+    "object_frame_combinations": 48,
+    "matcher_calls": 192.0,
+    "exact_same_arm_paths": 1,
+    "complete_raw_archives": 1,
+    "raw_output_bytes": 1288974.0,
+    "decode_total_ms": 417.9223,
+    "peak_rss_bytes": 166584320.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 0,
+    "rgb": {
+      "allGT": {
+        "tp": 6,
+        "fp": 670,
+        "fn": 2,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.008875739644970414,
+        "recall": 0.75,
+        "f1": 0.017543859649122806,
+        "matched_iou_sum": 4.501833683586649,
+        "mean_tp_iou": 0.7503056139311082
+      },
+      "visibility_ge_0_5": {
+        "tp": 6,
+        "fp": 670,
+        "fn": 2,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.008875739644970414,
+        "recall": 0.75,
+        "f1": 0.017543859649122806,
+        "matched_iou_sum": 4.501833683586649,
+        "mean_tp_iou": 0.7503056139311082
+      },
+      "raw_candidates": 8557.0,
+      "negative_frames": 41,
+      "negative_frames_with_fp": 33,
+      "negative_fp": 549
+    },
+    "binary_empty_mask": {
+      "allGT": {
+        "tp": 7,
+        "fp": 224,
+        "fn": 1,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.030303030303030304,
+        "recall": 0.875,
+        "f1": 0.058577405857740586,
+        "matched_iou_sum": 5.558445731689741,
+        "mean_tp_iou": 0.7940636759556773
+      },
+      "visibility_ge_0_5": {
+        "tp": 7,
+        "fp": 224,
+        "fn": 1,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.030303030303030304,
+        "recall": 0.875,
+        "f1": 0.058577405857740586,
+        "matched_iou_sum": 5.558445731689741,
+        "mean_tp_iou": 0.7940636759556773
+      },
+      "raw_candidates": 19670.0,
+      "negative_frames": 41,
+      "negative_frames_with_fp": 30,
+      "negative_fp": 187
+    },
+    "per_scene": [
+      {
+        "scene_id": 1,
+        "rgb": {
+          "allGT": {
+            "tp": 1,
+            "fp": 54,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01818181818181818,
+            "recall": 1.0,
+            "f1": 0.03571428571428571,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 54,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01818181818181818,
+            "recall": 1.0,
+            "f1": 0.03571428571428571,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "raw_candidates": 478.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 44
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.05263157894736842,
+            "recall": 1.0,
+            "f1": 0.1,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.05263157894736842,
+            "recall": 1.0,
+            "f1": 0.1,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "raw_candidates": 1102.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 12
+        }
+      },
+      {
+        "scene_id": 4,
+        "rgb": {
+          "allGT": {
+            "tp": 1,
+            "fp": 74,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.013333333333333334,
+            "recall": 0.5,
+            "f1": 0.025974025974025976,
+            "matched_iou_sum": 0.722972972972973,
+            "mean_tp_iou": 0.722972972972973
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 74,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.013333333333333334,
+            "recall": 0.5,
+            "f1": 0.025974025974025976,
+            "matched_iou_sum": 0.722972972972973,
+            "mean_tp_iou": 0.722972972972973
+          },
+          "raw_candidates": 860.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 73
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.05263157894736842,
+            "recall": 0.5,
+            "f1": 0.09523809523809523,
+            "matched_iou_sum": 0.7455051369863014,
+            "mean_tp_iou": 0.7455051369863014
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 18,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.05263157894736842,
+            "recall": 0.5,
+            "f1": 0.09523809523809523,
+            "matched_iou_sum": 0.7455051369863014,
+            "mean_tp_iou": 0.7455051369863014
+          },
+          "raw_candidates": 1411.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 12
+        }
+      },
+      {
+        "scene_id": 6,
+        "rgb": {
+          "allGT": {
+            "tp": 1,
+            "fp": 58,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "matched_iou_sum": 0.6261969603795133,
+            "mean_tp_iou": 0.6261969603795133
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 58,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "matched_iou_sum": 0.6261969603795133,
+            "mean_tp_iou": 0.6261969603795133
+          },
+          "raw_candidates": 757.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 52
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 1,
+            "fp": 25,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.038461538461538464,
+            "recall": 1.0,
+            "f1": 0.07407407407407407,
+            "matched_iou_sum": 0.8323140118667275,
+            "mean_tp_iou": 0.8323140118667275
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 25,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.038461538461538464,
+            "recall": 1.0,
+            "f1": 0.07407407407407407,
+            "matched_iou_sum": 0.8323140118667275,
+            "mean_tp_iou": 0.8323140118667275
+          },
+          "raw_candidates": 1863.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 25
+        }
+      },
+      {
+        "scene_id": 7,
+        "rgb": {
+          "allGT": {
+            "tp": 2,
+            "fp": 71,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.0273972602739726,
+            "recall": 1.0,
+            "f1": 0.05333333333333334,
+            "matched_iou_sum": 1.5369354202008698,
+            "mean_tp_iou": 0.7684677101004349
+          },
+          "visibility_ge_0_5": {
+            "tp": 2,
+            "fp": 71,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.0273972602739726,
+            "recall": 1.0,
+            "f1": 0.05333333333333334,
+            "matched_iou_sum": 1.5369354202008698,
+            "mean_tp_iou": 0.7684677101004349
+          },
+          "raw_candidates": 2591.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 33
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 2,
+            "fp": 34,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.05555555555555555,
+            "recall": 1.0,
+            "f1": 0.10526315789473684,
+            "matched_iou_sum": 1.5645878603505723,
+            "mean_tp_iou": 0.7822939301752861
+          },
+          "visibility_ge_0_5": {
+            "tp": 2,
+            "fp": 34,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.05555555555555555,
+            "recall": 1.0,
+            "f1": 0.10526315789473684,
+            "matched_iou_sum": 1.5645878603505723,
+            "mean_tp_iou": 0.7822939301752861
+          },
+          "raw_candidates": 7281.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 20
+        }
+      },
+      {
+        "scene_id": 8,
+        "rgb": {
+          "allGT": {
+            "tp": 0,
+            "fp": 47,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 47,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 226.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 47
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 0,
+            "fp": 19,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 19,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 1440.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 19
+        }
+      },
+      {
+        "scene_id": 10,
+        "rgb": {
+          "allGT": {
+            "tp": 0,
+            "fp": 119,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 119,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 554.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 119
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 1025.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 28
+        }
+      },
+      {
+        "scene_id": 12,
+        "rgb": {
+          "allGT": {
+            "tp": 1,
+            "fp": 162,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.006134969325153374,
+            "recall": 0.5,
+            "f1": 0.012121212121212121,
+            "matched_iou_sum": 0.8337957124842371,
+            "mean_tp_iou": 0.8337957124842371
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 162,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.006134969325153374,
+            "recall": 0.5,
+            "f1": 0.012121212121212121,
+            "matched_iou_sum": 0.8337957124842371,
+            "mean_tp_iou": 0.8337957124842371
+          },
+          "raw_candidates": 2792.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 96
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 2,
+            "fp": 54,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.03571428571428571,
+            "recall": 1.0,
+            "f1": 0.06896551724137931,
+            "matched_iou_sum": 1.634106104937083,
+            "mean_tp_iou": 0.8170530524685415
+          },
+          "visibility_ge_0_5": {
+            "tp": 2,
+            "fp": 54,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.03571428571428571,
+            "recall": 1.0,
+            "f1": 0.06896551724137931,
+            "matched_iou_sum": 1.634106104937083,
+            "mean_tp_iou": 0.8170530524685415
+          },
+          "raw_candidates": 5455.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 43
+        }
+      },
+      {
+        "scene_id": 13,
+        "rgb": {
+          "allGT": {
+            "tp": 0,
+            "fp": 85,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 85,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 299.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 85
+        },
+        "binary_empty_mask": {
+          "allGT": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 28,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 93.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 28
+        }
+      }
+    ]
+  },
+  "post_verification_passed": true,
+  "missing_frames_are_not_negatives": true,
+  "heldout_images_allowed": false
+}

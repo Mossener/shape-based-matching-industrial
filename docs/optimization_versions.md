@@ -180,4 +180,11 @@
 - 同轮五方案exactV11、linear off/on、direct off/on固定25图、cold1/warm2/measured15，共2250调用/1875正式样本，全输出相同。direct-on/direct-off的搜索/完整调用逐图配对中位比为0.987631/0.996630，LED搜索组0.524305、tiny组1.012165；direct-on/linear-on为1.010188/1.037551，15/25图搜索退化、19/25图完整调用退化。因此直接映射未优于线性，不推广默认；off路径和预处理亦有本轮差异，不能全归因缓存查找。
 - root不导入各汇总实现，分别重读25份二进制trace/4250行CSV及2250行五方案CSV，复算全部route、batch、诊断、绝对统计、配对统计、分组和退化列表；新独立算术合成测试各3项通过。构建/正确性/执行闭包、源码快照、原始数据、失败与语义RED均保留；外部compiler/SDK/image缓存及exe/object不随发布。留出场景和对象25/29继续封存，磁片证据保留。详见`artifacts/match_consolidation/hash_prototype/REPLAY_RESULTS_V21.md`与`artifacts/local_center_optimization/v11_candidate_experiment_v2/RESULT_V2.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v21` 标记各阶段。
+## V22：空特征选择掩膜的完整开发质量对照
+
+- 在V20成功模板库基础上完成固定六目标、400张开发帧、2400个目标/帧组合。old-gate 96、pilot 192、development 9600次调用均按一次性预算完成；每个arm的fallback/fused完整raw字段和float32分数位相等，未执行timing阶段。原RGB common-padding与V15旧848×672 arm共同保留，补边影响与训练策略分开。
+- 独立标准库审计读取保存的数字封包，不导入评测器，不解码图像或调用matcher。它验证源/模板元数据、训练姿态、官方框原点、raw顺序和分数位、NMS、IoU≥0.5一对一GT、可见性子集、selected标签、负图、场景/对象/micro/macro汇总及三组跨臂身份变化；17个合成/变异测试通过。首次审计在目标5因旧 preservation manifest 的 selected CSV 压缩格式差异中止，失败证据保留；按manifest解析 `.csv`/`.csv.gz` 后pilot与全量重跑通过。
+- old V15→common RGB补边：TP/FN/recall保持215/185/53.75%，所有TP身份及精确检测行保留；raw 457376→457279，selected 42313→42327。common RGB→binary empty-mask：TP/FP/FN 215/42112/185→207/11882/193，precision 0.5080%→1.7123%，F1 0.010064→0.033149，mean TP IoU 0.72058→0.73498，negative FP 35089→9929；raw候选增加8.8%。高层all-GT身份保留148、增加59、丢失67，仅1个保留身份共享训练姿态。
+- 按目标的F1为1:0.00933→0.00867、2:0.01232→0.06352、5:0.01940→0.02901、8:0.01681→0.03759、12:0.01515→0.11047、17:0.00607→0.15847；目标1是退化对象，故不按总F1把二值策略推广为默认。无质量阶段速度结论；留出场景和25/29未读取/匹配，磁片回归不混入此统计。详见`artifacts/silhouette_empty_mask_experiment/QUALITY_RESULTS_V22.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v22` 标记各阶段。

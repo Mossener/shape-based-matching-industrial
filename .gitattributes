@@ -50,6 +50,7 @@ artifacts/silhouette_empty_mask_experiment/frozen_helpers/** -whitespace
 artifacts/independent_reviews/empty_mask_training_v1/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/consolidation_trace_v1/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/direct16_correctness_v2/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/empty_mask_quality_v1/** -text whitespace=cr-at-eol
 artifacts/match_consolidation/hash_prototype/**/source/** -whitespace
 artifacts/match_consolidation/hash_prototype/**/snapshot/** -whitespace
 # Preserve captured compiler output verbatim, including its final blank line.

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "maximum_calls": 22176,
+  "rejecting_cases": [
+    "repeat_old_gate",
+    "unknown_stage",
+    "pilot_missing_gate"
+  ],
+  "dataset_image_reads": 0,
+  "native_processes": 0,
+  "matcher_calls": 0
+}
