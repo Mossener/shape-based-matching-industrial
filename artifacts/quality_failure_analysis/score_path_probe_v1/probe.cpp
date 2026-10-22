@@ -1,0 +1,226 @@
+// Single translation unit: actual frozen V11 definitions, never a patched core.
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+#include <windows.h>
+#include <psapi.h>
+#include "../../silhouette_empty_mask_experiment/private_v11/line2Dup.cpp"
+#define main unused_frozen_evaluator_main
+#include "../../silhouette_empty_mask_experiment/frozen_helpers/tless_eval.cpp"
+#undef main
+#include "../../silhouette_empty_mask_experiment/quality_support.hpp"
+
+namespace probe_v1 {
+using empty_quality::need;
+using empty_quality::scoreBits;
+using Memories = std::vector<std::vector<std::vector<cv::Mat>>>;
+using Key = std::tuple<std::string,int,int,std::uint32_t>;
+static std::uint64_t classSearches=0, oracleRows=0, writtenBytes=0, decoded=0;
+static const std::set<int> OBJECTS{1,2,5,8,12,17}, SCENES{1,4,6,7,8,10,12,13};
+
+struct Maps { Memories memories;std::vector<cv::Size> sizes; };
+class ExposedDetector : public line2Dup::Detector {
+public:
+    ExposedDetector():Detector(32,std::vector<int>{4,8},20,40){}
+    void search(const Maps& maps,const std::string& cls,std::vector<line2Dup::Match>& result)const {
+        // Original overload creates its own native workspace/default options.
+        matchClass(maps.memories,maps.sizes,85.f,result,cls,class_templates.at(cls));
+    }
+};
+
+static Maps preprocess(const cv::Mat& padded) {
+    Maps result;result.memories.resize(2);result.sizes.resize(2);
+    cv::Mat input=padded;
+    const line2Dup::detail::ResponseLUT lut(line2Dup::SIMILARITY_LUT);
+    for(int level=0;level<2;++level){
+        if(level){cv::Mat next;cv::pyrDown(input,next,cv::Size(input.cols/2,input.rows/2));input=next;}
+        const int T=level?8:4;need(input.cols%T==0 && input.rows%T==0,"Native pyramid grid differs");
+        cv::Mat magnitude,angle,original,quantized,spread,scratch;
+        line2Dup::GradientScratch gradient;
+        line2Dup::quantizedOrientations(input,magnitude,angle,original,20.f,&gradient);
+        quantized.create(input.size(),CV_8U);quantized.setTo(0);angle.copyTo(quantized);
+        line2Dup::detail::spreadSeparable(quantized,spread,scratch,T);
+        result.memories[level].resize(1);lut.linearize(spread,result.memories[level][0],T);
+        result.sizes[level]=input.size();
+    }return result;
+}
+
+// Independent oracle: no similarity/accessLinearMemory/localMaximum calls.
+static unsigned scalarRaw(const std::vector<cv::Mat>& lm,const line2Dup::Template& templ,
+                          cv::Size size,int T,int matchX,int matchY) {
+    const int offset=T/2+(T%2-1),originX=matchX-offset,originY=matchY-offset;
+    need(originX%T==0 && originY%T==0,"Emitted fine anchor is off native grid");
+    unsigned total=0;const int W=size.width/T;
+    for(const auto& feature:templ.features){
+        const int x=feature.x+originX,y=feature.y+originY;
+        need(feature.label>=0 && feature.label<8 && x>=0 && y>=0 && x<size.width && y<size.height,
+             "Scalar oracle feature outside supported emitted domain");
+        const int row=(y%T)*T+(x%T),column=(y/T)*W+x/T;
+        const auto& grid=lm.at(feature.label);
+        need(grid.type()==CV_8U && row<grid.rows && column<grid.cols,"Scalar LM index outside actual memory");
+        const unsigned value=grid.at<unsigned char>(row,column);need(value<=4,"Response outside LUT range");
+        total+=value;
+    }
+#ifdef SCORE_PROBE_ORACLE_RED
+    if(total) --total; // Explicit negative-control build; never valid for phase1.
+#endif
+    return total;
+}
+static float normalized(unsigned raw,std::size_t count){need(count>0 && count<8192,"Invalid serialized feature count");return (int(raw)*100.f)/(4*int(count));}
+static Key key(const line2Dup::Match& match){return {match.class_id,match.x,match.y,scoreBits(match.similarity)};}
+static void resource(const std::chrono::steady_clock::time_point& start,std::uint64_t openCsvBytes=0){
+    need(empty_quality::peakRss()<=1610612736ULL,"Peak RSS exceeds 1.5 GiB");
+    need(std::chrono::duration<double>(std::chrono::steady_clock::now()-start).count()<=3600,"Phase1 exceeds 60 minutes");
+    need(writtenBytes+openCsvBytes<=1073741824ULL,"Numeric output exceeds one GiB");
+}
+static double maxOverlap(const std::vector<Detection>& detections,Box truth){
+    double result=0;for(const auto& detection:detections)result=std::max(result,iou(detection.box,truth));return result;
+}
+static int hitCount(const std::vector<Detection>& detections,Box truth){return int(std::count_if(detections.begin(),detections.end(),[&](const auto& d){return iou(d.box,truth)>=.5;}));}
+static void archive(const fs::path& output,const Frame& frame,const std::string& path,
+                    const std::vector<Detection>& records,const std::vector<TemplateMeta>& meta){
+    fs::create_directories(output);writeRaw(output,frame,path,records,meta);
+    for(const auto& suffix:{"_raw.csv.gz","_raw_manifest.json"})writtenBytes+=fs::file_size(output/(frameKey(frame)+"_"+path+suffix));
+}
+static void selftest(const fs::path& output){
+    // Actual core consolidation: metadata box semantics intentionally differ.
+    std::vector<line2Dup::Match> matches{{65,65,90.f,"test",1},{65,65,90.f,"test",0},{65,65,90.f,"test",1}};
+    const std::vector<TemplateMeta> meta{{0,1,0,0,0,1,{0,0,4,10},"test"},{1,1,0,0,0,1,{0,0,10,10},"test"}};
+    const auto before=convert(matches,meta,64);const Box truth{1,1,10,10};
+    need(hitCount(before,truth)==2,"Synthetic pre-support fixture differs");
+    line2Dup::detail::consolidateMatches(matches);const auto after=convert(matches,meta,64);
+    need(matches.size()==1 && matches[0].template_id==0 && hitCount(after,truth)==0,"Core representative fixture failed");
+    // Independent scalar LM indexing vs actual native 16x16 scoring.
+    const cv::Size size(160,160);const int T=4,W=size.width/T;
+    std::vector<cv::Mat> lm(8);
+    for(int label=0;label<8;++label){lm[label].create(T*T,W*(size.height/T),CV_8U);
+        for(int row=0;row<lm[label].rows;++row)for(int col=0;col<lm[label].cols;++col)
+            lm[label].at<unsigned char>(row,col)=static_cast<unsigned char>((label+row+3*col)%5);}
+    line2Dup::Template templ;templ.width=8;templ.height=8;templ.features={{1,2,0},{5,6,3},{2,5,7}};
+    cv::Mat actual;line2Dup::similarityLocal_64(lm,templ,actual,size,T,cv::Point(64,64));
+    for(int row=0;row<16;++row)for(int col=0;col<16;++col){
+        const int x=(64/T-8+col)*T+1,y=(64/T-8+row)*T+1;
+        const unsigned expected=scalarRaw(lm,templ,size,T,x,y);
+        need(expected==actual.at<unsigned char>(row,col),"Independent scalar/native score mismatch");
+        need(scoreBits(normalized(expected,templ.features.size()))==scoreBits(line2Dup::detail::similarityScore(expected,int(templ.features.size()))),"Score bits differ");
+    }
+    need(!(normalized(34,10)>85.f) && normalized(34,10)>=85.f,"Coarse/fine threshold boundary differs");
+    cv::FileStorage result((output/"selftest_result.json").string(),cv::FileStorage::WRITE|cv::FileStorage::FORMAT_JSON);
+    result<<"passed"<<1<<"scalar_native_cells"<<256<<"cross_template_representative_fixture"<<1
+          <<"dataset_image_reads"<<0<<"full_class_search_replays"<<0<<"public_detector_match_calls"<<0;
+}
+
+struct Bank {
+    int object=0;std::string arm;std::vector<TemplateMeta> meta;ExposedDetector detector;
+    Bank(int objectId,const std::string& name,const fs::path& directory,int expected):object(objectId),arm(name){
+        meta=readMeta(directory/"template_metadata.json");const auto cls=classForObject(object);
+        detector.readClasses({cls},(directory/"templates_%s.yml.gz").string());
+        need(int(meta.size())==expected && detector.numTemplates(cls)==expected && detector.classIds()==std::vector<std::string>{cls},"Bank identity/count differs");
+        need(detector.pyramidLevels()==2 && detector.getT(0)==4 && detector.getT(1)==8 &&
+             detector.getModalities()->weak_threshold==20 && detector.getModalities()->strong_threshold==40,"Bank modality/grid differs");
+        for(int id=0;id<expected;++id){const auto& m=meta.at(id);const auto& tp=detector.getTemplates(cls,id);
+            need(m.id==id && m.class_id==cls && tp.size()==2 && tp[0].tl_x==m.tl_x && tp[0].tl_y==m.tl_y,"Bank feature origin differs");}
+    }
+};
+
+static void phase1(const fs::path& planPath,const fs::path& output){
+    const auto began=std::chrono::steady_clock::now();
+    cv::FileStorage plan(planPath.string(),cv::FileStorage::READ);need(plan.isOpened() && str(plan["version"])=="score_path_probe_v1","Invalid probe input plan");
+    need(int(plan["rgb_tp_identities"])==215 && int(plan["object_frames"])==213 && int(plan["image_frames"])==175 && int(plan["full_class_search_replays"])==426,"Probe scope/count differs");
+    cv::FileStorage padding(str(plan["common_padding_json"]),cv::FileStorage::READ);const auto pad=empty_quality::padding(padding);
+    std::ofstream per(output/"per_frame.csv"),truths(output/"gt_support.csv"),collision(output/"representatives.csv");
+    per<<"object_id,scene,image,arm,pre,post,pre_unique_templates_in_collision_groups,cross_template_groups,same_template_duplicate_occurrences,zero_score_matches,fine_oracle_rows,exact_saved_raw\n";
+    truths<<"object_id,scene,image,arm,gt_id,pre_hits,post_hits,pre_best_iou,post_best_iou,candidate_support_lost_at_consolidation\n";
+    collision<<"object_id,scene,image,arm,score_bits,match_x,match_y,representative_template,discarded_template,discarded_occurrences,representative_x,representative_y,representative_w,representative_h,discarded_x,discarded_y,discarded_w,discarded_h\n";
+    truths<<std::setprecision(17);collision<<std::setprecision(17);
+    std::set<std::tuple<int,int,int>> seen;std::set<std::pair<int,int>> imageKeys;
+    std::map<std::string,std::uint64_t> referenceCounts;int probeIdentities=0,objectCount=0;
+    std::uint64_t preTotal=0,postTotal=0,collisionGroupsTotal=0,supportLosses=0;
+    for(const auto& bankNode:plan["banks"]){
+        const int obj=int(bankNode["object_id"]);need(OBJECTS.count(obj),"Reserved/unknown object");++objectCount;
+        Bank rgb(obj,"rgb",str(bankNode["rgb_training"]),int(bankNode["rgb_template_count"]));
+        Bank binary(obj,"binary_empty_mask",str(bankNode["binary_training"]),3456);
+        for(const auto& node:plan["frames"]){if(int(node["object_id"])!=obj)continue;
+            Frame frame;frame.scene=int(node["scene"]);frame.image=int(node["image"]);frame.rgb=str(node["rgb_relative"]);
+            need(SCENES.count(frame.scene) && seen.emplace(obj,frame.scene,frame.image).second,"Duplicate or prohibited frame");
+            imageKeys.emplace(frame.scene,frame.image);probeIdentities+=int(node["targets"].size());
+            const fs::path imagePath=str(node["image_path"]);
+            const auto image=cv::imread(imagePath.string(),cv::IMREAD_GRAYSCALE);++decoded;
+            need(!image.empty() && image.type()==CV_8UC1 && image.cols==720 && image.rows==540,"Pinned development image invalid");
+            cv::Mat padded;cv::copyMakeBorder(image,padded,pad.ltrb[1],pad.ltrb[3],pad.ltrb[0],pad.ltrb[2],cv::BORDER_CONSTANT,cv::Scalar(0));
+            const Maps maps=preprocess(padded);
+            for(Bank* bank:{&rgb,&binary}){
+                std::vector<line2Dup::Match> pre;++classSearches;bank->detector.search(maps,classForObject(obj),pre);
+                need(pre.size()<=1000000 && classSearches<=426,"Replay candidate/call ceiling exceeded");
+                for(const auto& match:pre){const auto& templ=bank->detector.getTemplates(match.class_id,match.template_id).at(0);
+                    const auto raw=scalarRaw(maps.memories[0][0],templ,maps.sizes[0],4,match.x,match.y);
+                    need(scoreBits(normalized(raw,templ.features.size()))==scoreBits(match.similarity),"Independent fine-score oracle differs from actual emitted score");++oracleRows;}
+                auto post=pre;line2Dup::detail::consolidateMatches(post);
+                const auto before=convert(pre,bank->meta,64),after=convert(post,bank->meta,64);
+                const fs::path reference=str(node[bank->arm=="rgb"?"rgb_raw":"binary_raw"]);
+                const auto saved=empty_quality::readRaw(reference,frame,"fallback",bank->meta);
+                need(empty_quality::exactRows(after,saved),"Exact ordered V22 saved raw gate failed");
+                referenceCounts[bank->arm]+=saved.size();preTotal+=pre.size();postTotal+=post.size();
+                const auto directory=output/("obj"+std::to_string(obj))/bank->arm;
+                archive(directory,frame,"pre",before,bank->meta);archive(directory,frame,"post",after,bank->meta);
+                std::map<Key,std::map<int,int>> groups;for(const auto& match:pre)++groups[key(match)][match.template_id];
+                std::map<Key,line2Dup::Match> representatives;for(const auto& match:post)need(representatives.emplace(key(match),match).second,"Nonunique consolidated key");
+                need(groups.size()==representatives.size(),"Pre/post key coverage differs");
+                std::uint64_t crossGroups=0,uniqueTemplates=0,duplicates=0,zeroScores=0;
+                for(const auto& entry:groups){const auto& representative=representatives.at(entry.first);
+                    need(representative.template_id==entry.second.begin()->first,"Representative does not have minimum template ID");
+                    if(representative.similarity==0)for(const auto& count:entry.second)zeroScores+=count.second;
+                    for(const auto& count:entry.second)duplicates+=std::uint64_t(count.second-1);
+                    if(entry.second.size()<2)continue;++crossGroups;uniqueTemplates+=entry.second.size();
+                    const auto rep=convert({representative},bank->meta,64).front();
+                    for(const auto& count:entry.second){if(count.first==representative.template_id)continue;
+                        auto discarded=representative;discarded.template_id=count.first;const auto old=convert({discarded},bank->meta,64).front();
+                        collision<<obj<<','<<frame.scene<<','<<frame.image<<','<<bank->arm<<','<<scoreBits(representative.similarity)<<','<<representative.x<<','<<representative.y<<','<<representative.template_id<<','<<count.first<<','<<count.second<<','<<rep.box.x<<','<<rep.box.y<<','<<rep.box.w<<','<<rep.box.h<<','<<old.box.x<<','<<old.box.y<<','<<old.box.w<<','<<old.box.h<<'\n';
+                    }
+                }
+                collisionGroupsTotal+=crossGroups;
+                per<<obj<<','<<frame.scene<<','<<frame.image<<','<<bank->arm<<','<<pre.size()<<','<<post.size()<<','<<uniqueTemplates<<','<<crossGroups<<','<<duplicates<<','<<zeroScores<<','<<pre.size()<<",1\n";
+                for(const auto& target:node["targets"]){const auto box=boxNode(target["bbox"]);const int first=hitCount(before,box),last=hitCount(after,box);const bool lost=first>0 && last==0;supportLosses+=lost;
+                    truths<<obj<<','<<frame.scene<<','<<frame.image<<','<<bank->arm<<','<<int(target["gt_id"])<<','<<first<<','<<last<<','<<maxOverlap(before,box)<<','<<maxOverlap(after,box)<<','<<lost<<'\n';}
+                std::uint64_t openCsvBytes=0;
+                for(auto* stream:{&per,&truths,&collision}){
+                    stream->flush();need(stream->good(),"Complete numeric output flush failed");
+                    const auto bytes=std::streamoff(stream->tellp());need(bytes>=0,"Cannot bound open numeric output");
+                    openCsvBytes+=std::uint64_t(bytes);
+                }
+                resource(began,openCsvBytes);
+            }std::cout<<"PROBE object "<<obj<<" scene "<<frame.scene<<" image "<<frame.image<<" class_searches "<<classSearches<<'\n';
+        }
+    }
+    need(objectCount==6 && seen.size()==213 && imageKeys.size()==175 && probeIdentities==215 && classSearches==426 && decoded==213,"Fixed Phase1 scope incomplete");
+    need(referenceCounts["rgb"]==71178 && referenceCounts["binary_empty_mask"]==156638,"Reference full-row budget differs");
+    for(auto* stream:{&per,&truths,&collision}){stream->close();need(!stream->fail(),"Complete numeric close failed");}
+    for(const auto& file:fs::recursive_directory_iterator(output))if(file.is_regular_file() && file.path().extension()==".csv")writtenBytes+=file.file_size();resource(began);
+    cv::FileStorage result((output/"stage_summary.json").string(),cv::FileStorage::WRITE|cv::FileStorage::FORMAT_JSON);
+    result<<"passed"<<1<<"stage"<<"phase1"<<"full_class_search_replays"<<double(classSearches)<<"public_detector_match_calls"<<0
+          <<"decoded_operations"<<double(decoded)<<"unique_image_files"<<175<<"rgb_tp_identities"<<215<<"pre_matches"<<double(preTotal)<<"post_matches"<<double(postTotal)
+          <<"independent_scalar_fine_score_rows"<<double(oracleRows)<<"all_saved_raw_exact"<<1<<"all_fine_score_bits_exact"<<1
+          <<"cross_template_collision_groups"<<double(collisionGroupsTotal)<<"candidate_support_losses_at_consolidation"<<double(supportLosses)
+          <<"numeric_output_bytes"<<double(writtenBytes)<<"peak_rss_bytes"<<double(empty_quality::peakRss())<<"phase2_started"<<0<<"accuracy_improvement_claim"<<0;
+}
+}
+
+int main(int argc,char** argv){fs::path output;bool created=false;try{
+    std::map<std::string,std::string> args;for(int i=1;i<argc;i+=2){empty_quality::need(i+1<argc,"Argument value missing");empty_quality::need(args.emplace(argv[i],argv[i+1]).second,"Duplicate argument");}
+    for(const auto& item:args)empty_quality::need(item.first=="--mode" || item.first=="--output" || item.first=="--plan","Unknown argument");
+    const auto mode=args.at("--mode");empty_quality::need(mode=="selftest" || mode=="phase1","Only Phase1 and synthetic selftest implemented");
+    output=fs::absolute(args.at("--output"));empty_quality::need(!fs::exists(output),"Fresh native output required");fs::create_directories(output);created=true;std::ofstream(output/".gitignore")<<"*\n";
+    cv::setNumThreads(1);
+#ifdef _OPENMP
+    omp_set_num_threads(4);omp_set_dynamic(0);
+#endif
+    if(mode=="selftest")probe_v1::selftest(output);else probe_v1::phase1(args.at("--plan"),output);
+    return 0;
+}catch(const std::exception& error){std::cerr<<"SCORE PROBE FAILED: "<<error.what()<<'\n';if(created)try{
+    cv::FileStorage failure((output/"failure.json").string(),cv::FileStorage::WRITE|cv::FileStorage::FORMAT_JSON);
+    failure<<"passed"<<0<<"reason"<<error.what()<<"full_class_search_replays_started"<<double(probe_v1::classSearches)
+           <<"public_detector_match_calls"<<0<<"phase2_started"<<0<<"partial_results_are_not_negatives"<<1;
+}catch(...){}return 1;}}

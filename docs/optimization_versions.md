@@ -195,4 +195,11 @@
 - 独立重放350个正目标帧的保存raw、精确NMS首个blocker及GT分配，67个丢失身份中57个在post-consolidation raw无IoU≥0.5候选、10个全部被NMS压掉、0个由存活候选分配造成。10个NMS blocker全为selected FP；67个训练姿态都在二值bank，尺寸上界兼容。此诊断不能把无raw直接归因于描述子：公开raw已过分数阈值和忽略template ID的跨模板合并。完整400个GT、700个正帧/arm及1420个源/输入pin通过root独立表算检查，8项行为测试通过。
 - 新增下一轮全部215个RGB TP（含148个保留control）的隔离评分/去重前路径设计；该设计尚不构成新算法收益。计时证据见`artifacts/silhouette_empty_mask_experiment/TIMING_RESULTS_V23.md`，漏检证据见`artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/RESULTS.md`。V22历史清单在其标签上复验，V23只更新阶段说明并新增数字证据，不改冻结原生源/输入/训练或已完成运行。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v23` 标记各阶段。
+## V24：去重前完整候选重放与漏检阶段排除
+
+- 固定V22全部215个RGB真阳性（67丢失、148保留control）、213目标帧、175张开发图，双臂共426次原始类别搜索；隔离单TU直接包含冻结V11，未改生产核心、模板或阈值。先保留头文件冲突编译失败，再经同源RED预期评分错误、GREEN 256个原生local cells与几何例自测。
+- 全部1,312,006条pre候选逐特征scalar评分与原生float32位相等；原consolidation后的227,816条完整有序记录与V22自身raw精确一致。RGB/binary pre为330473/981533、post为71178/156638；跨模板组1861/39720，保存全部78372条代表映射，不把同模板重复路径算成不同模板。
+- 独立标准库审计重建全部pre/post/reference、metadata框、分数字节、代表最小ID、重数、430条GT支持和summary；17项合成/变异测试通过，root新鲜复跑。独立检查1461个文件pin（含560个惰性build闭包），1709项native完整成员另核；root单独重算各arm汇总与既有GT记录。审计不读取图像或执行matcher，LM评分仍明确来自原生scalar门槛receipt。
+- 215个RGB身份中，RGB去重前后均215有IoU≥0.5候选，binary均158，候选支持完全丢失0。因此57个no-raw缺失发生在去重前；另外10个仍保留既有NMS原因。最佳IoU在4个RGB/11个binary身份下降，不能把0支持损失推广为去重完全无害。无新增准确率/速度收益，不改默认；后继同姿态物理位置/全部粗层父窗口检查用独立设计和预算。详见`artifacts/quality_failure_analysis/score_path_probe_v1/RESULTS_PHASE1_V24.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v24` 标记各阶段。

@@ -1,0 +1,38 @@
+{
+  "mode": "selftest",
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_build_red_v2\\score_probe.exe",
+    "--mode",
+    "selftest",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\native",
+    "--plan",
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json"
+  ],
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_build_red_v2\\build_manifest.json",
+    "sha256": "03c7d00b064dba986e036972f96e9093a22d2256859bf47c1a6d35bb8f195ae5",
+    "bytes": 163016
+  },
+  "input_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json",
+    "sha256": "353615a753a0be27a2665997488301259fe99989858068895870d16fe32de91c",
+    "bytes": 570161
+  },
+  "selftest": null,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_stage_reservations\\selftest_red.json",
+    "sha256": "11cf59bcb5bdfecebd757ecbe3ab6d15a52bf89ade45138110672e5c45d13550",
+    "bytes": 868
+  },
+  "negative_control": null,
+  "maximum_full_class_search_replays": 0,
+  "public_detector_match_calls": 0,
+  "native_exit_code": 1,
+  "runtime_path_prefix": [
+    "F:\\mysys2\\ucrt64\\bin",
+    "D:\\opencv-4.12.0\\build\\bin"
+  ],
+  "started_utc": 1792633010.6786344,
+  "finished_utc": 1792633010.958726
+}

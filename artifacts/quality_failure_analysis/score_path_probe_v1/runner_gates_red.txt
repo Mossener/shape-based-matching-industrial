@@ -1,0 +1,41 @@
+test_complete_output_member_set_and_bytes_are_bound (test_runner_gates.RunnerGateTests.test_complete_output_member_set_and_bytes_are_bound) ... FAIL
+test_green_requires_complete_independent_native_fixture (test_runner_gates.RunnerGateTests.test_green_requires_complete_independent_native_fixture) ... FAIL
+test_phase1_requires_exact_scope_and_scores_not_only_exit_zero (test_runner_gates.RunnerGateTests.test_phase1_requires_exact_scope_and_scores_not_only_exit_zero) ... FAIL
+test_red_requires_the_deliberate_scalar_failure (test_runner_gates.RunnerGateTests.test_red_requires_the_deliberate_scalar_failure) ... FAIL
+
+======================================================================
+FAIL: test_complete_output_member_set_and_bytes_are_bound (test_runner_gates.RunnerGateTests.test_complete_output_member_set_and_bytes_are_bound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_runner_gates.py", line 48, in test_complete_output_member_set_and_bytes_are_bound
+    self.assertTrue(g.verify_output(directory, pins))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_green_requires_complete_independent_native_fixture (test_runner_gates.RunnerGateTests.test_green_requires_complete_independent_native_fixture)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_runner_gates.py", line 23, in test_green_requires_complete_independent_native_fixture
+    self.assertEqual(g.validate_native('selftest', False, 0, result, None)['actual_full_class_search_replays'], 0)
+AssertionError: -1 != 0
+
+======================================================================
+FAIL: test_phase1_requires_exact_scope_and_scores_not_only_exit_zero (test_runner_gates.RunnerGateTests.test_phase1_requires_exact_scope_and_scores_not_only_exit_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_runner_gates.py", line 34, in test_phase1_requires_exact_scope_and_scores_not_only_exit_zero
+    self.assertEqual(g.validate_native('phase1', False, 0, result, None)['actual_full_class_search_replays'], 426)
+AssertionError: -1 != 426
+
+======================================================================
+FAIL: test_red_requires_the_deliberate_scalar_failure (test_runner_gates.RunnerGateTests.test_red_requires_the_deliberate_scalar_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_runner_gates.py", line 14, in test_red_requires_the_deliberate_scalar_failure
+    self.assertTrue(g.validate_native('selftest', True, 1, None, failure)['expected_native_failure'])
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+FAILED (failures=4)

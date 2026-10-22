@@ -1,0 +1,530 @@
+In file included from D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.h:9,
+                 from D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:1,
+                 from D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:2:
+D:\h\shape_based_matching-master\artifacts\silhouette_empty_mask_experiment\private_v11\MIPP/mipp.h:37:9: warning: '__SSE2__' redefined
+   37 | #define __SSE2__
+      |         ^~~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\silhouette_empty_mask_experiment\private_v11\MIPP/mipp.h:38:9: warning: '__SSE__' redefined
+   38 | #define __SSE__
+      |         ^~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp: In function 'void line2Dup::quantizedOrientations(const cv::Mat&, cv::Mat&, cv::Mat&, cv::Mat&, float, GradientScratch*)':
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:350:29: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  350 |         const int length1 = static_cast<const int>(sobel_3dx.step1());
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:351:29: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  351 |         const int length2 = static_cast<const int>(sobel_3dy.step1());
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:352:29: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  352 |         const int length3 = static_cast<const int>(sobel_dx.step1());
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:353:29: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  353 |         const int length4 = static_cast<const int>(sobel_dy.step1());
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:354:29: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  354 |         const int length5 = static_cast<const int>(magnitude.step1());
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp: In function 'void line2Dup::spread(const cv::Mat&, cv::Mat&, int)':
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:625:57: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  625 |             orUnaligned8u(&src.at<unsigned char>(r, c), static_cast<const int>(src.step1()), dst.ptr(),
+      |                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.cpp:626:27: warning: type qualifiers ignored on cast result type [-Wignored-qualifiers]
+  626 |                           static_cast<const int>(dst.step1()), src.cols - c, src.rows - r);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from F:/mysys2/ucrt64/include/minwindef.h:163,
+                 from F:/mysys2/ucrt64/include/windef.h:9,
+                 from F:/mysys2/ucrt64/include/windows.h:69,
+                 from D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/quality_support.hpp:17,
+                 from D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:6:
+F:/mysys2/ucrt64/include/winnt.h: At global scope:
+F:/mysys2/ucrt64/include/winnt.h:3151:13: error: reference to 'ACCESS_MASK' is ambiguous
+ 3151 |     typedef ACCESS_MASK *PACCESS_MASK;
+      |             ^~~~~~~~~~~
+In file included from D:\opencv-4.12.0\modules\core\include/opencv2/core.hpp:58,
+                 from D:\opencv-4.12.0\modules\core\include/opencv2/core/core.hpp:48,
+                 from D:/h/shape_based_matching-master/artifacts/silhouette_empty_mask_experiment/private_v11/line2Dup.h:3:
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3178:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3178 |       ACCESS_MASK GenericRead;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3179:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3179 |       ACCESS_MASK GenericWrite;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3180:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3180 |       ACCESS_MASK GenericExecute;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3181:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3181 |       ACCESS_MASK GenericAll;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3695:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3695 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3703:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3703 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3710:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3710 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3717:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3717 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3724:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3724 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3730:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3730 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3736:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3736 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3742:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3742 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3748:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3748 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3765:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3765 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3774:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3774 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3783:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3783 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3792:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3792 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3801:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3801 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3807:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3807 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3813:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3813 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3819:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3819 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3825:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3825 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3835:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3835 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3844:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3844 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3853:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 3853 |       ACCESS_MASK Mask;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:4014:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 4014 |       ACCESS_MASK DesiredAccess;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:4015:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 4015 |       ACCESS_MASK PreviouslyGrantedAccess;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:4025:7: error: 'PACCESS_MASK' does not name a type; did you mean 'ACCESS_MASK'?
+ 4025 |       PACCESS_MASK GrantedAccess;
+      |       ^~~~~~~~~~~~
+      |       ACCESS_MASK
+F:/mysys2/ucrt64/include/winnt.h:6292:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 6292 |       ACCESS_MASK EffectiveAccess;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:6312:7: error: reference to 'ACCESS_MASK' is ambiguous
+ 6312 |       ACCESS_MASK EffectiveAccess;
+      |       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+In file included from F:/mysys2/ucrt64/include/windows.h:72:
+F:/mysys2/ucrt64/include/winuser.h:793:113: error: reference to 'ACCESS_MASK' is ambiguous
+  793 |   WINUSERAPI HDESK WINAPI CreateDesktopA(LPCSTR lpszDesktop,LPCSTR lpszDevice,LPDEVMODEA pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                                                 ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:793:113: error: 'ACCESS_MASK' has not been declared
+  793 |   WINUSERAPI HDESK WINAPI CreateDesktopA(LPCSTR lpszDesktop,LPCSTR lpszDevice,LPDEVMODEA pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                                                 ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:794:115: error: reference to 'ACCESS_MASK' is ambiguous
+  794 |   WINUSERAPI HDESK WINAPI CreateDesktopW(LPCWSTR lpszDesktop,LPCWSTR lpszDevice,LPDEVMODEW pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                                                   ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:794:115: error: 'ACCESS_MASK' has not been declared
+  794 |   WINUSERAPI HDESK WINAPI CreateDesktopW(LPCWSTR lpszDesktop,LPCWSTR lpszDevice,LPDEVMODEW pDevmode,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                                                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:795:119: error: reference to 'ACCESS_MASK' is ambiguous
+  795 |   WINUSERAPI HDESK WINAPI CreateDesktopExA (LPCSTR lpszDesktop, LPCSTR lpszDevice, DEVMODEA *pDevmode, DWORD dwFlags, ACCESS_MASK dwDesiredAccess, LPSECURITY_ATTRIBUTES lpsa, ULONG ulHeapSize, PVOID pvoid);
+      |                                                                                                                       ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:795:119: error: 'ACCESS_MASK' has not been declared
+  795 |   WINUSERAPI HDESK WINAPI CreateDesktopExA (LPCSTR lpszDesktop, LPCSTR lpszDevice, DEVMODEA *pDevmode, DWORD dwFlags, ACCESS_MASK dwDesiredAccess, LPSECURITY_ATTRIBUTES lpsa, ULONG ulHeapSize, PVOID pvoid);
+      |                                                                                                                       ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:796:121: error: reference to 'ACCESS_MASK' is ambiguous
+  796 |   WINUSERAPI HDESK WINAPI CreateDesktopExW (LPCWSTR lpszDesktop, LPCWSTR lpszDevice, DEVMODEW *pDevmode, DWORD dwFlags, ACCESS_MASK dwDesiredAccess, LPSECURITY_ATTRIBUTES lpsa, ULONG ulHeapSize, PVOID pvoid);
+      |                                                                                                                         ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:796:121: error: 'ACCESS_MASK' has not been declared
+  796 |   WINUSERAPI HDESK WINAPI CreateDesktopExW (LPCWSTR lpszDesktop, LPCWSTR lpszDevice, DEVMODEW *pDevmode, DWORD dwFlags, ACCESS_MASK dwDesiredAccess, LPSECURITY_ATTRIBUTES lpsa, ULONG ulHeapSize, PVOID pvoid);
+      |                                                                                                                         ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:803:90: error: reference to 'ACCESS_MASK' is ambiguous
+  803 |   WINUSERAPI HDESK WINAPI OpenDesktopA(LPCSTR lpszDesktop,DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                          ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:803:90: error: 'ACCESS_MASK' has not been declared
+  803 |   WINUSERAPI HDESK WINAPI OpenDesktopA(LPCSTR lpszDesktop,DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                          ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:804:91: error: reference to 'ACCESS_MASK' is ambiguous
+  804 |   WINUSERAPI HDESK WINAPI OpenDesktopW(LPCWSTR lpszDesktop,DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                           ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:804:91: error: 'ACCESS_MASK' has not been declared
+  804 |   WINUSERAPI HDESK WINAPI OpenDesktopW(LPCWSTR lpszDesktop,DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                           ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:805:75: error: reference to 'ACCESS_MASK' is ambiguous
+  805 |   WINUSERAPI HDESK WINAPI OpenInputDesktop(DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                           ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:805:75: error: 'ACCESS_MASK' has not been declared
+  805 |   WINUSERAPI HDESK WINAPI OpenInputDesktop(DWORD dwFlags,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                           ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:837:80: error: reference to 'ACCESS_MASK' is ambiguous
+  837 |   WINUSERAPI HWINSTA WINAPI CreateWindowStationA(LPCSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:837:80: error: 'ACCESS_MASK' has not been declared
+  837 |   WINUSERAPI HWINSTA WINAPI CreateWindowStationA(LPCSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:838:81: error: reference to 'ACCESS_MASK' is ambiguous
+  838 |   WINUSERAPI HWINSTA WINAPI CreateWindowStationW(LPCWSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                 ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:838:81: error: 'ACCESS_MASK' has not been declared
+  838 |   WINUSERAPI HWINSTA WINAPI CreateWindowStationW(LPCWSTR lpwinsta,DWORD dwFlags,ACCESS_MASK dwDesiredAccess,LPSECURITY_ATTRIBUTES lpsa);
+      |                                                                                 ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:839:83: error: reference to 'ACCESS_MASK' is ambiguous
+  839 |   WINUSERAPI HWINSTA WINAPI OpenWindowStationA(LPCSTR lpszWinSta,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                   ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:839:83: error: 'ACCESS_MASK' has not been declared
+  839 |   WINUSERAPI HWINSTA WINAPI OpenWindowStationA(LPCSTR lpszWinSta,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:840:84: error: reference to 'ACCESS_MASK' is ambiguous
+  840 |   WINUSERAPI HWINSTA WINAPI OpenWindowStationW(LPCWSTR lpszWinSta,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                    ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winuser.h:840:84: error: 'ACCESS_MASK' has not been declared
+  840 |   WINUSERAPI HWINSTA WINAPI OpenWindowStationW(LPCWSTR lpszWinSta,WINBOOL fInherit,ACCESS_MASK dwDesiredAccess);
+      |                                                                                    ^~~~~~~~~~~
+In file included from F:/mysys2/ucrt64/include/windows.h:76:
+F:/mysys2/ucrt64/include/winreg.h:43:11: error: reference to 'ACCESS_MASK' is ambiguous
+   43 |   typedef ACCESS_MASK REGSAM;
+      |           ^~~~~~~~~~~
+D:\opencv-4.12.0\modules\core\include/opencv2/core/mat.hpp:66:22: note: candidates are: 'cv::AccessFlag cv::ACCESS_MASK'
+   66 |     ACCESS_RW=3<<24, ACCESS_MASK=ACCESS_RW, ACCESS_FAST=1<<26 };
+      |                      ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winnt.h:3150:19: note:                 'typedef DWORD ACCESS_MASK'
+ 3150 |     typedef DWORD ACCESS_MASK;
+      |                   ^~~~~~~~~~~
+F:/mysys2/ucrt64/include/winreg.h:149:78: error: 'REGSAM' has not been declared
+  149 |   WINADVAPI LONG WINAPI RegOpenUserClassesRoot(HANDLE hToken,DWORD dwOptions,REGSAM samDesired,PHKEY phkResult);
+      |                                                                              ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:150:25: error: variable 'RegOpenCurrentUser' definition is marked dllimport
+  150 |   WINADVAPI LONG WINAPI RegOpenCurrentUser(REGSAM samDesired,PHKEY phkResult);
+      |                         ^~~~~~~~~~~~~~~~~~
+F:/mysys2/ucrt64/include/winreg.h:150:44: error: 'REGSAM' was not declared in this scope
+  150 |   WINADVAPI LONG WINAPI RegOpenCurrentUser(REGSAM samDesired,PHKEY phkResult);
+      |                                            ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:150:68: error: expected primary-expression before 'phkResult'
+  150 |   WINADVAPI LONG WINAPI RegOpenCurrentUser(REGSAM samDesired,PHKEY phkResult);
+      |                                                                    ^~~~~~~~~
+F:/mysys2/ucrt64/include/winreg.h:150:77: error: expression list treated as compound expression in initializer [-fpermissive]
+  150 |   WINADVAPI LONG WINAPI RegOpenCurrentUser(REGSAM samDesired,PHKEY phkResult);
+      |                                                                             ^
+F:/mysys2/ucrt64/include/winreg.h:237:3: error: 'REGSAM' has not been declared
+  237 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:251:3: error: 'REGSAM' has not been declared
+  251 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:263:3: error: 'REGSAM' has not been declared
+  263 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:272:3: error: 'REGSAM' has not been declared
+  272 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:294:3: error: 'REGSAM' has not been declared
+  294 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:302:3: error: 'REGSAM' has not been declared
+  302 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:318:3: error: 'REGSAM' has not been declared
+  318 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:328:3: error: 'REGSAM' has not been declared
+  328 |   REGSAM samDesired,
+      |   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:404:112: error: 'REGSAM' has not been declared
+  404 |   WINADVAPI LONG WINAPI RegCreateKeyExA(HKEY hKey,LPCSTR lpSubKey,DWORD Reserved,LPSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition);
+      |                                                                                                                ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:405:114: error: 'REGSAM' has not been declared
+  405 |   WINADVAPI LONG WINAPI RegCreateKeyExW(HKEY hKey,LPCWSTR lpSubKey,DWORD Reserved,LPWSTR lpClass,DWORD dwOptions,REGSAM samDesired,LPSECURITY_ATTRIBUTES lpSecurityAttributes,PHKEY phkResult,LPDWORD lpdwDisposition);
+      |                                                                                                                  ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:406:67: error: 'REGSAM' has not been declared
+  406 |   WINADVAPI LONG WINAPI RegDeleteKeyExA(HKEY hKey,LPCSTR lpSubKey,REGSAM samDesired,DWORD Reserved);
+      |                                                                   ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:407:68: error: 'REGSAM' has not been declared
+  407 |   WINADVAPI LONG WINAPI RegDeleteKeyExW(HKEY hKey,LPCWSTR lpSubKey,REGSAM samDesired,DWORD Reserved);
+      |                                                                    ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:417:81: error: 'REGSAM' has not been declared
+  417 |   WINADVAPI LONG WINAPI RegOpenKeyExA(HKEY hKey,LPCSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult);
+      |                                                                                 ^~~~~~
+F:/mysys2/ucrt64/include/winreg.h:418:82: error: 'REGSAM' has not been declared
+  418 |   WINADVAPI LONG WINAPI RegOpenKeyExW(HKEY hKey,LPCWSTR lpSubKey,DWORD ulOptions,REGSAM samDesired,PHKEY phkResult);
+      |                                                                                  ^~~~~~
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp: In function 'void probe_v1::phase1(const std::filesystem::__cxx11::path&, const std::filesystem::__cxx11::path&)':
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:169:21: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  169 |                     if(entry.second.size()<2)continue;++crossGroups;uniqueTemplates+=entry.second.size();
+      |                     ^~
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:169:55: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  169 |                     if(entry.second.size()<2)continue;++crossGroups;uniqueTemplates+=entry.second.size();
+      |                                                       ^~
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:193:5: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  193 |     for(const auto& file:fs::recursive_directory_iterator(output))if(file.is_regular_file() && file.path().extension()==".csv")writtenBytes+=file.file_size();resource(began);
+      |     ^~~
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\probe.cpp:193:159: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  193 |     for(const auto& file:fs::recursive_directory_iterator(output))if(file.is_regular_file() && file.path().extension()==".csv")writtenBytes+=file.file_size();resource(began);
+      |                                                                                                                                                               ^~~~~~~~

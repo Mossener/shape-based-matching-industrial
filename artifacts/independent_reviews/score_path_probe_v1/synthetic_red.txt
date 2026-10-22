@@ -1,0 +1,113 @@
+test_altered_post_or_lost_representative_rejected (test_numeric.NumericTests.test_altered_post_or_lost_representative_rejected) ... ERROR
+test_final_v11_then_adapter_canonical_order (test_numeric.NumericTests.test_final_v11_then_adapter_canonical_order) ... ERROR
+test_minimum_id_complete_record_and_duplicate_multiplicity (test_numeric.NumericTests.test_minimum_id_complete_record_and_duplicate_multiplicity) ... ERROR
+test_nan_and_infinity_rejected_before_grouping (test_numeric.NumericTests.test_nan_and_infinity_rejected_before_grouping) ... ERROR
+test_raw_exact_bits_metadata_and_manifest (test_numeric.NumericTests.test_raw_exact_bits_metadata_and_manifest) ... ERROR
+test_raw_pose_box_rank_order_manifest_corruption_rejected (test_numeric.NumericTests.test_raw_pose_box_rank_order_manifest_corruption_rejected) ... ERROR
+test_support_counts_occurrences_and_boundary (test_numeric.NumericTests.test_support_counts_occurrences_and_boundary) ... ERROR
+test_template_is_excluded_but_score_position_class_are_keys (test_numeric.NumericTests.test_template_is_excluded_but_score_position_class_are_keys) ... ERROR
+test_zero_float_equality_normalized_and_ambiguous_min_id_rejected (test_numeric.NumericTests.test_zero_float_equality_normalized_and_ambiguous_min_id_rejected) ... ERROR
+
+======================================================================
+ERROR: test_altered_post_or_lost_representative_rejected (test_numeric.NumericTests.test_altered_post_or_lost_representative_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 84, in test_altered_post_or_lost_representative_rejected
+    with self.assertRaises(ValueError): n.diagnostics([a,b],post,[])
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 10, in diagnostics
+    raise NotImplementedError('Independent Phase1 diagnostics RED')
+NotImplementedError: Independent Phase1 diagnostics RED
+
+======================================================================
+ERROR: test_final_v11_then_adapter_canonical_order (test_numeric.NumericTests.test_final_v11_then_adapter_canonical_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 47, in test_final_v11_then_adapter_canonical_order
+    self.assertEqual(n.consolidate([b,a]),[a,b])
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 4, in consolidate
+    raise NotImplementedError('Independent Phase1 reconstruction RED')
+NotImplementedError: Independent Phase1 reconstruction RED
+
+======================================================================
+ERROR: test_minimum_id_complete_record_and_duplicate_multiplicity (test_numeric.NumericTests.test_minimum_id_complete_record_and_duplicate_multiplicity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 33, in test_minimum_id_complete_record_and_duplicate_multiplicity
+    self.assertEqual(n.consolidate([a,a,b,b]),[b])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 4, in consolidate
+    raise NotImplementedError('Independent Phase1 reconstruction RED')
+NotImplementedError: Independent Phase1 reconstruction RED
+
+======================================================================
+ERROR: test_nan_and_infinity_rejected_before_grouping (test_numeric.NumericTests.test_nan_and_infinity_rejected_before_grouping)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 58, in test_nan_and_infinity_rejected_before_grouping
+    with self.assertRaises(ValueError): n.fbits(value)
+                                        ^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 16, in fbits
+    raise NotImplementedError('Independent Phase1 binary32 RED')
+NotImplementedError: Independent Phase1 binary32 RED
+
+======================================================================
+ERROR: test_raw_exact_bits_metadata_and_manifest (test_numeric.NumericTests.test_raw_exact_bits_metadata_and_manifest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 63, in test_raw_exact_bits_metadata_and_manifest
+    self.assertEqual(n.parse_raw(data,m,(1,2),'pre',1,metadata(),'C:/synthetic/pre_raw.csv.gz'),rows)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 7, in parse_raw
+    raise NotImplementedError('Independent Phase1 parser RED')
+NotImplementedError: Independent Phase1 parser RED
+
+======================================================================
+ERROR: test_raw_pose_box_rank_order_manifest_corruption_rejected (test_numeric.NumericTests.test_raw_pose_box_rank_order_manifest_corruption_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 69, in test_raw_pose_box_rank_order_manifest_corruption_rejected
+    with self.assertRaises(ValueError): n.parse_raw(data,m,(1,2),'pre',1,metadata(),'C:/synthetic/pre_raw.csv.gz')
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 7, in parse_raw
+    raise NotImplementedError('Independent Phase1 parser RED')
+NotImplementedError: Independent Phase1 parser RED
+
+======================================================================
+ERROR: test_support_counts_occurrences_and_boundary (test_numeric.NumericTests.test_support_counts_occurrences_and_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 77, in test_support_counts_occurrences_and_boundary
+    a=row(box=(0.,0.,10.,10.)); d=n.diagnostics([a,a],[a],[dict(gt_id=0,bbox=[0.,0.,20.,10.])])
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 10, in diagnostics
+    raise NotImplementedError('Independent Phase1 diagnostics RED')
+NotImplementedError: Independent Phase1 diagnostics RED
+
+======================================================================
+ERROR: test_template_is_excluded_but_score_position_class_are_keys (test_numeric.NumericTests.test_template_is_excluded_but_score_position_class_are_keys)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 41, in test_template_is_excluded_but_score_position_class_are_keys
+    a=row(0); b=row(1,box=(20.,20.,10.,10.)); self.assertEqual(n.group_key(a),n.group_key(b))
+                                                               ^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 19, in group_key
+    raise NotImplementedError('Independent Phase1 equality RED')
+NotImplementedError: Independent Phase1 equality RED
+
+======================================================================
+ERROR: test_zero_float_equality_normalized_and_ambiguous_min_id_rejected (test_numeric.NumericTests.test_zero_float_equality_normalized_and_ambiguous_min_id_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_numeric.py", line 52, in test_zero_float_equality_normalized_and_ambiguous_min_id_rejected
+    self.assertEqual(n.group_key(p),n.group_key(m)); self.assertEqual(n.consolidate([m,p]),[p])
+                     ^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\numeric.py", line 19, in group_key
+    raise NotImplementedError('Independent Phase1 equality RED')
+NotImplementedError: Independent Phase1 equality RED
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.008s
+
+FAILED (errors=9)

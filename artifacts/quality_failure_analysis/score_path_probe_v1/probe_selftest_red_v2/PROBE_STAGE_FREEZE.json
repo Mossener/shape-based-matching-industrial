@@ -1,0 +1,65 @@
+{
+  "stage": "selftest",
+  "completed": true,
+  "native_exit_code": 1,
+  "expected_native_failure": true,
+  "actual_full_class_search_replays": 0,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_build_red_v2\\build_manifest.json",
+    "sha256": "03c7d00b064dba986e036972f96e9093a22d2256859bf47c1a6d35bb8f195ae5",
+    "bytes": 163016
+  },
+  "input_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json",
+    "sha256": "353615a753a0be27a2665997488301259fe99989858068895870d16fe32de91c",
+    "bytes": 570161
+  },
+  "selftest": null,
+  "negative_control": null,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_stage_reservations\\selftest_red.json",
+    "sha256": "11cf59bcb5bdfecebd757ecbe3ab6d15a52bf89ade45138110672e5c45d13550",
+    "bytes": 868
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\native\\.gitignore",
+      "sha256": "45549a9ffd9963f855d72829e978a31c05b82894b14b1d8fbdd43083b20c2d86",
+      "bytes": 3
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\native\\failure.json",
+      "sha256": "05c45ed83ee434aac5dc9c172ca0f3ee6cf105ebe410efb7baf4cf3b11674e5c",
+      "bytes": 239
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\execution_provenance.json",
+      "sha256": "b69d557325ae42b4640221d2ec166d277cabc3f135d2424bc6498c54f1d62dac",
+      "bytes": 1665
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\native.stderr",
+      "sha256": "2c40ab8346bf51f5b370a842d26829f64c6561dc7788d0655fd3461c626c42ef",
+      "bytes": 62
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\native.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\watchdog.json",
+      "sha256": "e439f3e2bea50465700995f9ae6331cb0bd0c3082e3b0339d145a05296abf5bf",
+      "bytes": 332
+    }
+  ],
+  "summary": null,
+  "image_before": [],
+  "image_after": [],
+  "image_hash_operations": 0,
+  "unique_dataset_image_files_opened": 0,
+  "partial_results_are_not_negatives": false,
+  "phase2_started": false
+}

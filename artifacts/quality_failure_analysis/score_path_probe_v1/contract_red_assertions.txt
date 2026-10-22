@@ -1,0 +1,53 @@
+FFFFF
+======================================================================
+FAIL: test_call_budget_deduplicates_multiple_gt_per_object_frame (test_contract.ContractTests.test_call_budget_deduplicates_multiple_gt_per_object_frame)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_contract.py", line 13, in test_call_budget_deduplicates_multiple_gt_per_object_frame
+    self.assertEqual(c.scope(identities), dict(identities=3, object_frames=2, image_frames=2, full_class_search_replays=4))
+AssertionError: {} != {'identities': 3, 'object_frames': 2, 'ima[41 chars]': 4}
+- {}
++ {'full_class_search_replays': 4,
++  'identities': 3,
++  'image_frames': 2,
++  'object_frames': 2}
+
+======================================================================
+FAIL: test_exact_input_pins_reject_byte_change (test_contract.ContractTests.test_exact_input_pins_reject_byte_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_contract.py", line 43, in test_exact_input_pins_reject_byte_change
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_invalid_or_reserved_scope_is_rejected (test_contract.ContractTests.test_invalid_or_reserved_scope_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_contract.py", line 17, in test_invalid_or_reserved_scope_is_rejected
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reservation_is_one_shot_even_after_incomplete_run (test_contract.ContractTests.test_reservation_is_one_shot_even_after_incomplete_run)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_contract.py", line 31, in test_reservation_is_one_shot_even_after_incomplete_run
+    with self.assertRaises(FileExistsError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: FileExistsError not raised
+
+======================================================================
+FAIL: test_strict_coarse_threshold_and_inclusive_fine_threshold (test_contract.ContractTests.test_strict_coarse_threshold_and_inclusive_fine_threshold)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v1\test_contract.py", line 21, in test_strict_coarse_threshold_and_inclusive_fine_threshold
+    self.assertEqual(c.score(34, 10), 85.)
+AssertionError: 0.0 != 85.0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+FAILED (failures=5)

@@ -125,6 +125,8 @@ V22 完成六目标、400帧开发集的二值轮廓训练对照。空特征选�
 
 V23 补齐固定64帧、六目标、12,288次调用的计时：二值方案/RGB的配对完整调用耗时比中位数为0.8027（fallback）和0.8315（fused）；按帧取配对中位数后等权平均，fused为0.8516，但103/384个目标/帧组合变慢，目标1和8的均值退化。独立数字诊断把二值方案丢失的67个RGB真阳性分为57个在去重后raw中无合格框、10个被NMS抑制；现有输出还不能区分分数不足、搜索剪枝和跨模板去重。速度收益伴随V22的召回损失，继续保留为实验方案；详见[计时与限制](artifacts/silhouette_empty_mask_experiment/TIMING_RESULTS_V23.md)和[漏检诊断](artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/RESULTS.md)。
 
+V24 对全部215个RGB真阳性及两种模板重放426次原始类别搜索。131万条去重前候选的逐点评分与原算法逐位相同，22.8万条去重后记录与V22完全一致；独立审计重算完整候选、代表映射和GT框，确认跨模板去重未造成这批目标的候选支持完全丢失。57个无合格候选的目标在去重前就已缺失，下一步检查评分、粗层筛选和局部最大值；本版完成原因排查，未改生产默认，也不宣称新增速度或准确率收益。见[完整证据与限制](artifacts/quality_failure_analysis/score_path_probe_v1/RESULTS_PHASE1_V24.md)。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

@@ -1,0 +1,109 @@
+test_build_rejects_second_unit_failed_command_and_macro_mismatch (test_evidence.EvidenceTests.test_build_rejects_second_unit_failed_command_and_macro_mismatch) ... ERROR
+test_complete_single_tu_build_and_red_macro (test_evidence.EvidenceTests.test_complete_single_tu_build_and_red_macro) ... ERROR
+test_exact_output_members_reject_added_missing_outside_and_duplicates (test_evidence.EvidenceTests.test_exact_output_members_reject_added_missing_outside_and_duplicates) ... ERROR
+test_green_and_intentional_red_scope (test_evidence.EvidenceTests.test_green_and_intentional_red_scope) ... ERROR
+test_green_cannot_carry_failure_or_nonzero_exit (test_evidence.EvidenceTests.test_green_cannot_carry_failure_or_nonzero_exit) ... ERROR
+test_partial_heldout_or_phase2_stage_rejected (test_evidence.EvidenceTests.test_partial_heldout_or_phase2_stage_rejected) ... ERROR
+test_pin_integrity_and_numeric_only_boundary (test_evidence.EvidenceTests.test_pin_integrity_and_numeric_only_boundary) ... ERROR
+test_red_must_fail_for_exact_oracle_reason (test_evidence.EvidenceTests.test_red_must_fail_for_exact_oracle_reason) ... ERROR
+
+======================================================================
+ERROR: test_build_rejects_second_unit_failed_command_and_macro_mismatch (test_evidence.EvidenceTests.test_build_rejects_second_unit_failed_command_and_macro_mismatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 61, in test_build_rejects_second_unit_failed_command_and_macro_mismatch
+    with self.assertRaises(ValueError): e.validate_build_fields(b,False)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 6, in validate_build_fields
+    def validate_build_fields(build,red): raise NotImplementedError('Evidence RED')
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_complete_single_tu_build_and_red_macro (test_evidence.EvidenceTests.test_complete_single_tu_build_and_red_macro)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 53, in test_complete_single_tu_build_and_red_macro
+    for red in (False,True): e.validate_build_fields(build(red),red)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 6, in validate_build_fields
+    def validate_build_fields(build,red): raise NotImplementedError('Evidence RED')
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_exact_output_members_reject_added_missing_outside_and_duplicates (test_evidence.EvidenceTests.test_exact_output_members_reject_added_missing_outside_and_duplicates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 28, in test_exact_output_members_reject_added_missing_outside_and_duplicates
+    p=Path(d)/'a.csv'; p.write_text('a\n'); value=e.pin(p); e.output_members(d,[value])
+                                                  ^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 2, in pin
+    def pin(path): raise NotImplementedError('Evidence RED')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_green_and_intentional_red_scope (test_evidence.EvidenceTests.test_green_and_intentional_red_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 35, in test_green_and_intentional_red_scope
+    for red in (False,True): e.validate_stage_fields(*((lambda x:(x[0],red,x[1],x[2]))(selftest(red))))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 5, in validate_stage_fields
+    def validate_stage_fields(stage,red,summary,failure): raise NotImplementedError('Evidence RED')
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_green_cannot_carry_failure_or_nonzero_exit (test_evidence.EvidenceTests.test_green_cannot_carry_failure_or_nonzero_exit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 39, in test_green_cannot_carry_failure_or_nonzero_exit
+    with self.assertRaises(ValueError): e.validate_stage_fields(s,False,summary,{})
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 5, in validate_stage_fields
+    def validate_stage_fields(stage,red,summary,failure): raise NotImplementedError('Evidence RED')
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_partial_heldout_or_phase2_stage_rejected (test_evidence.EvidenceTests.test_partial_heldout_or_phase2_stage_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 50, in test_partial_heldout_or_phase2_stage_rejected
+    with self.assertRaises(ValueError): e.validate_stage_fields(s,False,summary,failure)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 5, in validate_stage_fields
+    def validate_stage_fields(stage,red,summary,failure): raise NotImplementedError('Evidence RED')
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_pin_integrity_and_numeric_only_boundary (test_evidence.EvidenceTests.test_pin_integrity_and_numeric_only_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 20, in test_pin_integrity_and_numeric_only_boundary
+    p=Path(d)/'a.csv'; p.write_text('a\n'); value=e.pin(p); self.assertEqual(e.verify_pin(value),p.resolve())
+                                                  ^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 2, in pin
+    def pin(path): raise NotImplementedError('Evidence RED')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+======================================================================
+ERROR: test_red_must_fail_for_exact_oracle_reason (test_evidence.EvidenceTests.test_red_must_fail_for_exact_oracle_reason)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\test_evidence.py", line 45, in test_red_must_fail_for_exact_oracle_reason
+    with self.assertRaises(ValueError): e.validate_stage_fields(s,True,summary,failure)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v1\evidence.py", line 5, in validate_stage_fields
+    def validate_stage_fields(stage,red,summary,failure): raise NotImplementedError('Evidence RED')
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: Evidence RED
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.013s
+
+FAILED (errors=8)

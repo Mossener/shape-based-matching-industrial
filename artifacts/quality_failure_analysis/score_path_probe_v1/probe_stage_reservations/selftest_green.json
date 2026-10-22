@@ -1,0 +1,24 @@
+{
+  "stage": "selftest_green",
+  "output": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_green_v2",
+  "inputs": {
+    "build": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_build_green_v2\\build_manifest.json",
+      "sha256": "515bc0638569cadf2f7c229d883da477a097deb9902207224f0409f89e7f70a0",
+      "bytes": 162969
+    },
+    "input_plan": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json",
+      "sha256": "353615a753a0be27a2665997488301259fe99989858068895870d16fe32de91c",
+      "bytes": 570161
+    },
+    "selftest": null,
+    "negative_control": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_selftest_red_v2\\PROBE_STAGE_FREEZE.json",
+      "sha256": "5cf7092af0bb0a21edade8f028d6650efcef4b435f3ec4966b90376827c0af1f",
+      "bytes": 2925
+    }
+  },
+  "one_shot": true,
+  "incomplete_run_still_consumes_reservation": true
+}

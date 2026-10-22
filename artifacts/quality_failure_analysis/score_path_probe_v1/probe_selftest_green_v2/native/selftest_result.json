@@ -1,0 +1,8 @@
+{
+    "passed": 1,
+    "scalar_native_cells": 256,
+    "cross_template_representative_fixture": 1,
+    "dataset_image_reads": 0,
+    "full_class_search_replays": 0,
+    "public_detector_match_calls": 0
+}
