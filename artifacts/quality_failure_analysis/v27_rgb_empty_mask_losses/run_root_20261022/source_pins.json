@@ -1,0 +1,27 @@
+[
+  {
+    "name": "numeric.py",
+    "bytes": 5120,
+    "sha256": "85f74617afda2bbd605a164932a8ceb656123e1f5556ebc2a055270b2a5dac0f"
+  },
+  {
+    "name": "run_analysis.py",
+    "bytes": 18762,
+    "sha256": "f376bd953f93cc1edee70dd976b980b97a706b4d5af732204a46fec975e1b48f"
+  },
+  {
+    "name": "test_diagnostic.py",
+    "bytes": 7723,
+    "sha256": "7c93c37b724651aed998adaf27bc79437c00dba45da820a989c1381a4de765cf"
+  },
+  {
+    "name": "PROTOCOL.json",
+    "bytes": 2047,
+    "sha256": "73784bed66b3169bcc4d9e26eb483dbda64ff6f7756f3f2107fd2590a5f9c341"
+  },
+  {
+    "name": "ORIGIN.json",
+    "bytes": 1480,
+    "sha256": "10b809051cd8f65cccb16396a83f24e2cb1ff40f53642e1c59cfe4232cd78424"
+  }
+]

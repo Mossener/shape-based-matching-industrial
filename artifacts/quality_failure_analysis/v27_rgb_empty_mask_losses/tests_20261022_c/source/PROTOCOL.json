@@ -1,0 +1,87 @@
+{
+  "version": "v28_v27_rgb_empty_mask_losses_v1",
+  "scope": {
+    "objects": [
+      1,
+      2,
+      5,
+      8,
+      12,
+      17
+    ],
+    "scenes": [
+      1,
+      4,
+      6,
+      7,
+      8,
+      10,
+      12,
+      13
+    ],
+    "development_frames": 400,
+    "object_frame_pairs": 2400,
+    "gt_identities": 400,
+    "arms": [
+      "rgb_control",
+      "rgb_empty_mask"
+    ],
+    "paths": [
+      "fallback",
+      "fused"
+    ]
+  },
+  "thresholds": {
+    "raw_score": 85,
+    "nms_iou_strictly_greater_than": 0.3,
+    "gt_iou_at_least": 0.5,
+    "eligible_visibility": 0.5
+  },
+  "frozen_expected": {
+    "rgb_control": {
+      "tp": 215,
+      "fp": 42112,
+      "raw": 457279
+    },
+    "rgb_empty_mask": {
+      "tp": 183,
+      "fp": 10019,
+      "raw": 150247
+    },
+    "allGT_status": {
+      "retained": 156,
+      "lost": 59,
+      "gained": 27,
+      "neither": 158
+    }
+  },
+  "audit_receipt": {
+    "path": "artifacts/independent_reviews/rgb_empty_mask_quality_v1/run_20261022_development_audit_v3/result.json",
+    "sha256": "8da165e5a5213f62918d7be1fb09e5124255cdb4775ccec9bfa31347d9676578"
+  },
+  "outputs": [
+    "per_gt_arm.csv",
+    "per_gt.csv",
+    "suppression_edges.csv",
+    "assignment_competition.csv",
+    "per_frame.csv",
+    "result.json"
+  ],
+  "classification_order": [
+    "matched",
+    "raw_gap",
+    "nms_loss",
+    "assignment_competition"
+  ],
+  "limits": [
+    "Raw evidence starts at score85; raw gap cannot identify a below-threshold or coarse-pruning cause",
+    "One-to-one assignment competition need not mean a capacity deficit",
+    "First blocker is exact canonical NMS provenance, not an experimentally proven fix",
+    "All400GT and all2400frames are processed; no group/object/scene selection",
+    "No thresholds changed, no accuracy improvement or industrial-generalization claim"
+  ],
+  "image_reads": 0,
+  "native_calls": 0,
+  "heldout_access": false,
+  "reserved_objects_25_29": false
+}

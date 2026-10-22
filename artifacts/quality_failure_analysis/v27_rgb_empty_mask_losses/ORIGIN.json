@@ -1,0 +1,31 @@
+{
+  "role": "Independent V28 numerical failure-stage diagnosis; adapted algorithms, no target evaluator imports",
+  "sources": [
+    {
+      "path": "artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/diagnostic.py",
+      "bytes": 3388,
+      "sha256": "5fb8a744fbffd5ad7ff1e9ba1a7f82966c5030e3f83e0554176a7f24bb49c248"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/run_analysis.py",
+      "bytes": 20937,
+      "sha256": "5ae22c7849f2fea087ea211bab19a8ab5eed6afc38d72f6a41b4ecd12385bc1b"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/v22_empty_mask_lost_gt/test_diagnostic.py",
+      "bytes": 3871,
+      "sha256": "5d26a2428c4e25ab1db386dfcb67fd4a707000bf66409386aa6cbcb5a20cca49"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_quality_v1/run_20261022_development_audit_v3/source/audit.py",
+      "bytes": 24477,
+      "sha256": "78145ab2ab65eac13bb9006b596f60a6f15dfb2951573701da6bb077beaa6eca"
+    },
+    {
+      "path": "artifacts/independent_reviews/rgb_empty_mask_quality_v1/run_20261022_development_audit_v3/source/numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    }
+  ],
+  "new_work": "Full400GT/all2400frames/twoarm raw+fused/complete selected replay; score-bit identities; every GT stage category and exact first blocker label; assignment competition; all cross-arm groups"
+}

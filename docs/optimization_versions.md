@@ -229,3 +229,15 @@
 - V27 仅新增隔离实验和证据，生产核心继续冻结在 `b25df46f6ddf9c24fb43f5836f1414dc38c8caed`。完整数据、协议、构建来源、失败记录和独立审计见 `artifacts/rgb_empty_mask_experiment/RESULTS_V27.md`。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v27` 标记各阶段。
+
+## V28：RGB 空掩膜漏检的完整阶段定位
+
+- 数值重放 V27 全部 2,400 个对象/帧组合、两臂及 fallback/fused 两条 raw 路径，覆盖负帧、400 个 GT、800 个 GT/arm 记录、完整 NMS 与 allGT/eligible 分配。最终源码的 13 项合成/变异测试和 root 全量重放通过，原始失败和修订源码均保留。
+- RGB control 的 400 个 GT 分为 215 个检出、162 个保存 raw 无 IoU≥0.5 候选、23 个候选全被 NMS 抑制；RGB empty-mask 分别为 183、207、10，双方均无存活候选的 GT 分配竞争。
+- 原有 59 个丢失身份中，53 个缺少保存的达标候选、6 个被 NMS 抑制；这 6 个的 27 条直接阻挡边均来自最终 FP。新增 27 个身份在 control 中对应 16 个 raw 缺口与 11 个 NMS 损失。全部 15,179 条抑制边含大量已检出 GT 的冗余候选，不能当作可恢复 TP 数。
+- raw 已经过分数 85 和跨模板合并，缺口不能区分描述子失配、低分、粗层裁剪或位置搜索原因。NMS 首 blocker 是流程证据，也不证明移除它就能改善准确率。本版完成诊断，无新增准确率或速度收益声明。
+- 下一项全模板区域诊断设计覆盖三种训练策略的全部 62,208 个姿态尝试、119,294 个成功序列化层及 64,618 个 selected 使用事件；计划仅解码 432 张公开训练 mask，观察特征与官方轮廓、裁剪边界的关系。设计不等于已执行结果。生产默认保持冻结，留出场景、保留对象及私有图像不加入本版。
+
+详见 `artifacts/quality_failure_analysis/v27_rgb_empty_mask_losses/RESULTS.md`、该目录独立复核记录和 `artifacts/quality_failure_analysis/template_feature_regions_v1/DESIGN.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v28` 标记各阶段。
