@@ -1,0 +1,1888 @@
+{
+  "stage": "phase2",
+  "fault": "none",
+  "completed": true,
+  "native_exit_code": 0,
+  "expected_native_failure": false,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_green_v1\\build_manifest.json",
+    "sha256": "24beff8fd290a23fd05a611ee84bda38621b3b6e9022ca2f5ff462f85ed618e1",
+    "bytes": 174379
+  },
+  "input_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+    "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+    "bytes": 4259952
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_green_v1\\PHASE2_STAGE_FREEZE.json",
+    "sha256": "de3ccc0a5f6aeb76522cbf6d5bb09f4ab65e9b959a92692be2be2fe9cbf0af60",
+    "bytes": 4065
+  },
+  "red_receipts": [],
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\phase2_stage_reservations\\phase2.json",
+    "sha256": "a5ad4164c04f7ef210365f7d01befad30ae40535b7c7314d908b6dc43c23c3c8",
+    "bytes": 1126
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\.gitignore",
+      "sha256": "45549a9ffd9963f855d72829e978a31c05b82894b14b1d8fbdd43083b20c2d86",
+      "bytes": 3
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\feature_vectors.csv.gz",
+      "sha256": "61792ac6e029597f5f03bfc6eae219698dfae6f24b2c84c3085c4a28056c5957",
+      "bytes": 15568133
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\fullclass_nms_assignment.csv.gz",
+      "sha256": "9a1b6696f545ea9376d1745cbe4e29e9d52ff7c04bc0e9b4c0980cb93857a841",
+      "bytes": 4650299
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\jobs.csv.gz",
+      "sha256": "ce422a9a8f1ba6772e2d43b915e19b4760d95459e0aa43061c377b46be32cd3b",
+      "bytes": 11879
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\local_maxima.csv.gz",
+      "sha256": "ccdd0b49f380ae889c365beeb83449de6f0fd231c77d9653f2389b3ab45ec76b",
+      "bytes": 151342
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\native_cells.csv.gz",
+      "sha256": "9aa3037ef7bc29d24293cb16a1dd5a0db586343b99427bce03c2c5a7b3bc48a7",
+      "bytes": 15921351
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\occurrences.csv.gz",
+      "sha256": "baa6d2e23a9d252067134ca735295b00df5078413bd33a5b589afe13987617fc",
+      "bytes": 17713
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\parent_links.csv.gz",
+      "sha256": "0259f18bad5b258ffb25ec2ef0432249791cb915bfd2f36846830bcf07099a94",
+      "bytes": 160595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\physical_anchors.csv.gz",
+      "sha256": "96fa65772fbfaec9a61bedda0a66697611a0d73df67117a32633ea504a952bd1",
+      "bytes": 64886
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\stage_summary.json",
+      "sha256": "4499e110e35d18b2b57f4c7efecdd9d420a0c208acbedd3e5929e7cee5fe52bc",
+      "bytes": 872
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\execution_provenance.json",
+      "sha256": "0fe18225e263b191067ee3c6683ce88fedeb4210a2960cb2012d279e002a7d57",
+      "bytes": 2395
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native.stdout",
+      "sha256": "e966b4a4fb9543808727776d045e9adfc6348a003a016cb4d73356d2cc3897f7",
+      "bytes": 9370
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\watchdog.json",
+      "sha256": "ae0d86b15f538d5d8a7c2afa314fdfb282a77444d4af5110b89e7ab8145925a2",
+      "bytes": 336
+    }
+  ],
+  "image_before": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000003.png",
+      "sha256": "e496fb0d6c66dd11ed379ff3463cdecf5b3990f520fd8e1eb019c51eb2ce56a3",
+      "bytes": 679931
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000013.png",
+      "sha256": "4caa4859239f16d6cd447bab7cfcacc87e33145321134315c9f6221109ce7653",
+      "bytes": 686072
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000021.png",
+      "sha256": "3a17d601ff68334b0fdc4d190e5094469bc21da9aca715e04eed85e2394893f1",
+      "bytes": 681208
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000030.png",
+      "sha256": "43d0a885da33249047f5c9db615b3d0b4be871dec8648e8b0ce49f73bed95ae6",
+      "bytes": 695925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000039.png",
+      "sha256": "960e30b7012affe1d653338ddd0127813b0daf236989fb8052dc4ec5749b2e25",
+      "bytes": 682503
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000054.png",
+      "sha256": "ae3c3ad436090d68276539dd06d90b79bd9d5db7f56c67f1d40e172be992db81",
+      "bytes": 654252
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000062.png",
+      "sha256": "950d9dfddf110ac93d2d00654077adbecc0ded454e4ca8c23e8068c2de0d8938",
+      "bytes": 699989
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000067.png",
+      "sha256": "dea9ff857dc8f70a7a84729ee129384e160ceefcf328815249c72b38393051e0",
+      "bytes": 685756
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000071.png",
+      "sha256": "2437d4cf1114dccb7051002d4bd7fd593159f026c9e828d238293ef97951fc7f",
+      "bytes": 659328
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000081.png",
+      "sha256": "59525717c7168d89b5a491c464aefa4c01e4bdbcac70ed973cd53f4174ee277c",
+      "bytes": 707522
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000087.png",
+      "sha256": "bd0a87221c2084c57d9192e4f8418a6da16ffd2747c39ce51388038c4809c790",
+      "bytes": 685397
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000094.png",
+      "sha256": "f2e0149ca7a4d91bd89441fd4e2b8f9488ee0b77dde6ee88170d8842e8adfb4d",
+      "bytes": 694821
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000102.png",
+      "sha256": "d3464ccda3a5a570024acabebf828310f2989faff1f0cd6ba05dfdc881f54647",
+      "bytes": 704871
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000112.png",
+      "sha256": "442e6c3a694b75c680c826ce87f89fbefcd0a8e755f2a4352a8b23123b600ea3",
+      "bytes": 695438
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000130.png",
+      "sha256": "fe2580e04b0c642831fa1adc06438c6db260a4a1304b71449733693185923765",
+      "bytes": 692819
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000155.png",
+      "sha256": "ed8f201fab80a6182b6463985b11053b5da37e2d0e653d519a1924356d13ea9d",
+      "bytes": 711312
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000166.png",
+      "sha256": "db50a6310be5f02940dc0778549953472e3b995ae91a1c0d34f722e289928ef8",
+      "bytes": 709308
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000185.png",
+      "sha256": "2d7da87d39eb90cea5711ec742746e6b9ef740ac32c9a9022e273827de5469e9",
+      "bytes": 712163
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000198.png",
+      "sha256": "087948d0b9a20a0ac22d09feeb2c44fbfe2f6ce46f80a03b5355a8c7c75e514a",
+      "bytes": 676824
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000207.png",
+      "sha256": "be040f92e5ba91abeb425ab617967133c2afef506b41cb7e8e00b64d0b81ecb0",
+      "bytes": 715409
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000219.png",
+      "sha256": "1ce9ee49aebfef3934c93eecb3fe8ea057309eb45b616dc40185807e3797d82f",
+      "bytes": 686821
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000229.png",
+      "sha256": "8361187997b2354590948fc81d65ecd86af8a973aa5897e6d3a93f030ac1dce6",
+      "bytes": 701608
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000239.png",
+      "sha256": "f9e3b7fb8e515242bf0dd59f9f3a67a45a7dcb60623f9e5de0c1646559250f54",
+      "bytes": 708802
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000289.png",
+      "sha256": "110ce5017548def2df0039dee7ea23ad89e288454c384de6485afbc54163df4f",
+      "bytes": 655207
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000295.png",
+      "sha256": "2e60dd6b401b69b922231a4147b6b73b5e15d665ce828a3940e6b006237fc909",
+      "bytes": 696368
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000306.png",
+      "sha256": "65a39c230d45f6dac82a964ebdfd561e8c2ef4ed57474aa74aba3d4a1e44698f",
+      "bytes": 647852
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000354.png",
+      "sha256": "f37284625c8fb24f0a558320b6a63e0f833fd5eb9421a6bce79cb4ec78fa4c2b",
+      "bytes": 688367
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000366.png",
+      "sha256": "283c97907049d674df4251c1d5846ae511521fbecfa84da4570412db5ed258bb",
+      "bytes": 688261
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000378.png",
+      "sha256": "1b2f21c468e78ce816fac53834de9757ed315818950c6136f58c7088cdf2bf66",
+      "bytes": 653349
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000385.png",
+      "sha256": "94bbde88503feaf6c7eba3fd816b1e41469d6479a042a7a8dd7a7881971b3f19",
+      "bytes": 695357
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000399.png",
+      "sha256": "a5f64a9776b1cfa6f4eb384858e7b28d29b4e2619fd46c52e2aecebf70a67d5d",
+      "bytes": 679182
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000413.png",
+      "sha256": "e380fa61431430597e0443fea2e43bd38b1f71d8474835c73495f59cfbca049d",
+      "bytes": 651356
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000428.png",
+      "sha256": "46b83abb4993affe35340cb1776ea52521c9d8efb1cd2be9a256d60199ee756a",
+      "bytes": 677390
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000435.png",
+      "sha256": "d6320db9d6de29f511ef5974176bdb68d1164600ade0b41a72ed4f52586f471f",
+      "bytes": 664136
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000447.png",
+      "sha256": "f6708a80d0b30139e20a240f5e20d00c40494edf159a8e175631bf1ac3e2c955",
+      "bytes": 663320
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000450.png",
+      "sha256": "ddf8669d7e02290fc772e221e3a7bf63299237bb1cd179cdad39249f11be4b2c",
+      "bytes": 643322
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000458.png",
+      "sha256": "7ad09f6c1c0720ab1eae76ae791e5e2c6af6ead550a0c1b5513ba91750225339",
+      "bytes": 697419
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000001.png",
+      "sha256": "0891033698f8161ec89753d036d6fa220be1ff9496364ce8abc66c82e5ecf456",
+      "bytes": 616980
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000017.png",
+      "sha256": "d3bcd5edae5edcd7945d207d4a00cc640da092e7a0c88c015b670fabed92f8aa",
+      "bytes": 616340
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000030.png",
+      "sha256": "68836b9002c0b4e698c5868a1f0f38caac2de2627cef3bd90c5cfc6f6290117f",
+      "bytes": 645910
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000038.png",
+      "sha256": "a27b1a7e84a4a2c7a56e9927b42eceb552d33ed0c46a4fcfcf309439243de805",
+      "bytes": 626651
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000057.png",
+      "sha256": "4e7af7c40b0760cdabdeec037be46ddaae54dfa96538d1e63a54f79bfc9922b3",
+      "bytes": 634359
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000067.png",
+      "sha256": "f84cb86346c5a55004e8b855bcd397da650a1c7d5e4f1a9274fbe6d091cb3fa3",
+      "bytes": 643004
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000076.png",
+      "sha256": "b487ba0e3c73a771116de2af13653fb26d105c8c9ae588e0a2996d08242ed2f7",
+      "bytes": 659648
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000089.png",
+      "sha256": "bb556f7b17e1f9b6869cabb2e6df06a26509bcf23c5ae2031399efad229ba6bd",
+      "bytes": 628455
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000101.png",
+      "sha256": "e9dac619492e9e22381fd0da490158d69829d251af5665c1aedded1766c82fa3",
+      "bytes": 659781
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000109.png",
+      "sha256": "b2c805f911d60fce8e345b6d77453094ce03927a6ed1ee4e74368b5e620abf92",
+      "bytes": 637838
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000127.png",
+      "sha256": "1c3847314aec64d8a4b4b8e95b48335a20191f4daf1fb952c3a8ee656ade7b72",
+      "bytes": 639067
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000135.png",
+      "sha256": "a7228267be19ae481f1c5ae42ed2dec8273c4e71088fff2779194e7061d3f7fb",
+      "bytes": 666124
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000142.png",
+      "sha256": "b308444b8ffa2d4ffd1919b1ae7a0cfe3c7d555ea0b7697d016e1dc921f864a3",
+      "bytes": 634126
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000157.png",
+      "sha256": "0dafd653a5b565088011958fb27c8bcd2b36300d399bc6ca4d083813c5e98c4d",
+      "bytes": 671430
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000168.png",
+      "sha256": "8063a73afe114e25fa90cf28d88bbb56304d0ea622d5bb216361852033e283f9",
+      "bytes": 681223
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000176.png",
+      "sha256": "afa9bd70da258a62cc979fc40cb2f1e000f03a5f71c606d9ea233a521e76007d",
+      "bytes": 663536
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000181.png",
+      "sha256": "c5edc8dcce14129f51000e1efb38fd4166654e336293c4896521a82f0b38ca0f",
+      "bytes": 653648
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000197.png",
+      "sha256": "d85244655e3a409f90bdbc80c37989e151ca02fce00b03e840b2e05b7ad40520",
+      "bytes": 641725
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000230.png",
+      "sha256": "256d2ebd4818f77ea3cddd0f6a769be512163e63fdabbd4723041358360ce6bf",
+      "bytes": 665841
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000236.png",
+      "sha256": "778953963c5154fc729ee041748ae1300535839ca60c3d082b3afc53e964f3eb",
+      "bytes": 653463
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000246.png",
+      "sha256": "461e08e49b979d58c811241143c15d0cf530fcccd3fe4296b0f0e5cd19316a10",
+      "bytes": 676900
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000252.png",
+      "sha256": "d1a0c88a36b711852721acb3f98225706de75159dc4dc5971fe68a11bd04759a",
+      "bytes": 625337
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000283.png",
+      "sha256": "458fd48bb1ffaa71033fe504f5ea6b1ff43c440eeb5cc887850500471f612666",
+      "bytes": 672406
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000314.png",
+      "sha256": "7019c8e73e3715310c0fb25fc812ac353da092d437b0257c093ad1aa16d2501c",
+      "bytes": 680583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000347.png",
+      "sha256": "ad89349fc8e7dc3bdc12f8ac1d7c1366d9cdef2ca553a205a5be3d306e147483",
+      "bytes": 676335
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000425.png",
+      "sha256": "b58f061642245360e91f430f8c19337acbdd90df0f60c2f3ac4747a0432423e3",
+      "bytes": 683314
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000434.png",
+      "sha256": "4054dd088fe641148d75260b13481d8eac5e805ba9d21f7e864faa0804350468",
+      "bytes": 663843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000442.png",
+      "sha256": "0922deb1e8480e092769d2d8e3ca0fc3472985b9a40164d430026a62c61e54e7",
+      "bytes": 698475
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000455.png",
+      "sha256": "42ff931e6a54fd3747c406baa02ffae3e10850402d8274c4ecdb3b881565c2c9",
+      "bytes": 682545
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000488.png",
+      "sha256": "7d31e8cf226a64038fe35a975502649d262b9b0e0b855c31c7887c00b212b107",
+      "bytes": 662629
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000493.png",
+      "sha256": "098a462904c698f3a8ff98616e5dd0fddabca2966f9b773667a86533eca319a2",
+      "bytes": 697645
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000002.png",
+      "sha256": "fb35f12012806f6851e22c494147b79910e157ac3b574ae598c178b81149162c",
+      "bytes": 852876
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000007.png",
+      "sha256": "0d2a90e65d337168716d9a1f4e33fcc7d694dcb5422cc85bec08a42e7ce1981c",
+      "bytes": 877677
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000014.png",
+      "sha256": "7aeaa87a561bdaa9823f8adb63a9b60c56892fda9ed5f2a0a029f28505802c23",
+      "bytes": 881491
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000026.png",
+      "sha256": "56ed1194169669ea4ffad29ebb55409b93fbb42eb5ce62105ef6914237cbc55b",
+      "bytes": 880952
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000043.png",
+      "sha256": "61f0ba1218438ef65f962e6d9ae863799223da88232a6b0e7ee9984bca9601ca",
+      "bytes": 877584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000049.png",
+      "sha256": "e0e20dd78635007f16814f00f1d0a3017f26868205dbb2e6b5d897b6aaed03b2",
+      "bytes": 881229
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000060.png",
+      "sha256": "c260bcf6e7105b7bcba8300568dd26329cf8028aa383fa50ca71bc4dee39f70b",
+      "bytes": 877165
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000066.png",
+      "sha256": "1a94fea56eb739073cda420ee6f1fbc3e80d00d32ae1ae263516c441e384e0c0",
+      "bytes": 866678
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000073.png",
+      "sha256": "bbffdefe7490d4697e586b9a2b042fe88ae2cbc15d23bfb216907e0c5444c232",
+      "bytes": 839497
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000083.png",
+      "sha256": "ec4e3878f80adc0eddff253c4b465e5ed871e3fd400dbffb6f40568b87013758",
+      "bytes": 876967
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000100.png",
+      "sha256": "44b612d5065561bc00b692a3ccb2e64902406fea3638db1f02b01167bc79ef2e",
+      "bytes": 870468
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000108.png",
+      "sha256": "3049c2591a67743d112ca0814c1558a5efb9172373f598f4b68bcaf2c223d258",
+      "bytes": 835311
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000117.png",
+      "sha256": "7434638fb6af30695edee8692cc1d5d47e6b89a7facfa29bf7657ef485fc19ae",
+      "bytes": 871076
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000130.png",
+      "sha256": "0ff9747524f417c93a169a12ff59fb6cd5f7019f3f590ebbbe3459bf4af7cf9c",
+      "bytes": 868519
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000137.png",
+      "sha256": "33a75d1132988c553deed83b19fa37707453cb497102ff290f97ea79524a8946",
+      "bytes": 863418
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000142.png",
+      "sha256": "2b58c5821718fcfa95a03c0b51b23c0b56790feafdbf15a197df4896c020d793",
+      "bytes": 846392
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000148.png",
+      "sha256": "d042bdd5e2f476cba961280b816bf1a166213503589574303c990d9db574ec0a",
+      "bytes": 851107
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000171.png",
+      "sha256": "c7f61fa91f5470e9a240bd6dc22a4a8d85879d2f51230df547569ab895a48a79",
+      "bytes": 863256
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000190.png",
+      "sha256": "faedd188e45c265e8c35cd2dbbae761f34977eb3fa906834cf557f5437f3dbcc",
+      "bytes": 863619
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000199.png",
+      "sha256": "44dd92981f93a487a658ecdfac604bcc6a8771d3803c13d6640cd15acf1b3d75",
+      "bytes": 854596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000207.png",
+      "sha256": "dd62f9bac0d2552bdedefe595c63fa0eb3df9e864497e399016faa5e0e5b4fda",
+      "bytes": 857996
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000215.png",
+      "sha256": "8d8fa85037f17d1a8865c364f4e1d4456cfbd732ec14cf1a9984b92500baaef7",
+      "bytes": 835870
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000221.png",
+      "sha256": "90d3a062261b83bcf3a965c6432cc826897a88243382b5467fb2f26fa25eac73",
+      "bytes": 834654
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000228.png",
+      "sha256": "8c822cd069f2b6764e5f8a0d740b4bce2f44fbcd32a1e73f15fd221cefa088f7",
+      "bytes": 846925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000239.png",
+      "sha256": "03e6c6f129f515a760ff3edb09d3a5e50ac750b3bac6379c33a0ba6fbaa6067a",
+      "bytes": 843960
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000249.png",
+      "sha256": "ead94f36dadc3ede7cc2f8c6eef92f807b9f88883d408b5ae1594994ae291570",
+      "bytes": 818258
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000260.png",
+      "sha256": "514bfbbfe13417464b698528c5f8039ca82960af313a97213aff0b571a504ebc",
+      "bytes": 839780
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000284.png",
+      "sha256": "93f3678fad9d9341f9a115bb9fec845de022a496d6ba4b4716f3bba72312b323",
+      "bytes": 829123
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000307.png",
+      "sha256": "c4bf0136f046b0282fb912a017df58d7bc4ac9fe811a6b8509d1176af11276c0",
+      "bytes": 788117
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000368.png",
+      "sha256": "cf0580a93925ec256c546860e66e830c126cb937fcc1f4f1558c899ce0bcc5d0",
+      "bytes": 766023
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000383.png",
+      "sha256": "6bf5e29a9a744b5653e0df17361088d319afd45b47d01eeb6ace7535733b2673",
+      "bytes": 765799
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000387.png",
+      "sha256": "8010ab6a9beb93528573f840a49d8880b9a96d981384cf47e765343dd15afb5d",
+      "bytes": 766103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000393.png",
+      "sha256": "83d131462f244abcfdb45d10742437c0e3f1b5eb4ff1ce43bb3f5e1df55e208b",
+      "bytes": 743823
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000438.png",
+      "sha256": "72dbab68e327339863508e43b3348b9183680ec4bc3a01e7307e055f0ffa61d9",
+      "bytes": 733432
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000471.png",
+      "sha256": "d467f3a6ff6dd7632166ced13d35c3fd09ab4efe0e8f261739ca66b31c340342",
+      "bytes": 716240
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000490.png",
+      "sha256": "520521f3285ba4fe38442fedaccb398be258545f46360d7fd1523df92191ff15",
+      "bytes": 727810
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000000.png",
+      "sha256": "3b5dfed811580537f15d928d5515adbdb479a4d2eb8e1b7991cc1b4482d555bc",
+      "bytes": 629487
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000010.png",
+      "sha256": "2754087123735e004915dffc1c0db668b94f79978f7d8fb239a341de7e06acb1",
+      "bytes": 680404
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000025.png",
+      "sha256": "de82ae52ab90a2126e993e370a7a3c4b4291a02a9b2328e74d4b5048f65999a9",
+      "bytes": 677018
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000036.png",
+      "sha256": "f2726016c516954110c339dcbf5fccfc2ee2bee7885b51a2be61896bd66d5395",
+      "bytes": 631034
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000047.png",
+      "sha256": "993cf64728e866d88a39e48c640ea828d4d92259581e3f6fc1037fdfd1d1a02f",
+      "bytes": 677865
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000058.png",
+      "sha256": "0dd22643786352ac0489bc58b22e8313cc9c6288736e3032ce23d34ae116d8ec",
+      "bytes": 667967
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000066.png",
+      "sha256": "87d9d11c51f3c3ba21ca0f301a541842c6ffc50a642a019152bf88eccbd5ac05",
+      "bytes": 671336
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000072.png",
+      "sha256": "5ee04cce49f18392807ff74e182107af61149a9a5a2be285b9f6767f2d1488b4",
+      "bytes": 641855
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000078.png",
+      "sha256": "6d94c5220c35eff81a1a7944e9bcd19da7fd62c1370255df6dea0419d528c920",
+      "bytes": 682603
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000085.png",
+      "sha256": "b84cfed2f6dbe6b7bce4ca66115da7896b5875fb9476085b37b09e2b4b6293e8",
+      "bytes": 682525
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000104.png",
+      "sha256": "6d3da8e5de64bff25b6bd500a3e53710464d4f328eed4cbf59c677e000133374",
+      "bytes": 674075
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000115.png",
+      "sha256": "d36fb73b2ee646d280c3d93e859115defe1b655fc54994f56f7a7175295b4970",
+      "bytes": 689549
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000129.png",
+      "sha256": "dcc34c03dc1072bb9bffdecbc70af4c4e46e75db5202db025b6491c87a71203a",
+      "bytes": 673090
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000142.png",
+      "sha256": "8c784378811b3ee139ab2be9b73b3700bfe1bf6531469eb6ffd00ca9e76ec00c",
+      "bytes": 657043
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000170.png",
+      "sha256": "c9d5537f63b18d410c75ce405b3c1014b061e93bbc38cb479c5219e0e73a8e16",
+      "bytes": 705405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000193.png",
+      "sha256": "17f876f545d0b184ecf22e2e9348761b9f171fefd341c6330a7eda0e65cbf80e",
+      "bytes": 697279
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000215.png",
+      "sha256": "7aa5f62df9bf8efa9d1f18bc57a5dfc55fbdbfa806080788c3771fee6c47ade4",
+      "bytes": 665565
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000365.png",
+      "sha256": "e2ad4cf5a3308b5f9f675c692a6ef21dc89d180e7e24e04a2b4f7a4139ee045d",
+      "bytes": 688352
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000438.png",
+      "sha256": "dd4e3de9acfec4e9cdd79bcce3d0986ec4a4e7e6f83d4c5b4a835ed48380e2fd",
+      "bytes": 698242
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000448.png",
+      "sha256": "87924eaaa6ee7f20f01cf7e28df92f313c4b1ea6e17d06a53982da6625326dab",
+      "bytes": 658788
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000479.png",
+      "sha256": "0ad36f14fb557a90b1c0dea0c2480a4aa36f1196d80f78faed96b84dcbf6cb15",
+      "bytes": 696687
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000497.png",
+      "sha256": "9d9621b762fe12c8329f85566b444a7a76193c14aca928bb29b966fde46f5619",
+      "bytes": 700564
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000002.png",
+      "sha256": "04b19c87d60aaabe98c6be9655a58c5cc620ac31dc356ede55e89dc02cd2a166",
+      "bytes": 646537
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000011.png",
+      "sha256": "582c1cbfb3fa0e526db6cb3ce98bd40354435fa7616a1b544477f5b87265abf0",
+      "bytes": 674944
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000023.png",
+      "sha256": "ae4e8fd46268ee59209b54ddc8a0727bcbd11d83c834a0af07dc82d2898e1996",
+      "bytes": 670108
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000032.png",
+      "sha256": "74ad713ad3a2ac3131b1b121693fd5fa08ae35a6906fe420cc874d859274b1b0",
+      "bytes": 653729
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000039.png",
+      "sha256": "e8bd1da0184af5172a83ac20b06e1929f8758c1de9eda99073bd3ea1a249ccf7",
+      "bytes": 654555
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000045.png",
+      "sha256": "f93a320e7ad7b737f7d62b791eb5b1ebd9c4b7100844ca69a8b285d45d6214c4",
+      "bytes": 678844
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000058.png",
+      "sha256": "f7f9153a9f8412c8e866dc341bdcb829495258c97b764062bfe8554b3ea4a458",
+      "bytes": 657611
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000065.png",
+      "sha256": "8ae0275ec6d79baaa1550a29dd7eb48983afd9b0667e347fb81fd165da36a414",
+      "bytes": 674172
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000072.png",
+      "sha256": "c8acd4b1e4c5b6bb79949d2fadc4c5f603cc3088bc619faa73db9e58d2098659",
+      "bytes": 650017
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000080.png",
+      "sha256": "a079c5778e726a95b588e249146ae5906a5b03be41992eef29126196161012f8",
+      "bytes": 690364
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000087.png",
+      "sha256": "86104e836add8000d2746a4e8e0db245aa0246c68e0a3f2575f2121b3d207083",
+      "bytes": 670365
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000096.png",
+      "sha256": "c139cd295a450eff9fe980759cfad324733e553623ef4e4238a08f055fedc12b",
+      "bytes": 687462
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000105.png",
+      "sha256": "85b20954cc3d0879ed22a4706c3a2e5e3a3ad413764d73e33b5ef5275c7f891c",
+      "bytes": 670155
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000119.png",
+      "sha256": "269662b428408d48bf59a966e111eba9998fd163d00e6a1ac8e22e20feae6703",
+      "bytes": 690460
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000128.png",
+      "sha256": "621293a52b71f0ba1e034862e55bba1aef1a3224e02844d6c4d61142a637febd",
+      "bytes": 658819
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000134.png",
+      "sha256": "ad22c58f21e38d0a6c54de10554b29fe5e18deb0d025a7200ab36317aad29e1d",
+      "bytes": 690241
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000139.png",
+      "sha256": "aa06c97b1ab401126923dd1f560c5216f79ff926234fed6b9a2dc9d308653e0c",
+      "bytes": 683101
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000145.png",
+      "sha256": "cab0f4d71dbdd236db7a0b96a44e5c91ffb2f8db3220ae104e3051ba531967b3",
+      "bytes": 669593
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000156.png",
+      "sha256": "9d6c2414b5757988efaaab7e9b73db7db4b056d952c845ee88011f12f6f40137",
+      "bytes": 706901
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000170.png",
+      "sha256": "cf01713e75e4725734622178b32c09deb2d7923369781bb822a0bf12e8900363",
+      "bytes": 707027
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000177.png",
+      "sha256": "6db4758b29b7ac9c9d92992e9c357a4f2773b045dcf7242bc73b09ca86b5e39f",
+      "bytes": 686488
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000194.png",
+      "sha256": "2981331f2a99216b8c82c85a21bfa3a7d1afa26aec4695d1ae755872c05d1fe7",
+      "bytes": 692209
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000206.png",
+      "sha256": "439d90dacbcbadbb896804f4deedd73f87f467a18a2b88fb4e3625eadacfc269",
+      "bytes": 704023
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000214.png",
+      "sha256": "b78598ebd6a6cc3d3e6bffba9f7fa729d46fac2a099530a175c24312243e1e61",
+      "bytes": 681657
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000231.png",
+      "sha256": "d6cbfb2df0940bcdbc20a2eacb52f1a6bf257a4efb87e3e328ceca4c3028c60a",
+      "bytes": 679497
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000248.png",
+      "sha256": "a36f37bad82ae3f27fcfcfe6418e7b70baa4ca3531a2cf4fd84920ad100d7a52",
+      "bytes": 685990
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000273.png",
+      "sha256": "be486832756d6ac88f095094066dd23745a2c1564e9f1f557c633ef360871401",
+      "bytes": 677888
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000289.png",
+      "sha256": "a8bab6424682bb85d7b83abb43eaede0710eca404074fadd293bb3781bb49f9f",
+      "bytes": 648858
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000321.png",
+      "sha256": "ee2b469256fef61f5ac3b3dbd7fba6581e73fe90923246965c4c10ad3514e1ef",
+      "bytes": 673988
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000374.png",
+      "sha256": "74840be521dbcff294616e638c7a36f57f7f2c9eb309ded8180849f95718bdc0",
+      "bytes": 685082
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000388.png",
+      "sha256": "f4caa8dc46002ad97a1b4732e5b072bb9baebcb6fbc181cb955138e58d00941a",
+      "bytes": 694181
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000442.png",
+      "sha256": "fbb7826ddedbf87d5ea0a5ee5e62a2cc114b30093aecb9d8d15ccc1874911871",
+      "bytes": 704447
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000462.png",
+      "sha256": "953f0e5170ca93bb2c7ff900f75961846008c67e2d3db41f06fdf6a498d127d9",
+      "bytes": 692171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000475.png",
+      "sha256": "ed109b7b17121900abcb815e0797c0a47353dd4f63212176b37e35c1772b765f",
+      "bytes": 702485
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000496.png",
+      "sha256": "50f2fd00a942f62ffc023cbe3ed3660cf1bf3ef79f45e380d781869cffb449f8",
+      "bytes": 706514
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000501.png",
+      "sha256": "8e01d37766730c7f288989c4318ac9f4ca9d6021da6b97acad78563b857debaf",
+      "bytes": 671407
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000251.png",
+      "sha256": "4b44250c08f28d06d71a3f2d46c9590adc56f04743ba745b642f47d4f3311688",
+      "bytes": 658478
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000270.png",
+      "sha256": "50d2c5cf73c1f5ba707cbc1cc2876e4113a4f68c300b1d1252f4db7e326f16b5",
+      "bytes": 649188
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000277.png",
+      "sha256": "e0e06670e90c88b2b3572c91b9fec662489989f88361f2eabd1f61ee653a109e",
+      "bytes": 710042
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000285.png",
+      "sha256": "53b45b6218a68993fc7995ae26dddced2eedb935ab2876c6428572081b90103e",
+      "bytes": 684628
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000314.png",
+      "sha256": "9a7ec68712496ed461e0d7e4e0025bbc15099e5703764e61a3ebc58672af36dc",
+      "bytes": 701359
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000328.png",
+      "sha256": "08c351974f4eae0a21089ad14e948a0384e8a9e40c4277a368bc7145c51a9c76",
+      "bytes": 686724
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000342.png",
+      "sha256": "9a0484ef49da95dab07d1e98b28aa4924ff5c4c493f35e3b31fc82c9564d074f",
+      "bytes": 642543
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000348.png",
+      "sha256": "3358ad7143e243f3ce0753bb622dc045f72786d1d6c05fa4de7af5aca6f023b0",
+      "bytes": 693225
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000393.png",
+      "sha256": "c75795e769fadb8d3d39ab43b9f40e0c9891dee52ff9b4f488effbe8d5a5a76f",
+      "bytes": 678139
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000468.png",
+      "sha256": "5496af6b9af7e632dc9244a9e85972564e0fb399c815fa3d498f3c63e9caad2d",
+      "bytes": 644544
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000478.png",
+      "sha256": "7c4fbdc32ad6bdf4202bb1133b007c361d0b52f7a875ffedf7e3f23e57407533",
+      "bytes": 696843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000486.png",
+      "sha256": "678a8061b530c300ee83c528e322d78efa47fc7f637d6150640e8506be9bd45c",
+      "bytes": 643902
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000493.png",
+      "sha256": "7fd4a6d5bc628787c0b67ff42ae819300a6ae05cb5eddfda03929d0a13520b3d",
+      "bytes": 693275
+    }
+  ],
+  "image_after": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000003.png",
+      "sha256": "e496fb0d6c66dd11ed379ff3463cdecf5b3990f520fd8e1eb019c51eb2ce56a3",
+      "bytes": 679931
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000013.png",
+      "sha256": "4caa4859239f16d6cd447bab7cfcacc87e33145321134315c9f6221109ce7653",
+      "bytes": 686072
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000021.png",
+      "sha256": "3a17d601ff68334b0fdc4d190e5094469bc21da9aca715e04eed85e2394893f1",
+      "bytes": 681208
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000030.png",
+      "sha256": "43d0a885da33249047f5c9db615b3d0b4be871dec8648e8b0ce49f73bed95ae6",
+      "bytes": 695925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000039.png",
+      "sha256": "960e30b7012affe1d653338ddd0127813b0daf236989fb8052dc4ec5749b2e25",
+      "bytes": 682503
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000054.png",
+      "sha256": "ae3c3ad436090d68276539dd06d90b79bd9d5db7f56c67f1d40e172be992db81",
+      "bytes": 654252
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000062.png",
+      "sha256": "950d9dfddf110ac93d2d00654077adbecc0ded454e4ca8c23e8068c2de0d8938",
+      "bytes": 699989
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000067.png",
+      "sha256": "dea9ff857dc8f70a7a84729ee129384e160ceefcf328815249c72b38393051e0",
+      "bytes": 685756
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000071.png",
+      "sha256": "2437d4cf1114dccb7051002d4bd7fd593159f026c9e828d238293ef97951fc7f",
+      "bytes": 659328
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000081.png",
+      "sha256": "59525717c7168d89b5a491c464aefa4c01e4bdbcac70ed973cd53f4174ee277c",
+      "bytes": 707522
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000087.png",
+      "sha256": "bd0a87221c2084c57d9192e4f8418a6da16ffd2747c39ce51388038c4809c790",
+      "bytes": 685397
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000094.png",
+      "sha256": "f2e0149ca7a4d91bd89441fd4e2b8f9488ee0b77dde6ee88170d8842e8adfb4d",
+      "bytes": 694821
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000102.png",
+      "sha256": "d3464ccda3a5a570024acabebf828310f2989faff1f0cd6ba05dfdc881f54647",
+      "bytes": 704871
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000112.png",
+      "sha256": "442e6c3a694b75c680c826ce87f89fbefcd0a8e755f2a4352a8b23123b600ea3",
+      "bytes": 695438
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000130.png",
+      "sha256": "fe2580e04b0c642831fa1adc06438c6db260a4a1304b71449733693185923765",
+      "bytes": 692819
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000155.png",
+      "sha256": "ed8f201fab80a6182b6463985b11053b5da37e2d0e653d519a1924356d13ea9d",
+      "bytes": 711312
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000166.png",
+      "sha256": "db50a6310be5f02940dc0778549953472e3b995ae91a1c0d34f722e289928ef8",
+      "bytes": 709308
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000185.png",
+      "sha256": "2d7da87d39eb90cea5711ec742746e6b9ef740ac32c9a9022e273827de5469e9",
+      "bytes": 712163
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000198.png",
+      "sha256": "087948d0b9a20a0ac22d09feeb2c44fbfe2f6ce46f80a03b5355a8c7c75e514a",
+      "bytes": 676824
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000207.png",
+      "sha256": "be040f92e5ba91abeb425ab617967133c2afef506b41cb7e8e00b64d0b81ecb0",
+      "bytes": 715409
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000219.png",
+      "sha256": "1ce9ee49aebfef3934c93eecb3fe8ea057309eb45b616dc40185807e3797d82f",
+      "bytes": 686821
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000229.png",
+      "sha256": "8361187997b2354590948fc81d65ecd86af8a973aa5897e6d3a93f030ac1dce6",
+      "bytes": 701608
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000239.png",
+      "sha256": "f9e3b7fb8e515242bf0dd59f9f3a67a45a7dcb60623f9e5de0c1646559250f54",
+      "bytes": 708802
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000289.png",
+      "sha256": "110ce5017548def2df0039dee7ea23ad89e288454c384de6485afbc54163df4f",
+      "bytes": 655207
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000295.png",
+      "sha256": "2e60dd6b401b69b922231a4147b6b73b5e15d665ce828a3940e6b006237fc909",
+      "bytes": 696368
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000306.png",
+      "sha256": "65a39c230d45f6dac82a964ebdfd561e8c2ef4ed57474aa74aba3d4a1e44698f",
+      "bytes": 647852
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000354.png",
+      "sha256": "f37284625c8fb24f0a558320b6a63e0f833fd5eb9421a6bce79cb4ec78fa4c2b",
+      "bytes": 688367
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000366.png",
+      "sha256": "283c97907049d674df4251c1d5846ae511521fbecfa84da4570412db5ed258bb",
+      "bytes": 688261
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000378.png",
+      "sha256": "1b2f21c468e78ce816fac53834de9757ed315818950c6136f58c7088cdf2bf66",
+      "bytes": 653349
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000385.png",
+      "sha256": "94bbde88503feaf6c7eba3fd816b1e41469d6479a042a7a8dd7a7881971b3f19",
+      "bytes": 695357
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000399.png",
+      "sha256": "a5f64a9776b1cfa6f4eb384858e7b28d29b4e2619fd46c52e2aecebf70a67d5d",
+      "bytes": 679182
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000413.png",
+      "sha256": "e380fa61431430597e0443fea2e43bd38b1f71d8474835c73495f59cfbca049d",
+      "bytes": 651356
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000428.png",
+      "sha256": "46b83abb4993affe35340cb1776ea52521c9d8efb1cd2be9a256d60199ee756a",
+      "bytes": 677390
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000435.png",
+      "sha256": "d6320db9d6de29f511ef5974176bdb68d1164600ade0b41a72ed4f52586f471f",
+      "bytes": 664136
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000447.png",
+      "sha256": "f6708a80d0b30139e20a240f5e20d00c40494edf159a8e175631bf1ac3e2c955",
+      "bytes": 663320
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000450.png",
+      "sha256": "ddf8669d7e02290fc772e221e3a7bf63299237bb1cd179cdad39249f11be4b2c",
+      "bytes": 643322
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000458.png",
+      "sha256": "7ad09f6c1c0720ab1eae76ae791e5e2c6af6ead550a0c1b5513ba91750225339",
+      "bytes": 697419
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000001.png",
+      "sha256": "0891033698f8161ec89753d036d6fa220be1ff9496364ce8abc66c82e5ecf456",
+      "bytes": 616980
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000017.png",
+      "sha256": "d3bcd5edae5edcd7945d207d4a00cc640da092e7a0c88c015b670fabed92f8aa",
+      "bytes": 616340
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000030.png",
+      "sha256": "68836b9002c0b4e698c5868a1f0f38caac2de2627cef3bd90c5cfc6f6290117f",
+      "bytes": 645910
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000038.png",
+      "sha256": "a27b1a7e84a4a2c7a56e9927b42eceb552d33ed0c46a4fcfcf309439243de805",
+      "bytes": 626651
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000057.png",
+      "sha256": "4e7af7c40b0760cdabdeec037be46ddaae54dfa96538d1e63a54f79bfc9922b3",
+      "bytes": 634359
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000067.png",
+      "sha256": "f84cb86346c5a55004e8b855bcd397da650a1c7d5e4f1a9274fbe6d091cb3fa3",
+      "bytes": 643004
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000076.png",
+      "sha256": "b487ba0e3c73a771116de2af13653fb26d105c8c9ae588e0a2996d08242ed2f7",
+      "bytes": 659648
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000089.png",
+      "sha256": "bb556f7b17e1f9b6869cabb2e6df06a26509bcf23c5ae2031399efad229ba6bd",
+      "bytes": 628455
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000101.png",
+      "sha256": "e9dac619492e9e22381fd0da490158d69829d251af5665c1aedded1766c82fa3",
+      "bytes": 659781
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000109.png",
+      "sha256": "b2c805f911d60fce8e345b6d77453094ce03927a6ed1ee4e74368b5e620abf92",
+      "bytes": 637838
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000127.png",
+      "sha256": "1c3847314aec64d8a4b4b8e95b48335a20191f4daf1fb952c3a8ee656ade7b72",
+      "bytes": 639067
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000135.png",
+      "sha256": "a7228267be19ae481f1c5ae42ed2dec8273c4e71088fff2779194e7061d3f7fb",
+      "bytes": 666124
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000142.png",
+      "sha256": "b308444b8ffa2d4ffd1919b1ae7a0cfe3c7d555ea0b7697d016e1dc921f864a3",
+      "bytes": 634126
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000157.png",
+      "sha256": "0dafd653a5b565088011958fb27c8bcd2b36300d399bc6ca4d083813c5e98c4d",
+      "bytes": 671430
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000168.png",
+      "sha256": "8063a73afe114e25fa90cf28d88bbb56304d0ea622d5bb216361852033e283f9",
+      "bytes": 681223
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000176.png",
+      "sha256": "afa9bd70da258a62cc979fc40cb2f1e000f03a5f71c606d9ea233a521e76007d",
+      "bytes": 663536
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000181.png",
+      "sha256": "c5edc8dcce14129f51000e1efb38fd4166654e336293c4896521a82f0b38ca0f",
+      "bytes": 653648
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000197.png",
+      "sha256": "d85244655e3a409f90bdbc80c37989e151ca02fce00b03e840b2e05b7ad40520",
+      "bytes": 641725
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000230.png",
+      "sha256": "256d2ebd4818f77ea3cddd0f6a769be512163e63fdabbd4723041358360ce6bf",
+      "bytes": 665841
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000236.png",
+      "sha256": "778953963c5154fc729ee041748ae1300535839ca60c3d082b3afc53e964f3eb",
+      "bytes": 653463
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000246.png",
+      "sha256": "461e08e49b979d58c811241143c15d0cf530fcccd3fe4296b0f0e5cd19316a10",
+      "bytes": 676900
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000252.png",
+      "sha256": "d1a0c88a36b711852721acb3f98225706de75159dc4dc5971fe68a11bd04759a",
+      "bytes": 625337
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000283.png",
+      "sha256": "458fd48bb1ffaa71033fe504f5ea6b1ff43c440eeb5cc887850500471f612666",
+      "bytes": 672406
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000314.png",
+      "sha256": "7019c8e73e3715310c0fb25fc812ac353da092d437b0257c093ad1aa16d2501c",
+      "bytes": 680583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000347.png",
+      "sha256": "ad89349fc8e7dc3bdc12f8ac1d7c1366d9cdef2ca553a205a5be3d306e147483",
+      "bytes": 676335
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000425.png",
+      "sha256": "b58f061642245360e91f430f8c19337acbdd90df0f60c2f3ac4747a0432423e3",
+      "bytes": 683314
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000434.png",
+      "sha256": "4054dd088fe641148d75260b13481d8eac5e805ba9d21f7e864faa0804350468",
+      "bytes": 663843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000442.png",
+      "sha256": "0922deb1e8480e092769d2d8e3ca0fc3472985b9a40164d430026a62c61e54e7",
+      "bytes": 698475
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000455.png",
+      "sha256": "42ff931e6a54fd3747c406baa02ffae3e10850402d8274c4ecdb3b881565c2c9",
+      "bytes": 682545
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000488.png",
+      "sha256": "7d31e8cf226a64038fe35a975502649d262b9b0e0b855c31c7887c00b212b107",
+      "bytes": 662629
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000493.png",
+      "sha256": "098a462904c698f3a8ff98616e5dd0fddabca2966f9b773667a86533eca319a2",
+      "bytes": 697645
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000002.png",
+      "sha256": "fb35f12012806f6851e22c494147b79910e157ac3b574ae598c178b81149162c",
+      "bytes": 852876
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000007.png",
+      "sha256": "0d2a90e65d337168716d9a1f4e33fcc7d694dcb5422cc85bec08a42e7ce1981c",
+      "bytes": 877677
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000014.png",
+      "sha256": "7aeaa87a561bdaa9823f8adb63a9b60c56892fda9ed5f2a0a029f28505802c23",
+      "bytes": 881491
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000026.png",
+      "sha256": "56ed1194169669ea4ffad29ebb55409b93fbb42eb5ce62105ef6914237cbc55b",
+      "bytes": 880952
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000043.png",
+      "sha256": "61f0ba1218438ef65f962e6d9ae863799223da88232a6b0e7ee9984bca9601ca",
+      "bytes": 877584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000049.png",
+      "sha256": "e0e20dd78635007f16814f00f1d0a3017f26868205dbb2e6b5d897b6aaed03b2",
+      "bytes": 881229
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000060.png",
+      "sha256": "c260bcf6e7105b7bcba8300568dd26329cf8028aa383fa50ca71bc4dee39f70b",
+      "bytes": 877165
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000066.png",
+      "sha256": "1a94fea56eb739073cda420ee6f1fbc3e80d00d32ae1ae263516c441e384e0c0",
+      "bytes": 866678
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000073.png",
+      "sha256": "bbffdefe7490d4697e586b9a2b042fe88ae2cbc15d23bfb216907e0c5444c232",
+      "bytes": 839497
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000083.png",
+      "sha256": "ec4e3878f80adc0eddff253c4b465e5ed871e3fd400dbffb6f40568b87013758",
+      "bytes": 876967
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000100.png",
+      "sha256": "44b612d5065561bc00b692a3ccb2e64902406fea3638db1f02b01167bc79ef2e",
+      "bytes": 870468
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000108.png",
+      "sha256": "3049c2591a67743d112ca0814c1558a5efb9172373f598f4b68bcaf2c223d258",
+      "bytes": 835311
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000117.png",
+      "sha256": "7434638fb6af30695edee8692cc1d5d47e6b89a7facfa29bf7657ef485fc19ae",
+      "bytes": 871076
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000130.png",
+      "sha256": "0ff9747524f417c93a169a12ff59fb6cd5f7019f3f590ebbbe3459bf4af7cf9c",
+      "bytes": 868519
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000137.png",
+      "sha256": "33a75d1132988c553deed83b19fa37707453cb497102ff290f97ea79524a8946",
+      "bytes": 863418
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000142.png",
+      "sha256": "2b58c5821718fcfa95a03c0b51b23c0b56790feafdbf15a197df4896c020d793",
+      "bytes": 846392
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000148.png",
+      "sha256": "d042bdd5e2f476cba961280b816bf1a166213503589574303c990d9db574ec0a",
+      "bytes": 851107
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000171.png",
+      "sha256": "c7f61fa91f5470e9a240bd6dc22a4a8d85879d2f51230df547569ab895a48a79",
+      "bytes": 863256
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000190.png",
+      "sha256": "faedd188e45c265e8c35cd2dbbae761f34977eb3fa906834cf557f5437f3dbcc",
+      "bytes": 863619
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000199.png",
+      "sha256": "44dd92981f93a487a658ecdfac604bcc6a8771d3803c13d6640cd15acf1b3d75",
+      "bytes": 854596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000207.png",
+      "sha256": "dd62f9bac0d2552bdedefe595c63fa0eb3df9e864497e399016faa5e0e5b4fda",
+      "bytes": 857996
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000215.png",
+      "sha256": "8d8fa85037f17d1a8865c364f4e1d4456cfbd732ec14cf1a9984b92500baaef7",
+      "bytes": 835870
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000221.png",
+      "sha256": "90d3a062261b83bcf3a965c6432cc826897a88243382b5467fb2f26fa25eac73",
+      "bytes": 834654
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000228.png",
+      "sha256": "8c822cd069f2b6764e5f8a0d740b4bce2f44fbcd32a1e73f15fd221cefa088f7",
+      "bytes": 846925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000239.png",
+      "sha256": "03e6c6f129f515a760ff3edb09d3a5e50ac750b3bac6379c33a0ba6fbaa6067a",
+      "bytes": 843960
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000249.png",
+      "sha256": "ead94f36dadc3ede7cc2f8c6eef92f807b9f88883d408b5ae1594994ae291570",
+      "bytes": 818258
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000260.png",
+      "sha256": "514bfbbfe13417464b698528c5f8039ca82960af313a97213aff0b571a504ebc",
+      "bytes": 839780
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000284.png",
+      "sha256": "93f3678fad9d9341f9a115bb9fec845de022a496d6ba4b4716f3bba72312b323",
+      "bytes": 829123
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000307.png",
+      "sha256": "c4bf0136f046b0282fb912a017df58d7bc4ac9fe811a6b8509d1176af11276c0",
+      "bytes": 788117
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000368.png",
+      "sha256": "cf0580a93925ec256c546860e66e830c126cb937fcc1f4f1558c899ce0bcc5d0",
+      "bytes": 766023
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000383.png",
+      "sha256": "6bf5e29a9a744b5653e0df17361088d319afd45b47d01eeb6ace7535733b2673",
+      "bytes": 765799
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000387.png",
+      "sha256": "8010ab6a9beb93528573f840a49d8880b9a96d981384cf47e765343dd15afb5d",
+      "bytes": 766103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000393.png",
+      "sha256": "83d131462f244abcfdb45d10742437c0e3f1b5eb4ff1ce43bb3f5e1df55e208b",
+      "bytes": 743823
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000438.png",
+      "sha256": "72dbab68e327339863508e43b3348b9183680ec4bc3a01e7307e055f0ffa61d9",
+      "bytes": 733432
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000471.png",
+      "sha256": "d467f3a6ff6dd7632166ced13d35c3fd09ab4efe0e8f261739ca66b31c340342",
+      "bytes": 716240
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000490.png",
+      "sha256": "520521f3285ba4fe38442fedaccb398be258545f46360d7fd1523df92191ff15",
+      "bytes": 727810
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000000.png",
+      "sha256": "3b5dfed811580537f15d928d5515adbdb479a4d2eb8e1b7991cc1b4482d555bc",
+      "bytes": 629487
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000010.png",
+      "sha256": "2754087123735e004915dffc1c0db668b94f79978f7d8fb239a341de7e06acb1",
+      "bytes": 680404
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000025.png",
+      "sha256": "de82ae52ab90a2126e993e370a7a3c4b4291a02a9b2328e74d4b5048f65999a9",
+      "bytes": 677018
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000036.png",
+      "sha256": "f2726016c516954110c339dcbf5fccfc2ee2bee7885b51a2be61896bd66d5395",
+      "bytes": 631034
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000047.png",
+      "sha256": "993cf64728e866d88a39e48c640ea828d4d92259581e3f6fc1037fdfd1d1a02f",
+      "bytes": 677865
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000058.png",
+      "sha256": "0dd22643786352ac0489bc58b22e8313cc9c6288736e3032ce23d34ae116d8ec",
+      "bytes": 667967
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000066.png",
+      "sha256": "87d9d11c51f3c3ba21ca0f301a541842c6ffc50a642a019152bf88eccbd5ac05",
+      "bytes": 671336
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000072.png",
+      "sha256": "5ee04cce49f18392807ff74e182107af61149a9a5a2be285b9f6767f2d1488b4",
+      "bytes": 641855
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000078.png",
+      "sha256": "6d94c5220c35eff81a1a7944e9bcd19da7fd62c1370255df6dea0419d528c920",
+      "bytes": 682603
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000085.png",
+      "sha256": "b84cfed2f6dbe6b7bce4ca66115da7896b5875fb9476085b37b09e2b4b6293e8",
+      "bytes": 682525
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000104.png",
+      "sha256": "6d3da8e5de64bff25b6bd500a3e53710464d4f328eed4cbf59c677e000133374",
+      "bytes": 674075
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000115.png",
+      "sha256": "d36fb73b2ee646d280c3d93e859115defe1b655fc54994f56f7a7175295b4970",
+      "bytes": 689549
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000129.png",
+      "sha256": "dcc34c03dc1072bb9bffdecbc70af4c4e46e75db5202db025b6491c87a71203a",
+      "bytes": 673090
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000142.png",
+      "sha256": "8c784378811b3ee139ab2be9b73b3700bfe1bf6531469eb6ffd00ca9e76ec00c",
+      "bytes": 657043
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000170.png",
+      "sha256": "c9d5537f63b18d410c75ce405b3c1014b061e93bbc38cb479c5219e0e73a8e16",
+      "bytes": 705405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000193.png",
+      "sha256": "17f876f545d0b184ecf22e2e9348761b9f171fefd341c6330a7eda0e65cbf80e",
+      "bytes": 697279
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000215.png",
+      "sha256": "7aa5f62df9bf8efa9d1f18bc57a5dfc55fbdbfa806080788c3771fee6c47ade4",
+      "bytes": 665565
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000365.png",
+      "sha256": "e2ad4cf5a3308b5f9f675c692a6ef21dc89d180e7e24e04a2b4f7a4139ee045d",
+      "bytes": 688352
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000438.png",
+      "sha256": "dd4e3de9acfec4e9cdd79bcce3d0986ec4a4e7e6f83d4c5b4a835ed48380e2fd",
+      "bytes": 698242
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000448.png",
+      "sha256": "87924eaaa6ee7f20f01cf7e28df92f313c4b1ea6e17d06a53982da6625326dab",
+      "bytes": 658788
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000479.png",
+      "sha256": "0ad36f14fb557a90b1c0dea0c2480a4aa36f1196d80f78faed96b84dcbf6cb15",
+      "bytes": 696687
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000497.png",
+      "sha256": "9d9621b762fe12c8329f85566b444a7a76193c14aca928bb29b966fde46f5619",
+      "bytes": 700564
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000002.png",
+      "sha256": "04b19c87d60aaabe98c6be9655a58c5cc620ac31dc356ede55e89dc02cd2a166",
+      "bytes": 646537
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000011.png",
+      "sha256": "582c1cbfb3fa0e526db6cb3ce98bd40354435fa7616a1b544477f5b87265abf0",
+      "bytes": 674944
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000023.png",
+      "sha256": "ae4e8fd46268ee59209b54ddc8a0727bcbd11d83c834a0af07dc82d2898e1996",
+      "bytes": 670108
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000032.png",
+      "sha256": "74ad713ad3a2ac3131b1b121693fd5fa08ae35a6906fe420cc874d859274b1b0",
+      "bytes": 653729
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000039.png",
+      "sha256": "e8bd1da0184af5172a83ac20b06e1929f8758c1de9eda99073bd3ea1a249ccf7",
+      "bytes": 654555
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000045.png",
+      "sha256": "f93a320e7ad7b737f7d62b791eb5b1ebd9c4b7100844ca69a8b285d45d6214c4",
+      "bytes": 678844
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000058.png",
+      "sha256": "f7f9153a9f8412c8e866dc341bdcb829495258c97b764062bfe8554b3ea4a458",
+      "bytes": 657611
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000065.png",
+      "sha256": "8ae0275ec6d79baaa1550a29dd7eb48983afd9b0667e347fb81fd165da36a414",
+      "bytes": 674172
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000072.png",
+      "sha256": "c8acd4b1e4c5b6bb79949d2fadc4c5f603cc3088bc619faa73db9e58d2098659",
+      "bytes": 650017
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000080.png",
+      "sha256": "a079c5778e726a95b588e249146ae5906a5b03be41992eef29126196161012f8",
+      "bytes": 690364
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000087.png",
+      "sha256": "86104e836add8000d2746a4e8e0db245aa0246c68e0a3f2575f2121b3d207083",
+      "bytes": 670365
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000096.png",
+      "sha256": "c139cd295a450eff9fe980759cfad324733e553623ef4e4238a08f055fedc12b",
+      "bytes": 687462
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000105.png",
+      "sha256": "85b20954cc3d0879ed22a4706c3a2e5e3a3ad413764d73e33b5ef5275c7f891c",
+      "bytes": 670155
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000119.png",
+      "sha256": "269662b428408d48bf59a966e111eba9998fd163d00e6a1ac8e22e20feae6703",
+      "bytes": 690460
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000128.png",
+      "sha256": "621293a52b71f0ba1e034862e55bba1aef1a3224e02844d6c4d61142a637febd",
+      "bytes": 658819
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000134.png",
+      "sha256": "ad22c58f21e38d0a6c54de10554b29fe5e18deb0d025a7200ab36317aad29e1d",
+      "bytes": 690241
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000139.png",
+      "sha256": "aa06c97b1ab401126923dd1f560c5216f79ff926234fed6b9a2dc9d308653e0c",
+      "bytes": 683101
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000145.png",
+      "sha256": "cab0f4d71dbdd236db7a0b96a44e5c91ffb2f8db3220ae104e3051ba531967b3",
+      "bytes": 669593
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000156.png",
+      "sha256": "9d6c2414b5757988efaaab7e9b73db7db4b056d952c845ee88011f12f6f40137",
+      "bytes": 706901
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000170.png",
+      "sha256": "cf01713e75e4725734622178b32c09deb2d7923369781bb822a0bf12e8900363",
+      "bytes": 707027
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000177.png",
+      "sha256": "6db4758b29b7ac9c9d92992e9c357a4f2773b045dcf7242bc73b09ca86b5e39f",
+      "bytes": 686488
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000194.png",
+      "sha256": "2981331f2a99216b8c82c85a21bfa3a7d1afa26aec4695d1ae755872c05d1fe7",
+      "bytes": 692209
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000206.png",
+      "sha256": "439d90dacbcbadbb896804f4deedd73f87f467a18a2b88fb4e3625eadacfc269",
+      "bytes": 704023
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000214.png",
+      "sha256": "b78598ebd6a6cc3d3e6bffba9f7fa729d46fac2a099530a175c24312243e1e61",
+      "bytes": 681657
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000231.png",
+      "sha256": "d6cbfb2df0940bcdbc20a2eacb52f1a6bf257a4efb87e3e328ceca4c3028c60a",
+      "bytes": 679497
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000248.png",
+      "sha256": "a36f37bad82ae3f27fcfcfe6418e7b70baa4ca3531a2cf4fd84920ad100d7a52",
+      "bytes": 685990
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000273.png",
+      "sha256": "be486832756d6ac88f095094066dd23745a2c1564e9f1f557c633ef360871401",
+      "bytes": 677888
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000289.png",
+      "sha256": "a8bab6424682bb85d7b83abb43eaede0710eca404074fadd293bb3781bb49f9f",
+      "bytes": 648858
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000321.png",
+      "sha256": "ee2b469256fef61f5ac3b3dbd7fba6581e73fe90923246965c4c10ad3514e1ef",
+      "bytes": 673988
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000374.png",
+      "sha256": "74840be521dbcff294616e638c7a36f57f7f2c9eb309ded8180849f95718bdc0",
+      "bytes": 685082
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000388.png",
+      "sha256": "f4caa8dc46002ad97a1b4732e5b072bb9baebcb6fbc181cb955138e58d00941a",
+      "bytes": 694181
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000442.png",
+      "sha256": "fbb7826ddedbf87d5ea0a5ee5e62a2cc114b30093aecb9d8d15ccc1874911871",
+      "bytes": 704447
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000462.png",
+      "sha256": "953f0e5170ca93bb2c7ff900f75961846008c67e2d3db41f06fdf6a498d127d9",
+      "bytes": 692171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000475.png",
+      "sha256": "ed109b7b17121900abcb815e0797c0a47353dd4f63212176b37e35c1772b765f",
+      "bytes": 702485
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000496.png",
+      "sha256": "50f2fd00a942f62ffc023cbe3ed3660cf1bf3ef79f45e380d781869cffb449f8",
+      "bytes": 706514
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000501.png",
+      "sha256": "8e01d37766730c7f288989c4318ac9f4ca9d6021da6b97acad78563b857debaf",
+      "bytes": 671407
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000251.png",
+      "sha256": "4b44250c08f28d06d71a3f2d46c9590adc56f04743ba745b642f47d4f3311688",
+      "bytes": 658478
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000270.png",
+      "sha256": "50d2c5cf73c1f5ba707cbc1cc2876e4113a4f68c300b1d1252f4db7e326f16b5",
+      "bytes": 649188
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000277.png",
+      "sha256": "e0e06670e90c88b2b3572c91b9fec662489989f88361f2eabd1f61ee653a109e",
+      "bytes": 710042
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000285.png",
+      "sha256": "53b45b6218a68993fc7995ae26dddced2eedb935ab2876c6428572081b90103e",
+      "bytes": 684628
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000314.png",
+      "sha256": "9a7ec68712496ed461e0d7e4e0025bbc15099e5703764e61a3ebc58672af36dc",
+      "bytes": 701359
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000328.png",
+      "sha256": "08c351974f4eae0a21089ad14e948a0384e8a9e40c4277a368bc7145c51a9c76",
+      "bytes": 686724
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000342.png",
+      "sha256": "9a0484ef49da95dab07d1e98b28aa4924ff5c4c493f35e3b31fc82c9564d074f",
+      "bytes": 642543
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000348.png",
+      "sha256": "3358ad7143e243f3ce0753bb622dc045f72786d1d6c05fa4de7af5aca6f023b0",
+      "bytes": 693225
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000393.png",
+      "sha256": "c75795e769fadb8d3d39ab43b9f40e0c9891dee52ff9b4f488effbe8d5a5a76f",
+      "bytes": 678139
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000468.png",
+      "sha256": "5496af6b9af7e632dc9244a9e85972564e0fb399c815fa3d498f3c63e9caad2d",
+      "bytes": 644544
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000478.png",
+      "sha256": "7c4fbdc32ad6bdf4202bb1133b007c361d0b52f7a875ffedf7e3f23e57407533",
+      "bytes": 696843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000486.png",
+      "sha256": "678a8061b530c300ee83c528e322d78efa47fc7f637d6150640e8506be9bd45c",
+      "bytes": 643902
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000493.png",
+      "sha256": "7fd4a6d5bc628787c0b67ff42ae819300a6ae05cb5eddfda03929d0a13520b3d",
+      "bytes": 693275
+    }
+  ],
+  "image_hash_operations": 350,
+  "unique_dataset_image_files_opened": 175,
+  "summary": {
+    "passed": 1,
+    "stage": "phase2",
+    "coarse_similarity_calls": 430.0,
+    "local_map_calls": 7185.0,
+    "local_fused_maximum_calls": 7185.0,
+    "coarse_cells": 1185080.0,
+    "local_cells": 1839360.0,
+    "feature_response_digits": 73337912.0,
+    "job_identity_rows": 430,
+    "unique_job_keys": 430,
+    "physical_feature_probes": 13534,
+    "fullclass_nms_frames": 426,
+    "native_grid_points": 751,
+    "point_parent_links": 12016,
+    "rgb_positive_controls": 215.0,
+    "decoded_operations": 213.0,
+    "unique_image_files": 175,
+    "full_class_search_replays": 0,
+    "public_detector_match_calls": 0,
+    "all_oracles_exact": 1,
+    "all_occurrence_gates_exact": 1,
+    "all_fullclass_nms_assignment_exact": 1,
+    "numeric_output_bytes": 36546201.0,
+    "peak_rss_bytes": 86257664.0,
+    "accuracy_improvement_claim": 0
+  },
+  "native_failure": null,
+  "partial_results_are_not_negatives": false,
+  "accuracy_improvement_claim": false
+}

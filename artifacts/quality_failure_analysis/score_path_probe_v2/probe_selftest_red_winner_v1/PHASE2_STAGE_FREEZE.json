@@ -1,0 +1,76 @@
+{
+  "stage": "selftest",
+  "fault": "winner",
+  "completed": true,
+  "native_exit_code": 1,
+  "expected_native_failure": true,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_red_v1\\build_manifest.json",
+    "sha256": "930f898a38ea26bb3e8173e5e43ad0afba8c5d6f8abec9407ed9fc048bc0384b",
+    "bytes": 174416
+  },
+  "input_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+    "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+    "bytes": 4259952
+  },
+  "selftest": null,
+  "red_receipts": [],
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\phase2_stage_reservations\\selftest_red_winner.json",
+    "sha256": "11186130f55744c0394e70b0ada1dc2d60ca22a0b8ff608e53413be6c01e3ae5",
+    "bytes": 878
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\native\\.gitignore",
+      "sha256": "45549a9ffd9963f855d72829e978a31c05b82894b14b1d8fbdd43083b20c2d86",
+      "bytes": 3
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\native\\failure.json",
+      "sha256": "87a433575e13c6e2815633c589ca4735b9ae17be05d22342010ce927f275624b",
+      "bytes": 366
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\execution_provenance.json",
+      "sha256": "e1814576182e6b1bee7a1a0720973b7dff6a592c482a85c968f13fdd55e7dc91",
+      "bytes": 2155
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\native.stderr",
+      "sha256": "494009b18f86f87c6259f1e0e8a3c38e2d02e1cda83fe2dc1533cc96b1b01c68",
+      "bytes": 51
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\native.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\watchdog.json",
+      "sha256": "953f52faf6142cbf1b4b3373d8dfc17338c703403ac5078a58433af76c48e47d",
+      "bytes": 331
+    }
+  ],
+  "image_before": [],
+  "image_after": [],
+  "image_hash_operations": 0,
+  "unique_dataset_image_files_opened": 0,
+  "summary": null,
+  "native_failure": {
+    "passed": 0,
+    "reason": "Independent winner oracle mismatch",
+    "coarse_similarity_calls_started": 1.0,
+    "local_map_calls_started": 1.0,
+    "local_fused_maximum_calls_started": 1.0,
+    "decoded_operations_started": 0.0,
+    "full_class_search_replays": 0,
+    "public_detector_match_calls": 0,
+    "partial_results_are_not_negatives": 1
+  },
+  "partial_results_are_not_negatives": false,
+  "accuracy_improvement_claim": false
+}

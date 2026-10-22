@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "kind": "V25 base publication boundary",
+  "inventory": {
+    "path": "artifacts/quality_failure_analysis/score_path_probe_v2/PUBLICATION_INVENTORY_V25_BASE.json",
+    "bytes": 32106,
+    "sha256": "e4b4acc65ab0aeec24bcc86c67187bef492b8a3444aca078fa50562ddc155094"
+  },
+  "member_count": 137,
+  "member_bytes": 46340686,
+  "scope_roots": [
+    "artifacts/quality_failure_analysis/score_path_probe_v2",
+    "artifacts/independent_reviews/score_path_probe_v2"
+  ],
+  "by_root": {
+    "artifacts/quality_failure_analysis/score_path_probe_v2": {
+      "files": 100,
+      "bytes": 46058308
+    },
+    "artifacts/independent_reviews/score_path_probe_v2": {
+      "files": 37,
+      "bytes": 282378
+    }
+  },
+  "numeric_gzip_members": 8,
+  "excluded_known_local_files": [
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_probe_v2/probe_build_green_v1/adapter.o",
+      "size_bytes": 635109
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_probe_v2/probe_build_green_v1/score_probe_v2.exe",
+      "size_bytes": 804730
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_probe_v2/probe_build_red_v1/adapter.o",
+      "size_bytes": 635581
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_probe_v2/probe_build_red_v1/score_probe_v2.exe",
+      "size_bytes": 804730
+    }
+  ],
+  "excluded_known_local_bytes": 2880150,
+  "pending_explicit_scope_review": [],
+  "input_dependency_method": "Retain path/hash declarations in completed receipts and manifests; never recursively follow them into V24/private/SDK/runtime/adjacent experimental trees.",
+  "root_document_pins_separate_from_inventory": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\README.md",
+      "bytes": 15999,
+      "sha256": "f0d1aee239b05a7bffc52c399d278fb984cb03264a8c60f6430ecfb52c98e806"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\docs\\optimization_versions.md",
+      "bytes": 42175,
+      "sha256": "b933e7805ff4132bcd6ccc32794e070c36357a4c7cbd4106619fc7cedfda589b"
+    }
+  ],
+  "external_members_added": [],
+  "inventory_excludes_itself": true,
+  "inventory_excludes_boundary_receipt": true,
+  "git_commands": 0,
+  "native_processes_started": 0,
+  "image_bytes_opened": 0,
+  "serialized_template_bytes_opened": 0
+}

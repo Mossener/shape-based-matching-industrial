@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "scope": "Root independent aggregate checks from archived CSV only; not a second pixel or response reconstruction",
+  "inputs": [
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_classification_v1/complete_pre_20261022_v1/paired_215.csv",
+      "size_bytes": 90092,
+      "sha256": "c6dba9bc050a5d735c7a2134af8defca2ccc610c64229d015ef1822cca5b4cb0"
+    },
+    {
+      "path": "artifacts/independent_reviews/score_path_probe_v2/run_numeric_audit_20261022_v2/result.json",
+      "size_bytes": 7545,
+      "sha256": "1710a1b3fe934ad73b8484b24527a99c2dddcdc6c20cca82aa2c3860ba724ea8"
+    },
+    {
+      "path": "artifacts/independent_reviews/score_path_probe_v2/run_numeric_audit_20261022_v2/diagnostics.csv",
+      "size_bytes": 35965,
+      "sha256": "a953830bd1db680ebae834b1075b1100b60ce3c280e2d1a342bcafce6e4793c7"
+    }
+  ],
+  "by_original_status": {
+    "lost": {
+      "identities": 67,
+      "physical_ge85": 0,
+      "neighbor_ge85": 0,
+      "paths": {
+        "admitted_window_maximum_below85": 44,
+        "all_reachable_coarse_rejected": 23
+      },
+      "complete_same_pose_support": 0,
+      "complete_other_pose_support": 10,
+      "selected_pose": {
+        "not_assigned": 67
+      }
+    },
+    "retained": {
+      "identities": 148,
+      "physical_ge85": 39,
+      "neighbor_ge85": 46,
+      "paths": {
+        "neighbor_below85_while_window_winner_passes": 26,
+        "admitted_window_maximum_below85": 63,
+        "neighbor_passes_but_local_winner_displaced": 25,
+        "native_neighbor_emitted": 21,
+        "all_reachable_coarse_rejected": 13
+      },
+      "complete_same_pose_support": 72,
+      "complete_other_pose_support": 147,
+      "selected_pose": {
+        "other_pose": 147,
+        "same_rgb_pose": 1
+      }
+    }
+  },
+  "by_arm": {
+    "rgb": {
+      "targets": 215,
+      "physical_ge85": 215,
+      "neighbor_ge85": 215,
+      "emission_targets": 215
+    },
+    "binary_empty_mask": {
+      "targets": 215,
+      "physical_ge85": 39,
+      "neighbor_ge85": 46,
+      "emission_targets": 72
+    }
+  },
+  "native_calls": 0,
+  "image_bytes_read": 0,
+  "template_bank_bytes_read": 0
+}

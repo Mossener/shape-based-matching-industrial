@@ -1,0 +1,201 @@
+"""Fixed-pose diagnostic classification from frozen numeric evidence only."""
+import argparse
+from collections import Counter, defaultdict
+import csv
+import gzip
+import hashlib
+import json
+from pathlib import Path
+import struct
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+V2 = HERE.parent/'score_path_probe_v2'
+FREEZE = V2/'probe_phase2_v1/PHASE2_STAGE_FREEZE.json'
+FREEZE_SHA = 'b6933c13f9ce825c2acbab62290a3a4624e7dfb954c7988234428040424c9bc9'
+V23 = HERE.parent/'v22_empty_mask_lost_gt/PUBLICATION_INVENTORY_V23.json'
+PER_GT = HERE.parent/'v22_empty_mask_lost_gt/run_20261022_v1/per_gt.csv'
+
+
+def need(ok, text):
+    if not ok:
+        raise ValueError(text)
+
+
+def flag(row, name):
+    value = int(row[name]);need(value in (0, 1), 'Nonbinary diagnostic flag')
+    return value == 1
+
+
+def neighbor_path(rows):
+    if not rows:
+        return 'no_reachable_parent'
+    admitted = [row for row in rows if flag(row, 'admitted')]
+    if not admitted:
+        return 'all_reachable_coarse_rejected'
+    if not any(flag(row, 'predicts_emission') for row in admitted):
+        return 'admitted_window_maximum_below85'
+    if any(flag(row, 'point_is_winner') and flag(row, 'predicts_emission') for row in admitted):
+        return 'native_neighbor_emitted'
+    if any(flag(row, 'point_fine_pass') for row in admitted):
+        return 'neighbor_passes_but_local_winner_displaced'
+    return 'neighbor_below85_while_window_winner_passes'
+
+
+def propagation_path(rows, target):
+    pre = any(float(row['pre_iou_gt']) >= .5 for row in rows)
+    post = any(float(row['rep_iou_gt']) >= .5 for row in rows)
+    selected = any(float(row['rep_iou_gt']) >= .5 and int(row['nms_selected_rank']) >= 0 for row in rows)
+    assigned = any(float(row['rep_iou_gt']) >= .5 and int(row['nms_selected_rank']) >= 0 and
+                   row['allGT_label'] == 'TP' and int(row['allGT_id']) == target for row in rows)
+    if assigned:
+        path = 'assigned_target_by_traced_representative'
+    elif selected:
+        path = 'selected_traced_support_not_assigned_target'
+    elif post:
+        path = 'traced_post_support_suppressed_by_nms'
+    elif pre:
+        path = 'traced_pre_support_lost_at_representative'
+    else:
+        path = 'no_iou_half_support_in_traced_pre_or_representative'
+    return dict(path=path, pre_support=pre, post_support=post,
+                selected_support=selected, assigned_target=assigned)
+
+
+def pin(path):
+    path = Path(path).resolve(strict=True)
+    need(path.is_relative_to(ROOT/'artifacts') and path.suffix in ('.json', '.csv', '.gz', '.py', '.md'),
+         'Only contained numeric/source artifacts may be read')
+    raw = path.read_bytes()
+    return dict(path=str(path), bytes=len(raw), sha256=hashlib.sha256(raw).hexdigest())
+
+
+def check(value):
+    need(pin(value['path']) == value, 'Frozen numeric input changed: '+value['path'])
+
+
+def rows(path):
+    opener = gzip.open if path.suffix == '.gz' else open
+    with opener(path, 'rt', encoding='utf-8-sig', newline='') as file:
+        yield from csv.DictReader(file)
+
+
+def score(bits):
+    return struct.unpack('<f', struct.pack('<I', int(bits)))[0]
+
+
+def classify(output):
+    evidence = pin(FREEZE);need(evidence['sha256'] == FREEZE_SHA, 'Wrong Phase2 completion receipt')
+    receipt = json.loads(FREEZE.read_bytes())
+    need(receipt['completed'] is True and receipt['native_exit_code'] == 0 and receipt['summary']['rgb_positive_controls'] == 215,
+         'Phase2 incomplete; cannot classify partial outputs as negatives')
+    native = FREEZE.parent/'native'
+    need({str(path.resolve()) for path in native.rglob('*') if path.is_file()} ==
+         {value['path'] for value in receipt['files']}, 'Complete frozen native membership differs')
+    for value in receipt['files']+[receipt['input_plan']]:
+        if Path(value['path']).name != '.gitignore':
+            check(value)
+    plan = json.loads(Path(receipt['input_plan']['path']).read_bytes())
+    check(plan['prior_input_plan'])
+    prior = json.loads(Path(plan['prior_input_plan']['path']).read_bytes())
+    inventory = json.loads(V23.read_bytes())
+    published = next(value for value in inventory['files'] if (ROOT/value['path']).resolve() == PER_GT)
+    per_gt_pin = pin(PER_GT)
+    need(per_gt_pin['sha256'] == published['sha256'] and per_gt_pin['bytes'] == published['size_bytes'], 'Frozen V23 GT annotation differs')
+    old = {(int(row['object_id']), int(row['scene']), int(row['image']), int(row['gt_id'])): row for row in rows(PER_GT)}
+    jobs = {int(row['job_id']): row for row in rows(native/'jobs.csv.gz')}
+    need(len(jobs) == 430, 'Job mapping differs')
+    anchors, links, occurrences = defaultdict(list), defaultdict(list), defaultdict(list)
+    for row in rows(native/'physical_anchors.csv.gz'):
+        anchors[int(row['job'])].append(row)
+    for row in rows(native/'parent_links.csv.gz'):
+        links[int(row['job'])].append(row)
+    required = {}
+    for row in rows(native/'occurrences.csv.gz'):
+        job_id = int(row['job']);job = jobs[job_id]
+        key = (int(job['object_id']), int(job['scene']), int(job['image']), job['arm'], int(row['post_rank']))
+        occurrences[job_id].append(row);required[key] = None
+    assigned_by_frame = defaultdict(set)
+    nms_rows = 0
+    for row in rows(native/'fullclass_nms_assignment.csv.gz'):
+        key = (int(row['object_id']), int(row['scene']), int(row['image']), row['arm'])
+        if row['allGT_label'] == 'TP':
+            assigned_by_frame[key].add(int(row['allGT_id']))
+        whole = (*key, int(row['post_rank']))
+        if whole in required:
+            need(required[whole] is None, 'Repeated fullclass post rank');required[whole] = row
+        nms_rows += 1
+    need(nms_rows == 227816 and all(row is not None for row in required.values()), 'Fullclass NMS numeric join incomplete')
+    result_rows = []
+    for job_id, job in sorted(jobs.items()):
+        obj, scene, image, gt = (int(job[name]) for name in ('object_id', 'scene', 'image', 'gt_id'))
+        frame = (obj, scene, image, job['arm']);identity = (obj, scene, image, gt)
+        need(obj in {1, 2, 5, 8, 12, 17} and scene in {1, 4, 6, 7, 8, 10, 12, 13}, 'Outside fixed development identity scope')
+        a = anchors[job_id];need(len(a) == int(job['fine_features']) and len({row['score_bits'] for row in a}) == 1,
+                                'Physical feature/score rows differ')
+        for row in occurrences[job_id]:
+            nms = required[(*frame, int(row['post_rank']))]
+            need(nms['selected_rank'] == row['nms_selected_rank'], 'Occurrence/fullclass NMS selected rank differs')
+            row.update(allGT_label=nms['allGT_label'], allGT_id=nms['allGT_id'])
+        link = links[job_id];propagation = propagation_path(occurrences[job_id], gt)
+        points = {(int(row['point_x']), int(row['point_y'])) for row in link}
+        parents = {(int(row['coarse_row']), int(row['coarse_col'])) for row in link}
+        admitted = [row for row in link if flag(row, 'admitted')]
+        emitted = {(int(row['point_x']), int(row['point_y'])) for row in link
+                   if flag(row, 'point_is_winner') and flag(row, 'predicts_emission')}
+        v22 = old[identity]
+        need((gt in assigned_by_frame[frame]) == (True if job['arm'] == 'rgb' else v22['status'] == 'retained'),
+             'V22 global retained/lost annotation differs from complete fullclass assignment')
+        result = dict(job, v22_status=v22['status'], v22_binary_category=v22['binary_category'],
+                      physical_on_grid=int(a[0]['on_grid']), physical_in_domain=int(a[0]['in_physical_domain']),
+                      physical_score=score(a[0]['score_bits']) if a[0]['score_bits'] else None,
+                      legal_native_points=len(points), reachable_parents=len(parents),
+                      coarse_admitted_parents=len({(row['coarse_row'], row['coarse_col']) for row in admitted}),
+                      max_neighbor_score_any_parent=max((score(row['point_score_bits']) for row in link), default=None),
+                      max_neighbor_score_admitted_parent=max((score(row['point_score_bits']) for row in admitted), default=None),
+                      neighbor_emitted_points=len(emitted), native_neighbor_path=neighbor_path(link),
+                      traced_occurrence_keys=len(occurrences[job_id]), traced_propagation_path=propagation.pop('path'),
+                      **propagation)
+        result_rows.append(result)
+    need(len(result_rows) == 430 and sum(row['arm'] == 'binary_empty_mask' and row['v22_status'] == 'lost' for row in result_rows) == 67,
+         'Fixed paired identity scope differs')
+    groups = {}
+    for arm in ('rgb', 'binary_empty_mask'):
+        for state in ('all', 'lost', 'retained'):
+            selected = [row for row in result_rows if row['arm'] == arm and (state == 'all' or row['v22_status'] == state)]
+            groups[arm+'/'+state] = dict(identities=len(selected),
+                native_neighbor_paths=dict(Counter(row['native_neighbor_path'] for row in selected)),
+                traced_propagation_paths=dict(Counter(row['traced_propagation_path'] for row in selected)),
+                off_native_grid=sum(not row['physical_on_grid'] for row in selected),
+                physical_out_of_domain=sum(not row['physical_in_domain'] for row in selected),
+                physical_score_at_least85=sum(row['physical_score'] is not None and row['physical_score'] >= 85 for row in selected),
+                pre_support=sum(row['pre_support'] for row in selected), post_support=sum(row['post_support'] for row in selected),
+                selected_support=sum(row['selected_support'] for row in selected), assigned_target=sum(row['assigned_target'] for row in selected))
+    with (output/'per_gt_arm.csv').open('w', encoding='utf-8', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=list(result_rows[0]));writer.writeheader();writer.writerows(result_rows)
+    input_pins = [evidence, receipt['input_plan'], plan['prior_input_plan'], pin(V23), per_gt_pin]+[
+        value for value in receipt['files'] if Path(value['path']).name != '.gitignore']
+    summary = dict(completed=True, derived_numeric_classification=True, independent_phase2_audit_required=True,
+                   phase2_completion=evidence, input_pins=input_pins, groups=groups,
+                   source_pins=[pin(HERE/'classify.py'), pin(HERE/'test_classify.py')],
+                   dataset_image_bytes_opened=0, native_calls=0, matcher_calls=0,
+                   accuracy_improvement_claim=False,
+                   limitations=['Fixed RGB pose, physical anchor and predetermined legal native neighbors only.',
+                                'Reachable-parent predictions are a subset of complete same-template occurrences.',
+                                'Off-grid and undefined physical scores are annotations, not detector negatives.',
+                                'Representative/NMS support concerns only traced occurrences, not all-class overall support.',
+                                'This classification does not independently prove native image response maps or detector generalization.'])
+    for value in input_pins:
+        check(value)
+    summary['output_pins'] = [pin(output/'per_gt_arm.csv')]
+    (output/'result.json').write_text(json.dumps(summary, indent=2)+'\n', encoding='utf-8')
+    return summary
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__);parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args();output = args.output.resolve()
+    need(output.is_relative_to(HERE) and not output.exists() and output.parent.is_dir(), 'Fresh contained classification output required')
+    output.mkdir()
+    result = classify(output)
+    print(json.dumps(dict(completed=True, groups=result['groups'], dataset_image_bytes_opened=0, native_calls=0)))

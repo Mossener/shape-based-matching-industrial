@@ -1,0 +1,13 @@
+test_identity_join_and_windows (test_traces.TraceJoins.test_identity_join_and_windows) ... ok
+test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) ... ok
+test_out_of_domain_physical_has_no_score (test_traces.TraceJoins.test_out_of_domain_physical_has_no_score) ... ok
+test_owner_mapping_does_not_assume_plan_order (test_traces.TraceJoins.test_owner_mapping_does_not_assume_plan_order) ... ok
+test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) ... ok
+test_physical_sums_domain_and_missing_feature_rejected (test_traces.TraceJoins.test_physical_sums_domain_and_missing_feature_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.336s
+
+OK
+
+exit_code=0

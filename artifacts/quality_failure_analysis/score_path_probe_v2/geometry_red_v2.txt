@@ -1,0 +1,19 @@
+test_all_clamped_parents_including_duplicate_window_bases (test_geometry.GeometryTests.test_all_clamped_parents_including_duplicate_window_bases) ... FAIL
+test_coarse_flat_domain_preserves_wrap_and_zero_tail (test_geometry.GeometryTests.test_coarse_flat_domain_preserves_wrap_and_zero_tail) ... ok
+test_native_grid_neighbors_are_fixed_floor_and_ceiling (test_geometry.GeometryTests.test_native_grid_neighbors_are_fixed_floor_and_ceiling) ... ok
+test_native_tie_rule_and_zero_sentinel (test_geometry.GeometryTests.test_native_tie_rule_and_zero_sentinel) ... ok
+test_physical_anchor_does_not_reuse_arm_local_match_coordinates (test_geometry.GeometryTests.test_physical_anchor_does_not_reuse_arm_local_match_coordinates) ... ok
+test_window_base_skip_is_not_pointwise_feature_clipping (test_geometry.GeometryTests.test_window_base_skip_is_not_pointwise_feature_clipping) ... ok
+
+======================================================================
+FAIL: test_all_clamped_parents_including_duplicate_window_bases (test_geometry.GeometryTests.test_all_clamped_parents_including_duplicate_window_bases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_geometry.py", line 22, in test_all_clamped_parents_including_duplicate_window_bases
+    self.assertEqual(len(parents), 49)
+AssertionError: 289 != 49
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+FAILED (failures=1)

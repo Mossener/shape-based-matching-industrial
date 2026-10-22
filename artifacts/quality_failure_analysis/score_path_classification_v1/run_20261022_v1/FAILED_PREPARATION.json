@@ -1,0 +1,7 @@
+{
+  "completed": false,
+  "reason": "KeyError: bytes; V23 publication inventory uses size_bytes",
+  "native_calls": 0,
+  "dataset_image_bytes_opened": 0,
+  "partial_results_are_not_negatives": true
+}

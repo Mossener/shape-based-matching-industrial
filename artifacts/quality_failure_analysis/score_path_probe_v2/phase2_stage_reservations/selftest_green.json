@@ -1,0 +1,36 @@
+{
+  "stage": "selftest_green",
+  "output": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_green_v1",
+  "inputs": {
+    "build": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_green_v1\\build_manifest.json",
+      "sha256": "24beff8fd290a23fd05a611ee84bda38621b3b6e9022ca2f5ff462f85ed618e1",
+      "bytes": 174379
+    },
+    "input_plan": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+      "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+      "bytes": 4259952
+    },
+    "selftest": null,
+    "red_receipts": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_coarse_v1\\PHASE2_STAGE_FREEZE.json",
+        "sha256": "7b62d5c2b17d899175a82e6cfda440f63b8b1d8bbc52200bb47552f10f3a4333",
+        "bytes": 3352
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_local_v1\\PHASE2_STAGE_FREEZE.json",
+        "sha256": "5b673736cda9f0de533f3266ad14f32ab55e1f0074ead3c84b7e91ae00caae91",
+        "bytes": 3343
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\PHASE2_STAGE_FREEZE.json",
+        "sha256": "a9a35645e2852d46ad54a6ae64b199360359b2cf62506f790359e39cde83e6f5",
+        "bytes": 3352
+      }
+    ]
+  },
+  "one_shot": true,
+  "incomplete_run_still_consumes_reservation": true
+}

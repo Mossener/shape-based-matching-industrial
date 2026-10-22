@@ -1,0 +1,372 @@
+test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) ... 
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0') ... ERROR
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0') ... ERROR
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0') ... ERROR
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='1') ... ERROR
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0') ... ERROR
+  test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0') ... ERROR
+test_cell_schema_values_and_mutations (test_numeric2.Arithmetic.test_cell_schema_values_and_mutations) ... ERROR
+test_feature_base_bounds_applies_once (test_numeric2.Arithmetic.test_feature_base_bounds_applies_once) ... ERROR
+test_first_strict_row_major_maximum (test_numeric2.Arithmetic.test_first_strict_row_major_maximum) ... ERROR
+test_flat_coarse_wrap_and_zero_tail (test_numeric2.Arithmetic.test_flat_coarse_wrap_and_zero_tail) ... ERROR
+test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) ... 
+  test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=1, count=0) ... ERROR
+  test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=1, count=8192) ... ERROR
+  test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=-1, count=3) ... ERROR
+  test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=13, count=3) ... ERROR
+test_normalization_and_threshold_boundary (test_numeric2.Arithmetic.test_normalization_and_threshold_boundary) ... ERROR
+test_skipped_feature_keeps_denominator (test_numeric2.Arithmetic.test_skipped_feature_keeps_denominator) ... ERROR
+test_skipped_nonzero_rejected (test_numeric2.Arithmetic.test_skipped_nonzero_rejected) ... ERROR
+test_verify_maximum_checks_full_tie_mask (test_numeric2.Arithmetic.test_verify_maximum_checks_full_tie_mask) ... ERROR
+test_zero_maximum_sentinel_and_ties (test_numeric2.Arithmetic.test_zero_maximum_sentinel_and_ties) ... ERROR
+test_zero_tail_mutation_rejected (test_numeric2.Arithmetic.test_zero_tail_mutation_rejected) ... ERROR
+test_assignment_greedy_ties_and_eligible_ignore (test_numeric2.Downstream.test_assignment_greedy_ties_and_eligible_ignore) ... ERROR
+test_assignment_iou_inclusive_and_gt_uniqueness (test_numeric2.Downstream.test_assignment_iou_inclusive_and_gt_uniqueness) ... ERROR
+test_nms_full_frame_order_first_blocker_and_class (test_numeric2.Downstream.test_nms_full_frame_order_first_blocker_and_class) ... ERROR
+test_nms_strict_iou_boundary (test_numeric2.Downstream.test_nms_strict_iou_boundary) ... ERROR
+test_occurrence_subset_and_probed_actual_coverage (test_numeric2.Downstream.test_occurrence_subset_and_probed_actual_coverage) ... ERROR
+test_complete_reachable_parent_set (test_numeric2.Geometry.test_complete_reachable_parent_set) ... ERROR
+test_neighbors_integer_on_grid_and_off_grid (test_numeric2.Geometry.test_neighbors_integer_on_grid_and_off_grid) ... ERROR
+test_parent_clamp_and_cpp_truncation (test_numeric2.Geometry.test_parent_clamp_and_cpp_truncation) ... ERROR
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) (rows='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 46, in test_bad_digits_skip_id_and_count_rejected
+    with self.subTest(rows=rows[0]['feature_id']),self.assertRaises(ValueError):n.sum_features(rows,1,256,(160,160))
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_cell_schema_values_and_mutations (test_numeric2.Arithmetic.test_cell_schema_values_and_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 66, in test_cell_schema_values_and_mutations
+    rows=[dict(row='0',col=str(i),native_raw=str(v),native_score_bits=str(n.score_bits(v,1)),computed=str(i<1 and 1 or 0),threshold_pass=str(v==4 and 1 or 0)) for i,v in enumerate(raw)]
+                                                                          ^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_feature_base_bounds_applies_once (test_numeric2.Arithmetic.test_feature_base_bounds_applies_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 52, in test_feature_base_bounds_applies_once
+    raw,_=n.sum_features([feature(0,x=-5,y=0,skip=0)],1,256,(160,160),base=(8,8))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_first_strict_row_major_maximum (test_numeric2.Arithmetic.test_first_strict_row_major_maximum)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 60, in test_first_strict_row_major_maximum
+    best=n.maximum(raw,2)
+         ^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 12, in maximum
+    def maximum(raw, count): raise NotImplementedError('RED numeric skeleton')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_flat_coarse_wrap_and_zero_tail (test_numeric2.Arithmetic.test_flat_coarse_wrap_and_zero_tail)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 30, in test_flat_coarse_wrap_and_zero_tail
+    self.assertEqual(n.coarse_span(32,24,16,16),(3,4,7))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 9, in coarse_span
+    def coarse_span(width, height, template_width, template_height, step=8): raise NotImplementedError('RED numeric skeleton')
+                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=1, count=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 27, in test_invalid_denominator_or_raw_rejected
+    with self.subTest(raw=raw,count=count),self.assertRaises(ValueError):n.score_bits(raw,count)
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=1, count=8192)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 27, in test_invalid_denominator_or_raw_rejected
+    with self.subTest(raw=raw,count=count),self.assertRaises(ValueError):n.score_bits(raw,count)
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=-1, count=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 27, in test_invalid_denominator_or_raw_rejected
+    with self.subTest(raw=raw,count=count),self.assertRaises(ValueError):n.score_bits(raw,count)
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) (raw=13, count=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 27, in test_invalid_denominator_or_raw_rejected
+    with self.subTest(raw=raw,count=count),self.assertRaises(ValueError):n.score_bits(raw,count)
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_normalization_and_threshold_boundary (test_numeric2.Arithmetic.test_normalization_and_threshold_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 18, in test_normalization_and_threshold_boundary
+    self.assertEqual(n.score_bits(34,10),0x42aa0000)
+                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 7, in score_bits
+    def score_bits(raw, count): raise NotImplementedError('RED numeric skeleton')
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_skipped_feature_keeps_denominator (test_numeric2.Arithmetic.test_skipped_feature_keeps_denominator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 40, in test_skipped_feature_keeps_denominator
+    raw,_=n.sum_features([feature(0),feature(1,x=-1,skip=1,digits='0'*256)],2,256,(160,160))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_skipped_nonzero_rejected (test_numeric2.Arithmetic.test_skipped_nonzero_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 49, in test_skipped_nonzero_rejected
+    with self.assertRaises(ValueError):n.sum_features([feature(0,x=-1,skip=1)],1,256,(160,160))
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_verify_maximum_checks_full_tie_mask (test_numeric2.Arithmetic.test_verify_maximum_checks_full_tie_mask)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 76, in test_verify_maximum_checks_full_tie_mask
+    n.verify_maximum(row,raw,1,(64,64))
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 13, in verify_maximum
+    def verify_maximum(row, raw, count, center): raise NotImplementedError('RED numeric skeleton')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_zero_maximum_sentinel_and_ties (test_numeric2.Arithmetic.test_zero_maximum_sentinel_and_ties)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 56, in test_zero_maximum_sentinel_and_ties
+    self.assertEqual(n.maximum([0]*256,3),dict(raw=0,bits=0,row=-1,col=-1,ties=256,tie_mask='1'*256))
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 12, in maximum
+    def maximum(raw, count): raise NotImplementedError('RED numeric skeleton')
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_zero_tail_mutation_rejected (test_numeric2.Arithmetic.test_zero_tail_mutation_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 37, in test_zero_tail_mutation_rejected
+    with self.assertRaises(ValueError):n.sum_features([feature(0,digits='444444410000')],1,12,(32,24),tail=7)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 10, in sum_features
+    def sum_features(rows, count, cells, size, base=(0,0), tail=None): raise NotImplementedError('RED numeric skeleton')
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_assignment_greedy_ties_and_eligible_ignore (test_numeric2.Downstream.test_assignment_greedy_ties_and_eligible_ignore)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 124, in test_assignment_greedy_ties_and_eligible_ignore
+    self.assertEqual(n.assign(rows,truths),[('TP',2),('TP',5),('FP',-1)])
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 19, in assign
+    def assign(records, truths, eligible=False): raise NotImplementedError('RED numeric skeleton')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_assignment_iou_inclusive_and_gt_uniqueness (test_numeric2.Downstream.test_assignment_iou_inclusive_and_gt_uniqueness)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 130, in test_assignment_iou_inclusive_and_gt_uniqueness
+    self.assertEqual(n.assign(rows,truths),[('TP',0)])
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 19, in assign
+    def assign(records, truths, eligible=False): raise NotImplementedError('RED numeric skeleton')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_nms_full_frame_order_first_blocker_and_class (test_numeric2.Downstream.test_nms_full_frame_order_first_blocker_and_class)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 111, in test_nms_full_frame_order_first_blocker_and_class
+    selected,blocked=n.nms(rows)
+                     ^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 18, in nms
+    def nms(records): raise NotImplementedError('RED numeric skeleton')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_nms_strict_iou_boundary (test_numeric2.Downstream.test_nms_strict_iou_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 118, in test_nms_strict_iou_boundary
+    self.assertEqual(n.iou(rows[0]['box'],rows[1]['box']),.3)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 17, in iou
+    def iou(a,b): raise NotImplementedError('RED numeric skeleton')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_occurrence_subset_and_probed_actual_coverage (test_numeric2.Downstream.test_occurrence_subset_and_probed_actual_coverage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 105, in test_occurrence_subset_and_probed_actual_coverage
+    self.assertEqual(n.reconcile_occurrences({key:2},{key:3},{(5,9)}),1)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 20, in reconcile_occurrences
+    def reconcile_occurrences(predicted, pre, points): raise NotImplementedError('RED numeric skeleton')
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_complete_reachable_parent_set (test_numeric2.Geometry.test_complete_reachable_parent_set)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 96, in test_complete_reachable_parent_set
+    got=n.reachable((473,417),(80,80))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 15, in reachable
+    def reachable(point, template_size, fine_size=(848,832), coarse_shape=(52,53)): raise NotImplementedError('RED numeric skeleton')
+                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_neighbors_integer_on_grid_and_off_grid (test_numeric2.Geometry.test_neighbors_integer_on_grid_and_off_grid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 90, in test_neighbors_integer_on_grid_and_off_grid
+    self.assertEqual(n.neighbors((5,9)),[(5,9)])
+                     ^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 16, in neighbors
+    def neighbors(anchor): raise NotImplementedError('RED numeric skeleton')
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+======================================================================
+ERROR: test_parent_clamp_and_cpp_truncation (test_numeric2.Geometry.test_parent_clamp_and_cpp_truncation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_numeric2.py", line 84, in test_parent_clamp_and_cpp_truncation
+    self.assertEqual(n.parent(0,0,(80,80)),((32,32),(0,0)))
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\numeric2.py", line 14, in parent
+    def parent(row, col, template_size, fine_size=(848,832)): raise NotImplementedError('RED numeric skeleton')
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED numeric skeleton
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.006s
+
+FAILED (errors=28)
+
+exit_code=1

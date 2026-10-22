@@ -202,4 +202,11 @@
 - 独立标准库审计重建全部pre/post/reference、metadata框、分数字节、代表最小ID、重数、430条GT支持和summary；17项合成/变异测试通过，root新鲜复跑。独立检查1461个文件pin（含560个惰性build闭包），1709项native完整成员另核；root单独重算各arm汇总与既有GT记录。审计不读取图像或执行matcher，LM评分仍明确来自原生scalar门槛receipt。
 - 215个RGB身份中，RGB去重前后均215有IoU≥0.5候选，binary均158，候选支持完全丢失0。因此57个no-raw缺失发生在去重前；另外10个仍保留既有NMS原因。最佳IoU在4个RGB/11个binary身份下降，不能把0支持损失推广为去重完全无害。无新增准确率/速度收益，不改默认；后继同姿态物理位置/全部粗层父窗口检查用独立设计和预算。详见`artifacts/quality_failure_analysis/score_path_probe_v1/RESULTS_PHASE1_V24.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v24` 标记各阶段。
+## V25：同姿态评分与完整粗细层父窗口核验
+
+- 固定V24全部215个RGB正例及两臂同训练图/角度/尺度，共430个任务；430次粗层和7185个局部窗口逐特征留证，未重跑完整类别搜索。三个错误注入被各自oracle拒绝，GREEN及独立39项数字合成测试通过。
+- 独立审计重算73,337,912个响应值、3,024,440个网格分数、12,016条父连接、V24完整pre/post候选及426个类别帧NMS/GT分配，全部215个RGB正控复现。初次审计的范围检查失败与修订后通过记录一并保留。
+- 原67个二值丢失身份的固定同姿态物理锚点和全部预定邻点均不足85：23个粗层全拒、44个有通过父但其窗口最高细层分数不足85。23个反事实窗口也全不足85，不能归因为仅粗层剪枝；148个保留对照中也有76个同姿态路径落入前两类，不能把同姿态失败当成全类别漏检。
+- 本版完成原因定位，没有新增速度/准确率收益，不改变默认。下一轮依据证据检查特征选择和评分；完整接口哈希去重优化单独验证。详见`artifacts/quality_failure_analysis/score_path_probe_v2/RESULTS_PHASE2_V25.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v25` 标记各阶段。

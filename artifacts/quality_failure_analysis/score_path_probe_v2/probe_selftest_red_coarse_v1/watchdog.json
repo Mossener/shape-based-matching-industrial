@@ -1,0 +1,9 @@
+{
+  "native_exit_code": 1,
+  "elapsed_seconds": 0.25,
+  "maximum_observed_rss_bytes": 2007040,
+  "maximum_observed_output_bytes": 2120,
+  "stop_reason": null,
+  "observation_interval_seconds": 0.25,
+  "limitation": "Sampled process watchdog; native checks run at every class replay and streamed CSV flush"
+}

@@ -1,0 +1,37 @@
+test_bad_digits_skip_id_and_count_rejected (test_numeric2.Arithmetic.test_bad_digits_skip_id_and_count_rejected) ... ok
+test_cell_schema_values_and_mutations (test_numeric2.Arithmetic.test_cell_schema_values_and_mutations) ... ok
+test_feature_base_bounds_applies_once (test_numeric2.Arithmetic.test_feature_base_bounds_applies_once) ... ok
+test_first_strict_row_major_maximum (test_numeric2.Arithmetic.test_first_strict_row_major_maximum) ... ok
+test_flat_coarse_wrap_and_zero_tail (test_numeric2.Arithmetic.test_flat_coarse_wrap_and_zero_tail) ... ok
+test_invalid_denominator_or_raw_rejected (test_numeric2.Arithmetic.test_invalid_denominator_or_raw_rejected) ... ok
+test_normalization_and_threshold_boundary (test_numeric2.Arithmetic.test_normalization_and_threshold_boundary) ... ok
+test_skipped_feature_keeps_denominator (test_numeric2.Arithmetic.test_skipped_feature_keeps_denominator) ... ok
+test_skipped_nonzero_rejected (test_numeric2.Arithmetic.test_skipped_nonzero_rejected) ... ok
+test_verify_maximum_checks_full_tie_mask (test_numeric2.Arithmetic.test_verify_maximum_checks_full_tie_mask) ... ok
+test_zero_maximum_sentinel_and_ties (test_numeric2.Arithmetic.test_zero_maximum_sentinel_and_ties) ... ok
+test_zero_tail_mutation_rejected (test_numeric2.Arithmetic.test_zero_tail_mutation_rejected) ... ok
+test_assignment_greedy_ties_and_eligible_ignore (test_numeric2.Downstream.test_assignment_greedy_ties_and_eligible_ignore) ... ok
+test_assignment_iou_inclusive_and_gt_uniqueness (test_numeric2.Downstream.test_assignment_iou_inclusive_and_gt_uniqueness) ... ok
+test_nms_full_frame_order_first_blocker_and_class (test_numeric2.Downstream.test_nms_full_frame_order_first_blocker_and_class) ... ok
+test_nms_strict_iou_boundary (test_numeric2.Downstream.test_nms_strict_iou_boundary) ... ok
+test_occurrence_subset_and_probed_actual_coverage (test_numeric2.Downstream.test_occurrence_subset_and_probed_actual_coverage) ... ok
+test_complete_reachable_parent_set (test_numeric2.Geometry.test_complete_reachable_parent_set) ... ok
+test_neighbors_integer_on_grid_and_off_grid (test_numeric2.Geometry.test_neighbors_integer_on_grid_and_off_grid) ... ok
+test_parent_clamp_and_cpp_truncation (test_numeric2.Geometry.test_parent_clamp_and_cpp_truncation) ... ok
+test_fullclass_nms_assignment_records_and_blocker_mutations (test_traces.TraceJoins.test_fullclass_nms_assignment_records_and_blocker_mutations) ... ok
+test_identity_join_and_windows (test_traces.TraceJoins.test_identity_join_and_windows) ... ok
+test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) ... ok
+test_occurrence_metadata_boxes_minimum_representative_and_multiplicity (test_traces.TraceJoins.test_occurrence_metadata_boxes_minimum_representative_and_multiplicity) ... ok
+test_out_of_domain_physical_has_no_score (test_traces.TraceJoins.test_out_of_domain_physical_has_no_score) ... ok
+test_owner_mapping_does_not_assume_plan_order (test_traces.TraceJoins.test_owner_mapping_does_not_assume_plan_order) ... ok
+test_parent_links_complete_values_and_rgb_control (test_traces.TraceJoins.test_parent_links_complete_values_and_rgb_control) ... ok
+test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) ... ok
+test_physical_sums_domain_and_missing_feature_rejected (test_traces.TraceJoins.test_physical_sums_domain_and_missing_feature_rejected) ... ok
+test_streamed_map_join_and_missing_owner_rejected (test_traces.TraceJoins.test_streamed_map_join_and_missing_owner_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.420s
+
+OK
+
+exit_code=0

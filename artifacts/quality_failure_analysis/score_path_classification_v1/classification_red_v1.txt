@@ -1,0 +1,49 @@
+EEEE
+======================================================================
+ERROR: test_any_admitted_path_wins_over_rejected_counterfactual (test_classify.ClassificationTests.test_any_admitted_path_wins_over_rejected_counterfactual)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\test_classify.py", line 22, in test_any_admitted_path_wins_over_rejected_counterfactual
+    self.assertEqual(neighbor_path([link(point_pass=1, winner=1), link(1, 1, 1, 1)]),
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\classify.py", line 3, in neighbor_path
+    raise NotImplementedError('RED')
+NotImplementedError: RED
+
+======================================================================
+ERROR: test_native_neighbor_first_failed_step_and_displacement (test_classify.ClassificationTests.test_native_neighbor_first_failed_step_and_displacement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\test_classify.py", line 19, in test_native_neighbor_first_failed_step_and_displacement
+    self.assertEqual(neighbor_path(rows), expected)
+                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\classify.py", line 3, in neighbor_path
+    raise NotImplementedError('RED')
+NotImplementedError: RED
+
+======================================================================
+ERROR: test_pre_support_and_representative_support_are_distinct (test_classify.ClassificationTests.test_pre_support_and_representative_support_are_distinct)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\test_classify.py", line 27, in test_pre_support_and_representative_support_are_distinct
+    self.assertEqual(propagation_path([row], 3)['path'], 'traced_pre_support_lost_at_representative')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\classify.py", line 7, in propagation_path
+    raise NotImplementedError('RED')
+NotImplementedError: RED
+
+======================================================================
+ERROR: test_selected_support_requires_target_assignment_and_complete_class_identity (test_classify.ClassificationTests.test_selected_support_requires_target_assignment_and_complete_class_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\test_classify.py", line 33, in test_selected_support_requires_target_assignment_and_complete_class_identity
+    value = propagation_path([row], 3)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_classification_v1\classify.py", line 7, in propagation_path
+    raise NotImplementedError('RED')
+NotImplementedError: RED
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (errors=4)

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "inventory": {
+    "path": "artifacts/quality_failure_analysis/score_path_probe_v2/PUBLICATION_INVENTORY_V25.json",
+    "size_bytes": 38757,
+    "sha256": "08a042be0c602ea1ffd1f0a6bdb15434fc074427a82165a61a4ea610793808e4"
+  },
+  "file_count": 167,
+  "total_bytes": 46895618,
+  "checked_every_member_sha256": true,
+  "source_inventories": [
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_probe_v2/PUBLICATION_INVENTORY_V25_BASE_v2.json",
+      "size_bytes": 31640,
+      "sha256": "005c44d43603b5af666002a8df34bf48f3c2aa7dace2bc3cf2726a8431874776"
+    },
+    {
+      "path": "artifacts/quality_failure_analysis/score_path_classification_v1/PUBLICATION_INVENTORY_V25.json",
+      "size_bytes": 5749,
+      "sha256": "19dbc8d9583014878661bcef96195f6c6bd3e17ba0720ac965446742a60bd856"
+    }
+  ],
+  "root_aggregate_review": {
+    "path": "artifacts/independent_reviews/score_path_probe_v2/ROOT_V25_REVIEW.json",
+    "size_bytes": 2162,
+    "sha256": "b8dd1fb1dc102fb9ab5f9e2790f9e7ce2cf930b1745ddc55fd34fbe11fde6295"
+  },
+  "native_phase2_audit": {
+    "path": "artifacts/independent_reviews/score_path_probe_v2/run_numeric_audit_20261022_v2/result.json",
+    "size_bytes": 7545,
+    "sha256": "1710a1b3fe934ad73b8484b24527a99c2dddcdc6c20cca82aa2c3860ba724ea8"
+  },
+  "production_diff_against_v11": "git diff --quiet b25df46f6ddf9c24fb43f5836f1414dc38c8caed -- seven core sources and MIPP/: exit 0",
+  "scope": "Three explicit evidence roots plus README, version history, byte-preservation attributes; no dependency path traversal",
+  "dataset_image_bytes_opened": 0,
+  "serialized_template_bytes_opened": 0,
+  "native_executions": 0,
+  "staged_blob_verification": "Required separately before commit"
+}

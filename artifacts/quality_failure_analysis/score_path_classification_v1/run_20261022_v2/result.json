@@ -1,0 +1,223 @@
+{
+  "completed": true,
+  "derived_numeric_classification": true,
+  "independent_phase2_audit_required": true,
+  "phase2_completion": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\PHASE2_STAGE_FREEZE.json",
+    "bytes": 91701,
+    "sha256": "b6933c13f9ce825c2acbab62290a3a4624e7dfb954c7988234428040424c9bc9"
+  },
+  "input_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\PHASE2_STAGE_FREEZE.json",
+      "bytes": 91701,
+      "sha256": "b6933c13f9ce825c2acbab62290a3a4624e7dfb954c7988234428040424c9bc9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+      "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+      "bytes": 4259952
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json",
+      "bytes": 570161,
+      "sha256": "353615a753a0be27a2665997488301259fe99989858068895870d16fe32de91c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\v22_empty_mask_lost_gt\\PUBLICATION_INVENTORY_V23.json",
+      "bytes": 4549,
+      "sha256": "1c4fb247ccc324e21124e2aefe0dbd4f75658bab657c4d15d1fe8b23ad03599c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\v22_empty_mask_lost_gt\\run_20261022_v1\\per_gt.csv",
+      "bytes": 75980,
+      "sha256": "1b2e9dbb6a1c5c928d0c3c5279d5b11b5c97a6cbe14cb85dd9ce47ea016c0632"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\feature_vectors.csv.gz",
+      "sha256": "61792ac6e029597f5f03bfc6eae219698dfae6f24b2c84c3085c4a28056c5957",
+      "bytes": 15568133
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\fullclass_nms_assignment.csv.gz",
+      "sha256": "9a1b6696f545ea9376d1745cbe4e29e9d52ff7c04bc0e9b4c0980cb93857a841",
+      "bytes": 4650299
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\jobs.csv.gz",
+      "sha256": "ce422a9a8f1ba6772e2d43b915e19b4760d95459e0aa43061c377b46be32cd3b",
+      "bytes": 11879
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\local_maxima.csv.gz",
+      "sha256": "ccdd0b49f380ae889c365beeb83449de6f0fd231c77d9653f2389b3ab45ec76b",
+      "bytes": 151342
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\native_cells.csv.gz",
+      "sha256": "9aa3037ef7bc29d24293cb16a1dd5a0db586343b99427bce03c2c5a7b3bc48a7",
+      "bytes": 15921351
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\occurrences.csv.gz",
+      "sha256": "baa6d2e23a9d252067134ca735295b00df5078413bd33a5b589afe13987617fc",
+      "bytes": 17713
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\parent_links.csv.gz",
+      "sha256": "0259f18bad5b258ffb25ec2ef0432249791cb915bfd2f36846830bcf07099a94",
+      "bytes": 160595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\physical_anchors.csv.gz",
+      "sha256": "96fa65772fbfaec9a61bedda0a66697611a0d73df67117a32633ea504a952bd1",
+      "bytes": 64886
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\stage_summary.json",
+      "sha256": "4499e110e35d18b2b57f4c7efecdd9d420a0c208acbedd3e5929e7cee5fe52bc",
+      "bytes": 872
+    }
+  ],
+  "groups": {
+    "rgb/all": {
+      "identities": 215,
+      "native_neighbor_paths": {
+        "native_neighbor_emitted": 215
+      },
+      "traced_propagation_paths": {
+        "assigned_target_by_traced_representative": 215
+      },
+      "off_native_grid": 0,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 215,
+      "pre_support": 215,
+      "post_support": 215,
+      "selected_support": 215,
+      "assigned_target": 215
+    },
+    "rgb/lost": {
+      "identities": 67,
+      "native_neighbor_paths": {
+        "native_neighbor_emitted": 67
+      },
+      "traced_propagation_paths": {
+        "assigned_target_by_traced_representative": 67
+      },
+      "off_native_grid": 0,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 67,
+      "pre_support": 67,
+      "post_support": 67,
+      "selected_support": 67,
+      "assigned_target": 67
+    },
+    "rgb/retained": {
+      "identities": 148,
+      "native_neighbor_paths": {
+        "native_neighbor_emitted": 148
+      },
+      "traced_propagation_paths": {
+        "assigned_target_by_traced_representative": 148
+      },
+      "off_native_grid": 0,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 148,
+      "pre_support": 148,
+      "post_support": 148,
+      "selected_support": 148,
+      "assigned_target": 148
+    },
+    "binary_empty_mask/all": {
+      "identities": 215,
+      "native_neighbor_paths": {
+        "neighbor_below85_while_window_winner_passes": 26,
+        "admitted_window_maximum_below85": 107,
+        "neighbor_passes_but_local_winner_displaced": 25,
+        "native_neighbor_emitted": 21,
+        "all_reachable_coarse_rejected": 36
+      },
+      "traced_propagation_paths": {
+        "traced_post_support_suppressed_by_nms": 71,
+        "no_iou_half_support_in_traced_pre_or_representative": 143,
+        "assigned_target_by_traced_representative": 1
+      },
+      "off_native_grid": 179,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 39,
+      "pre_support": 72,
+      "post_support": 72,
+      "selected_support": 1,
+      "assigned_target": 1
+    },
+    "binary_empty_mask/lost": {
+      "identities": 67,
+      "native_neighbor_paths": {
+        "admitted_window_maximum_below85": 44,
+        "all_reachable_coarse_rejected": 23
+      },
+      "traced_propagation_paths": {
+        "no_iou_half_support_in_traced_pre_or_representative": 67
+      },
+      "off_native_grid": 52,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 0,
+      "pre_support": 0,
+      "post_support": 0,
+      "selected_support": 0,
+      "assigned_target": 0
+    },
+    "binary_empty_mask/retained": {
+      "identities": 148,
+      "native_neighbor_paths": {
+        "neighbor_below85_while_window_winner_passes": 26,
+        "admitted_window_maximum_below85": 63,
+        "neighbor_passes_but_local_winner_displaced": 25,
+        "native_neighbor_emitted": 21,
+        "all_reachable_coarse_rejected": 13
+      },
+      "traced_propagation_paths": {
+        "traced_post_support_suppressed_by_nms": 71,
+        "no_iou_half_support_in_traced_pre_or_representative": 76,
+        "assigned_target_by_traced_representative": 1
+      },
+      "off_native_grid": 127,
+      "physical_out_of_domain": 0,
+      "physical_score_at_least85": 39,
+      "pre_support": 72,
+      "post_support": 72,
+      "selected_support": 1,
+      "assigned_target": 1
+    }
+  },
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\classify.py",
+      "bytes": 11906,
+      "sha256": "20214fe362ab1fe995a2730e238c4d8611a3d3ae49d3c309506529bc3747ac3d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\test_classify.py",
+      "bytes": 2135,
+      "sha256": "e7aa04150c80eb794d797dc36b615882967d6710f1cd0db3a5cbcc0b8fd9013f"
+    }
+  ],
+  "dataset_image_bytes_opened": 0,
+  "native_calls": 0,
+  "matcher_calls": 0,
+  "accuracy_improvement_claim": false,
+  "limitations": [
+    "Fixed RGB pose, physical anchor and predetermined legal native neighbors only.",
+    "Reachable-parent predictions are a subset of complete same-template occurrences.",
+    "Off-grid and undefined physical scores are annotations, not detector negatives.",
+    "Representative/NMS support concerns only traced occurrences, not all-class overall support.",
+    "This classification does not independently prove native image response maps or detector generalization."
+  ],
+  "output_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\run_20261022_v2\\per_gt_arm.csv",
+      "bytes": 98927,
+      "sha256": "ea0b91807857b0b03db9fe1023e52318a854ea8e8c23824ec9091bac7d4971e1"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+test_ambiguous_or_missing_markers_fail_closed (test_source_contract.SourceTests.test_ambiguous_or_missing_markers_fail_closed) ... FAIL
+test_extraction_preserves_exact_preprocessing_bytes_without_any_main (test_source_contract.SourceTests.test_extraction_preserves_exact_preprocessing_bytes_without_any_main) ... ERROR
+test_only_the_requested_red_fault_is_an_expected_failure (test_source_contract.SourceTests.test_only_the_requested_red_fault_is_an_expected_failure) ... FAIL
+test_phase2_success_requires_exact_kernel_digit_and_control_budget (test_source_contract.SourceTests.test_phase2_success_requires_exact_kernel_digit_and_control_budget) ... FAIL
+
+======================================================================
+ERROR: test_extraction_preserves_exact_preprocessing_bytes_without_any_main (test_source_contract.SourceTests.test_extraction_preserves_exact_preprocessing_bytes_without_any_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_source_contract.py", line 13, in test_extraction_preserves_exact_preprocessing_bytes_without_any_main
+    self.assertEqual(result['components'][2], b'static Maps preprocess(const cv::Mat& padded) {\nreturn {};\n}\n')
+                     ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_ambiguous_or_missing_markers_fail_closed (test_source_contract.SourceTests.test_ambiguous_or_missing_markers_fail_closed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_source_contract.py", line 22, in test_ambiguous_or_missing_markers_fail_closed
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_only_the_requested_red_fault_is_an_expected_failure (test_source_contract.SourceTests.test_only_the_requested_red_fault_is_an_expected_failure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_source_contract.py", line 28, in test_only_the_requested_red_fault_is_an_expected_failure
+    self.assertTrue(c.native_gate('selftest', 'local', 1, None, failure))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_phase2_success_requires_exact_kernel_digit_and_control_budget (test_source_contract.SourceTests.test_phase2_success_requires_exact_kernel_digit_and_control_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_source_contract.py", line 35, in test_phase2_success_requires_exact_kernel_digit_and_control_budget
+    self.assertTrue(c.native_gate('phase2', 'none', 0, summary, None))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.004s
+
+FAILED (failures=3, errors=1)

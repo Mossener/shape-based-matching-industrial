@@ -1,0 +1,48 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_red_v1\\score_probe_v2.exe",
+    "--mode",
+    "selftest",
+    "--fault",
+    "winner",
+    "--plan",
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_winner_v1\\native"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1",
+  "mode": "selftest",
+  "fault": "winner",
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_red_v1\\build_manifest.json",
+    "sha256": "930f898a38ea26bb3e8173e5e43ad0afba8c5d6f8abec9407ed9fc048bc0384b",
+    "bytes": 174416
+  },
+  "input_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+    "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+    "bytes": 4259952
+  },
+  "selftest": null,
+  "red_receipts": [],
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\phase2_stage_reservations\\selftest_red_winner.json",
+    "sha256": "11186130f55744c0394e70b0ada1dc2d60ca22a0b8ff608e53413be6c01e3ae5",
+    "bytes": 878
+  },
+  "borrowed_phase1_watchdog_source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\run_probe.py",
+    "sha256": "2ddd2f90cb1ca98cbf60b6885e41b59fa12c3b0a32502d63a3a2e86532c45508",
+    "bytes": 18484
+  },
+  "runtime_path_prefix": [
+    "F:\\mysys2\\ucrt64\\bin",
+    "D:\\opencv-4.12.0\\build\\bin"
+  ],
+  "maximum_dataset_kernel_calls": 0,
+  "full_class_search_replays": 0,
+  "public_detector_match_calls": 0,
+  "native_exit_code": 1,
+  "started_utc": 1792636430.752877,
+  "finished_utc": 1792636431.0177143
+}

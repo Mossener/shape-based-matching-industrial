@@ -1,0 +1,17 @@
+test_all_clamped_parents_including_duplicate_window_bases (test_geometry.GeometryTests.test_all_clamped_parents_including_duplicate_window_bases) ... ok
+test_coarse_flat_domain_preserves_wrap_and_zero_tail (test_geometry.GeometryTests.test_coarse_flat_domain_preserves_wrap_and_zero_tail) ... ok
+test_native_clamp_order_and_truncation_survive_undersized_geometry (test_geometry.GeometryTests.test_native_clamp_order_and_truncation_survive_undersized_geometry) ... ok
+test_native_grid_neighbors_are_fixed_floor_and_ceiling (test_geometry.GeometryTests.test_native_grid_neighbors_are_fixed_floor_and_ceiling) ... ok
+test_native_tie_rule_and_zero_sentinel (test_geometry.GeometryTests.test_native_tie_rule_and_zero_sentinel) ... ok
+test_off_grid_parent_query_and_unsafe_native_memory_are_not_negatives (test_geometry.GeometryTests.test_off_grid_parent_query_and_unsafe_native_memory_are_not_negatives) ... ok
+test_physical_anchor_does_not_reuse_arm_local_match_coordinates (test_geometry.GeometryTests.test_physical_anchor_does_not_reuse_arm_local_match_coordinates) ... ok
+test_window_base_skip_is_not_pointwise_feature_clipping (test_geometry.GeometryTests.test_window_base_skip_is_not_pointwise_feature_clipping) ... ok
+test_ambiguous_or_missing_markers_fail_closed (test_source_contract.SourceTests.test_ambiguous_or_missing_markers_fail_closed) ... ok
+test_extraction_preserves_exact_preprocessing_bytes_without_any_main (test_source_contract.SourceTests.test_extraction_preserves_exact_preprocessing_bytes_without_any_main) ... ok
+test_only_the_requested_red_fault_is_an_expected_failure (test_source_contract.SourceTests.test_only_the_requested_red_fault_is_an_expected_failure) ... ok
+test_phase2_success_requires_exact_kernel_digit_and_control_budget (test_source_contract.SourceTests.test_phase2_success_requires_exact_kernel_digit_and_control_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.013s
+
+OK

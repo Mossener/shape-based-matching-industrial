@@ -1,0 +1,200 @@
+test_identity_join_and_windows (test_traces.TraceJoins.test_identity_join_and_windows) ... ERROR
+test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) ... 
+  test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='template_id') ... ERROR
+  test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='training_image') ... ERROR
+  test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='physical_x') ... ERROR
+  test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='fine_features') ... ERROR
+  test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='job_id') ... ERROR
+test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) ... ERROR
+test_out_of_domain_physical_has_no_score (test_traces.TraceJoins.test_out_of_domain_physical_has_no_score) ... ERROR
+test_owner_mapping_does_not_assume_plan_order (test_traces.TraceJoins.test_owner_mapping_does_not_assume_plan_order) ... ERROR
+test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) ... 
+  test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='missing') ... ERROR
+  test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='duplicate') ... ERROR
+  test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='base') ... ERROR
+  test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='coarse') ... ERROR
+test_physical_sums_domain_and_missing_feature_rejected (test_traces.TraceJoins.test_physical_sums_domain_and_missing_feature_rejected) ... ERROR
+
+======================================================================
+ERROR: test_identity_join_and_windows (test_traces.TraceJoins.test_identity_join_and_windows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 24, in test_identity_join_and_windows
+    contexts,windows,order=context()
+                           ^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 19, in context
+    def context():return t.job_contexts(*fixture())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='template_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 33, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.subTest(field=field),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='training_image')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 33, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.subTest(field=field),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='physical_x')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 33, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.subTest(field=field),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='fine_features')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 33, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.subTest(field=field),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected) (field='job_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 33, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.subTest(field=field),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected (test_traces.TraceJoins.test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 36, in test_missing_duplicate_wrong_pose_and_anchor_jobs_rejected
+    with self.assertRaises(ValueError):t.job_contexts(*args)
+                                       ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_out_of_domain_physical_has_no_score (test_traces.TraceJoins.test_out_of_domain_physical_has_no_score)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 71, in test_out_of_domain_physical_has_no_score
+    ctx,_,_=context();signatures={0:[(-10,0,0)]}
+            ^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 19, in context
+    def context():return t.job_contexts(*fixture())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_owner_mapping_does_not_assume_plan_order (test_traces.TraceJoins.test_owner_mapping_does_not_assume_plan_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 58, in test_owner_mapping_does_not_assume_plan_order
+    ctx,_,_=t.job_contexts(*args)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 45, in test_parent_plan_missing_duplicate_and_geometry_mutations_rejected
+    with self.subTest(mutate=mutate),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='duplicate')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 45, in test_parent_plan_missing_duplicate_and_geometry_mutations_rejected
+    with self.subTest(mutate=mutate),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='base')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 45, in test_parent_plan_missing_duplicate_and_geometry_mutations_rejected
+    with self.subTest(mutate=mutate),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_parent_plan_missing_duplicate_and_geometry_mutations_rejected (test_traces.TraceJoins.test_parent_plan_missing_duplicate_and_geometry_mutations_rejected) (mutate='coarse')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 45, in test_parent_plan_missing_duplicate_and_geometry_mutations_rejected
+    with self.subTest(mutate=mutate),self.assertRaises(ValueError):t.job_contexts(*args)
+                                                                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+======================================================================
+ERROR: test_physical_sums_domain_and_missing_feature_rejected (test_traces.TraceJoins.test_physical_sums_domain_and_missing_feature_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 62, in test_physical_sums_domain_and_missing_feature_rejected
+    ctx,_,_=context();signatures={0:[(0,0,0)]}
+            ^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\test_traces.py", line 19, in context
+    def context():return t.job_contexts(*fixture())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\score_path_probe_v2\traces.py", line 2, in job_contexts
+    def job_contexts(plan,rows,layers,metadata,prior_frames):raise NotImplementedError('RED trace skeleton')
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: RED trace skeleton
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.197s
+
+FAILED (errors=14)
+
+exit_code=1

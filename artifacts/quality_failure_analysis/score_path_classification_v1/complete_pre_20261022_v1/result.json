@@ -1,0 +1,1168 @@
+{
+  "completed": true,
+  "numeric_complete_pre_support_only": true,
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\complete_pre_support.py",
+    "bytes": 8892,
+    "sha256": "969a9831605eb4be68b758c6195338d53f7a6a46814d01a8bc58cbec878f277a"
+  },
+  "input_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\PROBE_STAGE_FREEZE.json",
+      "bytes": 606031,
+      "sha256": "f2be7500b13fbe1cad2bb9bc8d223b7bbf37af71919441f5b2bc2d1251e0d5ed"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\PROBE_INPUTS_V1.json",
+      "sha256": "353615a753a0be27a2665997488301259fe99989858068895870d16fe32de91c",
+      "bytes": 570161
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\run_20261022_v2\\result.json",
+      "bytes": 9291,
+      "sha256": "b96383b4bcf32f809cefa46725154c06424992ca72edf1e2b7d655d69f4b5872"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report_20261022_v1\\REPORT_FREEZE.json",
+      "bytes": 2234,
+      "sha256": "3e425b3bea7ff132e84588381db4eec0179cc5da13ac0138d0f50c9a4d1b3205"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\fullclass_nms_assignment.csv.gz",
+      "sha256": "9a1b6696f545ea9376d1745cbe4e29e9d52ff7c04bc0e9b4c0980cb93857a841",
+      "bytes": 4650299
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i3_pre_raw.csv.gz",
+      "sha256": "71e585f0cbdc34e0c87015c43945fceb3cf07eba729b66a2f172f9d4c31ac8f6",
+      "bytes": 215238
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i13_pre_raw.csv.gz",
+      "sha256": "a8debf292807a8e9cf70c361e1213e78abe318738ac35abfc629fa513f348888",
+      "bytes": 210765
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i21_pre_raw.csv.gz",
+      "sha256": "b46afd48c0c4a47d409efdb7515afcc97217c7c186331ed02686e6d91bb17efe",
+      "bytes": 198734
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i30_pre_raw.csv.gz",
+      "sha256": "376bdab0597f69b8be03f1d5bcc37856fb93f54b04c40e5afe204b98fbab8ee7",
+      "bytes": 209354
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i39_pre_raw.csv.gz",
+      "sha256": "2cbf03434552447ba01c26ab755e14064ebd957dc359898d2b55af81317041bf",
+      "bytes": 210583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i54_pre_raw.csv.gz",
+      "sha256": "8b17f3bf59395bda9f914feff9f6c5fd26b6b72a4089f6a12e76dbcc60b532bb",
+      "bytes": 203677
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i62_pre_raw.csv.gz",
+      "sha256": "f5f72adb9fc5abf83e07ab5c550126894e0b17b4563eb7f66d4f200412add073",
+      "bytes": 218252
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i67_pre_raw.csv.gz",
+      "sha256": "b0046dbc3cc29bea5b2cf15eaa4d3aba258859a8c6b2055b2321f6560ddc30a4",
+      "bytes": 220796
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i71_pre_raw.csv.gz",
+      "sha256": "88451a67b2bc4a0f397a0b4d5e8ed1aed3f2f79c1e2668757d66471297b4ee9b",
+      "bytes": 221495
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i81_pre_raw.csv.gz",
+      "sha256": "4445b5d035fe7f01d0ac15da3ef072a3a684707b6c42864262e56a3de74088df",
+      "bytes": 236949
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i87_pre_raw.csv.gz",
+      "sha256": "ae6aec67b239f4376b2cd2da5ac0f5e0ba714d51e950464eb96864270962177a",
+      "bytes": 229758
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i94_pre_raw.csv.gz",
+      "sha256": "551c7a64a94435e5c9b50054aab7d87200d85f39c02b24b525ef98a559a9b9b1",
+      "bytes": 221359
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i102_pre_raw.csv.gz",
+      "sha256": "eba7f1993e2d5cb0e005edfa4bce7e13cf0c24599e41e0481018fd7af5059306",
+      "bytes": 212879
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i112_pre_raw.csv.gz",
+      "sha256": "8e907fb6372d6cd917622ae9b22568d7e3046d7d7492af6704ed29714395a7c5",
+      "bytes": 235656
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i130_pre_raw.csv.gz",
+      "sha256": "e4d3ebba42be480b6fb8f54e516d8ba9055a323d827545268867cd6552a40b47",
+      "bytes": 212136
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i155_pre_raw.csv.gz",
+      "sha256": "18a235a0aa6403f97471e36425f2b9b6fee265013e095c8d2291ba53d79e1aa6",
+      "bytes": 185754
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i166_pre_raw.csv.gz",
+      "sha256": "e9d3fa8fb3edb33ebf529f3297d07143116db743226d0a7b79e35166dad703fb",
+      "bytes": 170742
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i185_pre_raw.csv.gz",
+      "sha256": "d90cf9f699fc011fef71a67e1f69f0dcee049be2097dd8e630aa308e167677e1",
+      "bytes": 188916
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i198_pre_raw.csv.gz",
+      "sha256": "7cfd8b5dfe04eea10f529e00c4641f124ad6847b686cea97c690195f9d3a8dd8",
+      "bytes": 176237
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i207_pre_raw.csv.gz",
+      "sha256": "3f12134b604e7a313683c8e4bae0bdcd9c52a2118585419f96e7e3172e014208",
+      "bytes": 205501
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i219_pre_raw.csv.gz",
+      "sha256": "ad4c1098d523998fcc624a458f35b9078bd5a37f9ebcf4f5f820cf6655701fac",
+      "bytes": 86213
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i229_pre_raw.csv.gz",
+      "sha256": "37313ea40641d9f0a475e5bba4c2a648cfcb51160af81d4a4b471dcdc0c0f91c",
+      "bytes": 91038
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i239_pre_raw.csv.gz",
+      "sha256": "fec58cc21556aaf14f5f4bbe48d2a2e67c08ee78b6f2d5224602c4e3bf581376",
+      "bytes": 86850
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i289_pre_raw.csv.gz",
+      "sha256": "5207625097ce4fde22a4ab8d386fa9b62fc2634cf8d46efd6b8fe9501bf13023",
+      "bytes": 21204
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i295_pre_raw.csv.gz",
+      "sha256": "a639fcfaf2c4ad9dec6b7da6d675f056a475399852dc51747abc117188893b36",
+      "bytes": 20523
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i306_pre_raw.csv.gz",
+      "sha256": "06361fd020ca1fc3b5557baa2119197f455f4804d70078d263f8423a64775e49",
+      "bytes": 28591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i354_pre_raw.csv.gz",
+      "sha256": "09ccbb521012565ab937656d236d04324bb4c84dd44256146ca26030a538aaf8",
+      "bytes": 22222
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i366_pre_raw.csv.gz",
+      "sha256": "ca7f4376ce3f5b7a21a24e58fb62903aceeacbb8a2c71c839f66a480e225bfc6",
+      "bytes": 1330
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i378_pre_raw.csv.gz",
+      "sha256": "de78e2dc7426a77b06dbb1a827666f9ef5a08575ad5d1360a67cf0344b57f430",
+      "bytes": 6963
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i385_pre_raw.csv.gz",
+      "sha256": "3d063dbda21ca5ec1efa497fc9df941d56e668890da095ff5503aecbde3abace",
+      "bytes": 1824
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i399_pre_raw.csv.gz",
+      "sha256": "14e588ad9832addce28d5286319fce76d02ac799194bb94ea4558f3ed7eec168",
+      "bytes": 2415
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i413_pre_raw.csv.gz",
+      "sha256": "39b5d9210664db48da0a6dd84c85eab0dde553239a19cb18e2ef3110df15bc10",
+      "bytes": 2981
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i428_pre_raw.csv.gz",
+      "sha256": "31fc4a6ad3466c4218137858a456700b42c7e8db732fa7df3a802dcc4679e3d4",
+      "bytes": 1173
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i435_pre_raw.csv.gz",
+      "sha256": "51ffaada4e16270db908e69390b40b207ebe43ad48a51aefa9c6ed4605a8fc33",
+      "bytes": 920
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i447_pre_raw.csv.gz",
+      "sha256": "6779c190bd2923752e732d0aeb2cea9f3a0ef5d3e8395d4aac999495c3405c5e",
+      "bytes": 909
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i450_pre_raw.csv.gz",
+      "sha256": "94ec57b4af9c2f05ab6c5d96f944fd47390f9fbf10e6cf43e716dce9cdd387fa",
+      "bytes": 1815
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj1\\binary_empty_mask\\s7_i458_pre_raw.csv.gz",
+      "sha256": "5e0b965756537a85e306ea8d808991f9a5bdd6ff5b65d1720e5c2347a8706991",
+      "bytes": 1362
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i1_pre_raw.csv.gz",
+      "sha256": "4a298bbe216bacc61f0f6a149dc40e99b2c7fd6fadb6a5230a90f2996cd92f93",
+      "bytes": 21647
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i17_pre_raw.csv.gz",
+      "sha256": "257824ded266657499d65063117fa9cd08ccf5ad59eabd8177c678a6166aa1b2",
+      "bytes": 21405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i30_pre_raw.csv.gz",
+      "sha256": "7207df17ee320c84d29b2ff61567962934d46d24bc756b7c3676aae21dd25f2f",
+      "bytes": 20868
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i38_pre_raw.csv.gz",
+      "sha256": "5391c0b468de34cd0eb3a0f2732241d972af70f51b56549c421d2cef73b55793",
+      "bytes": 19344
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i57_pre_raw.csv.gz",
+      "sha256": "6c7a59b91802264d9e6e52a1340cc83b3edb628853b252110198b83d908e03e0",
+      "bytes": 24321
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i67_pre_raw.csv.gz",
+      "sha256": "828339c98d978150c9074ce2a9c295bcc82c3c9adeb06ba33eacdd5ba02dd01f",
+      "bytes": 25630
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i76_pre_raw.csv.gz",
+      "sha256": "23c105c5ec7942bb3d408f2392fa0ac371b6975cb01e8373bb787d2c126773e3",
+      "bytes": 24360
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i89_pre_raw.csv.gz",
+      "sha256": "1831220207e3c2fda22ebf9293d254bf1c8f77883718bba57dbe7ec104b6f40b",
+      "bytes": 22015
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i101_pre_raw.csv.gz",
+      "sha256": "7ad51d4c57ae2e6a81d24d2a7df7d0dad126f9ccd1959bc613df87dfb03ecf9a",
+      "bytes": 19760
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i109_pre_raw.csv.gz",
+      "sha256": "02ede9c8b330520497a842e8cb1fbb7bbb4aabd45dd42020ce92033be0542f44",
+      "bytes": 18406
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i127_pre_raw.csv.gz",
+      "sha256": "113572792c84eb774f6fecf12f40156b9da6e93920fa029b2bf54f8b838152e5",
+      "bytes": 22770
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i135_pre_raw.csv.gz",
+      "sha256": "f5de969e987a2959834f73acd929d6ee6b2834cf112e0586d9edec2c89c3771e",
+      "bytes": 30085
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i142_pre_raw.csv.gz",
+      "sha256": "054d02cfccd58d90ba545cd2b9cf44d5903a59af2c6f5683c69219fbf9e773b9",
+      "bytes": 28760
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i157_pre_raw.csv.gz",
+      "sha256": "1476115ccb156757c0085b2871f98f9c97da0717370488dabd704fb70528172d",
+      "bytes": 17132
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i168_pre_raw.csv.gz",
+      "sha256": "26dca9b5732dab78d5c230147bdcdc7fa96898025cb9dc8c865c4e97f0088722",
+      "bytes": 12857
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i176_pre_raw.csv.gz",
+      "sha256": "bc2b86cb953683b29078b60fb17f6b4aa01c20244181fa87b56454e8b7ff09e6",
+      "bytes": 13137
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i181_pre_raw.csv.gz",
+      "sha256": "1c8388148227d56c3bb59084b0567849944bddfbf05659d6e542ce06e44bcc26",
+      "bytes": 13145
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i197_pre_raw.csv.gz",
+      "sha256": "4d039405cf34e526f5e55b3b9dda23219c61deaaaad37a71baf8876e635d5147",
+      "bytes": 10960
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i230_pre_raw.csv.gz",
+      "sha256": "02d794de90fec82da849bfc6618d222e3a94e7c91237e1d7d982b27bc364d1a5",
+      "bytes": 7642
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i236_pre_raw.csv.gz",
+      "sha256": "975dbf327f8c06928384fdf09fa86aa2d6ceccee23d55dd1a125ee3ca25dae1a",
+      "bytes": 7664
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i246_pre_raw.csv.gz",
+      "sha256": "10752225be7b536b9e17bb7a3aa21b72a013e59a82b5b266165047af8c8ac40e",
+      "bytes": 12899
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i252_pre_raw.csv.gz",
+      "sha256": "b0642319c16bcc40b301eaf21f3241929281f3a69b71ae74dbedbcecbd21065c",
+      "bytes": 11552
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i283_pre_raw.csv.gz",
+      "sha256": "23ba20822f8245dd0d661a19bca0cf5d3e70b389894df7fd4c008327dea4350f",
+      "bytes": 14949
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i314_pre_raw.csv.gz",
+      "sha256": "ad5408099e9e80f640cc0d90d932d85ab50726d03761168b513152795d7bc886",
+      "bytes": 8357
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i347_pre_raw.csv.gz",
+      "sha256": "db33c02bbb04c410c4c89320e97c77187c6a9054a4c0f2d6e00ada588be5c47e",
+      "bytes": 1123
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i425_pre_raw.csv.gz",
+      "sha256": "dbbaac24c3bea05cca138c3cd58dfe68576b90b3b088251c666f201fb3577c6d",
+      "bytes": 635
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i434_pre_raw.csv.gz",
+      "sha256": "216222051a0900c2120944a024e1aa63a63b2921863b0e312c14747fdfdbff63",
+      "bytes": 1043
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i442_pre_raw.csv.gz",
+      "sha256": "32ba6ee6c4c1ed86748855a9475bb0cc2616f8674aa1521f711c305615cc8116",
+      "bytes": 155
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i455_pre_raw.csv.gz",
+      "sha256": "61adcc261434462becb5828ed40744ac891b48ca0a1453b8d9850d9027413bd8",
+      "bytes": 202
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i488_pre_raw.csv.gz",
+      "sha256": "ee029f5ebfaf41a2f84b4318fae7df068f80a39a7091beadc17723a35e931135",
+      "bytes": 517
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s1_i493_pre_raw.csv.gz",
+      "sha256": "7c7b3c441f25d20fad62cfcf8ea8b2e2f9dc31770f342a11c488198affc99cfe",
+      "bytes": 166
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i2_pre_raw.csv.gz",
+      "sha256": "a4fbc6946d864baf912166c383d664bf0e744c01f66c30334b783b12c77f304d",
+      "bytes": 132894
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i7_pre_raw.csv.gz",
+      "sha256": "973d81919d055876e24e99c5e8abfc56e7a923a85ccc2bb4e09e5294508e2133",
+      "bytes": 131856
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i14_pre_raw.csv.gz",
+      "sha256": "5d0e3f4264a02f06e291455d1ef712a179cb7d529cd4ab7e4e9d2b4474750e94",
+      "bytes": 138509
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i26_pre_raw.csv.gz",
+      "sha256": "5ac7402335cda8f8ea12355874f83046fd76b5b310e78aee5a32afdd9b48a6a7",
+      "bytes": 144151
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i43_pre_raw.csv.gz",
+      "sha256": "5f1e108b9b3d14db7cfd74dfbee32c9db06c5f7530f8219c20b744cb4a813f56",
+      "bytes": 133000
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i49_pre_raw.csv.gz",
+      "sha256": "2f0066cc3b97385f8877290e2c1445f6021baf4957372b1bf8818ef8ab1b25a0",
+      "bytes": 132297
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i60_pre_raw.csv.gz",
+      "sha256": "ca5d0cd431443b5870879652a7c91123dec79f6081d7b804eef7a7712e5dc1ea",
+      "bytes": 143143
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i66_pre_raw.csv.gz",
+      "sha256": "abb8ca11101d2018f1e0c5fae975eb59d7ce7341ecc389d5d78bf0021fe6c6f8",
+      "bytes": 131732
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i73_pre_raw.csv.gz",
+      "sha256": "0232cc14d3c3673e610aad015618161ad2dc91be9af902b6d2d17cd213fb2797",
+      "bytes": 109226
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i83_pre_raw.csv.gz",
+      "sha256": "dec46125ad532e83037acd41238603db5659985b3a870145f4348d413ac08743",
+      "bytes": 115051
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i100_pre_raw.csv.gz",
+      "sha256": "6bc72c95dfd3e24f5f1c463b7da5718b415ab0bac3ab83752e966c7c3616d5d1",
+      "bytes": 135469
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i108_pre_raw.csv.gz",
+      "sha256": "88431e2d08ad2c88483b9946117d35de6e1d4ce4e084ab6ee0e25519da054c5b",
+      "bytes": 115462
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i117_pre_raw.csv.gz",
+      "sha256": "31c1c119ad08bc9aba92342ce2f07a138e2ae156be8d67db7c009a3d06b75975",
+      "bytes": 114723
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i130_pre_raw.csv.gz",
+      "sha256": "95e25f7e43736a864b8df25fe348b529fa85f4b22d2ae3d675c8b1c45af3af23",
+      "bytes": 109711
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i137_pre_raw.csv.gz",
+      "sha256": "1a695818619618472ebf6bc5e909e4ab956d3f0b932f8c131580094547060521",
+      "bytes": 111143
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i142_pre_raw.csv.gz",
+      "sha256": "047dfe0931f029f1f0bb9009f5e376323c3ac585d2a07aee5ca15b8b2b73a6c4",
+      "bytes": 108655
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i148_pre_raw.csv.gz",
+      "sha256": "d6d7df78cd3f3f20c73becbc264a92fa36b72fe82dd2ebf3db4f2cfbf5b8bfc8",
+      "bytes": 62755
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i171_pre_raw.csv.gz",
+      "sha256": "22c239a9be493178dbd63ecbf2606ae41cb833ccc43978c9a814548e27bd9216",
+      "bytes": 95912
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i190_pre_raw.csv.gz",
+      "sha256": "a54bb392cee52787dc74ee8f3374cedbdc46f767c05911b8ded057e4d56bcf5d",
+      "bytes": 59590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i199_pre_raw.csv.gz",
+      "sha256": "97c5c2dbbd440b4fbeac173a24227f70c54f050eb11f0e8d443ea58a433e84d1",
+      "bytes": 65367
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i207_pre_raw.csv.gz",
+      "sha256": "9e350ce8743d26e52cce60f2bc690a7ecc60a2df9d37986952ead0820b1e0353",
+      "bytes": 60307
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i215_pre_raw.csv.gz",
+      "sha256": "9c6ac3b9c99c52846ba0c1c20866e544fad4953da62acdff457047e5e9b8c294",
+      "bytes": 54322
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i221_pre_raw.csv.gz",
+      "sha256": "e6a9b1d34811374ad7af7f3abe7ccf99248b917c0feaee87f68956b63e491c73",
+      "bytes": 18037
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i228_pre_raw.csv.gz",
+      "sha256": "5505bb7b527b3b0243c8d34541320e1ef2fe3a0c113c371f03a6790c3e01554c",
+      "bytes": 11601
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i239_pre_raw.csv.gz",
+      "sha256": "cfec53485fc2a50f575422ec86ad7202994e7efbd9a26221b66ab2f322ee18fe",
+      "bytes": 38017
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i249_pre_raw.csv.gz",
+      "sha256": "b64450f6820273a73ea25d68374d45d5ee6d69755549a84d4bb4c0569cbc3f6a",
+      "bytes": 38759
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i260_pre_raw.csv.gz",
+      "sha256": "a17148bbca54b5bfd2d44a0a38568043f62ed69912ec88633d688cd006f96fdf",
+      "bytes": 23158
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i284_pre_raw.csv.gz",
+      "sha256": "bc846efb2f627c27647ccf7be3db39a7ca786e0583fb73cd94720c1f33064f4c",
+      "bytes": 20831
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i307_pre_raw.csv.gz",
+      "sha256": "f2969873b430d6a2ea7d95240b9c050ea0999115782b761bcef6f1fa741794d2",
+      "bytes": 4138
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i368_pre_raw.csv.gz",
+      "sha256": "f7ad07b191932410e087ce6a4e0dd99afc39b2cf6da8998d76fef0e7b4990e59",
+      "bytes": 297
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i383_pre_raw.csv.gz",
+      "sha256": "fc0b697da9ac7ba6c0b68aec7d6ba2ca4ad013aa4bfa520d2d0f03e4261136ae",
+      "bytes": 372
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i387_pre_raw.csv.gz",
+      "sha256": "a5c06745d5738215944b7239ca1b083a1a55538d94568fd84eaaf41752e3b224",
+      "bytes": 674
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i393_pre_raw.csv.gz",
+      "sha256": "422190d90cf78b33a580a95ef5a7d2e34d726ef10699bb17de9e03642aaa4f97",
+      "bytes": 807
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i438_pre_raw.csv.gz",
+      "sha256": "034024757fe9c0d66f28af1d484ebd6f9f09d8c9200d2c986a2557066c801a18",
+      "bytes": 981
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i471_pre_raw.csv.gz",
+      "sha256": "7b499667829257c268477fb8e652ea7e1559541dc116fdb163f285391b79edf9",
+      "bytes": 1595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj2\\binary_empty_mask\\s12_i490_pre_raw.csv.gz",
+      "sha256": "408fb1a830f6d719069dc20636fadc277701e978eedb7f6aab49358904a6b5e1",
+      "bytes": 1674
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i0_pre_raw.csv.gz",
+      "sha256": "1c320373c97acffb40f686ff075db50c07202444759f4ed4c8f8769a86d8d978",
+      "bytes": 6096
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i10_pre_raw.csv.gz",
+      "sha256": "705e7d42479a96ac51c76b6cf91c5c1dcb2e84d7198400825694fd3e22a4ddb8",
+      "bytes": 3892
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i25_pre_raw.csv.gz",
+      "sha256": "d57161ee19c16a523b60641430f71635976440b7ebac277981b3e38bb16980ff",
+      "bytes": 5213
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i36_pre_raw.csv.gz",
+      "sha256": "df7a460cb2c457a7805216e77ebfc368dcc3d78e62c417e380abaca1d1a29025",
+      "bytes": 6213
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i47_pre_raw.csv.gz",
+      "sha256": "1278b5749a6142e6929ce4884f416c80f2da64fb85d41931ae4c58fd77a8fd0a",
+      "bytes": 6099
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i58_pre_raw.csv.gz",
+      "sha256": "279ab647bf346ad09e6815a4cd4b4ee5727ccf42bc2a7141ec6d02c1f82589c4",
+      "bytes": 3987
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i66_pre_raw.csv.gz",
+      "sha256": "1684e8d9a93a5cbbb0c66ce14db12a15fe6707b49c77585369ebed40f1d7e4f8",
+      "bytes": 8478
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i72_pre_raw.csv.gz",
+      "sha256": "1ac8ab583fe3310ec6077722b5d6021572f10605e1ec479fc6bfa7e35642e09f",
+      "bytes": 4599
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i78_pre_raw.csv.gz",
+      "sha256": "8aea96a79e2db182c7a2a09911988bf361b4bda5547f11c39d19ba2c4dfc1cd4",
+      "bytes": 4241
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i85_pre_raw.csv.gz",
+      "sha256": "0625bce5d07612b4322f9b15df00bccd6fc5d6e3d5dd74e51c8b1016b0402afb",
+      "bytes": 3693
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i104_pre_raw.csv.gz",
+      "sha256": "18e2572e0fac18f068cee911c0256799f37400565340189ee0d5fdf363ae9aaf",
+      "bytes": 2772
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i115_pre_raw.csv.gz",
+      "sha256": "e370556fde97a3e7aaec40b8b8e662fa1de52ce7fa4fa54740926c790530334f",
+      "bytes": 2492
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i129_pre_raw.csv.gz",
+      "sha256": "554a33253c86874fdfce3706a5d144765a3f01dd490db02db4de85aaf31da9ef",
+      "bytes": 4209
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i142_pre_raw.csv.gz",
+      "sha256": "888ad9d8159352103ab49a8c1d8d7963213fd98d9ff59874b68b2b98ce0c6172",
+      "bytes": 2082
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i170_pre_raw.csv.gz",
+      "sha256": "7c6a679be6d7e4c2872e9ea57046e64ca48efd4e3560e2e341a3f7a35b0464cb",
+      "bytes": 2774
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i193_pre_raw.csv.gz",
+      "sha256": "cd5652e95fbb035ec239fa655961ee18e4f534b811ac3f74e8493dc3b05a1971",
+      "bytes": 1869
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i215_pre_raw.csv.gz",
+      "sha256": "f70f0bf5ce51ccc013e136ee6110533bb07c518a2c1972b4e9f9bc031ad7f433",
+      "bytes": 2416
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i365_pre_raw.csv.gz",
+      "sha256": "d1cf5c89605cc3f5d10241857ec0e595b21ac0f75ee8e4c5d260cfa4da5fcf4a",
+      "bytes": 479
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i438_pre_raw.csv.gz",
+      "sha256": "968aab7457f6e508e750cee55c24c017a6a2a0be07f568946ef76c62d7c6d0cd",
+      "bytes": 1629
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i448_pre_raw.csv.gz",
+      "sha256": "ff3a249fc9d1d15d1bab97879249c828fc1c9d401f1754d1109a212889db8dd4",
+      "bytes": 1870
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i479_pre_raw.csv.gz",
+      "sha256": "4c6dbe15b22627e6b119c4ed2db801628c61cf382234bd094e4510732e344d03",
+      "bytes": 477
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj5\\binary_empty_mask\\s4_i497_pre_raw.csv.gz",
+      "sha256": "cadf11dbb78f8887e530e9516dd5e2faac491c96264f4a129dfe6f494e74aa42",
+      "bytes": 751
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj8\\binary_empty_mask\\s4_i448_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i2_pre_raw.csv.gz",
+      "sha256": "f9d8a504cb3b98dec072c3e2942470517f34c3381e79e68aa560296583af7ceb",
+      "bytes": 403
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i11_pre_raw.csv.gz",
+      "sha256": "39cc1a3b7db23790c99d316aa297035180cb02727d458ffe1010b0a45ffdd03f",
+      "bytes": 534
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i23_pre_raw.csv.gz",
+      "sha256": "9e8b04e082f886915f201aa6cb34c0d5ec8b613fcd0e16081467d15843d8773b",
+      "bytes": 373
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i32_pre_raw.csv.gz",
+      "sha256": "64515358ca84cc5e5c9e5a078699c5b758445a6be9416d2f91e62a849c68e88c",
+      "bytes": 568
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i39_pre_raw.csv.gz",
+      "sha256": "23888d72ffa4b8a9b232317909a39bb897877bca75599b0f083671314f75f3e7",
+      "bytes": 381
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i45_pre_raw.csv.gz",
+      "sha256": "b42337de3aada17005aed072cea83bdeda7134f92a2b7c32450e726df46d19fb",
+      "bytes": 437
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i58_pre_raw.csv.gz",
+      "sha256": "47a0d798b3178262cca54d1eb99876ef6747b3a29498a16d94efca9b2c43e20f",
+      "bytes": 269
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i65_pre_raw.csv.gz",
+      "sha256": "e3a84192b92c3c6b9c8708d09a83366d8f05451518987fd552431ebac6b06594",
+      "bytes": 537
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i72_pre_raw.csv.gz",
+      "sha256": "5ac96d5c3527738f8c5e282d89ceda96080e4a6ae6b15dcea84ebfd467cdff82",
+      "bytes": 357
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i80_pre_raw.csv.gz",
+      "sha256": "48bf8370966a79497524b1063145fc16352bea92e17667eabec6211c0ef48a07",
+      "bytes": 353
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i87_pre_raw.csv.gz",
+      "sha256": "91402ca498c5194975d4906d406b7f80b2bee8370930a530fc2678580e092e32",
+      "bytes": 251
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i96_pre_raw.csv.gz",
+      "sha256": "ae768ce7b14bdf60732e71a0111b6abbb746adf7c0d53d31d9ac2fd2b2074a7a",
+      "bytes": 249
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i105_pre_raw.csv.gz",
+      "sha256": "646971dc3c375c3647413b25bf717001359e5112e015bbf6e9a01b98434e78cb",
+      "bytes": 280
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i119_pre_raw.csv.gz",
+      "sha256": "520b6db7a55e4ac37aab6e139abf21fe2033fba64a373ebed41025a1238b3d07",
+      "bytes": 177
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i128_pre_raw.csv.gz",
+      "sha256": "ad24196742524595217923047a3f3b16ef8723c1d8081f8c50b7d1fbcad8aba0",
+      "bytes": 272
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i134_pre_raw.csv.gz",
+      "sha256": "3eb42ba52efbc5e72910f6b069eba23b046253882881793dc30ecb266fddc222",
+      "bytes": 383
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i139_pre_raw.csv.gz",
+      "sha256": "beff0d2a217fa755e8f83746edafe0b85fbc86a06efb5cd26bd01c0875c47511",
+      "bytes": 362
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i145_pre_raw.csv.gz",
+      "sha256": "922b4819fd7273c47c6f68fbf6ce0f97d1ccbc1a0120ee6372e6c5511a2c1c3d",
+      "bytes": 214
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i156_pre_raw.csv.gz",
+      "sha256": "c7de3525ed542cf7bd4440aadbbe5b016c5de9250a692699724872d6f27a8e3e",
+      "bytes": 163
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i170_pre_raw.csv.gz",
+      "sha256": "48a60fdf9ab2383186b6f7df9d1077424cb8840e1cc46392d8e33c257d9ee6ce",
+      "bytes": 214
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i177_pre_raw.csv.gz",
+      "sha256": "04f524df42c1a5ac59bb1562193bccb97acce6a2ba5ace2f6af91413e91828b3",
+      "bytes": 238
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i194_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i206_pre_raw.csv.gz",
+      "sha256": "57a26acbc6be515e88b9063aebf1264d7210b75bd5ae3dd7ff072703acc8fe3e",
+      "bytes": 177
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i214_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i231_pre_raw.csv.gz",
+      "sha256": "ccf5e5ce70d5c1932b4d1bc4f8460328941076a7ec5881f9787e26c1ca9f1c27",
+      "bytes": 182
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i248_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i273_pre_raw.csv.gz",
+      "sha256": "7aa86786df2385bcc83c2efe79d577cb27f8763d64f3e12cc3ffa7eb53437ca0",
+      "bytes": 225
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i289_pre_raw.csv.gz",
+      "sha256": "5059b01ee88197efbfb33b406da061057beb89568d9242cd39eda9524bc0ea0c",
+      "bytes": 201
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i321_pre_raw.csv.gz",
+      "sha256": "7abfc739751f8081e7fa4f7ba3ed0135565c4082ea7eb1ce7a0027e827537a76",
+      "bytes": 165
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i374_pre_raw.csv.gz",
+      "sha256": "344c0887a6b4d81fda96bf7a12735b0b01b43c57280cb4fb42524518f472f67d",
+      "bytes": 178
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i388_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i442_pre_raw.csv.gz",
+      "sha256": "ee140323891b59b1fad87734dd8988f7b32f8a5b711fa56969b2629266540efd",
+      "bytes": 166
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i462_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i475_pre_raw.csv.gz",
+      "sha256": "8a6c08dab5b05d062c29ec8b7d3527c1a17619837d769bcc60022df6279aec84",
+      "bytes": 330
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i496_pre_raw.csv.gz",
+      "sha256": "ac42803f505e4571145c2461f8bdea82c12943483c0e5af104a64f3aa36b099d",
+      "bytes": 205
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj12\\binary_empty_mask\\s6_i501_pre_raw.csv.gz",
+      "sha256": "3a3c57575de9c4d9ea9f072cb5458598e1f8fefb35150ef7bc4413b8e65efea4",
+      "bytes": 184
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i3_pre_raw.csv.gz",
+      "sha256": "84c9244b19c70d5164710cb459b7ff0ee23bd143273991e779dd74df8e6997d2",
+      "bytes": 39232
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i13_pre_raw.csv.gz",
+      "sha256": "901bf02f0c54025123ef77dd2527b7847b66865a0b35c6e3b83cdaa7e6f2d0bc",
+      "bytes": 47798
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i21_pre_raw.csv.gz",
+      "sha256": "1062a8ea15e28e4e2d22703004e6e9dbebfe8d382fdeed0385fd1a598533a4a8",
+      "bytes": 50176
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i30_pre_raw.csv.gz",
+      "sha256": "fef736d4b5ae8c9114708cc7ee28aa30bf7f114c24fcef767bed1a765b60a310",
+      "bytes": 52000
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i39_pre_raw.csv.gz",
+      "sha256": "c0f2a5144898b55459f3a0a2609e5287f4705d70c914add4b11cbde6c9bb16bf",
+      "bytes": 51927
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i54_pre_raw.csv.gz",
+      "sha256": "a7d3455d74d021c5413e6c48e51a86a25c892a6443dc829a5b96cb38b9328516",
+      "bytes": 43546
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i62_pre_raw.csv.gz",
+      "sha256": "d4d0f6955eadfef1273bd705d8716c524af437ec4f44f5760cc7640857a71139",
+      "bytes": 35143
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i67_pre_raw.csv.gz",
+      "sha256": "a837ab1ef48262413d0c19a5f920a42ac284424b5ef610d0e2d74e7a173cb2f9",
+      "bytes": 37166
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i71_pre_raw.csv.gz",
+      "sha256": "89a5e888f3dcafdf51b6cbb6ccf8df87f86198288fb3d00a37051b4e43bc2586",
+      "bytes": 40005
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i81_pre_raw.csv.gz",
+      "sha256": "958fc29813d5bd995b9490c99a2f4d9f164464e2ed38de0c86924892b986e9f5",
+      "bytes": 42820
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i87_pre_raw.csv.gz",
+      "sha256": "acdc8b0c8e13bbc9a0fb56466ed4588f544165b271e70b529e06409aeb2c9304",
+      "bytes": 47558
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i94_pre_raw.csv.gz",
+      "sha256": "8853f2ffd34800ad244f28e424ba3f3adbf9a69563824ad47aedd2c21cfb1f38",
+      "bytes": 48197
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i102_pre_raw.csv.gz",
+      "sha256": "740a05b4d20534bc0ce4b0753206c7d0d9d5362b04a1b2de740db604d97af916",
+      "bytes": 54195
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i112_pre_raw.csv.gz",
+      "sha256": "000c49e2d4f314e090377df896303c29c105f5b0886afaf73f2a1d8d591e541c",
+      "bytes": 44833
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i130_pre_raw.csv.gz",
+      "sha256": "53480b0716be73b4570af77583e17455c7f197e9f491f95e76bfd5cc3937c69a",
+      "bytes": 43512
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i155_pre_raw.csv.gz",
+      "sha256": "8fbb4a8376ccaa7836e84a77ef31447c74c21b0207d2c22bb6c423e01ea98031",
+      "bytes": 17866
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i166_pre_raw.csv.gz",
+      "sha256": "73406725c792162cd4439ff2b7f9167cbddd2252a0de7b4912b4316d96a58f07",
+      "bytes": 27504
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i185_pre_raw.csv.gz",
+      "sha256": "8a6bbd74892a1f381bb949d9fcaf3ae7cadf48cf417b205b787dafb702f981a8",
+      "bytes": 22836
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i198_pre_raw.csv.gz",
+      "sha256": "35d1ffef871e5db815781fd180b25a33e0de03c0519c5b5521377f8e580160bd",
+      "bytes": 16270
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i207_pre_raw.csv.gz",
+      "sha256": "c70b8892ed1c33d84c7f710f9a59dc34efe0508ccc80d6daae07ad61b7a74aa1",
+      "bytes": 19767
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i219_pre_raw.csv.gz",
+      "sha256": "089f13eea3e4d494002f7cebd8e9509a2ab4f68a8be350e559367c63ea2bf8da",
+      "bytes": 274
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i229_pre_raw.csv.gz",
+      "sha256": "d104db17e81a3d25bdc30ef09af9007b72efac70c40ae5c6ffe0e490b09510bd",
+      "bytes": 5904
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i239_pre_raw.csv.gz",
+      "sha256": "b7d62d0c25e86e66e85278b231d33c59792e408ff4bb69f784f88fcf74c2c76d",
+      "bytes": 11977
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i251_pre_raw.csv.gz",
+      "sha256": "ec42d9cfe0b785c04c68813c85b0d504b216379a0b9c341fd8bddca79a271b2e",
+      "bytes": 2450
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i270_pre_raw.csv.gz",
+      "sha256": "efa2f4b2554894f25fe5df80aea17ad20d8a730e82ae24706601a10a2dc721ea",
+      "bytes": 1429
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i277_pre_raw.csv.gz",
+      "sha256": "ae814593959b309065f786e9db440377ad3d98bfcbc61bcf658c2137faf5d2c7",
+      "bytes": 338
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i285_pre_raw.csv.gz",
+      "sha256": "098f4453dd49999cc9a19f12ee5f5aabe3797455b3a999f7a2bf98a76214cc46",
+      "bytes": 8669
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i289_pre_raw.csv.gz",
+      "sha256": "a52b958e0f763c94bfbb3d6f103db02101afe64631e31ec2d2d3943f67cf7093",
+      "bytes": 869
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i295_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i306_pre_raw.csv.gz",
+      "sha256": "eb6c6957255a1f107560ff98b465139d1d1d378e075e5e0690f185a668349a33",
+      "bytes": 2415
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i314_pre_raw.csv.gz",
+      "sha256": "89fb65b99ad25a2a3c00b61817c42135e4495945987deccb44e31573d93e44b7",
+      "bytes": 2048
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i328_pre_raw.csv.gz",
+      "sha256": "607cb65052616b2e42b0de5fbd54aa149405ef4a81dc1de41c76da1f4f03105f",
+      "bytes": 173
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i342_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i348_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i354_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i366_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i378_pre_raw.csv.gz",
+      "sha256": "f0be55948eefcd40ec97139c91acf6e36ca6677ff8ea05117633b3065778d38d",
+      "bytes": 360
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i385_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i393_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i399_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i413_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i428_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i435_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i447_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i450_pre_raw.csv.gz",
+      "sha256": "39bac6c3b0fccb250c7ceff47147352cb8f64f002133a8df79b9205932be5ee9",
+      "bytes": 414
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i458_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i468_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i478_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i486_pre_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v1\\probe_phase1_v2\\native\\obj17\\binary_empty_mask\\s7_i493_pre_raw.csv.gz",
+      "sha256": "1f4100c0276d2ea70b3faf24f06559f7ec6c0224beeda01114a0dc2a21c38f36",
+      "bytes": 160
+    }
+  ],
+  "output_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\complete_pre_20261022_v1\\paired_215.csv",
+      "bytes": 90092,
+      "sha256": "c6dba9bc050a5d735c7a2134af8defca2ccc610c64229d015ef1822cca5b4cb0"
+    }
+  ],
+  "groups": {
+    "all": {
+      "identities": 215,
+      "complete_same_pose_pre_gt_support": 72,
+      "complete_other_pose_pre_gt_support": 157,
+      "other_pose_support_without_same_pose_support": 86,
+      "selected_tp_pose_relations": {
+        "other_pose": 147,
+        "not_assigned": 67,
+        "same_rgb_pose": 1
+      },
+      "traced_neighbor_paths": {
+        "neighbor_below85_while_window_winner_passes": 26,
+        "admitted_window_maximum_below85": 107,
+        "neighbor_passes_but_local_winner_displaced": 25,
+        "native_neighbor_emitted": 21,
+        "all_reachable_coarse_rejected": 36
+      }
+    },
+    "lost": {
+      "identities": 67,
+      "complete_same_pose_pre_gt_support": 0,
+      "complete_other_pose_pre_gt_support": 10,
+      "other_pose_support_without_same_pose_support": 10,
+      "selected_tp_pose_relations": {
+        "not_assigned": 67
+      },
+      "traced_neighbor_paths": {
+        "admitted_window_maximum_below85": 44,
+        "all_reachable_coarse_rejected": 23
+      }
+    },
+    "retained": {
+      "identities": 148,
+      "complete_same_pose_pre_gt_support": 72,
+      "complete_other_pose_pre_gt_support": 147,
+      "other_pose_support_without_same_pose_support": 76,
+      "selected_tp_pose_relations": {
+        "other_pose": 147,
+        "same_rgb_pose": 1
+      },
+      "traced_neighbor_paths": {
+        "neighbor_below85_while_window_winner_passes": 26,
+        "admitted_window_maximum_below85": 63,
+        "neighbor_passes_but_local_winner_displaced": 25,
+        "native_neighbor_emitted": 21,
+        "all_reachable_coarse_rejected": 13
+      }
+    }
+  },
+  "complete_binary_pre_frames": 213,
+  "counts": {
+    "binary_complete_pre_rows_scanned": 981533
+  },
+  "dataset_image_bytes_opened": 0,
+  "native_calls": 0,
+  "matcher_calls": 0,
+  "independent_phase2_audit_required": true,
+  "accuracy_improvement_claim": false,
+  "interpretation": "Other-pose rescue is the actual selected TP template pose relation; pre-support is separately complete, before representative/NMS."
+}

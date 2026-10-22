@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "numeric_report_only": true,
+  "classification_result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\run_20261022_v2\\result.json",
+    "bytes": 9291,
+    "sha256": "b96383b4bcf32f809cefa46725154c06424992ca72edf1e2b7d655d69f4b5872"
+  },
+  "counterfactual_input": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_phase2_v1\\native\\parent_links.csv.gz",
+    "sha256": "0259f18bad5b258ffb25ec2ef0432249791cb915bfd2f36846830bcf07099a94",
+    "bytes": 160595
+  },
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report.py",
+    "bytes": 9545,
+    "sha256": "ea4a057cb56166f8fd93e1decf55125a4470326659bc68394d5976080d306054"
+  },
+  "output_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report_20261022_v1\\COUNTERFACTUAL_FINE_CHECK.json",
+      "bytes": 754,
+      "sha256": "5c3208ad8fd678752a8f563704103acedbd14e8bea53baa7cc07043d0186aa28"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report_20261022_v1\\DEFINITIONS.md",
+      "bytes": 2554,
+      "sha256": "409222bc592104d9f159310df32380892b214002e05a9fb493cc55c5e8eedf18"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report_20261022_v1\\paired_215.csv",
+      "bytes": 78528,
+      "sha256": "7312aa20ead82cc6f4e52d8179c146c4f04c1f140464acca2c533036c176d629"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\report_20261022_v1\\RESULTS.md",
+      "bytes": 1778,
+      "sha256": "e5c49c16f58f2c4893990cbb42ec3308848e37f6c1c8147ac6ca1d4cce2ee510"
+    }
+  ],
+  "paired_identities": 215,
+  "dataset_image_bytes_opened": 0,
+  "native_calls": 0,
+  "independent_phase2_audit_required": true,
+  "accuracy_improvement_claim": false,
+  "speed_claim": false
+}

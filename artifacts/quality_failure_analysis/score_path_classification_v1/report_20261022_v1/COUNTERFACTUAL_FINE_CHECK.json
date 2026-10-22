@@ -1,0 +1,23 @@
+{
+  "admitted_window_maximum_below85": {
+    "identities": 44,
+    "v22_binary_categories": {
+      "all_overlapping_raw_suppressed_by_nms": 10,
+      "no_raw_candidate_ge_0_5": 34
+    },
+    "any_reachable_window_winner_at_least85": 1,
+    "any_reachable_native_neighbor_at_least85": 0,
+    "maximum_physical_score": 82.03125,
+    "maximum_native_neighbor_score": 83.78378295898438
+  },
+  "all_reachable_coarse_rejected": {
+    "identities": 23,
+    "v22_binary_categories": {
+      "no_raw_candidate_ge_0_5": 23
+    },
+    "any_reachable_window_winner_at_least85": 0,
+    "any_reachable_native_neighbor_at_least85": 0,
+    "maximum_physical_score": 65.17857360839844,
+    "maximum_native_neighbor_score": 69.64286041259766
+  }
+}

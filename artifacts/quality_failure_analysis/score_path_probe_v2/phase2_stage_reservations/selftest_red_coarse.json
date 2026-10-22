@@ -1,0 +1,20 @@
+{
+  "stage": "selftest_red_coarse",
+  "output": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_selftest_red_coarse_v1",
+  "inputs": {
+    "build": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\probe_build_red_v1\\build_manifest.json",
+      "sha256": "930f898a38ea26bb3e8173e5e43ad0afba8c5d6f8abec9407ed9fc048bc0384b",
+      "bytes": 174416
+    },
+    "input_plan": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_probe_v2\\PHASE2_INPUTS_V1.json",
+      "sha256": "830a77d629ad766df998aa59fbd1b6cf6bc207c900263afd04b890560eb9215a",
+      "bytes": 4259952
+    },
+    "selftest": null,
+    "red_receipts": []
+  },
+  "one_shot": true,
+  "incomplete_run_still_consumes_reservation": true
+}

@@ -1,0 +1,14 @@
+E
+======================================================================
+ERROR: test_red_green_sources_allow_only_the_identical_generated_header_to_move (test_source_contract.SourceTests.test_red_green_sources_allow_only_the_identical_generated_header_to_move)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\score_path_probe_v2\test_source_contract.py", line 47, in test_red_green_sources_allow_only_the_identical_generated_header_to_move
+    self.assertTrue(c.equivalent_build_inputs(red, green))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'source_contract' has no attribute 'equivalent_build_inputs'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

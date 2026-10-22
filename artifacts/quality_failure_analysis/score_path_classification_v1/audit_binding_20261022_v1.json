@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "independent_numeric_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\score_path_probe_v2\\run_numeric_audit_20261022_v2\\result.json",
+    "bytes": 7545,
+    "sha256": "1710a1b3fe934ad73b8484b24527a99c2dddcdc6c20cca82aa2c3860ba724ea8"
+  },
+  "diagnostics": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\score_path_probe_v2\\run_numeric_audit_20261022_v2\\diagnostics.csv",
+    "sha256": "a953830bd1db680ebae834b1075b1100b60ce3c280e2d1a342bcafce6e4793c7",
+    "bytes": 35965
+  },
+  "classification_result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\run_20261022_v2\\result.json",
+    "bytes": 9291,
+    "sha256": "b96383b4bcf32f809cefa46725154c06424992ca72edf1e2b7d655d69f4b5872"
+  },
+  "complete_pre_result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\complete_pre_20261022_v1\\result.json",
+    "bytes": 69446,
+    "sha256": "3dba013680b01933aced9a1972437f1c939cc4cfc00df50b5e1fd187627f499a"
+  },
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\score_path_classification_v1\\bind_independent_audit.py",
+    "bytes": 5085,
+    "sha256": "962a629fc8ad59be7addf67591dd5ce3d6170839f10ef8c69789934b87287746"
+  },
+  "matched_jobs": 430,
+  "matched_binary_complete_pre_jobs": 215,
+  "field_checks": 8385,
+  "differences": 0,
+  "distinction": "emitting_parents counts coarse parent identities, neighbor_emitted_points counts unique grid points; traced occurrences deduplicate identical coordinate/score winners.",
+  "previous_reports_unchanged": true,
+  "dataset_image_bytes_opened": 0,
+  "native_calls": 0,
+  "accuracy_improvement_claim": false,
+  "speed_claim": false
+}
