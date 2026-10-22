@@ -1,0 +1,36 @@
+test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) ... 
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='width: 14') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='tl_x: 2') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='[ 3, 3, 0 ]') ... FAIL
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='width: 14')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_serialized_features\test_training_audit.py", line 204, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(old=old),self.assertRaises(ValueError):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='tl_x: 2')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_serialized_features\test_training_audit.py", line 204, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(old=old),self.assertRaises(ValueError):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (old='[ 3, 3, 0 ]')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_serialized_features\test_training_audit.py", line 204, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(old=old),self.assertRaises(ValueError):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+FAILED (failures=3)

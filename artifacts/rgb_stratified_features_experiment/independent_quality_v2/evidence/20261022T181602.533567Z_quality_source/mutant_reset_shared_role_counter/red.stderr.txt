@@ -1,0 +1,15 @@
+test_three_occurrences_are_rejected (test_shared_numeric.SharedNumericTests.test_three_occurrences_are_rejected) ... FAIL
+
+======================================================================
+FAIL: test_three_occurrences_are_rejected (test_shared_numeric.SharedNumericTests.test_three_occurrences_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent_quality_v2\evidence\20261022T181602.533567Z_quality_source\mutant_reset_shared_role_counter\test_shared_numeric.py", line 58, in test_three_occurrences_are_rejected
+    with self.assertRaises(ValueError):self.parse(inputs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (failures=1)

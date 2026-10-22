@@ -1,0 +1,113 @@
+{
+  "schema": "root_quality_join_source_review_v1",
+  "passed": true,
+  "cases": 28,
+  "passed_cases": 28,
+  "failed_cases": [],
+  "elapsed_seconds": 0.0470000000204891,
+  "source_pins_before": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\complete_quality_evidence.py",
+      "bytes": 10113,
+      "sha256": "19975128e2d4f50b7311f53dffc37694fb4cacdc05afaf49fb799c4b1b717d82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\run_audit.py",
+      "bytes": 10390,
+      "sha256": "5dca921508292eb1582f83782cfc4cb3923743bd7a6da78d2c8658d78070cd12"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\quality_audit.py",
+      "bytes": 21320,
+      "sha256": "733ecc0b76071ad4fedfa5b71e9dfc713289c874c2906783e5765911727bec55"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\contract.py",
+      "bytes": 14587,
+      "sha256": "6eee8f5c8b7b2b91a99b668023d66c2300ea8af2edff2241f5d7782b0be568ba"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_quality.py",
+      "bytes": 15551,
+      "sha256": "838f84009ac4e6e46a9ac91b574c79db9af52e1009e0ea6d3664c01a44a7674f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\quality_contract.py",
+      "bytes": 6436,
+      "sha256": "a536482a98cae5bc1b504de23895a47bf4c05c9a8cb554f8d463720d45e2b4c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\evidence.py",
+      "bytes": 8619,
+      "sha256": "579263992657f9bb2d4c4121c38eaaedc6e208427c2b5332cd3d42856ceb6838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+      "bytes": 9142,
+      "sha256": "bb095f0eadbde9944fa2216fc89685cb2cf993ff054951594f9fbcac6d0f04fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\quality_join_review_v1\\review_validate_result.py",
+      "bytes": 6835,
+      "sha256": "9eb252467efda2eced1f16182e8cb6fd5be9eab8aec4ac13bebd93dde4435a5c"
+    }
+  ],
+  "source_pins_after": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\complete_quality_evidence.py",
+      "bytes": 10113,
+      "sha256": "19975128e2d4f50b7311f53dffc37694fb4cacdc05afaf49fb799c4b1b717d82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\run_audit.py",
+      "bytes": 10390,
+      "sha256": "5dca921508292eb1582f83782cfc4cb3923743bd7a6da78d2c8658d78070cd12"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\quality_audit.py",
+      "bytes": 21320,
+      "sha256": "733ecc0b76071ad4fedfa5b71e9dfc713289c874c2906783e5765911727bec55"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\contract.py",
+      "bytes": 14587,
+      "sha256": "6eee8f5c8b7b2b91a99b668023d66c2300ea8af2edff2241f5d7782b0be568ba"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_quality.py",
+      "bytes": 15551,
+      "sha256": "838f84009ac4e6e46a9ac91b574c79db9af52e1009e0ea6d3664c01a44a7674f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\quality_contract.py",
+      "bytes": 6436,
+      "sha256": "a536482a98cae5bc1b504de23895a47bf4c05c9a8cb554f8d463720d45e2b4c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\evidence.py",
+      "bytes": 8619,
+      "sha256": "579263992657f9bb2d4c4121c38eaaedc6e208427c2b5332cd3d42856ceb6838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+      "bytes": 9142,
+      "sha256": "bb095f0eadbde9944fa2216fc89685cb2cf993ff054951594f9fbcac6d0f04fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\root_source_tests\\quality_join_review_v1\\review_validate_result.py",
+      "bytes": 6835,
+      "sha256": "9eb252467efda2eced1f16182e8cb6fd5be9eab8aec4ac13bebd93dde4435a5c"
+    }
+  ],
+  "matcher_calls": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "bank_reads": 0,
+  "raw_reads": 0,
+  "heldout_reads": 0,
+  "real_evidence_reads": 0,
+  "limitations": [
+    "Pure validate_result fixtures only; no quality_acceptance/timing_inputs execution",
+    "Source/CLI review is static, not a native/runtime/evidence attestation"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\training_audit.py",
+    "--run",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_training_v1",
+    "--output-pins",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v1\\OUTPUT_PINS.json",
+    "--output-pins-sha256",
+    "e46cb5dfe5c2b36246037503be3eb8d4d1ac15221f27f4da71c4790e06345b60",
+    "--freeze",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_INPUT_FREEZE.json",
+    "--freeze-sha256",
+    "8997865340d404c8360b32aa31ce8bd9123f809adc2959fe6d045256e7b8f41d",
+    "--receipt",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v1\\audit_output\\INDEPENDENT_RECEIPT.json"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 5400,
+  "maximum_rss_bytes": 1610612736,
+  "maximum_output_bytes": 268435456,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 27420,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 4485.125,
+  "peak_rss_bytes": 199004160,
+  "native_output_bytes": 0,
+  "samples": 85687
+}

@@ -1,0 +1,115 @@
+test_changed_sha_and_size_rejected (test_public_selection.InheritedPolicyTests.test_changed_sha_and_size_rejected) ... ok
+test_duplicate_members_and_duplicate_json_keys_rejected (test_public_selection.InheritedPolicyTests.test_duplicate_members_and_duplicate_json_keys_rejected) ... ok
+test_exact_index_blobs_for_sha1_and_sha256 (test_public_selection.InheritedPolicyTests.test_exact_index_blobs_for_sha1_and_sha256) ... ok
+test_explicit_selection_without_git_or_default_manifest (test_public_selection.InheritedPolicyTests.test_explicit_selection_without_git_or_default_manifest) ... ok
+test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) ... 
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.PNG') ... FAIL
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.smd') ... FAIL
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.exe') ... FAIL
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.dll') ... FAIL
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.pyc') ... FAIL
+  test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.zip') ... FAIL
+test_path_escape_and_noncanonical_paths_rejected (test_public_selection.InheritedPolicyTests.test_path_escape_and_noncanonical_paths_rejected) ... ok
+test_selection_must_be_inside_repository (test_public_selection.InheritedPolicyTests.test_selection_must_be_inside_repository) ... ok
+test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected (test_public_selection.NumericPoolTests.test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected) ... 
+  test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected (test_public_selection.NumericPoolTests.test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected) (fault='absent') ... FAIL
+test_bad_export_schema_status_accounting_and_duplicates_are_rejected (test_public_selection.NumericPoolTests.test_bad_export_schema_status_accounting_and_duplicates_are_rejected) ... ok
+test_changed_selected_pool_pin_cannot_override_accepted_export (test_public_selection.NumericPoolTests.test_changed_selected_pool_pin_cannot_override_accepted_export) ... ok
+test_even_rebound_manifest_cannot_select_wrong_pool_name (test_public_selection.NumericPoolTests.test_even_rebound_manifest_cannot_select_wrong_pool_name) ... ok
+test_exact_accepted_identity_pool_is_allowed_offline (test_public_selection.NumericPoolTests.test_exact_accepted_identity_pool_is_allowed_offline) ... ok
+test_exact_pool_and_manifest_index_blobs_remain_required (test_public_selection.NumericPoolTests.test_exact_pool_and_manifest_index_blobs_remain_required) ... ok
+test_export_member_escape_duplicate_and_nonfinite_values_are_rejected (test_public_selection.NumericPoolTests.test_export_member_escape_duplicate_and_nonfinite_values_are_rejected) ... ok
+test_forbidden_names_cannot_be_laundered_through_manifest (test_public_selection.NumericPoolTests.test_forbidden_names_cannot_be_laundered_through_manifest) ... ok
+test_manifest_bytes_change_after_both_pins_were_fixed_is_rejected (test_public_selection.NumericPoolTests.test_manifest_bytes_change_after_both_pins_were_fixed_is_rejected) ... ok
+test_manifest_duplicate_keys_and_changed_trusted_bytes_rejected (test_public_selection.NumericPoolTests.test_manifest_duplicate_keys_and_changed_trusted_bytes_rejected) ... ok
+test_missing_export_member_is_not_a_complete_public_bundle (test_public_selection.NumericPoolTests.test_missing_export_member_is_not_a_complete_public_bundle) ... ok
+test_pool_requires_identity_original_mapping_and_both_matching_pins (test_public_selection.NumericPoolTests.test_pool_requires_identity_original_mapping_and_both_matching_pins) ... ok
+test_unbound_or_different_directory_pool_is_rejected_before_read (test_public_selection.NumericPoolTests.test_unbound_or_different_directory_pool_is_rejected_before_read) ... 
+  test_unbound_or_different_directory_pool_is_rejected_before_read (test_public_selection.NumericPoolTests.test_unbound_or_different_directory_pool_is_rejected_before_read) (fault='unbound') ... FAIL
+  test_unbound_or_different_directory_pool_is_rejected_before_read (test_public_selection.NumericPoolTests.test_unbound_or_different_directory_pool_is_rejected_before_read) (fault='path_mixing') ... FAIL
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.PNG')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.smd')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.exe')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.dll')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.pyc')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_forbidden_and_oversize_members_rejected_before_read (test_public_selection.InheritedPolicyTests.test_forbidden_and_oversize_members_rejected_before_read) (suffix='.zip')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_publication.py", line 85, in test_forbidden_and_oversize_members_rejected_before_read
+    with self.assertRaises(SystemExit): self.verify(root,path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected (test_public_selection.NumericPoolTests.test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected) (fault='absent')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_public_selection.py", line 124, in test_absent_or_unselected_or_noncanonical_manifest_pin_is_rejected
+    with self.assertRaises(SystemExit):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_unbound_or_different_directory_pool_is_rejected_before_read (test_public_selection.NumericPoolTests.test_unbound_or_different_directory_pool_is_rejected_before_read) (fault='unbound')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_public_selection.py", line 217, in test_unbound_or_different_directory_pool_is_rejected_before_read
+    with patch.object(Path, "read_bytes", read), self.assertRaises(SystemExit):
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+======================================================================
+FAIL: test_unbound_or_different_directory_pool_is_rejected_before_read (test_public_selection.NumericPoolTests.test_unbound_or_different_directory_pool_is_rejected_before_read) (fault='path_mixing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\release_v31\successor_mutations_v1\disable_outer_suffix_gate\source\test_public_selection.py", line 217, in test_unbound_or_different_directory_pool_is_rejected_before_read
+    with patch.object(Path, "read_bytes", read), self.assertRaises(SystemExit):
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: SystemExit not raised
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.021s
+
+FAILED (failures=9)

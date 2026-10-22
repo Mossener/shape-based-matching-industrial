@@ -1,0 +1,1 @@
+{"passed": true, "literal_only": true, "receipt": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp4hatgf71\\evidence\\nested\\INDEPENDENT_RECEIPT.json"}

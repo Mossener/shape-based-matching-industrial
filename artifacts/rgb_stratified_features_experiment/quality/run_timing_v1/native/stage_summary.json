@@ -1,0 +1,72 @@
+{
+    "passed": 1,
+    "stage": "timing",
+    "objects": [ 1, 2, 5, 8, 12, 17 ],
+    "unique_frames": 64,
+    "object_frame_combinations": 384,
+    "matcher_calls": 29952.0,
+    "warmup_rounds": 1,
+    "measured_rounds": 12,
+    "formal_rows": 27648,
+    "exact_own_reference_every_call": 1,
+    "decode_total_ms": 3877.0012000000029,
+    "peak_rss_bytes": 250425344.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 1,
+    "variants": [
+        {
+            "arm": "rgb_control",
+            "path": "fallback",
+            "samples": 4608,
+            "match_median_ms": 27.9117,
+            "match_p95_ms": 75.878399999999999,
+            "external_median_ms": 28.079000000000001,
+            "external_p95_ms": 76.124600000000001
+        },
+        {
+            "arm": "rgb_control",
+            "path": "fused",
+            "samples": 4608,
+            "match_median_ms": 26.048100000000002,
+            "match_p95_ms": 63.533299999999997,
+            "external_median_ms": 26.156700000000001,
+            "external_p95_ms": 63.746000000000002
+        },
+        {
+            "arm": "rgb_pooled_features",
+            "path": "fallback",
+            "samples": 4608,
+            "match_median_ms": 22.8599,
+            "match_p95_ms": 69.444400000000002,
+            "external_median_ms": 22.937100000000001,
+            "external_p95_ms": 69.544799999999995
+        },
+        {
+            "arm": "rgb_pooled_features",
+            "path": "fused",
+            "samples": 4608,
+            "match_median_ms": 21.972100000000001,
+            "match_p95_ms": 59.965299999999999,
+            "external_median_ms": 22.051100000000002,
+            "external_p95_ms": 60.074800000000003
+        },
+        {
+            "arm": "rgb_stratified_features",
+            "path": "fallback",
+            "samples": 4608,
+            "match_median_ms": 23.276900000000001,
+            "match_p95_ms": 69.286000000000001,
+            "external_median_ms": 23.356100000000001,
+            "external_p95_ms": 69.362700000000004
+        },
+        {
+            "arm": "rgb_stratified_features",
+            "path": "fused",
+            "samples": 4608,
+            "match_median_ms": 22.186199999999999,
+            "match_p95_ms": 62.085000000000001,
+            "external_median_ms": 22.297699999999999,
+            "external_p95_ms": 62.171700000000001
+        }
+    ]
+}

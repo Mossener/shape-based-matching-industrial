@@ -1,0 +1,126 @@
+test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) ... 
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='complete') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='literal_only') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='gradient_pyramids') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='pyramid_downs') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='arm_layer_rows') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='rgb_decodes') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='total_imread_calls') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='matcher_calls') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='logical_payload_bytes') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='physical_bytes_before_summary') ... FAIL
+  test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='shared_poses') ... FAIL
+test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) ... FAIL
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='complete')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='literal_only')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='gradient_pyramids')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='pyramid_downs')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='arm_layer_rows')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='rgb_decodes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='total_imread_calls')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='matcher_calls')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='logical_payload_bytes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='physical_bytes_before_summary')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract) (field='shared_poses')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 344, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_inherited_config_builder_and_full_observed_summary_contract (test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_summary_contract\test_training_audit.py", line 347, in test_inherited_config_builder_and_full_observed_summary_contract
+    with self.assertRaises(ValueError): audit.verify_training_summary(wrong,report,True,1234,800)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=12)

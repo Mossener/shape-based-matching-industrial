@@ -1,0 +1,9 @@
+{
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_RESERVATION.json",
+    "bytes": 17954,
+    "sha256": "469b1af3751fff9a96c20baa9995c5575b4c7b564a7c772b052de001096d3c31"
+  },
+  "consumed": true,
+  "automatic_retry": false
+}

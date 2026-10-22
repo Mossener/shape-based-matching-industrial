@@ -1,0 +1,47 @@
+{
+  "schema": "rgb_stratified_geometry_execution_receipt_v1",
+  "passed": true,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RESERVATION.json",
+    "bytes": 2007,
+    "sha256": "d370ef74c48ea01f6e805c754d6e92883661876ce51d45dbea3ef82724318f1b"
+  },
+  "reservation_consumed": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RESERVATION.json.consumed.json",
+    "bytes": 536,
+    "sha256": "5fd692ef301d62afc454404d7fbf9980c284786e7d60fa8f6ca4762d5fffe7ca"
+  },
+  "input_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+    "bytes": 19221,
+    "sha256": "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a"
+  },
+  "source_numeric_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+    "bytes": 21963,
+    "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+  },
+  "native_executions": 0,
+  "image_reads": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "production_promotion": false,
+  "geometry_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\GEOMETRY_FREEZE.json",
+    "bytes": 3097,
+    "sha256": "99e7e4abbfb24dcf964b87069f537a0bbebba0f7207b917700d908cef1176d87"
+  },
+  "geometry_report": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\bank_geometry_report.json",
+    "bytes": 71295252,
+    "sha256": "47839b4d886781769cb406d325d7fc54b40315841088587b9ac7697ccf165ff9"
+  },
+  "common_padding_plan": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\common_padding_plan.json",
+    "bytes": 338,
+    "sha256": "7776f28cdcbafda096e826d52d6f4a52f29ef471bd1ac05882b0bd98e295d56d"
+  },
+  "scanned_banks": 18,
+  "loaded_layers": 119246,
+  "actual_features_scanned": 2823355
+}

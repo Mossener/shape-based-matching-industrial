@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "command": [
+    "python",
+    "-B",
+    "artifacts\\rgb_stratified_features_experiment\\release_v31\\check_inherited_public_numeric.py"
+  ],
+  "exit_code": 1,
+  "observed_error": "ValueError: Inherited numeric input not published: datasets/tless_expanded/index.json",
+  "source": "Root tool observation, not a captured child stdout/stderr file",
+  "numeric_or_matcher_runs": 0
+}

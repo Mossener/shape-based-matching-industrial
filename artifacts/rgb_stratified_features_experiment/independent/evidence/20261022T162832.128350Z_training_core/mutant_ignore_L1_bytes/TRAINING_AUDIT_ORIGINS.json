@@ -1,0 +1,36 @@
+{
+  "schema": "independent_training_audit_origins_v1",
+  "observed_numeric_document_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\DESIGN.md",
+      "bytes": 11933,
+      "sha256": "907ad86ae561340a68e91bf895bcaa0ee2af780967cce87225338f92fc0e48fd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PROTOCOL.json",
+      "bytes": 15197,
+      "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\DESIGN_ERRATA_1.md",
+      "bytes": 4177,
+      "sha256": "aa0f6f4ec5381fee5a6c4f844a64997d8b214fb4fc240b7a1e388c9ed98787d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PACK_FORMAT_V1.md",
+      "bytes": 1814,
+      "sha256": "e809b59ed447c9d69d1734046881ef6b89d1d96aee60e2838c577cb1e237d6ac"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\frozen_helpers\\tless_eval.cpp",
+      "bytes": 37373,
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef"
+    }
+  ],
+  "no_new_native_implementation_source_read": true,
+  "crop_contract": "Parent provided original V11 cross-layer scaled extrema, even min, no+1 and layer shifts; independent literals cover it",
+  "bank_reader_origin": "BANK_READER_ORIGIN.json",
+  "real_image_reads": 0,
+  "real_bank_reads": 0,
+  "native_calls": 0
+}

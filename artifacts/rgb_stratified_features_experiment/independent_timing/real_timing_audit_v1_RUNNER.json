@@ -1,0 +1,146 @@
+{
+  "schema": "independent_three_arm_timing_runner_v1",
+  "passed": true,
+  "input_pin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\TIMING_INPUTS_V1.json",
+    "bytes": 2005,
+    "sha256": "eb00430e49bb79fb3a6e737ccfa63ef8c864d4611e08acd138ddb385ec0d801f"
+  },
+  "timing_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\QUALITY_STAGE_FREEZE.json",
+    "bytes": 9510,
+    "sha256": "7d93270913bbc629470b1f7aaecfbeacca7cad631483683583a250b621288cc0"
+  },
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1_RESERVATION.json",
+    "bytes": 4404,
+    "sha256": "144aa3dacb1186cb9b793f0af1bf29d190f2288447d28066ada93aae59db037f"
+  },
+  "consumed": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1_RESERVATION.json.consumed.json",
+    "bytes": 318,
+    "sha256": "2ccf2e05899eb39138feb61a976c7adfbc791258b52e832900e133b80a2979e8"
+  },
+  "native_runs": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "production_promotion": false,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+    "--inputs",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\TIMING_INPUTS_V1.json",
+    "--inputs-sha256",
+    "eb00430e49bb79fb3a6e737ccfa63ef8c864d4611e08acd138ddb385ec0d801f",
+    "--inputs-bytes",
+    "2005",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1",
+    "--cpu-slot-granted"
+  ],
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+      "--inputs",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\TIMING_INPUTS_V1.json",
+      "--inputs-sha256",
+      "eb00430e49bb79fb3a6e737ccfa63ef8c864d4611e08acd138ddb385ec0d801f",
+      "--inputs-bytes",
+      "2005",
+      "--output",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1",
+      "--cpu-slot-granted"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing",
+    "started": true,
+    "passed": true,
+    "exit_code": 0,
+    "maximum_seconds": 5400,
+    "maximum_rss_bytes": 1610612736,
+    "maximum_output_bytes": 4294967296,
+    "minimum_free_bytes": 0,
+    "maximum_execution_bytes": 67108864,
+    "pid": 35832,
+    "reason": null,
+    "elapsed_seconds": 102.06200000000536,
+    "peak_rss_bytes": 191221760,
+    "native_output_bytes": 1950919,
+    "samples": 1891
+  },
+  "numeric_audit_passed": true,
+  "result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1\\result.json",
+    "bytes": 1839906,
+    "sha256": "e49d1497078ca061f93962ede6f71546166046c16f6ab0540b6938786ef27a2f"
+  },
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\audit.py",
+      "bytes": 9142,
+      "sha256": "bb095f0eadbde9944fa2216fc89685cb2cf993ff054951594f9fbcac6d0f04fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\evidence.py",
+      "bytes": 8619,
+      "sha256": "579263992657f9bb2d4c4121c38eaaedc6e208427c2b5332cd3d42856ceb6838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\frozen_v30_timing.py",
+      "bytes": 39474,
+      "sha256": "375a1d8d3aef2d492c121001c7faf1b4e24c34aeee0463299cafdc7db558e2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\ORIGIN.json",
+      "bytes": 556,
+      "sha256": "df44ef599c0476382b005e8b4ee116aa65bdbb1136b4fe132a635d8e1c83fb8d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\README.md",
+      "bytes": 3395,
+      "sha256": "30974164fbb76e545bf1c55120f80f83ba7424c72cc3be743fff1192cdce2746"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\run_audit.py",
+      "bytes": 8282,
+      "sha256": "fd9830256a129bc659321c149fc2fab219a6ef771a96ac282e600dec22667afa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\run_source_tests.py",
+      "bytes": 3556,
+      "sha256": "4145f2f8f60591581ec4b33a10a0b8c5950eb1c24fa18c930fae31c7d77dbafc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\SOURCE_STATUS.json",
+      "bytes": 633,
+      "sha256": "aafa2ce164506b0d7dd31c069385e717c355887d2372fe838f8d3866b4c716c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\test_timing_audit.py",
+      "bytes": 10193,
+      "sha256": "781694db86cfe5c1036092f848a1644c23ec9d6dd585a01b3344849331231282"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\test_timing_evidence.py",
+      "bytes": 13081,
+      "sha256": "559a2d750abb855ce59546e67c915d507dbce1ea830b6fdb74cdf97283445ee9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\timing_audit.py",
+      "bytes": 14082,
+      "sha256": "bd809d7a70dd19fd29959a5729af341d4cb986facd5c7feff26ff2f0e57129e4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  ]
+}

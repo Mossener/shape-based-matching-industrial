@@ -1,0 +1,18 @@
+test_binary_and_materialized_restore_members_are_rejected (test_collect_actual_selection.CollectorTests.test_binary_and_materialized_restore_members_are_rejected) ... ok
+test_historical_snapshot_uses_run_pin_not_current_source (test_collect_actual_selection.CollectorTests.test_historical_snapshot_uses_run_pin_not_current_source) ... ok
+test_incomplete_stage_does_not_produce_a_passing_selection (test_collect_actual_selection.CollectorTests.test_incomplete_stage_does_not_produce_a_passing_selection) ... ok
+test_local_metadata_is_hashed_and_duplicate_json_keys_fail (test_collect_actual_selection.CollectorTests.test_local_metadata_is_hashed_and_duplicate_json_keys_fail) ... ok
+test_manifest_authorized_pool_is_the_only_binary_exception (test_collect_actual_selection.CollectorTests.test_manifest_authorized_pool_is_the_only_binary_exception) ... ok
+test_manifest_inventory_never_follows_unlisted_sibling (test_collect_actual_selection.CollectorTests.test_manifest_inventory_never_follows_unlisted_sibling) ... ok
+test_mutant_override_keeps_all_finite_source_roles (test_collect_actual_selection.CollectorTests.test_mutant_override_keeps_all_finite_source_roles) ... ok
+test_original_transport_pin_can_exceed_github_limit_but_selected_member_cannot (test_collect_actual_selection.CollectorTests.test_original_transport_pin_can_exceed_github_limit_but_selected_member_cannot) ... ok
+test_pathspec_is_explicit_nul_separated_and_has_no_self_pin (test_collect_actual_selection.CollectorTests.test_pathspec_is_explicit_nul_separated_and_has_no_self_pin) ... ok
+test_pin_does_not_read_payload_and_later_verifier_owns_hash_check (test_collect_actual_selection.CollectorTests.test_pin_does_not_read_payload_and_later_verifier_owns_hash_check) ... ok
+test_relative_traversal_and_external_fullpin_are_rejected (test_collect_actual_selection.CollectorTests.test_relative_traversal_and_external_fullpin_are_rejected) ... ok
+test_sources_record_external_runtime_without_selecting_it (test_collect_actual_selection.CollectorTests.test_sources_record_external_runtime_without_selecting_it) ... ok
+test_union_is_idempotent_and_conflicting_pin_fails (test_collect_actual_selection.CollectorTests.test_union_is_idempotent_and_conflicting_pin_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.110s
+
+OK

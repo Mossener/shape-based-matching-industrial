@@ -1,0 +1,16 @@
+{
+    "scene_id": 4,
+    "image_id": 0,
+    "rgb": "test_primesense/000004/rgb/000000.png",
+    "variant": "fallback",
+    "class_id": "tless_object_12",
+    "class_ids": [
+        "tless_object_12"
+    ],
+    "raw_candidate_count": 27,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/rgb_stratified_features_experiment/quality/run_pilot_v1/native/obj12/rgb_stratified_features/s4_i0_fallback_raw.csv.gz",
+    "compressed_bytes": 694.0,
+    "uncompressed_bytes": 2210.0,
+    "zlib_version": "1.3.1"
+}

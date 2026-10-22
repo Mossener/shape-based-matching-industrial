@@ -67,7 +67,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 
 当前 Git 历史从本地基线开始，尚未核实快照对应的上游提交。导入时的原始说明保存在 [README.upstream.md](README.upstream.md)，来源细节见 [source-provenance.md](docs/source-provenance.md)，源码许可见 [LICENSE](LICENSE)，依赖、文献和样本声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
-本地新增工作包括响应构建与搜索优化、工作区复用、独立开关、分段计时、LED/SMD 样本适配和对照测试，详见 [版本记录](docs/optimization_versions.md)。
+本地新增工作包括响应构建与搜索优化、工作区复用、独立开关、分段计时、LED/磁片 SMD 样本适配，以及公开数据上的模板训练与准确率对照实验，详见 [版本记录](docs/optimization_versions.md)。
 
 ## 能力
 
@@ -76,6 +76,26 @@ powershell -NoProfile -ExecutionPolicy Bypass -File artifacts/local_search_optim
 - 支持跨帧缓冲复用、构建/搜索分段计时，保留原 `Detector::match` 调用接口。
 - 匹配结果在相同 `(class_id,x,y,exact score)` 上采用确定性的最小模板编号和完整排序；这使 OpenMP 合并顺序不会改变重复候选的身份。有限分数的契约、回归矩阵和独立 oracle 见 [V11 验证记录](artifacts/match_consolidation/README.md)。
 - 已完成不可变基线对照、内核边界测试、八种搜索开关组合、工作区切换及独立并发验证。
+
+### V31：轮廓与内部特征分层采样的开发集结果
+
+V31 在隔离实验中使用同一 RGB 候选池，对比 pooled 采样 P 与轮廓/内部特征分层采样 B；
+C0 为冻结的原 RGB 对照。六个对象、400 张固定开发图共有 400 个 GT，allGT 结果如下：
+
+| 方案 | TP | FP | FN | 召回率 |
+| --- | ---: | ---: | ---: | ---: |
+| C0 原 RGB 对照 | 215 | 42,112 | 185 | 53.75% |
+| P pooled 采样 | 178 | 10,102 | 222 | 44.50% |
+| B 分层采样（主实验） | 187 | 11,116 | 213 | 46.75% |
+
+独立数值审计通过，预定准确率门槛 **B TP ≥ 215 且 FP < 42,112** 失败。
+B 减少误检，同时丢失原 C0 的 59 个检出身份、获得 31 个新身份，净少检出 28 个 GT。
+该方案保留为实验，生产核心与默认行为保持 V11；上面的匹配接口无需切换模板配方。
+开发集和磁片回归分开统计，留出场景及对象 25/29 继续封存。
+每对象指标、负样本与完整退步见 [V31 质量结果](artifacts/rgb_stratified_features_experiment/QUALITY_RESULTS_V31.md)。
+29,952 次配对计时及独立复算已完成，B/C0 完整调用耗时比中位数为
+0.809204（fallback）和 0.831725（fused）；对象 1 和部分尾部耗时变慢。
+这些速度结果伴随上述召回损失，详见 [V31 计时报告](artifacts/rgb_stratified_features_experiment/TIMING_RESULTS_V31.md)。
 
 ### 实测性能
 

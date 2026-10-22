@@ -1,0 +1,28 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\build_native_v1\\quality_eval.exe",
+    "--mode",
+    "development",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\native",
+    "--inputs",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_INPUT_FREEZE.json",
+    "--previous",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_pilot_v1\\native"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality",
+  "started": true,
+  "passed": true,
+  "exit_code": 0,
+  "maximum_seconds": 14400,
+  "maximum_rss_bytes": 1610612736,
+  "maximum_output_bytes": 4294967296,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 25188,
+  "reason": null,
+  "elapsed_seconds": 533.6879999999946,
+  "peak_rss_bytes": 251772928,
+  "native_output_bytes": 48164568,
+  "samples": 296
+}

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_geometry_audit.py",
+    "--inputs",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+    "--inputs-bytes",
+    "19221",
+    "--inputs-sha256",
+    "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a",
+    "--scanner-freeze",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\GEOMETRY_FREEZE.json",
+    "--scanner-freeze-bytes",
+    "3097",
+    "--scanner-freeze-sha256",
+    "99e7e4abbfb24dcf964b87069f537a0bbebba0f7207b917700d908cef1176d87",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\audit_output"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 1800.0,
+  "maximum_rss_bytes": 1610612736,
+  "maximum_output_bytes": 268435456,
+  "minimum_free_bytes": 536870912,
+  "maximum_execution_bytes": 33554432
+}

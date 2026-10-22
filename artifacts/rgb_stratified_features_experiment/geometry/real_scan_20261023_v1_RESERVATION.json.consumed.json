@@ -1,0 +1,10 @@
+{
+  "schema": "rgb_stratified_geometry_consumed_v1",
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RESERVATION.json",
+    "bytes": 2007,
+    "sha256": "d370ef74c48ea01f6e805c754d6e92883661876ce51d45dbea3ef82724318f1b"
+  },
+  "output": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1",
+  "policy": "consumed before any bank read; failure still consumes reservation"
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "v31_public_selection_successor_source_tests_v1",
+  "passed": false,
+  "exit_code": 1,
+  "tests": 17,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source",
+    "-p",
+    "test_public_selection.py",
+    "-v"
+  ],
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\test_publication.py",
+      "bytes": 7552,
+      "sha256": "16e6ee16824faae3fdfe4ba46d46e12bebd8978f7a17d902a53048c0d15bfefb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_public_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\test_public_selection.py",
+      "bytes": 14834,
+      "sha256": "a5660636f25c84a01daddd135a0a41f167060b344ada5ecee25a4fdda5781f6d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\run_public_tests.py",
+      "bytes": 2698,
+      "sha256": "4acd1067b0acf77c74825f77859ff6a6556e604336887a95a72f115b703fc178"
+    }
+  ],
+  "source_unchanged": true,
+  "source_snapshot_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source\\verify_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source\\test_publication.py",
+      "bytes": 7552,
+      "sha256": "16e6ee16824faae3fdfe4ba46d46e12bebd8978f7a17d902a53048c0d15bfefb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source\\verify_public_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source\\test_public_selection.py",
+      "bytes": 14834,
+      "sha256": "a5660636f25c84a01daddd135a0a41f167060b344ada5ecee25a4fdda5781f6d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\source\\run_public_tests.py",
+      "bytes": 2698,
+      "sha256": "4acd1067b0acf77c74825f77859ff6a6556e604336887a95a72f115b703fc178"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_red_manifest_pool_v1\\stderr.txt",
+      "bytes": 8286,
+      "sha256": "9105a8bfdce3bb2e9e3df0fe70ee17af16006e205b0323e993a127d46306de4e"
+    }
+  ],
+  "synthetic_only": true,
+  "real_git_commands_run": 0,
+  "real_index_reads": 0,
+  "real_bank_reads": 0,
+  "real_raw_archive_reads": 0,
+  "real_image_reads": 0,
+  "native_runs": 0,
+  "matcher_calls": 0,
+  "final_selection_created": false
+}

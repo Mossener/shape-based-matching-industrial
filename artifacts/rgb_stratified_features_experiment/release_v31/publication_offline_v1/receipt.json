@@ -1,0 +1,11 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_public_selection.py",
+    "--selection",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLISH_SELECTION_V31.json"
+  ],
+  "exit_code": 0,
+  "passed": true
+}

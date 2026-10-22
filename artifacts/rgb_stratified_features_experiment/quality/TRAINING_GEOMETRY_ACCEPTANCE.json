@@ -1,0 +1,23 @@
+{
+  "schema": "rgb_stratified_training_geometry_acceptance_v1",
+  "accepted_independent_audit": true,
+  "scope": "training_and_exact_geometry",
+  "numeric_audit_passed": true,
+  "production_promotion": false,
+  "training_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+    "sha256": "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a",
+    "bytes": 19221
+  },
+  "geometry_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\GEOMETRY_FREEZE.json",
+    "bytes": 3097,
+    "sha256": "99e7e4abbfb24dcf964b87069f537a0bbebba0f7207b917700d908cef1176d87"
+  },
+  "independent_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\ACCEPTED_TRAINING_GEOMETRY_REPORT.json",
+    "sha256": "228c9280685326e01df4d0745571bf2ab98f5d0e450ffed93bd176399c31d136",
+    "bytes": 6188
+  },
+  "quality_tested": false
+}

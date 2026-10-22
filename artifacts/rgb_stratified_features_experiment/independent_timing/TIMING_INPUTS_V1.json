@@ -1,0 +1,38 @@
+{
+  "schema": "rgb_stratified_independent_timing_inputs_v1",
+  "timing_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\QUALITY_STAGE_FREEZE.json",
+    "bytes": 9510,
+    "sha256": "7d93270913bbc629470b1f7aaecfbeacca7cad631483683583a250b621288cc0"
+  },
+  "development_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "6070b474d29b112c822d7f6a94a2ec920e454d104c511c42c29bf78a1d77b47a",
+    "bytes": 9086309
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "a23d18e84cfd2501371c617ba2c5d7915cdd7e25c7c307de8ad173e7724e3fc4",
+    "bytes": 3071298
+  },
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\build_native_v1\\build_manifest.json",
+    "sha256": "24e872c5b735964e018d2b0a51f3077ced946e8412fd0664fb6912e927a138e0",
+    "bytes": 257248
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "c3222387a68172668e11b657f84bcb821b7c13b4c2cc7ce589e8ce26fb394e45",
+    "bytes": 6045
+  },
+  "development_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality_v2\\real_development_audit_v2\\audit_output\\result.json",
+    "bytes": 12323462,
+    "sha256": "a025255549c2f1a877c1082b64bf2be9dd68377ea7a04c3954268d6957676e5a"
+  },
+  "quality_acceptance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_AUDIT_ACCEPTANCE.json",
+    "sha256": "b1d30b7295786e7cf2f2c1114c98fb4b64edfb601cf66751297c31bdac2c1a4a",
+    "bytes": 1970
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "scene_id": 1,
+    "image_id": 89,
+    "rgb": "test_primesense/000001/rgb/000089.png",
+    "variant": "fused",
+    "class_id": "tless_object_1",
+    "class_ids": [
+        "tless_object_1"
+    ],
+    "raw_candidate_count": 149,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/rgb_stratified_features_experiment/quality/run_development_v1/native/obj1/rgb_stratified_features/s1_i89_fused_raw.csv.gz",
+    "compressed_bytes": 3394.0,
+    "uncompressed_bytes": 11911.0,
+    "zlib_version": "1.3.1"
+}

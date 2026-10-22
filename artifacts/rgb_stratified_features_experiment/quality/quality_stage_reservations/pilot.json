@@ -1,0 +1,13 @@
+{
+  "stage": "pilot",
+  "run": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_pilot_v1",
+  "maximum_calls": 288,
+  "previous_stage": "old_gate",
+  "previous_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_old_gate_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "aa23f52ea1396cf09efdd95e84a9afc6bc55b307adfb66d7c88fef93791d108c",
+    "bytes": 75405
+  },
+  "total_protocol_maximum": 44736,
+  "policy": "One attempt per fixed stage; preserve reservation and partial evidence; missing frames are never negatives"
+}

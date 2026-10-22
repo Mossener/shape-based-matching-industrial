@@ -1,0 +1,94 @@
+{
+  "schema": "rgb_stratified_independent_geometry_runner_receipt_v1",
+  "passed": true,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_RESERVATION.json",
+    "bytes": 17954,
+    "sha256": "469b1af3751fff9a96c20baa9995c5575b4c7b564a7c772b052de001096d3c31"
+  },
+  "consumed_marker": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_RESERVATION.json.consumed.json",
+    "bytes": 330,
+    "sha256": "469fa8dce41a2775bebe3ce589b49af4cc9d8eb9f1427e0795dc6f76d36a1cff"
+  },
+  "scope": "exact_geometry_only",
+  "production_promotion": false,
+  "guard_limits": {
+    "maximum_seconds": 1800.0,
+    "maximum_rss_bytes": 1610612736,
+    "maximum_output_bytes": 268435456,
+    "maximum_execution_bytes": 33554432,
+    "minimum_free_bytes": 536870912
+  },
+  "actual_launches": 1,
+  "failure_preserved": false,
+  "automatic_retry": false,
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\independent_geometry_audit.py",
+      "--inputs",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+      "--inputs-bytes",
+      "19221",
+      "--inputs-sha256",
+      "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a",
+      "--scanner-freeze",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\GEOMETRY_FREEZE.json",
+      "--scanner-freeze-bytes",
+      "3097",
+      "--scanner-freeze-sha256",
+      "99e7e4abbfb24dcf964b87069f537a0bbebba0f7207b917700d908cef1176d87",
+      "--output",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\audit_output"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry",
+    "started": true,
+    "passed": true,
+    "exit_code": 0,
+    "maximum_seconds": 1800.0,
+    "maximum_rss_bytes": 1610612736,
+    "maximum_output_bytes": 268435456,
+    "minimum_free_bytes": 536870912,
+    "maximum_execution_bytes": 33554432,
+    "pid": 33444,
+    "reason": null,
+    "elapsed_seconds": 25.780999999988126,
+    "peak_rss_bytes": 860807168,
+    "native_output_bytes": 47860,
+    "samples": 494
+  },
+  "audit_output": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\audit_output\\INDEPENDENT_GEOMETRY_AUDIT.json",
+    "bytes": 47860,
+    "sha256": "73172bc2592d67754593b408470ffcad41deb678d1cd4e6e790aca68a873831f"
+  },
+  "source_numeric_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+    "bytes": 21963,
+    "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+  },
+  "computed_plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 848,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      244
+    ],
+    "pixels": 719104,
+    "estimated_dynamic_bytes": 368181248,
+    "banks": 18,
+    "loaded_layers": 119246,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  }
+}

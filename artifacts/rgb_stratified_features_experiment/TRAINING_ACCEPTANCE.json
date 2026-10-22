@@ -1,0 +1,132 @@
+{
+  "schema": "rgb_stratified_training_execution_acceptance_v1",
+  "real_training_accepted": true,
+  "source_runtime_accepted": true,
+  "numeric_audit_passed": true,
+  "quality_tested": false,
+  "production_promotion": false,
+  "independent_runner": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\RUNNER_RECEIPT.json",
+    "sha256": "1420b0cbb94961791049a3a9c2660c8c6c6cd8a638b1cf40371844a0f38b9606",
+    "bytes": 5379
+  },
+  "independent_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+    "bytes": 21963,
+    "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+  },
+  "training_provenance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_training_v1_PROVENANCE.json",
+    "sha256": "51a5291c03ee857524708c62602290ee13e742e99d8b962698fb66cfe3712cc1",
+    "bytes": 233000
+  },
+  "successful_templates": {
+    "P": [
+      3432,
+      3456,
+      3456,
+      3456,
+      3456,
+      3456
+    ],
+    "B": [
+      3432,
+      3456,
+      3456,
+      3456,
+      3456,
+      3456
+    ]
+  },
+  "progress": {
+    "rows": 207360,
+    "poses": 20736,
+    "collector_calls_observed": 41472,
+    "sampler_calls_observed": 82944,
+    "limitation": "Native observations, not an independent attestation of native calls"
+  },
+  "physical_bytes": 690835424,
+  "logical_bytes": 4182693421,
+  "modules": {
+    "non_system": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\build_training_v1\\train_shared_features.exe",
+        "sha256": "c7bfa5124dd44d886be3e3a218bb9f5aad7d1c2948031f651c59b77d53b9b95e",
+        "bytes": 804756
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgcc_s_seh-1.dll",
+        "sha256": "e1b348336ce95f14217f3e1ea428d82f3707388b4d2657c7f8bf51c03d6f14da",
+        "bytes": 150852
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgomp-1.dll",
+        "sha256": "90a9d318301b58b0eee7288acb8dd7072348f76e8a57849339cffad28ef9abb3",
+        "bytes": 309729
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libstdc++-6.dll",
+        "sha256": "0d94ce8452ac363082ed1bc27b71ece6764fa53a811965cb9ef026bc084a5c5e",
+        "bytes": 2430546
+      },
+      {
+        "path": "D:\\opencv-4.12.0\\build\\bin\\libopencv_world4120.dll",
+        "sha256": "ae91eba014a4d4f5a7f65a139b03b2ef828a879598572c3daf50e01211580ef0",
+        "bytes": 67741314
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\zlib1.dll",
+        "sha256": "1dc85208162ee57fe97e892bb5160fe9588903992995f90adc3a3a358dac6fc6",
+        "bytes": 100279
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libwinpthread-1.dll",
+        "sha256": "459e5414cd8a125bd903dacc5c46227c32ec5a8bdc6d879c062e199dda68cfd4",
+        "bytes": 63675
+      }
+    ],
+    "system_module_paths": [
+      "C:\\Windows\\System32\\ntdll.dll",
+      "C:\\Windows\\System32\\kernel32.dll",
+      "C:\\Windows\\System32\\KernelBase.dll",
+      "C:\\Windows\\System32\\ucrtbase.dll",
+      "C:\\Windows\\System32\\bcrypt.dll",
+      "C:\\Windows\\System32\\sechost.dll",
+      "C:\\Windows\\System32\\advapi32.dll",
+      "C:\\Windows\\System32\\msvcrt.dll",
+      "C:\\Windows\\System32\\rpcrt4.dll",
+      "C:\\Windows\\System32\\comdlg32.dll",
+      "C:\\Windows\\System32\\msvcp_win.dll",
+      "C:\\Windows\\System32\\combase.dll",
+      "C:\\Windows\\System32\\SHCore.dll",
+      "C:\\Windows\\System32\\user32.dll",
+      "C:\\Windows\\System32\\win32u.dll",
+      "C:\\Windows\\System32\\gdi32.dll",
+      "C:\\Windows\\System32\\gdi32full.dll",
+      "C:\\Windows\\System32\\shlwapi.dll",
+      "C:\\Windows\\System32\\shell32.dll",
+      "C:\\Windows\\System32\\ole32.dll",
+      "C:\\Windows\\WinSxS\\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd\\comctl32.dll",
+      "C:\\Windows\\System32\\oleaut32.dll",
+      "C:\\Windows\\System32\\ws2_32.dll",
+      "C:\\Windows\\System32\\imm32.dll",
+      "C:\\Windows\\System32\\cryptbase.dll",
+      "C:\\Windows\\System32\\bcryptprimitives.dll"
+    ],
+    "limitation": "OS modules named, not hashed; module sample is captured at normal native completion"
+  },
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\accept_training_execution.py",
+    "sha256": "cf1fb0a91b71955f4eb6542522991b0a226db686f6d37061ef86b29a140293ed",
+    "bytes": 10552
+  },
+  "image_byte_files_checked": 864,
+  "native_calls": 0,
+  "image_decodes": 0,
+  "heldout_image_reads": 0,
+  "limitations": [
+    "RGB gradient/NMS acceptance and omitted pre-acquisition candidates not regenerated",
+    "Native invocation/decode/resource counters are observations checked against the contract",
+    "Progress, runtime modules, reservation and transitive source/input closures are separate checks"
+  ]
+}

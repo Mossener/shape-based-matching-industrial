@@ -1,0 +1,18 @@
+In file included from D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\control_v11/line2Dup.h:9,
+                 from D:/h/shape_based_matching-master/artifacts/rgb_stratified_features_experiment/frozen_helpers/tless_eval.cpp:2,
+                 from D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\quality\quality_eval.cpp:4:
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\control_v11\MIPP/mipp.h:37:9: warning: '__SSE2__' redefined
+   37 | #define __SSE2__
+      |         ^~~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\control_v11\MIPP/mipp.h:38:9: warning: '__SSE__' redefined
+   38 | #define __SSE__
+      |         ^~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\quality\quality_eval.cpp: In function 'void quality(const std::string&, const cv::FileStorage&, const rgb_stratified_quality::Padding&, const std::filesystem::__cxx11::path&, const std::filesystem::__cxx11::path&, const std::chrono::_V2::steady_clock::time_point&)':
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\quality\quality_eval.cpp:73:5: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   73 |     for(int arm=0;arm<armCount;++arm)writeTotals(report,ARMS[arm],pooled[arm]);report<<"per_scene"<<"[";for(const auto& scene:pooledScenes){report<<"{"<<"scene_id"<<scene.first;for(int arm=0;arm<armCount;++arm)writeTotals(report,ARMS[arm],scene.second[arm]);report<<"}";}report<<"]";
+      |     ^~~
+D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\quality\quality_eval.cpp:73:80: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   73 |     for(int arm=0;arm<armCount;++arm)writeTotals(report,ARMS[arm],pooled[arm]);report<<"per_scene"<<"[";for(const auto& scene:pooledScenes){report<<"{"<<"scene_id"<<scene.first;for(int arm=0;arm<armCount;++arm)writeTotals(report,ARMS[arm],scene.second[arm]);report<<"}";}report<<"]";
+      |                                                                                ^~~~~~

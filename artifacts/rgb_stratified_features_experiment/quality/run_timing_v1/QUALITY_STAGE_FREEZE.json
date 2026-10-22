@@ -1,0 +1,229 @@
+{
+  "stage": "timing",
+  "completed": true,
+  "native_exit_code": 0,
+  "actual_matcher_calls": 29952.0,
+  "maximum_matcher_calls": 29952,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\build_native_v1\\build_manifest.json",
+    "sha256": "24e872c5b735964e018d2b0a51f3077ced946e8412fd0664fb6912e927a138e0",
+    "bytes": 257248
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "a23d18e84cfd2501371c617ba2c5d7915cdd7e25c7c307de8ad173e7724e3fc4",
+    "bytes": 3071298
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "c3222387a68172668e11b657f84bcb821b7c13b4c2cc7ce589e8ce26fb394e45",
+    "bytes": 6045
+  },
+  "previous_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "6070b474d29b112c822d7f6a94a2ec920e454d104c511c42c29bf78a1d77b47a",
+    "bytes": 9086309
+  },
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\quality_stage_reservations\\timing.json",
+    "sha256": "5871b8e81db02b86269f0716a3a13fc6f9390857d2d49aac1703712f021de053",
+    "bytes": 657
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\native\\bank_load_timings.csv",
+      "sha256": "6832e799303caff07ee14117d8cdaa8d1b29014e946e74a374b6d4daad1f7063",
+      "bytes": 1169
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\native\\stage_summary.json",
+      "sha256": "d3b374ce92bd26504e0544f903a1d1c38a02ad875dba35f174ebbc35160d2374",
+      "bytes": 2488
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\native\\timing_pairs.csv",
+      "sha256": "ebc7c82b147cc51f43009d7585077a0798be1de106584d7d07847a6f6e685d3f",
+      "bytes": 2720444
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\native\\timing_samples.csv",
+      "sha256": "a1a02cbf194944646e85efb26f3f3aba04e392008f76949d77ae482039dc4d2e",
+      "bytes": 2484368
+    }
+  ],
+  "quality_audit": {
+    "acceptance": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_AUDIT_ACCEPTANCE.json",
+      "sha256": "b1d30b7295786e7cf2f2c1114c98fb4b64edfb601cf66751297c31bdac2c1a4a",
+      "bytes": 1970
+    },
+    "independent_audit": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality_v2\\real_development_audit_v2\\audit_output\\result.json",
+      "bytes": 12323462,
+      "sha256": "a025255549c2f1a877c1082b64bf2be9dd68377ea7a04c3954268d6957676e5a"
+    },
+    "development_stage": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\QUALITY_STAGE_FREEZE.json",
+      "sha256": "6070b474d29b112c822d7f6a94a2ec920e454d104c511c42c29bf78a1d77b47a",
+      "bytes": 9086309
+    },
+    "primary_accuracy_hypothesis_passed": false
+  },
+  "watchdog": {
+    "command": [
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\build_native_v1\\quality_eval.exe",
+      "--mode",
+      "timing",
+      "--output",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\native",
+      "--inputs",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\QUALITY_INPUT_FREEZE.json",
+      "--previous",
+      "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\native"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality",
+    "started": true,
+    "passed": true,
+    "exit_code": 0,
+    "maximum_seconds": 5400,
+    "maximum_rss_bytes": 1610612736,
+    "maximum_output_bytes": 4294967296,
+    "minimum_free_bytes": 0,
+    "maximum_execution_bytes": 67108864,
+    "pid": 2336,
+    "reason": null,
+    "elapsed_seconds": 911.6870000000054,
+    "peak_rss_bytes": 250425344,
+    "native_output_bytes": 5208472,
+    "samples": 16905
+  },
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\execution_provenance.json",
+      "sha256": "da7c4ca8627cd92aa3cfb8058b2a32a3b3c2173170bd84e50434f0b7343b9b22",
+      "bytes": 5864
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\guard_latest.json",
+      "sha256": "ddb208e2246b12bad1a42ac1382a78173eba5122ed1f49afb355c51c7fb9de11",
+      "bytes": 180
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\guard_receipt.json",
+      "sha256": "47113930bffac815adbcd56c210ba662e888208c95746df9177e691dc85fa240",
+      "bytes": 1129
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\guard_reservation.json",
+      "sha256": "c7fd225bea0d0e252e18bbe791cffe3457e89b618b0c03cdf5e9a370f6711963",
+      "bytes": 970
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\guard_telemetry.jsonl",
+      "sha256": "db5591af73eaa77aeb92b45f43e72ef6bf870f064a76f1de978c0fb51015b773",
+      "bytes": 129737
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\guard\\stdout.txt",
+      "sha256": "3ee3299ff44d5fc616f5609f7270b7aabb8c71a4df7bf613ed92e4ec1ad1ea04",
+      "bytes": 14195
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\verified_after.json",
+      "sha256": "6a73bc8b75ad2c8ff67ae0492497adb08310d69a7dc7acf6c8b095034ec53695",
+      "bytes": 35031
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\verified_before.json",
+      "sha256": "6a73bc8b75ad2c8ff67ae0492497adb08310d69a7dc7acf6c8b095034ec53695",
+      "bytes": 35031
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "stage": "timing",
+    "objects": [
+      1,
+      2,
+      5,
+      8,
+      12,
+      17
+    ],
+    "unique_frames": 64,
+    "object_frame_combinations": 384,
+    "matcher_calls": 29952.0,
+    "warmup_rounds": 1,
+    "measured_rounds": 12,
+    "formal_rows": 27648,
+    "exact_own_reference_every_call": 1,
+    "decode_total_ms": 3877.001200000003,
+    "peak_rss_bytes": 250425344.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 1,
+    "variants": [
+      {
+        "arm": "rgb_control",
+        "path": "fallback",
+        "samples": 4608,
+        "match_median_ms": 27.9117,
+        "match_p95_ms": 75.8784,
+        "external_median_ms": 28.079,
+        "external_p95_ms": 76.1246
+      },
+      {
+        "arm": "rgb_control",
+        "path": "fused",
+        "samples": 4608,
+        "match_median_ms": 26.0481,
+        "match_p95_ms": 63.5333,
+        "external_median_ms": 26.1567,
+        "external_p95_ms": 63.746
+      },
+      {
+        "arm": "rgb_pooled_features",
+        "path": "fallback",
+        "samples": 4608,
+        "match_median_ms": 22.8599,
+        "match_p95_ms": 69.4444,
+        "external_median_ms": 22.9371,
+        "external_p95_ms": 69.5448
+      },
+      {
+        "arm": "rgb_pooled_features",
+        "path": "fused",
+        "samples": 4608,
+        "match_median_ms": 21.9721,
+        "match_p95_ms": 59.9653,
+        "external_median_ms": 22.0511,
+        "external_p95_ms": 60.0748
+      },
+      {
+        "arm": "rgb_stratified_features",
+        "path": "fallback",
+        "samples": 4608,
+        "match_median_ms": 23.2769,
+        "match_p95_ms": 69.286,
+        "external_median_ms": 23.3561,
+        "external_p95_ms": 69.3627
+      },
+      {
+        "arm": "rgb_stratified_features",
+        "path": "fused",
+        "samples": 4608,
+        "match_median_ms": 22.1862,
+        "match_p95_ms": 62.085,
+        "external_median_ms": 22.2977,
+        "external_p95_ms": 62.1717
+      }
+    ]
+  },
+  "post_verification_passed": true,
+  "missing_frames_are_not_negatives": true,
+  "heldout_images_allowed": false
+}

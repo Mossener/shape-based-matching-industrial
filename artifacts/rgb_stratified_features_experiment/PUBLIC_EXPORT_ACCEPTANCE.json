@@ -1,0 +1,65 @@
+{
+  "schema": "rgb_stratified_public_export_acceptance_v1",
+  "passed": true,
+  "independently_restored": true,
+  "export_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\public_training_export_v1\\EXPORT_MANIFEST.json",
+    "bytes": 22826,
+    "sha256": "9094d4f4fde321b1c1099bd9f762cc3de9522e8e8894a026555812376323d10f"
+  },
+  "training_provenance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_training_v1_PROVENANCE.json",
+    "sha256": "51a5291c03ee857524708c62602290ee13e742e99d8b962698fb66cfe3712cc1",
+    "bytes": 233000
+  },
+  "restore_check": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK\\result.json",
+    "bytes": 29279,
+    "sha256": "6cef47a960622aff62267ffbb983695d4c2e06f40d13e4e8b908a440dba6e5c4"
+  },
+  "invocation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK\\invocation.json",
+    "bytes": 2128,
+    "sha256": "c1b83007be480074edf6162818aa73b8c5974c81ab74faf0f7ade68372760376"
+  },
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\guard_reservation.json",
+      "bytes": 850,
+      "sha256": "75ef714a0d85f3ef41eefc62f8c743c80783ba685b6abac942e62396915842a1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\guard_latest.json",
+      "bytes": 178,
+      "sha256": "16f7d1600f45d72bf93c179bee9ae3adb18d1668dc0a57433caa4363aa1d3605"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\guard_telemetry.jsonl",
+      "bytes": 397,
+      "sha256": "f4314e6214c210c2cba9100f8f5e7d14c01ffe6077cda3447bd550e681a82518"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\guard_receipt.json",
+      "bytes": 1009,
+      "sha256": "bdc7b0ec91c77dad1ba420bd669461d975436e07f9c9cf65ef7088c2366c0a81"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\stdout.txt",
+      "bytes": 69,
+      "sha256": "e2f1fc7a1014ed90be3bbb386d525907f183858634793afc44a86f03bd1ea27e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PUBLIC_EXPORT_RESTORE_CHECK_execution\\stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\validate_public_training_restore.py",
+    "bytes": 7405,
+    "sha256": "055d6bb00ebcf38c7ab30c0b6a757c8669fc6552daa512cc073fe81c027c6f2e"
+  },
+  "native_calls": 0,
+  "image_decodes": 0,
+  "production_promotion": false
+}

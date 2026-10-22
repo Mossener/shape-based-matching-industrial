@@ -1,0 +1,12 @@
+{
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_timing\\real_timing_audit_v1_RESERVATION.json",
+    "bytes": 4404,
+    "sha256": "144aa3dacb1186cb9b793f0af1bf29d190f2288447d28066ada93aae59db037f"
+  },
+  "timing_stage": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_timing_v1\\QUALITY_STAGE_FREEZE.json",
+    "bytes": 9510,
+    "sha256": "7d93270913bbc629470b1f7aaecfbeacca7cad631483683583a250b621288cc0"
+  }
+}

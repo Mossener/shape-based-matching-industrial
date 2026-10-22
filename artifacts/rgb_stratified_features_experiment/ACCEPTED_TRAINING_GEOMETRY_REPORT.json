@@ -1,0 +1,132 @@
+{
+  "schema": "independent_stratified_training_geometry_audit_v1",
+  "passed": true,
+  "scope": "training_and_exact_geometry",
+  "numeric_audit_passed": true,
+  "production_promotion": false,
+  "training_execution_acceptance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_ACCEPTANCE.json",
+    "sha256": "46059ac29b734cd706b627daaf56d34b9e610b78906ee25cb68a946ff8f08cc1",
+    "bytes": 5107
+  },
+  "training_numeric_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+    "bytes": 21963,
+    "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+  },
+  "guarded_geometry_runner": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RUNNER_RECEIPT.json",
+    "sha256": "80458b7e0142311bc5e35e3fc5ecdce960b97b747843f94d852bed70d5fa97c9",
+    "bytes": 2177
+  },
+  "independent_geometry_runner": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\RUNNER_RECEIPT.json",
+    "sha256": "ef0b508647dd78646d8573d6b7f806e790eedd87bb5060482555da1d33e7c4eb",
+    "bytes": 3576
+  },
+  "independent_geometry_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\audit_output\\INDEPENDENT_GEOMETRY_AUDIT.json",
+    "bytes": 47860,
+    "sha256": "73172bc2592d67754593b408470ffcad41deb678d1cd4e6e790aca68a873831f"
+  },
+  "input_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_ACCEPTANCE.json",
+      "sha256": "46059ac29b734cd706b627daaf56d34b9e610b78906ee25cb68a946ff8f08cc1",
+      "bytes": 5107
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+      "sha256": "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a",
+      "bytes": 19221
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RUNNER_RECEIPT.json",
+      "sha256": "80458b7e0142311bc5e35e3fc5ecdce960b97b747843f94d852bed70d5fa97c9",
+      "bytes": 2177
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\RUNNER_RECEIPT.json",
+      "sha256": "ef0b508647dd78646d8573d6b7f806e790eedd87bb5060482555da1d33e7c4eb",
+      "bytes": 3576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+      "bytes": 21963,
+      "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\GEOMETRY_FREEZE.json",
+      "bytes": 3097,
+      "sha256": "99e7e4abbfb24dcf964b87069f537a0bbebba0f7207b917700d908cef1176d87"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1\\receipt.json",
+      "sha256": "8842b4a52291b96e0342edfd32939db943a3065ccaad3c3313f797e6621f4fa5",
+      "bytes": 2281
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_EXECUTION\\guard_receipt.json",
+      "sha256": "29cfa26333645d0b5404b169c86de0964c3d2bf292b9d7ec7f5bfd194356c5ed",
+      "bytes": 832
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1\\audit_output\\INDEPENDENT_GEOMETRY_AUDIT.json",
+      "bytes": 47860,
+      "sha256": "73172bc2592d67754593b408470ffcad41deb678d1cd4e6e790aca68a873831f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RESERVATION.json.guard_launch.json",
+      "sha256": "46913c7f187867ba806fcbe69a618f81eff87364b0cc57adced76dc798e381f1",
+      "bytes": 2220
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_RESERVATION.json",
+      "bytes": 17954,
+      "sha256": "469b1af3751fff9a96c20baa9995c5575b4c7b564a7c772b052de001096d3c31"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_RESERVATION.json.consumed.json",
+      "bytes": 330,
+      "sha256": "469fa8dce41a2775bebe3ce589b49af4cc9d8eb9f1427e0795dc6f76d36a1cff"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_independent_20261023_v1_EXECUTION\\guard_receipt.json",
+      "sha256": "ece545bb55300a66cf55b89bf900f6b6aefb676af85725ef4252173e02d643c6",
+      "bytes": 1480
+    }
+  ],
+  "computed_plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 848,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      244
+    ],
+    "pixels": 719104,
+    "estimated_dynamic_bytes": 368181248,
+    "banks": 18,
+    "loaded_layers": 119246,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  },
+  "loaded_layers": 119246,
+  "source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\accept_training_geometry.py",
+    "sha256": "3a0fb481dbb43d059edc0f4c665d09259f4ab6e860b3cc03a517f905de30fc4d",
+    "bytes": 10519
+  },
+  "quality_tested": false,
+  "image_decodes": 0,
+  "native_calls": 0,
+  "heldout_image_reads": 0,
+  "limitation": "Root aggregation of separate training/runtime and independent numeric receipts; no quality or speed result"
+}

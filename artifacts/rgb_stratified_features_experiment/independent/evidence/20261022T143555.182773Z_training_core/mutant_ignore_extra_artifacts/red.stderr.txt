@@ -1,0 +1,15 @@
+test_all_artifact_inventory_rejects_extra_missing_bank_and_config (test_training_audit.TrainingLiterals.test_all_artifact_inventory_rejects_extra_missing_bank_and_config) ... FAIL
+
+======================================================================
+FAIL: test_all_artifact_inventory_rejects_extra_missing_bank_and_config (test_training_audit.TrainingLiterals.test_all_artifact_inventory_rejects_extra_missing_bank_and_config)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_extra_artifacts\test_training_audit.py", line 242, in test_all_artifact_inventory_rejects_extra_missing_bank_and_config
+    with self.assertRaises(ValueError): audit.verify_bank_artifacts(folder,report,configs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.036s
+
+FAILED (failures=1)

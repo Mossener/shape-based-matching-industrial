@@ -1,0 +1,41 @@
+{
+  "name": "ignore_selected_manifest_binding",
+  "rejected": true,
+  "exit_code": 1,
+  "tests": 20,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\source",
+    "-p",
+    "test_public_selection.py",
+    "-v"
+  ],
+  "changes": [
+    {
+      "before": "if (manifest_row is None\n            or {key: manifest_row.get(key) for key in (\"bytes\", \"sha256\")}\n            != {key: trusted[key] for key in (\"bytes\", \"sha256\")}):",
+      "after": "if False:"
+    }
+  ],
+  "mutant_pin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\source\\verify_public_selection.py",
+    "bytes": 13852,
+    "sha256": "59ba0fee3df171c351490980f64840fe810c3d0969b6ec0cdc306d0052f3cfb6"
+  },
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\stderr.txt",
+      "bytes": 4415,
+      "sha256": "2dc9a05268ddc67699757d0cfbd5fe341a71acc1c959c194fa977401bc55a941"
+    }
+  ]
+}

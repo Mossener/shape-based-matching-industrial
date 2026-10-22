@@ -1,0 +1,30 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\quality_audit.py",
+    "--stage-freeze",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_development_v1\\QUALITY_STAGE_FREEZE.json",
+    "--stage-sha256",
+    "6070b474d29b112c822d7f6a94a2ec920e454d104c511c42c29bf78a1d77b47a",
+    "--stage-bytes",
+    "9086309",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\real_development_audit_v1\\audit_output"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 14400,
+  "maximum_rss_bytes": 1610612736,
+  "maximum_output_bytes": 536870912,
+  "minimum_free_bytes": 2147483648,
+  "maximum_execution_bytes": 67108864,
+  "pid": 12644,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 75.48499999998603,
+  "peak_rss_bytes": 76791808,
+  "native_output_bytes": 129,
+  "samples": 1435
+}

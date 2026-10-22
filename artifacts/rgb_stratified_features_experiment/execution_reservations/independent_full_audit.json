@@ -1,0 +1,100 @@
+{
+  "schema": "independent_full_training_audit_reservation_v1",
+  "runner_schema": "independent_full_training_audit_runner_v1",
+  "stage": "full_training_numeric_audit",
+  "policy": "one heavy attempt; preserve failure receipt; no silent rerun",
+  "run": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_training_v1",
+  "runner_provenance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\run_training_v1_PROVENANCE.json",
+    "bytes": 233000,
+    "sha256": "51a5291c03ee857524708c62602290ee13e742e99d8b962698fb66cfe3712cc1"
+  },
+  "input_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_INPUT_FREEZE.json",
+    "bytes": 182560,
+    "sha256": "8997865340d404c8360b32aa31ce8bd9123f809adc2959fe6d045256e7b8f41d"
+  },
+  "expected": {
+    "shared_poses": 20736,
+    "shared_pools": 41472,
+    "arm_layer_rows": 82944,
+    "arm_attempts": 41472,
+    "matcher_calls": 0,
+    "rgb_decodes": 432,
+    "mask_decodes": 432,
+    "layer_status_rows": 82944
+  },
+  "objects": [
+    1,
+    2,
+    5,
+    8,
+    12,
+    17
+  ],
+  "claims": {
+    "pools": 41472,
+    "arm_layer_claims": 82944,
+    "classifier": "bounded_classifier_v2_radius4_exact"
+  },
+  "budget": {
+    "wall_seconds": 5400,
+    "rss_bytes": 1610612736,
+    "audit_output_bytes": 268435456,
+    "execution_log_bytes": 67108864
+  },
+  "auditor": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\training_audit.py",
+    "bytes": 37162,
+    "sha256": "8befcc616aacd64bffefda415571cb967407afcc1da0918d87b749dc5a48fcf3"
+  },
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\run_full_audit.py",
+      "bytes": 12482,
+      "sha256": "9a17f155b4f732dd2c771e4409908d48738d953823b79fd054ddc750500631ac"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\training_audit.py",
+      "bytes": 37162,
+      "sha256": "8befcc616aacd64bffefda415571cb967407afcc1da0918d87b749dc5a48fcf3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\numeric_oracle.py",
+      "bytes": 13450,
+      "sha256": "264a788493c05348d06db51de0aa6cec861e0e1547f2a7ffb039133473f70307"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\pool_stream.py",
+      "bytes": 15050,
+      "sha256": "fd539ce62a079c1626358c6f169f078ca4c56b07979bfe163f3c570ba8291b87"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\bounded_classifier_v2.py",
+      "bytes": 2892,
+      "sha256": "8d1b5e21412f31ab2241fa03bfc44a82e461998bc29c37fb30fb720571677d37"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_INPUT_FREEZE.json",
+      "bytes": 182560,
+      "sha256": "8997865340d404c8360b32aa31ce8bd9123f809adc2959fe6d045256e7b8f41d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_SOURCE_FREEZE.json",
+      "bytes": 4447,
+      "sha256": "dad88a95b576f428b8a05cccb7663cfac5594847c93e31dd26a9f1e29dc5927f"
+    }
+  ],
+  "output_pin_map": "generated at execute time from runner provenance files[] as run-relative keys",
+  "reserved": true
+}

@@ -1,0 +1,45 @@
+{
+  "name": "ignore_original_pin",
+  "rejected": true,
+  "exit_code": 1,
+  "tests": 20,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\source",
+    "-p",
+    "test_public_selection.py",
+    "-v"
+  ],
+  "changes": [
+    {
+      "before": "if encoding == \"identity\" and before != saved:",
+      "after": "if False:"
+    },
+    {
+      "before": "or stored != original or encoding != \"identity\" or before != saved):",
+      "after": "or stored != original or encoding != \"identity\"):"
+    }
+  ],
+  "mutant_pin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\source\\verify_public_selection.py",
+    "bytes": 13956,
+    "sha256": "b42d34a3d021ead4fea6e07c0adca786771489f15dc6b3edc169c7904522d397"
+  },
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\stderr.txt",
+      "bytes": 5393,
+      "sha256": "651c5fcce3543ce42f9e32824ee15e6092ebf3ec806219d02c1cd264be88e5ad"
+    }
+  ]
+}

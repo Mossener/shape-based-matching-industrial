@@ -1,0 +1,43 @@
+{
+  "schema": "rgb_stratified_geometry_reservation_v1",
+  "stage": "all_eighteen_bank_geometry",
+  "reserved": true,
+  "policy": "single attempt; preserve failures; no silent rerun; no bank/image read during reservation",
+  "input_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\GEOMETRY_INPUT_FREEZE.json",
+    "bytes": 19221,
+    "sha256": "3cea6b14c724054596093a960422c8790cc77b425b427f413313bbb34e864c7a"
+  },
+  "source_numeric_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json",
+    "bytes": 21963,
+    "sha256": "262a37296e46b58cf482c7d95986d64963cdab9bb415ac67d2e4a24e58052870"
+  },
+  "output": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_geometry.py",
+      "bytes": 21755,
+      "sha256": "9f2e8c12bced50639ef031dc68002d828d6409becd422d9f27e497112915a302"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\planner.py",
+      "bytes": 18861,
+      "sha256": "1487309daa013f17f4805070e8ec1096361c5e35aa56fa251c28cd207145e28b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\PROTOCOL.json",
+      "bytes": 15197,
+      "sha256": "628b260bbca50bca666858f54b181afc5fb92e01eaab9b2ed46d6b4ac6e8f19b"
+    }
+  ],
+  "bank_payloads_read": 0,
+  "image_reads": 0,
+  "native_executions": 0,
+  "matcher_calls": 0
+}

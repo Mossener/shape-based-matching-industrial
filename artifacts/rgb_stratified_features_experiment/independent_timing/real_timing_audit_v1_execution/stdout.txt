@@ -1,0 +1,1 @@
+{"passed": true, "formal_rows": 27648, "paired_rows": 27648, "native_runs": 0}

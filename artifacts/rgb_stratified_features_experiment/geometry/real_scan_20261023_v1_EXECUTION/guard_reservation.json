@@ -1,0 +1,19 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\run_geometry.py",
+    "--execute",
+    "--reservation",
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\geometry\\real_scan_20261023_v1_RESERVATION.json"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 1800,
+  "maximum_rss_bytes": 1610612736,
+  "maximum_output_bytes": 268435456,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 33554432
+}

@@ -1,0 +1,56 @@
+test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) ... 
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='training_image_id') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='angle') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='scale') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='tl_x') ... FAIL
+  test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='warped_mask_bbox') ... FAIL
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='training_image_id')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_official_metadata\test_training_audit.py", line 209, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='angle')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_official_metadata\test_training_audit.py", line 209, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='scale')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_official_metadata\test_training_audit.py", line 209, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='tl_x')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_official_metadata\test_training_audit.py", line 209, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_strict_serialized_bank_and_metadata_full_order_fields (test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields) (field='warped_mask_bbox')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\independent\evidence\20261022T143555.182773Z_training_core\mutant_ignore_official_metadata\test_training_audit.py", line 209, in test_strict_serialized_bank_and_metadata_full_order_fields
+    with self.subTest(field=field),self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=5)

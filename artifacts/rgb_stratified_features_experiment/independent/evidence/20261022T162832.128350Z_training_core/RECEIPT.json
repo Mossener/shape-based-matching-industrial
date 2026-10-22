@@ -1,0 +1,587 @@
+{
+  "schema": "independent_training_core_selftest_v1",
+  "utc": "20261022T162832.128350Z",
+  "all_checks_passed": true,
+  "synthetic_only": true,
+  "native_calls": 0,
+  "image_reads": 0,
+  "real_bank_reads": 0,
+  "sources_before": {
+    "numeric_oracle.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\numeric_oracle.py",
+      "bytes": 13450,
+      "sha256": "264a788493c05348d06db51de0aa6cec861e0e1547f2a7ffb039133473f70307"
+    },
+    "pool_stream.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\pool_stream.py",
+      "bytes": 15050,
+      "sha256": "fd539ce62a079c1626358c6f169f078ca4c56b07979bfe163f3c570ba8291b87"
+    },
+    "strict_bank_reader.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    "training_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\training_audit.py",
+      "bytes": 37460,
+      "sha256": "4ba3f32b0f4f91b44d45d5cd4a0a44af07d500fb2bd66051df9d04b61f007a12"
+    },
+    "test_numeric_oracle.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_numeric_oracle.py",
+      "bytes": 14339,
+      "sha256": "a4400e577632ce4649cd260319de08fe5123ea625473e1c146ca23b178d4b582"
+    },
+    "test_pool_stream.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_pool_stream.py",
+      "bytes": 12349,
+      "sha256": "c6979fc64440febf8158c20c6844877ba3bad4f3fe677094c57cb670ea63b676"
+    },
+    "test_training_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_training_audit.py",
+      "bytes": 32579,
+      "sha256": "6d363d4df76a03074e7df794b845adc7c0117d8d1557b4eb0899503d3e4a05f0"
+    },
+    "BANK_READER_ORIGIN.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\BANK_READER_ORIGIN.json",
+      "bytes": 570,
+      "sha256": "ce9d69e58327a1f2d7fd9a814b384bc78e864bc76bc59df01b5453038e3fa325"
+    },
+    "run_training_selftest.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\run_training_selftest.py",
+      "bytes": 6078,
+      "sha256": "c505e382ce960e15c919789f6da3e3deb3bae8ea08c1b914f79b8f064ce54d96"
+    },
+    "TRAINING_SCHEMA.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\TRAINING_SCHEMA.md",
+      "bytes": 7793,
+      "sha256": "a1fe688f4a65af33097f110ddd0524208c4da3d6eecc3c5c44b9886b708c628d"
+    },
+    "TRAINING_AUDIT_ORIGINS.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\TRAINING_AUDIT_ORIGINS.json",
+      "bytes": 1632,
+      "sha256": "e34aa7bfb753a138cd0df79225e70411c936f6137081fa1ff0d128a359f3bf04"
+    },
+    "README.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\README.md",
+      "bytes": 5338,
+      "sha256": "f0bd1e9475a648e929627bb1063665ec592b57187fbb97faca549f3c8afbef16"
+    },
+    "bounded_classifier_v2.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\bounded_classifier_v2.py",
+      "bytes": 2892,
+      "sha256": "8d1b5e21412f31ab2241fa03bfc44a82e461998bc29c37fb30fb720571677d37"
+    },
+    "test_bounded_classifier.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_bounded_classifier.py",
+      "bytes": 4294,
+      "sha256": "f847ba41f508bd48197110f552861a2012e43ca4bbc32fe673f5a089f2c39a00"
+    }
+  },
+  "sources_after": {
+    "numeric_oracle.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\numeric_oracle.py",
+      "bytes": 13450,
+      "sha256": "264a788493c05348d06db51de0aa6cec861e0e1547f2a7ffb039133473f70307"
+    },
+    "pool_stream.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\pool_stream.py",
+      "bytes": 15050,
+      "sha256": "fd539ce62a079c1626358c6f169f078ca4c56b07979bfe163f3c570ba8291b87"
+    },
+    "strict_bank_reader.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    "training_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\training_audit.py",
+      "bytes": 37460,
+      "sha256": "4ba3f32b0f4f91b44d45d5cd4a0a44af07d500fb2bd66051df9d04b61f007a12"
+    },
+    "test_numeric_oracle.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_numeric_oracle.py",
+      "bytes": 14339,
+      "sha256": "a4400e577632ce4649cd260319de08fe5123ea625473e1c146ca23b178d4b582"
+    },
+    "test_pool_stream.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_pool_stream.py",
+      "bytes": 12349,
+      "sha256": "c6979fc64440febf8158c20c6844877ba3bad4f3fe677094c57cb670ea63b676"
+    },
+    "test_training_audit.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_training_audit.py",
+      "bytes": 32579,
+      "sha256": "6d363d4df76a03074e7df794b845adc7c0117d8d1557b4eb0899503d3e4a05f0"
+    },
+    "BANK_READER_ORIGIN.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\BANK_READER_ORIGIN.json",
+      "bytes": 570,
+      "sha256": "ce9d69e58327a1f2d7fd9a814b384bc78e864bc76bc59df01b5453038e3fa325"
+    },
+    "run_training_selftest.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\run_training_selftest.py",
+      "bytes": 6078,
+      "sha256": "c505e382ce960e15c919789f6da3e3deb3bae8ea08c1b914f79b8f064ce54d96"
+    },
+    "TRAINING_SCHEMA.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\TRAINING_SCHEMA.md",
+      "bytes": 7793,
+      "sha256": "a1fe688f4a65af33097f110ddd0524208c4da3d6eecc3c5c44b9886b708c628d"
+    },
+    "TRAINING_AUDIT_ORIGINS.json": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\TRAINING_AUDIT_ORIGINS.json",
+      "bytes": 1632,
+      "sha256": "e34aa7bfb753a138cd0df79225e70411c936f6137081fa1ff0d128a359f3bf04"
+    },
+    "README.md": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\README.md",
+      "bytes": 5338,
+      "sha256": "f0bd1e9475a648e929627bb1063665ec592b57187fbb97faca549f3c8afbef16"
+    },
+    "bounded_classifier_v2.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\bounded_classifier_v2.py",
+      "bytes": 2892,
+      "sha256": "8d1b5e21412f31ab2241fa03bfc44a82e461998bc29c37fb30fb720571677d37"
+    },
+    "test_bounded_classifier.py": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\test_bounded_classifier.py",
+      "bytes": 4294,
+      "sha256": "f847ba41f508bd48197110f552861a2012e43ca4bbc32fe673f5a089f2c39a00"
+    }
+  },
+  "source_snapshot": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\numeric_oracle.py",
+      "bytes": 13450,
+      "sha256": "264a788493c05348d06db51de0aa6cec861e0e1547f2a7ffb039133473f70307"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\pool_stream.py",
+      "bytes": 15050,
+      "sha256": "fd539ce62a079c1626358c6f169f078ca4c56b07979bfe163f3c570ba8291b87"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\strict_bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\training_audit.py",
+      "bytes": 37460,
+      "sha256": "4ba3f32b0f4f91b44d45d5cd4a0a44af07d500fb2bd66051df9d04b61f007a12"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\test_numeric_oracle.py",
+      "bytes": 14339,
+      "sha256": "a4400e577632ce4649cd260319de08fe5123ea625473e1c146ca23b178d4b582"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\test_pool_stream.py",
+      "bytes": 12349,
+      "sha256": "c6979fc64440febf8158c20c6844877ba3bad4f3fe677094c57cb670ea63b676"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\test_training_audit.py",
+      "bytes": 32579,
+      "sha256": "6d363d4df76a03074e7df794b845adc7c0117d8d1557b4eb0899503d3e4a05f0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\BANK_READER_ORIGIN.json",
+      "bytes": 570,
+      "sha256": "ce9d69e58327a1f2d7fd9a814b384bc78e864bc76bc59df01b5453038e3fa325"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\run_training_selftest.py",
+      "bytes": 6078,
+      "sha256": "c505e382ce960e15c919789f6da3e3deb3bae8ea08c1b914f79b8f064ce54d96"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\TRAINING_SCHEMA.md",
+      "bytes": 7793,
+      "sha256": "a1fe688f4a65af33097f110ddd0524208c4da3d6eecc3c5c44b9886b708c628d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\TRAINING_AUDIT_ORIGINS.json",
+      "bytes": 1632,
+      "sha256": "e34aa7bfb753a138cd0df79225e70411c936f6137081fa1ff0d128a359f3bf04"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\README.md",
+      "bytes": 5338,
+      "sha256": "f0bd1e9475a648e929627bb1063665ec592b57187fbb97faca549f3c8afbef16"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\bounded_classifier_v2.py",
+      "bytes": 2892,
+      "sha256": "8d1b5e21412f31ab2241fa03bfc44a82e461998bc29c37fb30fb720571677d37"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\test_bounded_classifier.py",
+      "bytes": 4294,
+      "sha256": "f847ba41f508bd48197110f552861a2012e43ca4bbc32fe673f5a089f2c39a00"
+    }
+  ],
+  "interpreter": {
+    "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "version": "3.12.10 (main, Apr 18 2025, 06:12:02)  [GCC UCRT 14.2.0 64 bit (AMD64)]",
+    "pin": {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  },
+  "green": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_numeric_oracle",
+      "test_pool_stream",
+      "test_training_audit",
+      "test_bounded_classifier"
+    ],
+    "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot",
+    "exit_code": 0,
+    "stdout": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\green.stdout.txt",
+      "bytes": 147,
+      "sha256": "f96b0f8bef703f2d15d06180ff685f528cd51b57f4f1efe021e1a78c47e4981d"
+    },
+    "stderr": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\source_snapshot\\green.stderr.txt",
+      "bytes": 6975,
+      "sha256": "0e585399a88a6a0cdba2bc0c2005903b8d1190e92f628f66c4302394e9c82373"
+    }
+  },
+  "mutant_red": [
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_cross_layer_crop_even_origin_no_plus_one_and_order"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_plus_one",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_plus_one\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_plus_one\\red.stderr.txt",
+        "bytes": 1098,
+        "sha256": "830af7965e854f67cf0752d0a74998dc6b91d9f6e5b4f36df55088573007a4ea"
+      },
+      "name": "crop_plus_one",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_plus_one\\training_audit.py",
+        "bytes": 38081,
+        "sha256": "d0d0fc28739c752231400682563132c8bbe3f7d3c063aaa75e1b5fe7b290ff86"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_cross_layer_crop_even_origin_no_plus_one_and_order"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_odd_origin",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_odd_origin\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_odd_origin\\red.stderr.txt",
+        "bytes": 1094,
+        "sha256": "7e3a7776e24564af004fd5bc448b7bf0ddbf26e22f1d8d3b3a0474bdf72180ac"
+      },
+      "name": "crop_odd_origin",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_crop_odd_origin\\training_audit.py",
+        "bytes": 38072,
+        "sha256": "60dba0031eb71107491c910de80367dded1bc98286dd7e52c35d2b66c2976424"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_mask_bbox_nonzero_and_layer_exact_bytes"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_L1_bytes",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_L1_bytes\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_L1_bytes\\red.stderr.txt",
+        "bytes": 1003,
+        "sha256": "53a03279033442e4ead32495879477657aa3ed895b431b362a8b9539cdd11701"
+      },
+      "name": "ignore_L1_bytes",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_L1_bytes\\training_audit.py",
+        "bytes": 38087,
+        "sha256": "318a56d6d56569bf08adff5b9da5421828611e2b071791a1b5b3586b4a13728f"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_training_claim_tamper_omission_order_hash_geometry_and_status"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_full_claim",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_full_claim\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_full_claim\\red.stderr.txt",
+        "bytes": 3401,
+        "sha256": "7db44497110046e70388f42cd7de9b33c4067b319e0c497213b2f5652cf7ac13"
+      },
+      "name": "ignore_full_claim",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_full_claim\\training_audit.py",
+        "bytes": 38020,
+        "sha256": "08e4d8d35b22fc44b33d0c3e0df9b3bc59c88c3adca277633b74546ffd15b952"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_serialized_features",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_serialized_features\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_serialized_features\\red.stderr.txt",
+        "bytes": 3258,
+        "sha256": "4bd644551270c82b8494deaadab3da6ad495a42141ba9686bb20204dc96ead2e"
+      },
+      "name": "ignore_serialized_features",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_serialized_features\\training_audit.py",
+        "bytes": 37974,
+        "sha256": "eb725b243135f7a5ab4b40932a36f38ce44e0d90a752d738fda729ad68460749"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_strict_serialized_bank_and_metadata_full_order_fields"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_official_metadata",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_official_metadata\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_official_metadata\\red.stderr.txt",
+        "bytes": 5296,
+        "sha256": "e4482f85a040dbf1763bd6b7f85aeb206345e9dfbbe7b96124b45ef32fd6c9d0"
+      },
+      "name": "ignore_official_metadata",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_official_metadata\\training_audit.py",
+        "bytes": 37968,
+        "sha256": "32d5bea4b72c9c378c8c9aa1dd146a73bd64c540bcde46405f53af96fbdee24f"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_all_artifact_inventory_rejects_extra_missing_bank_and_config"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_artifacts",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_artifacts\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_artifacts\\red.stderr.txt",
+        "bytes": 1111,
+        "sha256": "69b6d8f3018d43fa69c09b72487dbc13edcf92dbbd95f8263ae82cb35ca328ad"
+      },
+      "name": "ignore_extra_artifacts",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_artifacts\\training_audit.py",
+        "bytes": 37996,
+        "sha256": "4cd00191a84987e7a19191d2c8f9914222b800c4292ad69abb60209eecf92344"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_dilation_sidecar_target_raw_map_hash_and_scan_validation"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_raw_dilation_hash",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_raw_dilation_hash\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_raw_dilation_hash\\red.stderr.txt",
+        "bytes": 1367,
+        "sha256": "a48dfa93f09c04a93f099296e12f20c2e85578bb039844410716c5e0163f83ce"
+      },
+      "name": "ignore_raw_dilation_hash",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_raw_dilation_hash\\training_audit.py",
+        "bytes": 37964,
+        "sha256": "9016dcb69ab33a22bbe8ec171a538f25d654e2684b3528bf61d0fc6c56f70cb8"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_sidecar_stream_requires_all_pools_and_keeps_native_observations_limited"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_pool_observation",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_pool_observation\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_pool_observation\\red.stderr.txt",
+        "bytes": 1413,
+        "sha256": "66fef05a42a45ade6b1b85da4f4b7c974c02259233d1266be85d4f4994d50d6d"
+      },
+      "name": "ignore_extra_pool_observation",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_extra_pool_observation\\training_audit.py",
+        "bytes": 38015,
+        "sha256": "a3f905ba654518a80b77fe19c59e2a29ce1958172f3d2ed71956f4fa2069baad"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_numeric_input_freeze_csv_pins_and_strict_stream_jsonl"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_original_CSV_pin",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_original_CSV_pin\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_original_CSV_pin\\red.stderr.txt",
+        "bytes": 1084,
+        "sha256": "bc0474d35a8efcd9232fa5358f55923c93ee43d74d51cf9ef519392157bac0c6"
+      },
+      "name": "ignore_original_CSV_pin",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_original_CSV_pin\\training_audit.py",
+        "bytes": 37990,
+        "sha256": "d3d44e0b04a4222eed22bd49f7095dcdf0144d46bf7a7854dde5b2425f007c95"
+      },
+      "detected": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "-v",
+        "test_training_audit.TrainingLiterals.test_inherited_config_builder_and_full_observed_summary_contract"
+      ],
+      "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_summary_contract",
+      "exit_code": 1,
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_summary_contract\\red.stdout.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_summary_contract\\red.stderr.txt",
+        "bytes": 12769,
+        "sha256": "a056a62985660a57b0d0b2c0309144c52d7e5337f0a3949213100b6134b25786"
+      },
+      "name": "ignore_summary_contract",
+      "mutated_source": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\20261022T162832.128350Z_training_core\\mutant_ignore_summary_contract\\training_audit.py",
+        "bytes": 38006,
+        "sha256": "d8cda3fae436218b6700ea0e94f96d1fb9488dc80a76865e18cb636898c73947"
+      },
+      "detected": true
+    }
+  ],
+  "sources_unchanged": true,
+  "limitations": [
+    "No real training or heavy audit",
+    "Actual native synthetic fullCLI audit is retained separately",
+    "No real RGB gradient or NMS regeneration",
+    "Input/source closure belongs to root runner"
+  ]
+}

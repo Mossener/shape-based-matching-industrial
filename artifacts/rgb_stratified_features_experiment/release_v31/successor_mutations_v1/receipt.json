@@ -1,0 +1,426 @@
+{
+  "schema": "v31_public_selection_targeted_mutations_v1",
+  "passed": false,
+  "mutants": [
+    {
+      "name": "ignore_selected_manifest_binding",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if (manifest_row is None\n            or {key: manifest_row.get(key) for key in (\"bytes\", \"sha256\")}\n            != {key: trusted[key] for key in (\"bytes\", \"sha256\")}):",
+          "after": "if False:"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\source\\verify_public_selection.py",
+        "bytes": 13852,
+        "sha256": "59ba0fee3df171c351490980f64840fe810c3d0969b6ec0cdc306d0052f3cfb6"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_selected_manifest_binding\\stderr.txt",
+          "bytes": 4415,
+          "sha256": "2dc9a05268ddc67699757d0cfbd5fe341a71acc1c959c194fa977401bc55a941"
+        }
+      ]
+    },
+    {
+      "name": "ignore_manifest_bytes_pin",
+      "rejected": false,
+      "exit_code": 0,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_manifest_bytes_pin\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if (len(raw) >= MAX_BYTES or len(raw) != trusted[\"bytes\"]\n            or hashlib.sha256(raw).hexdigest() != trusted[\"sha256\"]):",
+          "after": "if False:"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_manifest_bytes_pin\\source\\verify_public_selection.py",
+        "bytes": 13893,
+        "sha256": "c29972cbeeeba8a580a45eff482f914efedcc2d97b599b92787212eea5ecd508"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_manifest_bytes_pin\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_manifest_bytes_pin\\stderr.txt",
+          "bytes": 3418,
+          "sha256": "54fb21053a965e4d8c7476d3ec899f109366460b10c814a8a59afb35e7e26c9e"
+        }
+      ]
+    },
+    {
+      "name": "ignore_export_schema",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_export_schema\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "or manifest.get(\"schema\") != \"rgb_stratified_lossless_training_export_v1\"",
+          "after": "or False"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_export_schema\\source\\verify_public_selection.py",
+        "bytes": 13947,
+        "sha256": "67a098c6f6deb60a8b58909cc7db9bbe320bb92c4971c81b755c0204bfda6d71"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_export_schema\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_export_schema\\stderr.txt",
+          "bytes": 4457,
+          "sha256": "3a0c3a78ea806de51385503d678af3770be3f7f497f70f60d00cfe97c125956d"
+        }
+      ]
+    },
+    {
+      "name": "ignore_encoding_field",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_encoding_field\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "encoding = member.get(\"encoding\")",
+          "after": "encoding = \"identity\""
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_encoding_field\\source\\verify_public_selection.py",
+        "bytes": 14000,
+        "sha256": "da53ec33b0e5d0c4eaaf07ec71c01a25a3448f27ea171acb89a979c3867e15d6"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_encoding_field\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_encoding_field\\stderr.txt",
+          "bytes": 4397,
+          "sha256": "58ab18e3a4bd1c494727d99441bed87873928783b6f727e4fbc0405096ad70ae"
+        }
+      ]
+    },
+    {
+      "name": "ignore_original_pin",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if encoding == \"identity\" and before != saved:",
+          "after": "if False:"
+        },
+        {
+          "before": "or stored != original or encoding != \"identity\" or before != saved):",
+          "after": "or stored != original or encoding != \"identity\"):"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\source\\verify_public_selection.py",
+        "bytes": 13956,
+        "sha256": "b42d34a3d021ead4fea6e07c0adca786771489f15dc6b3edc169c7904522d397"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\ignore_original_pin\\stderr.txt",
+          "bytes": 5393,
+          "sha256": "651c5fcce3543ce42f9e32824ee15e6092ebf3ec806219d02c1cd264be88e5ad"
+        }
+      ]
+    },
+    {
+      "name": "allow_arbitrary_bin_gzip_name",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\allow_arbitrary_bin_gzip_name\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "re.fullmatch(r\"pools_[0-9]{6}\\.bin\\.gz\", original)",
+          "after": "re.fullmatch(r\".+\\.bin\\.gz\", original)"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\allow_arbitrary_bin_gzip_name\\source\\verify_public_selection.py",
+        "bytes": 14000,
+        "sha256": "4c9d1f5888fa85e779431a209d14cdb4bcc53fccfe17fd92df850ff5c0cf5c6c"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\allow_arbitrary_bin_gzip_name\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\allow_arbitrary_bin_gzip_name\\stderr.txt",
+          "bytes": 7007,
+          "sha256": "c12660b78ac33565fb3052acfa39847b36fdc5982d555ff50d574f9803e5d2de"
+        }
+      ]
+    },
+    {
+      "name": "omit_export_members",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\omit_export_members\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if (selected_member is None\n                or {key: selected_member.get(key) for key in (\"bytes\", \"sha256\")} != saved):",
+          "after": "if (selected_member is not None\n                and {key: selected_member.get(key) for key in (\"bytes\", \"sha256\")} != saved):"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\omit_export_members\\source\\verify_public_selection.py",
+        "bytes": 14017,
+        "sha256": "140ef2af70ec829e2ca8c73e6a5bdaf829840dc8de80bafced8b663b99f188d0"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\omit_export_members\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\omit_export_members\\stderr.txt",
+          "bytes": 4153,
+          "sha256": "f44043654903ad7e03d4ebab77736dd5223ad11a6e19be71e4ab8e009b505694"
+        }
+      ]
+    },
+    {
+      "name": "rebind_pool_to_selected_pin",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\rebind_pool_to_selected_pin\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if (selected_member is None\n                or {key: selected_member.get(key) for key in (\"bytes\", \"sha256\")} != saved):",
+          "after": "if selected_member is None:"
+        },
+        {
+          "before": "allowed[target_rel] = saved",
+          "after": "allowed[target_rel] = {key: selected_member.get(key) for key in (\"bytes\", \"sha256\")}"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\rebind_pool_to_selected_pin\\source\\verify_public_selection.py",
+        "bytes": 13975,
+        "sha256": "692733497e743c1c2aca2b5021ec7e7948cd0a569933e69c90e9988433ca830e"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\rebind_pool_to_selected_pin\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\rebind_pool_to_selected_pin\\stderr.txt",
+          "bytes": 4173,
+          "sha256": "7b2ecffb5b8f7c156dd6c61f8c8899e77e50fd19e025232419b372f4fed7422a"
+        }
+      ]
+    },
+    {
+      "name": "disable_outer_suffix_gate",
+      "rejected": true,
+      "exit_code": 1,
+      "tests": 20,
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\disable_outer_suffix_gate\\source",
+        "-p",
+        "test_public_selection.py",
+        "-v"
+      ],
+      "changes": [
+        {
+          "before": "if forbidden and not (forbidden == {\".bin\"} and path.suffixes == [\".bin\", \".gz\"]\n                              and pool_pins.get(rel) == {key: row.get(key) for key in (\"bytes\", \"sha256\")}):",
+          "after": "if False:"
+        }
+      ],
+      "mutant_pin": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\disable_outer_suffix_gate\\source\\verify_public_selection.py",
+        "bytes": 13831,
+        "sha256": "09d7c96a4c2366b3351121197efc462592d9f8a5db16254860b198816ab47abd"
+      },
+      "outputs": [
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\disable_outer_suffix_gate\\stdout.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\successor_mutations_v1\\disable_outer_suffix_gate\\stderr.txt",
+          "bytes": 12122,
+          "sha256": "16e4e4cd14a9ddebd488bbb7f39032eee652d4310c893123523dc6c0d3ce4c77"
+        }
+      ]
+    }
+  ],
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_selection.py",
+      "bytes": 7887,
+      "sha256": "7ea05b4fe0de84487a890c7826a49f5ec9e530330fab83da2bf4c3bdf2cc366b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\test_publication.py",
+      "bytes": 7552,
+      "sha256": "16e6ee16824faae3fdfe4ba46d46e12bebd8978f7a17d902a53048c0d15bfefb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\verify_public_selection.py",
+      "bytes": 13740,
+      "sha256": "64710f715c420767849e40a12aa90f9e916a836198084d3e12c9ecc5e63b4bdd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\test_public_selection.py",
+      "bytes": 17271,
+      "sha256": "7d67972120f3188a8021e40fd9173f8324bccad580bf01584ebbf02722ddaae6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\run_public_tests.py",
+      "bytes": 2698,
+      "sha256": "4acd1067b0acf77c74825f77859ff6a6556e604336887a95a72f115b703fc178"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\release_v31\\run_public_mutations.py",
+      "bytes": 5834,
+      "sha256": "6b2ee0288eeb0896e2c4fbbee02d89e9b907841aa36ea08474fcb10bb1577966"
+    }
+  ],
+  "source_unchanged": true,
+  "synthetic_only": true,
+  "real_git_commands_run": 0,
+  "real_index_reads": 0,
+  "real_bank_reads": 0,
+  "real_raw_archive_reads": 0,
+  "real_image_reads": 0,
+  "native_runs": 0,
+  "matcher_calls": 0,
+  "final_selection_created": false,
+  "limitation": "Deliberate source mutants and temporary tiny fixtures only"
+}
