@@ -1,0 +1,23 @@
+{
+  "status": "predeclared before real capture, replay benchmark implementation or measurement",
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "eligibility": "Only immutable full pre-consolidation input traces that pass manifest/source/input SHA checks, complete captured-output equality to a separately compiled uninstrumented same-core matcher, and exact ordered V11 replay equality",
+  "real_scope": "All eight fixed LED frames, case1, all sixteen tiny development actual85 frames; optional tiny coarse50 is a separately named stress scenario, never mixed with actual85 quality or claimed as an exact historical replay",
+  "methods": ["v11_sort_unique", "owning_hash_reserve", "owning_hash_no_reserve", "index_hash_reserve", "index_hash_no_reserve"],
+  "max_load_factor": 1.0,
+  "ownership": "For each trial and each method prepare the same independent mutable copy of immutable input outside the timer. V11 consolidates that copy in place. Hash methods accept that same copy as const, build a separate output, swap it into the mutable copy and destroy the old full input inside the timer. Return-vector destruction and verification occur outside the timer for every method. This accounts for replacement/destruction cost and does not charge an extra full input copy to V11 alone.",
+  "common_copy_cost": "Measure the identical full input-copy construction separately; it is excluded from every consolidation timer. Report it separately and never add it selectively to one method.",
+  "excluded_from_timing": "Trace/file parsing, SHA, manifest checks, original matcher/capture/serialization, input preparation, ordered oracle comparison, CSV/JSON writes and returned-output destruction",
+  "warmup_rounds": 3,
+  "measured_rounds": 31,
+  "batch_size": "Fixed from input N/bytes before timing: base N<64 is 10000, 64<=N<4096 is 128, N>=4096 is 1. Limit base to max(1,floor(67108864/max(1,sum(sizeof(Match)+64+class_byte_count) over input)))). This estimate caps batch preparation, not actual heap/RSS; one trace may exceed it. Each batch uses independent prepared vectors; divide elapsed by batch size and do not pool inputs across methods.",
+  "case_order": "For trace index i and phase-local round r, rotate the five methods by (i+r)%5 and reverse when (i+r) is odd; include every timing and regression",
+  "replay_threads": 1,
+  "cv_or_omp_calls": 0,
+  "process_priority": "normal; do not alter user system power settings",
+  "cpu_pinning": "none; record CPU model, logical processor count, OS, compiler/flags/hash, executable/runtime SHA, start/end timestamps and exclusive-CPU coordination",
+  "reported_fields": "Trace identity/SHA/scenario, N, U, zero-score fallback, reserve mode, bucket count, batch size, common copy time, consolidation median/p10/p90, every paired ratio and every regression. Assertion and synthetic sizes are not image counts.",
+  "statistics": "Within each trace use median of 31 same-round candidate/V11 latency ratios; then equal-weight median/geometric mean across traces only within the same declared scenario. Quantiles are descriptive and no confidence interval is inferred. Lower ratio is faster.",
+  "resource_limits": "Trace limits bound encoded bytes, not actual heap/RSS. Bucket counts and live-vector accounting do not constitute a measured peak-memory result. No memory gain is claimed without separate measurement.",
+  "limitations": "Isolated uninstrumented consolidation replay only; no small-N threshold selection, industrial accuracy improvement, whole-matcher latency claim or production promotion follows from these measurements. Capture/API instrumented timings are ineligible. Preserve real small/no-duplicate traces and report any separately declared synthetic cases as synthetic."
+}

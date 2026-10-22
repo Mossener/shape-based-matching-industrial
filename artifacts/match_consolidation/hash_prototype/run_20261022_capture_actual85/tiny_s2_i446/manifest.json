@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "protocol_sha256": "8577f9f04a1fc5198875c930e1617099a2085d737a6ccbd54910a672b56eca56",
+  "case": {
+    "case_id": "tiny_s2_i446",
+    "dataset": "tless_tiny",
+    "split": "development",
+    "scenario": "quality_actual85",
+    "object_id": 1,
+    "matcher_threshold": 85
+  },
+  "trace": {
+    "path": "capture.bin",
+    "size_bytes": 59692,
+    "sha256": "ef72efce1bae7720eb8c81c4a5620c0a43cd88aee02011975819bd4f1de940b2",
+    "input_count": 1304,
+    "output_count": 266
+  },
+  "reference": {
+    "path": "reference.bin",
+    "size_bytes": 10140,
+    "sha256": "dd2d9f4574fbcbbfc0c8de0073dc877cde64d1f4d05929766e43859ec9ecfde1",
+    "input_count": 0,
+    "output_count": 266
+  }
+}

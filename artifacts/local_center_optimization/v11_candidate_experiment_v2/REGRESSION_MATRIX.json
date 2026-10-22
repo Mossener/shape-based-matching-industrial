@@ -1,0 +1,36 @@
+{
+  "status": "predeclared native matrix; not compiled or run",
+  "baseline_commit": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "fixture_count": 27,
+  "total_input_count": 32,
+  "candidate_variants": ["linear16", "direct16"],
+  "core": {
+    "thread_passes": [1,4,2,4],
+    "flags": [63,127],
+    "expected_csv_rows": 2304,
+    "expected_phases": {"baseline_repeat": 256, "core": 2048},
+    "expected_variant_rows": {"exact_v11": 256, "linear16": 1024, "direct16": 1024},
+    "expected_matcher_calls": {"exact_v11": 512, "linear16": 1024, "direct16": 1024, "total": 2560}
+  },
+  "flags": {
+    "threads": 4,
+    "all_flag_combinations": 128,
+    "expected_csv_rows": 3124,
+    "expected_phases": {"flags": 3072, "mask_restore": 48, "log_flag": 4},
+    "expected_variant_rows": {"linear16": 1562, "direct16": 1562},
+    "expected_matcher_calls": {"exact_v11": 781, "linear16": 1562, "direct16": 1562, "total": 3905}
+  },
+  "lifetime": {
+    "threads": 4,
+    "concurrent_callers": 2,
+    "expected_csv_rows": 76,
+    "expected_phases": {"pre_move": 2, "move_constructed": 2, "moved_from_reused": 2, "assignment_destination_populated": 2, "move_assigned": 2, "assignment_source_reused": 2, "legacy_default": 8, "explicit_default": 8, "concurrent": 48},
+    "expected_variant_rows": {"linear16": 38, "direct16": 38},
+    "expected_matcher_calls": {"exact_v11": 68, "linear16": 38, "direct16": 38, "total": 144}
+  },
+  "total_comparison_rows": 5504,
+  "total_matcher_calls": 6609,
+  "counting": "Atomic call counters only in correctness harness, immediately around API call sites; no counters in core or benchmark fixture header. CSV comparisons additionally counted independently.",
+  "comparison": "direct complete ordered tuple vectors: length, class string bytes, x,y,template ID,float32 score bits; never hashes or sets",
+  "limitations": "Fixed matrix only; no universal equality, speed or accuracy proof; no redundant combined all rerun"
+}

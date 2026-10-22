@@ -172,4 +172,12 @@
 - 十二个新旧bank的77870个层共同规划得848×832、左上64、右下64/228；独立读取全部bank重建层CSV和尺寸、对齐与资源预算，结果一致。读到的旧数字表和RGB bank直接绑定冻结input closure，生成bank/规划文件绑定完整freeze清单，审计主文件与独立bank reader均前后pin。
 - 本版只完成训练与数字规划，尚无开发图像识别质量、计时或默认推广结论。后续固定两arm/六目标/400帧对照继续使用同一共享padding，留出场景和对象25/29继续封存；磁片回归不删。详见`artifacts/silhouette_empty_mask_experiment/TRAINING_RESULTS.md`及`artifacts/independent_reviews/empty_mask_training_v1/README.md`。
 
-本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v20` 标记各阶段。
+## V21：确定性哈希合并回放与直接映射缓存的独立对照
+
+- 在隔离标准库原型中比较V11排序去重、owning/index键各自reserve/no-reserve四种哈希方案。25份固定真实trace由50次捕获/独立V11参考调用取得，N=21～2695、U=7～641，全部含重复；原生合成测试另覆盖碰撞、分配失败、signed-zero回退与压力向量，不能当作真实图像覆盖。生产核心和默认选项不改。
+- 独立verify后执行3预热/31正式、五方法轮换反转，共4250行/3875正式计时，每批完整有序字段及float32位等于V11。统一输入副本在计时外，哈希替换及旧输入销毁在计时内；copy单列。索引哈希reserve的逐trace配对比中位数在LED+case1九trace中等权中位为0.510006、几何平均0.562862，tiny actual85十六trace为0.592860/0.591517。四哈希方案均仅case1退化，本轮tiny无退化；没有据此拟合小N阈值，没有完整API/准确率/内存收益声明。
+- 另将V18线性16项局部缓存换为固定hash的直接映射16槽，完整有符号中心键和raw/score/row/col，冲突仍完整计算后替换；worker/template/level生命周期及默认关闭不变。core/flags/lifetime合计6609次调用、5504次完整有序比较全部通过，覆盖128开关组合、线程切换、mask、move、独立并发与复用。
+- 同轮五方案exactV11、linear off/on、direct off/on固定25图、cold1/warm2/measured15，共2250调用/1875正式样本，全输出相同。direct-on/direct-off的搜索/完整调用逐图配对中位比为0.987631/0.996630，LED搜索组0.524305、tiny组1.012165；direct-on/linear-on为1.010188/1.037551，15/25图搜索退化、19/25图完整调用退化。因此直接映射未优于线性，不推广默认；off路径和预处理亦有本轮差异，不能全归因缓存查找。
+- root不导入各汇总实现，分别重读25份二进制trace/4250行CSV及2250行五方案CSV，复算全部route、batch、诊断、绝对统计、配对统计、分组和退化列表；新独立算术合成测试各3项通过。构建/正确性/执行闭包、源码快照、原始数据、失败与语义RED均保留；外部compiler/SDK/image缓存及exe/object不随发布。留出场景和对象25/29继续封存，磁片证据保留。详见`artifacts/match_consolidation/hash_prototype/REPLAY_RESULTS_V21.md`与`artifacts/local_center_optimization/v11_candidate_experiment_v2/RESULT_V2.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v21` 标记各阶段。

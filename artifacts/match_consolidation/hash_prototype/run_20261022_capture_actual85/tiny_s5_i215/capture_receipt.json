@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\match_consolidation\\hash_prototype\\build_20261022_capture_v1\\capture.exe",
+    "--config",
+    "D:\\h\\shape_based_matching-master\\artifacts\\match_consolidation\\hash_prototype\\run_20261022_capture_actual85\\tiny_s5_i215\\config.json",
+    "--output",
+    "D:\\h\\shape_based_matching-master\\artifacts\\match_consolidation\\hash_prototype\\run_20261022_capture_actual85\\tiny_s5_i215\\capture.bin"
+  ],
+  "native": {
+    "passed": true,
+    "capture": true,
+    "input_count": 568,
+    "output_count": 152,
+    "matcher_calls": 1,
+    "performance_measurement": false
+  },
+  "executable": {
+    "path": "artifacts/match_consolidation/hash_prototype/build_20261022_capture_v1/capture.exe",
+    "size_bytes": 658343,
+    "sha256": "75de5355ecff3145ce4593416f96cc9353c9dc308497227c9f6eec0300815d22"
+  },
+  "trace": {
+    "path": "capture.bin",
+    "size_bytes": 27392,
+    "sha256": "bc016563ac5c81365baff2c3fc68bd892e0049fcb6372b1aa9600e6ce1cb6b58",
+    "input_count": 568,
+    "output_count": 152
+  },
+  "exit_code": 0
+}

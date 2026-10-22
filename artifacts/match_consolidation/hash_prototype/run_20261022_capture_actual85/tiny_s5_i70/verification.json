@@ -1,0 +1,27 @@
+{
+  "verified": true,
+  "input_count": 253,
+  "output_count": 67,
+  "protocol_sha256": "8f370ba4ecc295942ed88e2a52a568641ea3a06cf063f49c0c54dfcc13e25bc8",
+  "manifest_sha256": "6b218d2ebd0be2769dde8092a31c9a12e4adb133b7392b856981f438889d32b5",
+  "trace_sha256": "038953450330ce8b0e6853a47b9b4f8640d2ce77620b9f1674a246eaa05fee72",
+  "reference_sha256": "a51531e062ad3bf43aa9d5f92224531ec1c8eaba087b89068b48f6279e381676",
+  "pins_verified": 73,
+  "case": {
+    "case_id": "tiny_s5_i70",
+    "dataset": "tless_tiny",
+    "split": "development",
+    "scenario": "quality_actual85",
+    "object_id": 1,
+    "matcher_threshold": 85
+  },
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "performance_measurement": false,
+  "limitation": "Synthetic-tested fixed-source/build and saved-output closure; not an image accuracy or performance result",
+  "real_build_closure_verified": true,
+  "git_source_files": 23,
+  "builds_verified": 2,
+  "closure_file_checks": 1822
+}

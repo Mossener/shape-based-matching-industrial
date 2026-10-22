@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "build_manifest_sha256": "767657b9bbe1b2759d9b28dc0a769d156f6b1ff51b1d12ee5769ce09bb67b206",
+  "executable": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\build\\benchmark_20261022_010835_118746\\benchmark.exe",
+    "size_bytes": 761441,
+    "sha256": "f2a9e70da205726b638a3c865dfb00ac07c8ff7c9d9093ed0bf6dfeb5eebc3c4"
+  },
+  "verified_pin_occurrences": 4011,
+  "reused_objects": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\build\\matcher_20261022_003331_222515\\v11_reference.o",
+      "size_bytes": 216251,
+      "sha256": "e17f9f1d87ce456e67e8cdbbe6dfd643b06e00949d535c9166eb89b902fbf052"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\build\\matcher_20261022_003331_222515\\v18_reference.o",
+      "size_bytes": 218396,
+      "sha256": "c756ef42020eeb67d3e89b19d01c3b74ec5d26c5eaa6238542bc5534b5ce62ad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment_v2\\build\\matcher_20261022_003331_222515\\direct_core.o",
+      "size_bytes": 202708,
+      "sha256": "cd7bbb2c34665a574f78a143c447e204a9b1508dc5e311cc21b484666d0a1224"
+    }
+  ],
+  "only_benchmark_translation_unit_compiled": true,
+  "exact_recipe_rechecked": true,
+  "matcher_calls_in_review": 0,
+  "image_decodes_in_review": 0
+}

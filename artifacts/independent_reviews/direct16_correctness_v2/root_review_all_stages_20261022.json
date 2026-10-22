@@ -1,0 +1,88 @@
+{
+  "passed": true,
+  "build_manifest_sha256": "ae8b31faa39019c694a25f215ed31752d16e223d5717dc6cd7b72f1d62e651ab",
+  "verified_pin_occurrences": 1751,
+  "stages": [
+    {
+      "stage": "lifetime",
+      "result_sha256": "2fc4d44fdab9efb858e84dc456a3532b2fd957a7e3e31323a6f796187cbdb4c5",
+      "validation": {
+        "rows": 76,
+        "phases": {
+          "pre_move": 2,
+          "move_constructed": 2,
+          "moved_from_reused": 2,
+          "assignment_destination_populated": 2,
+          "move_assigned": 2,
+          "assignment_source_reused": 2,
+          "legacy_default": 8,
+          "explicit_default": 8,
+          "concurrent": 48
+        },
+        "variants": {
+          "direct16": 38,
+          "linear16": 38
+        },
+        "actual_matcher_calls": {
+          "exact_v11": 68,
+          "linear16": 38,
+          "direct16": 38,
+          "total": 144
+        },
+        "complete_ordered_route_equal": true,
+        "mismatches": 0
+      }
+    },
+    {
+      "stage": "core",
+      "result_sha256": "63d2f589570812ade96a91c2e6ca89a268f26fb6d75af6b1219bce67b94f192f",
+      "validation": {
+        "rows": 2304,
+        "phases": {
+          "baseline_repeat": 256,
+          "core": 2048
+        },
+        "variants": {
+          "exact_v11": 256,
+          "direct16": 1024,
+          "linear16": 1024
+        },
+        "actual_matcher_calls": {
+          "exact_v11": 512,
+          "linear16": 1024,
+          "direct16": 1024,
+          "total": 2560
+        },
+        "complete_ordered_route_equal": true,
+        "mismatches": 0
+      }
+    },
+    {
+      "stage": "flags",
+      "result_sha256": "278f7744283736dd375257a6193ea48b905362bdd474157f2275e326a5815877",
+      "validation": {
+        "rows": 3124,
+        "phases": {
+          "flags": 3072,
+          "mask_restore": 48,
+          "log_flag": 4
+        },
+        "variants": {
+          "direct16": 1562,
+          "linear16": 1562
+        },
+        "actual_matcher_calls": {
+          "exact_v11": 781,
+          "linear16": 1562,
+          "direct16": 1562,
+          "total": 3905
+        },
+        "complete_ordered_route_equal": true,
+        "mismatches": 0
+      }
+    }
+  ],
+  "native_calls_in_review": 0,
+  "image_decodes_in_review": 0,
+  "scope": "Fresh frozen build pin gate and saved complete ordered CSV route/count validation; no native rerun or independent reconstruction of matcher output"
+}

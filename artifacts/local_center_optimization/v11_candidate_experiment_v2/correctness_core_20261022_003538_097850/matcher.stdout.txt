@@ -1,0 +1,7 @@
+SMD points: 236 111 46 22
+core thread pass 1 calls=576
+core thread pass 4 calls=1152
+core thread pass 2 calls=1728
+core thread pass 4 calls=2304
+MATCHER_CALLS exact_v11=512 linear16=1024 direct16=1024 total=2560
+PASS V2 direct16 and frozen linear16 ordered contract stage=core comparisons=2304

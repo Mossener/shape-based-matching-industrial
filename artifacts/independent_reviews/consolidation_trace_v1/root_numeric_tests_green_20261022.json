@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "tests": 10,
+  "source_unchanged": true,
+  "source_sha256": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1\\run_saved_numeric_tests.py": "86071a2dbe29e725e035b32e61b5b1e5d7eb391206bf6909064ab7864c848da7",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1\\audit_trace.py": "5828986e54fad200e295e9be86ce75e7236791d8de2189b22c04e53233bd0b41",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1\\audit_replay_statistics.py": "06cace51c83fb1a5f9d51621bb547d4d7c0c37267adda09fcf0d399905fb4f3c",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\direct16_correctness_v2\\audit_benchmark.py": "98f5a4240bc39c24ebe3c4a2c154634b2b0cfb9cd9aea809e472488762b6b525",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1\\test_trace.py": "ca6d1e89004d3a6c32ca1f540d34c20886a0eb0ce2a07b3d06ad977f3fbddfda",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1\\test_replay_arithmetic.py": "9ba242bc65475156844597128731f926e26c1a9f721bf6d517ae7523a432ae80",
+    "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\direct16_correctness_v2\\test_benchmark_arithmetic.py": "f1b1648644570c9340a6d11b1fe8d92a834c60c24276ba5df719f4990ca9554c"
+  },
+  "runs": [
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1",
+        "-p",
+        "test_trace.py",
+        "-v"
+      ],
+      "expected_tests": 4,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_binary_literal (test_trace.TraceAudit.test_binary_literal) ... ok\r\ntest_minimum_representative_and_all_fields (test_trace.TraceAudit.test_minimum_representative_and_all_fields) ... ok\r\ntest_negative_numeric_order (test_trace.TraceAudit.test_negative_numeric_order) ... ok\r\ntest_zero_is_explicitly_unsupported (test_trace.TraceAudit.test_zero_is_explicitly_unsupported) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 4 tests in 0.000s\r\n\r\nOK\r\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\consolidation_trace_v1",
+        "-p",
+        "test_replay_arithmetic.py",
+        "-v"
+      ],
+      "expected_tests": 3,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_changed_summary_numeric_or_identity_is_rejected (test_replay_arithmetic.ReplayArithmetic.test_changed_summary_numeric_or_identity_is_rejected) ... ok\r\ntest_paired_median_differs_from_ratio_of_medians (test_replay_arithmetic.ReplayArithmetic.test_paired_median_differs_from_ratio_of_medians) ... ok\r\ntest_zero_copy_quantiles_and_bad_timing (test_replay_arithmetic.ReplayArithmetic.test_zero_copy_quantiles_and_bad_timing) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.000s\r\n\r\nOK\r\n",
+      "passed": true
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\direct16_correctness_v2",
+        "-p",
+        "test_benchmark_arithmetic.py",
+        "-v"
+      ],
+      "expected_tests": 3,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_inclusive_total_and_paired_median (test_benchmark_arithmetic.ArithmeticTests.test_inclusive_total_and_paired_median) ... ok\r\ntest_summary_and_nonfinite_rejections (test_benchmark_arithmetic.ArithmeticTests.test_summary_and_nonfinite_rejections) ... ok\r\ntest_wrong_route_and_inclusive_clocks_rejected (test_benchmark_arithmetic.ArithmeticTests.test_wrong_route_and_inclusive_clocks_rejected) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 3 tests in 0.212s\r\n\r\nOK\r\n",
+      "passed": true
+    }
+  ],
+  "matcher_calls": 0,
+  "image_decodes": 0,
+  "synthetic_only": true
+}

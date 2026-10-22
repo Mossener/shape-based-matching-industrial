@@ -1,0 +1,326 @@
+{
+  "baseline_commit": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "baseline_manifest_sha256": "505c0ccd0ebad8b2db6b51b0e341433f6fb44849dd8dd3adbe42899692491aa2",
+  "method": "batched exact Git blob verification; byte copies only, never newline conversion",
+  "files": {
+    "baseline/MIPP/math/avx512_mathfun.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx512_mathfun.h",
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    "baseline/MIPP/math/avx512_mathfun.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx512_mathfun.hxx",
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    "baseline/MIPP/math/avx_mathfun.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx_mathfun.h",
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    "baseline/MIPP/math/avx_mathfun.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx_mathfun.hxx",
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    "baseline/MIPP/math/neon_mathfun.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\neon_mathfun.h",
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    "baseline/MIPP/math/neon_mathfun.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\neon_mathfun.hxx",
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    "baseline/MIPP/math/sse_mathfun.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\sse_mathfun.h",
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    "baseline/MIPP/math/sse_mathfun.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\sse_mathfun.hxx",
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    "baseline/MIPP/mipp.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp.h",
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    "baseline/MIPP/mipp_impl_AVX.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_AVX.hxx",
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    "baseline/MIPP/mipp_impl_AVX512.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_AVX512.hxx",
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    "baseline/MIPP/mipp_impl_NEON.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_NEON.hxx",
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    "baseline/MIPP/mipp_impl_SSE.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_SSE.hxx",
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    "baseline/MIPP/mipp_object.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_object.hxx",
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    "baseline/MIPP/mipp_scalar_op.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_scalar_op.h",
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    "baseline/MIPP/mipp_scalar_op.hxx": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_scalar_op.hxx",
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    "baseline/line2Dup.cpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup.cpp",
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    "baseline/line2Dup.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup.h",
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    "baseline/line2Dup_local.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_local.hpp",
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "baseline/line2Dup_matches.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_matches.hpp",
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "baseline/line2Dup_response.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_response.hpp",
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "baseline/line2Dup_search.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_search.hpp",
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "baseline/line2Dup_spread.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_spread.hpp",
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "baseline/manifest.json": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\manifest.json",
+      "sha256": "505c0ccd0ebad8b2db6b51b0e341433f6fb44849dd8dd3adbe42899692491aa2",
+      "bytes": 5078
+    },
+    "linear/line2Dup.cpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.cpp",
+      "sha256": "c4bac20f659384e76155739e440d19ff4c0688a1712e196f8e9dbb61d46793e7",
+      "bytes": 63951
+    },
+    "direct/line2Dup.cpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.cpp",
+      "sha256": "c4bac20f659384e76155739e440d19ff4c0688a1712e196f8e9dbb61d46793e7",
+      "bytes": 63951
+    },
+    "linear/line2Dup.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.h",
+      "sha256": "c6bcca788963d7cfe47e0baea02b8f9097a641d65bb4f844b7b32b86b695e921",
+      "bytes": 12812
+    },
+    "direct/line2Dup.h": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.h",
+      "sha256": "c6bcca788963d7cfe47e0baea02b8f9097a641d65bb4f844b7b32b86b695e921",
+      "bytes": 12812
+    },
+    "linear/line2Dup_local.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_local.hpp",
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "direct/line2Dup_local.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_local.hpp",
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    "linear/line2Dup_search.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_search.hpp",
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "direct/line2Dup_search.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_search.hpp",
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    "linear/line2Dup_response.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_response.hpp",
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "direct/line2Dup_response.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_response.hpp",
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    "linear/line2Dup_spread.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_spread.hpp",
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "direct/line2Dup_spread.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_spread.hpp",
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    "linear/line2Dup_matches.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_matches.hpp",
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "direct/line2Dup_matches.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_matches.hpp",
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    "linear/line2Dup_local_cache.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_local_cache.hpp",
+      "sha256": "bc14a3d21d0261447155d480ea44a22c348a538dc09131226739647aee06a600",
+      "bytes": 1103
+    },
+    "origins/v18_candidate_change_manifest.json": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate_change_manifest.json",
+      "sha256": "5bdc8a06305aac29eb22c8f528658b1eddc3e774fb196fe0381851da296bbc88",
+      "bytes": 2679
+    },
+    "origins/v18_cache_green.json": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\cache_contract_green_20261021_225524_029.json",
+      "sha256": "47b533bf04ea73282b3a76cbac58a70c401c43d41cec8c83bd14dab4d09aaca6",
+      "bytes": 21531
+    },
+    "v11_reference.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\v11_reference.hpp",
+      "sha256": "f5576f7259c671c3c92619b658e8cf1a4eb7d27dc921507215bad9aea2cdaf19",
+      "bytes": 1327
+    },
+    "v11_reference.cpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\v11_reference.cpp",
+      "sha256": "e9486e9e68ea8d624bde4d98f67017da03a09f4a76d7db10c3dff59aac0134a1",
+      "bytes": 2847
+    },
+    "origins/v1_fixtures.hpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\benchmark_fixtures.hpp",
+      "sha256": "985dfd43e9dc33bf246969a581617e288b16e6ab79aecea117b463be3a671ed5",
+      "bytes": 8423
+    },
+    "origins/v1_matcher_contract.cpp": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\tests\\matcher_contract_test.cpp",
+      "sha256": "9814db2cf17a0b5a05603eea1e0a6dfe07b2bfae39e02abb88bc5c9d6551532a",
+      "bytes": 18795
+    },
+    "origins/v1_run_cache_contract.ps1": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_cache_contract.ps1",
+      "sha256": "87e7c9dab99785405f631bc6eef4f12426da5378c2f112f85edf8de3a763b44b",
+      "bytes": 4863
+    },
+    "origins/v1_run_correctness.ps1": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_correctness.ps1",
+      "sha256": "6e4ce8298576a38896f8e7eedda242d94da693aab31d328860f86d45aee0ac7d",
+      "bytes": 12561
+    },
+    "origins/v1_run_benchmark.ps1": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_benchmark.ps1",
+      "sha256": "cae17294c2d4daae6542339688eace53482020151b34b9ed77354d798a7a149e",
+      "bytes": 15383
+    },
+    "origins/v1_summarize.py": {
+      "source": "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\summarize.py",
+      "sha256": "bfb8d329b0d622d59b934a92cf6ff522726cba9395462a5c77428da1704cd79a",
+      "bytes": 12170
+    }
+  },
+  "protected_source_sha256": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx512_mathfun.h": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\avx512_mathfun.h": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx512_mathfun.hxx": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\avx512_mathfun.hxx": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx_mathfun.h": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\avx_mathfun.h": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\avx_mathfun.hxx": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\avx_mathfun.hxx": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\neon_mathfun.h": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\neon_mathfun.h": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\neon_mathfun.hxx": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\neon_mathfun.hxx": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\sse_mathfun.h": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\sse_mathfun.h": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\math\\sse_mathfun.hxx": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+    "D:\\h\\shape_based_matching-master\\MIPP\\math\\sse_mathfun.hxx": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp.h": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp.h": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_AVX.hxx": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_impl_AVX.hxx": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_AVX512.hxx": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_impl_AVX512.hxx": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_NEON.hxx": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_impl_NEON.hxx": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_impl_SSE.hxx": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_impl_SSE.hxx": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_object.hxx": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_object.hxx": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_scalar_op.h": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_scalar_op.h": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\MIPP\\mipp_scalar_op.hxx": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+    "D:\\h\\shape_based_matching-master\\MIPP\\mipp_scalar_op.hxx": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup.cpp": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+    "D:\\h\\shape_based_matching-master\\line2Dup.cpp": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup.h": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+    "D:\\h\\shape_based_matching-master\\line2Dup.h": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_local.hpp": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+    "D:\\h\\shape_based_matching-master\\line2Dup_local.hpp": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_matches.hpp": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+    "D:\\h\\shape_based_matching-master\\line2Dup_matches.hpp": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_response.hpp": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+    "D:\\h\\shape_based_matching-master\\line2Dup_response.hpp": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_search.hpp": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+    "D:\\h\\shape_based_matching-master\\line2Dup_search.hpp": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\line2Dup_spread.hpp": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+    "D:\\h\\shape_based_matching-master\\line2Dup_spread.hpp": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\baseline\\manifest.json": "505c0ccd0ebad8b2db6b51b0e341433f6fb44849dd8dd3adbe42899692491aa2",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.cpp": "c4bac20f659384e76155739e440d19ff4c0688a1712e196f8e9dbb61d46793e7",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup.h": "c6bcca788963d7cfe47e0baea02b8f9097a641d65bb4f844b7b32b86b695e921",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_local.hpp": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_search.hpp": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_response.hpp": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_spread.hpp": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_matches.hpp": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate\\line2Dup_local_cache.hpp": "bc14a3d21d0261447155d480ea44a22c348a538dc09131226739647aee06a600",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\candidate_change_manifest.json": "5bdc8a06305aac29eb22c8f528658b1eddc3e774fb196fe0381851da296bbc88",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\cache_contract_green_20261021_225524_029.json": "47b533bf04ea73282b3a76cbac58a70c401c43d41cec8c83bd14dab4d09aaca6",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\v11_reference.hpp": "f5576f7259c671c3c92619b658e8cf1a4eb7d27dc921507215bad9aea2cdaf19",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\v11_reference.cpp": "e9486e9e68ea8d624bde4d98f67017da03a09f4a76d7db10c3dff59aac0134a1",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\benchmark_fixtures.hpp": "985dfd43e9dc33bf246969a581617e288b16e6ab79aecea117b463be3a671ed5",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\tests\\matcher_contract_test.cpp": "9814db2cf17a0b5a05603eea1e0a6dfe07b2bfae39e02abb88bc5c9d6551532a",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_cache_contract.ps1": "87e7c9dab99785405f631bc6eef4f12426da5378c2f112f85edf8de3a763b44b",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_correctness.ps1": "6e4ce8298576a38896f8e7eedda242d94da693aab31d328860f86d45aee0ac7d",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\run_benchmark.ps1": "cae17294c2d4daae6542339688eace53482020151b34b9ed77354d798a7a149e",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\v11_candidate_experiment\\summarize.py": "bfb8d329b0d622d59b934a92cf6ff522726cba9395462a5c77428da1704cd79a",
+    "D:\\h\\shape_based_matching-master\\line2Dup_local_cache.hpp": "4ae793b326874436f2a631c6277396d8b977edaf8d29f3a834596f322f8d37c4",
+    "D:\\h\\shape_based_matching-master\\tests\\local_center_cache_test.cpp": "13591f18192eda6cb1df62aaa2492614540b21d7cd222855d4974394577aa970",
+    "D:\\h\\shape_based_matching-master\\tests\\local_center_workspace_test.cpp": "2d50a2bf21a0efce20bb2b51f41995fff20bc8d7f60775e1479823696ec693d2",
+    "D:\\h\\shape_based_matching-master\\docs\\superpowers\\plans\\2026-10-21-local-center-cache.md": "0d82907071ff387e796bf06247556264d17b0b21e478507e6359add8c60ef162",
+    "D:\\h\\shape_based_matching-master\\artifacts\\local_center_optimization\\baseline\\manifest.json": "108074d6a06fe36ae43ccaf254214c56d95f31103b763d3cb6c99f337f142478"
+  },
+  "direct_cache_header": "not copied from V18; literal no-op stub and RED precede direct algorithm",
+  "limitation": "Provenance preparation only; zero native compilation/matcher calls/image decodes"
+}

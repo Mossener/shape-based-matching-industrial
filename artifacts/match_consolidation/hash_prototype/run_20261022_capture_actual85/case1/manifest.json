@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "protocol_sha256": "84fe87e2be9c3689979a35a0f9570d85f606974b833c67be800f5a5fb3dfb7fa",
+  "case": {
+    "case_id": "case1",
+    "dataset": "case1",
+    "split": "legacy",
+    "scenario": "legacy",
+    "matcher_threshold": 90
+  },
+  "trace": {
+    "path": "capture.bin",
+    "size_bytes": 816,
+    "sha256": "89ecde2881f05bfa92ac1b071b1a3652772b779ef109c9e8e2adba9e5457c642",
+    "input_count": 21,
+    "output_count": 7
+  },
+  "reference": {
+    "path": "reference.bin",
+    "size_bytes": 228,
+    "sha256": "fc8def178a6dbaa71de21cfbe63beacb3a4efc668f189ebae85f9d1960e7f140",
+    "input_count": 0,
+    "output_count": 7
+  }
+}

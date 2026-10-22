@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "protocol_sha256": "8f370ba4ecc295942ed88e2a52a568641ea3a06cf063f49c0c54dfcc13e25bc8",
+  "case": {
+    "case_id": "tiny_s5_i70",
+    "dataset": "tless_tiny",
+    "split": "development",
+    "scenario": "quality_actual85",
+    "object_id": 1,
+    "matcher_threshold": 85
+  },
+  "trace": {
+    "path": "capture.bin",
+    "size_bytes": 12192,
+    "sha256": "038953450330ce8b0e6853a47b9b4f8640d2ce77620b9f1674a246eaa05fee72",
+    "input_count": 253,
+    "output_count": 67
+  },
+  "reference": {
+    "path": "reference.bin",
+    "size_bytes": 2578,
+    "sha256": "a51531e062ad3bf43aa9d5f92224531ec1c8eaba087b89068b48f6279e381676",
+    "input_count": 0,
+    "output_count": 67
+  }
+}

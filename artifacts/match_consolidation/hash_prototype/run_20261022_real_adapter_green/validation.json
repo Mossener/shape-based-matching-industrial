@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "started_at": "2026-10-21T16:21:30.044479+00:00",
+  "finished_at": "2026-10-21T16:21:38.328271+00:00",
+  "test_exit": 0,
+  "expected_test_exit": 0,
+  "sources_unchanged": true,
+  "source_sha256": {
+    "capture_manifest.py": "e1097c375f66d7f54df322937de1eac6e9337a7bb8eea782b763001d3e13caa4",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "355199056c276f167a770898878205421b969844201339fc5b2d4dcf73bf234d",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "4f771343544649884e5b9c5a07c99e10127a43aa866726f2600d4c863c5909ad",
+    "real_capture_audit.py": "534a8d8a9422a6345726784046a893d98a4eed50ff8786dc05ba3d390a768c92",
+    "test_real_capture_audit.py": "6f158b3d7ec92c7d03e8447ac8c324776c82c0970d1c9df74da931ecb4141352",
+    "dependency_closure.py": "472a618e9c53a11ddab42f6aa1c596a5faee690a98ac74dd5b8c7a350b6b6c66",
+    "test_dependency_closure.py": "7c7aa0d814e61c021be3571335c1efead6c0628994ed028d4cc8a6ecfe3e3cb3",
+    "real_capture_build.py": "d05641b91fe8512f4eab34a85df7c8ae1e33e03835f2bf48855c633699dfe1d7",
+    "real_capture_build.ps1": "b60f851b6763f087cb1f58cdc9f691420671837bb343d4aefb20c7f0b47f58cf",
+    "run_capture.py": "5d34725245d0cc5f0d5429ba4d496c0625f29513e57489ca326f2f13e6ea9347",
+    "capture_adapter.cpp": "c17e1f735c854543ce555dc2223137f467c80151c0f45b33645c6d704adffc8d",
+    "led_demo.cpp": "3b6521e0d8edb6c2ce7ad49fb22b50ada76bda1cf5afda37549972042f491e13",
+    "CAPTURE_PROTOCOL.json": "6ca02315ae06a782e03c4c253bf0d8c520ca1ca287766ff3f017619c614cb5ec"
+  },
+  "snapshot_sha256": {
+    "capture_manifest.py": "e1097c375f66d7f54df322937de1eac6e9337a7bb8eea782b763001d3e13caa4",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "355199056c276f167a770898878205421b969844201339fc5b2d4dcf73bf234d",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "4f771343544649884e5b9c5a07c99e10127a43aa866726f2600d4c863c5909ad",
+    "real_capture_audit.py": "534a8d8a9422a6345726784046a893d98a4eed50ff8786dc05ba3d390a768c92",
+    "test_real_capture_audit.py": "6f158b3d7ec92c7d03e8447ac8c324776c82c0970d1c9df74da931ecb4141352",
+    "dependency_closure.py": "472a618e9c53a11ddab42f6aa1c596a5faee690a98ac74dd5b8c7a350b6b6c66",
+    "test_dependency_closure.py": "7c7aa0d814e61c021be3571335c1efead6c0628994ed028d4cc8a6ecfe3e3cb3",
+    "real_capture_build.py": "d05641b91fe8512f4eab34a85df7c8ae1e33e03835f2bf48855c633699dfe1d7",
+    "real_capture_build.ps1": "b60f851b6763f087cb1f58cdc9f691420671837bb343d4aefb20c7f0b47f58cf",
+    "run_capture.py": "5d34725245d0cc5f0d5429ba4d496c0625f29513e57489ca326f2f13e6ea9347",
+    "capture_adapter.cpp": "c17e1f735c854543ce555dc2223137f467c80151c0f45b33645c6d704adffc8d",
+    "led_demo.cpp": "3b6521e0d8edb6c2ce7ad49fb22b50ada76bda1cf5afda37549972042f491e13",
+    "CAPTURE_PROTOCOL.json": "6ca02315ae06a782e03c4c253bf0d8c520ca1ca287766ff3f017619c614cb5ec"
+  },
+  "output_sha256": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.txt": "d1408ce6ebd1967b33863e9a8c57667524aab01e82c16cf3114fe4edbcd26382"
+  },
+  "python": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "python_sha256": "3cce33d75d6fdae4e004d0bdf149320b3147482a9caf370079dcb9c191a1b260",
+  "command": [
+    "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-m",
+    "unittest",
+    "-v",
+    "test_real_capture_audit"
+  ],
+  "image_decodes": 0,
+  "dataset_files_read": 0,
+  "matcher_calls": 0,
+  "performance_measurement": false,
+  "suite": "real",
+  "scope": "Synthetic byte/manifest correctness only"
+}

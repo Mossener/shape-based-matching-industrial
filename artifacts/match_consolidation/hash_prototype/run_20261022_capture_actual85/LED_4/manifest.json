@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "protocol_sha256": "e00ce302990bd071df949334cbb1b3d97504ac781530c4b5b82336a4a6947c47",
+  "case": {
+    "case_id": "LED_4",
+    "dataset": "LED",
+    "split": "legacy",
+    "scenario": "legacy",
+    "matcher_threshold": 75
+  },
+  "trace": {
+    "path": "capture.bin",
+    "size_bytes": 6134,
+    "sha256": "e5d14c05b65349cfd9a16faa01c7922d64f7ca22220a8d337836dd6dfac8917b",
+    "input_count": 211,
+    "output_count": 15
+  },
+  "reference": {
+    "path": "reference.bin",
+    "size_bytes": 437,
+    "sha256": "38067811cae9e931826754245d0b3a378d5db2dff0ce12f33958caf117a9f3b1",
+    "input_count": 0,
+    "output_count": 15
+  }
+}

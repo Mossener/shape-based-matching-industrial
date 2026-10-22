@@ -1,0 +1,148 @@
+{
+  "passed": true,
+  "started_at": "2026-10-21T16:27:33.396521+00:00",
+  "tiny_scenario": "quality_actual85",
+  "build_receipt": {
+    "path": "artifacts/match_consolidation/hash_prototype/build_20261022_capture_v1/build_receipt.json",
+    "size_bytes": 20079,
+    "sha256": "953014ed802dc285565ef4adab6a5dc686372510abe386759f7d9da0f103673d",
+    "role": "config"
+  },
+  "verified_cases": [
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_1/manifest.json",
+      "size_bytes": 745,
+      "sha256": "adbb0a3a087182dc57c4e2e01e438cd7c245c8490f9c3a5dd03c4e6fd7d89975"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_2/manifest.json",
+      "size_bytes": 745,
+      "sha256": "65905cc0b549912ae5a06e44d1f649eb3cee3186e2ee788e4801e2e41de4a27c"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_3/manifest.json",
+      "size_bytes": 744,
+      "sha256": "7c8609da76c9ec74b04bf33c6ce7c9f1a509319ac879c147037db1003af678a1"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_4/manifest.json",
+      "size_bytes": 743,
+      "sha256": "687937183b3066f7cadf14a2083b74d4b3d19a80f34c1dc6a232a2cfda5aa0ca"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_5/manifest.json",
+      "size_bytes": 745,
+      "sha256": "0920af270d6a5f5e15addae9073c5c0bf34c9649b4942d51b72c881756478187"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_6/manifest.json",
+      "size_bytes": 744,
+      "sha256": "53aaeb4ceaf22e135d4e32c9c5ede2771081f3b8bff447f005de0c418b058a9f"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_7/manifest.json",
+      "size_bytes": 745,
+      "sha256": "2f52ce9c98b04585a66e87f83970a7516b40d8a91fe6965c0a94dd4818de578f"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/LED_8/manifest.json",
+      "size_bytes": 743,
+      "sha256": "49593169d3d0ab64792e35642638d20438e17566caa5df8dfc8c08a13980d795"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/case1/manifest.json",
+      "size_bytes": 741,
+      "sha256": "4e6adf45fd249739e06e7a53c49be726ad8a160b6755583f24406090ea2d06e2"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i7/manifest.json",
+      "size_bytes": 792,
+      "sha256": "3f4c9c2758f5bb4bf15c8406e8b55065256c92c737cf21f4f4f30557904ea70e"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i70/manifest.json",
+      "size_bytes": 794,
+      "sha256": "6b218d2ebd0be2769dde8092a31c9a12e4adb133b7392b856981f438889d32b5"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i127/manifest.json",
+      "size_bytes": 797,
+      "sha256": "3c08472a7cbdeb5b12b9e02aa2c94feb7396b62b60beb6b456c9d9771e5093cf"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i215/manifest.json",
+      "size_bytes": 797,
+      "sha256": "c2cbcddb60db4b4b95b754985a46988dd379da40bdcae389073de011ca99818d"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i293/manifest.json",
+      "size_bytes": 795,
+      "sha256": "324023438ac20abf54f566985eb7aa441728b5ede4f6859aa2d555fa4978b8a1"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i353/manifest.json",
+      "size_bytes": 795,
+      "sha256": "3f210daca147035fdd834b0edae571626de8edd5b9c82ff1888e7044871895a2"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i436/manifest.json",
+      "size_bytes": 798,
+      "sha256": "432de5206b0078bb94c7e43a4feed0190919a98b91e24639996f22e6ae43886a"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s5_i493/manifest.json",
+      "size_bytes": 795,
+      "sha256": "0b38cbb4bc37a0132b086b8f6aa81e809baf513224ee219720ee086261f12d0d"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i3/manifest.json",
+      "size_bytes": 798,
+      "sha256": "1f40c63fd487c1ea35b1067c57bb70e5c197c31e829c570d7eb9adbd68547417"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i92/manifest.json",
+      "size_bytes": 798,
+      "sha256": "d08d8ead48626f1f8494cce5ec40e5dd6b266d79717b2a2360706148b35d288d"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i153/manifest.json",
+      "size_bytes": 797,
+      "sha256": "5132fdc9078a203c1b23e91efc552fb848cc2aeddad7168aa446fefd7f4e875b"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i214/manifest.json",
+      "size_bytes": 797,
+      "sha256": "ab0bcb2295d480c18aa5fe1469b73a01470f1a3f71f32a2d3dd676eec1f2755f"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i295/manifest.json",
+      "size_bytes": 797,
+      "sha256": "cb8dba24e25108fe7c678f8eb5a198d15770bf6b6a77bd0d436ee8be96c6df42"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i374/manifest.json",
+      "size_bytes": 797,
+      "sha256": "01ee771c9098147ead17dce671010305fd9d7c572182686d3a89d60cd5f9c9cc"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i446/manifest.json",
+      "size_bytes": 799,
+      "sha256": "2756f3ec72a65a96468749d34c13400be7668c7f6f0be2ea19f039d8917c6de3"
+    },
+    {
+      "path": "artifacts/match_consolidation/hash_prototype/run_20261022_capture_actual85/tiny_s2_i494/manifest.json",
+      "size_bytes": 794,
+      "sha256": "4d852b58f32565d42191271a444d51d0dedd255fac35056f69f2c492d360c47f"
+    }
+  ],
+  "frozen_capture_protocol": {
+    "path": "artifacts/match_consolidation/hash_prototype/CAPTURE_PROTOCOL.json",
+    "size_bytes": 3119,
+    "sha256": "6ca02315ae06a782e03c4c253bf0d8c520ca1ca287766ff3f017619c614cb5ec"
+  },
+  "matcher_calls": 50,
+  "adapter_invocations": 50,
+  "performance_measurement": false,
+  "limitation": "Trace provenance/exact-output equality only; capture overhead excludes all speed claims",
+  "finished_at": "2026-10-21T16:31:28.009139+00:00"
+}

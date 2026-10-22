@@ -1,0 +1,13 @@
+test_a_complete_depfile_paths_and_metadata_are_bound (test_dependency_closure.LocalDependencyClosure) ... ok
+test_changed_header_object_depfile_and_library_are_rejected (test_dependency_closure.LocalDependencyClosure) ... ok
+test_depfile_cannot_cause_unapproved_repository_image_to_be_read (test_dependency_closure.LocalDependencyClosure) ... ok
+test_depfile_rejects_wrong_target_rules_truncation_and_bad_escapes (test_dependency_closure.LocalDependencyClosure) ... ok
+test_missing_reordered_units_source_target_and_exit_are_rejected (test_dependency_closure.LocalDependencyClosure) ... ok
+test_native_style_alias_occurrences_are_preserved_and_fully_pinned (test_dependency_closure.LocalDependencyClosure) ... ok
+test_omitted_added_duplicate_or_changed_dependency_is_rejected (test_dependency_closure.LocalDependencyClosure) ... ok
+test_relative_and_make_escaped_paths_are_decoded_in_cwd (test_dependency_closure.LocalDependencyClosure) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.266s
+
+OK

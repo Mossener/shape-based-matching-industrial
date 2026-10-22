@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "started_at": "2026-10-21T15:29:06.875728+00:00",
+  "finished_at": "2026-10-21T15:29:07.655441+00:00",
+  "test_exit": 1,
+  "expected_test_exit": 1,
+  "sources_unchanged": true,
+  "source_sha256": {
+    "capture_manifest.py": "70a692f86ee94981afc96917ca949a4f40a53b1250bc051dc789bcb414bde18c",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "f5fddd68a72b73bbb70d581d81d6da276398c876a58713ac692afd32aea8b48e",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "b2731a86b7315948bbf188ccaa472752269e88b0b18aa1f2ca7f441584f0c449"
+  },
+  "snapshot_sha256": {
+    "capture_manifest.py": "70a692f86ee94981afc96917ca949a4f40a53b1250bc051dc789bcb414bde18c",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "f5fddd68a72b73bbb70d581d81d6da276398c876a58713ac692afd32aea8b48e",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "b2731a86b7315948bbf188ccaa472752269e88b0b18aa1f2ca7f441584f0c449"
+  },
+  "output_sha256": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.txt": "2933f8eb0acb90d6be874b3a83d1177b8581a18076a6b0247664bbbb71729b46"
+  },
+  "python": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "python_sha256": "3cce33d75d6fdae4e004d0bdf149320b3147482a9caf370079dcb9c191a1b260",
+  "command": [
+    "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-m",
+    "unittest",
+    "-v",
+    "test_capture_manifest",
+    "test_capture_source"
+  ],
+  "image_decodes": 0,
+  "dataset_files_read": 0,
+  "matcher_calls": 0,
+  "performance_measurement": false,
+  "scope": "Synthetic byte/manifest correctness only"
+}

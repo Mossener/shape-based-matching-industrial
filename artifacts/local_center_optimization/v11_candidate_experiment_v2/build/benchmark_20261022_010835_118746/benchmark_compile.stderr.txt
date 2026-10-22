@@ -1,0 +1,12 @@
+In file included from D:\h\shape_based_matching-master\artifacts\local_center_optimization\v11_candidate_experiment_v2\direct/line2Dup.h:9,
+                 from D:/h/shape_based_matching-master/artifacts/led_match/led_demo.cpp:3,
+                 from D:\h\shape_based_matching-master\artifacts\local_center_optimization\v11_candidate_experiment_v2\fixtures.hpp:2,
+                 from D:\h\shape_based_matching-master\artifacts\local_center_optimization\v11_candidate_experiment_v2\benchmark.cpp:1:
+D:\h\shape_based_matching-master\artifacts\local_center_optimization\v11_candidate_experiment_v2\baseline\MIPP/mipp.h:37:9: warning: '__SSE2__' redefined
+   37 | #define __SSE2__
+      |         ^~~~~~~~
+<built-in>: note: this is the location of the previous definition
+D:\h\shape_based_matching-master\artifacts\local_center_optimization\v11_candidate_experiment_v2\baseline\MIPP/mipp.h:38:9: warning: '__SSE__' redefined
+   38 | #define __SSE__
+      |         ^~~~~~~
+<built-in>: note: this is the location of the previous definition

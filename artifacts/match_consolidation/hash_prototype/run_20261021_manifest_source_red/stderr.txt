@@ -1,0 +1,227 @@
+test_a_corrupted_trace_sha_is_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_complete_bitwise_input_order_and_output_identity (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_duplicate_json_keys_and_boolean_integer_fields_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_empty_zero_and_extreme_finite_records_are_lossless (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_metadata_counts_and_reference_input_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_path_escape_absolute_duplicate_pin_and_missing_role_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_pin_sha_size_and_missing_file_rejected (test_capture_manifest.CaptureManifestContracts) ... test_pinned_bytes_rechecked_after_trace_loading (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_protocol_hash_case_core_and_kind_mismatch_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_reserved_or_mixed_scenarios_rejected_before_pin_access (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_score_bits_class_bytes_template_id_and_output_order_rejected (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_tiny_actual85_and_separate_coarse50_accept_development_only (test_capture_manifest.CaptureManifestContracts) ... ok
+test_tiny_scope_cannot_pin_heldout_path_even_if_label_says_development (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_trace_malformed_prefix_trailing_nonfinite_and_bounds (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_trace_path_must_be_a_direct_child_with_distinct_identity (test_capture_manifest.CaptureManifestContracts) ... FAIL
+test_a_exactly_one_call_redirected_and_only_include_added (test_capture_source.CaptureSourceContracts) ... FAIL
+test_missing_duplicate_or_preinstrumented_anchors_rejected (test_capture_source.CaptureSourceContracts) ... FAIL
+test_snapshot_preserves_every_git_byte_and_only_changes_core_call (test_capture_source.CaptureSourceContracts) ... ERROR
+test_snapshot_refuses_existing_directory_before_loading_git (test_capture_source.CaptureSourceContracts) ... FAIL
+test_snapshot_rejects_incomplete_mipp_and_changed_git_payload (test_capture_source.CaptureSourceContracts) ... FAIL
+test_windows_newlines_preserved (test_capture_source.CaptureSourceContracts) ... FAIL
+
+======================================================================
+ERROR: test_snapshot_preserves_every_git_byte_and_only_changes_core_call (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 79, in test_snapshot_preserves_every_git_byte_and_only_changes_core_call
+    self.assertEqual((destination/'original'/name).read_bytes(), original)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1126, in read_bytes
+    with self.open(mode='rb') as f:
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python310\lib\pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\HP\\AppData\\Local\\Temp\\tmp9bgr3mt0\\new_snapshot\\original\\line2Dup.cpp'
+
+======================================================================
+FAIL: test_a_corrupted_trace_sha_is_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 92, in test_a_corrupted_trace_sha_is_rejected
+    with self.assertRaisesRegex(ValueError, 'trace|SHA|size|byte'):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_complete_bitwise_input_order_and_output_identity (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 97, in test_complete_bitwise_input_order_and_output_identity
+    self.assertEqual(parsed['input'], self.records)
+AssertionError: Lists differ: [] != [(-2, 7, 1118633984, b'LED', 19), (-2, 7, [82 chars], 3)]
+
+Second list contains 3 additional elements.
+First extra element 0:
+(-2, 7, 1118633984, b'LED', 19)
+
+- []
++ [(-2, 7, 1118633984, b'LED', 19),
++  (-2, 7, 1118633984, b'LED', -4),
++  (2147483647, -2147483648, 1065353217, b'near\x00\xffname', 3)]
+
+======================================================================
+FAIL: test_duplicate_json_keys_and_boolean_integer_fields_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 255, in test_duplicate_json_keys_and_boolean_integer_fields_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_empty_zero_and_extreme_finite_records_are_lossless (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 297, in test_empty_zero_and_extreme_finite_records_are_lossless
+    self.assertEqual(read_trace(trace_bytes(records, records)),
+AssertionError: {'input': [], 'output': []} != {'input': [(0, 0, 0, b'', 0), (0, 0, 2147483648, b''[266 chars] 0)]}
+- {'input': [], 'output': []}
++ {'input': [(0, 0, 0, b'', 0),
++            (0, 0, 2147483648, b'', 0),
++            (0, 0, 1, b'', 0),
++            (0, 0, 2147483649, b'', 0),
++            (0, 0, 2139095039, b'', 0),
++            (0, 0, 4286578687, b'', 0)],
++  'output': [(0, 0, 0, b'', 0),
++             (0, 0, 2147483648, b'', 0),
++             (0, 0, 1, b'', 0),
++             (0, 0, 2147483649, b'', 0),
++             (0, 0, 2139095039, b'', 0),
++             (0, 0, 4286578687, b'', 0)]}
+
+======================================================================
+FAIL: test_metadata_counts_and_reference_input_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 145, in test_metadata_counts_and_reference_input_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_path_escape_absolute_duplicate_pin_and_missing_role_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 175, in test_path_escape_absolute_duplicate_pin_and_missing_role_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_pin_sha_size_and_missing_file_rejected (test_capture_manifest.CaptureManifestContracts) (mutation='data')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 119, in test_pin_sha_size_and_missing_file_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_pin_sha_size_and_missing_file_rejected (test_capture_manifest.CaptureManifestContracts) (mutation='size')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 119, in test_pin_sha_size_and_missing_file_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_pin_sha_size_and_missing_file_rejected (test_capture_manifest.CaptureManifestContracts) (mutation='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 119, in test_pin_sha_size_and_missing_file_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_pinned_bytes_rechecked_after_trace_loading (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 276, in test_pinned_bytes_rechecked_after_trace_loading
+    with self.assertRaisesRegex(ValueError, 'pin|SHA|size|changed'):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_protocol_hash_case_core_and_kind_mismatch_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 131, in test_protocol_hash_case_core_and_kind_mismatch_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_reserved_or_mixed_scenarios_rejected_before_pin_access (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 206, in test_reserved_or_mixed_scenarios_rejected_before_pin_access
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_score_bits_class_bytes_template_id_and_output_order_rejected (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 166, in test_score_bits_class_bytes_template_id_and_output_order_rejected
+    with self.assertRaisesRegex(ValueError, 'output|identity|equal'):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_tiny_scope_cannot_pin_heldout_path_even_if_label_says_development (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 250, in test_tiny_scope_cannot_pin_heldout_path_even_if_label_says_development
+    with self.assertRaisesRegex(ValueError, 'scope|development|image identity'):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_trace_malformed_prefix_trailing_nonfinite_and_bounds (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 286, in test_trace_malformed_prefix_trailing_nonfinite_and_bounds
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_trace_path_must_be_a_direct_child_with_distinct_identity (test_capture_manifest.CaptureManifestContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_manifest.py", line 191, in test_trace_path_must_be_a_direct_child_with_distinct_identity
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_a_exactly_one_call_redirected_and_only_include_added (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 26, in test_a_exactly_one_call_redirected_and_only_include_added
+    self.assertEqual(generated, expected)
+AssertionError: b'#in[48 chars]pp"\nnamespace line2Dup {\nvoid run() {\n    d[39 chars]n}\n' != b'#in[48 chars]pp"\n#include "capture_hook.hpp"\nnamespace li[68 chars]n}\n'
+
+======================================================================
+FAIL: test_missing_duplicate_or_preinstrumented_anchors_rejected (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 44, in test_missing_duplicate_or_preinstrumented_anchors_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_snapshot_refuses_existing_directory_before_loading_git (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 99, in test_snapshot_refuses_existing_directory_before_loading_git
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_snapshot_rejects_incomplete_mipp_and_changed_git_payload (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 117, in test_snapshot_rejects_incomplete_mipp_and_changed_git_payload
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_windows_newlines_preserved (test_capture_source.CaptureSourceContracts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_manifest_source_red\source\test_capture_source.py", line 33, in test_windows_newlines_preserved
+    self.assertIn(b'#include "capture_hook.hpp"\r\n', generated)
+AssertionError: b'#include "capture_hook.hpp"\r\n' not found in b'#include "line2Dup.h"\r\n#include "line2Dup_matches.hpp"\r\nnamespace line2Dup {\r\nvoid run() {\r\n    detail::consolidateMatches(matches);\r\n}\r\n}\r\n'
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.212s
+
+FAILED (failures=21, errors=1)

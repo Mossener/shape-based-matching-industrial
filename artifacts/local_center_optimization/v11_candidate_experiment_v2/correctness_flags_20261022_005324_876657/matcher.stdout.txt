@@ -1,0 +1,14 @@
+SMD points: 236 111 46 22
+construct response map: 15.3645 ms
+templ match: 25.3163 ms
+construct response map: 14.9469 ms
+templ match: 22.1383 ms
+construct response map: 10.8873 ms
+templ match: 19.4328 ms
+construct response map: 14.6652 ms
+templ match: 11.7156 ms
+construct response map: 9.3502 ms
+templ match: 17.4979 ms
+flags complete calls=3124
+MATCHER_CALLS exact_v11=781 linear16=1562 direct16=1562 total=3905
+PASS V2 direct16 and frozen linear16 ordered contract stage=flags comparisons=3124

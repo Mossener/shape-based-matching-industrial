@@ -1,0 +1,86 @@
+test_a_omitted_mipp_build_dependency_is_rejected_even_after_repinning (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_build_recipe_cannot_change_flags_core_adapter_or_executable (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_build_rejects_each_missing_support_or_core_and_extra_dependency (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_changed_author_support_is_not_accepted_as_snapshot_source (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_complete_fixed_source_and_two_build_closure_is_verified (test_real_capture_audit.RealCaptureClosure) ... ERROR
+test_failed_or_unbound_build_manifest_rejected (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_missing_or_changed_runtime_compiler_and_executable_rejected (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_protocol_cannot_omit_a_required_source_pin (test_real_capture_audit.RealCaptureClosure) ... FAIL
+test_source_manifest_cannot_hide_changed_git_payload_or_seam (test_real_capture_audit.RealCaptureClosure) ... FAIL
+
+======================================================================
+ERROR: test_complete_fixed_source_and_two_build_closure_is_verified (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 135, in test_complete_fixed_source_and_two_build_closure_is_verified
+    self.assertEqual(result['git_source_files'], 23)
+KeyError: 'git_source_files'
+
+======================================================================
+FAIL: test_a_omitted_mipp_build_dependency_is_rejected_even_after_repinning (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 128, in test_a_omitted_mipp_build_dependency_is_rejected_even_after_repinning
+    with self.assertRaisesRegex(ValueError, 'closure|source|depend'):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_build_recipe_cannot_change_flags_core_adapter_or_executable (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 170, in test_build_recipe_cannot_change_flags_core_adapter_or_executable
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_build_rejects_each_missing_support_or_core_and_extra_dependency (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 145, in test_build_rejects_each_missing_support_or_core_and_extra_dependency
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_changed_author_support_is_not_accepted_as_snapshot_source (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 199, in test_changed_author_support_is_not_accepted_as_snapshot_source
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_failed_or_unbound_build_manifest_rejected (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 223, in test_failed_or_unbound_build_manifest_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_missing_or_changed_runtime_compiler_and_executable_rejected (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 211, in test_missing_or_changed_runtime_compiler_and_executable_rejected
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_protocol_cannot_omit_a_required_source_pin (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 157, in test_protocol_cannot_omit_a_required_source_pin
+    with self.assertRaises(ValueError):
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_source_manifest_cannot_hide_changed_git_payload_or_seam (test_real_capture_audit.RealCaptureClosure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\match_consolidation\hash_prototype\run_20261021_real_closure_red\source\test_real_capture_audit.py", line 185, in test_source_manifest_cannot_hide_changed_git_payload_or_seam
+    with self.assertRaisesRegex(ValueError, 'Git|source|snapshot|helper'):
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.857s
+
+FAILED (failures=8, errors=1)

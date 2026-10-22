@@ -1,0 +1,72 @@
+{
+  "status": "parent-approved fixed design and five cases; origins frozen, literal RED then GREEN complete and reviewed; four-TU correctness sources/runner written and statically reviewed; no V2 matcher, diagnostic or benchmark run",
+  "baseline_commit": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "prior_linear_policy": "Freeze exact V18 private candidate core/cache bytes, explicitly verify against V1 candidate_change_manifest.json and baseline manifest; do not edit V1 files",
+  "single_new_algorithm": "sixteen-slot direct-mapped local-center cache; full signed x/y key equality; full winner copied; collision miss fully computes before replacing slot; reset sixteen validity flags at each template/level",
+  "cache_default": false,
+  "capacity": 16,
+  "hash_proposal": {
+    "arithmetic": "CHAR_BIT==8; int, unsigned int and uint32_t widths exactly32 with static assertions; unsigned32 wrap defined; cast signed cell_x/cell_y to uint32_t before any hash arithmetic",
+    "steps": [
+      "ux=uint32_t(cell_x); uy=uint32_t(cell_y)",
+      "h=ux+0x9e3779b9U",
+      "h^=uy+0x9e3779b9U+(h<<6)+(h>>2)",
+      "h^=h>>16; h*=0x85ebca6bU",
+      "h^=h>>13; h*=0xc2b2ae35U",
+      "h^=h>>16; slot=h&15U"
+    ],
+    "selection_policy": "one fixed generic pair combination and fmix32 formula; no hash or capacity search against image results"
+  },
+  "deferred": ["hot-linear/last-hit variant", "one-entry cache", "seventeenth winner", "per-object/image enablement", "data-derived thresholds/capacity/hash", "production adoption"],
+  "correctness_proposed": {
+    "reference": "exact V11 in separate namespace/TU",
+    "candidates": ["frozen V18 linear16", "V2 direct16"],
+    "candidate_cache_settings": [false, true],
+    "shared_serial_oracle_vectors": true,
+    "matrix": "Exact existing core/flags/lifetime routes, direct tuple/float32 bit/order/length equality; all128 flags, 1/4/2/4 thread passes, masks, empty/zero maxima, size/BGR/Detector changes, default/legacy, move/reuse, independent concurrent callers; no redundant all rerun",
+    "core": {"baseline_calls": 512, "candidate_calls": 2048, "expected_total_calls": 2560, "expected_csv_comparisons": 2304},
+    "flags": {"baseline_calls": 781, "candidate_calls": 3124, "expected_total_calls": 3905, "expected_csv_comparisons": 3124},
+    "lifetime": {"baseline_calls": 68, "candidate_calls": 76, "expected_total_calls": 144, "expected_csv_comparisons": 76},
+    "expected_total_matcher_calls": 6609,
+    "expected_total_csv_comparisons": 5504,
+    "note": "Counts are a proposed reuse of one frozen baseline oracle per original case; policy set/counts must be frozen before implementation and verified against actual harness loops"
+  },
+  "diagnostic_proposed": {
+    "separate_binary": true,
+    "images": "exact same25 fixed LED/case1/tiny development images and identical thresholds/banks/features/padding",
+    "run_policy": "one per-image serial expectation plus separately labelled diagnostic search, always full original computation; hypothetical shadow cache hits checked against fresh complete LocalMaximum",
+    "counters": ["enabled scopes", "candidate local lookups", "unique keys per scope", "consecutive-key run lengths", "linear key comparisons", "linear hits/misses/full misses", "direct slot checks", "direct hits/misses/occupied collisions/replacements"],
+    "ownership": "worker-local counters and per-scope unique set; merge after search; these structures never enter uninstrumented binary",
+    "limitations": "Counts explain observed sequence locality and hypothetical saved calculations; no lookup-nanosecond, matcher-speed or accuracy conclusion; no subset/policy tuning from diagnostic results"
+  },
+  "benchmark_proposed": {
+    "required_gates": ["literal stub RED", "literal direct16 GREEN including collision/replacement/fallback", "all three complete ordered correctness stages", "parent fresh byte/CSV review", "new semantic summary/variant/order validator GREEN"],
+    "cases": ["exact_v11", "linear16_off", "linear16_on", "direct16_off", "direct16_on"],
+    "case_count": 5,
+    "fixture_count": 25,
+    "fixtures": "LED_1..LED_8, case1, all16 metadata-filtered tiny development entries in pinned index order",
+    "thresholds": {"LED": 75, "case1": 90, "tiny": 85},
+    "banks": {"LED": 900, "case1": 361, "tiny": 2212},
+    "features_windows_padding": "unchanged from V1",
+    "cv_threads": 1,
+    "omp_threads": 4,
+    "omp_dynamic": false,
+    "omp_max_active_levels": 1,
+    "omp_wait_policy": "PASSIVE",
+    "cold_per_case_image": 1,
+    "warm_per_case_image": 2,
+    "measured_rounds_per_case_image": 15,
+    "expected_all_calls": 2250,
+    "expected_measured_rows": 1875,
+    "order": "case indices0..4; rotation=(image_index+phase_offset+round)%5 with phase_offset cold0/warm1/measured3. Reverse rotated order when (image_index+floor(round/5)+phase_parity)%2==1, with phase_parity cold0/warm1/measured0. Measured round uses0..14, so each case occupies each order position exactly3 times per image; verify this before measurement and in raw CSV audit",
+    "workspaces": "independent retained workspace per case; reset all before cold for each image, retain through warm/measured; immutable identical serialized bank loaded into all variants",
+    "output_check": "retain allfive cold outputs until cold round ends, take its exactV11 output as oracle and compare allfive outside timers, so no uncounted oracle call is added. Every warm/measured complete ordered vector compared with that separately compiled exactV11 oracle outside internal/adapter timers; no diagnostic counters in binary",
+    "primary_ratios": ["direct16_on/direct16_off", "linear16_on/linear16_off", "direct16_on/linear16_on"],
+    "code_layout_controls": ["direct16_off/linear16_off", "linear16_off/exact_v11", "direct16_off/exact_v11"],
+    "summary": "retain all cold/warm/measured samples and regressions; per-image15 paired ratios then median, equal-weight image median/geomean, descriptive quantiles only; no ratio-of-absolute-medians substitution",
+    "provenance": "actual source/protected/input/compiler/runtime/protocol/build/receipt/exe/correctness/variant/CSV byte pins before+after run and before+after summary; parent independently audits arithmetic and closure",
+    "limitation": "Single machine/run cannot remove thermal/scheduling/code-layout effects; no universal speed, accuracy, memory or industrial-adoption claim"
+  },
+  "input_policy": "No heldout decode/view/match; reserved objects25/29 untouched; metadata filtering precedes constructing development image paths",
+  "git_policy": "Only parent stages, commits, tags, pushes or adopts production changes"
+}

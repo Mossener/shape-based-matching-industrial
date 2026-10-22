@@ -1,0 +1,26 @@
+test_a_corrupted_trace_sha_is_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_complete_bitwise_input_order_and_output_identity (test_capture_manifest.CaptureManifestContracts) ... ok
+test_duplicate_json_keys_and_boolean_integer_fields_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_empty_zero_and_extreme_finite_records_are_lossless (test_capture_manifest.CaptureManifestContracts) ... ok
+test_metadata_counts_and_reference_input_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_path_escape_absolute_duplicate_pin_and_missing_role_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_pin_sha_size_and_missing_file_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_pinned_bytes_rechecked_after_trace_loading (test_capture_manifest.CaptureManifestContracts) ... ok
+test_protocol_hash_case_core_and_kind_mismatch_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_reserved_or_mixed_scenarios_rejected_before_pin_access (test_capture_manifest.CaptureManifestContracts) ... ok
+test_score_bits_class_bytes_template_id_and_output_order_rejected (test_capture_manifest.CaptureManifestContracts) ... ok
+test_tiny_actual85_and_separate_coarse50_accept_development_only (test_capture_manifest.CaptureManifestContracts) ... ok
+test_tiny_scope_cannot_pin_heldout_path_even_if_label_says_development (test_capture_manifest.CaptureManifestContracts) ... ok
+test_trace_malformed_prefix_trailing_nonfinite_and_bounds (test_capture_manifest.CaptureManifestContracts) ... ok
+test_trace_path_must_be_a_direct_child_with_distinct_identity (test_capture_manifest.CaptureManifestContracts) ... ok
+test_a_exactly_one_call_redirected_and_only_include_added (test_capture_source.CaptureSourceContracts) ... ok
+test_missing_duplicate_or_preinstrumented_anchors_rejected (test_capture_source.CaptureSourceContracts) ... ok
+test_snapshot_preserves_every_git_byte_and_only_changes_core_call (test_capture_source.CaptureSourceContracts) ... ok
+test_snapshot_refuses_existing_directory_before_loading_git (test_capture_source.CaptureSourceContracts) ... ok
+test_snapshot_rejects_incomplete_mipp_and_changed_git_payload (test_capture_source.CaptureSourceContracts) ... ok
+test_windows_newlines_preserved (test_capture_source.CaptureSourceContracts) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.484s
+
+OK

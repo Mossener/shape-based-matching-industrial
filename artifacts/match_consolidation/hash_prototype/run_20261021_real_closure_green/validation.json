@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "started_at": "2026-10-21T15:51:03.132211+00:00",
+  "finished_at": "2026-10-21T15:51:11.191211+00:00",
+  "test_exit": 0,
+  "expected_test_exit": 0,
+  "sources_unchanged": true,
+  "source_sha256": {
+    "capture_manifest.py": "e1097c375f66d7f54df322937de1eac6e9337a7bb8eea782b763001d3e13caa4",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "355199056c276f167a770898878205421b969844201339fc5b2d4dcf73bf234d",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "810a1db5aff57209fe4e0f1425f43f3fef4c9b972943ceecdf1ef8eddacef29f",
+    "real_capture_audit.py": "67d6788783df8095297d93a033dcbf6d43d858bd5ebe67a6060a9c257073b3e0",
+    "test_real_capture_audit.py": "cb9fa14bc3d89ddf84e0c18164e61d4f582cbacf42a1466fde6888231c880cf7"
+  },
+  "snapshot_sha256": {
+    "capture_manifest.py": "e1097c375f66d7f54df322937de1eac6e9337a7bb8eea782b763001d3e13caa4",
+    "test_capture_manifest.py": "16d001e3ecf39a141578d43be7c03234c19cb81c25538d7e9fe7095cd3d7d35c",
+    "capture_source.py": "355199056c276f167a770898878205421b969844201339fc5b2d4dcf73bf234d",
+    "test_capture_source.py": "3c750251758be62f969212a1606225bd83170340e4415e1f12e15edf271f4613",
+    "run_manifest_tests.py": "810a1db5aff57209fe4e0f1425f43f3fef4c9b972943ceecdf1ef8eddacef29f",
+    "real_capture_audit.py": "67d6788783df8095297d93a033dcbf6d43d858bd5ebe67a6060a9c257073b3e0",
+    "test_real_capture_audit.py": "cb9fa14bc3d89ddf84e0c18164e61d4f582cbacf42a1466fde6888231c880cf7"
+  },
+  "output_sha256": {
+    "stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr.txt": "17aa4e82055c4ca28b7e76393c1e491f7861c131c169a8a72f2d92c69d373237"
+  },
+  "python": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "python_sha256": "3cce33d75d6fdae4e004d0bdf149320b3147482a9caf370079dcb9c191a1b260",
+  "command": [
+    "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-m",
+    "unittest",
+    "-v",
+    "test_real_capture_audit"
+  ],
+  "image_decodes": 0,
+  "dataset_files_read": 0,
+  "matcher_calls": 0,
+  "performance_measurement": false,
+  "suite": "real",
+  "scope": "Synthetic byte/manifest correctness only"
+}

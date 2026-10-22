@@ -119,6 +119,8 @@ V19 检验直接使用二值轮廓作为训练图、保留原特征掩膜的方�
 
 V20 在独立实验中保持相同二值训练图，改用空特征选择掩膜，六目标20,736个姿态全部生成模板。独立审计逐层核对41,472个新模板层，并从全部12个新旧模板库重算77,870个层的共同几何需求，得到848×832的评测画布。该版解决的是此配方无法训练的问题；准确率和速度仍需后续图像对照，不据此更改默认模板配方。详见[训练与补边结果](artifacts/silhouette_empty_mask_experiment/TRAINING_RESULTS.md)和[独立验证](artifacts/independent_reviews/empty_mask_training_v1/README.md)。
 
+V21 完成两项隔离速度实验。25份真实候选的哈希合并回放中，索引哈希预分配方案的配对耗时比中位数在LED+case1组为0.5100、tiny组为0.5929，但case1变慢；这只计合并阶段，尚无完整调用收益结论。16项直接映射缓存通过6609次正确性调用、5504次完整有序比较，但同轮五方案2250次调用中，相比线性缓存的搜索/完整调用配对比中位数为1.0102/1.0376，未证明更快。生产核心和默认行为保持V11；[哈希回放结果](artifacts/match_consolidation/hash_prototype/REPLAY_RESULTS_V21.md)与[缓存结果](artifacts/local_center_optimization/v11_candidate_experiment_v2/RESULT_V2.md)包含全部退化、原始计时和独立复算。
+
 当前主线提供离散位置与姿态候选；通用亚像素/连续角度尺度精修、完善的多目标空间 NMS 和跨平台 CI 尚待实现。上游 README 的 ICP/subpixel/sim3 链接指向其他分支，不代表本分支已集成。
 
 后续功能及验收标准见 [工业化路线图](docs/industrial-roadmap.md)，贡献与验证要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

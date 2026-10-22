@@ -1,0 +1,26 @@
+{
+  "verified": true,
+  "input_count": 486,
+  "output_count": 43,
+  "protocol_sha256": "3638237bc47a763dc3cea724cf0ddddc121ff2218afb250afb7010a0478d5435",
+  "manifest_sha256": "65905cc0b549912ae5a06e44d1f649eb3cee3186e2ee788e4801e2e41de4a27c",
+  "trace_sha256": "39ea57220f066bb5346e27cd2cc18ad8c273d6b838c6c726cbcbd1c9048f5e05",
+  "reference_sha256": "812e98fd06b7249b6b3c6ddf1ee7a3fbd60639efa0adeec31fa5af0645352b2a",
+  "pins_verified": 72,
+  "case": {
+    "case_id": "LED_2",
+    "dataset": "LED",
+    "split": "legacy",
+    "scenario": "legacy",
+    "matcher_threshold": 75
+  },
+  "core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "performance_measurement": false,
+  "limitation": "Synthetic-tested fixed-source/build and saved-output closure; not an image accuracy or performance result",
+  "real_build_closure_verified": true,
+  "git_source_files": 23,
+  "builds_verified": 2,
+  "closure_file_checks": 1822
+}

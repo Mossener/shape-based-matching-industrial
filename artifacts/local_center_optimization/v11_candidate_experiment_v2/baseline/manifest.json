@@ -1,0 +1,131 @@
+{
+  "commit": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "method": "git show exact stdout bytes; no encoding or newline conversion",
+  "core_files": [
+    "line2Dup.cpp",
+    "line2Dup.h",
+    "line2Dup_local.hpp",
+    "line2Dup_search.hpp",
+    "line2Dup_response.hpp",
+    "line2Dup_spread.hpp",
+    "line2Dup_matches.hpp"
+  ],
+  "mipp_files": 16,
+  "files": {
+    "MIPP/math/avx512_mathfun.h": {
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600,
+      "git_blob": "7cf1a7284eec44310a92549356f87da0841f016b"
+    },
+    "MIPP/math/avx512_mathfun.hxx": {
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680,
+      "git_blob": "721a4b7e571d6e21a64188f5310b38989046831f"
+    },
+    "MIPP/math/avx_mathfun.h": {
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602,
+      "git_blob": "c0b381a29c231186b839a3d758fc1fd9eedcc70a"
+    },
+    "MIPP/math/avx_mathfun.hxx": {
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405,
+      "git_blob": "1224b0179cdccb671e2c6f966757239bd3383dbc"
+    },
+    "MIPP/math/neon_mathfun.h": {
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477,
+      "git_blob": "2f8ce8c31210e0da560e7e22d79e8f990c438876"
+    },
+    "MIPP/math/neon_mathfun.hxx": {
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360,
+      "git_blob": "830056804ae176314d0db1f7bfdc50fad919a4d2"
+    },
+    "MIPP/math/sse_mathfun.h": {
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670,
+      "git_blob": "a16f840a2200d04e44d35ac814786c6903e20458"
+    },
+    "MIPP/math/sse_mathfun.hxx": {
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775,
+      "git_blob": "5df8a1a7a95e60a48e8aa6ca3a85526a3310fae4"
+    },
+    "MIPP/mipp.h": {
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587,
+      "git_blob": "aee2698f89fced9bcdbf979efa6189af13089369"
+    },
+    "MIPP/mipp_impl_AVX.hxx": {
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908,
+      "git_blob": "dcf51ddeeee5c20f4e415fc8fb58edf2e4d6c382"
+    },
+    "MIPP/mipp_impl_AVX512.hxx": {
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957,
+      "git_blob": "6d8d93a0fcc297e9791bdea55f772bdaccbf5842"
+    },
+    "MIPP/mipp_impl_NEON.hxx": {
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936,
+      "git_blob": "20cec2645a8978af82904cfc761bd489007f4e41"
+    },
+    "MIPP/mipp_impl_SSE.hxx": {
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318,
+      "git_blob": "5bd6c48d880a406b7191a363396c4d2e8bac85f5"
+    },
+    "MIPP/mipp_object.hxx": {
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284,
+      "git_blob": "ab1a975361d0df1bd5851390bb22fa3d0b16f3c7"
+    },
+    "MIPP/mipp_scalar_op.h": {
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748,
+      "git_blob": "2fe7fcc2c2e4c16d9112f329364f4a999837fc81"
+    },
+    "MIPP/mipp_scalar_op.hxx": {
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187,
+      "git_blob": "5a74eeb2f1e77b02a71567c44924a774ecd39066"
+    },
+    "line2Dup.cpp": {
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388,
+      "git_blob": "a7ed3354b12a3d5e9409665af10ee1f4b434dd7d"
+    },
+    "line2Dup.h": {
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702,
+      "git_blob": "965fc78ce83b58ee7cca734032bb11c27c0dd04c"
+    },
+    "line2Dup_local.hpp": {
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785,
+      "git_blob": "b1b2b33420b8b37f4b8fc4e56946523330a22f2d"
+    },
+    "line2Dup_matches.hpp": {
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452,
+      "git_blob": "bb885d2719dcb04d4cb8ee865e4cfa6e4d16989e"
+    },
+    "line2Dup_response.hpp": {
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379,
+      "git_blob": "4e19c7dbb220945509de3f0e4c32eabc421ffbed"
+    },
+    "line2Dup_search.hpp": {
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596,
+      "git_blob": "c5149b80970da546b785c003e9e2eded655e0aa4"
+    },
+    "line2Dup_spread.hpp": {
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791,
+      "git_blob": "7738b0c4aa45dbf0e06dd3040a2dfffa003a18ab"
+    }
+  }
+}
