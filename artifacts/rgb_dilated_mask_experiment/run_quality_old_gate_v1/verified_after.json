@@ -1,0 +1,1354 @@
+{
+  "inputs": {
+    "passed": true,
+    "quality_input_freeze": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+      "sha256": "9659c119fa7c64dbd673d49397cc0b7dc86ef573aa4530a329fbc4da52f1ace6",
+      "bytes": 118808
+    },
+    "numeric_pins": 6,
+    "image_decodes": 0,
+    "matcher_calls": 0
+  },
+  "images": {
+    "passed": true,
+    "stage": "old_gate",
+    "pins": [
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\BANK_FREEZE.json",
+        "sha256": "7c274fbe55ce231c25b309f690e862f0c57190bf74a38f032b6966b19208b394",
+        "bytes": 13946
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\feature_geometry.csv",
+        "sha256": "e5152c53712d2b05f9ed64d644b873489e0e8517b24591a36af066dbfeb8f351",
+        "bytes": 566543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_attempts.csv",
+        "sha256": "23f744cccea8d4d4d295b2e14056955bc1fe5167904c5a803852ab18fa35b099",
+        "bytes": 269028
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\template_metadata.json",
+        "sha256": "a13bd94e3aa218eeec4e1d92e60f6a0625f608df7002d851fb6fff601cf3b931",
+        "bytes": 1326268
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\templates_tless_object_1.yml.gz",
+        "sha256": "3a053d30a576e434f4433a3c44b28e6c1f32f7f388f8b33b676cee8fd5218051",
+        "bytes": 840138
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj1\\training_config.json",
+        "sha256": "3f1dbb346eccd6438489c52b3e376be0f8d0cfefcb5eab28c5a8bd59da8df985",
+        "bytes": 1469
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\feature_geometry.csv",
+        "sha256": "4f034b05fa6e8c875ecd3ab63b2387194920581d7afbf96a52a824e122cabdba",
+        "bytes": 594462
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_attempts.csv",
+        "sha256": "14389a8934c175d24532198d24eed5e591525be8f40272cfafed4b8e18678e2d",
+        "bytes": 280000
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\template_metadata.json",
+        "sha256": "c842de298d054d177d3f3c790767eba9631160df2c77ef9db82bf091b00038ef",
+        "bytes": 1341880
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\templates_tless_object_12.yml.gz",
+        "sha256": "c1ef893e1a8675dcaad58437c1a485620e0c2472d0a0b4b2e35b178d78892c3b",
+        "bytes": 950017
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj12\\training_config.json",
+        "sha256": "4657753317a1ce54f8f25a6b765bdb613001c0a19512e917e2dee5607bd3000e",
+        "bytes": 1470
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\feature_geometry.csv",
+        "sha256": "7cc2bcc37cdc722165a3dea86a55c0c5548c5834079beb24710126f7066c24f5",
+        "bytes": 604401
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_attempts.csv",
+        "sha256": "6d0bc1c19dddd7a14c5e3d7c4b4c3c50f6966b38473c72fe3d88d24417b82350",
+        "bytes": 282536
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\template_metadata.json",
+        "sha256": "214d9a46421b31611db6ec1523fea05517f793ddc8214de37614572e44ed38c8",
+        "bytes": 1343748
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\templates_tless_object_17.yml.gz",
+        "sha256": "e29fd93ad7f39ba9d21e7a7ed8896c3aa730aa5ab0344f79758a099be19a4a56",
+        "bytes": 961541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj17\\training_config.json",
+        "sha256": "3ab114b6c224a3b656f7c07fccde8d949f9367e0b0c03d219dcc9420827de659",
+        "bytes": 1470
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\feature_geometry.csv",
+        "sha256": "4fa8d504087628cffc854eb23cf718330cb1539660190b23145949d068e77728",
+        "bytes": 575692
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_attempts.csv",
+        "sha256": "3e6cc5be6ba2021e65ad0037a7e31ab7fc116eedf0e90cb07eca07732ec3d18a",
+        "bytes": 270482
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\template_metadata.json",
+        "sha256": "70b63ee18bec3e2f88758620bb3caa6e9cb1a86e8de7fbc3e975b9793c09ca9b",
+        "bytes": 1336550
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\templates_tless_object_2.yml.gz",
+        "sha256": "b353150b546a1646f8792892b47766773c63f8e8be71711895d0659ee7fb7eb5",
+        "bytes": 872653
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj2\\training_config.json",
+        "sha256": "de11b334fe72be25fe5c70c3b164743c44fe1359051ceb55fc33b4968a5c2e99",
+        "bytes": 1469
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\feature_geometry.csv",
+        "sha256": "0880196278ec14ffdd8f70e702ba6ad9738caf4211bcca3e6b15abc496e58d7b",
+        "bytes": 594078
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_attempts.csv",
+        "sha256": "1352cf4eeeb2eb27e47b7592d1f28b6c1dd1da8884ff9420a6da86a3bb98bc78",
+        "bytes": 278796
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\template_metadata.json",
+        "sha256": "2b06df09e8697b859e1735748efcbfc2c708d842625e4b72640fe4888f9767c6",
+        "bytes": 1339908
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\templates_tless_object_5.yml.gz",
+        "sha256": "719a8d23d9667388895c8dad8254e18da35e7bd26d015764a4d16217c52b16a2",
+        "bytes": 963359
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj5\\training_config.json",
+        "sha256": "4220dbb922d812523a521565c14fc4fc0d1925830122448374da40a0c5d2051e",
+        "bytes": 1469
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\attempt_errors.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\feature_geometry.csv",
+        "sha256": "b1d7f33a520a24164c9624c13448e9b45eb5fef390646ff278cdd21531dc3b99",
+        "bytes": 612901
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_attempts.csv",
+        "sha256": "9b6ec95625f5478bd6b0d8446cde5289f13e2e9d98554314859ecad9e96af4de",
+        "bytes": 278833
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\template_metadata.json",
+        "sha256": "425c0325528241bf12a34cb7af427b6ba7c8236e905cafafec04ca886eb9710b",
+        "bytes": 1345081
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\templates_tless_object_8.yml.gz",
+        "sha256": "30e852bae1bfaf40c9e60ca76078fb42f424a45684377192c5ca50c84bef79ff",
+        "bytes": 1014334
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\obj8\\training_config.json",
+        "sha256": "919bf54fb86764b2b3baececa826d92ee61b7dcf15da7f50b086d18eb00ef88c",
+        "bytes": 1469
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_audit.json",
+        "sha256": "959351f08119c9668a8c79889709f33171e7f7b44cfcc8049000547abd69e348",
+        "bytes": 4579
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1\\training_summary.json",
+        "sha256": "a00b314a9257e03f656a734220a83797c11bd906f2914ae222c007fc3a036152",
+        "bytes": 2071
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1_execution\\execution_provenance.json",
+        "sha256": "40b276efe43911a314383bf3d1bfcdce2a06f8356cd79681a2bb6e25b369bd97",
+        "bytes": 216009
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1_execution\\stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_training_v1_execution\\stdout.txt",
+        "sha256": "20e046a2ab4124b2f5b6713ec420be56fabb8787816435d0a75639aabf937553",
+        "bytes": 182064
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\training_stage_reservations\\train.json",
+        "sha256": "3008e062725f9b25bb26bc874288a9623285c9df80f8570800aaaeabf2852109",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\COMMON_PADDING_FREEZE.json",
+        "sha256": "23cda535508f66bb5f5f43649ca1d895b51563e179e96cb219d4e2b68d9385a7",
+        "bytes": 2647
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\common_padding_plan.json",
+        "sha256": "6965565bf9c9c745e4cda1bb56cee5d0d02e1f9b310dd65897959eb55d3d8f8a",
+        "bytes": 353
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\loaded_layers.csv",
+        "sha256": "1b488a27884825012d177d434a2c96d7a1db7fef0e3edf9aaf5a83b095efa019",
+        "bytes": 4777030
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1\\plan_audit.json",
+        "sha256": "63fd6e84f9452e940d813a2f552bf62eb4a385f79e91049ccad138552e97c80c",
+        "bytes": 558
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\execution_provenance.json",
+        "sha256": "d528b6e387214f5945d9da062a446acd276486b2264583ee166ae4fc4a22f11f",
+        "bytes": 2656
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_plan_v1_execution\\stdout.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\training_stage_reservations\\plan.json",
+        "sha256": "44044ea29c076215c1c9666c80740b2e33c6f8eba89d94670c9dd7297982c0bd",
+        "bytes": 544
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_training_v1\\run_real_v2_root_20261022_a\\receipt.json",
+        "sha256": "19c142c8b34f80ac5a7b5b8efbe4b29eb1b210bf32ac3a2173fc6fae23b15272",
+        "bytes": 70794
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\accept_training_audit.py",
+        "sha256": "432e676a47818d376a6912bb5a45f701fbdb96686df87aebbc65e3501b107e11",
+        "bytes": 3264
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "f82380ad67de5582be76af539580aa1befafd3f1c938b6ee08106d01f9e36f3c",
+        "bytes": 663
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "631d077bcca59c2248bf4547e7fc9c18a7583da2cf20b23d9f5f49e33bfd96d4",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "92cf71cf48f7b510a15d7e8ec4979e180953ab99548d5257bb63889f07d1a4a0",
+        "bytes": 659
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "a13610bb604a1d3298717bbcbc989d97830a00ac0fa56670ec36a76a8c46dd01",
+        "bytes": 541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "1c1e90d98d20f1dfe0c356428050ba9f6ff4774dc3649c3721a5231abd397b96",
+        "bytes": 16027
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "3036e27c119b3ee8edfa121fab3aca4c162a78f6bb4d6a1796b98d5f39151d67",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "3485b1be48635412022b31079bbb4992af2f1c628e9c98c6de88a25a54ffdc8a",
+        "bytes": 15978
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "950f3eff5ead96a08d91389f45bec62d91739843dc4cadfed68ac2862022f459",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "5b540858be65d6e5d44cc7ed1ace846ddeaa9a1bc4c2bedee0b911a446310f6a",
+        "bytes": 541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "206b45676a8729d1b613c2dd28107ab513d859184ea60ef73986f61df6a89571",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "f1fd000ea99bf67a7589f65cbf1b7e5b05a16a9d108767568d107f00797884cd",
+        "bytes": 535
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "8d698b9467c2cdf8e342cc71e37a3243f7f17bd6ec36accd41567b968c417aad",
+        "bytes": 541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "83a68b9d0e4e460a0d5eb95a9372ab9871a169bf4e5d0906271d24fe858c9f0f",
+        "bytes": 1240
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "76e14aa1a5637c2ba7c94e683be417c265760ae66e74eee2314de6965d7d33e3",
+        "bytes": 546
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "0a89edd4675bfdb60714a6478b93576bc2853f142c3fabcb011990cbd1785a29",
+        "bytes": 1235
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "98ae8eda795fad308ad7e2c050d9c4b36bb76832c838c4d760801df433d903a0",
+        "bytes": 540
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "bcdf423faa3dde0bad12e9d5a79a34edf40277bbd4dc278efef905e5fbee73f0",
+        "bytes": 5077
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "a748fe5f3bd29865ee839783da06dbfc993e562946adc3a687b03b7324647042",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "de96f4db1c5ed775d632a94faec47ae52382e8d2a694d6ba765430e1462d3936",
+        "bytes": 5060
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "b921fcc1e516b52397b53dacbff9a2c80a40c00011f57d7165fd83dbd801e586",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "3eeeee755a6445672b4888c03c076a766076f3b6efdac233877641c8b90a42d9",
+        "bytes": 4236
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "9b64bef54bc6ce5923ea5d70d45d848a8b6dd7bfc89fab78cefbb5c7a4837d0e",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "1cf761e47756d125aa3d18f619632ffe3d3bad8786b6e991efe5ff6a68f1f552",
+        "bytes": 4220
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "4a97f7311ba8745744bf81e71121bbdd3ab0a897d6e4d1181e73799febf14210",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "b2969229a1b1ced53607ab543aab1c2a6bcaca8c15349a26871718958bfb8361",
+        "bytes": 14351
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "290192038faf8b1fb630d5f71eb5c607548c21036df3abdabb8a547e6d5e6f97",
+        "bytes": 549
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "178ac8c1807ea0a89d8754739ba8ccfa4b0fe38e109dc9cb87394ee1536c35c3",
+        "bytes": 14290
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "ad1271d472326107505b4d1138275d7eef0b6d421da11e70ca9aecd0b4c738b1",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "e482b6f2f711182e773cce9546a96e6296fb2387fe44142bad8c79dca39517c3",
+        "bytes": 630
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "139c9b0268901d518ecc0a0094234343836aa1e90427872b9af59d9b73f4104c",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "e9bc617bb03e7cc1ebcd83da20d029c167288673103d4d5d28667a607416d8e5",
+        "bytes": 624
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "96a0ba7d0b947345f96d9f2070b04906ad6018843dc11a85e851d71a617ae1b9",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\template_metadata.json",
+        "sha256": "c57c0f22b8f908198f0bc2d11634d0dbbac8c71627fde8b5bb96647cd860d069",
+        "bytes": 832082
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\templates_tless_object_1.yml.gz",
+        "sha256": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e",
+        "bytes": 553232
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "d0d2c581a7db5da6c90ad9f918a325ff507870ef9aa5a55b989fc0b9d4876a48",
+        "bytes": 752
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "39a742a138ddaaa48923e795a5d06dba318dba42b6d39c224fdb86ef3c45837a",
+        "bytes": 550
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "8906ef1e83e48ad7e0b5e93d242d144730a0e1ca9a05d9fc30f3a2c13020b8de",
+        "bytes": 747
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "1f78dfea0a4f0531ee9d279723e52e7f39b939c35ccc97b8ef114c9719b626dd",
+        "bytes": 544
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "9d48e101b86c79cb6e3ccc166e8d8af998e03ba0d06d71b4f34c9bb8ae69cd77",
+        "bytes": 6538
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "1aa231c64452e1fc38d247ff1ae5f2092872250279c47d9680a5216ad84373d8",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "b1f826bb15c20e14f720ecc75ea70f0dee9e2516b87d407e22dc5bd43637c525",
+        "bytes": 6519
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "f0e122a12c0714c16b271b4fb0298ae63c3de67e2da9c6e09a119b18573b9aec",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "d2291ec9e42f0087e278254f56ec39934b8c0102aed15346dbe71f7d01abacac",
+        "bytes": 252
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "38dd9a143db3959ffc6e41df76670121751988002d42de86afbbc708080da0c8",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "1d7f4d8b67c631666e4816e5b5f806d34ca1ff1fc3350880bab96875d682031f",
+        "bytes": 250
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "84cd32dc5ca2ff82c1fd5a6a23a581e3845cab0384fd4be6933f7688d494ad3a",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "d87ad85581d5bc6f33763fd24d4c235d8a0a08480921c8680f06c3060ee682e7",
+        "bytes": 315
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "641bb165ca7c1c3e7afc59d86766a082c13c588208a1bfdaeec0f23111c47e34",
+        "bytes": 546
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "d164f86e2a4c5a42f7c4e81bbac232a3dbea07f5ef7f57f694ce06b6972c01c0",
+        "bytes": 310
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "73110a49c18dceccad682c851a159c32494299ff022a69d7206afe3be6a81ac4",
+        "bytes": 540
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "92a1b512c29807f866dc34be5aa2059d0f17273fff0991e683f6e6d508ed248f",
+        "bytes": 2341
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "33b5035199e2e208d335fb2dc276deec6576d8de51a5392c015f8cbba1fe083b",
+        "bytes": 549
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "c5a1ad3dcafe93623314ab0e2438d14d430f826c418098f5d51d1b1d389d3cec",
+        "bytes": 2330
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "e326c152763cb71269a9fb0359dea618cdf3d8a8f209d41d67d15a8ac0dc57a4",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "a961c7bc848bf7ca107b8ba020a19e513ea3699b355dd18574de355a6fa11a48",
+        "bytes": 2902
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "28ff5e6931059007cddeda2ed6463ac998a3e63f0d3d569a4bd3c5317405c9b6",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "8e8d5ef17ee4f106aeeda9912dad8ba279162ae74c23ccdb00de999bf73eb646",
+        "bytes": 2885
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "94ea848e80c4c5a19ff346768e26d13c0cd5fcb4cefb53f2eeb1eed05dc6a71b",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "907baa2359951410cffbcffe10396846a1c7b31dc5d773743fbaf7e07836260a",
+        "bytes": 4205
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "71d62870ebcd343f7a26c199f332dc8a8b5601952ac993f689df954649add857",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "d230e2964160e945e3bed3b27452b4582258be5cf4c5cd132cd2dbfe5048b639",
+        "bytes": 4186
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "ba12fabc0afdbe45b497c91d0cbb6cc9481da7575e55b2e9756b11ce00f383df",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "2213e0d90587be1f3d43f2181cbf6e9a9d20e5129548de6044248ea314ab5584",
+        "bytes": 301
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "0df2f85167a388b953b946020bf2fefeb9db3152eb71f9fb5443710e3221ca24",
+        "bytes": 546
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "4754db26f66cd433140b84eb3df45bbea7a42d4f31e1214c9bf4b0c75c1f1b68",
+        "bytes": 298
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "b8d68739b845e541c955b1198bb4e11b11b3e83a52c6860fd5b78a5894a5e860",
+        "bytes": 540
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\template_metadata.json",
+        "sha256": "2546aab5f7707f5c0f336a4a8704173c00965e9e50f9ce11ccbeac43f252b7e8",
+        "bytes": 1309286
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\templates_tless_object_12.yml.gz",
+        "sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+        "bytes": 893985
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "e73d334623babd6577e9436d2f3aed4a9d4e5aa736b5d1a3f89176e319540fc4",
+        "bytes": 7414
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "dfecec94aed1d999eb0404172f79c7ec4e3f08526e07eaeb56a6b9b388767b7f",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "8c08a7c7a8d333e335d6237d49b15b4e6b784eac3ed415445c33a9751af90778",
+        "bytes": 7396
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "57369f99d0158ed6470b9266357b720b9891ba881bf821509b36f0bcedd96425",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "81bd89cde44067d65a06bca4ce1378e1a6c744b8b2ca3e3fc4fb84a06a7c50d1",
+        "bytes": 7197
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "c18d9ff5f0edc0180e276ffa9d2b57c3544d7a21ce9f716627db5c975d49c510",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "4e03e410330696cb97ec7c35404519643638ea3647eedf9706f119a4fa1409de",
+        "bytes": 7178
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "1b93a3f225743c6f03770eda749009009419651aecfb627e84bf146ce4314b86",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "0d602933516d54ffecf462b44d651d4c826ec0fa57da2d10b2f0014756eb3e94",
+        "bytes": 4530
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "8b75d151147747a8ce86b888077e74153002a1923d9923ae1a468fc8a0eadd90",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "2cff2625302b5fea4ec1f6d255566bb53dadc5f613e344b8ed98501891c5568d",
+        "bytes": 4520
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "959e2dad88126b9a5f1e30dfb970ec44f26316e379be40bc42df8ae08afd60c9",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "b952b0c396d5afd26baae213474e3b8b82d8e1b6c9257b4e6a8beed397473d04",
+        "bytes": 5172
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "2f117a99fbc55175612f0d05c26ce84a4a79e6172dc3de8a03000b83665ec117",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "7ce7861813d7fe263bc384ed9be68c760f720958879e74e96f9dd7ef9d66fe48",
+        "bytes": 5168
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "c08878acbae3a96e7ea60221211e418d0cccc1117c1aea4908c319d25c5c0c09",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "77d58d6151417e0925bbbd5af88dc781b1161a3df69d9a3309aabbe2ff64ee6e",
+        "bytes": 6112
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "30ea17ee829ff06c06a44e93e360200bf71c4f4d8d6bcbaec0cd4d58f2e6a965",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "939dcbc6eb10f6ba52718b30d3f7989c06305bf5f64e1f1b4579c1accf771d8c",
+        "bytes": 6103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "e7050333644a72e57fb7d61a0353faf3eaf41761a643ca724bcdf0b9cf40cfd5",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "4b5541a8bfaf6d14f54b4073f75d5bad98c2de59c48eb901cbd51c367315d3aa",
+        "bytes": 2752
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "860b149cb56c3b03830ab91fbc488775d1a54882b6d227347c0598740cff07a4",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "0e1d83f6969cc4e1e6a53c6067494720f8dda7847e8401d244431bc9e9b7cbcd",
+        "bytes": 2741
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "f67f7514ce4951be1aff8423e7bf64efcce386ea3b590c21d91ca386b49f6224",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "949ea795802918888f3fa91f6217c0ab861487763089baa08387a63c8acf47cb",
+        "bytes": 6705
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "73e17d4bd45e7c3a0d784357c8486098a72060d10dda2c4b038a9a936bd05362",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "4c3ce14aa119775fc85a1b1ec02e8f324e80e70430bf40bd61b2f9c2d1fb0290",
+        "bytes": 6694
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "1d427cb50d62de848b3c59b95d2245ba414cf6e60182759f474000ca21089d74",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "ccd72411dbe84ef98fe4429bcb7c08e3525c05acde2178e0c15ab05fcf5165fe",
+        "bytes": 3576
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "871ddd0fc2d33f4f7b198dad0d42c3f71c990e6c6c85314bf59b5ab9d7ad3862",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "d9d451c325e2fafec7f450208bf7c7a39b60513a8bc00cdd27d8fef40e99a115",
+        "bytes": 3568
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "fa02a9b6097317bdf258679590e797df8c75129953271715d66b49a157c48197",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\template_metadata.json",
+        "sha256": "495a77668184071cca83d69e2991b60a3050e31bb61228734360d1a6e7d6d717",
+        "bytes": 1227991
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\templates_tless_object_17.yml.gz",
+        "sha256": "72b3c40d30cc138497c3c2cac6e1c7aa74965f416be157ae8c8d5a4dc4bbbcdf",
+        "bytes": 878034
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "39fbf0f3ab3bed0785d9b4b729e9da6d1a197dab1ff9a8ed770d9da083c61321",
+        "bytes": 1936
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "d12bf86148e21cbb7933bb8f3a107c490e53a727ad563b364e2f826ccfdd5074",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "96ca2a18c7ad5def537f714237e32e9c09d75490c6797998cbd68136dbd768ab",
+        "bytes": 1926
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "3318b5ea8dd6ddf36e1dc009c2f7a0399c35b9cd3d3559a4789a974a7b22ea4f",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "fac01bdfd3d7c1ee00ad6ca6b1b958706ee16cc524a51057c17cf9ef2d526e36",
+        "bytes": 26799
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "062f50bb31854db0355d71b7e52c4d4710b90d23415b5f19483cd9a8819097ff",
+        "bytes": 553
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "55b6d88b3b7245b2f1b3c64638982b5dd4cdafc5d993ba689318779b0036cc95",
+        "bytes": 26702
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "722c2cc12020d47a9cd5d58b5c6dff46ce7026de640c62fc4ae49c27a34c9215",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "6e01b8670b82303dfc698cc9966c5d2b9c7a1cef5eeb843bf09bb3f911046400",
+        "bytes": 809
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "389d91e65268b9886419bd47bff457ba860acbaef1391bf040a6617ec13ffcf4",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "5071d8522c3d076b9d835f363d1c6bd9d73c18e1bf6f967cafc995ac5f0cf00f",
+        "bytes": 800
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "bde65c96b2d7cda6001e25ab6f3186fdc3989322954e45b676d4ce924a2c3969",
+        "bytes": 541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "fcb16417e2d5fcd0fcbda7c0badf5a69f824ad197392fccd32afd0d442744c63",
+        "bytes": 3685
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "32b1efb680084f0e1f84be45ee280262353c9ff6dfeaabcc72470f4a849481a6",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "8d8d90f0989d90678fec7aaae93e83cb88b7427c5f0223aabd1dd2d052221cf2",
+        "bytes": 3660
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "e22123c289777b37ca7061771d284ead323b01fd9232b8c9a78046745574e824",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "00d18bfa15e4641e3ace0422c7b85e374a025463067410dde5dca4190f8cff32",
+        "bytes": 4950
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "d20a51ed00c25db2025984a81371444940dfd55634e5cad3a834e3c9e1d28588",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "19728d04a0399eaf25e97014401043814cf1799413e3701b7923450dbc10c9ef",
+        "bytes": 4925
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "2ab74c8da9f25dc895afd9e7f0d498f48b21e0baf78fa22164e4ac1d943e3c3f",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "96fcfd3b183795efb010e662d6bdf835fad7fcf5bf2b977811182d466a7e70fd",
+        "bytes": 7193
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "98cbdb815f6316e3e0ba1668c73ebd7795fb85cc288a99a0086d4bd52ccd5eb3",
+        "bytes": 548
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "cc0059ab6045fa254468d3e1efd80b9cb0ff1112d022bc1bad1c81a08434aff0",
+        "bytes": 7161
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "7d12bb320f267b557d44a232190adf41fae6d7500000bf68a744a76fc3ee5f91",
+        "bytes": 542
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "279612ec3df804e6bd795338ba4f5422b4ca306b727477dba9ee3d11a3db1b16",
+        "bytes": 29595
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "c9c83de2ff7783e863021c300e21f3f48666e961b25222128add313097138a8d",
+        "bytes": 551
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "b6cbc536524740835794bf0e18c3724765ed266f07a99c96d9de5ff482fe8f13",
+        "bytes": 29487
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "edaecd2b69024750889338edcc9515cfc239f8d747142112981f2214fc8ce88b",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "b01efbd16e97b9c907703cfd872a326330e2ec02d6f0f03b4933aa1fe5249f54",
+        "bytes": 440
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "c090eb87588c091d697576cb0f075c038f5dbb08d81590e5ce8fadff63bdd62e",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "0d8217161b16f10f1898b7702d1f4ba3ce715b89b0e1dfd9a093bcd039b2eb41",
+        "bytes": 436
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "dec683f1e1d134c15b39f27920f7ba0b0fc92f64190e761b03fae6cf44b2925d",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\template_metadata.json",
+        "sha256": "599ee8ef96d5bb14d379b6de060e9113dec0d40b940e6d8ee23f2e1d14eaf19f",
+        "bytes": 1023412
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\templates_tless_object_2.yml.gz",
+        "sha256": "b149a0e1ea91b99b00e7da7456426fa6a26bf489f786b3f29f70f08ceea506ef",
+        "bytes": 661726
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "531f13ff964f1159ee4b98f4f26939b0ab9f18ff9404ec3a24192358e502d080",
+        "bytes": 189
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "1084161315b571c923dcf9d1a75f27c58fa5e1722cfbb793c0bc1e97af47ab0a",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "ac6b0fbacb4f15d4281c4e44c94775e7a7750675fbcb7ad1c0f6a7ed9271b21d",
+        "bytes": 187
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "581012b4335c1de70060a92f5e481eb311dda49370ce8beb9b13ae098f1c674c",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "49c61c54b2e42ec22001062e723319dca609540321b6d07fd7273036fb62f3d9",
+        "bytes": 875
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "8d3dbb1cc876f3856c12c0a435ccc51036fb20eaa18eefa15b41fbef71f377a5",
+        "bytes": 547
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "bb74c59959d9e133cae0c3e64b1b2ed1bb759f2290487de6e6f88f9cac098150",
+        "bytes": 870
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "ce7421f6d63e29ca348becfd1f66c7a942d44e1510b487b774883a6bc65331e8",
+        "bytes": 541
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "90048a02388f5a134f59a3297b18dd1b09e9a54d2e297eb024f98c543bc30ea4",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "a76813ec75009b8e5ed1a45250922bebc7419197d85e55b3d9a1476c3b97ed1c",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "11623c3b8abe55a55a6ca0d167f65fd467856176459664ef062c387a98433460",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "634799007b7c460f848f311c9e2d346be8519a6523dc44656780fa94b5e51ceb",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "e8ffb314822586465c08dd8287815d5e0abfc1c237c5644d7e3fe2dd79dd7d77",
+        "bytes": 554
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "8d0444241e5950531e0357355612086d8addb99d3afdfdfbf6ebf6c515a0e725",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "f60361e2fc99bf2a13a4c6eaf841822bacfafc535e010748f4f9213e54d17819",
+        "bytes": 549
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "06adcc8ce08ce49c804c3a116a10d2526168feb07f773aae5ed39cee2f126ee0",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "560d33dbdf4ad8891f91541659292382b8655ea2cc7f0bf7ca69bb6afb96d73e",
+        "bytes": 193
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "0f7785e81bf0cebca79da77512c3fe8d728ee3d3ba720778c6e67afc64da99d2",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "21a33a4fdd8c5c8712af8443b3f0a91e20bd77b30c1799ed9d203e60fb301584",
+        "bytes": 192
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "c7726ba5db140570928faa8a5f8c25eaa7ce51f1905b80a21f736849ba605a90",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "d8c1c695ed33d504f564b3fdc32886f47ea0bd35037d99d8ec66497e588dfcf3",
+        "bytes": 190
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "6ad5db9ed24500583e7fa96423abde72396f052d6cd02762f2620375d6d52113",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "e8c39acd4c507662d7a16ef5b0c716987a7d505404a404bb25dd5ab4451033ca",
+        "bytes": 190
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "829c09cf67dcf2b80e5d640bdd29367cc0e0798b22606773418e872d1042da47",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "e5be111be1e672574e742f0ec79f2eb18f3e511a78ec53fbc6e6fd845cfa607a",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "a5bb3c0108a2f501b884a98b68a5c4ff7a2a1b5f27b3a1991f3ebfff17392bd3",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\template_metadata.json",
+        "sha256": "20a31cfeccb400d377a5e5e558dddf6e8c759eea16840fc719eb8258558cd67c",
+        "bytes": 1324636
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\templates_tless_object_5.yml.gz",
+        "sha256": "cc804f08e51529d45f731fef13f9a770df196fad2157efa711ea9c77933d4656",
+        "bytes": 936016
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s10_i5_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s10_i5_fallback_raw_manifest.json",
+        "sha256": "61db6b0421b002764460194066da3dca4211c4a02bd74f5201c3e077dff7918c",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s10_i5_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s10_i5_fused_raw_manifest.json",
+        "sha256": "0f224fe1cbf77622812a4a3fcc4412955294e84dc70ad99046d3e1365f9c161f",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s12_i2_fallback_raw.csv.gz",
+        "sha256": "ac72a4fdf19d2af8edb3468e65b59fcd9e5ee05d4c8296a6a902dbf1d3c95dfb",
+        "bytes": 171
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s12_i2_fallback_raw_manifest.json",
+        "sha256": "de0cf95d991bd31f338c1cffd46aa6e6692ad194300d5ff8d3bc05b1ec01addd",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s12_i2_fused_raw.csv.gz",
+        "sha256": "be66522b9105916a8e5c99f0a7e0c3849018ed7378d3615fe449c88159465855",
+        "bytes": 170
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s12_i2_fused_raw_manifest.json",
+        "sha256": "be446f357bfead4235e860a12894f80ee3a471bcdd4a84ee15f2ca65117c349b",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s13_i2_fallback_raw.csv.gz",
+        "sha256": "8f220f3179ee7bdc316fb1e6a4d7d460218e57fa9ddfb75bebc6805eef348dba",
+        "bytes": 171
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s13_i2_fallback_raw_manifest.json",
+        "sha256": "eaa125631411e8f9562a6e21632a6d870c0c06353abb2da5dd7d461aa240af20",
+        "bytes": 545
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s13_i2_fused_raw.csv.gz",
+        "sha256": "1f85701b5fbab3f0b5e86ae9df10519ab8c79bef4586554c597128ac66f42ff9",
+        "bytes": 170
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s13_i2_fused_raw_manifest.json",
+        "sha256": "faee7ca967fafa667bacfc078376ec6730204aa9dae8d121b5ec86a1ccdfce15",
+        "bytes": 539
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s1_i1_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s1_i1_fallback_raw_manifest.json",
+        "sha256": "9e85e35ac85d0d44f2ac18980e34296b5cf5619a33a6da840e460435f7a85749",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s1_i1_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s1_i1_fused_raw_manifest.json",
+        "sha256": "06062e66ba618c25bf18feedf60167c98dd2f676aff2b76d28bd033b483925e4",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s4_i0_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s4_i0_fallback_raw_manifest.json",
+        "sha256": "869dae2833b9d51de6778999b10b8de835fa3335544c73c534e6eb5702c123ec",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s4_i0_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s4_i0_fused_raw_manifest.json",
+        "sha256": "a4df7fcb0527116c1e4fc2b79ad6e2cbb83981fd161b69c644d4491cfcc96cd8",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s6_i2_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s6_i2_fallback_raw_manifest.json",
+        "sha256": "5ffb5cc593f147bc904933b3235a2c92693600c5dc6c949746e446bc9ce13a43",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s6_i2_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s6_i2_fused_raw_manifest.json",
+        "sha256": "fef761602cb33600d567f59d50493581e35169ba4fe5dbca559e0fcd1bc9fca8",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s7_i3_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s7_i3_fallback_raw_manifest.json",
+        "sha256": "b60b63c1daf34ba731653749e265376cc0955fd56bdaf260611b2ce7469e4082",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s7_i3_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s7_i3_fused_raw_manifest.json",
+        "sha256": "39be2d3770fc61a48ed8a66a9ef18d02b2b647b96ac79f6c44e17f83ad5cc5b2",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s8_i1_fallback_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s8_i1_fallback_raw_manifest.json",
+        "sha256": "b178975e0e0b35496da7a44fd1d4633170132ca55c7e6bdef2f8ba67717d67d4",
+        "bytes": 543
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s8_i1_fused_raw.csv.gz",
+        "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+        "bytes": 103
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\original_pilot_raw\\s8_i1_fused_raw_manifest.json",
+        "sha256": "de852114aad17f5b7bb0b8926365746faa3c20a661b9bb27c5aac30dbc25c33e",
+        "bytes": 537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\template_metadata.json",
+        "sha256": "f353b416ca55a1181f7ee56e810ca98cdab8742a120d6db609727c4e3b5704f0",
+        "bytes": 1345188
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\templates_tless_object_8.yml.gz",
+        "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7",
+        "bytes": 1015469
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\index.json",
+        "sha256": "04d99feb07d0355a83f52ce8567c77e68dbc329f7393cc2ad694af69d4f82819",
+        "bytes": 3616125
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000001\\rgb\\000001.png",
+        "sha256": "0891033698f8161ec89753d036d6fa220be1ff9496364ce8abc66c82e5ecf456",
+        "bytes": 616980
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000004\\rgb\\000000.png",
+        "sha256": "3b5dfed811580537f15d928d5515adbdb479a4d2eb8e1b7991cc1b4482d555bc",
+        "bytes": 629487
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000006\\rgb\\000002.png",
+        "sha256": "04b19c87d60aaabe98c6be9655a58c5cc620ac31dc356ede55e89dc02cd2a166",
+        "bytes": 646537
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000007\\rgb\\000003.png",
+        "sha256": "e496fb0d6c66dd11ed379ff3463cdecf5b3990f520fd8e1eb019c51eb2ce56a3",
+        "bytes": 679931
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000008\\rgb\\000001.png",
+        "sha256": "8f184e86c08b776d7ae79204841c3b2982127c3a699aeb39ea42c2602c888a23",
+        "bytes": 634890
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000010\\rgb\\000005.png",
+        "sha256": "d187f497beffe22c9643391835a564e39f78fa5e7bfb9f8b736f24892022112b",
+        "bytes": 838168
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000012\\rgb\\000002.png",
+        "sha256": "fb35f12012806f6851e22c494147b79910e157ac3b574ae598c178b81149162c",
+        "bytes": 852876
+      },
+      {
+        "path": "D:\\h\\shape_based_matching-master\\datasets\\tless_expanded\\test_primesense\\000013\\rgb\\000002.png",
+        "sha256": "96060d256b57d2a0128e0b624dacb3b91550e7e95c2fb1cb7899544793c3473a",
+        "bytes": 823939
+      }
+    ],
+    "image_byte_files_checked": 8,
+    "image_decodes": 0,
+    "matcher_calls": 0,
+    "training_image_files_checked": 0,
+    "heldout_image_files_checked": 0
+  }
+}

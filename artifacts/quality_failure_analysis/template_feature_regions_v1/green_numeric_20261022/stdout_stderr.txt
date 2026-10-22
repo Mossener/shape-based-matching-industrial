@@ -1,0 +1,14 @@
+test_absolute_coordinates_own_layer_origin_and_flags (test_numeric.NumericTests.test_absolute_coordinates_own_layer_origin_and_flags) ... ok
+test_actual_budget_targets_not_limits_and_all_orientation_bins (test_numeric.NumericTests.test_actual_budget_targets_not_limits_and_all_orientation_bins) ... ok
+test_complete_usage_includes_unused_and_negative_tp_fp_same_template (test_numeric.NumericTests.test_complete_usage_includes_unused_and_negative_tp_fp_same_template) ... ok
+test_full_map_rle_and_exact_bits (test_numeric.NumericTests.test_full_map_rle_and_exact_bits) ... ok
+test_invalid_feature_label_coordinate_or_empty_shape_rejected (test_numeric.NumericTests.test_invalid_feature_label_coordinate_or_empty_shape_rejected) ... ok
+test_rle_wrong_width_hash_noncanonical_rejected (test_numeric.NumericTests.test_rle_wrong_width_hash_noncanonical_rejected) ... ok
+test_signed_chebyshev_and_zero_exterior (test_numeric.NumericTests.test_signed_chebyshev_and_zero_exterior) ... ok
+test_signed_distance_hole_and_far_exterior (test_numeric.NumericTests.test_signed_distance_hole_and_far_exterior) ... ok
+test_unknown_usage_template_or_frame_rejected (test_numeric.NumericTests.test_unknown_usage_template_or_frame_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+OK

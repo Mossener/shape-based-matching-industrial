@@ -1,0 +1,54 @@
+{
+  "expected_red_observed": true,
+  "passed": false,
+  "exit_code": 1,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "test_successor",
+    "-v"
+  ],
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "sha256": "78145ab2ab65eac13bb9006b596f60a6f15dfb2951573701da6bb077beaa6eca",
+      "bytes": 24477
+    },
+    {
+      "name": "identity_strata.py",
+      "sha256": "50726009f284be92a86d2e1d3e427cb00a36182316d1a379ef0ce809688e4f6e",
+      "bytes": 7147
+    },
+    {
+      "name": "numeric.py",
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8",
+      "bytes": 2975
+    },
+    {
+      "name": "ORIGIN.json",
+      "sha256": "4a6bf442065b83b7b2cdab82c6946ca53d8853fb082d2257e0d21f8fd4a77f19",
+      "bytes": 1266
+    },
+    {
+      "name": "run_synthetic.py",
+      "sha256": "cf318e96206f13689e11269863a74d3dae47713e617a8f9f40216897beedd4e1",
+      "bytes": 1626
+    },
+    {
+      "name": "test_audit.py",
+      "sha256": "1a52a439bb1790b31b3f357e9ed9714306d41b8ac1bfb642a548a48984b7d678",
+      "bytes": 8980
+    },
+    {
+      "name": "test_successor.py",
+      "sha256": "b5280be7e73cbf9b128570ce46a39f9ba8542bb6ae9f5464bb27079374648629",
+      "bytes": 6491
+    }
+  ],
+  "scope": "Copied V27 source plus new synthetic successor requirements only",
+  "image_reads": 0,
+  "real_quality_output_reads": 0,
+  "native_calls": 0
+}

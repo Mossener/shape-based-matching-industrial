@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "sources_unchanged_after": true,
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "bytes": 28250,
+      "sha256": "a6410732baec678852e57f93240c2becfb1f8989e4126145e601550a80db05f3"
+    },
+    {
+      "name": "numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    {
+      "name": "identity_strata.py",
+      "bytes": 10006,
+      "sha256": "dd517c71aebeb43a227e7112b99c986808a4e2932c333b86287264f91c2a6a38"
+    },
+    {
+      "name": "experiment_contract.py",
+      "bytes": 8056,
+      "sha256": "5c38b611dad86ff13bcc19bd1a4c8b6e9e2db541c94969b4d6775ff03297f757"
+    },
+    {
+      "name": "test_audit.py",
+      "bytes": 8980,
+      "sha256": "1a52a439bb1790b31b3f357e9ed9714306d41b8ac1bfb642a548a48984b7d678"
+    },
+    {
+      "name": "test_successor.py",
+      "bytes": 9637,
+      "sha256": "6e6731ee1f59d734862a0b0c3f20d08cfe20271b58d64f06700518c98a7f8531"
+    },
+    {
+      "name": "run_synthetic.py",
+      "bytes": 2204,
+      "sha256": "60306e8798144070f8078c56e4a30d5dc043388d00ffb716abe888bd0d7bb9a9"
+    },
+    {
+      "name": "ORIGIN.json",
+      "bytes": 1739,
+      "sha256": "0bf868b473d2a3ff60fedc8dcf875608f4fa489523e01e66fac766872767e347"
+    }
+  ],
+  "matcher_calls": 0,
+  "dataset_image_reads": 0,
+  "real_quality_output_reads": 0,
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "environment": {
+    "AUDIT_SOURCE_ROOT": "D:\\h\\shape_based_matching-master"
+  },
+  "scope": "Literal numeric/mutation oracles plus actual prepared source/protocol seam; no real bank or quality-output reads"
+}

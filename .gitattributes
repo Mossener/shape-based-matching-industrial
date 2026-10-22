@@ -67,6 +67,18 @@ artifacts/independent_reviews/rgb_empty_mask_timing_v1/** -text whitespace=cr-at
 # Preserve official-mask dilation source and independently audited evidence bytes.
 artifacts/rgb_dilated_mask_experiment/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/rgb_dilated_mask_training_v1/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/rgb_dilated_mask_quality_v1/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/** -text whitespace=cr-at-eol
+# Preserve inherited, already audited Python EOF bytes and recorded failing test logs.
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/**/test_timing_audit.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/**/test_timing_provenance.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/**/timing_audit.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/test_timing_audit.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/test_timing_provenance.py -whitespace
+artifacts/independent_reviews/rgb_dilated_mask_timing_v1/timing_audit.py -whitespace
+artifacts/quality_failure_analysis/template_feature_regions_v1/red_input_20261022/stdout_stderr.txt -whitespace
+artifacts/quality_failure_analysis/template_feature_regions_v1/red_numeric_20261022/stdout_stderr.txt -whitespace
+artifacts/quality_failure_analysis/template_feature_regions_v1/red_prepare_20261022/stdout_stderr.txt -whitespace
 # Preserve inherited source whitespace and final blank lines without editing frozen bytes.
 artifacts/rgb_dilated_mask_experiment/control_v11/** -whitespace
 artifacts/rgb_dilated_mask_experiment/private_v11/** -whitespace

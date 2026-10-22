@@ -1,0 +1,40 @@
+{
+  "prepared_only": true,
+  "ast_checked": true,
+  "execution_started": false,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\audit_numeric.py",
+      "bytes": 28870,
+      "sha256": "c26837551b35569832dd228af544474abbe966cb0d08a692dc51b3bbcbbb8911"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\independent_numeric.py",
+      "bytes": 6851,
+      "sha256": "569c60dbf462d860e4a55e9e3a28a0f9e49f2040a0e813181980233da521f874"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\input_contract.py",
+      "bytes": 2647,
+      "sha256": "b8a554bf5a0b4ca85afed16949ab429a417e4195b030108cd20389a1ababd368"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_guarded.py",
+      "bytes": 9016,
+      "sha256": "df52b4b8da383d6feeb7791439a7e0ad244c3798a3faf2791187f1326987dbb7"
+    }
+  ],
+  "parameters": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\PARAMETERS.json",
+    "bytes": 11757302,
+    "sha256": "5e70f4b6dbccfd2076ce8b8a247a9148377711b9c107e8d85512095267fec6e2"
+  },
+  "numeric_members": 39031,
+  "numeric_member_bytes": 412507830,
+  "command": "python -B artifacts/quality_failure_analysis/template_feature_regions_v1/frozen_audit_execution_v1/run_guarded.py"
+}

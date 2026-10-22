@@ -1,0 +1,20 @@
+{
+  "copied_helpers": [
+    {
+      "source": "artifacts/independent_reviews/rgb_empty_mask_training_v1/bank_reader.py",
+      "destination": "bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80",
+      "modification": "byte-exact copy"
+    },
+    {
+      "source": "artifacts/rgb_empty_mask_experiment/native_provenance.py",
+      "destination": "native_provenance.py",
+      "bytes": 6345,
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "modification": "byte-exact copy"
+    }
+  ],
+  "observer": "new isolated FileStorage geometry observer; no matcher source inclusion",
+  "independent_numeric": "new standard-library oracle; no producer imports"
+}

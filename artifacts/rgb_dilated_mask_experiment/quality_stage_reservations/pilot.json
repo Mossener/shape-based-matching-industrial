@@ -1,0 +1,13 @@
+{
+  "stage": "pilot",
+  "run": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_pilot_v1",
+  "maximum_calls": 192,
+  "previous_stage": "old_gate",
+  "previous_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "9719be25a3f040e72d316dbf49031441ea55baeaad8980d35dcdd6629ff5c564",
+    "bytes": 71487
+  },
+  "total_protocol_maximum": 22176,
+  "policy": "One attempt per fixed stage; reservation survives failure; missing frames are never negatives"
+}

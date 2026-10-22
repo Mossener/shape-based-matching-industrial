@@ -1,0 +1,13 @@
+{
+  "phase": "verify_after",
+  "poses": 48,
+  "maps": 240,
+  "features": 5389,
+  "descriptors": 240,
+  "bank_templates": 59647,
+  "bank_layers": 119294,
+  "bank_features": 2905834,
+  "elapsed_seconds": 15.10899999999674,
+  "peak_rss_bytes": 462344192,
+  "working_rss_bytes": 444801024
+}

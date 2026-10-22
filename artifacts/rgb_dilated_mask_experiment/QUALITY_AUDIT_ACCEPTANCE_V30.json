@@ -1,0 +1,75 @@
+{
+  "schema": "v30_full_development_numeric_acceptance_v1",
+  "numeric_audit_passed": true,
+  "primary_accuracy_hypothesis_passed": false,
+  "production_promotion": false,
+  "scope": "Full development numeric replay; accuracy gate failed",
+  "stage_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_development_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "c3073775ffea2c9f4a1d0058b2e1e884d7bcde9c97590a8cd6459063d03d0b88",
+    "bytes": 5825410
+  },
+  "independent_audit": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\result.json",
+    "sha256": "03c55d0f70f578dee26120e15b36084bc166f39a7590b8f29151927f365d80a9",
+    "bytes": 5956725
+  },
+  "audit_outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\historical_identity_strata.json",
+      "sha256": "0ed0d16c2a3cfb7d66bfd4d8e85f648673589a6b2df88ef1c18e240a164adb94",
+      "bytes": 803818
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\identities.csv",
+      "sha256": "d9908ddfc5770cf66c4acff3b4d828e6f04719695eb4af810b6179c94209377f",
+      "bytes": 44033
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\per_frame_audit.json",
+      "sha256": "d633433d1b510b27fa77d7dbe178e9b3e521aa95171515b4c649f0c5f02a4cdf",
+      "bytes": 1814407
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\result.json",
+      "sha256": "03c55d0f70f578dee26120e15b36084bc166f39a7590b8f29151927f365d80a9",
+      "bytes": 5956725
+    }
+  ],
+  "audit_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\audit.py",
+      "sha256": "a6410732baec678852e57f93240c2becfb1f8989e4126145e601550a80db05f3",
+      "bytes": 28250
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\numeric.py",
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8",
+      "bytes": 2975
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\experiment_contract.py",
+      "sha256": "5c38b611dad86ff13bcc19bd1a4c8b6e9e2db541c94969b4d6775ff03297f757",
+      "bytes": 8056
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\identity_strata.py",
+      "sha256": "dd517c71aebeb43a227e7112b99c986808a4e2932c333b86287264f91c2a6a38",
+      "bytes": 10006
+    }
+  ],
+  "quality_gate": {
+    "passed": false,
+    "metric": "allGT",
+    "required_tp_minimum": 215,
+    "required_fp_strictly_below": 42112,
+    "observed_tp": 185,
+    "observed_fp": 10461,
+    "separate_from_numeric_audit_pass": true,
+    "speed_claim": false
+  },
+  "root_input_pins_rechecked": 19361,
+  "root_synthetic_tests": 18,
+  "next_fixed_timing_calls": 12288,
+  "limitation": "Numeric evidence accepted; no accuracy improvement, speed result or industrial generalization claim"
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "native_exit": 0,
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\build_observer_v1\\observer.exe",
+    "--selftest",
+    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\selftest_v1\\native"
+  ],
+  "build": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\build_observer_v1\\BUILD_FREEZE.json",
+    "bytes": 140452,
+    "sha256": "4dc2ad35251ec4176a2639c834b09f35faf723d94af95947410e7163c56cc748"
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\selftest_v1\\native\\fixtures.jsonl.gz",
+      "bytes": 2186,
+      "sha256": "7659fd3163946ace1c17520db1d44abfeca970f3a2f07e17a04a37f4daa4e5e6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\selftest_v1\\native\\selftest.json",
+      "bytes": 66,
+      "sha256": "141a79115db6a0bdfb0820f892c93ae36409820f28b39c2bc3534f402dfacf6c"
+    }
+  ],
+  "image_bytes_opened": 0,
+  "matcher_calls": 0
+}

@@ -1,0 +1,119 @@
+{
+  "schema": "v30_completion_record_v1",
+  "production_core_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "quality": {
+    "numeric_audit_passed": true,
+    "primary_accuracy_hypothesis_passed": false,
+    "production_promotion": false,
+    "observed_allGT": {
+      "control": {
+        "tp": 215,
+        "fp": 42112,
+        "fn": 185
+      },
+      "dilation": {
+        "tp": 185,
+        "fp": 10461,
+        "fn": 215
+      }
+    },
+    "acceptance": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\QUALITY_AUDIT_ACCEPTANCE_V30.json",
+      "bytes": 3438,
+      "sha256": "7ba43d02f3675e01c0ed08a0893fb6295e6e6ef957b697a340ee6dd4295dc470"
+    },
+    "independent_result": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_quality_v1\\run_real_root_20261022_a\\result.json",
+      "bytes": 5956725,
+      "sha256": "03c55d0f70f578dee26120e15b36084bc166f39a7590b8f29151927f365d80a9"
+    }
+  },
+  "timing": {
+    "independent_audit_passed": true,
+    "native_calls": 12288,
+    "formal_samples": 10752,
+    "median_ratios": {
+      "fallback": 0.7902387601486934,
+      "fused": 0.8058011996200769
+    },
+    "p95_ratios": {
+      "fallback": 1.309280608941872,
+      "fused": 1.3161731507261645
+    },
+    "result": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_timing_v1\\run_real_root_20261022_a\\result.json",
+      "bytes": 863584,
+      "sha256": "4f1b0b53cda22899be399b664145ed78d1451aa3ecaea70e1462898d481f5a2c"
+    },
+    "stage_freeze": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_timing_v1\\QUALITY_STAGE_FREEZE.json",
+      "bytes": 5865,
+      "sha256": "c80c221a6ffc14cc2384a757258903e7396c5bd3b52b692c5d1162582c647378"
+    },
+    "root_input_pins_rechecked": 1568,
+    "root_source_pins_rechecked": 6
+  },
+  "feature_region_audit": {
+    "guard_passed": true,
+    "poses": 20736,
+    "maps": 103680,
+    "features": 2905834,
+    "serialized_layers": 119294,
+    "attempt_layers": 124416,
+    "selected_events": 64618,
+    "image_bytes_opened": 0,
+    "native_executable_launches": 0,
+    "matcher_calls": 0,
+    "peak_rss_bytes": 1330757632,
+    "guard_receipt": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\receipt.json",
+      "bytes": 1851,
+      "sha256": "19777908d397f7fc41d45a731f3f335eed5db8e5edaea64d87009a69b0d02e40"
+    },
+    "output_hashes": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\OUTPUT_HASHES.json",
+      "bytes": 3533,
+      "sha256": "981e09eceb4963ff5db0874cb75f2bd0302b2aca6661f499302b9c376a025d7d"
+    },
+    "summary": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\summary.json",
+      "bytes": 1075711,
+      "sha256": "e2164f8f17bdbfc811ca0e6a1cb58ec0a64125cdfef46f7b24ece404dedb5fc6"
+    },
+    "report": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\RESULTS_V30.md",
+      "bytes": 2537,
+      "sha256": "875aa1af5631acaeb6d9d74f385efba8e93d3c7c5802d3fd5bae4963d8ee36d0"
+    },
+    "root_numeric_and_source_pins_rechecked": 39036
+  },
+  "limitations": [
+    "Accuracy gate failed; no production promotion",
+    "Timing is fixed-dataset evidence with p95 long-tail and per-object regression",
+    "Feature-region counts are descriptive associations, not causal proof",
+    "Private magnetic/SMD images and held-out T-LESS scenes/objects were excluded"
+  ],
+  "publication": {
+    "selection_path": "artifacts/rgb_dilated_mask_experiment/PUBLISH_SELECTION_V30.json",
+    "verifier": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\release_v30\\verify_selection.py",
+      "bytes": 5147,
+      "sha256": "1d4b8b8fbf1a2791da41114035c1f2d640a45518eea8f1d5ce4ee780f0ddb4e0"
+    },
+    "readme": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\release_v30\\README.md",
+      "bytes": 807,
+      "sha256": "70b95be02bf286487fbb5307af17bbc5c12e1b81426b2e59fc430134f7beaf72"
+    },
+    "root_fixture_receipt": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\release_v30\\tests_root_20261022_a\\receipt.json",
+      "bytes": 3193,
+      "sha256": "0e748e97f1e643508517fa847a3a7e753ce6e8bd9a5e00e92c433560a17cfd2d"
+    },
+    "independent_review_receipt": {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\release_v30\\tests_root_review_20261022_a\\receipt.json",
+      "bytes": 3242,
+      "sha256": "3916c842514f1819c2287c144e9f46ff4493d2c4917a413d51eab79209c4d442"
+    }
+  }
+}

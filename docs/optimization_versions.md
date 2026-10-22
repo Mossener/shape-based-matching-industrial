@@ -251,3 +251,14 @@
 - 生产核心继续冻结；留出场景和对象 25/29 未使用，私有磁片/SMD 原图不发布。详见 `artifacts/rgb_dilated_mask_experiment/ROOT_REVIEW_PRE_QUALITY.md`、阶段报告及 `artifacts/independent_reviews/rgb_dilated_mask_training_v1/`。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v29` 标记各阶段。
+
+## V30：逐层膨胀的完整质量、计时与特征区域诊断
+
+- 在V29冻结的膨胀训练库上完成固定六对象、400张开发帧、两条路径的9600次质量调用。RGB control为TP/FP/FN=215/42112/185，膨胀为185/10461/215；误报下降75.1591%，但少检出30个GT，召回下降7.5个百分点。预注册门`TP >= 215 && FP < 42112`失败，因此膨胀库不替换生产默认。
+- 独立质量审计对两臂完整raw流复核排序、分数位、元数据、NMS、GT/eligible/IGNORE、负帧和身份变化；root真实复算通过。`numeric_audit_passed=true`只表示执行证据和数值一致性通过，`primary_accuracy_hypothesis_passed=false`且`production_promotion=false`明确保留。
+- 固定计时阶段完成12288次原生调用（1轮预热、7轮正式、每变体2688个正式样本）。膨胀/control配对中位比fallback/fused为0.790239/0.805801，但p95比为1.309281/1.316173，且目标1变慢；该结果仅是固定开发集性能证据，不构成普遍加速声明。
+- 独立计时审计通过完整调用顺序、轮次、四变体、bank模板数、raw/selected计数绑定、统计量和冻结输入/输出哈希核验；审计本身未解码图像、未启动matcher。保留继承JSON键`paired_empty_mask_over_rgb`，在本版明确解释为`rgb_dilated_mask / rgb_control`。
+- 为定位V27以来的漏检，完成受限全量特征区域数字审计：20736姿态、103680张地图、124416次尝试层、119294个序列化层、2905834个特征和64618个selected事件。进程峰值RSS 1330757632字节，未触发30分钟/1.5GiB/2GiB守护上限；无图片解码、原生启动或matcher调用。统计显示RGB官方掩膜、二值空掩膜和RGB空掩膜在轮廓/裁剪/画布交叉上的差异，为下一轮算法设计提供关联证据，但不把关联当作因果证明。
+- 本版只增加实验、审计和诊断证据，生产核心仍冻结在`b25df46f6ddf9c24fb43f5836f1414dc38c8caed`；留出场景、对象25/29以及私有磁片/SMD原图不加入公开质量统计。详见`artifacts/rgb_dilated_mask_experiment/QUALITY_RESULTS_V30.md`、`artifacts/quality_failure_analysis/template_feature_regions_v1/frozen_audit_execution_v1/run_v1/`及独立审计目录。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v30` 标记各阶段。

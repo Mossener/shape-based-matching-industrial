@@ -1,0 +1,91 @@
+test_acceptance_cannot_substitute_a_passed_unbound_receipt (test_successor.SuccessorRequirements.test_acceptance_cannot_substitute_a_passed_unbound_receipt) ... FAIL
+test_accepted_marker_must_bind_original_freezes_and_receipt (test_successor.SuccessorRequirements.test_accepted_marker_must_bind_original_freezes_and_receipt) ... FAIL
+test_exact_new_arm_and_retention_schema (test_successor.SuccessorRequirements.test_exact_new_arm_and_retention_schema) ... FAIL
+test_historical_v27_cross_groups_are_not_replaced_by_v22_groups (test_successor.SuccessorRequirements.test_historical_v27_cross_groups_are_not_replaced_by_v22_groups) ... FAIL
+test_macro_includes_all_six_objects_and_zero_denominators (test_successor.SuccessorRequirements.test_macro_includes_all_six_objects_and_zero_denominators) ... FAIL
+test_only_the_exact_single_mask_operator_may_change (test_successor.SuccessorRequirements.test_only_the_exact_single_mask_operator_may_change) ... FAIL
+test_quality_gate_is_fixed_and_separate_from_arithmetic_pass (test_successor.SuccessorRequirements.test_quality_gate_is_fixed_and_separate_from_arithmetic_pass) ... FAIL
+
+======================================================================
+FAIL: test_acceptance_cannot_substitute_a_passed_unbound_receipt (test_successor.SuccessorRequirements.test_acceptance_cannot_substitute_a_passed_unbound_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 73, in test_acceptance_cannot_substitute_a_passed_unbound_receipt
+    c = self.contract()
+        ^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 26, in contract
+    self.assertIsNotNone(module, 'Explicit dilation/acceptance contract is missing')
+AssertionError: unexpectedly None : Explicit dilation/acceptance contract is missing
+
+======================================================================
+FAIL: test_accepted_marker_must_bind_original_freezes_and_receipt (test_successor.SuccessorRequirements.test_accepted_marker_must_bind_original_freezes_and_receipt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 54, in test_accepted_marker_must_bind_original_freezes_and_receipt
+    c = self.contract()
+        ^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 26, in contract
+    self.assertIsNotNone(module, 'Explicit dilation/acceptance contract is missing')
+AssertionError: unexpectedly None : Explicit dilation/acceptance contract is missing
+
+======================================================================
+FAIL: test_exact_new_arm_and_retention_schema (test_successor.SuccessorRequirements.test_exact_new_arm_and_retention_schema)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 30, in test_exact_new_arm_and_retention_schema
+    self.assertEqual(audit.ARMS, ('rgb_control', 'rgb_dilated_mask'))
+AssertionError: Tuples differ: ('rgb_control', 'rgb_empty_mask') != ('rgb_control', 'rgb_dilated_mask')
+
+First differing element 1:
+'rgb_empty_mask'
+'rgb_dilated_mask'
+
+- ('rgb_control', 'rgb_empty_mask')
+?                       ^^^^
+
++ ('rgb_control', 'rgb_dilated_mask')
+?                      +++++ ^
+
+
+======================================================================
+FAIL: test_historical_v27_cross_groups_are_not_replaced_by_v22_groups (test_successor.SuccessorRequirements.test_historical_v27_cross_groups_are_not_replaced_by_v22_groups)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 96, in test_historical_v27_cross_groups_are_not_replaced_by_v22_groups
+    self.assertTrue(callable(function),'V22/V27/current identity crossing is missing')
+AssertionError: False is not true : V22/V27/current identity crossing is missing
+
+======================================================================
+FAIL: test_macro_includes_all_six_objects_and_zero_denominators (test_successor.SuccessorRequirements.test_macro_includes_all_six_objects_and_zero_denominators)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 85, in test_macro_includes_all_six_objects_and_zero_denominators
+    self.assertTrue(callable(function),'Independent object macro calculation is missing')
+AssertionError: False is not true : Independent object macro calculation is missing
+
+======================================================================
+FAIL: test_only_the_exact_single_mask_operator_may_change (test_successor.SuccessorRequirements.test_only_the_exact_single_mask_operator_may_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 34, in test_only_the_exact_single_mask_operator_may_change
+    c = self.contract()
+        ^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 26, in contract
+    self.assertIsNotNone(module, 'Explicit dilation/acceptance contract is missing')
+AssertionError: unexpectedly None : Explicit dilation/acceptance contract is missing
+
+======================================================================
+FAIL: test_quality_gate_is_fixed_and_separate_from_arithmetic_pass (test_successor.SuccessorRequirements.test_quality_gate_is_fixed_and_separate_from_arithmetic_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 43, in test_quality_gate_is_fixed_and_separate_from_arithmetic_pass
+    c = self.contract()
+        ^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\independent_reviews\rgb_dilated_mask_quality_v1\tests_red_20261022_a\source\test_successor.py", line 26, in contract
+    self.assertIsNotNone(module, 'Explicit dilation/acceptance contract is missing')
+AssertionError: unexpectedly None : Explicit dilation/acceptance contract is missing
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.005s
+
+FAILED (failures=7)

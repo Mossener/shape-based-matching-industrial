@@ -1,0 +1,27 @@
+test_explicit_training_mask_path_no_byte_access (test_input_contract.InputBoundaryTests.test_explicit_training_mask_path_no_byte_access) ... ok
+test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) ... ok
+test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) ... ok
+test_only_explicit_numeric_extensions (test_input_contract.InputBoundaryTests.test_only_explicit_numeric_extensions) ... ok
+test_absolute_coordinates_own_layer_origin_and_flags (test_numeric.NumericTests.test_absolute_coordinates_own_layer_origin_and_flags) ... ok
+test_actual_budget_targets_not_limits_and_all_orientation_bins (test_numeric.NumericTests.test_actual_budget_targets_not_limits_and_all_orientation_bins) ... ok
+test_canvas_support_and_replicated_erosion_boundaries (test_numeric.NumericTests.test_canvas_support_and_replicated_erosion_boundaries) ... ok
+test_complete_usage_includes_unused_and_negative_tp_fp_same_template (test_numeric.NumericTests.test_complete_usage_includes_unused_and_negative_tp_fp_same_template) ... ok
+test_full_map_rle_and_exact_bits (test_numeric.NumericTests.test_full_map_rle_and_exact_bits) ... ok
+test_invalid_feature_label_coordinate_or_empty_shape_rejected (test_numeric.NumericTests.test_invalid_feature_label_coordinate_or_empty_shape_rejected) ... ok
+test_r4_r5_r6_crossings_include_neighbor_comparison_support (test_numeric.NumericTests.test_r4_r5_r6_crossings_include_neighbor_comparison_support) ... ok
+test_rle_wrong_width_hash_noncanonical_rejected (test_numeric.NumericTests.test_rle_wrong_width_hash_noncanonical_rejected) ... ok
+test_signed_chebyshev_and_zero_exterior (test_numeric.NumericTests.test_signed_chebyshev_and_zero_exterior) ... ok
+test_signed_distance_hole_and_far_exterior (test_numeric.NumericTests.test_signed_distance_hole_and_far_exterior) ... ok
+test_unknown_usage_template_or_frame_rejected (test_numeric.NumericTests.test_unknown_usage_template_or_frame_rejected) ... ok
+test_full_pose_product_retains_failure (test_prepare.PoseTests.test_full_pose_product_retains_failure) ... ok
+test_missing_failed_pose_and_wrong_geometry_are_rejected (test_prepare.PoseTests.test_missing_failed_pose_and_wrong_geometry_are_rejected) ... ok
+test_eligible_targets_before_low_visibility_ignore (test_quality_replay.QualityLiteralTests.test_eligible_targets_before_low_visibility_ignore) ... ok
+test_gt_boundary_half_and_tie_choose_lowest_id (test_quality_replay.QualityLiteralTests.test_gt_boundary_half_and_tie_choose_lowest_id) ... ok
+test_nearest_half_is_not_grayscale_pyrdown (test_quality_replay.QualityLiteralTests.test_nearest_half_is_not_grayscale_pyrdown) ... ok
+test_nms_boundary_is_strict_point_three (test_quality_replay.QualityLiteralTests.test_nms_boundary_is_strict_point_three) ... ok
+test_raw_pose_score_and_box_are_bound (test_quality_replay.QualityLiteralTests.test_raw_pose_score_and_box_are_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.012s
+
+OK

@@ -1,0 +1,2 @@
+{"passed": true, "features": 2905834, "matcher_calls": 0, "image_decodes": 0}
+{"passed": true, "elapsed_seconds": 1197.2810000000027, "peak_rss_bytes": 1330757632, "output_bytes": 161695588}

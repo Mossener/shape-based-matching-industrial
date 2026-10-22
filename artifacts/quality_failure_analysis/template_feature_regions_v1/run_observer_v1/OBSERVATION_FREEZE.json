@@ -1,0 +1,2241 @@
+{
+  "completed": true,
+  "native_exit": 0,
+  "build": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\build_observer_v1\\BUILD_FREEZE.json",
+    "bytes": 140452,
+    "sha256": "4dc2ad35251ec4176a2639c834b09f35faf723d94af95947410e7163c56cc748"
+  },
+  "inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\inputs_source_20261022_v2\\INPUT_FREEZE.json",
+    "bytes": 11754109,
+    "sha256": "a7eaa4ed7d3c4288c055e9adfbff2d917a999739131782b9e78d8df4f5e5a629"
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\selftest_audit_root_v1.json",
+    "bytes": 1959,
+    "sha256": "5ac63a819526a8617f21148ddf719f6ea875930947f6a52664724fe230d72c7b"
+  },
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer.py",
+      "bytes": 5622,
+      "sha256": "27cee047073db6aa6a17bcbba4856585e3f6967572e6b1d8f3fb83013dd3da43"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\input_contract.py",
+      "bytes": 2647,
+      "sha256": "b8a554bf5a0b4ca85afed16949ab429a417e4195b030108cd20389a1ababd368"
+    }
+  ],
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\execution_summary.json",
+      "bytes": 284,
+      "sha256": "fb0f9d16987eb765fc5b5aacd60831d08ecf482dd8a795ed8e2523ad0b4a8be4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\feature_observations.csv.gz",
+      "bytes": 36220687,
+      "sha256": "6f88f7ee9a808f0060d75be0d4c3d29208d88e4cf84da5539b19d08894fe8f86"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i0.jsonl.gz",
+      "bytes": 339247,
+      "sha256": "519c8770e7a8cb9c3071b81799849e83ac5b934bf17720e88e0dd543e01adfe0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1013.jsonl.gz",
+      "bytes": 401863,
+      "sha256": "06b7ebac0d36a606227abd0792d0e40c705380b1a6e8f21edad6e976f94d2649"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1044.jsonl.gz",
+      "bytes": 402687,
+      "sha256": "2873a479ec8d4ad17888b089bc6e5d021e1462fcac2858de4848016b3a0e1ee0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1052.jsonl.gz",
+      "bytes": 376578,
+      "sha256": "8202fd33122ac6a5427166c42aeedaae8a831f3c5b0699bfcc0a53a1b31934cb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1078.jsonl.gz",
+      "bytes": 407172,
+      "sha256": "b6cb757f888fb950be84b3585f91595f502bd3ea32a4304a01052db87c40a9f5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1102.jsonl.gz",
+      "bytes": 366005,
+      "sha256": "e3416bcd1fcb0bb8961c7bde7d36c7d3c09dec069f82120821217af184fd51a5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1110.jsonl.gz",
+      "bytes": 388277,
+      "sha256": "c201ddbeb7b409ca0ce09a1cb97fefcf6f72bbd320474266c40a0ba7bcf926a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i115.jsonl.gz",
+      "bytes": 374678,
+      "sha256": "68053655162c1def413e4415179b0797d2e54cc791014df12ce6e56576564fa0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1162.jsonl.gz",
+      "bytes": 365251,
+      "sha256": "4bb334c160d79bf8f5bea7e2fe2ff142b78d8b981dcb54079942e30cfc21d09c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i12.jsonl.gz",
+      "bytes": 340763,
+      "sha256": "952ff6b73837294808c2355a530ff6d347e133d10f45b9625fe208bdfbf0b1c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1227.jsonl.gz",
+      "bytes": 363034,
+      "sha256": "cbda9e82a7ea24b45dd4af1cd475c2e64eadf65f91abd9b87e25100be246b075"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1242.jsonl.gz",
+      "bytes": 344887,
+      "sha256": "8a957b3a7bb4cd5ed0a791e50c6db73e9314f94a441ca35c6e64fc392c768824"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1249.jsonl.gz",
+      "bytes": 365579,
+      "sha256": "87fc3a14f9b511528a5b50995055558937150fa12293d537a281c417f5cfd56c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1257.jsonl.gz",
+      "bytes": 368621,
+      "sha256": "d9f93df806f933764a4d97a1ee61c3d66891d92becaaa7066b6cc476667bace6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1265.jsonl.gz",
+      "bytes": 365064,
+      "sha256": "1518d2ad13beb41b60097f0c2c4707dd17e03140ffb0e7abbf6118ecce457b9f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1271.jsonl.gz",
+      "bytes": 362194,
+      "sha256": "aae017d03289da4051f395f0fd2af08920bca31e8a59eda36986f34fb3965a97"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1278.jsonl.gz",
+      "bytes": 338285,
+      "sha256": "d20f07285138a392166e1cea5723117e1f783c11015dfc7d1b1425e2148d66c6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1284.jsonl.gz",
+      "bytes": 362978,
+      "sha256": "5813a20266b2f3bd59dc8cea007af0c004b3292d9b7f2d2c6c2bb2d5c867c0a5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i1290.jsonl.gz",
+      "bytes": 357833,
+      "sha256": "1f0376e1327285c6d7deecb828616540bade1e2c022f9508b9a750e3403ce5c9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i147.jsonl.gz",
+      "bytes": 402403,
+      "sha256": "65367972d68d6c317be9b5b18bcabf69385db044207ed3a09091102333c4b70c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i176.jsonl.gz",
+      "bytes": 401752,
+      "sha256": "447bfab98f822cfd18b19375ae69ae214afd6011c589c471ac8a31f10fc3ad88"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i21.jsonl.gz",
+      "bytes": 348238,
+      "sha256": "3b76d2d5fd4d5a883064881359e7a4ac3b3d1f1c2a63ca22e3d953fb791f1abc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i232.jsonl.gz",
+      "bytes": 363491,
+      "sha256": "c3862e46ee13d89bc2c0546a613e9ed76b6bc9a6886014c8536e510f39476c32"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i238.jsonl.gz",
+      "bytes": 367786,
+      "sha256": "830d89073e87c9535a34cc7159e8ecc22ce71bc72be1c9c3d7e4506c34b9b398"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i272.jsonl.gz",
+      "bytes": 367526,
+      "sha256": "1017fc9ea99d34c5fc1e046bbc5684a0946ce893cf9ed70920ec39505cf1ae91"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i278.jsonl.gz",
+      "bytes": 384296,
+      "sha256": "46665d1470e6c6fbf2d3410aee7307d3b758ae71e14de32b400712c3c9634649"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i29.jsonl.gz",
+      "bytes": 359844,
+      "sha256": "8711979c0b516a60a58062a68fdd51b5ef3ce1168cafd4c9c38ae599d058dca0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i296.jsonl.gz",
+      "bytes": 389055,
+      "sha256": "c4d0b058bb80035a366a6015e838c80ed48946bb769a89ea563b306f2915034c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i316.jsonl.gz",
+      "bytes": 386335,
+      "sha256": "53c0ba6a149f6c26be8873ba754d05fc139a1c7f67bf351ec3acf3fdc57cebca"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i324.jsonl.gz",
+      "bytes": 399613,
+      "sha256": "8d59a46d9ae268763a3863ac34f904605c1e084cdb63543c8254d24a747b80cc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i339.jsonl.gz",
+      "bytes": 372974,
+      "sha256": "89b12d606f55e79ed750a54a2a4d1fc603662bb1c09a150f8348094372964d95"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i359.jsonl.gz",
+      "bytes": 404142,
+      "sha256": "e60e7d3a734ccea4cd9dad1b4fd724908f6e1d5367826f12a0f96c8963e91f0f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i36.jsonl.gz",
+      "bytes": 343203,
+      "sha256": "6b132245490ef0fddb30e5cfe38488bff54700a6691cff7345fe194d39229409"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i373.jsonl.gz",
+      "bytes": 358530,
+      "sha256": "59b6f3ba79669ade79fc9671efebecc2de7880411234784434907a1082e24ba5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i403.jsonl.gz",
+      "bytes": 384003,
+      "sha256": "99862688b7d3b1519a32d9dd10954e91c97e273857bc69f2608f482d5b5d1eb7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i419.jsonl.gz",
+      "bytes": 369055,
+      "sha256": "01044b40a00463c935abe3c031643966f779a5308663ef10619723e65064a938"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i435.jsonl.gz",
+      "bytes": 377447,
+      "sha256": "05d251bd0128e92a61f16a8e23584a17946ddeed28698f3aa547713211bd6cfa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i455.jsonl.gz",
+      "bytes": 341173,
+      "sha256": "62842edc0dddf336ce9dd652db79997b64d3e63c70818cd9140dd07f8af1dba8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i463.jsonl.gz",
+      "bytes": 375450,
+      "sha256": "4911be950282bc2e5dc16457da90ee1ffd19d9db3ed3b78f3d0aae15a5e1e506"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i499.jsonl.gz",
+      "bytes": 377302,
+      "sha256": "57b66e512c3ce0c0e66d5579ac6430d00ac04b5f4e1369c44c1fd713bb6abacf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i51.jsonl.gz",
+      "bytes": 348785,
+      "sha256": "07c857af1e344904c827182599a496ba0e04d9cc96b8f23aad82ac78d78f9340"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i522.jsonl.gz",
+      "bytes": 319349,
+      "sha256": "a2e322125d6fc06233aafec7fbaf794457953d66552f70d08d1819570be422c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i559.jsonl.gz",
+      "bytes": 317164,
+      "sha256": "0abbdf1b8f2a415bf30b865c5d1e367733983b09b72ca771d7ecc0b61f9f6a0b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i585.jsonl.gz",
+      "bytes": 338938,
+      "sha256": "e5c60073aaffb080366ad6568bbb9d94206b50ccd1fa032dba1f167a57997109"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i59.jsonl.gz",
+      "bytes": 355177,
+      "sha256": "b84ef2e6b28215052e37deec763beec21a207cfc46d3b8ca73e8b326d18d6fe9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i6.jsonl.gz",
+      "bytes": 352860,
+      "sha256": "9e7ea2995b372b4c83468f0f70c990b715e28d898c922a2af09511e8ed22351d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i602.jsonl.gz",
+      "bytes": 325153,
+      "sha256": "327cf194d1aa9f28c44c29cdc77733304fdf3a9324b56cd679d79f3fd5451c45"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i610.jsonl.gz",
+      "bytes": 358858,
+      "sha256": "f989ce19abfe3487cef261dd64b4d635f832a66df2138c206651743fd3c60dd4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i617.jsonl.gz",
+      "bytes": 346837,
+      "sha256": "0ef10624f56ae5c5ef7a3cc2115736bb9ec382ebb70906ac0903398ffcaf9839"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i623.jsonl.gz",
+      "bytes": 317791,
+      "sha256": "483c79f6c94290b0110def9d7ff5c4461569ab1529697118e6eaac1c4a497769"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i639.jsonl.gz",
+      "bytes": 333408,
+      "sha256": "36a5f0c29afaa6cae71a9b550f95c6df0ea9478628e7af8b70f614b846f085e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i647.jsonl.gz",
+      "bytes": 359975,
+      "sha256": "0d2cdfaafdee31dd423d0af27ffe7c39bccbec359cefa35c81bdb8e93a253b85"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i655.jsonl.gz",
+      "bytes": 329802,
+      "sha256": "6e4341b8097b346acf93df98ebe11d165e78ed3a72d601afaf4d966805293174"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i66.jsonl.gz",
+      "bytes": 354950,
+      "sha256": "c3ed38362bd9432079b3f60806e496893a85c88d2b0c2841e8630c926d317203"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i662.jsonl.gz",
+      "bytes": 304038,
+      "sha256": "12232bfb49fc94a81e52d5e7b090f3ec3851a0569d9e506bb90a24bede7c2f7f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i668.jsonl.gz",
+      "bytes": 297763,
+      "sha256": "66397551c2cdadf4e50b7d72d20addee45c7901ee409ad0155af3377b1f61efc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i676.jsonl.gz",
+      "bytes": 344900,
+      "sha256": "f5af7ff64eaab98bce93f312e60a099eebc950bb037ac8fc79f5eeea5ec593d6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i701.jsonl.gz",
+      "bytes": 295119,
+      "sha256": "fd9dddb181ff1aa43d8b8a1fedd38f7146f8b4fdbdcdd8650f1d1ead86ff4062"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i711.jsonl.gz",
+      "bytes": 334483,
+      "sha256": "dd45c1d65675930351d448b144757ac8294ea845e17a45a6b643e041220e5c66"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i720.jsonl.gz",
+      "bytes": 368565,
+      "sha256": "c29efc6e5c4b55ec1431d69eea4316d31b9c7c8fd5f17281cd07c381e65e8c72"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i757.jsonl.gz",
+      "bytes": 364843,
+      "sha256": "d075ce3703722628a1d6f5711242cdd0672158c29a0ade5042d4ec9ba805460d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i765.jsonl.gz",
+      "bytes": 357907,
+      "sha256": "a2db6cd0e14a4c7e75585ecebd176b19b6c6a5f892e6f078de19adf4c8a7f79b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i842.jsonl.gz",
+      "bytes": 340053,
+      "sha256": "6997fc3aaef208e2317bae2a78318a3549b9eea17d5cdc399fc07967d59896ab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i850.jsonl.gz",
+      "bytes": 340615,
+      "sha256": "8c3dbd43d250a18db59087a6471d038d0123cee4dadac8257ebf22f53a39db11"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i859.jsonl.gz",
+      "bytes": 374832,
+      "sha256": "a9dbe2893722ccce601708533d51fbc840bc8afe39b76ef32907d8942aa77e72"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i874.jsonl.gz",
+      "bytes": 362169,
+      "sha256": "2af53a075d2f7a47b3c5c81befb3eb0c1e24f78bec260de93b62ac471d67e0a5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i895.jsonl.gz",
+      "bytes": 397867,
+      "sha256": "f137216f5212c5c263fbbf3a4184acd6b8d8f643498bf1eb6d6eeac0fd76a671"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i904.jsonl.gz",
+      "bytes": 397676,
+      "sha256": "375a98d9804e26be680c36253605fc196a2db36aadc3649aac99ba00aceb3d69"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i954.jsonl.gz",
+      "bytes": 348719,
+      "sha256": "51a319d1f3a7bdf1d65510c965d9ae0f32ee241387e55bb919cd97b43dc8f039"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i962.jsonl.gz",
+      "bytes": 375577,
+      "sha256": "4eb42426d4266d10d427592252befc7e11ca56b022cfe2aacdb69ffa7f4a9ba7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i989.jsonl.gz",
+      "bytes": 350688,
+      "sha256": "9a7d8350203faee49498f4b26e3191458641f37a8a891b5b4616963fe43cf3c0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o12_i998.jsonl.gz",
+      "bytes": 377120,
+      "sha256": "4e99c725203a343a4580ebfb50f80ce28c6cc25dbeb81a6e38b685014b2f49d4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i0.jsonl.gz",
+      "bytes": 493969,
+      "sha256": "e0de6b5acedbffba8b63b94b3bf0921b32817250aa0d32191c9e383323202ebe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1002.jsonl.gz",
+      "bytes": 497231,
+      "sha256": "4e772071624faa4a22e3f6387bfa8ae60b656942e5289dc7559ac86cbb760873"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1020.jsonl.gz",
+      "bytes": 508100,
+      "sha256": "299eed9f259362d21708cd2cd9449daec6c94150ba93249237f7f0d4e3d11e82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1026.jsonl.gz",
+      "bytes": 508052,
+      "sha256": "05ae46d2d0863bb2a1d5c8eb4a7d35cf9de5e5c2c858c0f6807409e5d33e86f2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1056.jsonl.gz",
+      "bytes": 506564,
+      "sha256": "a41c97da6472f72a54e3ff6b55aaa5c73225c80a048cd40b1224b4d2f6dc055a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1063.jsonl.gz",
+      "bytes": 508438,
+      "sha256": "df00c09b051cc1e1fd0e4068c8025295efcf94dbeedb33c2d6e7d88f4c410f73"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1107.jsonl.gz",
+      "bytes": 519734,
+      "sha256": "cbd4529b16b6c9c8fda6c181a511cc6425453f4206652c2f74f1e73b271a7b7c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1114.jsonl.gz",
+      "bytes": 519110,
+      "sha256": "9fc0fa7caaa3c26485e895fa0883d99f147550585039ff1efb517728d22c5248"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1142.jsonl.gz",
+      "bytes": 517460,
+      "sha256": "39b4651bf5a05b7ebf365a2d8f0e0c905ca3478180e3b0986ec81b80bcfaad76"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1150.jsonl.gz",
+      "bytes": 520034,
+      "sha256": "c11379f96e4f76987c3369529fdb1c089713ba02d1e93cf97b64d35513c5a820"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1226.jsonl.gz",
+      "bytes": 523680,
+      "sha256": "2f254e91e43ddddc561e04d358f39ac2d1e869e4ac83782244abea603a8cf3d7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1233.jsonl.gz",
+      "bytes": 521945,
+      "sha256": "244981e6c7cc8ca59d192fbac42808d3b08a8dc06169df4d95648029ba88b522"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1240.jsonl.gz",
+      "bytes": 521421,
+      "sha256": "d54bc2b34bf858f2d76b2a660cc6ff2a0bad4f888f9e8d6d95e9c8b43399cf4f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1247.jsonl.gz",
+      "bytes": 519189,
+      "sha256": "1e9cb7cddd868f4ef33b872a4e1cbc59ccb1eb138d5149a85d13ab7d38a47e0b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1254.jsonl.gz",
+      "bytes": 522132,
+      "sha256": "7ab4e7774a304c8c244fa4ed281e36b758bbd2626529122d027246169e545089"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1262.jsonl.gz",
+      "bytes": 518484,
+      "sha256": "0c632e920771bef03c5c0cd7b9e1cd704fe823f717c778a18a245ca73a89006e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1269.jsonl.gz",
+      "bytes": 520049,
+      "sha256": "1c4411368a9d74a875ee4f4cecfbd64074f64e28bfd2473d49a9768c2e80972f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1276.jsonl.gz",
+      "bytes": 521879,
+      "sha256": "c2638109e1cded4ea6d173d3ea7417a82ccbd70a91198cb890431380d50b095f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1283.jsonl.gz",
+      "bytes": 519707,
+      "sha256": "eb18de417a3ab5000e9ba35bb99d77004ec42248e6a68855a9af3e9c4891bb0d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i1291.jsonl.gz",
+      "bytes": 521892,
+      "sha256": "78cd021c79d4d96a7ea6c65f5787f0ef30901c19de55b72c52ec8ad82f1f2460"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i148.jsonl.gz",
+      "bytes": 495671,
+      "sha256": "ffdc294d98276d407ea9cedf01b3294d6031e460c60e1245d908fe9dbc1b2cbb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i15.jsonl.gz",
+      "bytes": 493833,
+      "sha256": "251b4c7d9f4b5ccc2bbbe764422a660b80a69929572b3ae277523641d192a465"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i155.jsonl.gz",
+      "bytes": 495063,
+      "sha256": "973528c635274cdb3704df70af2c32bcfa72148c78d0ddde7e2bd59166ffe329"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i183.jsonl.gz",
+      "bytes": 493823,
+      "sha256": "7b2c3744c22e7fc4c6f31932003b956cfbd9bf3f29a8cb8fe84c75a36370ae4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i235.jsonl.gz",
+      "bytes": 490565,
+      "sha256": "016d71f54626834273f1b3950a1dd53df1a2d7057d38cd684ccf22bbabd1a43a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i24.jsonl.gz",
+      "bytes": 494173,
+      "sha256": "79358f8d4822ffb924e5d4db9f959848f0056b0cf0b31b8936c87a5d4dcfbbf8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i271.jsonl.gz",
+      "bytes": 495112,
+      "sha256": "0b9e272b202b58f64563de9b2d399d6d56acd76ff6ce63ea78cad6a33dcc38e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i278.jsonl.gz",
+      "bytes": 488160,
+      "sha256": "6aef59ae69c74130965294f47f54dda402c85a78f5a56091e5d375e2a3781acc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i296.jsonl.gz",
+      "bytes": 480512,
+      "sha256": "b6042509ecf2cb673c48c7ab2939f047f1b87c4c7b52f9f3f4624ae5ed927fbd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i30.jsonl.gz",
+      "bytes": 494973,
+      "sha256": "aef56ed5390e3d5f10ebc3aafbc891a5c4c1d14496e2b473548b29c7ce72641c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i316.jsonl.gz",
+      "bytes": 479131,
+      "sha256": "3aefd82ac62396c2ee7bc5f7e45f23ad5c8d37415eb5d3dd6cd22555b868b8d0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i324.jsonl.gz",
+      "bytes": 479824,
+      "sha256": "879d29ad2ec030764baceb23ea1a11b47b2577d12677fdee108594e04352e30a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i333.jsonl.gz",
+      "bytes": 477662,
+      "sha256": "b76e6994117b883b197f69447a8028920b12b906b662d753362edc26c7a55fb7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i359.jsonl.gz",
+      "bytes": 481393,
+      "sha256": "7d3ae4ae2d669ea6febf104a596dacb263281567c8f0ad2ea4144497a01af7bf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i36.jsonl.gz",
+      "bytes": 494587,
+      "sha256": "7ad17d53103a32080ba13dff5f86af6487dfca9a1795e3f48649f67aa9978d39"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i373.jsonl.gz",
+      "bytes": 466829,
+      "sha256": "6d7943130597c332de11e4bbe538a6a343efe79bbcc4e8d4ed60a646fbeabc48"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i382.jsonl.gz",
+      "bytes": 464226,
+      "sha256": "84d4220fbffe4d48de518b28a1791f8994fbbc94eccf5130794f8b363b4da231"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i410.jsonl.gz",
+      "bytes": 462866,
+      "sha256": "9cf138312edfc67c8826811c4fae389d1e447d274fd53fe2530336f7e5a4cb55"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i43.jsonl.gz",
+      "bytes": 493631,
+      "sha256": "30f322e5e605f3dc4cc1c57a3fa85db0e70991d96784cee45fec726875038b1d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i509.jsonl.gz",
+      "bytes": 426902,
+      "sha256": "54bac4247512328eb76fd3eac839079f2c8f94fdb432b25cf9102cbb224a56ba"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i51.jsonl.gz",
+      "bytes": 495736,
+      "sha256": "092b1833e73efe132b9012a65dd17b81d4f9982ab970bdb0c828f78b9f5ba42c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i523.jsonl.gz",
+      "bytes": 424985,
+      "sha256": "25c2d88205b1d75f69492720ffe13034702f51a40a567a5e230bc2fe5d48cda3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i537.jsonl.gz",
+      "bytes": 425761,
+      "sha256": "1b2f2b01faf8c349768167478c5de267b4cf94a2323b2c593917ee860424a8ad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i559.jsonl.gz",
+      "bytes": 424897,
+      "sha256": "ac1c149154fca070094fa8b1aa9b7069ce77a7a16a6f8cf3cfbd7d6033444bcf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i567.jsonl.gz",
+      "bytes": 424654,
+      "sha256": "9df773ae2719fd0ac0359d736f4d260f0225eaf72ee050f8c39537c88e60bd11"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i586.jsonl.gz",
+      "bytes": 397872,
+      "sha256": "b2de155ba4f55bb6110a91161155f70585b225ab266161c6eee9fcc8ea7f206a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i59.jsonl.gz",
+      "bytes": 494040,
+      "sha256": "435bf19283da0c9b5581b85213a031054ef589614aa334372b813de8a308c0b7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i603.jsonl.gz",
+      "bytes": 390430,
+      "sha256": "19193ed9fd975410d4138a773a2d56876ab969f00a35c130a1eea1295ded4d5b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i614.jsonl.gz",
+      "bytes": 394912,
+      "sha256": "1493e5d8725a471cb7c5428a924e976425e83ce5d690a4c5a6ff8c48b9ff98aa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i622.jsonl.gz",
+      "bytes": 395580,
+      "sha256": "1741395c4a2784dfce5effa7e5e973150b54f0015f9258821d03c42e7da9d424"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i647.jsonl.gz",
+      "bytes": 397580,
+      "sha256": "f59b1fd02b873e2bd4a6214387fe12643e1eb1786e8de21b2e3e53eb0c68b2eb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i65.jsonl.gz",
+      "bytes": 493834,
+      "sha256": "ae2fedf8f80c818308ccf7ba744db3b00a0ad0166a5a96f22ec2cd61affa5d1a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i650.jsonl.gz",
+      "bytes": 397136,
+      "sha256": "5b87c23a76d9725708a38daceed5c67000ffe95346d6ee66f0aab419feaa9143"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i660.jsonl.gz",
+      "bytes": 400436,
+      "sha256": "1ca4f81210fe154df78327a50136508ad9d3d736744048946e179c274cbf274e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i677.jsonl.gz",
+      "bytes": 394007,
+      "sha256": "4bfe835156b9532aac972f49a54f8a6a2907c25f068419060f782cce85f7835a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i688.jsonl.gz",
+      "bytes": 394687,
+      "sha256": "5afb345c5c420dc882541303aba66e29dd956d98309046f5d2b9a046d4ad439b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i697.jsonl.gz",
+      "bytes": 393215,
+      "sha256": "c33bd9e1ef5c8bf6f1baeef8912d5cdbca0328c08e17f3fe28962bf7f1b07b7e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i713.jsonl.gz",
+      "bytes": 396817,
+      "sha256": "11177f4fbcb387250a211769baec42df77698d8b30e17bf8cca5a92f33ca29a4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i726.jsonl.gz",
+      "bytes": 424447,
+      "sha256": "7da66e1e20744cecf9ca039f2dc7c96f65b8efadba027e0826078cb132ec97f0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i740.jsonl.gz",
+      "bytes": 420787,
+      "sha256": "9ef9062686b34bc7a86753b99783bd4d697f0ab5e1856e913306b80cb3d696d4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i776.jsonl.gz",
+      "bytes": 420432,
+      "sha256": "5516f9f99ab4cb9d146cc4f86629355e3ed72b0c9965b55d4faf9d702e5025b9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i8.jsonl.gz",
+      "bytes": 494304,
+      "sha256": "38a2fef8c7095091f0bbe7a4f63378ae28d67590c164880ea4059ecac9225db4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i807.jsonl.gz",
+      "bytes": 447338,
+      "sha256": "2738d765e8b829a3ed274ad789dc8459367a5d21abb9fc5e46fa463e24b8b3d6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i827.jsonl.gz",
+      "bytes": 444743,
+      "sha256": "ea8f65e829537632c32451ed7524cc79b7a2aeab95a6dba5882664612fc1b13a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i836.jsonl.gz",
+      "bytes": 445719,
+      "sha256": "ec6df266c5184632990dcf20e8c86166fdcd155f5cfc45c2f1f64d91c76a6105"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i862.jsonl.gz",
+      "bytes": 447379,
+      "sha256": "8374f259935742e26c18b015daac7ebc715e7336b75d9a01cd228aea27be554f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i916.jsonl.gz",
+      "bytes": 473863,
+      "sha256": "2e4fab694d3db197135a27a988fda89449f9df619723186dd43c9c25db8be84c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i924.jsonl.gz",
+      "bytes": 475361,
+      "sha256": "5e0b422dc1e2fd790035a80141671c438e94185f50c4fc580e603a619c8d7513"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i940.jsonl.gz",
+      "bytes": 497971,
+      "sha256": "b7c15390c77c6dd8692a8883e99b3f8410f221d0d7422321881c002024b90789"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i960.jsonl.gz",
+      "bytes": 494670,
+      "sha256": "c388846193e9df42cae0fb8239b9a273167548d1bae63739914030b5f0035046"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i967.jsonl.gz",
+      "bytes": 493942,
+      "sha256": "5b129d1177abf806a45cb7add8a82917ecbc54e440f4142e4e2db08273eede0d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o17_i976.jsonl.gz",
+      "bytes": 493579,
+      "sha256": "486e9686fecfe7064737ca472536ac7936b1132cdcf0c5ded0590ea3ebd54ab5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i0.jsonl.gz",
+      "bytes": 187338,
+      "sha256": "0542c2031792d19e7595a6ceb305c99a4909eaee0194a04fd545675920fa9358"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1038.jsonl.gz",
+      "bytes": 224251,
+      "sha256": "39a6b6882fdb7ec3aa150e9f351ec440bf727ff8463584327759141742258113"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1074.jsonl.gz",
+      "bytes": 229282,
+      "sha256": "c19a22c70a54cb3497dc55edb8326f7f296c7a6afa0824f6c3cc07c2b22eb4a0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1088.jsonl.gz",
+      "bytes": 211037,
+      "sha256": "3b3a75aca3bed98eae18ee19330ce32dc5bdb301c7c8e8adba8d145253cf471e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1103.jsonl.gz",
+      "bytes": 206569,
+      "sha256": "6a09206b1e6797951953ce05821a40e5dd9117c3a270c45ad2995608400413bc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1124.jsonl.gz",
+      "bytes": 203373,
+      "sha256": "f2e2ed81c6ab1ac5296bb16b34b4903d4e10a19a9ece19fac57732fc00c47944"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1139.jsonl.gz",
+      "bytes": 212811,
+      "sha256": "1df943c8219faa1448dfefee486550c5c9d56a8ebdf43c9db8751a3e60dd0401"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i12.jsonl.gz",
+      "bytes": 194613,
+      "sha256": "0092b409d31d272e6b1529f4e22081ea024fe4181117e3e801251a4848fc559c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1228.jsonl.gz",
+      "bytes": 185209,
+      "sha256": "fb8a89885215dadcd6f198886ccf138365dfa2f1cda291174e36584a875631b7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1236.jsonl.gz",
+      "bytes": 185113,
+      "sha256": "2b4798ccae71257aa95b474a037a5713beafb53e3ca66070f73668049746cf3e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1242.jsonl.gz",
+      "bytes": 187934,
+      "sha256": "9a02c3efc7550688db2a740feb4ee9df48d17d7da0b124ba73508d3b55e83fc1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1251.jsonl.gz",
+      "bytes": 185413,
+      "sha256": "37488f0393f5035f259bac02acd5042d0794bd21393713da2751abfabf58198e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1257.jsonl.gz",
+      "bytes": 186742,
+      "sha256": "4696574e537c6e6958ca7f8b9c36c3b6bfce4e0f8f0dea54a1433b69dc250613"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1264.jsonl.gz",
+      "bytes": 182600,
+      "sha256": "5b51b17d5bf56d4128d130767dcfca7e3eedbb6472421bcae8504288f827c636"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1272.jsonl.gz",
+      "bytes": 187965,
+      "sha256": "0e1b46d51b39287aef1b4d93d6927ffd208e6f14c83b3ece12578108a44083b2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1278.jsonl.gz",
+      "bytes": 182909,
+      "sha256": "5104476e9f61088ffb1e18abd2fd5c77e8877103e9d24ba447d0ee4c59b545c8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1287.jsonl.gz",
+      "bytes": 187415,
+      "sha256": "485e297025746ba1b103ac7998ca93738a84dc38c47d13f6237dfe0c1aaec01d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i1293.jsonl.gz",
+      "bytes": 185165,
+      "sha256": "6324734241326ccbeb287b5ad9318c9155fa933cc07481e3e406422583ae5b99"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i169.jsonl.gz",
+      "bytes": 216203,
+      "sha256": "f5cd38f27598443362523f4a6a25ae9128444868f9ffffa4ae72882992351980"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i176.jsonl.gz",
+      "bytes": 212162,
+      "sha256": "5222b34d906bc3026e105c0d24553967df38d833cdeb67805bf0aa9a2e81d6bf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i21.jsonl.gz",
+      "bytes": 194019,
+      "sha256": "9eb9786419d59a5dfb01cd45489d358642e41068fb8cec41c26ea04f8dadf30a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i212.jsonl.gz",
+      "bytes": 213237,
+      "sha256": "1426e93637acf0c551973977950b85af6af18685194529da36395ed6e93b8193"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i233.jsonl.gz",
+      "bytes": 231470,
+      "sha256": "d0c1cc794fe86ec866b20082faa64ac127f246330d03ed276c3393fbd3a9b553"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i262.jsonl.gz",
+      "bytes": 231254,
+      "sha256": "884cb85d1a1f0cb068fedcff78d100393a51d2af85fcba184822bc53a270cd76"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i269.jsonl.gz",
+      "bytes": 229309,
+      "sha256": "fe7742ea1f9d7b12ba077303a97c8b84ada5da8c4ebe10ae97fb30b5ad9ffc5b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i275.jsonl.gz",
+      "bytes": 233222,
+      "sha256": "d7aa8b195572e7d4b0ccb9b1982acf72316c1d365d0843f40338cae375caa71f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i289.jsonl.gz",
+      "bytes": 244142,
+      "sha256": "34b6bbeb9976b78e4660c98f81b40aa512ca77b0a6ded1a6eb2bf836fc9f25e1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i29.jsonl.gz",
+      "bytes": 194379,
+      "sha256": "23c0825ec504e1bb421fcc59b7945f1cb5cc615155b7dcfffd7f8df0041b53d3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i297.jsonl.gz",
+      "bytes": 242693,
+      "sha256": "f88ba8c1e87fc45e23d7031190250d2b84b7b7fd4420794a5e7f152ba53ca22d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i317.jsonl.gz",
+      "bytes": 242998,
+      "sha256": "350dce1f386d4d3acd06dda2bda822d4ddacbfa58ea399c81680aa17357ecdad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i326.jsonl.gz",
+      "bytes": 242400,
+      "sha256": "98434dbd05980561de4283341dee9c2458743af8ac8fb60ffedaa7775f9c9cf8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i353.jsonl.gz",
+      "bytes": 242875,
+      "sha256": "c7f8f341a4eec9c3ab31255f4fce35c8b05b9b5a7a6172a006427d90b03b467d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i36.jsonl.gz",
+      "bytes": 192859,
+      "sha256": "0c8390394a91cdf6e0338094099294d8922867ab171da158d9fe8d4325bd40ee"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i383.jsonl.gz",
+      "bytes": 246495,
+      "sha256": "27ebae144d87372a6501f7a43baae1b61ff6bd6fb8268006daa0171edfb54ccc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i42.jsonl.gz",
+      "bytes": 193741,
+      "sha256": "27e7f0de0d6584fd5df5e9ec38f57165ae583b8f7ca0613171e69d23ba59c329"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i437.jsonl.gz",
+      "bytes": 249265,
+      "sha256": "065e2612252bf137718fd837b1ce2ceb22a82a519fc0b85ff9fd0dde8b8b6dd1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i445.jsonl.gz",
+      "bytes": 251011,
+      "sha256": "52f46a4737024d3206e932820e0fbe6dab819d2f430a7a69fbfb4ef79111ae88"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i464.jsonl.gz",
+      "bytes": 250836,
+      "sha256": "c139901ae620853219a90163f7f46628b753d63b77a7ab19c441446f538acae7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i474.jsonl.gz",
+      "bytes": 251466,
+      "sha256": "a6fc88f237aec10fe1bab6b8ceded19323a9a2419daad18e271711ef7818c0a2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i481.jsonl.gz",
+      "bytes": 250038,
+      "sha256": "4d2bcf740b972398bbc8b3dcb2d33ce42a04c6d8980309836ce5a5cd1f8979fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i49.jsonl.gz",
+      "bytes": 194131,
+      "sha256": "838ff7d428998d0f3d9fbdb0002838a4e064bdfcc67468261eb883555f431ff4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i492.jsonl.gz",
+      "bytes": 250200,
+      "sha256": "cab84c106993b50a2c8a3f60ed8e8dbb24af5d0dc1f175711dd3b83753e6b2b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i500.jsonl.gz",
+      "bytes": 253723,
+      "sha256": "e3590530b4093d5a32f0f06cd1d99b32dadbcc456f29f961657e7d1ad2576a29"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i522.jsonl.gz",
+      "bytes": 247953,
+      "sha256": "b9a631af584c6545840b224335d65bcabdeafb7910f057abe363db7894901d5c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i558.jsonl.gz",
+      "bytes": 247640,
+      "sha256": "9133e6dfadf16edea2cb03f3e4e45c26065b98fde4beeb6bad35e23b37afce3c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i57.jsonl.gz",
+      "bytes": 189558,
+      "sha256": "8f85ba7b7486067b0d3cfd9086031007bb46649543932858d10a236793bf32fe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i584.jsonl.gz",
+      "bytes": 246837,
+      "sha256": "a9c3c77eca8231e5d5ec8a0bb99cde818dccd26a02c43c6981efdd229bef2a50"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i6.jsonl.gz",
+      "bytes": 189671,
+      "sha256": "fb501b702577fc1545e597ef9e72c379ade9666cc1d403e9e1c3d9d42727316b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i603.jsonl.gz",
+      "bytes": 246142,
+      "sha256": "991f0ccfa7cd2eb78dc7929c116965786c74c21c5b559bad3b4e4f09bc289ac8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i611.jsonl.gz",
+      "bytes": 246404,
+      "sha256": "9b962b550a2ef471666809fc23e5d31c2218acbf7872c307b3add0c020231bff"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i621.jsonl.gz",
+      "bytes": 245903,
+      "sha256": "1ab5624c75e870b9753daa5fbe3c0e0a5e31b453c412e5e3e5117cc59dd91164"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i639.jsonl.gz",
+      "bytes": 248181,
+      "sha256": "41dfb6007f67e050f9121cd8972e8e76c8bfde09dd99779699146b15891a7eee"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i647.jsonl.gz",
+      "bytes": 248153,
+      "sha256": "035c8cfea6245d0d57c1103755793a55f63ec559e7b30522be21f444bacbd269"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i65.jsonl.gz",
+      "bytes": 185666,
+      "sha256": "a8674325f5e7c708957e2cb545f95d42a2b56b03f1e0dc6493c7313fe439df65"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i651.jsonl.gz",
+      "bytes": 246693,
+      "sha256": "34364a6e75ccff0d736d5b067f715493314a34c2d445154ebbff79cc48c84d93"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i659.jsonl.gz",
+      "bytes": 247084,
+      "sha256": "77ee42e81ebb497b07c78d1a2884b64753842adf8d13a38aef2c9af7b1715af2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i687.jsonl.gz",
+      "bytes": 246897,
+      "sha256": "5ab853e8e30b1c3a48c67d5b672a24ce2372798089f77d453f2a56d9b3f5194e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i695.jsonl.gz",
+      "bytes": 245692,
+      "sha256": "875622db019998f4a0b4c89fa268b552d697666deac3c0ee1204de7491545e48"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i705.jsonl.gz",
+      "bytes": 245854,
+      "sha256": "1252c4ed909c6aba88229ce6172265505d0019c2dc73e280b6c5467868b86ffc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i740.jsonl.gz",
+      "bytes": 251108,
+      "sha256": "f30fa6c8bb965bd02b2868862c48ae88e83193adc89709597ac6bffb32cf18c8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i750.jsonl.gz",
+      "bytes": 245336,
+      "sha256": "0f3b5fb612ce51399f19eae866b0d5d6d23ef7f745e8f58cd4d5d293adb0bcb2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i786.jsonl.gz",
+      "bytes": 248829,
+      "sha256": "b9537f09072bcdf1c616717ca4b9a8000562c243137854feb4b6e534bff8ceec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i889.jsonl.gz",
+      "bytes": 245852,
+      "sha256": "36a6e0f8b59ff9a80902119f7f0442238b25f1970527fd9d9596da2ab736c2be"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i899.jsonl.gz",
+      "bytes": 245181,
+      "sha256": "09a13b2f04fefe8a30765f9b25cd0a3827aff3ecace310f2ea28aa0ed47c6e82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i910.jsonl.gz",
+      "bytes": 243779,
+      "sha256": "7d78aece93a362303dffb594913e3669f5be9e8d5f2ef1c183bd7fa67b0424f1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i925.jsonl.gz",
+      "bytes": 246048,
+      "sha256": "1847cf03c6028b77202763e7a6e4adbf160515ec55eb38e60cdaefd92eee0e78"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i935.jsonl.gz",
+      "bytes": 246654,
+      "sha256": "a0329da6a4662f14a67075572957003cd0ecf30de4318a889120b328ccb7b73a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i940.jsonl.gz",
+      "bytes": 240259,
+      "sha256": "dc554c6f5d8e2ba891921068ee14a2c438b2427778a9e61a6ad60657522cfb1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i950.jsonl.gz",
+      "bytes": 236105,
+      "sha256": "6ba8ad44af6d9f4e0aa590b93667cd06bb8946b801f4041a4915831d609cfc31"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i955.jsonl.gz",
+      "bytes": 236079,
+      "sha256": "d428d8e6f04bfff2bfc444068de477f4e3f9d70aa2d478e6a4dc103d360d668f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i976.jsonl.gz",
+      "bytes": 235249,
+      "sha256": "98b45730ba29d2bfaec6816573d19ccceb7e4f569549e7e59033fff5f6092f3a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o1_i987.jsonl.gz",
+      "bytes": 236836,
+      "sha256": "97cc2740711ee3979c6e501029c23ca740c678d0b7ecfef117d153d1f1e48808"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i0.jsonl.gz",
+      "bytes": 225266,
+      "sha256": "cdcc5e3fe33a87d0d93d994e79da17021677d38521b75635fae79f917322c41d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1008.jsonl.gz",
+      "bytes": 261711,
+      "sha256": "2a25ac42789be7def437187b803a42b8fd3ffe147f9685cd37dacaeff3438cee"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1016.jsonl.gz",
+      "bytes": 258279,
+      "sha256": "e29f99b27f2d8ce64cb5bee1e614ef1af27f4d33ffbea047676284637e5ce7f9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1022.jsonl.gz",
+      "bytes": 260845,
+      "sha256": "93f40151cc2e0bea480d60f60bbe1de2c5c357d32e67f41ef355e992995398ff"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1044.jsonl.gz",
+      "bytes": 262275,
+      "sha256": "46b76d8a0f67af2b2f675784d56375056e61ad8092b500247cb60149824ffbae"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1052.jsonl.gz",
+      "bytes": 257487,
+      "sha256": "83cddf7e8a290b4f850938b012c18f528a6e0267624c1cb3f1f1e302569a569f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1058.jsonl.gz",
+      "bytes": 260353,
+      "sha256": "b6381ffa12e38c8ead14dff4146678fe8321a5696ec1cb1abaf4c2218a5624d6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1109.jsonl.gz",
+      "bytes": 245718,
+      "sha256": "2ddd94c83249135f0032f5bc55502437edce748c922da2e3e64e2c21b019b7ad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1145.jsonl.gz",
+      "bytes": 245440,
+      "sha256": "a0364649157d93dd94db447465fa6dd0294745a96174a04473b8a15a97cd6447"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1170.jsonl.gz",
+      "bytes": 228446,
+      "sha256": "064a91ef35604db2a5de23589f5abd052fd52b09d2cc68a26ebdca512ce20968"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1206.jsonl.gz",
+      "bytes": 229798,
+      "sha256": "be25c1437b160b344fb209aeed45881ab9a4f443487483c6abbe7a87a05c8bba"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1227.jsonl.gz",
+      "bytes": 225723,
+      "sha256": "ad6a5f91aafb5adc869fb14142abc3fa54d684ec094140776d210fe6a3f17d15"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1235.jsonl.gz",
+      "bytes": 226978,
+      "sha256": "9a806e333bff6c01073991ae5805d56df778752186c81c7fa54bbccb1ece3c86"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1250.jsonl.gz",
+      "bytes": 225687,
+      "sha256": "9127295825c27cbccba22cbc78a1e6d0f98fbb9d18133623025239c7553c432a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1256.jsonl.gz",
+      "bytes": 224258,
+      "sha256": "38aa9b0d72da0dd83e8bfb5aceb5b976b57459a3f711945415be68fd1db6cfab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1263.jsonl.gz",
+      "bytes": 221467,
+      "sha256": "17f22f2faa43d0caf449fb96e97a703a5898689e4172fd418b70fb504780dae1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1271.jsonl.gz",
+      "bytes": 221989,
+      "sha256": "5c1c79fd3605614dfac87585d49e07e9e84fb3e05ad12cb78e23e419574dcda0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1286.jsonl.gz",
+      "bytes": 221143,
+      "sha256": "0b253d01d3733a6a63e1d2c4c64d5a43c18303941e078463d6eb616012bf6a37"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i1293.jsonl.gz",
+      "bytes": 219735,
+      "sha256": "c9732ab7bf1b23cd6e99d803ed629628e3c3b9a2dbb124648c38f30e60d8301d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i148.jsonl.gz",
+      "bytes": 244805,
+      "sha256": "898e7945b4ae6cd332a3ffc2a98794f9069565d3b77cb76e5faf27420eeeda5e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i15.jsonl.gz",
+      "bytes": 230949,
+      "sha256": "b76d4db026887b68cf1280f3fa2cfc6ed78eef23f94e8526d0b58643e3d357c5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i176.jsonl.gz",
+      "bytes": 248952,
+      "sha256": "830b300272ac0f2db134e3f7f6d648bf97fe5175b007858fbaa29de301b4a6d8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i184.jsonl.gz",
+      "bytes": 250761,
+      "sha256": "5c8873d39315df2b000e2b15f24f12f0701cf98bd875333e4543e3caa8adca3d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i23.jsonl.gz",
+      "bytes": 227056,
+      "sha256": "86e83ef2fbdfc944dd423f7a069f855fd45190fe3fdacd674a93643801820198"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i234.jsonl.gz",
+      "bytes": 265356,
+      "sha256": "fe471617896b5f172ce5a479bf83a9fc7d5084bba4204fc2fed8e69ae84311b0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i242.jsonl.gz",
+      "bytes": 261490,
+      "sha256": "b64d84ba3887762b0a088d577a3827a9b4826463a76929b99f45c1ba6e45f2de"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i270.jsonl.gz",
+      "bytes": 260947,
+      "sha256": "7b7e7c4a69b7cc904862f9de3754abed72073ad81a4ecba9920d998e7af4dcaf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i278.jsonl.gz",
+      "bytes": 265320,
+      "sha256": "fbbcfaaef3996ede15808e764075c64d24d2d1af893559997bd1b3c009b77c9a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i29.jsonl.gz",
+      "bytes": 234944,
+      "sha256": "fa21ffb965d61833ce1b31eb50b3ca6cca413141a206a1f8eeb0fa24a4eedc65"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i297.jsonl.gz",
+      "bytes": 276507,
+      "sha256": "5f1220a45afb59cb895170fffd3a6aa2480ee226afed1b4177ae3f45cb80698a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i323.jsonl.gz",
+      "bytes": 270306,
+      "sha256": "2839b63cfcae2f2c20bdb3ff5702fa46a30e3bfaf6d7e8cb51a1a891debc8068"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i332.jsonl.gz",
+      "bytes": 269846,
+      "sha256": "41f5cbc7d20b4275b4e0c0258e1743f21b04590a6c495002dd0fad616374eaee"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i359.jsonl.gz",
+      "bytes": 275906,
+      "sha256": "f1313b742b49ff234ac50b958bb859adbbbd4b290c6ec011b873c2eca40d0fa1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i36.jsonl.gz",
+      "bytes": 234290,
+      "sha256": "ad8eeb3ebd109fa64f91036d711f2bc8386d73d422c171855a622bd683aee969"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i375.jsonl.gz",
+      "bytes": 275114,
+      "sha256": "a41c9a7f7db577327eda8504d3438bf22bb61af87c5fcdf423dd23bc6880d2e1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i410.jsonl.gz",
+      "bytes": 276004,
+      "sha256": "cbda01334825fad2f6253c3e1654d69dc82a8d93bf6e687de54b7345d48aaed0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i437.jsonl.gz",
+      "bytes": 273686,
+      "sha256": "2bcdcca70c55b59fe0dac128938802cc3138c823a90cf21853de51eee8b06cf1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i44.jsonl.gz",
+      "bytes": 230470,
+      "sha256": "a22bacea30fcce8ed9c604dce48bc0d08e34faac832d7cf59fc1a03988860c36"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i456.jsonl.gz",
+      "bytes": 274709,
+      "sha256": "6117e9cad00b1865c095e2a9fd2a63b0c09566e2585e0ddc3e5bc32ad591aaed"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i463.jsonl.gz",
+      "bytes": 274819,
+      "sha256": "ae1f63b7de087aa34017b599b48a788cb794f08e00cff87c943712ec640f94cc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i492.jsonl.gz",
+      "bytes": 274120,
+      "sha256": "e916baf01abdf3718905ab510c36404e6a5752a734beb5577a58888ded4b39a1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i499.jsonl.gz",
+      "bytes": 277593,
+      "sha256": "22feb8ee8b5c7894b926ddab4c334547ded588acf16716dc9fbdc3d5381ce888"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i51.jsonl.gz",
+      "bytes": 226748,
+      "sha256": "a8e3d9cf6d6949f4411ce5aef302e490fc5cc4d90076d6bee73b593341102fe9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i523.jsonl.gz",
+      "bytes": 270091,
+      "sha256": "d2fdce77592f86e25b7fb55174c7fe2d06532bb94bfdeb419aa0d7f809e64fe5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i559.jsonl.gz",
+      "bytes": 271329,
+      "sha256": "4beb364b7a16c36de5de44ff57a27ddeb632f658102e6aed008e57df3a7ffc68"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i578.jsonl.gz",
+      "bytes": 268830,
+      "sha256": "9cee0e80483cb44af6d5448a3f3bd7c16d28b12c93a0c0d22f594eb573ff0e00"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i586.jsonl.gz",
+      "bytes": 263910,
+      "sha256": "8d948c174340901d2e7ed8a84a891bb45cfbc524349764c647c26e41ec0e8007"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i59.jsonl.gz",
+      "bytes": 230817,
+      "sha256": "264cfc29c5f92e26177a6a3fc22f184b98650f39dff0d5ae296769ac4c5cfd4b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i604.jsonl.gz",
+      "bytes": 265947,
+      "sha256": "89c0f425235b6ebd817f9bf3a96ea61b9c022b13cae5bf157c36048e162344e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i614.jsonl.gz",
+      "bytes": 266848,
+      "sha256": "6617fc2b5d3f96048862775ca65bbf697d76f6e86fcb8122db2b26da370fdeb8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i622.jsonl.gz",
+      "bytes": 264870,
+      "sha256": "310a21e7337534dd98a533198fe8cf239752ee1238e1d619c6cf34cede55c4dd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i640.jsonl.gz",
+      "bytes": 265299,
+      "sha256": "250196a8666a4cd7a519d629cdba1680a9ba992eada82c946e3c5a782f791dbe"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i648.jsonl.gz",
+      "bytes": 265140,
+      "sha256": "9562aedeb697977cfe40c13d48bd91718aaec4d9cdf5daef67aeba37e66f77e4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i66.jsonl.gz",
+      "bytes": 227220,
+      "sha256": "af13ca60fd64e0c3615d4ccd3b838c648c742a8c45668fbd078b975543848399"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i663.jsonl.gz",
+      "bytes": 264205,
+      "sha256": "f416f830fdab220b523d2f8dbae544ed31d4c900a5dadf01d150a1dc0a02761b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i670.jsonl.gz",
+      "bytes": 259782,
+      "sha256": "90052eb0825da22a55e305c1a6bc87153b4612b1a8658b8f3c129bb286974ff7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i676.jsonl.gz",
+      "bytes": 264162,
+      "sha256": "321691d0034f8c05ece3a01370063fe93fab005c432dceff942a464f392f1b29"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i684.jsonl.gz",
+      "bytes": 270508,
+      "sha256": "dd28be128204c63b8f3667d269ca0efeba8e53d0133c4b751cdca89a2fb2b311"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i699.jsonl.gz",
+      "bytes": 266835,
+      "sha256": "ebad7bc574c68d41d0e1735c023376e45e9b401c8fe7454ea1e4a34bd6cf1ca2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i706.jsonl.gz",
+      "bytes": 266278,
+      "sha256": "697af5acc79082b9d2ba04c430bf63a8d7e6be58048ea04bdda9f655981baa21"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i712.jsonl.gz",
+      "bytes": 263879,
+      "sha256": "5ff9b8da3f51f6eb4f83a1cbaa43b427fe165159229c14564bb096a89455ed3c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i728.jsonl.gz",
+      "bytes": 269386,
+      "sha256": "c1d30ca22a98ef12486e91ade4b74bdc0e82536fc8f6bdce6b7577a4300a7818"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i764.jsonl.gz",
+      "bytes": 273992,
+      "sha256": "0e96b770350f3136ecc1e8dcfbb63a3ece54fcb4cb904a4ef4eaaa781867b2a2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i8.jsonl.gz",
+      "bytes": 227261,
+      "sha256": "e23eb8fddeccc19607e7ae7a4f13fa22eb9a106fe14829873da056fb405a6e90"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i824.jsonl.gz",
+      "bytes": 272987,
+      "sha256": "07c0b55aeae71d011918f0ce3749c34f01c2320317396c3d677b38829138b045"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i860.jsonl.gz",
+      "bytes": 274007,
+      "sha256": "abb5d24e007a6707cee35930bc3962a98ccc3c90a032ec6dd25d485effa4ccc5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i867.jsonl.gz",
+      "bytes": 277000,
+      "sha256": "667c8ac80846352034f2e34769e4724be6b341635816a0798ef058c2ed230310"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i882.jsonl.gz",
+      "bytes": 274979,
+      "sha256": "317917a8eecdca88d45e20db5bdc2d73e24e2b8fd9ef7ca74934c55bda2a81cf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i903.jsonl.gz",
+      "bytes": 272983,
+      "sha256": "85d875c84577fd777e7845beff0cd9298688c8481fccfbe7db7cbda16c5d05bb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i918.jsonl.gz",
+      "bytes": 272924,
+      "sha256": "df422845b3f7ddcf94881db92564fc68777bac057e961b38ea10c0be14bf13bb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i962.jsonl.gz",
+      "bytes": 270811,
+      "sha256": "ae2638b25619de5eb850cf3027c624a0fa5eb68d21820fc37c7aaf325793fdb7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o2_i998.jsonl.gz",
+      "bytes": 269113,
+      "sha256": "5c1fd10a024d0b6c423e88d91a845a76523594f2bb8de2dd4a7ee93ce004f52a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i0.jsonl.gz",
+      "bytes": 380416,
+      "sha256": "475d28a945772672c921d2fa48407fae9c0738a784e03b7313121c36031c7693"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1004.jsonl.gz",
+      "bytes": 450346,
+      "sha256": "0d05de4822cebd18cf1accb8f0048a64dec7cbb455eb67efb2f979e78b79b9eb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1088.jsonl.gz",
+      "bytes": 467381,
+      "sha256": "060b37b73fc360fdb2ab5baaff0f83f4d1f54821db8d3452a195533b49ee170c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1115.jsonl.gz",
+      "bytes": 434243,
+      "sha256": "36fc7a2f8fd980ebd7a0556afc984841dc142e9d21b18ab4d5ae9a351088029a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1124.jsonl.gz",
+      "bytes": 471186,
+      "sha256": "d3ab618c041b9be796758e1294d1955b99ac9dd5061f14e1cc9304ec5e4e4780"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1133.jsonl.gz",
+      "bytes": 403659,
+      "sha256": "ca1759225bd3ed58a0508261afb6ad15242d4fdce3211c9e2f99365237aba5c5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1228.jsonl.gz",
+      "bytes": 432541,
+      "sha256": "89be14b0253c92ef3d1ef3705fe5f652a73a6c5e6da72f547c839e17604dd491"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1238.jsonl.gz",
+      "bytes": 427838,
+      "sha256": "7efab7c387fa19f17fe170b95e8a1ab2247d6813c36659a867f12bb147499f4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1247.jsonl.gz",
+      "bytes": 431785,
+      "sha256": "5f33796b44f3011a55f6be31d239dbadd0938a09a19232cddc78df14bac82c33"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1255.jsonl.gz",
+      "bytes": 434818,
+      "sha256": "21b49d58fa106d4cabb1fd63a53d7c00266b32cef0331c9e8038c04cb74b0d32"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1264.jsonl.gz",
+      "bytes": 434959,
+      "sha256": "d9064b75fb5532804bb3362ba8373d3626d7a6d84258f0219f9b859fe7100214"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1272.jsonl.gz",
+      "bytes": 426967,
+      "sha256": "e0b0b78b277f9095d0878abf0e4f18299b513eb48518320331bb9152841176c2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1281.jsonl.gz",
+      "bytes": 419349,
+      "sha256": "2c33422c6b573e8e809c4e8b408d6bbea65f40eeeff9d8d147b9bcedc10d11ae"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i1290.jsonl.gz",
+      "bytes": 430394,
+      "sha256": "f5b8d452e59407d69899d586936444fca13f26515858ce6224c01af988804c7b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i149.jsonl.gz",
+      "bytes": 457284,
+      "sha256": "b20a2cdd5e19ab1013844543a02923e31f2090d0909e2d882eb16d0e32797abc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i157.jsonl.gz",
+      "bytes": 444285,
+      "sha256": "ddc4c6298313441f36a291443a4eb0e31198eefd0760048c102d50855c1bc286"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i166.jsonl.gz",
+      "bytes": 438842,
+      "sha256": "4a4379d740e7aa88524c07ad4abd39beaab0975e7610ea3ad43642d14dacfad1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i17.jsonl.gz",
+      "bytes": 388502,
+      "sha256": "87e09e3c037f7276b71b1cf763b41b18d397be188a38815dbc17560cc0314d93"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i176.jsonl.gz",
+      "bytes": 453537,
+      "sha256": "67c5bd43c0752679e90bf0ba4f1c496c8a4375c7636e2af4fa8f89e4194b33d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i184.jsonl.gz",
+      "bytes": 452691,
+      "sha256": "838baa0e699f372b42ca8e2cf2ae05d41810c02882928429eec8d5d5c07d9eab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i193.jsonl.gz",
+      "bytes": 444403,
+      "sha256": "f4936a5928a9b05791f9a930a3a158922e1562ec357ce7f3b7bf314493b883a8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i202.jsonl.gz",
+      "bytes": 442830,
+      "sha256": "f6255f778e51d30da6953b77269c3963d8bd0b3ebbe82bcf2cf196ba35e9c141"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i212.jsonl.gz",
+      "bytes": 455597,
+      "sha256": "3abe87e57cc418a2dcb60ca0595531fc7ccc89e421393cb7deb63a378adeadb1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i26.jsonl.gz",
+      "bytes": 436597,
+      "sha256": "c6a71350d2d58ce8a2029e5c25c80b17db1fb7406a3ededb98c1b88646c5a213"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i288.jsonl.gz",
+      "bytes": 426637,
+      "sha256": "29b139a9944823f213d55cb095509a4648c024b52a06f902159c4eb0769c04b3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i297.jsonl.gz",
+      "bytes": 451411,
+      "sha256": "c873df3a72916173f63b9bfc29d21b623632eb3eb392047ffb269bdccc5dac56"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i306.jsonl.gz",
+      "bytes": 373755,
+      "sha256": "46c975dc9937e59460d2c14f62c33648da7f78dc47bfc731722e3a934d009f3c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i315.jsonl.gz",
+      "bytes": 449758,
+      "sha256": "705d6ca9a16738b5792c0a67deead251736e5feb4683f453f3d454f8042918f7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i324.jsonl.gz",
+      "bytes": 425806,
+      "sha256": "2b88ace092deb564eb95bca83b6da3128e4884a1cf2d80b61c8a13540987f2ec"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i333.jsonl.gz",
+      "bytes": 451571,
+      "sha256": "8889bee6660fd52bd413288af81c3ef35c533ba9e8fa26a80bf3930e17655b59"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i342.jsonl.gz",
+      "bytes": 373831,
+      "sha256": "50b93f74ba4fa99cc21dbd715280bd5535a0f39187ba472d01c00c10a0d1fc26"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i351.jsonl.gz",
+      "bytes": 450493,
+      "sha256": "2abf1d465f9b5e11d8deb2952aa7e3edc89d8699f3cebd0c9f1a33ed95bc36c4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i36.jsonl.gz",
+      "bytes": 374527,
+      "sha256": "f46c3218bfa01385cd6761fd5fe67e0e0479e4276877bee8de7f4e6dfce550ef"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i438.jsonl.gz",
+      "bytes": 423256,
+      "sha256": "cecd4192cd0a13fccf3d8aba5a0f91c74cd6c0220defb2718c63165952fa61af"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i45.jsonl.gz",
+      "bytes": 431412,
+      "sha256": "3e89f54b3f9c6ef6168979a56a317af3a0ee38725016c0d90d4a5724a87b217f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i455.jsonl.gz",
+      "bytes": 382521,
+      "sha256": "9078e60bfdc9289cc60b581a2f6cbe670ecd4f1d6d8167dc486c122f2af1c355"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i482.jsonl.gz",
+      "bytes": 387230,
+      "sha256": "878963a83314f30f38c637cfcea4e3c18c37c669d92ad9a7ac46ae9c4f5b9081"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i491.jsonl.gz",
+      "bytes": 383399,
+      "sha256": "f9b4790ebd7c9d40a250259fc2b1da2d6f3a7db151154fc77ceae21c75456877"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i53.jsonl.gz",
+      "bytes": 389365,
+      "sha256": "b08377ff31ccd9dbb3c9ffc7eec1cc379256deab717acf20177e0151b9cb717a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i578.jsonl.gz",
+      "bytes": 382374,
+      "sha256": "bf70ead5e3172af1ceae7da58064fd1a9697fc27de68be7097c8c283cc78bdd1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i587.jsonl.gz",
+      "bytes": 367443,
+      "sha256": "da4e8f5c55924e15c87f82bbf5ac8f1aed8ee144bc755be11c673256bcc0b44f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i595.jsonl.gz",
+      "bytes": 293562,
+      "sha256": "501ad1b8705100964c49e21a6af3e95ae84e3db4185636ab2e4ee9e0270b3133"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i605.jsonl.gz",
+      "bytes": 372965,
+      "sha256": "db5df49603c2911941a12d9fa21a774689ee800252dcb567fb623a711126a534"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i614.jsonl.gz",
+      "bytes": 386202,
+      "sha256": "0e8da3ce5cb32f0c12480b83c7db22314277b467d517963603c7787ab6897547"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i62.jsonl.gz",
+      "bytes": 439863,
+      "sha256": "8c5c890693f8afe2768ba8b2d80f88bd18480e7792b6eb300b9088cb972733c7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i622.jsonl.gz",
+      "bytes": 370549,
+      "sha256": "53370c741091558914fc582ae9f76d732d255be6ab087155015a8fd17ac42c56"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i631.jsonl.gz",
+      "bytes": 288651,
+      "sha256": "8513ea821e959afebf65d9503b538bf0912fdcf826ae4483d03e9fb6506c3b75"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i641.jsonl.gz",
+      "bytes": 374873,
+      "sha256": "f1c3b5b8b0a18585e4dc803f39a887850747514bb3c389ff675a39b861fefd15"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i652.jsonl.gz",
+      "bytes": 377672,
+      "sha256": "bff2077c020a537f3630ea806bf1fc9ca6be0969ac75141fdaafaa88201208cd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i661.jsonl.gz",
+      "bytes": 345143,
+      "sha256": "171e734e14c8bbec6fdf0bca3643f79ac734cf69f53d4a1b7496c4edef4149df"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i670.jsonl.gz",
+      "bytes": 331013,
+      "sha256": "b5dde243951e128b6399508f0119e9de7db4aceb77d764025486d183d0e2d5bc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i678.jsonl.gz",
+      "bytes": 382173,
+      "sha256": "ba043bc492b5514dd17b1f094699bbb6ad24b4aab2f098e817fcbec4ea289743"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i687.jsonl.gz",
+      "bytes": 385633,
+      "sha256": "7d5453eaf5532c0b0ef791a45f4074af1dd65809b867d8ef60559bd40e1107e6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i696.jsonl.gz",
+      "bytes": 356270,
+      "sha256": "84d9a764869975bfa9779eb6558a40871040a385cae3375528a1e7aade407fc4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i707.jsonl.gz",
+      "bytes": 341043,
+      "sha256": "cc33f7f7fda9a743037c94285e1143157266baafcd9a5427fe6f64ade081d666"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i716.jsonl.gz",
+      "bytes": 382039,
+      "sha256": "67720f03479f3965d8a7dbf82f6856611dc7b7bfea82fac74ecb2f4c4b4f9226"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i792.jsonl.gz",
+      "bytes": 409782,
+      "sha256": "5b77dac19ae144a3498d978fb79a1db625027679b403d68df1e7dade3ef8b354"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i801.jsonl.gz",
+      "bytes": 413954,
+      "sha256": "043752a29f82d4ec4f20213345f1c15248dcd0a898a785d184cc6791eb5f5564"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i809.jsonl.gz",
+      "bytes": 342524,
+      "sha256": "5edbdcaa020a3f3f7768c2c36b06149c3d2c6f9c80d275e7fb22117be98619b1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i818.jsonl.gz",
+      "bytes": 405666,
+      "sha256": "881772111da3a928887c4efdb028d5e7aea377689881d97745b1ba06b5a4325c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i827.jsonl.gz",
+      "bytes": 412116,
+      "sha256": "9efdfc92a3fbd564b36f353dc3912a050b822eb961fed4dede65182ae838d98f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i836.jsonl.gz",
+      "bytes": 422554,
+      "sha256": "ed5b982c2fb52a65592160e41548fabfd7df9f459e4472c50df5d39cdd6cf043"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i846.jsonl.gz",
+      "bytes": 336449,
+      "sha256": "873195fc7b50d97460b4bc4db5ce8e2ae53a74cc8bee96b4eebc4c9b511828eb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i855.jsonl.gz",
+      "bytes": 414896,
+      "sha256": "4a7716b1f04c8c2f42cde8237dc43e5b50f1cde7d981d41ebb164ed9876a15a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i9.jsonl.gz",
+      "bytes": 434375,
+      "sha256": "fb57959febf6a0421ab32e41a53ef4c668db6288e8450866dfc1c8d97019f1fa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i940.jsonl.gz",
+      "bytes": 453282,
+      "sha256": "18225fb8886aaced23a781fcaef224da76a6f1f3b0868fc31ec5863af58b26b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i949.jsonl.gz",
+      "bytes": 432074,
+      "sha256": "6e6f48239a4b5634c26a8917d3b4e290c84341e6169720800a870adbf1e70bdf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i958.jsonl.gz",
+      "bytes": 419204,
+      "sha256": "8594d127e63c83a3e681cc481d6c64eeaf722acf263a415fa897a1a62887b7bf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i967.jsonl.gz",
+      "bytes": 451490,
+      "sha256": "7680b9fb7ba91faddc0e8dc84c83ea81704d3e3c27b7c4ca23a56dc385c00506"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i976.jsonl.gz",
+      "bytes": 455095,
+      "sha256": "9a183c1fdbbbef2cd53b2b9ac23a2d9d24c8705a9057d84fadcca938d8062ffa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i985.jsonl.gz",
+      "bytes": 438077,
+      "sha256": "79ac5a3d85a2cd1a58e9b381dbc78dad55360c2e5a7ab287345f74de026d2b58"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o5_i995.jsonl.gz",
+      "bytes": 433655,
+      "sha256": "8c935c7040b01cea43fcea4f6f8036ecc3dc9c337609a559c67c78dbfe68a39d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i0.jsonl.gz",
+      "bytes": 715530,
+      "sha256": "f807ed8868e3a4562299e94e2c69c9318f748b10cc524a293f5cc8f7542594a6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1005.jsonl.gz",
+      "bytes": 795468,
+      "sha256": "d6f7a1dc7f2cbc5113d61dd480885aa56b7ff12833627870836d7d0eb6dc54e8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1016.jsonl.gz",
+      "bytes": 858341,
+      "sha256": "4bfe52740d86bc9ae3da2210a653ca09de59d45040a1b8efa43fca069998c7c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1052.jsonl.gz",
+      "bytes": 863548,
+      "sha256": "23469ae46b0797c5c237d2e3d9ede005ca4d2027e65fd5c7afbb5f5662d35c68"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1080.jsonl.gz",
+      "bytes": 733986,
+      "sha256": "99fba4e4e62213d2bd9ddd8caa699316fc72a0c4f6b3d8c13dc7b071ce2c0c4b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1108.jsonl.gz",
+      "bytes": 882003,
+      "sha256": "23c1bd02ffeb221dd5229476b966952b5ef17d6b0faef43a5d22518f974829a8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1145.jsonl.gz",
+      "bytes": 870477,
+      "sha256": "f4b3029702425d0308feab9cee4caf1a8643dda26847cbc35ee3a7efecac5f82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i12.jsonl.gz",
+      "bytes": 827151,
+      "sha256": "530f5b9cd7ee964e14f7f275ec961e66b5231ab6ca8b4437db6c1aa3baae939e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1228.jsonl.gz",
+      "bytes": 828829,
+      "sha256": "f1ba96b40beba361a1e725cb525e7f195a0e62401a6c88ff606f748acccf20db"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1237.jsonl.gz",
+      "bytes": 834376,
+      "sha256": "a7b101747cb66094c09b8c98cf79f39fb6b746017726f85da39d022d1a938458"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1243.jsonl.gz",
+      "bytes": 737348,
+      "sha256": "489a4c1fbf930f1c8ce90ccee78f57bac072f4f9315e01e9c4b3f07a708769d7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1249.jsonl.gz",
+      "bytes": 872096,
+      "sha256": "106ae89cc896058c42d07fbdeaebb78c11e70f7d9a42a4ac5942ebdc5d207688"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1256.jsonl.gz",
+      "bytes": 826064,
+      "sha256": "7e2ffad949c6548e3f14b4529d151faf62c7d3bb71010e979fff25a85cc1a7ff"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1264.jsonl.gz",
+      "bytes": 831266,
+      "sha256": "12a2d50a6ebde0b5e0aa4ef794678e778d8741dcd24b689f298d51643d3267d5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1273.jsonl.gz",
+      "bytes": 835983,
+      "sha256": "8f24c1ca70b895a735a7560aba2cccc9fc73a2b0ef399291d18ffe0c4638d5df"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1279.jsonl.gz",
+      "bytes": 734340,
+      "sha256": "44d31086a65e20fd2c1af9c983cddce1ae89eccb5b76e4a68174bacfbc987493"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1285.jsonl.gz",
+      "bytes": 872989,
+      "sha256": "44e9322d4d2457f4f60e2bb9f8f28eb6524450302266e0ee5b831607ab3fc1c1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i1293.jsonl.gz",
+      "bytes": 805794,
+      "sha256": "25d75720ed402f7aa7b8e361c35260b3d836610c50ab3a2ae6b199cc3a979a6f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i177.jsonl.gz",
+      "bytes": 817153,
+      "sha256": "ace8044b31a38792b22f8cfc531406ffb0a04f11740d731df970c20dac842730"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i21.jsonl.gz",
+      "bytes": 811910,
+      "sha256": "27062266361751acb542366920d78d29deb4c5eab2504b7de3c06f7b7f43e516"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i213.jsonl.gz",
+      "bytes": 820153,
+      "sha256": "fef99fac69b0a62b7ee0973028b412dcb6abf97a8d6bbf730b41b8f713041834"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i233.jsonl.gz",
+      "bytes": 699108,
+      "sha256": "3bc307175271bd288261407bba255770e13d98919355c2b429ae37a5e5e9fa27"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i239.jsonl.gz",
+      "bytes": 808648,
+      "sha256": "ed7d822f9ee204ff32c426971e2eb9e67862df842d8fb3bb07517f5241b810ef"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i269.jsonl.gz",
+      "bytes": 703871,
+      "sha256": "db948b811094fcc52d070385d383a8e9ea2d4dc6d6b65a0dc77a0f499b088136"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i275.jsonl.gz",
+      "bytes": 811225,
+      "sha256": "038f150811552abb4c525a4b3f0f4040ed409cb36bc902520a93009c60dd4212"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i288.jsonl.gz",
+      "bytes": 744622,
+      "sha256": "3309d493d93d814d51fe660ee4b45d99f4721f5ebe2b729e1a007bec5bdeba24"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i29.jsonl.gz",
+      "bytes": 847650,
+      "sha256": "8c1571f56ad6b772355732703ee30fc4ad56d82976a71118b6e10b5e0a8c4f7e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i296.jsonl.gz",
+      "bytes": 817908,
+      "sha256": "8da4470cae1e7edc9bb0db21757a9dbb21e237009ba89d44ebf64f623c7d7842"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i316.jsonl.gz",
+      "bytes": 811819,
+      "sha256": "7ca02ec4b9aea4ab1206f965e9234a0399347f0c91fe23b439bb725ffb2302a7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i324.jsonl.gz",
+      "bytes": 739781,
+      "sha256": "2073421366941196ace4bdde41226d0f5f2a9a2e0eefef538f4f3781354a9838"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i332.jsonl.gz",
+      "bytes": 814170,
+      "sha256": "65a4d03432bfab0bd786efcc0985019057ab359a3d40fc2f8a95b00b8715f529"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i352.jsonl.gz",
+      "bytes": 818665,
+      "sha256": "9c13a831a877519e78bfe5e85a9c9b13829ac010b0e4529327e5136c77fe194d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i36.jsonl.gz",
+      "bytes": 720211,
+      "sha256": "37a513f1e23ca0d26ae1a921f52ad3d7c4b9f6bc323cfb85dd6798b4154103b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i42.jsonl.gz",
+      "bytes": 849226,
+      "sha256": "bc057aa37b97d662487574932bdb5c437e64efe3beae372ba42982e0192e0ba2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i436.jsonl.gz",
+      "bytes": 704225,
+      "sha256": "bb8b2a231dcfe93df250704c946040a9581821f932fab4db195a3b4d9e78b611"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i445.jsonl.gz",
+      "bytes": 677022,
+      "sha256": "c8f6e20b86fa23df0899f6ee0b1cb30f8af1d70a6780cbe0ee7b90b9e4d42d0b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i456.jsonl.gz",
+      "bytes": 677702,
+      "sha256": "6f8971f056ad17fa7e825823ba82fde4edfdc4925f6d6842162503135fae2ace"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i464.jsonl.gz",
+      "bytes": 705421,
+      "sha256": "5f2d5ce79a1517f0848fc733aceb3d6a0623e5e394335c146a2a1eaf9e13106c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i472.jsonl.gz",
+      "bytes": 709419,
+      "sha256": "e3eee726a73fa052fe309c43fc8290410c4705825d5afe67dc3502392372d556"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i48.jsonl.gz",
+      "bytes": 829897,
+      "sha256": "36dc7ee2a2228d92611d6b31bfd441439a679e3a390d082a806a0b15ef288b60"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i481.jsonl.gz",
+      "bytes": 675924,
+      "sha256": "285394d50331c4f8da40d44159e4df3a4ea5f012cb9f61fa517c8537efb9e25b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i500.jsonl.gz",
+      "bytes": 716599,
+      "sha256": "e0634db0bdb75c1b915a7f697e3572aa4cccd0625ea0edc1f7e894af2f3ea5ac"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i522.jsonl.gz",
+      "bytes": 507864,
+      "sha256": "b56f1dec57e243fc99c9bf2f5e8e68d9380ceaf4cfac2f37075de97fa6b28aef"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i558.jsonl.gz",
+      "bytes": 510192,
+      "sha256": "29bfd007a133fbf637e4e512248868dd028ce7b16b74f761418662af8651896f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i57.jsonl.gz",
+      "bytes": 816465,
+      "sha256": "7ca203e1959ce4c817f4a4564df5525fbc1c84fdf4c10748a30cae9db088a2d9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i583.jsonl.gz",
+      "bytes": 595782,
+      "sha256": "61a87bfb2f3f4500eba510f953ead488edd348195d8a7d3b2b4296a23f5f4299"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i6.jsonl.gz",
+      "bytes": 853952,
+      "sha256": "d8332d48c7dd223dad585a36ab86b8aa8c87ebc659cc01a36c3c53a07e3a0e82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i602.jsonl.gz",
+      "bytes": 578394,
+      "sha256": "791abd047780fe8c2b351fac0cf44e1137bc0eb719e471f1ce7b860f17209a11"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i610.jsonl.gz",
+      "bytes": 586697,
+      "sha256": "9ff2abe233f0d172bbc647704349a879a4f050705f74db4410775e862432784b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i619.jsonl.gz",
+      "bytes": 597249,
+      "sha256": "0fac5cadaadb4d6baf386daec5c6c2a0cc5b5ea821a378f09cbf502c96213609"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i638.jsonl.gz",
+      "bytes": 579217,
+      "sha256": "9d775d5dafba1ce2aef6892beff1e4104eaba9d4c44990ca65225b9f498a101d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i646.jsonl.gz",
+      "bytes": 578776,
+      "sha256": "5d390f709a4555a4e42ebd4cc74a288f12ef457022c1fbf582ea82553b37ce92"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i65.jsonl.gz",
+      "bytes": 847685,
+      "sha256": "f8bf9112c73cf2187ce409c733f1770b1d39aeb8e8730cac568772d41d24a68a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i664.jsonl.gz",
+      "bytes": 478742,
+      "sha256": "e4d8922efc00cfb0caf7767190d2e1473502b63d2a540e0f68dd09d3b76764e1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i675.jsonl.gz",
+      "bytes": 591757,
+      "sha256": "6dbb703bf1aad32d4125a9a6fe18e37081bdf6cd5007cc37cffebb7faecc4db1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i683.jsonl.gz",
+      "bytes": 592496,
+      "sha256": "555226e360eba99671be561984bd5f9699d7d204383b6e26975e8a2a1ff2f626"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i700.jsonl.gz",
+      "bytes": 480295,
+      "sha256": "ace52dcea483cf7196c811bf113f1a9f2e9406d34295ee6c57c8ab88842bd93f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i711.jsonl.gz",
+      "bytes": 590216,
+      "sha256": "218638f1e5f0a0f780786f444ff4c7833abd9c2d40b4a47843490c8675e83ec1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i719.jsonl.gz",
+      "bytes": 585199,
+      "sha256": "a2b5fdc33a39996923369e5ace005e32e39c05f4447a0af0875d516882766e9c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i727.jsonl.gz",
+      "bytes": 656686,
+      "sha256": "825b2ef5865cf326b9e49ecf237524c9c4344553dcd6deb2555e64b182f183f8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i741.jsonl.gz",
+      "bytes": 561383,
+      "sha256": "8b601d45c5b0f891f0c1244907e6d9bbfe051a525434668b01bb0779b1ddb9d3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i763.jsonl.gz",
+      "bytes": 664344,
+      "sha256": "e459a4d77c665a8927deccdb461e09106846b35bb20ac141064e842184344806"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i777.jsonl.gz",
+      "bytes": 563973,
+      "sha256": "d40a5a61790b0be26f86e3c49a1fba5c3d33ce8f1cbf282dd7dc7b9a89fb2e7c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i805.jsonl.gz",
+      "bytes": 672729,
+      "sha256": "d51d304d01a4f723b6f3b26fbb3b1690511446311de85bc6b5e7981c6d8888b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i841.jsonl.gz",
+      "bytes": 678591,
+      "sha256": "857a69faf10ff007b2dc7440b30ee2b680bb676e9c1a228b4a92d8b631391cdf"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i866.jsonl.gz",
+      "bytes": 748764,
+      "sha256": "8c2984a02cdb6602203cff707ed9e866e7d94a831361ba4be60a1752969c004b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i953.jsonl.gz",
+      "bytes": 669692,
+      "sha256": "3f264f32ed0d8c98090b8483f3859654243df377526ad180be32c06f70a0156a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i961.jsonl.gz",
+      "bytes": 814856,
+      "sha256": "ba3624f81d9231850333d5e05723417394af37b6e53b37d3f8f2cb23fc577bb1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i969.jsonl.gz",
+      "bytes": 791780,
+      "sha256": "514e5b81de7149d16ae15d5fb204dc2646b0ce72731680a2bf32fc49e34a2b42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i975.jsonl.gz",
+      "bytes": 802798,
+      "sha256": "3397fa57f659a99086c70de428cdba0f1638a5575ed7cebb334567a06d17baed"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i989.jsonl.gz",
+      "bytes": 674792,
+      "sha256": "cecfceb888875771bf836aed5f953df554e6015340287204f324df1ffb3f8ffa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\maps_o8_i997.jsonl.gz",
+      "bytes": 811916,
+      "sha256": "f684f4ee0ef9652cdf736ed9b888e0f48b0105a1a4ef74b9cf61716b3ba1e507"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native\\mask_reads.csv",
+      "bytes": 36556,
+      "sha256": "3a13feba46356ce42d216bc11baa0bdee7ddec48c97f5243b80b509b89fa7ded"
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\reservation.json",
+      "bytes": 523,
+      "sha256": "77081c02c93a5c4eccb4e60b415ef437eb5f89460dae9a0a90502ab18bfd93c4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "summary": {
+    "passed": true,
+    "training_mask_imread_calls": 432,
+    "poses": 20736,
+    "class_bank_loads": 18,
+    "feature_rows": 2905834,
+    "peak_rss_bytes": 127086592,
+    "matcher_calls": 0,
+    "addTemplate_calls": 0,
+    "gradient_extraction_calls": 0,
+    "rgb_image_decodes": 0,
+    "development_image_decodes": 0,
+    "heldout_image_decodes": 0
+  },
+  "independent_pixel_generation_verified": false,
+  "limitation": "Native warp/pyrDown outputs await numeric pack replay and literal native geometry fixtures"
+}

@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\audit_numeric.py",
+      "bytes": 24115,
+      "sha256": "d1b314c714b81acad324dab38bf00ac327e0701ba26ab9b57507b11d82f6f8bd"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\bank_reader.py",
+      "bytes": 3670,
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\build_observer.py",
+      "bytes": 4282,
+      "sha256": "cd30165fd2e886159a892bb758383797dfeb994252fafe60bb269041aca72459"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\independent_numeric.py",
+      "bytes": 6851,
+      "sha256": "569c60dbf462d860e4a55e9e3a28a0f9e49f2040a0e813181980233da521f874"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\input_contract.py",
+      "bytes": 2647,
+      "sha256": "b8a554bf5a0b4ca85afed16949ab429a417e4195b030108cd20389a1ababd368"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\native_provenance.py",
+      "bytes": 6345,
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\prepare_inputs.py",
+      "bytes": 11373,
+      "sha256": "3fd094cebd19b65dbd8cd6b60fa86b93fc5f9831fb9c66bff2eb9d970d68e77f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer.py",
+      "bytes": 5550,
+      "sha256": "da6e1550af731abc5ac1ace7a006689c6e12f88a1e1c107c0867232251c43ed4"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_selftest.py",
+      "bytes": 1829,
+      "sha256": "9fc6df73e72eeeb61e6e7dac94ae7eea6e07a0882df0d2f507b264b8301a7e4c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\static_check.py",
+      "bytes": 2450,
+      "sha256": "6d89da3e0aba3407962b331fca6667c05e20c3b6db03b4008ed8600beb153a3e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\test_input_contract.py",
+      "bytes": 1746,
+      "sha256": "9dbf638a4ae28af16f313c9f9740dd2b7e79db6199a32c952985de50f5fa66d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\test_numeric.py",
+      "bytes": 5679,
+      "sha256": "2f9754ea9d87c3e3489c4c8ac7266fa65434d58793038c25209ac403bb2e5829"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\test_prepare.py",
+      "bytes": 1850,
+      "sha256": "d936ed9737ef2b45546d32ae92262c3345f8933d4092a051cd831aa27a4d6b7e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\test_quality_replay.py",
+      "bytes": 1956,
+      "sha256": "044198faeacf25d86abb852bcf78b1a9b5cd7536eee6c5aa57b5458ce98bf6e6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\verify_selftest.py",
+      "bytes": 3426,
+      "sha256": "9943c1db0281f5bb3d7045b89a5647cc5e6732f46926bd94fa447187d217b1c2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\observer.cpp",
+      "bytes": 13761,
+      "sha256": "dec073df46d7258f5aa236e1d81c1913ee055b9c2347f195b1e97c3b65e67f41"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\DESIGN.md",
+      "bytes": 15031,
+      "sha256": "c68320fec1a818edcf268fc5ec2c082ac216e175c0402d1a99bbd27a37c65e77"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\PROTOCOL.json",
+      "bytes": 124525,
+      "sha256": "e53932033a1460a89d6462b37b3aa863c39d4b29917cefbc3de332dceacbaa88"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\README.md",
+      "bytes": 4468,
+      "sha256": "d23d811bd5ae90e4e7c7543589695b75808292225ea8a9e3e7af575bbd8b0aac"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\IMPLEMENTATION_PLAN.md",
+      "bytes": 2219,
+      "sha256": "67a11ed747b35081095b0844be8f326bfb755ef7a4d8d92b612dfce4d1938970"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\ORIGINS.json",
+      "bytes": 782,
+      "sha256": "66a3f679a72ab63e1b291b48b097e6d2a6fcd0879a983c33331448029aaeeac8"
+    }
+  ],
+  "python_ast_checked": true,
+  "source_contract_only": true,
+  "image_bytes_opened": 0,
+  "bank_bytes_opened": 0,
+  "native_builds": 0,
+  "native_runs": 0,
+  "matcher_calls": 0,
+  "limitation": "Literal source contracts and Python syntax are not C++ compilation, pixel replay or dataset execution evidence"
+}

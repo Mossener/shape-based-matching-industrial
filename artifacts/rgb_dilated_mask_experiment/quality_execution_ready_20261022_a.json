@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "review_pin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_dilated_mask_training_v1\\quality_source_review_v1_pins.json",
+    "sha256": "98d31e9d6f4f9b4b8fbb0f24fdb38d28d202d22d116504a8faa831b576259c24",
+    "bytes": 10549
+  },
+  "quality_source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\prepare_quality_inputs.py",
+      "sha256": "6d8e66597ce854ccdb7dceafe862cffc31d6ab60d814c7208b079b4581dc7bab",
+      "bytes": 5156
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\quality_eval.cpp",
+      "sha256": "4d88c28887a8cba26b58d56fc02c8364de34c1eb6b946ead5901f7f12e5c515f",
+      "bytes": 17844
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\quality_support.hpp",
+      "sha256": "4400541896c9c46b7d31c333c996e2955492ca2d7b59964b7442a1759a313adc",
+      "bytes": 10802
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_quality.py",
+      "sha256": "997724089d1814f0442c87ed2d56acc11ec2fa065f317c5330bb46f3055aa0a3",
+      "bytes": 6644
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality.py",
+      "sha256": "564f1ee60a0967d925275574011b567b8adc7600416566a7d3cebfda47f328f8",
+      "bytes": 9518
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\quality_contract.py",
+      "sha256": "daf56c7a9dbbc050dcfc7e2aa03297736542d01ca6571fe0b0df7ce05f600a52",
+      "bytes": 1719
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\quality_execution_inputs.py",
+      "sha256": "898a6dcdbee3d80eb0511b69da92056d1eeb11d6877b11ba0861ff6f238b8fa0",
+      "bytes": 4753
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\source_contract.py",
+      "sha256": "b65b5972a914cd1f0b657390fd3ab1f140e5b127bb6cfd7fb04e25d9309db6c5",
+      "bytes": 2409
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\prepare_input_closure.py",
+      "sha256": "e647b78fa3671cd074126b0296c2ef803653d99032f59fe21e6abead47993bd8",
+      "bytes": 2200
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\freeze_private_sources.py",
+      "sha256": "10d839330886f4d80e5db66b3b57a3dc67383b1fdce13886827d2e8c2708b567",
+      "bytes": 6317
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PROTOCOL.json",
+      "sha256": "ee313755ba5fad4311e7f2d80ffcb0fc1277c878cf1735a0d1a92b0b99635b6f",
+      "bytes": 6853
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\PRIVATE_SOURCE_FREEZE.json",
+      "sha256": "6187aac5c1ca1b49b0398770ef37740014c0c734bc7102771662a1f2761143d7",
+      "bytes": 8699
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\tless_eval.cpp",
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef",
+      "bytes": 37373
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\frozen_helpers\\eval_metrics.hpp",
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3",
+      "bytes": 4985
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\private_v11\\line2Dup.cpp",
+      "sha256": "0cc2f52aa92786c80e3dc90d09e6979e01874435dacbd73b562dc9b90d27dab6",
+      "bytes": 63389
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\control_v11\\line2Dup.cpp",
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    }
+  ],
+  "quality_input_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "9659c119fa7c64dbd673d49397cc0b7dc86ef573aa4530a329fbc4da52f1ace6",
+    "bytes": 118808
+  },
+  "audit_acceptance": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\AUDIT_ACCEPTANCE.json",
+    "sha256": "6ec50b653757070cb5135d6068b2dfa78d48d054de18e5496da4864ae0f642d2",
+    "bytes": 1331
+  },
+  "numeric_pins_checked": 6,
+  "prepared_commands": [
+    "python -B artifacts/rgb_dilated_mask_experiment/build_quality.py --output artifacts/rgb_dilated_mask_experiment/build_quality_v1 --cpu-slot-granted",
+    "python -B artifacts/rgb_dilated_mask_experiment/run_quality.py --mode selftest --build-manifest artifacts/rgb_dilated_mask_experiment/build_quality_v1/build_manifest.json --output artifacts/rgb_dilated_mask_experiment/run_quality_selftest_v1 --cpu-slot-granted"
+  ],
+  "fresh_output_directories_confirmed": true,
+  "native_compilations": 0,
+  "native_runs": 0,
+  "matcher_calls": 0,
+  "image_decodes": 0,
+  "real_bank_byte_reads": 0,
+  "scope": "source and declaration pin checks only; root grant still required before actual build/selftest"
+}

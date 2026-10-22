@@ -1,0 +1,13 @@
+{
+  "stage": "development",
+  "run": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_development_v1",
+  "maximum_calls": 9600,
+  "previous_stage": "pilot",
+  "previous_freeze": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_pilot_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "aabd03449a753a0f9988249a1c872898319411db61e634f801bb807592d1b066",
+    "bytes": 135950
+  },
+  "total_protocol_maximum": 22176,
+  "policy": "One attempt per fixed stage; reservation survives failure; missing frames are never negatives"
+}

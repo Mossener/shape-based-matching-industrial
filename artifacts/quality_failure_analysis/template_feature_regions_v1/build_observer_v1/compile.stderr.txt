@@ -1,0 +1,11 @@
+D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\observer.cpp:6:9: warning: 'NOMINMAX' redefined
+    6 | #define NOMINMAX
+      |         ^~~~~~~~
+In file included from F:/mysys2/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h:727,
+                 from F:/mysys2/ucrt64/include/c++/15.1.0/limits:49,
+                 from D:\opencv-4.12.0\modules\core\include/opencv2/core/cvdef.h:185,
+                 from D:\opencv-4.12.0\modules\core\include/opencv2/core.hpp:52,
+                 from D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\observer.cpp:2:
+F:/mysys2/ucrt64/include/c++/15.1.0/x86_64-w64-mingw32/bits/os_defines.h:45:9: note: this is the location of the previous definition
+   45 | #define NOMINMAX 1
+      |         ^~~~~~~~

@@ -1,0 +1,16 @@
+{
+    "scene_id": 10,
+    "image_id": 13,
+    "rgb": "test_primesense/000010/rgb/000013.png",
+    "variant": "fused",
+    "class_id": "tless_object_2",
+    "class_ids": [
+        "tless_object_2"
+    ],
+    "raw_candidate_count": 52,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/rgb_dilated_mask_experiment/run_quality_development_v1/native/obj2/rgb_control/s10_i13_fused_raw.csv.gz",
+    "compressed_bytes": 1257.0,
+    "uncompressed_bytes": 4347.0,
+    "zlib_version": "1.3.1"
+}

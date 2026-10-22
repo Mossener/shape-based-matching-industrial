@@ -1,0 +1,126 @@
+test_explicit_training_mask_path_no_byte_access (test_input_contract.InputBoundaryTests.test_explicit_training_mask_path_no_byte_access) ... ERROR
+test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) ... 
+  test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'object_id': 25}) ... FAIL
+  test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': 'test_primesense/000011/rgb/000000.png'}) ... FAIL
+  test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': 'train_primesense/000001/rgb/000000.png'}) ... FAIL
+  test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': '../outside.png'}) ... FAIL
+test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) ... FAIL
+test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) ... 
+  test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='datasets/a.png') ... FAIL
+  test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='datasets/a.jpg') ... FAIL
+  test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='artifacts/a.SMD') ... FAIL
+  test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='../escape.json') ... FAIL
+  test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='artifacts/a.exe') ... FAIL
+test_only_explicit_numeric_extensions (test_input_contract.InputBoundaryTests.test_only_explicit_numeric_extensions) ... FAIL
+
+======================================================================
+ERROR: test_explicit_training_mask_path_no_byte_access (test_input_contract.InputBoundaryTests.test_explicit_training_mask_path_no_byte_access)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 27, in test_explicit_training_mask_path_no_byte_access
+    self.assertEqual(out[0]['path'],str((root/q['path']).resolve()))
+                     ~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+======================================================================
+FAIL: test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'object_id': 25})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 21, in test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal
+    with self.subTest(changes=changes),self.assertRaises(ValueError):c.validate_masks([dict(base,**changes)],root,[1,2,5,8,12,17])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': 'test_primesense/000011/rgb/000000.png'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 21, in test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal
+    with self.subTest(changes=changes),self.assertRaises(ValueError):c.validate_masks([dict(base,**changes)],root,[1,2,5,8,12,17])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': 'train_primesense/000001/rgb/000000.png'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 21, in test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal
+    with self.subTest(changes=changes),self.assertRaises(ValueError):c.validate_masks([dict(base,**changes)],root,[1,2,5,8,12,17])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal) (changes={'path': '../outside.png'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 21, in test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal
+    with self.subTest(changes=changes),self.assertRaises(ValueError):c.validate_masks([dict(base,**changes)],root,[1,2,5,8,12,17])
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal (test_input_contract.InputBoundaryTests.test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 22, in test_mask_allowlist_rejects_reserved_heldout_rgb_duplicate_and_traversal
+    with self.assertRaises(ValueError):c.validate_masks([base,base],root,[1])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='datasets/a.png')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 10, in test_numeric_paths_reject_images_private_and_escape_before_io
+    with self.subTest(path=p),self.assertRaises(ValueError):c.numeric_path(root/p,root)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='datasets/a.jpg')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 10, in test_numeric_paths_reject_images_private_and_escape_before_io
+    with self.subTest(path=p),self.assertRaises(ValueError):c.numeric_path(root/p,root)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='artifacts/a.SMD')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 10, in test_numeric_paths_reject_images_private_and_escape_before_io
+    with self.subTest(path=p),self.assertRaises(ValueError):c.numeric_path(root/p,root)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='../escape.json')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 10, in test_numeric_paths_reject_images_private_and_escape_before_io
+    with self.subTest(path=p),self.assertRaises(ValueError):c.numeric_path(root/p,root)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_numeric_paths_reject_images_private_and_escape_before_io (test_input_contract.InputBoundaryTests.test_numeric_paths_reject_images_private_and_escape_before_io) (path='artifacts/a.exe')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 10, in test_numeric_paths_reject_images_private_and_escape_before_io
+    with self.subTest(path=p),self.assertRaises(ValueError):c.numeric_path(root/p,root)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_only_explicit_numeric_extensions (test_input_contract.InputBoundaryTests.test_only_explicit_numeric_extensions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\template_feature_regions_v1\test_input_contract.py", line 14, in test_only_explicit_numeric_extensions
+    self.assertEqual(c.numeric_path(root/'artifacts/bank.yml.gz',root),(root/'artifacts/bank.yml.gz').resolve())
+AssertionError: None != WindowsPath('D:/h/shape_based_matching-master/artifacts/bank.yml.gz')
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.008s
+
+FAILED (failures=11, errors=1)

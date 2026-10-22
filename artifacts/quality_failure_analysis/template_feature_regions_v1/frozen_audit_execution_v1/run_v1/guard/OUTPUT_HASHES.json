@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "total_bytes": 161697553,
+  "file_count": 13,
+  "files": [
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\all_gt_usage.csv",
+      "bytes": 1011539,
+      "sha256": "4edf1124fbf8363af0f06c073cc6dceb92ed6104973edc007a95f75bddd75de9"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\attempt_layers.csv",
+      "bytes": 10635152,
+      "sha256": "951fe68ea05e891bc3ae286cc697c31a65b02c84c3ea9fd0afe94bfbd3797396"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\features.csv.gz",
+      "bytes": 49479215,
+      "sha256": "73a0dd98eb6ce2248fdce698d3fef711fe7549dbdeee9f52580e52991bb556ac"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\raw_template_usage.csv",
+      "bytes": 2704789,
+      "sha256": "9d07461d4a1fa8804064db2e65d62a913d5a92bc9e8ab77fc7d6812db5f8942f"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\summary.json",
+      "bytes": 1075711,
+      "sha256": "e2164f8f17bdbfc811ca0e6a1cb58ec0a64125cdfef46f7b24ece404dedb5fc6"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\template_layers.csv",
+      "bytes": 91064499,
+      "sha256": "8c3fd8b67bd7e4b4afac3a0532eeb253d8da7a30e9978a6958a30e30fd250501"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\audit\\usage_events.csv.gz",
+      "bytes": 5454922,
+      "sha256": "368f390a908d0880d8bacfa20c4fa3efa2f57cc1003bf4f09e285d989e71af2e"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\latest.json",
+      "bytes": 251,
+      "sha256": "7cfd18348338d841858eb008601074bd87389c86f85bf5bfffe0d9cc481180e5"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\receipt.json",
+      "bytes": 1851,
+      "sha256": "19777908d397f7fc41d45a731f3f335eed5db8e5edaea64d87009a69b0d02e40"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\reservation.json",
+      "bytes": 1347,
+      "sha256": "90add50395f3ec6b057de95e75d283fc5ad6307e8a157c9f4440eb996c67968c"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\stdout.txt",
+      "bytes": 193,
+      "sha256": "57e1a77a1c3b0f775eba8cf0df7c8d8a3a93dcbfecc01e8f61892a936cc954ee"
+    },
+    {
+      "path": "artifacts\\quality_failure_analysis\\template_feature_regions_v1\\frozen_audit_execution_v1\\run_v1\\guard\\telemetry.jsonl",
+      "bytes": 268084,
+      "sha256": "954ea3bc80ffae7905c9d8e8e5629d7e18449b74d54e994b6d27834f52e67290"
+    }
+  ]
+}

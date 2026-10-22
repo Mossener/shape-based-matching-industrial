@@ -1,0 +1,1 @@
+{"passed":true,"training_mask_imread_calls":432,"poses":20736,"class_bank_loads":18,"feature_rows":2905834,"peak_rss_bytes":127086592,"matcher_calls":0,"addTemplate_calls":0,"gradient_extraction_calls":0,"rgb_image_decodes":0,"development_image_decodes":0,"heldout_image_decodes":0}

@@ -1,0 +1,1403 @@
+{
+  "stage": "old_gate",
+  "completed": true,
+  "native_exit_code": 0,
+  "actual_matcher_calls": 96.0,
+  "maximum_matcher_calls": 96,
+  "build_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\build_quality_v1\\build_manifest.json",
+    "sha256": "a0bcffb63dcfcff7f02dc3c542ba7de6c2279b4f5338d4347543c6a076053b2e",
+    "bytes": 256095
+  },
+  "quality_inputs": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+    "sha256": "9659c119fa7c64dbd673d49397cc0b7dc86ef573aa4530a329fbc4da52f1ace6",
+    "bytes": 118808
+  },
+  "selftest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+    "sha256": "3904fb47403612a6779c7a8ed31b22259ae07c96a0ba850bcd1b6c6610706a27",
+    "bytes": 3755
+  },
+  "previous_stage": null,
+  "reservation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\quality_stage_reservations\\old_gate.json",
+    "sha256": "47c6e72510d7ab33670076494bf176b59a2d7c35a7cf5050c48630c350bd3ca3",
+    "bytes": 367
+  },
+  "files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\bank_load_timings.csv",
+      "sha256": "abf866f92d1e81772f8729144589ac3fa77e8630c9c27fd5c5b850692b0b814b",
+      "bytes": 361
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\candidate_equality.csv",
+      "sha256": "631335e69bb9fc7cc12e63bfbf38260e769320332c6f11235b0f313c8530e2f3",
+      "bytes": 4583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\ground_truth.csv",
+      "sha256": "270e1b3980bedcd74fcc566e96319fc82aaffe9d759042b2b507714ed648775f",
+      "bytes": 553
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\gt_retention.csv",
+      "sha256": "b4026210ec0723fabec612abfeb53191ab4cd4a91dd39b7b2877d4157439443f",
+      "bytes": 101
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\metrics.json",
+      "sha256": "0999f8ece827f5ee7b5aa8a0dfb5fef809bd8cbe09728caa78dc558881d904d4",
+      "bytes": 9581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "f82380ad67de5582be76af539580aa1befafd3f1c938b6ee08106d01f9e36f3c",
+      "bytes": 663
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "4f0965c38ea574c26a9348c3e5c1f7c65e970e0e6345eeb5d9f9a317eac94afd",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "92cf71cf48f7b510a15d7e8ec4979e180953ab99548d5257bb63889f07d1a4a0",
+      "bytes": 659
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "a975020a5d90b365a6508afc2b9b7d5896f67f0ca3849bfd6a7feee54fbe3da6",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "1c1e90d98d20f1dfe0c356428050ba9f6ff4774dc3649c3721a5231abd397b96",
+      "bytes": 16027
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "c92d0e5fe4f92b5f0d86d8208ff8af72934262dc9795529971214adf5b2b233a",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "3485b1be48635412022b31079bbb4992af2f1c628e9c98c6de88a25a54ffdc8a",
+      "bytes": 15978
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "8ddfd389fd0b1586228148a1cde0aee47c2b60955cb2b6bda9de72e291af4446",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "5b540858be65d6e5d44cc7ed1ace846ddeaa9a1bc4c2bedee0b911a446310f6a",
+      "bytes": 541
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "e16f66ccf8b3a8c7dc1c8dd5e3b735db06e36102a6cff13e3e1913b8761b7ebe",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "f1fd000ea99bf67a7589f65cbf1b7e5b05a16a9d108767568d107f00797884cd",
+      "bytes": 535
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "d83a9d0e2f733153f52a2dd0001a1c68de1f04b4437bbedd88aa64403271e2f8",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "83a68b9d0e4e460a0d5eb95a9372ab9871a169bf4e5d0906271d24fe858c9f0f",
+      "bytes": 1240
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "a43221cfa39bd729ad1f9d079ec3f82cf3877855b8e28d15fe7c0ef05be8f93d",
+      "bytes": 587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "0a89edd4675bfdb60714a6478b93576bc2853f142c3fabcb011990cbd1785a29",
+      "bytes": 1235
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "e74eb293c80a63e4e7f7955a3d679d74bb5e700461217257578061c2fc7ac6e4",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "bcdf423faa3dde0bad12e9d5a79a34edf40277bbd4dc278efef905e5fbee73f0",
+      "bytes": 5077
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "e599ee37340edb68a688c1f5f32b66157f9ccec769406ea7f880bb783889ae3a",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "de96f4db1c5ed775d632a94faec47ae52382e8d2a694d6ba765430e1462d3936",
+      "bytes": 5060
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "ce35b9485747581c47165ce7737f9ef723b911e3ef3d63d16575dba231f16322",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "3eeeee755a6445672b4888c03c076a766076f3b6efdac233877641c8b90a42d9",
+      "bytes": 4236
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "5679f4b86a66d1ddba95080601eb096505aedc573d0a7d48192cbf480ba190eb",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "1cf761e47756d125aa3d18f619632ffe3d3bad8786b6e991efe5ff6a68f1f552",
+      "bytes": 4220
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "3f7246a39ed990cdfcc0499c4322644b6f5317843aef7b1d1b52575c053f5840",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "b2969229a1b1ced53607ab543aab1c2a6bcaca8c15349a26871718958bfb8361",
+      "bytes": 14351
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "7432f2b59e93619f4c9e93df2810a87b4f4326514d6b6a40953d80dee62a1680",
+      "bytes": 590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "178ac8c1807ea0a89d8754739ba8ccfa4b0fe38e109dc9cb87394ee1536c35c3",
+      "bytes": 14290
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "1f4cdf9166e1804e3c08c1c106e7effbd46bb5b45fea2f348c6adb420eaca451",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "e482b6f2f711182e773cce9546a96e6296fb2387fe44142bad8c79dca39517c3",
+      "bytes": 630
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "01a4878922fd3f9f74440916a7810f84a3062789aec38bf3fec33fe84f4c554f",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "e9bc617bb03e7cc1ebcd83da20d029c167288673103d4d5d28667a607416d8e5",
+      "bytes": 624
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj1\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "1e814548ca4d3850e6d76c42602250f3159a426a7fd4ec656c4f5ba931401175",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\metrics.json",
+      "sha256": "eaa3451f06fbf1990e1daea0621281eee6f0fc98d5a7fc991296a0081c3db096",
+      "bytes": 9544
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "d0d2c581a7db5da6c90ad9f918a325ff507870ef9aa5a55b989fc0b9d4876a48",
+      "bytes": 752
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "b1433330c5ca93936682a92a66e6ef97ec5091101f4acacbd6321c6df51fc105",
+      "bytes": 591
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "8906ef1e83e48ad7e0b5e93d242d144730a0e1ca9a05d9fc30f3a2c13020b8de",
+      "bytes": 747
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "88c7fe61c43bb4466e63ab51ea41df36b4bee923eb21dba6a0d874ee875dc430",
+      "bytes": 585
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "9d48e101b86c79cb6e3ccc166e8d8af998e03ba0d06d71b4f34c9bb8ae69cd77",
+      "bytes": 6538
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "23de695976d5709382cc69793eb8571f637e26abea5398e2f3cfba4138862952",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "b1f826bb15c20e14f720ecc75ea70f0dee9e2516b87d407e22dc5bd43637c525",
+      "bytes": 6519
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "658026ecaf6eae696cc4cb98af14996e197b83b01fef45cd78f3c04150b38455",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "d2291ec9e42f0087e278254f56ec39934b8c0102aed15346dbe71f7d01abacac",
+      "bytes": 252
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "b7b837dd67751170744c90fff17588d4bc3e7f59f66f568fb99b595ae1ef290a",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "1d7f4d8b67c631666e4816e5b5f806d34ca1ff1fc3350880bab96875d682031f",
+      "bytes": 250
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "cea462ae8d9a85a70d96c0aca69bdf8d714bc34ec10c2d0039b3b2ce2caded59",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "d87ad85581d5bc6f33763fd24d4c235d8a0a08480921c8680f06c3060ee682e7",
+      "bytes": 315
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "3b84835e8bd7306a139a006fa576f5df2dcd6b6c968f1e90e07158d3fdbb6d42",
+      "bytes": 587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "d164f86e2a4c5a42f7c4e81bbac232a3dbea07f5ef7f57f694ce06b6972c01c0",
+      "bytes": 310
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "0de40ad00b5504c9fb2eb984e4844ebd8be762079c29883ecd1c7e7104241eff",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "92a1b512c29807f866dc34be5aa2059d0f17273fff0991e683f6e6d508ed248f",
+      "bytes": 2341
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "da95c871c00e2d332eccd3ceb57e530f8b7be26bdf93253a603953967b526a8d",
+      "bytes": 590
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "c5a1ad3dcafe93623314ab0e2438d14d430f826c418098f5d51d1b1d389d3cec",
+      "bytes": 2330
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "f7bed6d68cace6bb366395208731dfaec40914f67dc3d1afda2c69dc85579e81",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "a961c7bc848bf7ca107b8ba020a19e513ea3699b355dd18574de355a6fa11a48",
+      "bytes": 2902
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "bd6a29ab75ee5caab72e3d4a19df98dfebbdd072709acf73468635eabcfe10f3",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "8e8d5ef17ee4f106aeeda9912dad8ba279162ae74c23ccdb00de999bf73eb646",
+      "bytes": 2885
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "f2cad25945208989ea0115f6142cb2c8382c3226436fac3cee49a453fd342e1e",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "907baa2359951410cffbcffe10396846a1c7b31dc5d773743fbaf7e07836260a",
+      "bytes": 4205
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "46d3cd79e9102198ef3538ed483bb29a7509289fc11c2e2c5d17f68c6c58d84e",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "d230e2964160e945e3bed3b27452b4582258be5cf4c5cd132cd2dbfe5048b639",
+      "bytes": 4186
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "66da1b3cf2756ac151d0d4f53f91d66a9da891d0131d019916ba14ec1fd37953",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "2213e0d90587be1f3d43f2181cbf6e9a9d20e5129548de6044248ea314ab5584",
+      "bytes": 301
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "7ed67e45123c44590d47df680f063067873b72a06957373ef9ef6241d24ad125",
+      "bytes": 587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "4754db26f66cd433140b84eb3df45bbea7a42d4f31e1214c9bf4b0c75c1f1b68",
+      "bytes": 298
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj12\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "b438cd897e9dfe485fd5c78376a5d8070ac277ba08fded7cb3b02f6d30eddcf5",
+      "bytes": 581
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\metrics.json",
+      "sha256": "ebe79a52b4027f8ded477b221af2d2c85d7521b4505466e91d8ecf6ee597685f",
+      "bytes": 9603
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "e73d334623babd6577e9436d2f3aed4a9d4e5aa736b5d1a3f89176e319540fc4",
+      "bytes": 7414
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "8ae210b03babaac259cf51b4e38183bad4284c73b6ec803bf8321d68e786867d",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "8c08a7c7a8d333e335d6237d49b15b4e6b784eac3ed415445c33a9751af90778",
+      "bytes": 7396
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "c5c591e1c31498da43c8e0c0d652bea3be3199bf526714e87d776e89ff7948ab",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "81bd89cde44067d65a06bca4ce1378e1a6c744b8b2ca3e3fc4fb84a06a7c50d1",
+      "bytes": 7197
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "cb50a7c244f3428fdd19befff609f221a333a671b09c83cc1a032347f34763b6",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "4e03e410330696cb97ec7c35404519643638ea3647eedf9706f119a4fa1409de",
+      "bytes": 7178
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "cde1b25cfcfe728d71fdb478666fa4cd9921afc53b68c874bc4a45811f87c19e",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "0d602933516d54ffecf462b44d651d4c826ec0fa57da2d10b2f0014756eb3e94",
+      "bytes": 4530
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "6df72fbbde261a70113be453fedb8519fabba94e3d9325df6c6421000720e3ef",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "2cff2625302b5fea4ec1f6d255566bb53dadc5f613e344b8ed98501891c5568d",
+      "bytes": 4520
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "56455b5ba7b974ddce615741d2b963f0ffe219a4157a2d5cd9a35f784576d560",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "b952b0c396d5afd26baae213474e3b8b82d8e1b6c9257b4e6a8beed397473d04",
+      "bytes": 5172
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "360e52af06e035cb96fc7dd478e718659d4827bb2106656d49ab9404e8507e23",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "7ce7861813d7fe263bc384ed9be68c760f720958879e74e96f9dd7ef9d66fe48",
+      "bytes": 5168
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "23954c0f581966c4bf3ae87b012a3c41224b09428fa6666d3993d731c8d2d16d",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "77d58d6151417e0925bbbd5af88dc781b1161a3df69d9a3309aabbe2ff64ee6e",
+      "bytes": 6112
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "8715a0d0c262a10e39fa6595c822ecd9ec265865e1655858d9fcc32a92dc4b2b",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "939dcbc6eb10f6ba52718b30d3f7989c06305bf5f64e1f1b4579c1accf771d8c",
+      "bytes": 6103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "b6fa589ce54715abc7454aee8ea281968fd80d712fd88fd55dd93b8e227cfd65",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "4b5541a8bfaf6d14f54b4073f75d5bad98c2de59c48eb901cbd51c367315d3aa",
+      "bytes": 2752
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "2f289e83e32c4d5a6b5c347b98c341867cea49e55e3055d450fc7d554728022c",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "0e1d83f6969cc4e1e6a53c6067494720f8dda7847e8401d244431bc9e9b7cbcd",
+      "bytes": 2741
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "5e38b7a3f71e83f9fbb520fd2a13b92fc86dffd4acd6c96706b9c43ab9d3e53e",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "949ea795802918888f3fa91f6217c0ab861487763089baa08387a63c8acf47cb",
+      "bytes": 6705
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "8cfe32036426c864e79b2ea77a353ca3b39510f14556736bc5fd9eb7373e15a0",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "4c3ce14aa119775fc85a1b1ec02e8f324e80e70430bf40bd61b2f9c2d1fb0290",
+      "bytes": 6694
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "2c5f9575ec915c3ff4ea6edf70d5096596fc2d35c762abd69ce8212e40deaa55",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "ccd72411dbe84ef98fe4429bcb7c08e3525c05acde2178e0c15ab05fcf5165fe",
+      "bytes": 3576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "3633485ac92f3da3c9509829e17379dcf08eff9d8ab1f20fa00da07744f58f13",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "d9d451c325e2fafec7f450208bf7c7a39b60513a8bc00cdd27d8fef40e99a115",
+      "bytes": 3568
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj17\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "54a142ab214a10de8815d42fe260cbd73d3599d97a9006e347576da692d4998c",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\metrics.json",
+      "sha256": "3eb63360aad3020d744c7f8e07745b82462e6485c86abcf451fcb04820c53e97",
+      "bytes": 9755
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "39fbf0f3ab3bed0785d9b4b729e9da6d1a197dab1ff9a8ed770d9da083c61321",
+      "bytes": 1936
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "da3c07605cdf0a1a29b8b1ce77a620e4573ad88814151423628f0f396d875afa",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "96ca2a18c7ad5def537f714237e32e9c09d75490c6797998cbd68136dbd768ab",
+      "bytes": 1926
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "23f452448e850927d7c362474313b1b9e412646068117ccb68b07a359446850b",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "fac01bdfd3d7c1ee00ad6ca6b1b958706ee16cc524a51057c17cf9ef2d526e36",
+      "bytes": 26799
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "1fb112d85a5db94698a22c4f367f416d1be68e5e4ec01b2e94b54b73c3ca1346",
+      "bytes": 594
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "55b6d88b3b7245b2f1b3c64638982b5dd4cdafc5d993ba689318779b0036cc95",
+      "bytes": 26702
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "f62007e3c7ffcd433a65a96136865066bc6342a9fcc01be07e6ce6146c0f0be1",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "6e01b8670b82303dfc698cc9966c5d2b9c7a1cef5eeb843bf09bb3f911046400",
+      "bytes": 809
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "58b66d8eb93338adf3e4754d63092e13e8de90a3cad4d0de382e1c9ef7b48437",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "5071d8522c3d076b9d835f363d1c6bd9d73c18e1bf6f967cafc995ac5f0cf00f",
+      "bytes": 800
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "243f99c90fc44858bca007adcd8602c24fb0b5dbacbdef79006de1823d39b86a",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "fcb16417e2d5fcd0fcbda7c0badf5a69f824ad197392fccd32afd0d442744c63",
+      "bytes": 3685
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "8abd4d9e0186ca6646975951e7a5c4419e22c272837b1bac4d41051ea89de090",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "8d8d90f0989d90678fec7aaae93e83cb88b7427c5f0223aabd1dd2d052221cf2",
+      "bytes": 3660
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "eaa1a67aa6fb5ca745664577a1aaa89ef10ebc0944cbc42977d12c7fba508c97",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "00d18bfa15e4641e3ace0422c7b85e374a025463067410dde5dca4190f8cff32",
+      "bytes": 4950
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "e70a6b5b3411a9b5824f1d821c7db37447968130928f3df4294578259b80d8f2",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "19728d04a0399eaf25e97014401043814cf1799413e3701b7923450dbc10c9ef",
+      "bytes": 4925
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "33af3ffaf71979602892af5dec8e0c69a98450aa018527e67ed598b10a9fbfd2",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "96fcfd3b183795efb010e662d6bdf835fad7fcf5bf2b977811182d466a7e70fd",
+      "bytes": 7193
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "801378cbd1982df852a10cc15919e0dd913618d20d3aca2c3367d59f59014a18",
+      "bytes": 589
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "cc0059ab6045fa254468d3e1efd80b9cb0ff1112d022bc1bad1c81a08434aff0",
+      "bytes": 7161
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "0113306b2ca2929f1ae6cb79ac2b86f4625ac4cf3772a7bbf131ce0150332180",
+      "bytes": 583
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "279612ec3df804e6bd795338ba4f5422b4ca306b727477dba9ee3d11a3db1b16",
+      "bytes": 29595
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "d9ac2ac39442cc4ced1c54439576ac0df2500a935ffc3eaa0e1d4e6d46d7a42b",
+      "bytes": 592
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "b6cbc536524740835794bf0e18c3724765ed266f07a99c96d9de5ff482fe8f13",
+      "bytes": 29487
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "5c30d71051f93f80f90d19e7e70db029d6d0b1df1f16b203148f2940b46162be",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "b01efbd16e97b9c907703cfd872a326330e2ec02d6f0f03b4933aa1fe5249f54",
+      "bytes": 440
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "26a7acc502679baa7870381563ee626708c5e9b7e4483a939157a6f72d3e74f4",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "0d8217161b16f10f1898b7702d1f4ba3ce715b89b0e1dfd9a093bcd039b2eb41",
+      "bytes": 436
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj2\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "05e7353ccce82c1558f3456b0a0752d42c74d44e5009e48577b623172d5d4139",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\metrics.json",
+      "sha256": "3ba4633a84241ab6aa2b26ebe54b494c62c6a8f709fa5fa12a085b74682cd72d",
+      "bytes": 9520
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "531f13ff964f1159ee4b98f4f26939b0ab9f18ff9404ec3a24192358e502d080",
+      "bytes": 189
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "985f580686490c975349267c78e3e270f9079ec4272e2b12a28a188197c3d575",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "ac6b0fbacb4f15d4281c4e44c94775e7a7750675fbcb7ad1c0f6a7ed9271b21d",
+      "bytes": 187
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "344520d0695ad61ea26a95183179d26d27540063bae97cdfc8f4a153d1618831",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "49c61c54b2e42ec22001062e723319dca609540321b6d07fd7273036fb62f3d9",
+      "bytes": 875
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "4e332d686611dc47074ffc7e17b8891f17903bd26773c17ac06f121500e74423",
+      "bytes": 588
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "bb74c59959d9e133cae0c3e64b1b2ed1bb759f2290487de6e6f88f9cac098150",
+      "bytes": 870
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "0266d5965089356ddbe8cd5260ae4ecdc3fa7944071bc1ab8aebc4f8d2bf2eea",
+      "bytes": 582
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "30454dbe5968c14356811f76b3cd7059d564f490748290421fd91f3ee1388e3f",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "94c55e026160deb40f61b3ca1ed12b2aae977da9576da493118cc59964c8f31c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "d108aae89d984881b32cd3d4179d0b508d189eb2fe7d24513aa9d3297ac70165",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "42e9701a39398eb7e3fcca8746223998eac94e90a0a63962a13990857a3489c0",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "e8ffb314822586465c08dd8287815d5e0abfc1c237c5644d7e3fe2dd79dd7d77",
+      "bytes": 554
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "26a0ba27dc74f78991eae58a76f3302985748319c2f7cdf4222da94940d03d0f",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "f60361e2fc99bf2a13a4c6eaf841822bacfafc535e010748f4f9213e54d17819",
+      "bytes": 549
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "79ac3bbbc2de164fd1f43f434d133b670ca1af144a1af81d4eb5feafc212ca6c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "560d33dbdf4ad8891f91541659292382b8655ea2cc7f0bf7ca69bb6afb96d73e",
+      "bytes": 193
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "ee55c4f0e80b7914bbb10582580d92f033946d5e85ff177d5af9809e87b35e60",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "21a33a4fdd8c5c8712af8443b3f0a91e20bd77b30c1799ed9d203e60fb301584",
+      "bytes": 192
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "530ea9e43f0c41fde8c5caaeecd301a00e5a9859cd62ac9019ebe14bd1e27987",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "d8c1c695ed33d504f564b3fdc32886f47ea0bd35037d99d8ec66497e588dfcf3",
+      "bytes": 190
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "5eff88847f47e3796c74f1d58a6e7d66929028bb55f77243db04b33b9bc94835",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "e8c39acd4c507662d7a16ef5b0c716987a7d505404a404bb25dd5ab4451033ca",
+      "bytes": 190
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "0ef205c5a47641b4fdc461e8acfc397b68cb91ee1e1b5d2e34d7f23ad4671154",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "44b93183b8b447440d4b063cbf064da54637777227c4d0f1abf963364c8ff9f1",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj5\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "c9075a3ab9f6ac9942227602a8ad0c2ad00487895ba7049fb599e84e024f684b",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\metrics.json",
+      "sha256": "9084b4c998ea3a70cd8edcf25cc04d8f90bd8659fed78c7674c438c8f7c4d0ec",
+      "bytes": 9288
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s10_i5_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s10_i5_fallback_raw_manifest.json",
+      "sha256": "299599a6610bcab147cfb84f74467f9e7368d56910682ac1b023c90030757b80",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s10_i5_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s10_i5_fused_raw_manifest.json",
+      "sha256": "09ed220124e8778acf6c2953c7d218c4f773ab933c445c310aa913df5c058f3c",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s12_i2_fallback_raw.csv.gz",
+      "sha256": "ac72a4fdf19d2af8edb3468e65b59fcd9e5ee05d4c8296a6a902dbf1d3c95dfb",
+      "bytes": 171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s12_i2_fallback_raw_manifest.json",
+      "sha256": "2de3b3142ebb5ed05f07aa00d5f6df1595519f9f786937f2b50708f75f63428c",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s12_i2_fused_raw.csv.gz",
+      "sha256": "be66522b9105916a8e5c99f0a7e0c3849018ed7378d3615fe449c88159465855",
+      "bytes": 170
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s12_i2_fused_raw_manifest.json",
+      "sha256": "43cdd19ba96c84d5f38931a3b728e0081c4d80c9ccbe38a904de8c6098ceca35",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s13_i2_fallback_raw.csv.gz",
+      "sha256": "8f220f3179ee7bdc316fb1e6a4d7d460218e57fa9ddfb75bebc6805eef348dba",
+      "bytes": 171
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s13_i2_fallback_raw_manifest.json",
+      "sha256": "46fa00f943c2e1dfa59b07556ec45767f4e0156471554aef44615f9473af3586",
+      "bytes": 586
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s13_i2_fused_raw.csv.gz",
+      "sha256": "1f85701b5fbab3f0b5e86ae9df10519ab8c79bef4586554c597128ac66f42ff9",
+      "bytes": 170
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s13_i2_fused_raw_manifest.json",
+      "sha256": "eec1a5adc4068c3c453268356cf1fdbf780464c0aceb470f84e1cfec9d986e80",
+      "bytes": 580
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s1_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s1_i1_fallback_raw_manifest.json",
+      "sha256": "9a1c8202ddb119147e349346dd31b3bd9edf5a63488579c4313f69c80914fbb9",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s1_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s1_i1_fused_raw_manifest.json",
+      "sha256": "1d403518e5d5678a02de2fe8ab90c12e0f538a7216b12411110db7ba4a9ee4a1",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s4_i0_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s4_i0_fallback_raw_manifest.json",
+      "sha256": "3fab7ae71b4261aa48cec8e9417c20c07ebc0eff02699e17d403071f31f1eac0",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s4_i0_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s4_i0_fused_raw_manifest.json",
+      "sha256": "77d2cfcec10b00c608b5d1ff35a5ce1e423d12626461bc267b35e29172299bca",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s6_i2_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s6_i2_fallback_raw_manifest.json",
+      "sha256": "3981dd6392ae1115dce55442cbb7ac3798729609e8beafdf1c48f399ab60258e",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s6_i2_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s6_i2_fused_raw_manifest.json",
+      "sha256": "f0a331364cc1919d16cfd30198ca74f201fb6d046e0e26a8a9ad7b21a862ed9b",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s7_i3_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s7_i3_fallback_raw_manifest.json",
+      "sha256": "fb7396ee0eda17c9f9a07c084be7b508bafa0f384c532f8f9e2a09d7ea3d3053",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s7_i3_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s7_i3_fused_raw_manifest.json",
+      "sha256": "111ca157a61f72e0ea0810f3a74f77182c8764c005850e932c6104e9e3b42295",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s8_i1_fallback_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s8_i1_fallback_raw_manifest.json",
+      "sha256": "f7e586c0c51c6dc2a91feb1dea21529a89d3981e7c74e1d471fd2b2908bfea20",
+      "bytes": 584
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s8_i1_fused_raw.csv.gz",
+      "sha256": "07ed730691f459cf8523b9081b2dc345ac282611dc368fb0cd192176a30aabf3",
+      "bytes": 103
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\obj8\\rgb_control\\s8_i1_fused_raw_manifest.json",
+      "sha256": "dee0430513f29c219c5f195b2adc12886c22b6b837e8c3458cb6093a713fe26f",
+      "bytes": 578
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\per_frame_metrics.csv",
+      "sha256": "88523c9a615cd91886fdccbc4c561151cdd542a1fb93f7b0fe7b9a85862e22a9",
+      "bytes": 2802
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\selected_detections.csv",
+      "sha256": "e6f994c3f8d0b02fde70abbd5594beeb3e284010e4c817db9ba117d950fce517",
+      "bytes": 78009
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native\\stage_summary.json",
+      "sha256": "8374f4f506c662c06dff766e2ef7de9e5afc628619ce0e715a27df0ccf99b55f",
+      "bytes": 10571
+    }
+  ],
+  "execution_files": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\execution_provenance.json",
+      "sha256": "73969348bc33f69d959227584f3e4c029d461e897851086bb07fc5de0d37434e",
+      "bytes": 3616
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\native.stdout",
+      "sha256": "5476a59c02fcb3cf64a18d4d4c92c2d4ee83afe3081055434ce775434ded8825",
+      "bytes": 2046
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\verified_after.json",
+      "sha256": "0f86ec49acd64a5222277281fd6cb376c416fc4e4f44674f2465ed952f8da1cb",
+      "bytes": 76712
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_dilated_mask_experiment\\run_quality_old_gate_v1\\verified_before.json",
+      "sha256": "0f86ec49acd64a5222277281fd6cb376c416fc4e4f44674f2465ed952f8da1cb",
+      "bytes": 76712
+    }
+  ],
+  "summary": {
+    "passed": 1,
+    "stage": "old_gate",
+    "objects": [
+      1,
+      2,
+      5,
+      8,
+      12,
+      17
+    ],
+    "unique_frames": 8,
+    "object_frame_combinations": 48,
+    "matcher_calls": 96.0,
+    "exact_same_arm_paths": 1,
+    "complete_raw_archives": 1,
+    "raw_output_bytes": 420562.0,
+    "decode_total_ms": 361.6561,
+    "peak_rss_bytes": 76443648.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 0,
+    "rgb_control": {
+      "allGT": {
+        "tp": 6,
+        "fp": 670,
+        "fn": 2,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.008875739644970414,
+        "recall": 0.75,
+        "f1": 0.017543859649122806,
+        "matched_iou_sum": 4.501833683586649,
+        "mean_tp_iou": 0.7503056139311082
+      },
+      "visibility_ge_0_5": {
+        "tp": 6,
+        "fp": 670,
+        "fn": 2,
+        "gt": 8,
+        "ignored": 0,
+        "precision": 0.008875739644970414,
+        "recall": 0.75,
+        "f1": 0.017543859649122806,
+        "matched_iou_sum": 4.501833683586649,
+        "mean_tp_iou": 0.7503056139311082
+      },
+      "raw_candidates": 8557.0,
+      "negative_frames": 41,
+      "negative_frames_with_fp": 33,
+      "negative_fp": 549
+    },
+    "per_scene": [
+      {
+        "scene_id": 1,
+        "rgb_control": {
+          "allGT": {
+            "tp": 1,
+            "fp": 54,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01818181818181818,
+            "recall": 1.0,
+            "f1": 0.03571428571428571,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 54,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01818181818181818,
+            "recall": 1.0,
+            "f1": 0.03571428571428571,
+            "matched_iou_sum": 0.7819326175490559,
+            "mean_tp_iou": 0.7819326175490559
+          },
+          "raw_candidates": 478.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 44
+        }
+      },
+      {
+        "scene_id": 4,
+        "rgb_control": {
+          "allGT": {
+            "tp": 1,
+            "fp": 74,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.013333333333333334,
+            "recall": 0.5,
+            "f1": 0.025974025974025976,
+            "matched_iou_sum": 0.722972972972973,
+            "mean_tp_iou": 0.722972972972973
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 74,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.013333333333333334,
+            "recall": 0.5,
+            "f1": 0.025974025974025976,
+            "matched_iou_sum": 0.722972972972973,
+            "mean_tp_iou": 0.722972972972973
+          },
+          "raw_candidates": 860.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 73
+        }
+      },
+      {
+        "scene_id": 6,
+        "rgb_control": {
+          "allGT": {
+            "tp": 1,
+            "fp": 58,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "matched_iou_sum": 0.6261969603795133,
+            "mean_tp_iou": 0.6261969603795133
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 58,
+            "fn": 0,
+            "gt": 1,
+            "ignored": 0,
+            "precision": 0.01694915254237288,
+            "recall": 1.0,
+            "f1": 0.03333333333333333,
+            "matched_iou_sum": 0.6261969603795133,
+            "mean_tp_iou": 0.6261969603795133
+          },
+          "raw_candidates": 757.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 52
+        }
+      },
+      {
+        "scene_id": 7,
+        "rgb_control": {
+          "allGT": {
+            "tp": 2,
+            "fp": 71,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.0273972602739726,
+            "recall": 1.0,
+            "f1": 0.05333333333333334,
+            "matched_iou_sum": 1.5369354202008698,
+            "mean_tp_iou": 0.7684677101004349
+          },
+          "visibility_ge_0_5": {
+            "tp": 2,
+            "fp": 71,
+            "fn": 0,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.0273972602739726,
+            "recall": 1.0,
+            "f1": 0.05333333333333334,
+            "matched_iou_sum": 1.5369354202008698,
+            "mean_tp_iou": 0.7684677101004349
+          },
+          "raw_candidates": 2591.0,
+          "negative_frames": 4,
+          "negative_frames_with_fp": 3,
+          "negative_fp": 33
+        }
+      },
+      {
+        "scene_id": 8,
+        "rgb_control": {
+          "allGT": {
+            "tp": 0,
+            "fp": 47,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 47,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 226.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 4,
+          "negative_fp": 47
+        }
+      },
+      {
+        "scene_id": 10,
+        "rgb_control": {
+          "allGT": {
+            "tp": 0,
+            "fp": 119,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 119,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 554.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 119
+        }
+      },
+      {
+        "scene_id": 12,
+        "rgb_control": {
+          "allGT": {
+            "tp": 1,
+            "fp": 162,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.006134969325153374,
+            "recall": 0.5,
+            "f1": 0.012121212121212121,
+            "matched_iou_sum": 0.8337957124842371,
+            "mean_tp_iou": 0.8337957124842371
+          },
+          "visibility_ge_0_5": {
+            "tp": 1,
+            "fp": 162,
+            "fn": 1,
+            "gt": 2,
+            "ignored": 0,
+            "precision": 0.006134969325153374,
+            "recall": 0.5,
+            "f1": 0.012121212121212121,
+            "matched_iou_sum": 0.8337957124842371,
+            "mean_tp_iou": 0.8337957124842371
+          },
+          "raw_candidates": 2792.0,
+          "negative_frames": 5,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 96
+        }
+      },
+      {
+        "scene_id": 13,
+        "rgb_control": {
+          "allGT": {
+            "tp": 0,
+            "fp": 85,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "visibility_ge_0_5": {
+            "tp": 0,
+            "fp": 85,
+            "fn": 0,
+            "gt": 0,
+            "ignored": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "matched_iou_sum": 0.0,
+            "mean_tp_iou": 0.0
+          },
+          "raw_candidates": 299.0,
+          "negative_frames": 6,
+          "negative_frames_with_fp": 5,
+          "negative_fp": 85
+        }
+      }
+    ]
+  },
+  "post_verification_passed": true,
+  "missing_frames_are_not_negatives": true,
+  "heldout_images_allowed": false
+}
