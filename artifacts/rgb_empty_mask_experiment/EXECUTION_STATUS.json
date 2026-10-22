@@ -1,0 +1,66 @@
+{
+  "version": "rgb_empty_mask_execution_status_v27",
+  "status": "completed_rejected_quality_promotion",
+  "production_revision": "b25df46f6ddf9c24fb43f5836f1414dc38c8caed",
+  "initial_checkpoint": {
+    "path": "source_status.json",
+    "sha256": "a49a4bd19b3407bdc048d6a015e6ff20cbcd3d7a9e89413bb4b59f9e43cd1d4a",
+    "scope": "Immutable source-only preparation counters, pinned in all historical native build manifests; these are not current totals."
+  },
+  "successful_native_builds": 4,
+  "native_compile_commands": 8,
+  "native_link_commands": 4,
+  "native_dependency_scan_commands": 8,
+  "build_directories": [
+    "build_source_test_v2",
+    "build_training_v2",
+    "build_quality_v1",
+    "build_quality_v2"
+  ],
+  "preflight_build_failure": {
+    "directory": "build_source_test_v1",
+    "compiler_commands": 0,
+    "reason": "Private compile include flags changed"
+  },
+  "completed_matcher_calls": 22176,
+  "matcher_calls_by_stage": {
+    "old_gate": 96,
+    "pilot": 192,
+    "development": 9600,
+    "timing": 12288
+  },
+  "completed_training_attempts": 20736,
+  "training_imread_operations_derived": 864,
+  "quality_imread_operations_derived": 2496,
+  "timing_imread_operations_derived": 384,
+  "total_imread_operations_derived": 3744,
+  "decode_count_definition": "Derived from completed fixed loops and two training imread operations per view; not a separately instrumented decode hook. BANK_FREEZE.image_decodes=432 counts training RGB views, omitting 432 mask decodes. Metadata verifiers report their own zero-decode counts only.",
+  "private_smd_reads": 0,
+  "heldout_scenes_processed": [],
+  "reserved_objects_processed": [],
+  "quality": {
+    "rgb_control": {
+      "tp": 215,
+      "fp": 42112,
+      "fn": 185,
+      "raw": 457279
+    },
+    "rgb_empty_mask": {
+      "tp": 183,
+      "fp": 10019,
+      "fn": 217,
+      "raw": 150247
+    },
+    "gate": "TP >= 215 AND FP < 42112",
+    "gate_passed": false
+  },
+  "allGT_identity_changes": {
+    "retained": 156,
+    "lost": 59,
+    "gained": 27,
+    "neither": 158,
+    "net_tp_difference": -32
+  },
+  "status_is_post_execution_summary": true,
+  "frozen_historical_manifests_rewritten": false
+}

@@ -1,0 +1,569 @@
+{
+    "object_id": 12,
+    "rgb_control": {
+        "allGT": {
+            "tp": 36,
+            "fp": 4665,
+            "fn": 14,
+            "gt": 50,
+            "ignored": 0,
+            "precision": 0.0076579451180599873,
+            "recall": 0.71999999999999997,
+            "f1": 0.015154704272784677,
+            "matched_iou_sum": 23.226127712353414,
+            "mean_tp_iou": 0.64517021423203924
+        },
+        "visibility_ge_0_5": {
+            "tp": 35,
+            "fp": 4665,
+            "fn": 9,
+            "gt": 44,
+            "ignored": 1,
+            "precision": 0.0074468085106382982,
+            "recall": 0.79545454545454541,
+            "f1": 0.01475548060708263,
+            "matched_iou_sum": 22.675337644633323,
+            "mean_tp_iou": 0.64786678984666635
+        },
+        "raw_candidates": 19778.0,
+        "negative_frames": 350,
+        "negative_frames_with_fp": 350,
+        "negative_fp": 4169
+    },
+    "rgb_empty_mask": {
+        "allGT": {
+            "tp": 24,
+            "fp": 193,
+            "fn": 26,
+            "gt": 50,
+            "ignored": 0,
+            "precision": 0.11059907834101383,
+            "recall": 0.47999999999999998,
+            "f1": 0.1797752808988764,
+            "matched_iou_sum": 17.060741938439588,
+            "mean_tp_iou": 0.71086424743498278
+        },
+        "visibility_ge_0_5": {
+            "tp": 24,
+            "fp": 193,
+            "fn": 20,
+            "gt": 44,
+            "ignored": 0,
+            "precision": 0.11059907834101383,
+            "recall": 0.54545454545454541,
+            "f1": 0.18390804597701149,
+            "matched_iou_sum": 17.060741938439588,
+            "mean_tp_iou": 0.71086424743498278
+        },
+        "raw_candidates": 2084.0,
+        "negative_frames": 350,
+        "negative_frames_with_fp": 101,
+        "negative_fp": 169
+    },
+    "per_scene": [
+        {
+            "scene_id": 1,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 479,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 479,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 1189.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 479
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 10,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 10,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 13.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 9,
+                "negative_fp": 10
+            }
+        },
+        {
+            "scene_id": 4,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 536,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 536,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 2198.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 536
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 26,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 26,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 282.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 21,
+                "negative_fp": 26
+            }
+        },
+        {
+            "scene_id": 6,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 36,
+                    "fp": 496,
+                    "fn": 14,
+                    "gt": 50,
+                    "ignored": 0,
+                    "precision": 0.067669172932330823,
+                    "recall": 0.71999999999999997,
+                    "f1": 0.12371134020618557,
+                    "matched_iou_sum": 23.226127712353414,
+                    "mean_tp_iou": 0.64517021423203924
+                },
+                "visibility_ge_0_5": {
+                    "tp": 35,
+                    "fp": 496,
+                    "fn": 9,
+                    "gt": 44,
+                    "ignored": 1,
+                    "precision": 0.065913370998116755,
+                    "recall": 0.79545454545454541,
+                    "f1": 0.12173913043478261,
+                    "matched_iou_sum": 22.675337644633323,
+                    "mean_tp_iou": 0.64786678984666635
+                },
+                "raw_candidates": 3302.0,
+                "negative_frames": 0,
+                "negative_frames_with_fp": 0,
+                "negative_fp": 0
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 24,
+                    "fp": 24,
+                    "fn": 26,
+                    "gt": 50,
+                    "ignored": 0,
+                    "precision": 0.5,
+                    "recall": 0.47999999999999998,
+                    "f1": 0.48979591836734693,
+                    "matched_iou_sum": 17.060741938439588,
+                    "mean_tp_iou": 0.71086424743498278
+                },
+                "visibility_ge_0_5": {
+                    "tp": 24,
+                    "fp": 24,
+                    "fn": 20,
+                    "gt": 44,
+                    "ignored": 0,
+                    "precision": 0.5,
+                    "recall": 0.54545454545454541,
+                    "f1": 0.52173913043478259,
+                    "matched_iou_sum": 17.060741938439588,
+                    "mean_tp_iou": 0.71086424743498278
+                },
+                "raw_candidates": 476.0,
+                "negative_frames": 0,
+                "negative_frames_with_fp": 0,
+                "negative_fp": 0
+            }
+        },
+        {
+            "scene_id": 7,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 563,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 563,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 3530.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 563
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 38,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 38,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 117.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 21,
+                "negative_fp": 38
+            }
+        },
+        {
+            "scene_id": 8,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 461,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 461,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 1215.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 461
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 13,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 13,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 14.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 10,
+                "negative_fp": 13
+            }
+        },
+        {
+            "scene_id": 10,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 639,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 639,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 1404.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 639
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 13,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 13,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 15.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 10,
+                "negative_fp": 13
+            }
+        },
+        {
+            "scene_id": 12,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 913,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 913,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 5651.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 913
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 64,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 64,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 1162.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 25,
+                "negative_fp": 64
+            }
+        },
+        {
+            "scene_id": 13,
+            "rgb_control": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 578,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 578,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 1289.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 50,
+                "negative_fp": 578
+            },
+            "rgb_empty_mask": {
+                "allGT": {
+                    "tp": 0,
+                    "fp": 5,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "visibility_ge_0_5": {
+                    "tp": 0,
+                    "fp": 5,
+                    "fn": 0,
+                    "gt": 0,
+                    "ignored": 0,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1": 0.0,
+                    "matched_iou_sum": 0.0,
+                    "mean_tp_iou": 0.0
+                },
+                "raw_candidates": 5.0,
+                "negative_frames": 50,
+                "negative_frames_with_fp": 5,
+                "negative_fp": 5
+            }
+        }
+    ]
+}

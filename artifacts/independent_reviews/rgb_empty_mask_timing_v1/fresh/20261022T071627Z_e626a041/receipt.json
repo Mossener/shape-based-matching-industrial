@@ -1,0 +1,397 @@
+{
+  "rows": 12288,
+  "formal_rows": 10752,
+  "warmup_rows": 1536,
+  "paired_ratios": [
+    {
+      "path": "fallback",
+      "samples": 2688,
+      "match_ratio_median": 0.8242970417810308,
+      "match_ratio_p95": 1.2578194254773716,
+      "external_ratio_median": 0.8238754876499071,
+      "external_ratio_p95": 1.255158030593079
+    },
+    {
+      "path": "fused",
+      "samples": 2688,
+      "match_ratio_median": 0.8366744038826757,
+      "match_ratio_p95": 1.2587012580694645,
+      "external_ratio_median": 0.8367699076869985,
+      "external_ratio_p95": 1.2577408063736617
+    }
+  ],
+  "variants": [
+    {
+      "arm": "rgb_control",
+      "path": "fallback",
+      "samples": 2688,
+      "match_median_ms": 33.9856,
+      "match_p95_ms": 118.5097,
+      "external_median_ms": 34.1645,
+      "external_p95_ms": 118.7226
+    },
+    {
+      "arm": "rgb_control",
+      "path": "fused",
+      "samples": 2688,
+      "match_median_ms": 32.3713,
+      "match_p95_ms": 108.8205,
+      "external_median_ms": 32.633,
+      "external_p95_ms": 109.0141
+    },
+    {
+      "arm": "rgb_empty_mask",
+      "path": "fallback",
+      "samples": 2688,
+      "match_median_ms": 26.1939,
+      "match_p95_ms": 111.9061,
+      "external_median_ms": 26.2703,
+      "external_p95_ms": 112.5013
+    },
+    {
+      "arm": "rgb_empty_mask",
+      "path": "fused",
+      "samples": 2688,
+      "match_median_ms": 24.9426,
+      "match_p95_ms": 100.1416,
+      "external_median_ms": 25.0372,
+      "external_p95_ms": 100.2804
+    }
+  ],
+  "schedule_exact": true,
+  "all_recorded_own_reference_flags_one": true,
+  "all_counts_equal_quality_own_arm_reference": true,
+  "passed": true,
+  "schema": "independent_rgb_empty_mask_timing_v1",
+  "experiment": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment",
+  "root_freeze_pin": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\QUALITY_STAGE_FREEZE.json",
+    "bytes": 5841,
+    "sha256": "cf561362c82493ae87ce8a88fef7fbdf6d6967ada9b8ea2f223b31feb50be584"
+  },
+  "verified_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\QUALITY_STAGE_FREEZE.json",
+      "bytes": 5841,
+      "sha256": "cf561362c82493ae87ce8a88fef7fbdf6d6967ada9b8ea2f223b31feb50be584"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\build_quality_v1\\build_manifest.json",
+      "bytes": 255418,
+      "sha256": "b09af08652717da221bc74e676ebdbdddc5598616d9e1971643e080956324b11"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json",
+      "bytes": 118257,
+      "sha256": "1f89e1067ca7cb3dfcafd91808a465258c1f83dff0ba3792cd61124df5ce07ad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_selftest_v1\\QUALITY_STAGE_FREEZE.json",
+      "bytes": 3727,
+      "sha256": "6eeb05a32c493be1c24e63a574fcdcf43ac9e909a0a757260a57cec92e6aaa42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_development_v1\\QUALITY_STAGE_FREEZE.json",
+      "bytes": 5767939,
+      "sha256": "af0d4296fb56ea43e864602fa2fccf4a3e52f33bc5cca87728ee9b76e3a9dceb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\quality_stage_reservations\\timing.json",
+      "bytes": 624,
+      "sha256": "fc6971d3573371efed1d1eaea9abb357105a925f5176009c9aafd529f95f73de"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\native\\bank_load_timings.csv",
+      "bytes": 730,
+      "sha256": "3fa667a185d335d15637691c4c8f5b21f2451f0e942aaaa14511fcd59b9b4b15"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\native\\stage_summary.json",
+      "bytes": 2368,
+      "sha256": "7f2bb99b9cdaf75c781cc4e3a98a55c36e7cdfd65a775a96b2d2f51110dcc461"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\native\\timing_samples.csv",
+      "bytes": 932838,
+      "sha256": "ac115b66f21dd7145d87a4696c18de9e46e1fe7ec04c077dd657cd6afb090544"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\execution_provenance.json",
+      "bytes": 3256,
+      "sha256": "72778c48f42ed09e7edc3956b2421b7932c90f46d971a5d5208138af44befaad"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\native.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\native.stdout",
+      "bytes": 13990,
+      "sha256": "6edcb2e6e8ab035024d46f12d293f2a60a09010122226089a6ac1170dbdff319"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\verified_after.json",
+      "bytes": 538,
+      "sha256": "1ffae89003d7a57ed3bc82c26b4a790570ef9ade6976b9086da856d9ccf2b6b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_timing_v2\\verified_before.json",
+      "bytes": 538,
+      "sha256": "1ffae89003d7a57ed3bc82c26b4a790570ef9ade6976b9086da856d9ccf2b6b5"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality.py",
+      "bytes": 9484,
+      "sha256": "5293b8c12b9ad7df5c013f9109be68e44cc9306aa3dd2e35548d7821f25e4385"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\quality_contract.py",
+      "bytes": 1749,
+      "sha256": "8f8164dc5a09869b8d63c243680b37af340a3330c1c82a7f0348f1578c2a02ca"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\prepare_quality_inputs.py",
+      "bytes": 4586,
+      "sha256": "c9bdc0d8a37d0017a6cefb9d474c3a4b25e4e3010dbe8196b6ffdfff5a099f89"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\prepare_input_closure.py",
+      "bytes": 1853,
+      "sha256": "e66359c98b5265dea8dde71a9063d1cb54326a38ada21418de38dfb3e9e84d6f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\native_provenance.py",
+      "bytes": 6345,
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.cpp",
+      "bytes": 63388,
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup.h",
+      "bytes": 12702,
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_local.hpp",
+      "bytes": 2785,
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_matches.hpp",
+      "bytes": 1452,
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_response.hpp",
+      "bytes": 2379,
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_search.hpp",
+      "bytes": 1596,
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\line2Dup_spread.hpp",
+      "bytes": 2791,
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.h",
+      "bytes": 600,
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx512_mathfun.hxx",
+      "bytes": 20680,
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.h",
+      "bytes": 1602,
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\avx_mathfun.hxx",
+      "bytes": 23405,
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.h",
+      "bytes": 1477,
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\neon_mathfun.hxx",
+      "bytes": 9360,
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.h",
+      "bytes": 1670,
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\math\\sse_mathfun.hxx",
+      "bytes": 21775,
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp.h",
+      "bytes": 44587,
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX.hxx",
+      "bytes": 124908,
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_AVX512.hxx",
+      "bytes": 152957,
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_NEON.hxx",
+      "bytes": 95936,
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_impl_SSE.hxx",
+      "bytes": 116318,
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_object.hxx",
+      "bytes": 53284,
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.h",
+      "bytes": 748,
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\private_v11\\MIPP\\mipp_scalar_op.hxx",
+      "bytes": 6187,
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\tless_eval.cpp",
+      "bytes": 37373,
+      "sha256": "c9e4016d1cd7ad6ce37d49bc04f49f1f3d496573a0047a9d1b8da951eb7204ef"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\eval_metrics.hpp",
+      "bytes": 4985,
+      "sha256": "1339092b5fbf2f5283dced01fc0b74eea467074223943d8248b89b6e48249de3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_helpers\\padding_plan.hpp",
+      "bytes": 3974,
+      "sha256": "8310a76c3e2b167c94f083337d77979485d6bc3174a5fa656015efac2e12f361"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\quality_eval.cpp",
+      "bytes": 17932,
+      "sha256": "9593b8fda2d65370dfad85c220deae3c7ac7caaeeeacc775fc65d3d4d8ab8ee6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\quality_support.hpp",
+      "bytes": 10880,
+      "sha256": "bb0ac9eaf6e5ad4fbd57ddc4e3c3001b994f143e9309cddaa105c73c1a838b52"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\build_quality.py",
+      "bytes": 6589,
+      "sha256": "97122c279b16148cf095c41a1c860dda8c1f3d0684414c833402df67aafc16ed"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\freeze_private_sources.py",
+      "bytes": 6392,
+      "sha256": "f0fa601340667281b2acd0edf04d50bac3a3af270cdb29c17eed85c7c3d49624"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PRIVATE_SOURCE_FREEZE.json",
+      "bytes": 5107,
+      "sha256": "7451fcb34eb445a880232116b0a1965ee51b5d0224069c133aa36c360ad1e4aa"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\INPUT_CLOSURE.json",
+      "bytes": 429873,
+      "sha256": "c98625c7f83c443577393363f9a1e575148af9668258179efd4caa3936d422e6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PROTOCOL.json",
+      "bytes": 8385,
+      "sha256": "c107f651aba89bcc0c731b4f2b6d02afd9f899a339657c3db2856f1d71746fce"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\source_status.json",
+      "bytes": 561,
+      "sha256": "a49a4bd19b3407bdc048d6a015e6ff20cbcd3d7a9e89413bb4b59f9e43cd1d4a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_development_v1\\native\\candidate_equality.csv",
+      "bytes": 462517,
+      "sha256": "ec277cf4ac1725d4aa47f6a9654dc138ef3f5bb183f2769008900601350b9823"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_development_v1\\native\\per_frame_metrics.csv",
+      "bytes": 269511,
+      "sha256": "6dcec9adf5c1a9da9083ce863ab7624c4825e725a3d78ecfff5ff5cb1f3042fb"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_quality_development_v1\\native\\stage_summary.json",
+      "bytes": 20897,
+      "sha256": "483bfb58e70c3027a08d8c6f9ebaa0b31119213c5d2486d8cbd4cd21189f55bd"
+    }
+  ],
+  "verified_pin_count": 56,
+  "project_source_pins_checked": 39,
+  "execution_script_pins_checked": 5,
+  "quality_own_reference_rows": 4800,
+  "unique_frames": 64,
+  "object_frame_combinations": 384,
+  "quantile_method": "nearest-rank: sorted_values[ceil(q*n)-1]; median is lower middle for even n",
+  "pairing_key": [
+    "object_id",
+    "scene",
+    "image",
+    "round",
+    "path"
+  ],
+  "ratio_direction": "rgb_empty_mask / rgb_control",
+  "clock_semantics": "CSV match_ms and external_call_ms audited separately; no clock remeasurement",
+  "limitations": [
+    "Timing CSV stores durations, raw/selected counts, and a producer comparison flag; it does not archive complete timed-call raw/selected output fields or float32 score bits.",
+    "This audit independently verifies counts and recorded flags, but cannot independently reproduce full timed-call output equality from timing CSV.",
+    "No native execution, image decode, template-bank byte read, or quality raw-archive read. Runtime/executable closure bytes are not rehashed by this numeric/source audit.",
+    "Source pins verify current text bytes against frozen build/script/private pins; no claim of independent runtime instrumentation or industrial generalization."
+  ],
+  "counters": {
+    "native_runs": 0,
+    "native_compilations": 0,
+    "matcher_calls": 0,
+    "dataset_image_decodes": 0,
+    "dataset_image_reads": 0,
+    "template_bank_byte_reads": 0,
+    "raw_archive_reads": 0
+  },
+  "created_utc": "2026-10-22T07:16:28.045185+00:00",
+  "audit_source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_empty_mask_timing_v1\\audit_timing.py",
+    "bytes": 15889,
+    "sha256": "b453a6b287fad9a79dc0f3d0c5fd856655c8876b79f29443b40fcffedc5845e5"
+  },
+  "test_source": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\independent_reviews\\rgb_empty_mask_timing_v1\\test_audit_timing.py",
+    "bytes": 6058,
+    "sha256": "796ea38fbe988207c828783ee4d9cef190c338c7cac46bf8b4725475e3829b66"
+  },
+  "python_version": "3.12.10 (main, Apr 18 2025, 06:12:02)  [GCC UCRT 14.2.0 64 bit (AMD64)]"
+}

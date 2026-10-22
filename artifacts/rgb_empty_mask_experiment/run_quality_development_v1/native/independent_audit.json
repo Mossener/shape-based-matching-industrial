@@ -1,0 +1,30 @@
+{
+  "version": "rgb_empty_mask_quality_audit_v1",
+  "rows": 4800,
+  "candidate_rows": 4800,
+  "candidate_equivalence_all": true,
+  "arms": {
+    "rgb_control": {
+      "tp": 215,
+      "fp": 42112,
+      "fn": 185,
+      "gt": 400,
+      "raw_candidates": 457279,
+      "negative_frames": 2050,
+      "negative_fp": 35089
+    },
+    "rgb_empty_mask": {
+      "tp": 183,
+      "fp": 10019,
+      "fn": 217,
+      "gt": 400,
+      "raw_candidates": 150247,
+      "negative_frames": 2050,
+      "negative_fp": 8170
+    }
+  },
+  "stage_summary_sha256": "483bfb58e70c3027a08d8c6f9ebaa0b31119213c5d2486d8cbd4cd21189f55bd",
+  "passed": true,
+  "dataset_image_decodes": 0,
+  "matcher_calls": 0
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "bytes": 24477,
+      "sha256": "78145ab2ab65eac13bb9006b596f60a6f15dfb2951573701da6bb077beaa6eca"
+    },
+    {
+      "name": "numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    {
+      "name": "test_audit.py",
+      "bytes": 7608,
+      "sha256": "738759792152e61be139aeca88656d487e69702519e781f585ea74ca40b42697"
+    },
+    {
+      "name": "run_synthetic.py",
+      "bytes": 1604,
+      "sha256": "fbd0964d2074680bf93cadad3034000f55c0b7a6c826ca2dcb69764074ba3bf9"
+    }
+  ],
+  "matcher_calls": 0,
+  "dataset_image_reads": 0,
+  "scope": "Literal numeric oracles and adversarial synthetic mutations only"
+}

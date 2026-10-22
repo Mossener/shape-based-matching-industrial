@@ -1,0 +1,20 @@
+test_nearest_rank_uses_lower_middle_and_ceil_p95 (test_audit_timing.AuditTests.test_nearest_rank_uses_lower_middle_and_ceil_p95) ... ok
+test_pin_accepts_exact_bytes_and_rejects_modified_bytes (test_audit_timing.AuditTests.test_pin_accepts_exact_bytes_and_rejects_modified_bytes) ... ok
+test_pin_rejects_size_mismatch (test_audit_timing.AuditTests.test_pin_rejects_size_mismatch) ... ok
+test_rejects_corrupt_summary_two_clocks_and_pairs (test_audit_timing.AuditTests.test_rejects_corrupt_summary_two_clocks_and_pairs) ... ok
+test_rejects_duplicated_call (test_audit_timing.AuditTests.test_rejects_duplicated_call) ... ok
+test_rejects_external_shorter_than_matcher (test_audit_timing.AuditTests.test_rejects_external_shorter_than_matcher) ... ok
+test_rejects_false_reference_flag (test_audit_timing.AuditTests.test_rejects_false_reference_flag) ... ok
+test_rejects_missing_pair_row (test_audit_timing.AuditTests.test_rejects_missing_pair_row) ... ok
+test_rejects_nonfinite_or_nonpositive_clock (test_audit_timing.AuditTests.test_rejects_nonfinite_or_nonpositive_clock) ... ok
+test_rejects_quality_reference_count_mismatch (test_audit_timing.AuditTests.test_rejects_quality_reference_count_mismatch) ... ok
+test_rejects_wrong_call_count (test_audit_timing.AuditTests.test_rejects_wrong_call_count) ... ok
+test_rejects_wrong_frame_schedule (test_audit_timing.AuditTests.test_rejects_wrong_frame_schedule) ... ok
+test_rejects_wrong_rotating_order (test_audit_timing.AuditTests.test_rejects_wrong_rotating_order) ... ok
+test_rejects_wrong_warmup (test_audit_timing.AuditTests.test_rejects_wrong_warmup) ... ok
+test_valid_schedule_and_both_clocks (test_audit_timing.AuditTests.test_valid_schedule_and_both_clocks) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.008s
+
+OK

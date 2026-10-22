@@ -1,0 +1,16 @@
+{
+    "scene_id": 1,
+    "image_id": 402,
+    "rgb": "test_primesense/000001/rgb/000402.png",
+    "variant": "fallback",
+    "class_id": "tless_object_1",
+    "class_ids": [
+        "tless_object_1"
+    ],
+    "raw_candidate_count": 2,
+    "format": "gzip CSV; all candidates retained, 17 significant score digits",
+    "path": "D:/h/shape_based_matching-master/artifacts/rgb_empty_mask_experiment/run_quality_development_v1/native/obj1/rgb_empty_mask/s1_i402_fallback_raw.csv.gz",
+    "compressed_bytes": 207.0,
+    "uncompressed_bytes": 303.0,
+    "zlib_version": "1.3.1"
+}

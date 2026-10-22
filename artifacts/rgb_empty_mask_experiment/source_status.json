@@ -1,0 +1,11 @@
+{
+  "schema": "rgb_empty_mask_source_status_v1",
+  "native_compilations": 0,
+  "dataset_image_decodes": 0,
+  "matcher_calls": 0,
+  "smd_reads": 0,
+  "parent_metadata": "artifacts/silhouette_empty_mask_experiment/INPUT_CLOSURE.json",
+  "private_source_snapshot": "private_v11 copied byte-for-byte from artifacts/silhouette_empty_mask_experiment/private_v11",
+  "input_policy": "dataset and serialized banks are declarations until training stage authorization",
+  "protocol_sha256": "c107f651aba89bcc0c731b4f2b6d02afd9f899a339657c3db2856f1d71746fce"
+}

@@ -59,6 +59,14 @@ artifacts/independent_reviews/score_path_probe_v2/** -text whitespace=cr-at-eol
 artifacts/postprocess_optimization/full_api/** -text whitespace=cr-at-eol
 artifacts/independent_reviews/postprocess_full_api_v2/** -text whitespace=cr-at-eol
 artifacts/rgb_empty_mask_experiment/** -text whitespace=cr-at-eol
+artifacts/rgb_empty_mask_experiment/private_v11/** -whitespace
+artifacts/rgb_empty_mask_experiment/frozen_helpers/** -whitespace
+artifacts/independent_reviews/rgb_empty_mask_quality_v1/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/rgb_empty_mask_training_v1/** -text whitespace=cr-at-eol
+artifacts/independent_reviews/rgb_empty_mask_timing_v1/** -text whitespace=cr-at-eol
+# Preserve frozen audit/helper line endings and the compiled evaluator's final blank line.
+artifacts/independent_reviews/rgb_empty_mask_training_v1/training_numeric.py -whitespace
+artifacts/rgb_empty_mask_experiment/quality_eval.cpp -whitespace
 artifacts/match_consolidation/hash_prototype/**/source/** -whitespace
 artifacts/match_consolidation/hash_prototype/**/snapshot/** -whitespace
 # Preserve captured compiler output verbatim, including its final blank line.

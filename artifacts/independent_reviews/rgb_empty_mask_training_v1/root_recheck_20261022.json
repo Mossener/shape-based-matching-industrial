@@ -1,0 +1,395 @@
+{
+  "passed": true,
+  "objects": [
+    {
+      "object_id": 1,
+      "attempts": 3456,
+      "successful_templates": 3432,
+      "insufficient_features": 24,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3432,
+      "serialized_layers_checked": 6864,
+      "actual_feature_count_range": [
+        5,
+        41
+      ],
+      "minimum_canvas_edge_distance": 11,
+      "control_successful_templates": 2153,
+      "control_failed_treatment_successful": 1279
+    },
+    {
+      "object_id": 2,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        6,
+        40
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 2646,
+      "control_failed_treatment_successful": 810
+    },
+    {
+      "object_id": 5,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        14,
+        39
+      ],
+      "minimum_canvas_edge_distance": 9,
+      "control_successful_templates": 3416,
+      "control_failed_treatment_successful": 40
+    },
+    {
+      "object_id": 8,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        16,
+        38
+      ],
+      "minimum_canvas_edge_distance": 11,
+      "control_successful_templates": 3456,
+      "control_failed_treatment_successful": 0
+    },
+    {
+      "object_id": 12,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        14,
+        43
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 3372,
+      "control_failed_treatment_successful": 84
+    },
+    {
+      "object_id": 17,
+      "attempts": 3456,
+      "successful_templates": 3456,
+      "insufficient_features": 0,
+      "opencv_exception_attempts": 0,
+      "serialized_templates_checked": 3456,
+      "serialized_layers_checked": 6912,
+      "actual_feature_count_range": [
+        9,
+        39
+      ],
+      "minimum_canvas_edge_distance": 10,
+      "control_successful_templates": 3156,
+      "control_failed_treatment_successful": 300
+    }
+  ],
+  "training_attempts": 20736,
+  "serialized_treatment_layers": 41424,
+  "plan": {
+    "source_size": [
+      720,
+      540
+    ],
+    "width": 848,
+    "height": 832,
+    "alignment": 16,
+    "padding_ltrb": [
+      64,
+      64,
+      64,
+      228
+    ],
+    "pixels": 705536,
+    "estimated_dynamic_bytes": 361234432,
+    "banks": 12,
+    "loaded_layers": 77822,
+    "geometry_feasible": 1,
+    "development_images_decoded": 0,
+    "matcher_calls": 0
+  },
+  "input_pins": {
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\INPUT_CLOSURE.json": {
+      "sha256": "c98625c7f83c443577393363f9a1e575148af9668258179efd4caa3936d422e6",
+      "bytes": 429873
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\PROTOCOL.json": {
+      "sha256": "c107f651aba89bcc0c731b4f2b6d02afd9f899a339657c3db2856f1d71746fce",
+      "bytes": 8385
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\QUALITY_INPUT_FREEZE.json": {
+      "sha256": "1f89e1067ca7cb3dfcafd91808a465258c1f83dff0ba3792cd61124df5ce07ad",
+      "bytes": 118257
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\BANK_FREEZE.json": {
+      "sha256": "251468547353cafa5e08846358b2ae19652a4f54cc7c663df2baffba478be56c",
+      "bytes": 12371
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_plan_v1\\COMMON_PADDING_FREEZE.json": {
+      "sha256": "1dc9ff7ac43022201a691528312a843ed9367fa20516e723cd81254ae4786d1e",
+      "bytes": 1791
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\training_audit.json": {
+      "sha256": "a3d0f73d0f0705f53a700bb2279b680e7788e108bc8a584db7e5fd75b60de1ea",
+      "bytes": 2996
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_plan_v1\\plan_audit.json": {
+      "sha256": "8cf5e7fc1b8e717a6cf8e01ee095e218cd6a402b0cc1c052c5bf7e705a6605af",
+      "bytes": 434
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\training_summary.json": {
+      "sha256": "117135aa623ffd83b64fbbffa1fa7737e7f4b97670b1e4dcaf94c293244ee82d",
+      "bytes": 2059
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\template_attempts.csv": {
+      "sha256": "53320ec63d49cbb44b031da315a2846b83b657a6ea2d665f42a05298de1bc2fd",
+      "bytes": 269036
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\feature_geometry.csv": {
+      "sha256": "5f1272fcbbdb1a4fdc29935f81d09e053f5af55d9eaf61c5200f230b313642e8",
+      "bytes": 566562
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\template_metadata.json": {
+      "sha256": "e28a271013c6f347efeec02e2d40971493fd2ea65db340820a6e4b5d158c806a",
+      "bytes": 1326268
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\templates_tless_object_1.yml.gz": {
+      "sha256": "682468e58025d375ca6b3d128dcc9f8b9d63b36ada241c982a64620de021a597",
+      "bytes": 840940
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\training_config.json": {
+      "sha256": "4d7f354cf88c3c6322f2527c70939c1d16d4fd40e2959d88aae16aa979217d61",
+      "bytes": 1440
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj1\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\template_attempts.csv": {
+      "sha256": "b45ccedccd3186fb7b140d1dff8d4c4808cfcefe4b1a8b8acb0f806de663bdb9",
+      "bytes": 270482
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\feature_geometry.csv": {
+      "sha256": "df9a5fea063f5202ce368b29a4ab41a1c788f76939c44cc368deacf3b7a87e1d",
+      "bytes": 575706
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\template_metadata.json": {
+      "sha256": "ca811456867005a97cf71a1a0e7e8b680a89e228ad47d37a4066455c74502a27",
+      "bytes": 1336550
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\templates_tless_object_2.yml.gz": {
+      "sha256": "7d0ab4249a6fd159619568d39d4bbaac4a20fe1dd11f571b152763f949c88abd",
+      "bytes": 873711
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\training_config.json": {
+      "sha256": "c313fe877c1c1bfeaddad670b07d6d9e41fad6dab94645edd7e4761b631a1187",
+      "bytes": 1440
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj2\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\template_attempts.csv": {
+      "sha256": "46ecf01d968596af3a56185ef96b5fa8bd5b2cb38468aa0386ecfe58cd70f4a4",
+      "bytes": 278777
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\feature_geometry.csv": {
+      "sha256": "19ac8814037b2a0a2fa3457de66de59b87fb33c4d00705badf49c1f0e9185465",
+      "bytes": 594077
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\template_metadata.json": {
+      "sha256": "1f3f1c209458917638cf5d23ab2234832a4e751aeee10c637b1864b359bc4820",
+      "bytes": 1339889
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\templates_tless_object_5.yml.gz": {
+      "sha256": "42f40ac9fbb59582164a4ecde0519cc228addb6919c94674881746f92ef46ea5",
+      "bytes": 964853
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\training_config.json": {
+      "sha256": "149f724f044731aac197214a224ab32e0dcb7cd300aada6ce8f37709e896421b",
+      "bytes": 1440
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj5\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\template_attempts.csv": {
+      "sha256": "9d6615a4150e5b55c3680a8a8446449c96186901f1c67da58b524c828700b6df",
+      "bytes": 278813
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\feature_geometry.csv": {
+      "sha256": "93c3aa48ef0fd5bc1149b56c663069a67cd28fa8f71e96e0c22445b58c04ca00",
+      "bytes": 612803
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\template_metadata.json": {
+      "sha256": "d8d59fe84dd0d227d2e590df0e2f179e78b1682c80158aca6d9624ab56d7257e",
+      "bytes": 1345061
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\templates_tless_object_8.yml.gz": {
+      "sha256": "f03fe338d26eaf8c2a3bb9966b05db3e7d662f33cd95549f556222b11f5babef",
+      "bytes": 1014441
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\training_config.json": {
+      "sha256": "c756308e3e9749aecd7cbb4b52574215fc3b47f54e9e645dd50c0f2600f0d943",
+      "bytes": 1440
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj8\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\template_attempts.csv": {
+      "sha256": "2b260e56be4eb6ea67539787f1341d4306484f86694fdbbb96c0f410f289bbaa",
+      "bytes": 279992
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\feature_geometry.csv": {
+      "sha256": "d559cc814859e8d312c20d39aadd551c2506597a85d7916bb57f03a31882a31a",
+      "bytes": 594680
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\template_metadata.json": {
+      "sha256": "a1e4ad7f3d4c7bc4e344d5d50ee1b2f16be6f1e14fe2b1cc6f5d54d7a4c3d01d",
+      "bytes": 1341872
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\templates_tless_object_12.yml.gz": {
+      "sha256": "152d8296ceaa4331987c5149164c5dec74f40da3225c5519b8738fee9eabbe4f",
+      "bytes": 950937
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\training_config.json": {
+      "sha256": "39723304122242f6ee70f363ae3c5465fe896fb89027f580caa364d96a0289fa",
+      "bytes": 1441
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj12\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\template_attempts.csv": {
+      "sha256": "705f30b8108c9f6c1096df08c87c89cba527c8425644116ab47a43334fa882ed",
+      "bytes": 282526
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\feature_geometry.csv": {
+      "sha256": "578bccf1ac8e3b9febe52a93b64ffd0350802fded278cb5bc82d237271d35aae",
+      "bytes": 604377
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\template_metadata.json": {
+      "sha256": "649caec3322f79c6efa8b286bd510c16f3eea162f3f01a9b8341bb11b48621d3",
+      "bytes": 1343738
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\templates_tless_object_17.yml.gz": {
+      "sha256": "83d471a3b6b5838efc1b77b52d38ee56bfcdbc31743883f67f4760bc2b011cbb",
+      "bytes": 961308
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\training_config.json": {
+      "sha256": "f2f738572f598da3979cd6ab5394258b7e4f43df48bc10fbf5349b7d5acf7a5b",
+      "bytes": 1441
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_training_v1\\obj17\\attempt_errors.txt": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\template_attempts.csv": {
+      "sha256": "8d8f74f44a16d679af9f3787c58c6df9c40e209f154b7afadd5ca162ae4be570",
+      "bytes": 288224
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj1\\rgb_training\\templates_tless_object_1.yml.gz": {
+      "sha256": "e717461ba75e10a2a281ea6a6bbf7e12e11cd4a8b691d896d8062439e70b173e",
+      "bytes": 553232
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\template_attempts.csv": {
+      "sha256": "61372a9a12a37b2a9bf7114fc1821eb343540d25244646ccbe54a9c02147063d",
+      "bytes": 282072
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj2\\rgb_training\\templates_tless_object_2.yml.gz": {
+      "sha256": "b149a0e1ea91b99b00e7da7456426fa6a26bf489f786b3f29f70f08ceea506ef",
+      "bytes": 661726
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\template_attempts.csv": {
+      "sha256": "06e12d8c2344391ce8a9ee9926e8395a32a3781ab1f01344fb1f84f426a81664",
+      "bytes": 279417
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj5\\rgb_training\\templates_tless_object_5.yml.gz": {
+      "sha256": "cc804f08e51529d45f731fef13f9a770df196fad2157efa711ea9c77933d4656",
+      "bytes": 936016
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\template_attempts.csv": {
+      "sha256": "364e59a2a7b0e9fced7fb7a1d0e8fafaf3a6535fd47fb88c34c1666214ca54d0",
+      "bytes": 278924
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj8\\rgb_training\\templates_tless_object_8.yml.gz": {
+      "sha256": "a0587d3d89ccf3236aa86a867ba0cde1cac7e97e5ef8a57ab3c062ead3a962c7",
+      "bytes": 1015469
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\template_attempts.csv": {
+      "sha256": "221d845ca6bb6370d1759ea59d53bbfcc88707b8972367d7856b983f7b16feeb",
+      "bytes": 280828
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj12\\rgb_training\\templates_tless_object_12.yml.gz": {
+      "sha256": "685d860711aed978aadb8f78df849cfd2bcb8c148cbad2c67ad2876406862739",
+      "bytes": 893985
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\template_attempts.csv": {
+      "sha256": "31e8e776cc26b493fb48da8293f00f8e6883f688bfc69355f1a624e241959100",
+      "bytes": 287815
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\frozen_inputs\\obj17\\rgb_training\\templates_tless_object_17.yml.gz": {
+      "sha256": "72b3c40d30cc138497c3c2cac6e1c7aa74965f416be157ae8c8d5a4dc4bbbcdf",
+      "bytes": 878034
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_plan_v1\\loaded_layers.csv": {
+      "sha256": "f61919bc764ff6b6bb50d045681ef9f75c1f5732b08b55c17d7762ad67243a32",
+      "bytes": 4694474
+    },
+    "D:\\h\\shape_based_matching-master\\artifacts\\rgb_empty_mask_experiment\\run_plan_v1\\common_padding_plan.json": {
+      "sha256": "6965565bf9c9c745e4cda1bb56cee5d0d02e1f9b310dd65897959eb55d3d8f8a",
+      "bytes": 353
+    }
+  },
+  "audit_source_pins": {
+    "audit.py": {
+      "sha256": "c4df980f24b8a99c0f5715a16117c4e13dfa7c029f19e584368b9969214f1933",
+      "bytes": 13233
+    },
+    "bank_reader.py": {
+      "sha256": "e1e04de687cae5f972c258fe9380fbd9bd2ea803f2fa20880111ae86eb335e80",
+      "bytes": 3670
+    },
+    "ORIGIN.json": {
+      "sha256": "3c04a76d90ef78fce7a93e6593fc488f13a80ecb496c63d6654224768e1db30e",
+      "bytes": 1014
+    },
+    "test_bank.py": {
+      "sha256": "0bc764ff73d010f4bc0a41f328dec1ed97fe56e69a3e5df02888c1a28ade4e2d",
+      "bytes": 3310
+    },
+    "test_numeric.py": {
+      "sha256": "df81db5e9bf2b6730ab808833254c6a5856cd63d7bb178fe14b7b4a08bdd8a51",
+      "bytes": 7028
+    },
+    "test_scope_and_plan.py": {
+      "sha256": "9650d29ea25696ea355c9358965c5deb9b7e6e88981bad33004748f8d8d10d58",
+      "bytes": 3170
+    },
+    "training_numeric.py": {
+      "sha256": "ae93e3726151233571241e31ea599a4fae0f6aa027c6e0ed22a4082a96ec8889",
+      "bytes": 6072
+    }
+  },
+  "image_files_opened": 0,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "historical_training_freeze_image_decodes": 432,
+  "historical_counter_note": "BANK_FREEZE stores 432 RGB training views; native training source calls imread on both RGB and mask (864 decode calls). Audit itself reads no images.",
+  "limitation": "Numeric serialized evidence only; does not independently re-extract pixels, observe failed partial features, establish SIMD safety or prove quality/speed gains."
+}

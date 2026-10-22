@@ -1,0 +1,10 @@
+{
+  "incomplete": true,
+  "reason": "Previous complete native output member set changed",
+  "native_exit_code": null,
+  "post_verification_passed": false,
+  "actual_matcher_calls": null,
+  "reservation": null,
+  "missing_frames_are_not_negatives": true,
+  "do_not_silently_rerun_reserved_stage": true
+}

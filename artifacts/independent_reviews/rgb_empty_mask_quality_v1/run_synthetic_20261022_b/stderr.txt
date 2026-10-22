@@ -1,0 +1,14 @@
+test_box_origin_metadata_mutations (test_audit.LiteralAndMutations.test_box_origin_metadata_mutations) ... ok
+test_complete_schedule_and_zero_detection_frames (test_audit.LiteralAndMutations.test_complete_schedule_and_zero_detection_frames) ... ok
+test_empty_raw_csv_is_valid_not_a_missing_frame (test_audit.LiteralAndMutations.test_empty_raw_csv_is_valid_not_a_missing_frame) ... ok
+test_every_selected_field_mutation_is_rejected (test_audit.LiteralAndMutations.test_every_selected_field_mutation_is_rejected) ... ok
+test_gt_geometry_and_attribution (test_audit.LiteralAndMutations.test_gt_geometry_and_attribution) ... ok
+test_historical_strata_do_not_hide_changed_control_or_missing_gt (test_audit.LiteralAndMutations.test_historical_strata_do_not_hide_changed_control_or_missing_gt) ... ok
+test_nms_and_gt_threshold_boundaries (test_audit.LiteralAndMutations.test_nms_and_gt_threshold_boundaries) ... ok
+test_reader_pin_mutation_and_image_refusal (test_audit.LiteralAndMutations.test_reader_pin_mutation_and_image_refusal) ... ok
+test_score_float32_bits_and_order_are_exact (test_audit.LiteralAndMutations.test_score_float32_bits_and_order_are_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.023s
+
+OK

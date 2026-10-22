@@ -1,0 +1,54 @@
+{
+    "objects": [
+        {
+            "object_id": 1,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj1"
+        },
+        {
+            "object_id": 2,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj2"
+        },
+        {
+            "object_id": 5,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj5"
+        },
+        {
+            "object_id": 8,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj8"
+        },
+        {
+            "object_id": 12,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj12"
+        },
+        {
+            "object_id": 17,
+            "attempts": 3456,
+            "successful_templates": 0,
+            "opencv_exception_attempts": 0,
+            "directory": "D:\\h\\shape_based_matching-master\\artifacts\\silhouette_template_experiment\\run_source_only_training_v1\\native\\obj17"
+        }
+    ],
+    "attempts": 20736,
+    "zero_success_objects": 6,
+    "opencv_exception_attempts": 0,
+    "training_attempts_complete": 1,
+    "comparison_feasible": 0,
+    "incomplete_comparison": 1,
+    "matcher_calls": 0,
+    "peak_rss_bytes": 56287232.0
+}

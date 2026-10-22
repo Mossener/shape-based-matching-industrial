@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "source_pins": [
+    {
+      "name": "audit.py",
+      "bytes": 24477,
+      "sha256": "78145ab2ab65eac13bb9006b596f60a6f15dfb2951573701da6bb077beaa6eca"
+    },
+    {
+      "name": "numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    {
+      "name": "identity_strata.py",
+      "bytes": 7147,
+      "sha256": "50726009f284be92a86d2e1d3e427cb00a36182316d1a379ef0ce809688e4f6e"
+    },
+    {
+      "name": "test_audit.py",
+      "bytes": 8930,
+      "sha256": "a7e840f34e3ddc1f87416be6aadaa484deb18ce8e24682d40467e023c4e92af2"
+    },
+    {
+      "name": "run_synthetic.py",
+      "bytes": 1626,
+      "sha256": "cf318e96206f13689e11269863a74d3dae47713e617a8f9f40216897beedd4e1"
+    }
+  ],
+  "matcher_calls": 0,
+  "dataset_image_reads": 0,
+  "scope": "Literal numeric oracles and adversarial synthetic mutations only"
+}

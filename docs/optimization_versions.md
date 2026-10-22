@@ -219,3 +219,13 @@
 - 因而该候选继续作为独立实验记录，不接入生产默认；V11 核心和默认路径保持不变。完整证据见 `artifacts/postprocess_optimization/full_api/` 及独立复核 `artifacts/independent_reviews/postprocess_full_api_v2/`。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v26` 标记各阶段。
+
+## V27：RGB 灰度源与空特征选择掩膜的完整质量/速度验证
+
+- 保持 V11 提取器、RGB 灰度裁剪/仿射/黑边、姿态网格、阈值、NMS、GT 规则和固定 848×832 画布不变，只把 `Detector::addTemplate` 的第三参数从官方 warped mask 换成 `cv::Mat()`。六个对象共 20,736 次姿态尝试全部完成；成功模板数为 1:3432、2:3456、5:3456、8:3456、12:3456、17:3456，0 个 OpenCV 异常，几何与 RGB 控制逐姿态一致。77822 个层的联合规划通过，padding 为 `[64,64,64,228]`，估算动态内存 361234432 字节。
+- 固定六对象×400 张开发帧、两条搜索路径的 9,600 次调用完成。RGB control 为 TP/FP/FN=215/42112/185、457279 条 raw candidates；RGB empty-mask 为 183/10019/217、150247 条 raw candidates。候选数下降 67.1%，FP 下降 76.2%，但 TP 净少 32 个（身份保留156、丢失59、新增27）；预注册门 `TP >= 215 && FP < 42112` 失败，所以不能宣称整体准确率提升，也不能替换生产默认。
+- 独立标准库质量审计重算 4,800 行候选摘要、NMS、GT 分配、身份和汇总，逐字段审计通过。旧 gate 96 次、pilot 192 次均通过；V27 的质量结果只使用允许的 T-LESS 开发证据，留出场景、对象25/29和私有磁片/SMD图像未加入发布内容。
+- 独立计时完成 12,288 次调用，其中每路径 2688 个正式配对样本。empty-mask/control 的 fallback 和 fused 配对中位比分别为 0.824297 和 0.836674（约 17.6%/16.3% 中位加速），但 p95 约 1.26，存在回退尾部，不能描述为所有输入稳定加速；计时也不改变质量门失败结论。
+- V27 仅新增隔离实验和证据，生产核心继续冻结在 `b25df46f6ddf9c24fb43f5836f1414dc38c8caed`。完整数据、协议、构建来源、失败记录和独立审计见 `artifacts/rgb_empty_mask_experiment/RESULTS_V27.md`。
+
+本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v27` 标记各阶段。

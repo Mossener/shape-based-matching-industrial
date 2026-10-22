@@ -164,6 +164,41 @@ def same_rows(left, right):
     return left == right
 
 
+def check_path_equality(left, right):
+    need(same_rows(left, right), 'Fallback/fused raw streams differ')
+
+
+def check_coverage(per, selected, equality_keys, expected_keys):
+    need(set(per) == expected_keys and set(equality_keys) == expected_keys and
+         len(equality_keys) == len(expected_keys) and set(selected).issubset(expected_keys),
+         'Per-frame/selected/equality coverage differs')
+    for key in expected_keys:
+        selected.setdefault(key, [])
+
+
+def check_gt_row(row, truth):
+    need(row['class_id'] == truth['class_id'] and number(row['visibility']) == truth['visib_fract'] and
+         tuple(number(row[f'bbox_{a}']) for a in ('x', 'y', 'w', 'h')) == tuple(truth['bbox_obj']),
+         'Ground-truth projection value differs')
+
+
+def check_selected(rows, kept, key, all_labels, eligible_labels):
+    need(len(rows) == len(kept) == len(all_labels) == len(eligible_labels), 'Selected row count differs')
+    for rank, (row, candidate) in enumerate(zip(rows, kept)):
+        need((integer(row['object_id']), integer(row['scene']), integer(row['image']), row['arm']) == key and
+             integer(row['rank']) == rank and row['class_id'] == candidate[0] and
+             integer(row['template_id']) == candidate[1] and integer(row['score_bits']) == candidate[4] and
+             number(row['score']) == score(candidate[4]) and
+             integer(row['match_x']) == candidate[2] and integer(row['match_y']) == candidate[3] and
+             integer(row['training_image']) == candidate[6][0] and
+             float_bits(number(row['angle'])) == candidate[6][1] and
+             float_bits(number(row['scale'])) == candidate[6][2] and
+             tuple(number(row[f'bbox_{a}']) for a in ('x', 'y', 'w', 'h')) == candidate[5] and
+             (row['allGT_label'], integer(row['allGT_id'])) == all_labels[rank] and
+             (row['eligible_label'], integer(row['eligible_id'])) == eligible_labels[rank],
+             'Selected candidate/label differs')
+
+
 def frame_counts(result):
     all_counts, eligible = result['allGT'], result['eligible']
     return dict(raw=len(result['raw']), selected=len(result['kept']),
@@ -251,11 +286,27 @@ def stage_gate(reader, stage_path):
 def audit(stage_path, output):
     reader = Reader(ROOT)
     stage, summary = stage_gate(reader, stage_path)
-    inputs = reader.json(EXPERIMENT / 'QUALITY_INPUT_FREEZE.json')
+    need(Path(stage['quality_inputs']['path']).resolve() == EXPERIMENT / 'QUALITY_INPUT_FREEZE.json',
+         'Stage references a different quality input freeze')
+    inputs = json.loads(reader.check(stage['quality_inputs']).decode('utf-8-sig'))
     need(inputs['objects'] == OBJECTS and inputs['version'] == 'rgb_empty_mask_quality_inputs_v1' and
          inputs['total_matcher_call_budget'] == 22176 and inputs['dataset_image_reads'] == 0 and
          inputs['image_decodes'] == 0 and inputs['matcher_calls'] == 0,
          'Frozen RGB input scope differs')
+    for pin in inputs['frozen_numeric_files']:
+        reader.check(pin)
+    training = reader.json(EXPERIMENT / 'run_training_v1/BANK_FREEZE.json')
+    need(training['native_exit_zero'] is True and training['comparison_feasible'] is True and
+         training['training_attempts_complete'] is True and training['objects'] == OBJECTS and
+         training['attempts'] == 20736, 'Training bank freeze incomplete')
+    for pin in training['files']:
+        reader.check(pin)
+    planning = reader.json(EXPERIMENT / 'run_plan_v1/COMMON_PADDING_FREEZE.json')
+    need(planning['passed'] is True and planning['bank_freeze']['sha256'] ==
+         reader.pin(EXPERIMENT / 'run_training_v1/BANK_FREEZE.json')['sha256'],
+         'Planning/training freeze binding differs')
+    for pin in planning['files']:
+        reader.check(pin)
     common = reader.json(EXPERIMENT / 'run_plan_v1/common_padding_plan.json')
     need(common == {**common, 'width': 848} and common['height'] == 832, 'Padding plan malformed')
     need(common['source_size'] == [720, 540] and common['padding_ltrb'] == [64, 64, 64, 228] and
@@ -272,17 +323,15 @@ def audit(stage_path, output):
     gt_rows = rows_by(gt_csv, lambda r: tuple(integer(r[x]) for x in ('object_id', 'scene', 'image', 'gt_id')))
     equality = table(reader.read(native / 'candidate_equality.csv'), EQ_HEADER)
     expected_keys = {(obj, scene, image, arm) for obj in OBJECTS for scene, image in frames for arm in ARMS}
-    need(set(per) == expected_keys and set(equality_row_key(equality)) == expected_keys and
-         set(selected).issubset(expected_keys),
-         'Per-frame/selected/equality coverage differs')
-    for key in expected_keys:
-        selected.setdefault(key, [])
+    check_coverage(per, selected, equality_row_key(equality), expected_keys)
     eq_map = rows_by(equality, lambda r: (integer(r['object_id']), integer(r['scene']), integer(r['image']), r['arm']))
     banks = {}
     template_counts = {}
     for bank in inputs['rgb_banks']:
         obj = int(bank['object_id'])
         need(obj in OBJECTS and bank['class_id'] == f'tless_object_{obj}', 'Bank identity differs')
+        need(int(bank['treatment_template_count']) == int(training['successful_templates'][str(obj)]),
+             'Treatment count does not derive from accepted training freeze')
         banks[obj] = {
             'rgb_control': metadata(reader, bank['rgb_training'], obj, int(bank['rgb_template_count'])),
             'rgb_empty_mask': metadata(reader, bank['treatment_training'], obj, int(bank['treatment_template_count'])),
@@ -301,16 +350,14 @@ def audit(stage_path, output):
             for key in expected_gt:
                 row = gt_rows[key]
                 truth = next(g for g in gt_for_obj if g['gt_id'] == key[3])
-                need(row['class_id'] == truth['class_id'] and number(row['visibility']) == truth['visib_fract'] and
-                     tuple(number(row[f'bbox_{a}']) for a in ('x', 'y', 'w', 'h')) == truth['bbox_obj'],
-                     'Ground-truth projection value differs')
+                check_gt_row(row, truth)
             results = {}
             for arm in ARMS:
                 raw = parse_raw(reader, native / f'obj{obj}' / arm / f's{frame[0]}_i{frame[1]}_fallback_raw.csv.gz',
                                 frame, 'fallback', obj, banks[obj][arm])
                 fused = parse_raw(reader, native / f'obj{obj}' / arm / f's{frame[0]}_i{frame[1]}_fused_raw.csv.gz',
                                   frame, 'fused', obj, banks[obj][arm])
-                need(same_rows(raw, fused), 'Fallback/fused raw streams differ')
+                check_path_equality(raw, fused)
                 kept = nms(raw)
                 all_counts, all_labels = evaluate(kept, gt_for_obj, False)
                 eligible, eligible_labels = evaluate(kept, gt_for_obj, True)
@@ -325,20 +372,7 @@ def audit(stage_path, output):
                 for field, value in counts.items():
                     expected = float(value) if field.endswith('_sum') else value
                     need(number(p[field]) == expected, f'Per-frame metric differs: {key}/{field}')
-                rows = selected[key]
-                need(len(rows) == len(kept), 'Selected row count differs')
-                for rank, (row, candidate) in enumerate(zip(rows, kept)):
-                    need(integer(row['rank']) == rank and row['class_id'] == candidate[0] and
-                         integer(row['template_id']) == candidate[1] and integer(row['score_bits']) == candidate[4] and
-                         number(row['score']) == score(candidate[4]) and
-                         integer(row['match_x']) == candidate[2] and integer(row['match_y']) == candidate[3] and
-                         integer(row['training_image']) == candidate[6][0] and
-                         float_bits(number(row['angle'])) == candidate[6][1] and
-                         float_bits(number(row['scale'])) == candidate[6][2] and
-                         tuple(number(row[f'bbox_{a}']) for a in ('x', 'y', 'w', 'h')) == candidate[5] and
-                         (row['allGT_label'], integer(row['allGT_id'])) == results[arm]['all_labels'][rank] and
-                         (row['eligible_label'], integer(row['eligible_id'])) == results[arm]['eligible_labels'][rank],
-                         'Selected candidate/label differs')
+                check_selected(selected[key], kept, key, results[arm]['all_labels'], results[arm]['eligible_labels'])
                 eq = eq_map[key]
                 need(integer(eq['fallback_count']) == integer(eq['fused_count']) == len(raw) and
                      integer(eq['exact_order_fields_score_bits']) == integer(eq['reference_exact']) == 1,

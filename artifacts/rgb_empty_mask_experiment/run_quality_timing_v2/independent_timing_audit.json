@@ -1,0 +1,26 @@
+{
+  "version": "rgb_empty_mask_timing_audit_v1",
+  "rows": 12288,
+  "measured_rows": 10752,
+  "exact_own_reference_all": true,
+  "ratios": {
+    "fallback": {
+      "samples": 2688,
+      "match_median": 0.8242970417810308,
+      "match_p95": 1.2578194254773716,
+      "external_median": 0.8238754876499071,
+      "external_p95": 1.255158030593079
+    },
+    "fused": {
+      "samples": 2688,
+      "match_median": 0.8366744038826757,
+      "match_p95": 1.2587012580694645,
+      "external_median": 0.8367699076869985,
+      "external_p95": 1.2577408063736617
+    }
+  },
+  "stage_summary_sha256": "7f2bb99b9cdaf75c781cc4e3a98a55c36e7cdfd65a775a96b2d2f51110dcc461",
+  "passed": true,
+  "matcher_calls": 0,
+  "dataset_image_decodes": 0
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "created_utc": "2026-10-22T07:14:00.203029+00:00",
+  "command": "python -B -m unittest -v test_audit_timing",
+  "fixture_mode": "generated small in-memory corruption fixtures and temporary text-source pins under the new audit directory",
+  "native_runs": 0,
+  "dataset_image_reads": 0
+}

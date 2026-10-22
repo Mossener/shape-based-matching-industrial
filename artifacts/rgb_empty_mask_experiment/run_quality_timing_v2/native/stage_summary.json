@@ -1,0 +1,71 @@
+{
+    "passed": 1,
+    "stage": "timing",
+    "objects": [ 1, 2, 5, 8, 12, 17 ],
+    "unique_frames": 64,
+    "object_frame_combinations": 384,
+    "matcher_calls": 12288.0,
+    "warmup_rounds": 1,
+    "measured_rounds": 7,
+    "exact_own_reference_every_call": 1,
+    "decode_total_ms": 3785.3775000000041,
+    "peak_rss_bytes": 171790336.0,
+    "decode_and_bank_load_excluded_from_external_call": 1,
+    "paired_performance_benchmark": 1,
+    "variants": [
+        {
+            "arm": "rgb_control",
+            "path": "fallback",
+            "samples": 2688,
+            "match_median_ms": 33.985599999999998,
+            "match_p95_ms": 118.5097,
+            "external_median_ms": 34.164499999999997,
+            "external_p95_ms": 118.7226
+        },
+        {
+            "arm": "rgb_control",
+            "path": "fused",
+            "samples": 2688,
+            "match_median_ms": 32.371299999999998,
+            "match_p95_ms": 108.8205,
+            "external_median_ms": 32.633000000000003,
+            "external_p95_ms": 109.0141
+        },
+        {
+            "arm": "rgb_empty_mask",
+            "path": "fallback",
+            "samples": 2688,
+            "match_median_ms": 26.193899999999999,
+            "match_p95_ms": 111.9061,
+            "external_median_ms": 26.270299999999999,
+            "external_p95_ms": 112.5013
+        },
+        {
+            "arm": "rgb_empty_mask",
+            "path": "fused",
+            "samples": 2688,
+            "match_median_ms": 24.942599999999999,
+            "match_p95_ms": 100.1416,
+            "external_median_ms": 25.037199999999999,
+            "external_p95_ms": 100.2804
+        }
+    ],
+    "paired_empty_mask_over_rgb": [
+        {
+            "path": "fallback",
+            "samples": 2688,
+            "match_ratio_median": 0.8242970417810308,
+            "match_ratio_p95": 1.2578194254773716,
+            "external_ratio_median": 0.82387548764990715,
+            "external_ratio_p95": 1.255158030593079
+        },
+        {
+            "path": "fused",
+            "samples": 2688,
+            "match_ratio_median": 0.83667440388267567,
+            "match_ratio_p95": 1.2587012580694645,
+            "external_ratio_median": 0.83676990768699855,
+            "external_ratio_p95": 1.2577408063736617
+        }
+    ]
+}
