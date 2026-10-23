@@ -1,0 +1,2 @@
+{"phase": "pre_hash_estimate", "files": 6094, "input_bytes": 333625244, "free_disk_bytes": 268699762688, "mode": "hash"}
+{"inventory": {"path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_hash_v2_payload\\inventory.json", "bytes": 6349773, "sha256": "59edd80d4c6083286d14044326a665daa41ce999ef11414fb5c9da9cb9ab2ec4"}, "mode": "hash", "declared_pins_verified": 6082, "real_pixel_input_freeze": false}

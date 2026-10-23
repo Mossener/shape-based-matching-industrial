@@ -1,0 +1,19 @@
+{
+  "schema": "ordered_contour_native_compiled_scene_decisions_v2",
+  "status": "red_only_source_prepared_unexecuted",
+  "scope": "Synthetic supplied-label compiled scene lookup reuse; no pixels, decoder, dataset, banks, real candidates, quality or production run",
+  "sources": ["native_candidate_compiled_scene_v2.hpp", "native_candidate_compiled_scene_v2_test.cpp", "run_native_compiled_scene_checks_v2.py"],
+  "implementation_state": "prepare_scene and score_candidate are fixed empty stubs. Coordinator must retain actual ordinary assertion RED before implementation. Ownership/accessor scaffolding is present; it does not construct indexes or score candidates.",
+  "frozen_v1": {
+    "native_candidate_compatibility.hpp": "76ce2bffb0b452d7c5d56d2b4492221402af38f05b677cde89378c8d0361e89e",
+    "native_edge_chains.hpp": "bc39ca22c1c1f80273d8ddbafa57941f9b07a66ac11f10f46e58e9db2ca7ffbf",
+    "native_ordered_match.hpp": "1236a5555c781f639be34beef95ea187d5e57de6d629df1c96805029bc8b85a3"
+  },
+  "factory": "Call frozen v1 prepare_scene once. Private immutable shared storage owns the complete SceneEvidence and map<pixel_id,membership_index> plus map<chain_id,chain_index>. Index values are offsets into owned immutable vectors, never raw pointers. Count one index pair build and complete membership rows/members/chains. Caller label mutation must not alter evidence.",
+  "ownership": "CompiledScene copy shares immutable storage without rebuilding. Move transfers ownership and leaves a null invalid source. evidence/index_work/score on moved-from input throw std::invalid_argument. Copy/move assignment may replace storage; retained owners and moved-to handles remain valid after other handles are destroyed. Ordinary const API only; const_cast/forged/mutated factory evidence remains outside contract.",
+  "score": "Full CandidateScore identical to frozen v1, including every chain MatchResult work counter. Use cached scene indexes without scanning memberships/chains or constructing any scene-wide map. Candidate-local support/template-owner/incident-chain/reuse maps preserve the existing algorithm, checked int64 frame order, sorting, exact GMP thresholds and full original scene chain topology. Never wrap v1 score_candidate as fake caching.",
+  "tests": "28 named tests. Literal singleton/straight/returning-junction/thinning/empty-scene index counts; invalid grids; shared ownership copy/move and assignments; caller/result independence; complete scores/work for directions/radius/bounds/disconnected chains/physical reuse/zero-owned chains/cycles/nonzero origins/asymmetric padding/int64/overflow/GMP; comparator sensitivity for all seven work fields; full 6144-case v1/v2 supplied-label parity with 1024 scene profiles and six scores per compiled scene, zero skips.",
+  "acceptance": "Actual compiler success required. RED is 28 tests, positive ordinary assertion failures, zero errors, normal exit1. GREEN is 28 tests, zero failures/errors, normal exit0. Source byte snapshots, frozen source gate, actual dependency pin equality, compiler job cap and process watchdog receipts retained. Root controls all execution.",
+  "benchmark_plan": "After actual RED and GREEN, source-only synthetic large branching scene paired baseline/cache benchmark will alternate execution order over multiple rounds. Record preparation/index/scoring/end-to-end time, working set and actual build/row/member/chain counters. v1 constructs two scene lookup maps per score; v2 constructs one pair per compiled scene. Compare every candidate observable including work outside timed scoring regions. No machine speed ratio is an acceptance or promotion gate.",
+  "limitations": ["Frozen-v1 equality is regression parity, not a new independent candidate oracle", "Index-work counters are source-instrumented operational counts, not an allocation profiler", "No machine performance measurements have occurred", "No real pixel quality, runtime or production conclusions"]
+}

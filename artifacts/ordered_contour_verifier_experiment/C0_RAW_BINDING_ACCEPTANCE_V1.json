@@ -1,0 +1,59 @@
+{
+  "schema": "c0_raw_binding_acceptance_v1",
+  "status": "complete_saved_C0_numeric_positive_control_exact",
+  "passed": true,
+  "actual_execution_by": "root",
+  "acceptance_scope": "Complete saved C0 fallback raw/own-metadata/NMS/inherited-GT projection replay only",
+  "mapping_red": {
+    "test_methods": 28,
+    "failures": 35,
+    "errors": 0,
+    "receipt": {"path": "c0_numeric_binding_red_v1/receipt.json", "bytes": 2611, "sha256": "e7b8df2015cd85e73a9bd7bdf41292715537e07f3d32e5daf0ab2f37635fdad9"}
+  },
+  "mapping_green": {
+    "test_methods": 28,
+    "failures": 0,
+    "errors": 0,
+    "same_test_bytes_sha256": "d50120a57cac71635bade93597f5cd0e07fed9791729d1e0933a767e01013385",
+    "receipt": {"path": "c0_numeric_binding_green_v1/receipt.json", "bytes": 2593, "sha256": "549372dc9df0b6dd07138207b27baecc0c781cdaf199bbc0c15c9117f554076a"}
+  },
+  "evidence": [
+    {"path": "c0_raw_binding_green_v1/receipt.json", "bytes": 3896, "sha256": "5f673ed3c87164d2d1d7ae19445b0e8241c7a09ba415e410df482b2a0d250684"},
+    {"path": "c0_raw_binding_green_v1/execution/guard_receipt.json", "bytes": 760, "sha256": "15e081400dad65b1c0ed6889ce350f8c13f568b0549dcf01c6d4c75dff2973c2"},
+    {"path": "c0_raw_binding_green_v1_payload/result.json", "bytes": 1467279, "sha256": "019fdde451612aa0b31e8d3e330cd11194979aa66e5284088e134e51e39387eb"},
+    {"path": "c0_raw_binding_green_v1_payload/per_combination.json", "bytes": 1537426, "sha256": "ad2e395e6ef647d0d211128054cca834fafea4ba93c65df7fb626f9979e54618"},
+    {"path": "c0_raw_binding_green_v1_payload/original_c0_gt_identities.json", "bytes": 21392, "sha256": "3b6cf1941a7296b9bb165c25f3d5eec28ef3e628ceea550f78a1d85a4338ffec"}
+  ],
+  "complete_object_frame_combinations": 2400,
+  "raw_rows": 457279,
+  "zero_raw_combinations": 390,
+  "selected_rows": 42327,
+  "allGT": {"tp": 215, "fp": 42112, "fn": 185, "gt": 400},
+  "eligible": {"tp": 209, "fp": 42112, "fn": 165, "gt": 374, "ignored": 6},
+  "original_GT_identity_retention_exact": true,
+  "raw_fields_score_bits_own_pose_boxes_order_exact": true,
+  "NMS_selected_fields_order_assignment_labels_and_per_frame_metrics_exact": true,
+  "payload_unique_files_read_and_end_rehashed": 4809,
+  "payload_unique_bytes": 25422544,
+  "decoded_raw_bytes": 40922149,
+  "guard": {"exit_code": 0, "elapsed_seconds": 57.48499999998603, "peak_working_set_bytes": 222965760, "output_bytes": 3026097},
+  "post_run_review": {
+    "scope": "Metadata/output parsing and source hashes; no real payload reopen or second numeric algorithm",
+    "complete_per_combination_schedule_equal_to_plan": true,
+    "aggregate_counts_equal": true,
+    "allGT_ids_count_unique_and_equal": 215,
+    "eligible_ids_count_unique_and_equal": 209,
+    "source_pin_size_and_sha_matches": 6,
+    "distinct_payload_pin_declarations": 4809
+  },
+  "GT_authority": "Inherited frozen projection; not independently reconstructed official annotations",
+  "dataset_files_opened": 0,
+  "image_reads": 0,
+  "bank_payload_reads": 0,
+  "native_calls": 0,
+  "real_pixel_input_freeze": false,
+  "new_quality_measurement": false,
+  "quality_improvement_claim": false,
+  "performance_claim": false,
+  "production_promotion": false
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "c0_whitelist_v2_guard_invocation_v1",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "-c",
+    "import json, sys, unittest\nflags = dict(optimize=sys.flags.optimize, ignore_environment=sys.flags.ignore_environment, debug=__debug__)\nif flags != dict(optimize=0, ignore_environment=1, debug=True):\n    raise ValueError('Expected assertions active and Python environment ignored')\nsuite = unittest.defaultTestLoader.loadTestsFromName('test_c0_inventory_whitelist_v2')\nif suite.countTestCases() != 9:\n    raise ValueError('Expected exactly nine whitelist tests')\nresult = unittest.TextTestRunner(verbosity=2).run(suite)\npassed = result.wasSuccessful() and result.testsRun == 9 and not result.skipped\nprint(json.dumps(dict(passed=bool(passed), tests_run=result.testsRun, skipped=len(result.skipped),\n                     failures=len(result.failures), errors=len(result.errors), python_flags=flags)), flush=True)\nraise SystemExit(0 if passed else 1)\n"
+  ],
+  "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "source_pins_before": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_payload_inventory_v2.py",
+      "bytes": 18854,
+      "sha256": "930d4b596ae51ba12efde71f405b2e39f9317494e81bc14c80e59808b216647a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\INPUT_INVENTORY_DECISIONS_V2.json",
+      "bytes": 3049,
+      "sha256": "0b73e4ed1be1da1eed226aab74afb8a6b16a2b1318a595494b9ad4755b37f8a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_c0_inventory_whitelist_v2.py",
+      "bytes": 2421,
+      "sha256": "f35750b60311171b155141e62fa0a66598c227a8da2f9bfc23a39ac7301dde7d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\C0_INPUT_PLAN_V1.json",
+      "bytes": 2215868,
+      "sha256": "62610add5d6e40c219a3f9929edb1aa2f87c831d8a678ec4848cf282eb8236c0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_c0_inventory_whitelist_checks_v2.py",
+      "bytes": 6259,
+      "sha256": "fc97acfa2e34ad3868cba940c733e5f954bdaf1b1923eedf2098798f56e2d6d2"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  ],
+  "archive_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_whitelist_green_v3\\source_archive\\prepare_c0_payload_inventory_v2.py",
+      "bytes": 18854,
+      "sha256": "930d4b596ae51ba12efde71f405b2e39f9317494e81bc14c80e59808b216647a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_whitelist_green_v3\\source_archive\\INPUT_INVENTORY_DECISIONS_V2.json",
+      "bytes": 3049,
+      "sha256": "0b73e4ed1be1da1eed226aab74afb8a6b16a2b1318a595494b9ad4755b37f8a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_whitelist_green_v3\\source_archive\\test_c0_inventory_whitelist_v2.py",
+      "bytes": 2421,
+      "sha256": "f35750b60311171b155141e62fa0a66598c227a8da2f9bfc23a39ac7301dde7d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_whitelist_green_v3\\source_archive\\C0_INPUT_PLAN_V1.json",
+      "bytes": 2215868,
+      "sha256": "62610add5d6e40c219a3f9929edb1aa2f87c831d8a678ec4848cf282eb8236c0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_whitelist_green_v3\\source_archive\\run_c0_inventory_whitelist_checks_v2.py",
+      "bytes": 6259,
+      "sha256": "fc97acfa2e34ad3868cba940c733e5f954bdaf1b1923eedf2098798f56e2d6d2"
+    }
+  ],
+  "archive_semantics": "Pre-execution exact copy; workspace sources execute and are rechecked afterward.",
+  "expected_tests": 9,
+  "maximum_seconds": 60,
+  "maximum_observed_peak_working_set_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_disk_bytes": 83886080,
+  "input_payload_access": false,
+  "estimate_or_hash": false,
+  "native_calls": 0
+}

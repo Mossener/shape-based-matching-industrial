@@ -1,0 +1,338 @@
+FAIL decode_zero_and_all_eight_single_bits_without_spreading: complete label grid differs from literal expected grid
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_rejects_every_multibit_byte: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_requires_nonempty_2D_unsigned_eight_bit_single_channel: invalid typed/value input must throw std::invalid_argument
+FAIL decode_odd_width_noncontinuous_ROI_uses_rows_not_flat_storage: complete label grid differs from literal expected grid
+FAIL template_strict_finite_squared_magnitude_and_full_nonzero_mask: complete label grid differs from literal expected grid
+FAIL template_full_mask_is_not_eroded_or_reduced_to_local_strongest: complete label grid differs from literal expected grid
+FAIL template_decodes_invalid_bits_even_outside_mask_or_below_threshold: invalid typed/value input must throw std::invalid_argument
+FAIL template_rejects_missing_wrong_type_or_mismatched_fields: invalid typed/value input must throw std::invalid_argument
+FAIL template_rejects_missing_wrong_type_or_mismatched_fields: invalid typed/value input must throw std::invalid_argument
+FAIL template_rejects_missing_wrong_type_or_mismatched_fields: invalid typed/value input must throw std::invalid_argument
+FAIL template_rejects_missing_wrong_type_or_mismatched_fields: invalid typed/value input must throw std::invalid_argument
+FAIL template_rejects_missing_wrong_type_or_mismatched_fields: invalid typed/value input must throw std::invalid_argument
+FAIL template_selection_handles_three_independently_strided_views: complete label grid differs from literal expected grid
+FAIL native_constant_gray_has_complete_zero_magnitude_and_invalid_labels: unspread shape/type
+FAIL native_constant_gray_has_complete_zero_magnitude_and_invalid_labels: magnitude_squared shape/type
+FAIL native_constant_gray_has_complete_zero_magnitude_and_invalid_labels: phase_degrees shape/type
+FAIL native_constant_gray_has_complete_zero_magnitude_and_invalid_labels: complete label grid differs from literal expected grid
+FAIL native_blur7_Sobel_squared_magnitude_replicate_borders_full_ramp: unspread shape/type
+FAIL native_blur7_Sobel_squared_magnitude_replicate_borders_full_ramp: magnitude_squared shape/type
+FAIL native_blur7_Sobel_squared_magnitude_replicate_borders_full_ramp: phase_degrees shape/type
+FAIL native_scene_weak20_and_template_strong40_have_complete_distinct_grids: complete label grid differs from literal expected grid
+FAIL native_scene_weak20_and_template_strong40_have_complete_distinct_grids: complete label grid differs from literal expected grid
+FAIL native_scene_weak20_and_template_strong40_have_complete_distinct_grids: unspread shape/type
+FAIL native_scene_weak20_and_template_strong40_have_complete_distinct_grids: magnitude_squared shape/type
+FAIL native_scene_weak20_and_template_strong40_have_complete_distinct_grids: phase_degrees shape/type
+FAIL native_exact_weak_squared_400_is_rejected: weak equality magnitude shape/type
+FAIL native_exact_weak_squared_400_is_rejected: weak equality bits shape/type
+FAIL native_exact_weak_squared_400_is_rejected: scene label invalid at weak equality
+FAIL native_exact_strong_squared_1600_retains_scene_but_rejects_template: strong equality magnitude shape/type
+FAIL native_exact_strong_squared_1600_retains_scene_but_rejects_template: scene does not apply strong threshold
+FAIL native_exact_strong_squared_1600_retains_scene_but_rejects_template: template strong equality is unsupported
+FAIL native_vertical_gradient_and_zeroed_raw_border_histogram_votes: vertical magnitude shape/type
+FAIL native_vertical_gradient_and_zeroed_raw_border_histogram_votes: vertical phase shape/type
+FAIL native_vertical_gradient_and_zeroed_raw_border_histogram_votes: vertical unspread shape/type
+FAIL native_vertical_gradient_and_zeroed_raw_border_histogram_votes: complete label grid differs from literal expected grid
+FAIL native_opposite_horizontal_gradient_folds_180_degrees_to_bin_zero: unspread shape/type
+FAIL native_opposite_horizontal_gradient_folds_180_degrees_to_bin_zero: magnitude_squared shape/type
+FAIL native_opposite_horizontal_gradient_folds_180_degrees_to_bin_zero: phase_degrees shape/type
+FAIL native_opposite_horizontal_gradient_folds_180_degrees_to_bin_zero: complete label grid differs from literal expected grid
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: unspread shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: magnitude_squared shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: phase_degrees shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: actual ROI result shape/type
+FAIL native_noncontinuous_ROI_owns_logical_border_and_ignores_parent_poison: owned-clone result shape/type
+FAIL native_full_official_mask_keeps_a_single_pixel_without_erosion: complete label grid differs from literal expected grid
+FAIL native_full_official_mask_keeps_a_single_pixel_without_erosion: full-mask bits shape/type
+FAIL native_full_official_mask_keeps_a_single_pixel_without_erosion: full-mask magnitude shape/type
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_rejects_empty_non_2D_and_non_CV_8UC1_input: invalid typed/value input must throw std::invalid_argument
+FAIL native_optional_mask_and_required_template_mask_have_typed_size_checks: invalid typed/value input must throw std::invalid_argument
+FAIL native_optional_mask_and_required_template_mask_have_typed_size_checks: invalid typed/value input must throw std::invalid_argument
+FAIL native_optional_mask_and_required_template_mask_have_typed_size_checks: invalid typed/value input must throw std::invalid_argument
+FAIL native_optional_mask_and_required_template_mask_have_typed_size_checks: invalid typed/value input must throw std::invalid_argument
+FAIL native_optional_mask_and_required_template_mask_have_typed_size_checks: invalid typed/value input must throw std::invalid_argument
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: unspread shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: magnitude_squared shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: phase_degrees shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: complete label grid differs from literal expected grid
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: unspread shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: magnitude_squared shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: phase_degrees shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: complete label grid differs from literal expected grid
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: unspread shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: magnitude_squared shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: phase_degrees shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: complete label grid differs from literal expected grid
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: unspread shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: magnitude_squared shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: phase_degrees shape/type
+FAIL native_tiny_images_have_valid_complete_fields_and_no_border_labels: complete label grid differs from literal expected grid
+FAIL native_operations_do_not_mutate_caller_image_or_full_mask: owned returned bits shape/type

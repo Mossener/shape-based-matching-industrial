@@ -1,0 +1,1038 @@
+{
+  "phase": "GREEN",
+  "inputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry.hpp",
+      "sha256": "ac227f1b89d83dd95931e42f00ce1caa06a05f112edaa974d48631f969c32897",
+      "bytes": 2724
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_test.cpp",
+      "sha256": "838a150452e14d357437b43652875c844dafcfc7e51002752c917a34fa35a9d7",
+      "bytes": 5843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source\\native_c0_replay_geometry.hpp",
+      "sha256": "ac227f1b89d83dd95931e42f00ce1caa06a05f112edaa974d48631f969c32897",
+      "bytes": 2724
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source\\native_c0_replay_geometry_test.cpp",
+      "sha256": "838a150452e14d357437b43652875c844dafcfc7e51002752c917a34fa35a9d7",
+      "bytes": 5843
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source\\bundle.cpp",
+      "sha256": "0317651e089f8e4f04ab6a756dfe0523c9c165a83d7219ebcb69fbce92f2c83c",
+      "bytes": 145
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup.cpp",
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup.h",
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_local.hpp",
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_matches.hpp",
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_response.hpp",
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_search.hpp",
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_spread.hpp",
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.h",
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.hxx",
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx_mathfun.h",
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx_mathfun.hxx",
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\neon_mathfun.h",
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\neon_mathfun.hxx",
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\sse_mathfun.h",
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\sse_mathfun.hxx",
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp.h",
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_AVX.hxx",
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_AVX512.hxx",
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_NEON.hxx",
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_SSE.hxx",
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_object.hxx",
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_scalar_op.h",
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_scalar_op.hxx",
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_native_c0_replay_geometry_checks_v1.py",
+      "sha256": "776abea672db6208d62ed1a833805008c84589a5589a94b5f1a4976ca4a1ce60",
+      "bytes": 10720
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_compile_child_v1.py",
+      "sha256": "afa5b370b12d73d771591f2f6e16f6cf2ca7e937758e90d6244b1def3578d03c",
+      "bytes": 5369
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\NATIVE_C0_REPLAY_GEOMETRY_DECISIONS_V1.json",
+      "sha256": "d406e64744be0623b6642754e515432d1b1345c0f0bec38d9e5c4804da910b28",
+      "bytes": 1438
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_SOURCE_FREEZE.json",
+      "sha256": "dad88a95b576f428b8a05cccb7663cfac5594847c93e31dd26a9f1e29dc5927f",
+      "bytes": 4447
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f",
+      "bytes": 6376
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82",
+      "bytes": 101477
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+      "sha256": "405619f85721c1fb8a5410216a08ced1083fc28a4d2fa77de2c7e1900ed7b24f",
+      "bytes": 3098071
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\cc1plus.exe",
+      "sha256": "894426c1668e2161608a95696c053fca52f360f618bc98f87220878e43ef425a",
+      "bytes": 40073609
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\as.exe",
+      "sha256": "ee36ea62491a849416e9a238a490c15225d369e5b8ea80974e7dbd3cf804c352",
+      "bytes": 1957164
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\collect2.exe",
+      "sha256": "0ba2388c505a8a3e2f3f53c3a83862257c01fec7f6fca3450d843e4b66d3a988",
+      "bytes": 2254460
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\ld.exe",
+      "sha256": "4d47b5934258e4d6b41c75fa14b5cb88b34fef8ff31c86ecc7a347a0f20cac3b",
+      "bytes": 1917266
+    },
+    {
+      "path": "D:\\opencv-4.12.0\\build\\lib\\libopencv_world4120.dll.a",
+      "sha256": "3d55de3f907264ce146a00608d878a04a12edfd3e1286e320604ba7a68694b19",
+      "bytes": 5295302
+    }
+  ],
+  "frozen_manifest": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\TRAINING_SOURCE_FREEZE.json",
+    "sha256": "dad88a95b576f428b8a05cccb7663cfac5594847c93e31dd26a9f1e29dc5927f",
+    "bytes": 4447
+  },
+  "frozen_core_sources": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup.cpp",
+      "sha256": "85b5eb328a3b5cae3e161561e261833873d25a9f57c7457c4410dd21e52083ab",
+      "bytes": 63388
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup.h",
+      "sha256": "c3a8f742fc897bdcfa83a82a9a025e6b304f410bc081c321695f5e6f7f461fc0",
+      "bytes": 12702
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_local.hpp",
+      "sha256": "1b29137fa481b7c1b5f9c210a2d948aef21fc24219ad43fb59e5df91bbe96001",
+      "bytes": 2785
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_matches.hpp",
+      "sha256": "80c8d1ee482307a0472a46d7a1e4da868154f2f893fcdc32d53b9be8f35c0344",
+      "bytes": 1452
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_response.hpp",
+      "sha256": "33075cfd694488c1b1cb46f8bb821131ed64202f50b5557e4468eea8c0e871a9",
+      "bytes": 2379
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_search.hpp",
+      "sha256": "5a92c1c55bb9a2529307c825859136244e2e8ee40b5bde3ca029248d28b8220a",
+      "bytes": 1596
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\line2Dup_spread.hpp",
+      "sha256": "fe821b7c9eca784817fac78334020ed34630cc2426254cde9df830db9c524c5e",
+      "bytes": 2791
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.h",
+      "sha256": "03db25b84b49d684e1549decfe0c57c5e43ca5bf306dfcda7de547d096247937",
+      "bytes": 600
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx512_mathfun.hxx",
+      "sha256": "d67fd4f5cfaa3adb03fee2554c38ed5ee1f3b003ca2cc51ee591945fe9435b4d",
+      "bytes": 20680
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx_mathfun.h",
+      "sha256": "55ae02ef1d9237c3bf0c244c494f213d35e917959360b3a5635a78b7f18aeea7",
+      "bytes": 1602
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\avx_mathfun.hxx",
+      "sha256": "1ee6ab6881f50d23ef09aaea87713f7d3d523201a94783121ba7b682e9c8ae08",
+      "bytes": 23405
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\neon_mathfun.h",
+      "sha256": "424833726d6ad3445ca1df28c755cfe306791c683e4459e6e3007d4abf117f05",
+      "bytes": 1477
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\neon_mathfun.hxx",
+      "sha256": "9fdc409d65d104a498aef9d88d9b1a675418af8552011f1d9b7daa314767131b",
+      "bytes": 9360
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\sse_mathfun.h",
+      "sha256": "5115fee90e28eee7d0180ddd50f3cf3e45b642162a86381543f5a72a655e5c75",
+      "bytes": 1670
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\math\\sse_mathfun.hxx",
+      "sha256": "ee61b6a78ba2073ec1abc9ad94eb717491da45b9151a37f66f7399c3c47f9c1e",
+      "bytes": 21775
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp.h",
+      "sha256": "7a8c742a19a0797b3340f27e92e6d402669aa7bbc2075d2715d99ebc62202d42",
+      "bytes": 44587
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_AVX.hxx",
+      "sha256": "132aac4ed195155035c4a2d64d0b0e03b66446e36926c0125a0814740f6da126",
+      "bytes": 124908
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_AVX512.hxx",
+      "sha256": "c337badd09b801efda2f41989d915d2e3acd75e5712f9ba3b2279113fe24b1e9",
+      "bytes": 152957
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_NEON.hxx",
+      "sha256": "73284d575af5e6b2d5ac0189b1868c65761d51c280e090612143e61a6564ceb6",
+      "bytes": 95936
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_impl_SSE.hxx",
+      "sha256": "c43c5da8f9b7a4a4ce04f0685f27efcc187c3c57b6903f474fca417ffa823c61",
+      "bytes": 116318
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_object.hxx",
+      "sha256": "3c1fb19b64b1c73f414459bc7c12834d74ce48b522624eabd44f8fda05711412",
+      "bytes": 53284
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_scalar_op.h",
+      "sha256": "ac30e952b00c72d86baf0a8d38f34800af2620db4b6f66b8f423ad48e6ae8db7",
+      "bytes": 748
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP\\mipp_scalar_op.hxx",
+      "sha256": "f4d7b8b9e63291c1ac2c4ae1aeb92e30a1a3d05f9d00d05c164f41efab9dd01c",
+      "bytes": 6187
+    }
+  ],
+  "compiler_tools_queries": [
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-print-prog-name=cc1plus"
+      ],
+      "output": "F:/mysys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/cc1plus.exe"
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-print-prog-name=as"
+      ],
+      "output": "F:/mysys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/as.exe"
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-print-prog-name=collect2"
+      ],
+      "output": "F:/mysys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/collect2.exe"
+    },
+    {
+      "command": [
+        "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "-print-prog-name=ld"
+      ],
+      "output": "F:/mysys2/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe"
+    }
+  ],
+  "build_runtime_before": {
+    "files": [
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "sha256": "405619f85721c1fb8a5410216a08ced1083fc28a4d2fa77de2c7e1900ed7b24f",
+        "bytes": 3098071
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\cc1plus.exe",
+        "sha256": "894426c1668e2161608a95696c053fca52f360f618bc98f87220878e43ef425a",
+        "bytes": 40073609
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\as.exe",
+        "sha256": "ee36ea62491a849416e9a238a490c15225d369e5b8ea80974e7dbd3cf804c352",
+        "bytes": 1957164
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\collect2.exe",
+        "sha256": "0ba2388c505a8a3e2f3f53c3a83862257c01fec7f6fca3450d843e4b66d3a988",
+        "bytes": 2254460
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\ld.exe",
+        "sha256": "4d47b5934258e4d6b41c75fa14b5cb88b34fef8ff31c86ecc7a347a0f20cac3b",
+        "bytes": 1917266
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82",
+        "bytes": 101477
+      },
+      {
+        "path": "D:\\opencv-4.12.0\\build\\bin\\libopencv_world4120.dll",
+        "sha256": "ae91eba014a4d4f5a7f65a139b03b2ef828a879598572c3daf50e01211580ef0",
+        "bytes": 67741314
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libwinpthread-1.dll",
+        "sha256": "459e5414cd8a125bd903dacc5c46227c32ec5a8bdc6d879c062e199dda68cfd4",
+        "bytes": 63675
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgcc_s_seh-1.dll",
+        "sha256": "e1b348336ce95f14217f3e1ea428d82f3707388b4d2657c7f8bf51c03d6f14da",
+        "bytes": 150852
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgmp-10.dll",
+        "sha256": "c2567ccf3f410c3411ba7cd4b7ba14f393a0e70a1d0c0593297df6706b5fba96",
+        "bytes": 681231
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libisl-23.dll",
+        "sha256": "b939a7dee35c8a3062501063b4ebb981df22617ef1cd3f2f62abde4921bf3b0c",
+        "bytes": 2255425
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libmpc-3.dll",
+        "sha256": "bffbc9c0f57cf5c94d849cb40c7f698afb00e9e9d9683c3250546141673a983a",
+        "bytes": 154960
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libmpfr-6.dll",
+        "sha256": "2868720e34ed38b7a66761165a0c827c982ad1b6298dcb1d67c338d46f1e9196",
+        "bytes": 705545
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\zlib1.dll",
+        "sha256": "1dc85208162ee57fe97e892bb5160fe9588903992995f90adc3a3a358dac6fc6",
+        "bytes": 100279
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libzstd.dll",
+        "sha256": "a25427164f8775046eb8ce488d7d08842c3b33224c5817d4c0c3628b5b588129",
+        "bytes": 1196420
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libintl-8.dll",
+        "sha256": "b61f5a1a854812a75e7579fb0417b73ee65c4d67e2ad472bb958c7215f9028de",
+        "bytes": 299064
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libpython3.12.dll",
+        "sha256": "96694da0fa21c21156c5385ddafa272f282304a5a52ee4491d9de56f22b619e0",
+        "bytes": 5841860
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libstdc++-6.dll",
+        "sha256": "0d94ce8452ac363082ed1bc27b71ece6764fa53a811965cb9ef026bc084a5c5e",
+        "bytes": 2430546
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libiconv-2.dll",
+        "sha256": "b37d1b4acab5310c4e4f6e2a961d146454ff740d943724a68fa3cebc85deb7cd",
+        "bytes": 1135869
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+        "sha256": "65ae82a9af5a9fa16fc9bf7a676ab3a8a629da7549f91e903f5848de687bee5d",
+        "bytes": 2613188
+      }
+    ],
+    "system_import_names": [
+      "ADVAPI32.dll",
+      "GDI32.dll",
+      "KERNEL32.dll",
+      "OLEAUT32.dll",
+      "USER32.dll",
+      "VERSION.dll",
+      "WS2_32.dll",
+      "api-ms-win-core-path-l1-1-0.dll",
+      "api-ms-win-crt-conio-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-process-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "bcrypt.dll",
+      "comdlg32.dll",
+      "ole32.dll"
+    ],
+    "pe_imports": [
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll",
+          "libgcc_s_seh-1.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\g++.exe"
+        ],
+        "stdout_sha256": "c96940fc6c57aed371c9942c71e1c174bc0c5a3641d9312f946db5f1bdc99042"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\cc1plus.exe",
+        "imports": [
+          "libgcc_s_seh-1.dll",
+          "libgmp-10.dll",
+          "libisl-23.dll",
+          "KERNEL32.dll",
+          "libmpc-3.dll",
+          "libmpfr-6.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll",
+          "zlib1.dll",
+          "libzstd.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\cc1plus.exe"
+        ],
+        "stdout_sha256": "31d1a82465574dc737257086d254665f166ce04e5aca31849a3395f0ee013009"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\as.exe",
+        "imports": [
+          "libintl-8.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll",
+          "zlib1.dll",
+          "libzstd.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\as.exe"
+        ],
+        "stdout_sha256": "2fc52d72e1782e06680a05d867b757a73e8af9cf0ab9bae8aff0fb9bbc76364a"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\collect2.exe",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll",
+          "libgcc_s_seh-1.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\lib\\gcc\\x86_64-w64-mingw32\\15.1.0\\collect2.exe"
+        ],
+        "stdout_sha256": "45db38ec8c8b4b11535d09ce167346d66a12bcde9f90c2f15ffcdb3be315ff58"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\ld.exe",
+        "imports": [
+          "libintl-8.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll",
+          "zlib1.dll",
+          "libzstd.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\x86_64-w64-mingw32\\bin\\ld.exe"
+        ],
+        "stdout_sha256": "a7b906ccf93e154ffb145250254a20c83fc7a339aae0c073046cbb34037f0fd8"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+        "imports": [
+          "libpython3.12.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\python.exe"
+        ],
+        "stdout_sha256": "9da5611ec84fc77ae0642bdd29bc651e0d4173862a7482f6f90cce409ab308bb"
+      },
+      {
+        "path": "D:\\opencv-4.12.0\\build\\bin\\libopencv_world4120.dll",
+        "imports": [
+          "ADVAPI32.dll",
+          "comdlg32.dll",
+          "libgcc_s_seh-1.dll",
+          "GDI32.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "ole32.dll",
+          "OLEAUT32.dll",
+          "libwinpthread-1.dll",
+          "libstdc++-6.dll",
+          "USER32.dll",
+          "WS2_32.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "D:\\opencv-4.12.0\\build\\bin\\libopencv_world4120.dll"
+        ],
+        "stdout_sha256": "7dd4e439fe8b2ae84b140134676860b5ead9df2a17ddce36d8a3c74cb84fd378"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libwinpthread-1.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libwinpthread-1.dll"
+        ],
+        "stdout_sha256": "11085313b6197745f7321e41c29c721eb71c2806ac039c65b16a9e6c1a9c0c39"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgcc_s_seh-1.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "libwinpthread-1.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libgcc_s_seh-1.dll"
+        ],
+        "stdout_sha256": "73a79c2e6f34cac0f51dfba8b4bafebdbf2586bec14d137f2f5283b2d8e318a9"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libgmp-10.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libgmp-10.dll"
+        ],
+        "stdout_sha256": "8c8cee0e4fe336df93b6022cee0eea906f57ee637cd692442bfe347eb4be9787"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libisl-23.dll",
+        "imports": [
+          "libgmp-10.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libisl-23.dll"
+        ],
+        "stdout_sha256": "01484d0c0d4e9b7f0ea9702e409d62bea5309c158b4fa583ae94955f7bfa499b"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libmpc-3.dll",
+        "imports": [
+          "libgmp-10.dll",
+          "KERNEL32.dll",
+          "libmpfr-6.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libmpc-3.dll"
+        ],
+        "stdout_sha256": "f3e5b028f984e3af107bef70ff3337a6f8bfa619d070e0c552c35b3cb021baa2"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libmpfr-6.dll",
+        "imports": [
+          "libgcc_s_seh-1.dll",
+          "libgmp-10.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libmpfr-6.dll"
+        ],
+        "stdout_sha256": "a2e1793d93ffc19d1f0f6027bd4f321081c19f2cda428bd02a1f04da2c276cfe"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\zlib1.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\zlib1.dll"
+        ],
+        "stdout_sha256": "4e090a18ec95a11cbbd4e90a4c2b12d3e077a1ab140a8468ef7673840c96ffa5"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libzstd.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libzstd.dll"
+        ],
+        "stdout_sha256": "da6656fa0d76db3f87fccacbc1eded0ab343f3095e51516b34253a56daf0081e"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libintl-8.dll",
+        "imports": [
+          "ADVAPI32.dll",
+          "libiconv-2.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libintl-8.dll"
+        ],
+        "stdout_sha256": "d6b086801e06dfd444e39c628f8dff994bc034f50a3892d80a9f60830635a0f4"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libpython3.12.dll",
+        "imports": [
+          "ADVAPI32.dll",
+          "bcrypt.dll",
+          "libgcc_s_seh-1.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-conio-l1-1-0.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-process-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "api-ms-win-core-path-l1-1-0.dll",
+          "VERSION.dll",
+          "WS2_32.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libpython3.12.dll"
+        ],
+        "stdout_sha256": "5329b178dc2d60e22d64486b08caf8858309711219da6866089a803bba1832b9"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libstdc++-6.dll",
+        "imports": [
+          "libgcc_s_seh-1.dll",
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-environment-l1-1-0.dll",
+          "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-math-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-time-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll",
+          "libwinpthread-1.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libstdc++-6.dll"
+        ],
+        "stdout_sha256": "76e1f15d81896547768ac8c487e6f3a8e2852faa53d285bf396cd60ebe6aa2be"
+      },
+      {
+        "path": "F:\\mysys2\\ucrt64\\bin\\libiconv-2.dll",
+        "imports": [
+          "KERNEL32.dll",
+          "api-ms-win-crt-convert-l1-1-0.dll",
+          "api-ms-win-crt-heap-l1-1-0.dll",
+          "api-ms-win-crt-locale-l1-1-0.dll",
+          "api-ms-win-crt-private-l1-1-0.dll",
+          "api-ms-win-crt-runtime-l1-1-0.dll",
+          "api-ms-win-crt-stdio-l1-1-0.dll",
+          "api-ms-win-crt-string-l1-1-0.dll",
+          "api-ms-win-crt-utility-l1-1-0.dll"
+        ],
+        "command": [
+          "F:\\mysys2\\ucrt64\\bin\\objdump.exe",
+          "-p",
+          "F:\\mysys2\\ucrt64\\bin\\libiconv-2.dll"
+        ],
+        "stdout_sha256": "0500b0f2d36a2e9b001f990c9811a7e2e53d6dcbfc033254baa3c1629c8cbd57"
+      }
+    ],
+    "limitation": "Recursively resolved non-system static PE imports; OS/API-set DLLs named but not hashed; no claim about dynamic plugins or every OS resource"
+  },
+  "declared_commands": [
+    [
+      "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+      "-std=c++17",
+      "-O3",
+      "-mssse3",
+      "-msse4.1",
+      "-fopenmp",
+      "-Wall",
+      "-Wextra",
+      "-Wno-sign-compare",
+      "-Wno-unused-function",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP",
+      "-ID:\\opencv-4.12.0\\build",
+      "-ID:\\opencv-4.12.0\\modules\\core\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgproc\\include",
+      "-ID:\\opencv-4.12.0\\modules\\highgui\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgcodecs\\include",
+      "-ID:\\opencv-4.12.0\\modules\\videoio\\include",
+      "-M",
+      "-MT",
+      "adapter.o",
+      "-MF",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\declared.d",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source\\bundle.cpp"
+    ],
+    [
+      "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+      "-std=c++17",
+      "-O3",
+      "-mssse3",
+      "-msse4.1",
+      "-fopenmp",
+      "-Wall",
+      "-Wextra",
+      "-Wno-sign-compare",
+      "-Wno-unused-function",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11",
+      "-ID:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\control_v11\\MIPP",
+      "-ID:\\opencv-4.12.0\\build",
+      "-ID:\\opencv-4.12.0\\modules\\core\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgproc\\include",
+      "-ID:\\opencv-4.12.0\\modules\\highgui\\include",
+      "-ID:\\opencv-4.12.0\\modules\\imgcodecs\\include",
+      "-ID:\\opencv-4.12.0\\modules\\videoio\\include",
+      "-MD",
+      "-MT",
+      "adapter.o",
+      "-MF",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\actual.d",
+      "-c",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source\\bundle.cpp",
+      "-o",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\adapter.o"
+    ],
+    [
+      "F:\\mysys2\\ucrt64\\bin\\g++.exe",
+      "-fopenmp",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\adapter.o",
+      "D:\\opencv-4.12.0\\build\\lib\\libopencv_world4120.dll.a",
+      "-o",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\native_test.exe"
+    ]
+  ],
+  "synthetic_mats_only": true,
+  "translation_units": 1,
+  "compiler_commands": 3,
+  "build_memory": "Windows job committed memory 1GiB including GCC children; helper peak working set separately observed",
+  "limitation": "Metadata/tool queries and static PE import inspection occur before the guarded compiler/test child"
+}

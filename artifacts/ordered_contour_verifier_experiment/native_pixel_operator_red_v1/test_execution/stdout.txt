@@ -1,0 +1,1 @@
+NATIVE_PIXEL_OPERATOR_TEST_SUMMARY tests=22 checks=970 failures=338 errors=0

@@ -1,0 +1,20 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_c0_inventory_whitelist_v1"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 180,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_bytes": 83886080,
+  "maximum_execution_bytes": 67108864
+}

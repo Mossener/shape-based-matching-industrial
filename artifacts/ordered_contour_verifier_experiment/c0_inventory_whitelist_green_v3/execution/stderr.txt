@@ -1,0 +1,14 @@
+test_complete_inventory_retains_all_combinations (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_complete_inventory_retains_all_combinations) ... ok
+test_duplicate_training_identity_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_duplicate_training_identity_is_rejected) ... ok
+test_foreign_arm_raw_pin_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_foreign_arm_raw_pin_is_rejected) ... ok
+test_heldout_object_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_heldout_object_is_rejected) ... ok
+test_heldout_scene_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_heldout_scene_is_rejected) ... ok
+test_invalid_hash_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_invalid_hash_is_rejected) ... ok
+test_missing_zero_candidate_combination_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_missing_zero_candidate_combination_is_rejected) ... ok
+test_other_bank_arm_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_other_bank_arm_is_rejected) ... ok
+test_query_padding_from_old_stage_is_rejected (test_c0_inventory_whitelist_v2.InventoryWhitelistTests.test_query_padding_from_old_stage_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.618s
+
+OK

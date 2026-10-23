@@ -1,0 +1,92 @@
+{
+  "schema": "c0_raw_binding_guard_receipt_v1",
+  "passed": true,
+  "source_and_bootstrap_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_raw_binding_v1.py",
+      "bytes": 21742,
+      "sha256": "3a17d5a408e487eacbb5345dbc6e8337bbc3ce240edb0d966ffb08cee4110229"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_numeric_binding_v1.py",
+      "bytes": 9678,
+      "sha256": "cc6346ca1f34b9382fbc92544c9af54e2a259f3cd42e1a8906a9646517b61187"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_payload_inventory_v2.py",
+      "bytes": 18854,
+      "sha256": "930d4b596ae51ba12efde71f405b2e39f9317494e81bc14c80e59808b216647a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\evidence.py",
+      "bytes": 4368,
+      "sha256": "49169118b22c0ccea0b18cc42af275ec0d8d094c0377e2de0041980295b0d6b6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent_quality\\numeric.py",
+      "bytes": 2975,
+      "sha256": "ecd01f68d6ee1d9382428d18a8dccdb8461891bfa3142cd21b4be478380292b8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_c0_raw_binding_v1.py",
+      "bytes": 4456,
+      "sha256": "e9b0da242da1ea2e30e2ba41d8eeee296147b7c1584a1d22224b4b27de166370"
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\C0_INPUT_PLAN_V1.json",
+      "bytes": 2215868,
+      "sha256": "62610add5d6e40c219a3f9929edb1aa2f87c831d8a678ec4848cf282eb8236c0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_inventory_hash_v2_payload\\inventory.json",
+      "bytes": 6349773,
+      "sha256": "59edd80d4c6083286d14044326a665daa41ce999ef11414fb5c9da9cb9ab2ec4"
+    }
+  ],
+  "sources_stable": true,
+  "source_archive_equal": true,
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-E",
+      "-B",
+      "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_raw_binding_v1.py",
+      "c0_raw_binding_green_v1_payload"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+    "started": true,
+    "passed": true,
+    "exit_code": 0,
+    "maximum_seconds": 900,
+    "maximum_rss_bytes": 536870912,
+    "maximum_output_bytes": 16777216,
+    "minimum_free_bytes": 100663296,
+    "maximum_execution_bytes": 67108864,
+    "pid": 29380,
+    "reason": null,
+    "elapsed_seconds": 57.48499999998603,
+    "peak_rss_bytes": 222965760,
+    "native_output_bytes": 3026097,
+    "samples": 1076
+  },
+  "result": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\c0_raw_binding_green_v1_payload\\result.json",
+    "bytes": 1467279,
+    "sha256": "019fdde451612aa0b31e8d3e330cd11194979aa66e5284088e134e51e39387eb"
+  },
+  "inherited_GT_projection_only": true,
+  "real_pixel_input_freeze": false,
+  "quality_improvement_claim": false,
+  "performance_claim": false,
+  "production_promotion": false
+}

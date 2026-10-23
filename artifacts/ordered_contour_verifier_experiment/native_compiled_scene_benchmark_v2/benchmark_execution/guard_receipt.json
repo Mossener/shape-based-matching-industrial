@@ -1,0 +1,20 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_compiled_scene_benchmark_v2\\build\\payload\\native_benchmark.exe"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_compiled_scene_benchmark_v2\\source",
+  "started": true,
+  "passed": true,
+  "exit_code": 0,
+  "maximum_seconds": 120,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 37104,
+  "reason": null,
+  "elapsed_seconds": 2.125,
+  "peak_rss_bytes": 11206656,
+  "native_output_bytes": 0,
+  "samples": 40
+}

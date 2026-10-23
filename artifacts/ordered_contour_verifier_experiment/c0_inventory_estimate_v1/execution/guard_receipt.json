@@ -1,0 +1,25 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_payload_inventory_v1.py",
+    "estimate",
+    "c0_inventory_estimate_v1_payload"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 180,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_bytes": 83886080,
+  "maximum_execution_bytes": 67108864,
+  "pid": 14936,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 0.125,
+  "peak_rss_bytes": 19320832,
+  "native_output_bytes": 0,
+  "samples": 3
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "c0_inventory_guard_invocation_v2",
+  "mode": "tests",
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_c0_inventory_windows_stat_v2"
+  ],
+  "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_payload_inventory_v2.py",
+      "bytes": 18854,
+      "sha256": "930d4b596ae51ba12efde71f405b2e39f9317494e81bc14c80e59808b216647a"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\INPUT_INVENTORY_DECISIONS_V2.json",
+      "bytes": 3049,
+      "sha256": "0b73e4ed1be1da1eed226aab74afb8a6b16a2b1318a595494b9ad4755b37f8a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_c0_inventory_windows_stat_v2.py",
+      "bytes": 3518,
+      "sha256": "32a6597b1915dfbf5fcacbc59ca920abfa1cff7f5d4740eed8d8a636624a4e4b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\C0_INPUT_PLAN_V1.json",
+      "bytes": 2215868,
+      "sha256": "62610add5d6e40c219a3f9929edb1aa2f87c831d8a678ec4848cf282eb8236c0"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_c0_inventory_checks_v2.py",
+      "bytes": 4960,
+      "sha256": "5b9d6528478c69b9a786f57efe041cb715a4fb2ba7cec516f5e845c4242c146c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  ],
+  "source_archive_semantics": "Before-execution exact copy; actual source executes in workspace, then rechecked.",
+  "maximum_seconds": 180,
+  "maximum_observed_peak_working_set_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_disk_bytes": 83886080,
+  "no_image_decode": true,
+  "no_decompress": true,
+  "no_native_calls": true
+}

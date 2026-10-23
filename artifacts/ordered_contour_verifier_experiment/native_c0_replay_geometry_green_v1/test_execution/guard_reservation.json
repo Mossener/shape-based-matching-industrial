@@ -1,0 +1,14 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\build\\payload\\native_test.exe"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_c0_replay_geometry_green_v1\\source",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864
+}

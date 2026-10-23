@@ -1,0 +1,18 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\prepare_c0_raw_binding_v1.py",
+    "c0_raw_binding_green_v1_payload"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 900,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_bytes": 100663296,
+  "maximum_execution_bytes": 67108864
+}

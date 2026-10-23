@@ -1,0 +1,26 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_c0_inventory_windows_stat_v2"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 180,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 16777216,
+  "minimum_free_bytes": 83886080,
+  "maximum_execution_bytes": 67108864,
+  "pid": 26636,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 0.1720000000204891,
+  "peak_rss_bytes": 23433216,
+  "native_output_bytes": 0,
+  "samples": 4
+}

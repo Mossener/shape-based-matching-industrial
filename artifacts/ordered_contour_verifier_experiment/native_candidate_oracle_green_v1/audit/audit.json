@@ -1,0 +1,56 @@
+{
+  "schema": "native_candidate_oracle_audit_v1",
+  "passed": true,
+  "comparisons": 6144,
+  "domain_counts": {
+    "scene_occupancies": 512,
+    "direction_profiles": 2,
+    "templates": 3,
+    "transforms": 2,
+    "scene_profile_combinations": 1024,
+    "skipped_cases": 0,
+    "candidate_comparisons": 6144,
+    "chain_brute_force_comparisons": 6144,
+    "maximum_owned_template_samples": 3,
+    "maximum_scene_chain_points": 5,
+    "empty_scene_records": 60,
+    "outside_padded_records": 3072,
+    "outside_original_records": 4096,
+    "negative_relative_sample_rows": 6144,
+    "cross_chain_reuse_records": 0
+  },
+  "loop_order": [
+    "scene_occupancy",
+    "direction_profile",
+    "template",
+    "transform"
+  ],
+  "zero_skips": true,
+  "independent_all_scene_fields": true,
+  "independent_all_candidate_fields_except_work": true,
+  "optimized_python_expectations_used": false,
+  "work_counters_independently_verified": false,
+  "exact_json_types": true,
+  "duplicate_keys_rejected": true,
+  "floats_and_constants_rejected": true,
+  "inputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_candidate_oracle_green_v1\\fixtures\\generation.json",
+      "bytes": 1858,
+      "sha256": "de418b211935ea88f58a49363dc0da3f3f5c84b853dff3adcf6b0f35ac4832a6"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_candidate_oracle_green_v1\\native_execution\\stdout.txt",
+      "bytes": 8742716,
+      "sha256": "98876ab74e7fa3384de50dc9c744dc691cb45807ded9e95259ff081ebb670e2e"
+    }
+  ],
+  "python_flags": {
+    "optimize": 0,
+    "ignore_environment": 1,
+    "debug": true
+  },
+  "image_decodes": 0,
+  "quality_claim": false,
+  "performance_claim": false
+}
