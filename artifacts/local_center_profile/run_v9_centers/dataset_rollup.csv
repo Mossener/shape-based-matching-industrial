@@ -1,4 +1,0 @@
-dataset,level,total_calls,unique_centers,redundant_calls,duplicate_centers,images,max_frequency,redundant_pct
-LED,0,104937,20316,84621,14105,8,21,80.63981245890392
-LED,1,106231,101791,4440,3803,8,4,4.179570935037795
-case1,0,123,123,0,0,1,1,0.0

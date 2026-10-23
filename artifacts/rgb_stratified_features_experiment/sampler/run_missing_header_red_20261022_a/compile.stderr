@@ -1,4 +1,0 @@
-D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\sampler\run_missing_header_red_20261022_a\source\sampler_literal_tests.cpp:1:10: fatal error: stratified_sampler.hpp: No such file or directory
-    1 | #include "stratified_sampler.hpp"
-      |          ^~~~~~~~~~~~~~~~~~~~~~~~
-compilation terminated.

@@ -1,1 +1,0 @@
-{"passed": true, "literal_only": false, "receipt": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\independent\\evidence\\full_training_audit_v2\\audit_output\\INDEPENDENT_RECEIPT.json"}

@@ -1,2 +1,0 @@
-SMD points: 236 111 46 22
-{"passed":true,"capture":true,"input_count":450,"output_count":41,"matcher_calls":1,"performance_measurement":false}

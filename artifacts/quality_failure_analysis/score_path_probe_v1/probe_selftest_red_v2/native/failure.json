@@ -1,8 +1,0 @@
-{
-    "passed": 0,
-    "reason": "Independent scalar/native score mismatch",
-    "full_class_search_replays_started": 0.0,
-    "public_detector_match_calls": 0,
-    "phase2_started": 0,
-    "partial_results_are_not_negatives": 1
-}

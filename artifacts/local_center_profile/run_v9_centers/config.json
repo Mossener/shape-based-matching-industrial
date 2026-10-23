@@ -1,8 +1,0 @@
-{"purpose":"count-only local-center repetition census",
-"snapshot":"V9 6b7be69 isolated source, unchanged search semantics",
-"center_key":"class, template_id, level, x/T, y/T after clamp and before local similarity",
-"calls_per_image":{"V4_reference":1,"instrumented_V9":1},
-"validation":"exact V4 semantic set and raw count required; strict set recorded",
-"cv_threads":1,"omp_threads":4,"timing":"no performance conclusion; map-counter and retained old timer overhead",
-"LED":{"templates":900,"levels":3,"steps":[4,8,8],"threshold":75},
-"case1":{"templates":361,"levels":2,"steps":[4,8],"threshold":90}}

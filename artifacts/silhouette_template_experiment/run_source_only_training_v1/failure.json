@@ -1,7 +1,0 @@
-{
-  "incomplete": true,
-  "reason": "Native stage incomplete; exit 1 and all failure evidence preserved",
-  "native_exit_code": 1,
-  "post_verification_passed": true,
-  "missing_frames_are_not_negatives": true
-}

@@ -1,6 +1,0 @@
-{
-  "case": "duplicate_tp_assignment",
-  "rejected": true,
-  "expected": "Independent GT labels/IDs differ",
-  "observed": "Independent GT labels/IDs differ"
-}

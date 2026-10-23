@@ -1,8 +1,0 @@
-PADDING pilot s1_i1 baseline=0 auto=0 exact=1
-PADDING pilot s4_i0 baseline=0 auto=0 exact=1
-PADDING pilot s6_i2 baseline=0 auto=0 exact=1
-PADDING pilot s7_i3 baseline=0 auto=0 exact=1
-PADDING pilot s8_i1 baseline=0 auto=0 exact=1
-PADDING pilot s10_i5 baseline=0 auto=0 exact=1
-PADDING pilot s12_i2 baseline=1 auto=1 exact=1
-PADDING pilot s13_i2 baseline=1 auto=1 exact=1

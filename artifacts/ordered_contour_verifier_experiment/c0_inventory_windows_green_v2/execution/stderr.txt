@@ -1,8 +1,0 @@
-test_regular_file_with_mtime_different_from_birth_is_hashed (test_c0_inventory_windows_stat_v2.WindowsFileStampTests.test_regular_file_with_mtime_different_from_birth_is_hashed) ... ok
-test_replacement_after_preflight_is_rejected (test_c0_inventory_windows_stat_v2.WindowsFileStampTests.test_replacement_after_preflight_is_rejected) ... ok
-test_size_change_after_preflight_is_rejected (test_c0_inventory_windows_stat_v2.WindowsFileStampTests.test_size_change_after_preflight_is_rejected) ... ok
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.025s
-
-OK

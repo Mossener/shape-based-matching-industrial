@@ -1,0 +1,32 @@
+name: Build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [simd, scalar, serial]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build dependencies
+        run: sudo apt-get update && sudo apt-get install -y cmake ninja-build libopencv-dev
+      - name: Configure
+        shell: bash
+        run: |
+          options=()
+          if [[ '${{ matrix.configuration }}' == scalar ]]; then options+=(-DSBM_ENABLE_SIMD=OFF); fi
+          if [[ '${{ matrix.configuration }}' == serial ]]; then options+=(-DSBM_ENABLE_OPENMP=OFF); fi
+          cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release "${options[@]}"
+      - name: Build
+        run: cmake --build build --parallel 2
+      - name: Synthetic integration check
+        env:
+          OMP_NUM_THREADS: 2
+        run: ./build/match_example --synthetic
+      - name: Install
+        run: cmake --install build --prefix "$RUNNER_TEMP/sbm-install"

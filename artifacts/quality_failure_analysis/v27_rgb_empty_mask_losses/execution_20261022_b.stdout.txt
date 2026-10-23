@@ -1,7 +1,0 @@
-{"object_id": 1, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"object_id": 2, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"object_id": 5, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"object_id": 8, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"object_id": 12, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"object_id": 17, "object_frames": 400, "arms": 2, "all_raw_and_selected_replayed": true}
-{"passed": true, "identity_status": {"retained": 156, "lost": 59, "gained": 27, "neither": 158}, "categories": {"rgb_control": {"matched": 215, "nms_loss": 23, "raw_gap": 162}, "rgb_empty_mask": {"matched": 183, "nms_loss": 10, "raw_gap": 207}}}

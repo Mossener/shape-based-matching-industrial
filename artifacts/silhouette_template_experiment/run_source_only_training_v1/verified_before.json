@@ -1,9 +1,0 @@
-{
-  "passed": true,
-  "image_files_opened": 864,
-  "image_decodes": 0,
-  "matcher_calls": 0,
-  "image_phase": "training",
-  "protocol_sha256": "88a7476c6b947917978034545cd670a90b8fcc074adf4e4690429e2ebbf3c8c5",
-  "private_file_count": 229
-}

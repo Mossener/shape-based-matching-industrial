@@ -1,6 +1,0 @@
-{
-  "case": "geometry_fit",
-  "expected_rejection": "Geometry derived fit mismatch",
-  "observed_rejection": "Geometry derived fit mismatch",
-  "rejected": true
-}

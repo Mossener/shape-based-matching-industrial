@@ -1,6 +1,0 @@
-{
-  "case": "retention_new_gt",
-  "expected_rejection": "None/auto retention new_gt",
-  "observed_rejection": "None/auto retention new_gt",
-  "rejected": true
-}

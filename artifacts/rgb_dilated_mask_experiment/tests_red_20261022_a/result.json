@@ -1,7 +1,0 @@
-{
-  "expected_red": true,
-  "exit_code": 1,
-  "test_sha256": "97033d515561a79df57e8b15d128ba0a5e91998515c45fe2bce8f6b5db8d618d",
-  "native_calls": 0,
-  "image_decodes": 0
-}

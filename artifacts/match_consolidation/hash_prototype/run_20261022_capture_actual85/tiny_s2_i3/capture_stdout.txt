@@ -1,1 +1,0 @@
-{"passed":true,"capture":true,"input_count":2695,"output_count":641,"matcher_calls":1,"performance_measurement":false}

@@ -1,7 +1,0 @@
-{
-  "passed": false,
-  "error": "dict() got multiple values for keyword argument 'blocker_raw_rank'",
-  "partial_not_quality_evidence": true,
-  "matcher_calls": 0,
-  "image_decodes": 0
-}

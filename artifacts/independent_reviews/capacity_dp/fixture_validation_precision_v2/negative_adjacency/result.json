@@ -1,6 +1,0 @@
-{
-  "case": "negative_adjacency",
-  "rejected": true,
-  "expected": "DP ",
-  "observed": "DP adjacency outside target set"
-}

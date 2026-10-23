@@ -1,1 +1,0 @@
-{"verified": 1, "frames": 0, "image_decodes": 0, "matcher_calls": 0}

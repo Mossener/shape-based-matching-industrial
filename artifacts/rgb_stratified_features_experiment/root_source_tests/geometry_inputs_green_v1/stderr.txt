@@ -1,8 +1,0 @@
-test_all_eighteen_banks_and_six_originals (test_prepare_geometry_inputs.GeometryInputs.test_all_eighteen_banks_and_six_originals) ... ok
-test_failed_audit_changed_outputs_or_unbound_original_rejected (test_prepare_geometry_inputs.GeometryInputs.test_failed_audit_changed_outputs_or_unbound_original_rejected) ... ok
-test_numeric_input_freeze_must_match_accepted_provenance (test_prepare_geometry_inputs.GeometryInputs.test_numeric_input_freeze_must_match_accepted_provenance) ... ok
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.250s
-
-OK

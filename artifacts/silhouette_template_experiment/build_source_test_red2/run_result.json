@@ -1,7 +1,0 @@
-{
-  "exit_code": 1,
-  "reason": "Expected clone ownership RED",
-  "source_policy_sha256": "948D1B2368483F7F263C13B223EB9F0F854E68AF77A574AB0591FA5D51AD3BE6",
-  "matcher_calls": 0,
-  "dataset_image_reads": 0
-}

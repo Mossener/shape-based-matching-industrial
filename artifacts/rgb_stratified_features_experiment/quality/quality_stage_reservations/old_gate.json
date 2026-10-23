@@ -1,9 +1,0 @@
-{
-  "stage": "old_gate",
-  "run": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\quality\\run_old_gate_v1",
-  "maximum_calls": 96,
-  "previous_stage": null,
-  "previous_freeze": null,
-  "total_protocol_maximum": 44736,
-  "policy": "One attempt per fixed stage; preserve reservation and partial evidence; missing frames are never negatives"
-}

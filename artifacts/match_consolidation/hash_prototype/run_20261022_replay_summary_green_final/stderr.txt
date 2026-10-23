@@ -1,9 +1,0 @@
-test_a_complete_rows_and_median_of_paired_ratios (test_replay_summary.ReplaySummary) ... ok
-test_batch_cap_empty_and_signed_zero_fallback (test_replay_summary.ReplaySummary) ... ok
-test_changed_variant_order_count_batch_fields_and_timing_rejected (test_replay_summary.ReplaySummary) ... ok
-test_missing_extra_nonfinite_and_diagnostic_drift_rejected (test_replay_summary.ReplaySummary) ... ok
-
-----------------------------------------------------------------------
-Ran 4 tests in 0.030s
-
-OK

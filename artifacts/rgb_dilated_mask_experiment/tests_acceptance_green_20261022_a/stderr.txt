@@ -1,7 +1,0 @@
-test_acceptance_is_separate_and_requires_both_frozen_inputs (__main__.AuditAcceptanceTests.test_acceptance_is_separate_and_requires_both_frozen_inputs) ... ok
-test_unrelated_failed_or_stale_audit_is_rejected (__main__.AuditAcceptanceTests.test_unrelated_failed_or_stale_audit_is_rejected) ... ok
-
-----------------------------------------------------------------------
-Ran 2 tests in 0.029s
-
-OK

@@ -1,3 +1,0 @@
-class_id,split,tp,fp,fn,gt,ignored,precision,recall,f1,matched_iou_sum,mean_tp_iou,negative_frames,negative_frames_with_fp,negative_fp
-tless_object_5,allGT,1,12,0,1,0,0.0769231,1,0.142857,0.722973,0.722973,7,4,11
-tless_object_5,visibility_ge_0_5,1,12,0,1,0,0.0769231,1,0.142857,0.722973,0.722973,7,4,11

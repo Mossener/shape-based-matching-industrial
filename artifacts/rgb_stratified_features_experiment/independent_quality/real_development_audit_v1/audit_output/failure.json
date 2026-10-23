@@ -1,6 +1,0 @@
-{
-  "passed": false,
-  "error": "ValueError('duplicate declared numeric pin')",
-  "matcher_calls": 0,
-  "image_reads": 0
-}

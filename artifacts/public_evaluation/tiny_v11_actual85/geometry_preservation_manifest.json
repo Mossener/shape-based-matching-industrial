@@ -1,8 +1,0 @@
-{
-  "source": "artifacts\\public_evaluation\\tiny_obj1_geometry_actual_input.json",
-  "source_sha256": "758e5b7efee493736ca0c25de1f50b6a698b90a146530bd93bba5da40e472bdb",
-  "copy": "artifacts\\public_evaluation\\tiny_v11_actual85\\geometry_actual_input.json.gz",
-  "copy_sha256": "81b8fb4818bbbddb49d1f82af3011628201c3cab7f134d8c9faa4f25400a3ede",
-  "bytes": 161478,
-  "decoded_sha256": "758e5b7efee493736ca0c25de1f50b6a698b90a146530bd93bba5da40e472bdb"
-}

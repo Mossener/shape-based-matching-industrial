@@ -1,1 +1,0 @@
-{"numeric_audit_passed": true, "scope": "exact_geometry_only"}

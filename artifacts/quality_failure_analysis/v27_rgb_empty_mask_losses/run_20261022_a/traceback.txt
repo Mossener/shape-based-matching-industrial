@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v27_rgb_empty_mask_losses\run_analysis.py", line 262, in main
-    result=run(output,json.loads((HERE/'PROTOCOL.json').read_text()))
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "D:\h\shape_based_matching-master\artifacts\quality_failure_analysis\v27_rgb_empty_mask_losses\run_analysis.py", line 200, in run
-    edges.append(dict(**common,category=d['category'],**edge,
-                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: dict() got multiple values for keyword argument 'blocker_raw_rank'

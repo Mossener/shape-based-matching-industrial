@@ -1,6 +1,0 @@
-{
-  "case": "raw_origin",
-  "rejected": true,
-  "expected": "Raw metadata/source-origin box",
-  "observed": "Raw metadata/source-origin box"
-}

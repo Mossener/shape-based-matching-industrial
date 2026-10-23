@@ -1,6 +1,0 @@
-{
-  "case": "timing_ratio",
-  "expected_rejection": "Paired timing fallback external_call_median",
-  "observed_rejection": "Paired timing fallback external_call_median",
-  "rejected": true
-}

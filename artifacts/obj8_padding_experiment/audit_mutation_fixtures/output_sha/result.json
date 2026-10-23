@@ -1,6 +1,0 @@
-{
-  "case": "output_sha",
-  "expected_rejection": "Changed output: candidate_equality.csv",
-  "observed_rejection": "Changed output: candidate_equality.csv",
-  "rejected": true
-}

@@ -1,9 +1,0 @@
-{
-  "command": [
-    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\build_observer_v1\\observer.exe",
-    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\inputs_source_20261022_v2\\observer_inputs.json",
-    "D:\\h\\shape_based_matching-master\\artifacts\\quality_failure_analysis\\template_feature_regions_v1\\run_observer_v1\\native"
-  ],
-  "maximum_mask_decodes": 432,
-  "maximum_matcher_calls": 0
-}

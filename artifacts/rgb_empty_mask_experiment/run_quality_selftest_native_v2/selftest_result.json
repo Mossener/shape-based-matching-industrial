@@ -1,8 +1,0 @@
-{
-    "passed": 1,
-    "exact_raw_rows": 2048,
-    "score_bits_and_order_oracles": 1,
-    "actual_arm_origin_box_oracle": 1,
-    "dataset_image_reads": 0,
-    "matcher_calls": 0
-}

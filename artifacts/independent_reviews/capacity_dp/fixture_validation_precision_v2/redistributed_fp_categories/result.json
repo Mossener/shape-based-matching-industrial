@@ -1,6 +1,0 @@
-{
-  "case": "redistributed_fp_categories",
-  "rejected": true,
-  "expected": "Synthetic numeric result differs",
-  "observed": "Synthetic numeric result differs"
-}

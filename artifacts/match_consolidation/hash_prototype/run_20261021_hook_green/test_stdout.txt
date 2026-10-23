@@ -1,1 +1,0 @@
-{"status":"PASS","checks":44,"translation_units":2,"image_decodes":0,"matcher_calls":0,"performance_measurement":false}

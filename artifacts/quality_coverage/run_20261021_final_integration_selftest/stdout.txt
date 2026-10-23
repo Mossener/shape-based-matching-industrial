@@ -1,1 +1,0 @@
-PASS synthetic integration bit decode, strong threshold,2x2 sampler,ROI step,padding context,12 asymmetric warps; no dataset images read

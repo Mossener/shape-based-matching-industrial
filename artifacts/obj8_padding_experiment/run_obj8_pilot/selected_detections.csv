@@ -1,5 +1,0 @@
-scene,image,arm,rank,class_id,score,template_id,match_x,match_y,bbox_x,bbox_y,bbox_w,bbox_h,allGT_label,allGT_id,eligible_label,eligibleGT_id
-12,2,baseline,0,tless_object_8,85.294120788574219,3367,601,105,527,39,164,262,FP,-1,FP,-1
-12,2,auto,0,tless_object_8,85.294120788574219,3367,601,105,527,39,164,262,FP,-1,FP,-1
-13,2,baseline,0,tless_object_8,86.029411315917969,3367,601,105,527,39,164,262,FP,-1,FP,-1
-13,2,auto,0,tless_object_8,86.029411315917969,3367,601,105,527,39,164,262,FP,-1,FP,-1

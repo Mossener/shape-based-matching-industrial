@@ -1,6 +1,0 @@
-{
-  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_timing64\\timing_samples.csv",
-  "original_sha256": "98d77e28a7396139f7cf324c5a88d818f674fea2aca9698ad85cc7129768185a",
-  "injection": "Decoded csv numeric input only; original provenance files and image bytes unchanged",
-  "expected_rejection": "Order/warmup schedule changed"
-}

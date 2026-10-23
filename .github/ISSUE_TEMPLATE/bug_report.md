@@ -1,26 +1,22 @@
 ---
-name: 缺陷与回归
-about: 报告可复现的匹配、构建或性能问题
+name: Bug report
+about: Report a reproducible build or matching problem
 title: "[Bug] "
 labels: bug
 ---
 
-## 实际行为与期望行为
+## Expected and actual behavior
 
-描述问题、出现频率，以及正确结果应是什么。
+## Minimal reproduction
 
-## 最小复现
+- Release or commit:
+- Build command and complete error:
+- Image dimensions/channels, template settings and threshold:
+- Pyramid configuration, mask, pose coverage and matching options:
+- Minimal code or inputs you have permission to share:
 
-- 提交或标签：
-- 输入尺寸、通道、模板来源与特征数：
-- 金字塔、姿态范围、阈值、mask/ROI、优化开关：
-- 调用步骤或最小代码：
-- 可公开分享的最小输入/模板及来源：
+## Environment
 
-## 环境
-
-- OS、CPU、编译器与编译参数：
-- OpenCV 版本、OpenCV/OpenMP 线程设置：
-- 对照版本、测试输出或原始计时：
-
-性能问题请区分构建、搜索与完整调用，注明预热/测量次数和计时范围。
+- OS, CPU, compiler and OpenCV version:
+- OpenCV/OpenMP thread counts:
+- For performance: warmup, measurement scope, repetitions and paired baseline:

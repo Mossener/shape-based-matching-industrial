@@ -1,1 +1,0 @@
-NATIVE_CANDIDATE_TEST_SUMMARY tests=35 checks=307 failures=204 errors=0

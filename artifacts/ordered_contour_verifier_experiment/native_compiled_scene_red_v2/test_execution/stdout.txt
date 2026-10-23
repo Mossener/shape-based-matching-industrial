@@ -1,1 +1,0 @@
-NATIVE_COMPILED_SCENE_TEST_SUMMARY tests=28 checks=8556 failures=8437 errors=0

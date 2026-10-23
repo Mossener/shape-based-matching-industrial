@@ -1,8 +1,0 @@
-{
-  "source": "artifacts\\public_evaluation\\obj1_geometry_actual_input.json",
-  "source_sha256": "3bab4382f0d9179c39cc0040bc07cc98c3b48557cb6fa48d3da2351691e26a75",
-  "copy": "artifacts\\public_evaluation\\expanded_obj1_v11\\geometry_actual_input.json.gz",
-  "copy_sha256": "7a277ef98ed0eac60c2810b362e997459d661b722decd88f4b053ea098388b05",
-  "bytes": 158152,
-  "decoded_sha256": "3bab4382f0d9179c39cc0040bc07cc98c3b48557cb6fa48d3da2351691e26a75"
-}

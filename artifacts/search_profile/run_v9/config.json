@@ -1,7 +1,0 @@
-{"purpose":"throwaway search composition profile, not an uninstrumented speed benchmark",
-"comparison":"current V9 vs isolated instrumented current V9, exact semantic/strict sets and raw counts before profile",
-"timer":"steady_clock; per-template worker elapsed intervals include kernel map zeroing and any conversion; worker sums are not wall or process CPU time",
-"cv_threads":1,"omp_threads":4,"repeats":7,"warmups":2,
-"flags":"all preprocessing and all search options true; fixtures/template banks/thresholds unchanged",
-"LED":{"templates":900,"levels":3,"steps":[4,8,8],"threshold":75},
-"case1":{"templates":361,"levels":2,"steps":[4,8],"threshold":90}}

@@ -1,4 +1,0 @@
-SMD points: 236 111 46 22
-lifetime complete calls=76
-MATCHER_CALLS exact_v11=68 linear16=38 direct16=38 total=144
-PASS V2 direct16 and frozen linear16 ordered contract stage=lifetime comparisons=76

@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "literal_oracles": 5,
-  "numeric_corruptions_rejected": 2,
-  "dataset_image_reads": 0,
-  "image_decodes": 0,
-  "matcher_calls": 0
-}

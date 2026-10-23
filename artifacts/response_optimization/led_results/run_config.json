@@ -1,1 +1,0 @@
-{"levels":3,"repeats":1,"warmups":1,"template_count":900,"threshold":75,"openmp_threads":4,"opencv_threads":1,"padding":64,"angle_step_degrees":2,"scales":[0.90,0.95,1.0,1.05,1.10],"T":[4,8,8]}

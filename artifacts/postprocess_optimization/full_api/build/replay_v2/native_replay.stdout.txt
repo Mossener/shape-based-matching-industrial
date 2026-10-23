@@ -1,1 +1,0 @@
-PASS actual-Match replay traces=25 helper_calls=50 output_archives=50 matcher_calls=0 image_decodes=0

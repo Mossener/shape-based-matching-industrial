@@ -1,6 +1,0 @@
-{
-  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_pilot\\geometry.csv",
-  "original_sha256": "a6319630096ca71a8e8b3cec684de5c3b529e821ff02db316a877ffb8e9c02cc",
-  "injection": "Decoded csv numeric input only; original provenance files and image bytes unchanged",
-  "expected_rejection": "Geometry derived fit mismatch"
-}

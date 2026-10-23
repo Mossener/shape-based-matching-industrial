@@ -1,6 +1,0 @@
-{
-  "case": "nonempty_zero_gt",
-  "rejected": true,
-  "expected": "DP ",
-  "observed": "DP adjacency outside target set"
-}

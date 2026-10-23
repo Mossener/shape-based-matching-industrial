@@ -1,1 +1,0 @@
-NATIVE_C0_REPLAY_GEOMETRY_TEST_SUMMARY tests=7 checks=4660 failures=0 errors=0

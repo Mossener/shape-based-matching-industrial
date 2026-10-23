@@ -1,1 +1,0 @@
-PASS gzip exact float32/bbox/class/identity roundtrip, 2048 rows and empty archive

@@ -1,25 +1,19 @@
 ---
-name: 工业场景与功能需求
-about: 提交具体场景、约束与验收条件
+name: Feature request
+about: Describe a use case and acceptance criteria
 title: "[Feature] "
 labels: enhancement
 ---
 
-## 使用场景
+## Use case and current limitation
 
-说明对象、背景、光照、相机或图像来源，以及当前流程的限制。
+## Requested behavior
 
-## 需要的行为
+- Inputs, outputs and failure handling:
+- Position, angle, scale and precision requirements:
+- Image dimensions, object count, target latency and hardware:
+- Shareable examples and their license:
 
-- 输入/输出与失败处理：
-- 位置、角度、尺度范围或精度要求：
-- 图像尺寸、目标数量、节拍与硬件约束：
-- 可公开分享的样本与标注：
+## Validation
 
-## 验收方式
-
-分别说明识别质量、定位精度和耗时如何测量；未确定的目标请标明待定。
-
-## 关联路线
-
-关联 docs/industrial-roadmap.md 中的阶段，或说明需要补充的新方向。
+Describe how recognition quality, localization error and processing time should be measured.

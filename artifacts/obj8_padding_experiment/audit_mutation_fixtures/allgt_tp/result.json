@@ -1,6 +1,0 @@
-{
-  "case": "allgt_tp",
-  "expected_rejection": "None/baseline/allGT tp",
-  "observed_rejection": "None/baseline/allGT tp",
-  "rejected": true
-}

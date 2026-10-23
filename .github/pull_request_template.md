@@ -1,16 +1,14 @@
-## 问题与最终行为
+## Problem and resulting behavior
 
-说明具体触发条件，以及修改后的行为。
+## Verification
 
-## 验证
+- Commands and results:
+- Regression cases and independent reference:
+- Performance or recognition metrics, if applicable:
 
-- 执行命令与结果：
-- 独立参考/回归边界：
-- 性能或识别质量数据（如适用）：
+## Compatibility and provenance
 
-## 影响与来源
-
-- 是否改变阈值、量化、并列、位姿或失败语义：
-- workspace、线程、内存或接口兼容影响：
-- 新引入代码/数据的来源与许可：
-- 版本记录与原始证据链接：
+- Changes to thresholds, quantization, ties, geometry or failure behavior:
+- Workspace/thread/API impact:
+- Source and license of new code:
+- Changelog entry:

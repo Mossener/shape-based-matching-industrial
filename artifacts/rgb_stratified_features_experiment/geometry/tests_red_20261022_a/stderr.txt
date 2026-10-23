@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "D:\h\shape_based_matching-master\artifacts\rgb_stratified_features_experiment\geometry\test_geometry.py", line 11, in <module>
-    from planner import (
-ModuleNotFoundError: No module named 'planner'

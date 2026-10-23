@@ -1,6 +1,0 @@
-{
-  "original_input": "D:\\h\\shape_based_matching-master\\artifacts\\obj8_padding_experiment\\run_obj8_pilot\\selected_detections.csv",
-  "original_sha256": "55df82ae2e003267931eeccd7f0e5bc7baa1ae02b192a6919a0dd1d6cdf0427b",
-  "injection": "Decoded csv numeric input only; original provenance files and image bytes unchanged",
-  "expected_rejection": "Selected identities/order"
-}
