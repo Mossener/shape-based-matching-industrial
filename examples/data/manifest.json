@@ -1,0 +1,156 @@
+{
+  "description": "Real supplied images, converted losslessly from BMP to grayscale PNG; SMD files copied byte for byte.",
+  "template_sources": {
+    "led": "1.png crop x=389,y=225,width=184,height=184",
+    "magnet": "M01.png full image"
+  },
+  "files": [
+    {
+      "file": "examples/data/led/1.png",
+      "original": "LED/1.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "65701249ada359315fee17deda99c564c9604a623ea82f62d036f0335ee0a99e",
+      "sha256": "4e40756f0bdf35b19202b673edacd274902166af34aa438e10aafc358484af66",
+      "gray_pixels_sha256": "7e91c4a7a066c6a12a7052e271bf1ca4521e5436954b7e664462e8ab5fa0be59"
+    },
+    {
+      "file": "examples/data/led/2.png",
+      "original": "LED/2.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "941f4f0abdb6231e63cb1f32f337680222650169991b0dcd75d996e0f8ad4793",
+      "sha256": "d26def4d6c654752011a3ec681d74e142664c51006c159f135f766b84e322196",
+      "gray_pixels_sha256": "967b3cd38adaae2153239ea2609163715495420a756f0bf3642f0fe6cec9bd07"
+    },
+    {
+      "file": "examples/data/led/3.png",
+      "original": "LED/3.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "5face3586adf102e4e71803b67f5655f8d40c3430f174fc7eb5362d883b3abfc",
+      "sha256": "2fa87864b80008ad3bbb5db5c1a7a36afb0d0990e8fdadb78226b45374cbebf2",
+      "gray_pixels_sha256": "96be872f07cb601ec8bb1ea56d93e4ae2da9a1f353068f535e47b955e61f2bf0"
+    },
+    {
+      "file": "examples/data/led/4.png",
+      "original": "LED/4.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "2fe233466bace58b5aef6e6672ad8ab669b1cf766faa651d910cb1286d893328",
+      "sha256": "ab57117167ad75297dbf4377c1a4e34640494d017ff66cc397ff64cce432699f",
+      "gray_pixels_sha256": "7c3bd0ffd4501be6c31fdd451ba1cbff50c4dde020c79bf0b753ad689f6c5861"
+    },
+    {
+      "file": "examples/data/led/5.png",
+      "original": "LED/5.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "7a4f7eefaf6d3f743c88d61904d1fbedb4670d802384c98646cfbc3d50671ce1",
+      "sha256": "6f786ea56f87b8f65d1924755436c5180f1f24cd6bc21b5d10f1de0c96b4e871",
+      "gray_pixels_sha256": "bc954cd830ec1d3678b090b720926e2a2f51cff8b3aecd0a13f139db874b2600"
+    },
+    {
+      "file": "examples/data/led/6.png",
+      "original": "LED/6.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "582e8ef9793fefa357d91ac462b47ff8d13ae79c02b96c3179b743b73610ad04",
+      "sha256": "d6c33ddaf752f47cfb608a8114459a490a80b09e33125017bdda459db26e7a7d",
+      "gray_pixels_sha256": "057e328e238144ff3382011f68ff697f7573e0bacb516720adcc826e8bd9c05d"
+    },
+    {
+      "file": "examples/data/led/7.png",
+      "original": "LED/7.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "3e0de45d54c3ef5b338ef4195aaaf8fe53d3b457a60334634052f5a29b98c942",
+      "sha256": "d4d832b9d8384f55ce96b66bc73bb9f4e48c5434e9f72e10e78f1bdaf9fd8324",
+      "gray_pixels_sha256": "d6f930c3791f9ecbff9409952410dca93f319de1fe7e6610464422ccf0df0c24"
+    },
+    {
+      "file": "examples/data/led/8.png",
+      "original": "LED/8.bmp",
+      "width": 768,
+      "height": 576,
+      "original_sha256": "85b524d5d864993f1cf130a23d66bcc4378d5b0618c0faf4f78dcf8b0221619e",
+      "sha256": "9a1e07136bc6a4fb49b4538a366aa9020e27ba6e90ea1b96452683f728810153",
+      "gray_pixels_sha256": "e6a43c20b1b3e0841e375e1baf233e3ac4fbd790973fb2d8eaac4354e8f27a95"
+    },
+    {
+      "file": "examples/data/led/ku.smd",
+      "original": "LED/ku.smd",
+      "bytes": 74552,
+      "sha256": "d469170319f76f6924597a45c2b820572b8c0be2d78cbbc95d00f2ece517a3e0"
+    },
+    {
+      "file": "examples/data/magnet/M01.png",
+      "original": "磁片/M01.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "7e36acbc0f4bc3c162086795ce8d96834c2faf7448c949f94bccb4234a3af1c0",
+      "sha256": "adf45628385ef9e742685bc32f4014035c2dd9a06a058faa855e3a24708e1197",
+      "gray_pixels_sha256": "5e41b0dc20438c872718417c83ad50d0b464601a3ecd7a61819ba28dfb449f13"
+    },
+    {
+      "file": "examples/data/magnet/M02.png",
+      "original": "磁片/M02.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "8d5a7c0fed0df2210642a4ffe53d7928843e7ff1700707aeaccc144ce4642822",
+      "sha256": "703fbf2b4c5c1223c1ee2f1565c72025c9835de4e1822b36c319e5339e5b29b4",
+      "gray_pixels_sha256": "6adecda19f6c8a6bb32b0cbd332855ea3efb58620c1291d713d9fa22d63513c6"
+    },
+    {
+      "file": "examples/data/magnet/M03.png",
+      "original": "磁片/M03.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "e2d17bb803fd2e0c24ce955dbb6e218e3c0d11f65fd65aba650a47a4740529bf",
+      "sha256": "54e70e1f4fb70c3097758c1d1d3ea1f8ad2fd182fb71a51223b28bf6efc96b5f",
+      "gray_pixels_sha256": "e315e55f910820540c66ce3c1619b95bd7adefc6a5e93231e1f446259ada7028"
+    },
+    {
+      "file": "examples/data/magnet/M04.png",
+      "original": "磁片/M04.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "118f1ddca0b2d3106ac9158524f8c5b73052499a7b57f4f597861209a4c12ee1",
+      "sha256": "b49bbab4d15f8062342980b412343248108cdfd435138ff002958543e91e9253",
+      "gray_pixels_sha256": "3a38d7bef7246fb5f2060ea0416c03b34dbf482cf22b7877f027c8684c9bece6"
+    },
+    {
+      "file": "examples/data/magnet/M05.png",
+      "original": "磁片/M05.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "61a2afeb12a668c8fa77875f7796dc96adfa78bc75a4ca59b505505220c36dcb",
+      "sha256": "83042e7e81b2331b8fa02b85f31fcfecc1aadff07b8bd445b5d17c9b5176c7bf",
+      "gray_pixels_sha256": "04dd927ed58ccdd36157583b9aaf68e0c33af0141dcad91405ba70492aaf7335"
+    },
+    {
+      "file": "examples/data/magnet/M06.png",
+      "original": "磁片/M06.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "301a274093909d156b297cdd6176ee2bef8cd1bea3731c59b317a65cb5c68676",
+      "sha256": "94f691a8c771626c59e4098e7c866099c754479cea4f264838649abd48f1e831",
+      "gray_pixels_sha256": "bdd3016f6bd4da31941e8ac0b5646434574e8c2a470ef1205bf2a8a9010c81f1"
+    },
+    {
+      "file": "examples/data/magnet/M07.png",
+      "original": "磁片/M07.bmp",
+      "width": 640,
+      "height": 480,
+      "original_sha256": "fad3fe7e3e5740bb3c1c03aa7d582ba1949e13208334c8eab7f20b44222b53e3",
+      "sha256": "c6804067f955ea81a848647d5c399b1a8e2cb6fe91f8c030f72f07b44a2e9049",
+      "gray_pixels_sha256": "7914634ba594c12df39e0ced2e49a22e65d0e77aa5d774d82cea2d1523afc86e"
+    },
+    {
+      "file": "examples/data/magnet/moban.smd",
+      "original": "磁片/moban.smd",
+      "bytes": 652672,
+      "sha256": "6335f11e6b3c806bbd2e0b4fd2ab5150c015d3e9d18908b78ef6e316aeb06166"
+    }
+  ]
+}

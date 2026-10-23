@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add real LED and magnetic-part matching examples, losslessly converted input images, supplied SMD models and a C++ reproduction command. Show observed results and identify template-source images and evaluation limits.
+
 ## 0.1.0 — 2026-10-23
 
 First source release with a distribution focused on the C++ matcher.

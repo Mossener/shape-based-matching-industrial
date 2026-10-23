@@ -52,6 +52,8 @@ endif()
 if(SBM_BUILD_EXAMPLE)
     add_executable(match_example examples/match.cpp)
     target_link_libraries(match_example PRIVATE shape_based_matching::shape_based_matching)
+    add_executable(showcase_example examples/showcase.cpp)
+    target_link_libraries(showcase_example PRIVATE shape_based_matching::shape_based_matching)
 endif()
 
 install(TARGETS shape_based_matching EXPORT shape_based_matchingTargets

@@ -29,3 +29,5 @@ OpenCV 4 is an external build/runtime dependency, not bundled in this source rel
 ## Images, datasets and research material
 
 Release 0.1.0 contains no image dataset, SMD file, paper PDF or generated matching result. The example generates its own simple raster shapes in memory. Historical snapshots may contain earlier research assets; the root source-code license does not relicense third-party data, papers or private input material retained in Git history.
+
+After 0.1.0, real LED and magnetic-part photographs and two sample SMD models were added under `examples/data/`, with matching previews under `docs/images/`. These inputs were supplied for this project and published with the provider's permission. They are separate from the upstream matcher source and are not an upstream benchmark. See [sample provenance](examples/data/README.md); no additional third-party data rights are inferred from the source-code license.
