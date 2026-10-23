@@ -1,0 +1,105 @@
+{
+  "schema": "synthetic_chain_acceptance_v1",
+  "passed": true,
+  "scope": "Tiny supplied-label thinning, chain topology, sampling, ownership and exact cell weights only",
+  "run_receipts": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\receipt.json",
+      "bytes": 2447,
+      "sha256": "9e1e84622684103797697a821973b2ce9d39777e0b011f1fd6c0272dd7c36e2b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_green_v1\\receipt.json",
+      "bytes": 2440,
+      "sha256": "1d753627d109365a958034c0eecdb250c50be6d026f2b0372c30946b0a96e0e8"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\independent_edge_red_v1\\receipt.json",
+      "bytes": 3063,
+      "sha256": "eda62679b8e1ce3e78ad62346802f24fee0cf15639f9828917ef5628746e242e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\independent_edge_green_v1\\receipt.json",
+      "bytes": 3060,
+      "sha256": "1cd3067414dabda5393c9e0c5992e98989b3cabfb0ac821ed2e01c11b9f1ca40"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\receipt.json",
+      "bytes": 2729,
+      "sha256": "55e619ed68d685abae2c685e7548601c647d32b74de6c77a4d2512c494834bf4"
+    }
+  ],
+  "current_sources_and_reports": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains.py",
+      "bytes": 15259,
+      "sha256": "5f7e9890a57014653363cd73d4af304ee2f228f55e7f0c12777a50a3e62b8f3d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_edge_chains.py",
+      "bytes": 10709,
+      "sha256": "7175ecf4981492825343215e1e5fbcde6950d5705a5c7531a0107a215ebe2047"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\independent_edge_oracle.py",
+      "bytes": 13628,
+      "sha256": "bca66cf17ab0036aecd3c7f6f141e925d50055385cd95d53fa9659299bab5315"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_independent_edge_oracle.py",
+      "bytes": 12637,
+      "sha256": "7736b81e046b693983b10ccc2c619b49de2881cc13eef3e7b2fd0e226a6a97cc"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_edge_faults_v1.py",
+      "bytes": 6987,
+      "sha256": "e0eba152e2146d3293b81ad83e657b3354e9fa4fa67f011cc4956d5ae3d0235c"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_chain_checks_v1.py",
+      "bytes": 4933,
+      "sha256": "7d7507705e89aeb6c8158c34b673e3f74a01c8a9ca6e50157de2a057b53db365"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_synthetic_checks_v2.py",
+      "bytes": 5130,
+      "sha256": "64ef98e9083e0f410cbc5cf657d3c8dd01bf923c7da2512204fe784f357c6f3b"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\CHAIN_DECISIONS_V1.json",
+      "bytes": 1813,
+      "sha256": "ee9ea5b3177e4fbd3e3010f6f988b3ef56111da94145ed4a38616850a47b9544"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\STATIC_CHAIN_REVIEW_V1.md",
+      "bytes": 7824,
+      "sha256": "35f9a62c242fd480e1669d2e1b4ad6daf7c55b1804a4e3521933a48ef9f7bec7"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\STATIC_EDGE_ORACLE_REVIEW_V1.md",
+      "bytes": 8516,
+      "sha256": "4dbbbf565be9e840b04476e21dbb282acbe8aec1f17b024ed08fc06fb57e13f1"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\SYNTHETIC_CHAIN_RESULTS_V1.md",
+      "bytes": 3243,
+      "sha256": "0ceb9c96f47ee5b8f932cb9386650cc7fd256435cc0fee91db74d6fe3f74c762"
+    }
+  ],
+  "test_bytes_same_between_red_and_green": true,
+  "finite_oracle_coverage": {
+    "all_3x3_occupancy_bitmaps": 512,
+    "fixed_seed_4x4_or_5x5_cases": 100,
+    "seed": 20261023,
+    "not_all_label_assignments": true
+  },
+  "semantic_temporary_source_faults_rejected": 6,
+  "observed_limits_not_triggered": true,
+  "os_allocation_or_write_hard_caps": false,
+  "image_decodes": 0,
+  "matcher_calls": 0,
+  "real_image_quality_validated": false,
+  "native_speed_validated": false,
+  "production_promotion": false,
+  "heldout_remains_sealed": true
+}

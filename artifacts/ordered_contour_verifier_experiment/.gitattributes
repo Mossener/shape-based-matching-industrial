@@ -1,0 +1,6 @@
+# Preserve exact experiment, snapshot and execution-receipt bytes.
+* -text whitespace=cr-at-eol
+**/source/** -whitespace
+synthetic_red_v1/** -whitespace
+synthetic_green_v1/** -whitespace
+*.txt -whitespace

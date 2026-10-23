@@ -1,0 +1,64 @@
+{
+  "schema": "ordered_chain_checks_receipt_v1",
+  "phase": "RED",
+  "expected_phase_observed": true,
+  "unittest_methods": 25,
+  "assertion_failures": 66,
+  "sources_unchanged": true,
+  "executed_snapshots_equal": true,
+  "snapshot_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\source\\edge_chains.py",
+      "bytes": 3979,
+      "sha256": "2da47f6af2ebb2459122340832e38c00dca977fb22c2b162b951fee7f569657e"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\source\\test_edge_chains.py",
+      "bytes": 10709,
+      "sha256": "7175ecf4981492825343215e1e5fbcde6950d5705a5c7531a0107a215ebe2047"
+    }
+  ],
+  "invocation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\invocation.json",
+    "bytes": 1805,
+    "sha256": "773037b48b932f7889714f7b7eeddeb20deb6e9208d9d01138d0b9a073aca7fa"
+  },
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_edge_chains"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\source",
+    "started": true,
+    "passed": false,
+    "exit_code": 1,
+    "maximum_seconds": 60,
+    "maximum_rss_bytes": 536870912,
+    "maximum_output_bytes": 67108864,
+    "minimum_free_bytes": 0,
+    "maximum_execution_bytes": 67108864,
+    "pid": 34984,
+    "reason": "process_exit_nonzero",
+    "elapsed_seconds": 0.5629999999946449,
+    "peak_rss_bytes": 18550784,
+    "native_output_bytes": 0,
+    "samples": 11
+  },
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\execution\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_chains_red_v1\\execution\\stderr.txt",
+      "bytes": 64068,
+      "sha256": "00a59dc0fb30294761915537fc4958d9a74738262d8a8709931578068b6750c2"
+    }
+  ],
+  "scope": "Synthetic supplied-label grids only; no accuracy or native performance conclusion"
+}

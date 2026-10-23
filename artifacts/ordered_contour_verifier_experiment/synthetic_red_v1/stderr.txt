@@ -1,0 +1,547 @@
+test_a_scene_cycle_cannot_be_used_for_two_laps (test_weighted_ordered_match.WeightedOrderedMatchTests.test_a_scene_cycle_cannot_be_used_for_two_laps) ... FAIL
+test_arbitrary_precision_weights_distinguish_adjacent_huge_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_arbitrary_precision_weights_distinguish_adjacent_huge_integers) ... FAIL
+test_case_direction_tie_precedes_witness_edge_order (test_weighted_ordered_match.WeightedOrderedMatchTests.test_case_direction_tie_precedes_witness_edge_order) ... FAIL
+test_closed_closed_fixes_template_cut_zero (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_closed_fixes_template_cut_zero) ... FAIL
+test_closed_flags_require_actual_booleans (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_flags_require_actual_booleans) ... FAIL
+test_closed_open_can_rotate_template_samples (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_open_can_rotate_template_samples) ... FAIL
+test_compatibility_edges_require_known_template_and_scene_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_compatibility_edges_require_known_template_and_scene_ids) ... 
+  test_compatibility_edges_require_known_template_and_scene_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_compatibility_edges_require_known_template_and_scene_ids) (edges=((2, 10),)) ... FAIL
+  test_compatibility_edges_require_known_template_and_scene_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_compatibility_edges_require_known_template_and_scene_ids) (edges=((1, 20),)) ... FAIL
+test_edges_and_scene_input_order_do_not_change_canonical_result (test_weighted_ordered_match.WeightedOrderedMatchTests.test_edges_and_scene_input_order_do_not_change_canonical_result) ... ok
+test_empty_template_is_a_zero_contribution_chain (test_weighted_ordered_match.WeightedOrderedMatchTests.test_empty_template_is_a_zero_contribution_chain) ... ok
+test_no_edges_keeps_the_complete_weight_denominator (test_weighted_ordered_match.WeightedOrderedMatchTests.test_no_edges_keeps_the_complete_weight_denominator) ... FAIL
+test_no_scene_chains_is_zero_support_with_unchanged_total_weight (test_weighted_ordered_match.WeightedOrderedMatchTests.test_no_scene_chains_is_zero_support_with_unchanged_total_weight) ... FAIL
+test_one_edge_has_its_integer_weight_and_own_chain_identity (test_weighted_ordered_match.WeightedOrderedMatchTests.test_one_edge_has_its_integer_weight_and_own_chain_identity) ... FAIL
+test_one_template_chain_cannot_combine_different_scene_chains (test_weighted_ordered_match.WeightedOrderedMatchTests.test_one_template_chain_cannot_combine_different_scene_chains) ... FAIL
+test_open_closed_can_cross_the_canonical_scene_seam_once (test_weighted_ordered_match.WeightedOrderedMatchTests.test_open_closed_can_cross_the_canonical_scene_seam_once) ... FAIL
+test_open_open_can_require_reverse_scene_direction (test_weighted_ordered_match.WeightedOrderedMatchTests.test_open_open_can_require_reverse_scene_direction) ... FAIL
+test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) ... 
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=True) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=True) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=1.0) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=1.0) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=-1) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=-1) ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier='1') ... FAIL
+  test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier='1') ... FAIL
+test_repeated_compatibility_edges_are_rejected (test_weighted_ordered_match.WeightedOrderedMatchTests.test_repeated_compatibility_edges_are_rejected) ... FAIL
+test_same_template_row_cannot_chain_two_edges (test_weighted_ordered_match.WeightedOrderedMatchTests.test_same_template_row_cannot_chain_two_edges) ... FAIL
+test_scene_chain_id_tie_precedes_witness_edge_order (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_id_tie_precedes_witness_edge_order) ... FAIL
+test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) ... 
+  test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=True) ... FAIL
+  test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=1.0) ... FAIL
+  test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=-1) ... FAIL
+  test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id='1') ... FAIL
+test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) ... FAIL
+test_scene_ids_must_be_unique_even_for_a_closed_chain (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_ids_must_be_unique_even_for_a_closed_chain) ... FAIL
+test_scene_pixel_cannot_be_reused_in_one_correspondence (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_pixel_cannot_be_reused_in_one_correspondence) ... FAIL
+test_scene_pixel_may_belong_to_multiple_distinct_chains (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_pixel_may_belong_to_multiple_distinct_chains) ... FAIL
+test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) ... 
+  test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=True) ... FAIL
+  test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=1.0) ... FAIL
+  test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=-1) ... FAIL
+  test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id='1') ... FAIL
+test_template_ids_must_be_unique_physical_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_ids_must_be_unique_physical_ids) ... FAIL
+test_weighted_optimum_can_use_fewer_points_than_maximum_count (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weighted_optimum_can_use_fewer_points_than_maximum_count) ... FAIL
+test_weights_and_template_ids_have_equal_length (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_and_template_ids_have_equal_length) ... FAIL
+test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) ... 
+  test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=True) ... FAIL
+  test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=1.0) ... FAIL
+  test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=0) ... FAIL
+  test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=-1) ... FAIL
+  test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight='1') ... FAIL
+test_witness_final_edge_tie_uses_ids_not_input_indices (test_weighted_ordered_match.WeightedOrderedMatchTests.test_witness_final_edge_tie_uses_ids_not_input_indices) ... FAIL
+test_witness_tie_compares_reversed_original_edge_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_witness_tie_compares_reversed_original_edge_ids) ... FAIL
+
+======================================================================
+FAIL: test_a_scene_cycle_cannot_be_used_for_two_laps (test_weighted_ordered_match.WeightedOrderedMatchTests.test_a_scene_cycle_cannot_be_used_for_two_laps)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 114, in test_a_scene_cycle_cannot_be_used_for_two_laps
+    self.assertEqual((result.numerator, result.independent_numerator), (2, 4))
+AssertionError: Tuples differ: (0, 0) != (2, 4)
+
+First differing element 0:
+0
+2
+
+- (0, 0)
++ (2, 4)
+
+======================================================================
+FAIL: test_arbitrary_precision_weights_distinguish_adjacent_huge_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_arbitrary_precision_weights_distinguish_adjacent_huge_integers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 146, in test_arbitrary_precision_weights_distinguish_adjacent_huge_integers
+    self.assertEqual((result.numerator, result.independent_numerator),
+AssertionError: Tuples differ: (0, 0) != (16069380442589902755419620923411626025222[79 chars]2753)
+
+First differing element 0:
+0
+1606938044258990275541962092341162602522202993782792835301377
+
+- (0, 0)
++ (1606938044258990275541962092341162602522202993782792835301377,
++  3213876088517980551083924184682325205044405987565585670602753)
+
+======================================================================
+FAIL: test_case_direction_tie_precedes_witness_edge_order (test_weighted_ordered_match.WeightedOrderedMatchTests.test_case_direction_tie_precedes_witness_edge_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 138, in test_case_direction_tie_precedes_witness_edge_order
+    self.assertEqual(result.numerator, 2)
+AssertionError: 0 != 2
+
+======================================================================
+FAIL: test_closed_closed_fixes_template_cut_zero (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_closed_fixes_template_cut_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 105, in test_closed_closed_fixes_template_cut_zero
+    self.assertEqual(result.numerator, 6)
+AssertionError: 0 != 6
+
+======================================================================
+FAIL: test_closed_flags_require_actual_booleans (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_flags_require_actual_booleans)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 219, in test_closed_flags_require_actual_booleans
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_closed_open_can_rotate_template_samples (test_weighted_ordered_match.WeightedOrderedMatchTests.test_closed_open_can_rotate_template_samples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 97, in test_closed_open_can_rotate_template_samples
+    self.assertEqual(result.numerator, 6)
+AssertionError: 0 != 6
+
+======================================================================
+FAIL: test_compatibility_edges_require_known_template_and_scene_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_compatibility_edges_require_known_template_and_scene_ids) (edges=((2, 10),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 186, in test_compatibility_edges_require_known_template_and_scene_ids
+    with self.subTest(edges=edges), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_compatibility_edges_require_known_template_and_scene_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_compatibility_edges_require_known_template_and_scene_ids) (edges=((1, 20),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 186, in test_compatibility_edges_require_known_template_and_scene_ids
+    with self.subTest(edges=edges), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_no_edges_keeps_the_complete_weight_denominator (test_weighted_ordered_match.WeightedOrderedMatchTests.test_no_edges_keeps_the_complete_weight_denominator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 28, in test_no_edges_keeps_the_complete_weight_denominator
+    self.assertEqual((result.numerator, result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0, None, ()) != (0, 0, 8, None, ())
+
+First differing element 2:
+0
+8
+
+- (0, 0, 0, None, ())
+?        ^
+
++ (0, 0, 8, None, ())
+?        ^
+
+
+======================================================================
+FAIL: test_no_scene_chains_is_zero_support_with_unchanged_total_weight (test_weighted_ordered_match.WeightedOrderedMatchTests.test_no_scene_chains_is_zero_support_with_unchanged_total_weight)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 167, in test_no_scene_chains_is_zero_support_with_unchanged_total_weight
+    self.assertEqual((result.numerator, result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0, None) != (0, 0, 13, None)
+
+First differing element 2:
+0
+13
+
+- (0, 0, 0, None)
+?        ^
+
++ (0, 0, 13, None)
+?        ^^
+
+
+======================================================================
+FAIL: test_one_edge_has_its_integer_weight_and_own_chain_identity (test_weighted_ordered_match.WeightedOrderedMatchTests.test_one_edge_has_its_integer_weight_and_own_chain_identity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 37, in test_one_edge_has_its_integer_weight_and_own_chain_identity
+    self.assertEqual((result.numerator, result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (7, 7, 7)
+
+First differing element 0:
+0
+7
+
+- (0, 0, 0)
++ (7, 7, 7)
+
+======================================================================
+FAIL: test_one_template_chain_cannot_combine_different_scene_chains (test_weighted_ordered_match.WeightedOrderedMatchTests.test_one_template_chain_cannot_combine_different_scene_chains)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 122, in test_one_template_chain_cannot_combine_different_scene_chains
+    self.assertEqual((result.numerator, result.independent_numerator), (9, 12))
+AssertionError: Tuples differ: (0, 0) != (9, 12)
+
+First differing element 0:
+0
+9
+
+- (0, 0)
++ (9, 12)
+
+======================================================================
+FAIL: test_open_closed_can_cross_the_canonical_scene_seam_once (test_weighted_ordered_match.WeightedOrderedMatchTests.test_open_closed_can_cross_the_canonical_scene_seam_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 89, in test_open_closed_can_cross_the_canonical_scene_seam_once
+    self.assertEqual(result.numerator, 6)
+AssertionError: 0 != 6
+
+======================================================================
+FAIL: test_open_open_can_require_reverse_scene_direction (test_weighted_ordered_match.WeightedOrderedMatchTests.test_open_open_can_require_reverse_scene_direction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 81, in test_open_open_can_require_reverse_scene_direction
+    self.assertEqual(result.numerator, 10)
+AssertionError: 0 != 10
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 200, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(identifier=bad), self.assertRaises(ValueError):
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 202, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(scene_identifier=bad), self.assertRaises(ValueError):
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 200, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(identifier=bad), self.assertRaises(ValueError):
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 202, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(scene_identifier=bad), self.assertRaises(ValueError):
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 200, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(identifier=bad), self.assertRaises(ValueError):
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 202, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(scene_identifier=bad), self.assertRaises(ValueError):
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (identifier='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 200, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(identifier=bad), self.assertRaises(ValueError):
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_physical_ids_are_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_physical_ids_are_nonnegative_builtin_integers) (scene_identifier='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 202, in test_physical_ids_are_nonnegative_builtin_integers
+    with self.subTest(scene_identifier=bad), self.assertRaises(ValueError):
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_repeated_compatibility_edges_are_rejected (test_weighted_ordered_match.WeightedOrderedMatchTests.test_repeated_compatibility_edges_are_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 180, in test_repeated_compatibility_edges_are_rejected
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_same_template_row_cannot_chain_two_edges (test_weighted_ordered_match.WeightedOrderedMatchTests.test_same_template_row_cannot_chain_two_edges)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 45, in test_same_template_row_cannot_chain_two_edges
+    self.assertEqual((result.numerator, result.independent_numerator), (7, 7))
+AssertionError: Tuples differ: (0, 0) != (7, 7)
+
+First differing element 0:
+0
+7
+
+- (0, 0)
++ (7, 7)
+
+======================================================================
+FAIL: test_scene_chain_id_tie_precedes_witness_edge_order (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_id_tie_precedes_witness_edge_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 130, in test_scene_chain_id_tie_precedes_witness_edge_order
+    self.assertEqual(result.numerator, 7)
+AssertionError: 0 != 7
+
+======================================================================
+FAIL: test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 207, in test_scene_chain_ids_are_unique_nonnegative_builtin_integers
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 207, in test_scene_chain_ids_are_unique_nonnegative_builtin_integers
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 207, in test_scene_chain_ids_are_unique_nonnegative_builtin_integers
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers) (chain_id='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 207, in test_scene_chain_ids_are_unique_nonnegative_builtin_integers
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_chain_ids_are_unique_nonnegative_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_chain_ids_are_unique_nonnegative_builtin_integers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 209, in test_scene_chain_ids_are_unique_nonnegative_builtin_integers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_ids_must_be_unique_even_for_a_closed_chain (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_ids_must_be_unique_even_for_a_closed_chain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 175, in test_scene_ids_must_be_unique_even_for_a_closed_chain
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_pixel_cannot_be_reused_in_one_correspondence (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_pixel_cannot_be_reused_in_one_correspondence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 53, in test_scene_pixel_cannot_be_reused_in_one_correspondence
+    self.assertEqual((result.numerator, result.independent_numerator), (7, 10))
+AssertionError: Tuples differ: (0, 0) != (7, 10)
+
+First differing element 0:
+0
+7
+
+- (0, 0)
+?  ^
+
++ (7, 10)
+?  ^  +
+
+
+======================================================================
+FAIL: test_scene_pixel_may_belong_to_multiple_distinct_chains (test_weighted_ordered_match.WeightedOrderedMatchTests.test_scene_pixel_may_belong_to_multiple_distinct_chains)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 162, in test_scene_pixel_may_belong_to_multiple_distinct_chains
+    self.assertEqual((result.numerator, result.independent_numerator), (9, 9))
+AssertionError: Tuples differ: (0, 0) != (9, 9)
+
+First differing element 0:
+0
+9
+
+- (0, 0)
++ (9, 9)
+
+======================================================================
+FAIL: test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 215, in test_template_chain_id_is_a_nonnegative_builtin_integer
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 215, in test_template_chain_id_is_a_nonnegative_builtin_integer
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 215, in test_template_chain_id_is_a_nonnegative_builtin_integer
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_template_chain_id_is_a_nonnegative_builtin_integer (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_chain_id_is_a_nonnegative_builtin_integer) (chain_id='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 215, in test_template_chain_id_is_a_nonnegative_builtin_integer
+    with self.subTest(chain_id=bad), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_template_ids_must_be_unique_physical_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_template_ids_must_be_unique_physical_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 171, in test_template_ids_must_be_unique_physical_ids
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weighted_optimum_can_use_fewer_points_than_maximum_count (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weighted_optimum_can_use_fewer_points_than_maximum_count)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 60, in test_weighted_optimum_can_use_fewer_points_than_maximum_count
+    self.assertEqual((result.numerator, result.independent_numerator), (14, 20))
+AssertionError: Tuples differ: (0, 0) != (14, 20)
+
+First differing element 0:
+0
+14
+
+- (0, 0)
++ (14, 20)
+
+======================================================================
+FAIL: test_weights_and_template_ids_have_equal_length (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_and_template_ids_have_equal_length)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 195, in test_weights_and_template_ids_have_equal_length
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 191, in test_weights_are_strictly_positive_builtin_integers
+    with self.subTest(weight=bad), self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=1.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 191, in test_weights_are_strictly_positive_builtin_integers
+    with self.subTest(weight=bad), self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 191, in test_weights_are_strictly_positive_builtin_integers
+    with self.subTest(weight=bad), self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 191, in test_weights_are_strictly_positive_builtin_integers
+    with self.subTest(weight=bad), self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_weights_are_strictly_positive_builtin_integers (test_weighted_ordered_match.WeightedOrderedMatchTests.test_weights_are_strictly_positive_builtin_integers) (weight='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 191, in test_weights_are_strictly_positive_builtin_integers
+    with self.subTest(weight=bad), self.assertRaises(ValueError):
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_witness_final_edge_tie_uses_ids_not_input_indices (test_weighted_ordered_match.WeightedOrderedMatchTests.test_witness_final_edge_tie_uses_ids_not_input_indices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 74, in test_witness_final_edge_tie_uses_ids_not_input_indices
+    self.assertEqual(result.numerator, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_witness_tie_compares_reversed_original_edge_ids (test_weighted_ordered_match.WeightedOrderedMatchTests.test_witness_tie_compares_reversed_original_edge_ids)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\test_weighted_ordered_match.py", line 68, in test_witness_tie_compares_reversed_original_edge_ids
+    self.assertEqual(result.numerator, 2)
+AssertionError: 0 != 2
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.026s
+
+FAILED (failures=47)

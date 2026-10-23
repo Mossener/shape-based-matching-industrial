@@ -1,0 +1,25 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_independent_edge_oracle"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\independent_edge_red_v1\\source",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 28932,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 0.4379999999946449,
+  "peak_rss_bytes": 20512768,
+  "native_output_bytes": 0,
+  "samples": 9
+}

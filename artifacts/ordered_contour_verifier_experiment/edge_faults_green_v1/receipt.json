@@ -1,0 +1,69 @@
+{
+  "schema": "ordered_synthetic_checks_receipt_v2",
+  "phase": "GREEN",
+  "expected_phase_observed": true,
+  "unittest_methods": 6,
+  "assertion_failures": 0,
+  "sources_unchanged": true,
+  "executed_snapshots_equal": true,
+  "snapshot_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\source\\edge_chains.py",
+      "bytes": 15259,
+      "sha256": "5f7e9890a57014653363cd73d4af304ee2f228f55e7f0c12777a50a3e62b8f3d"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\source\\independent_edge_oracle.py",
+      "bytes": 13628,
+      "sha256": "bca66cf17ab0036aecd3c7f6f141e925d50055385cd95d53fa9659299bab5315"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\source\\test_edge_faults_v1.py",
+      "bytes": 6987,
+      "sha256": "e0eba152e2146d3293b81ad83e657b3354e9fa4fa67f011cc4956d5ae3d0235c"
+    }
+  ],
+  "invocation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\invocation.json",
+    "bytes": 2076,
+    "sha256": "c1cdd5c038b4c9e44d05cb991004d4b0b7bb4fca4ffcc45e5603d49b1fcbfc25"
+  },
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_edge_faults_v1"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\source",
+    "started": true,
+    "passed": true,
+    "exit_code": 0,
+    "maximum_seconds": 60,
+    "maximum_rss_bytes": 536870912,
+    "maximum_output_bytes": 67108864,
+    "minimum_free_bytes": 0,
+    "maximum_execution_bytes": 67108864,
+    "pid": 36784,
+    "reason": null,
+    "elapsed_seconds": 0.26500000001396984,
+    "peak_rss_bytes": 22781952,
+    "native_output_bytes": 0,
+    "samples": 6
+  },
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\execution\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\edge_faults_green_v1\\execution\\stderr.txt",
+      "bytes": 949,
+      "sha256": "7b0c53e2b09b8a5d93d9f06d70cb61d24823b6254082adc2328926e9816b2f67"
+    }
+  ],
+  "scope": "Synthetic supplied-label grids only; no accuracy or native performance conclusion"
+}

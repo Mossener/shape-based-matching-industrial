@@ -1,0 +1,11 @@
+test_closed_sampling_omits_closing_edge_arclength (test_edge_faults_v1.EdgeFaultTests.test_closed_sampling_omits_closing_edge_arclength) ... ok
+test_cycle_walk_repeats_physical_start_pixel (test_edge_faults_v1.EdgeFaultTests.test_cycle_walk_repeats_physical_start_pixel) ... ok
+test_extract_axial_only_drops_diagonal_graph_edge (test_edge_faults_v1.EdgeFaultTests.test_extract_axial_only_drops_diagonal_graph_edge) ... ok
+test_first_reached_skips_node_exactly_on_marker (test_edge_faults_v1.EdgeFaultTests.test_first_reached_skips_node_exactly_on_marker) ... ok
+test_in_batch_deletion_changes_synchronous_rounds (test_edge_faults_v1.EdgeFaultTests.test_in_batch_deletion_changes_synchronous_rounds) ... ok
+test_shared_sample_is_owned_by_largest_chain (test_edge_faults_v1.EdgeFaultTests.test_shared_sample_is_owned_by_largest_chain) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.090s
+
+OK

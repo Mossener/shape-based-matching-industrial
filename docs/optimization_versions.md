@@ -272,3 +272,13 @@
 - 生产核心与默认行为保持 V11，分层方案不推广；用户磁片同组回归单列，留出场景和对象 25/29 继续封存。[V31 计时报告](../artifacts/rgb_stratified_features_experiment/TIMING_RESULTS_V31.md)保留全部退化和口径；[V31 质量结果](../artifacts/rgb_stratified_features_experiment/QUALITY_RESULTS_V31.md)保留完整指标；[实际阶段验收](../artifacts/rgb_stratified_features_experiment/ACTUAL_RESULTS_V31.md)连接完整证据。
 
 本地版本可以通过 `git log --oneline` 和 `git tag -n` 查看；标签 `optimization-v0` 至 `optimization-v31` 标记各阶段。
+
+## V32：有序轮廓数学核心与链提取的独立合成验证
+
+- 新增隔离 Python 原型：同一模板链只选择一条场景链，在严格顺序和链内一对一约束下求精确加权最优支持；四种开闭情况、方向与周期切点均保留。生产核心和默认行为继续保持 V11。
+- 核心通过同一份 30 项手工测试的 RED→GREEN，以及独立部分单射穷举的 24,912 次比较、100 个固定稀疏案例和 6 项源码故障检出。19,552 次比较对应可实现 bbox 格分区，另 5,360 次为明确区分的抽象分区；不把它们写成图像数量。
+- 新增标签网格的确定性细化、8 邻接最大 trail、返回环/纯环、整数弧长采样、共享点归属与精确 4×4 格权重。25 项手工测试、全部 512 个 3×3 occupancy 位图、100 个固定小图及 6 项临时源码故障验证通过；独立参考使用组件分解和 Fraction 权重，逐字段比较完整结果。
+- 链组件运行有实际 Windows wall/peak-working-set/output 观测，未触发 60 秒、512 MiB、64 MiB 上限；该机制是观测后终止而非 OS 分配隔离。早期数学核心 oracle 只有 wall timeout、没有实际 RSS/output 守护的历史限制明确保留。
+- 本版只证明有限合成输入上的算法行为，没有真实图像准确率、原生速度或工业泛化收益。候选坐标与像素来源连接仍在下一阶段验证；留出场景、对象 25/29 及私有磁片/SMD 图像未使用或公开。
+
+详见[数学核心结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CORE_RESULTS_V1.md)、[链组件结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CHAIN_RESULTS_V1.md)与[阶段验收](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CHAIN_ACCEPTANCE_V1.json)。标签 `optimization-v32` 保存此合成验证检查点。
