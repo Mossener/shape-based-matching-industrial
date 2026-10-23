@@ -1,0 +1,21 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\source\\native_edge_oracle_fixtures_v1.py",
+    "audit",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\fixtures",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\native_execution\\stdout.txt",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\audit"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\source",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864
+}

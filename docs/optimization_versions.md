@@ -292,3 +292,12 @@
 - 本版为候选/原生数学核心的合成正确性检查点，没有新增真实图像准确率或速度收益。生产默认继续 V11，native 链/候选/像素入口及完整开发审计继续推进；留出场景、对象 25/29 和私有磁片/SMD 图像未使用或公开。
 
 详见[候选合成结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CANDIDATE_RESULTS_V1.md)、[原生核心结果](../artifacts/ordered_contour_verifier_experiment/NATIVE_CORE_RESULTS_V1.md)与其执行回执。标签 `optimization-v33` 保存此检查点。
+
+## V34：C++ 细化、链分解、采样和精确权重
+
+- 移植 supplied-label 链组件到 C++17/GMP，保留同步 Zhang–Suen 两子迭代、8 邻接最大 trails、返回分叉点的闭环、canonical 点序列、整数弧长采样、共享点最低 chain ID 所有权和完整 bbox 格权重。36 项固定测试从零桩实际 RED 的 114 failures 到同测试 GREEN 的 229 checks 全部通过。
+- 独立实现完成 615 个全字段比较：全部 512 个 3×3 occupancy 位图、100 个固定随机多标签小图、一个大整数 LCM 网格与两条长路径。完整原/细化网格、删点轮次、原链/原链采样、模板全部链/采样/所有权/权重均精确一致，5 个空模板保留 null，0 跳过；拒绝 JSON 类型混淆、浮点、重复键及缺/多输出。
+- 新 native G1 入口限于人工标签验证，不把 615 个网格写成图像数量。观测运行未触发资源上限；编译 Job committed memory 与单进程 observed working set 分开记录，不从 tiny 进程 wall 推断真实图像速度。协议的畸形/压力/I/O 路径尚未全测。
+- 本版只有原生链组件的合成正确性收益，没有真实图片识别率或端到端速度收益；候选/像素适配继续在后继阶段完成。生产默认保持 V11，留出场景、对象 25/29 和私有磁片/SMD 图像继续封存。
+
+详见[原生链结果](../artifacts/ordered_contour_verifier_experiment/NATIVE_EDGE_RESULTS_V1.md)与独立参考/执行快照。标签 `optimization-v34` 保存此检查点。

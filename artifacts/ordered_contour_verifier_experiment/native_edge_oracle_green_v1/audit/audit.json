@@ -1,0 +1,29 @@
+{
+  "schema": "native_edge_oracle_audit_v1",
+  "passed": true,
+  "comparisons": 615,
+  "independent_all_fields": true,
+  "zero_skips": true,
+  "null_templates": 5,
+  "maximum_lcm_exceeds_uint64": true,
+  "inputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\fixtures\\generation.json",
+      "bytes": 1007,
+      "sha256": "6da9e4adbdd922ac4dd455c66f436f75c8d2ea9ee328e5807abd176914cf9905"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_edge_oracle_green_v1\\native_execution\\stdout.txt",
+      "bytes": 1713837,
+      "sha256": "d692a43e2dfd6cfd92ec87d35e10b2834733e67ef9a85d190ab988969e5ae310"
+    }
+  ],
+  "python_flags": {
+    "optimize": 0,
+    "ignore_environment": 1,
+    "debug": true
+  },
+  "image_decodes": 0,
+  "quality_claim": false,
+  "performance_claim": false
+}

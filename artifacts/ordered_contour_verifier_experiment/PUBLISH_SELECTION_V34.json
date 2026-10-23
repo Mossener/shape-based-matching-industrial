@@ -1,0 +1,341 @@
+{
+  "schema": "ordered_contour_native_edge_checkpoint_v34",
+  "base_commit": "bf0c402556e2c71a6ad9c9fc69f4222dcc631f79",
+  "scope": "Supplied-label native chains; synthetic correctness only.",
+  "host_metadata": "Retained receipts include workspace/toolchain absolute paths and versions, as in V33.",
+  "excluded": "All build subdirectories; binaries; private images; real raw/bank payloads; inventory/candidate successors.",
+  "file_count": 66,
+  "selected_bytes": 4145298,
+  "files": [
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/.gitattributes",
+      "bytes": 205,
+      "sha256": "e76092a8f991c0e6aa280a0978b58152a9800d7955d278a23f7dbc129af269d8"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/NATIVE_EDGE_BATCH_PROTOCOL_V1.json",
+      "bytes": 13329,
+      "sha256": "59f939d5d0bb99fd5ce5af1494bfcc74462ab8dd795e90d0231640b20f321f43"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/NATIVE_EDGE_DECISIONS_V1.json",
+      "bytes": 4098,
+      "sha256": "37abca4f6d000360e0617a647bdd1dd70b6cdf6192b78378b820f6482a7b6a4c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/NATIVE_EDGE_RESULTS_V1.md",
+      "bytes": 3043,
+      "sha256": "cf56f621a1d528eecb2d8b296b0e78b139b31cf9fcd46e16897eba87865fe608"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/NATIVE_RESOURCE_SCOPE_SUPPLEMENT_V1.md",
+      "bytes": 1590,
+      "sha256": "95877134cd851efcbf9e52d2d891dd2dd62640c1c590cecb030f71122005f66c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/STATIC_NATIVE_EDGE_REVIEW_V1.md",
+      "bytes": 4057,
+      "sha256": "1e3d4fbdc360b1b6764dad82ddfb5658e8f0ff178e2e5e260a1894086ccaa581"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/SYNTHETIC_NATIVE_EDGE_ACCEPTANCE_V1.json",
+      "bytes": 3424,
+      "sha256": "116b453d34495099a7ca117a526f275d921c183a783b35759565770be4db52e2"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/independent_edge_oracle.py",
+      "bytes": 13628,
+      "sha256": "bca66cf17ab0036aecd3c7f6f141e925d50055385cd95d53fa9659299bab5315"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_compile_child_v1.py",
+      "bytes": 5369,
+      "sha256": "afa5b370b12d73d771591f2f6e16f6cf2ca7e937758e90d6244b1def3578d03c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_batch_v1.cpp",
+      "bytes": 15918,
+      "sha256": "b650b26b60630bd0408b09a4b3a17a44ec2b57b8f8ad1ecf43c24191e69f51b2"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_chains.hpp",
+      "bytes": 18223,
+      "sha256": "bc39ca22c1c1f80273d8ddbafa57941f9b07a66ac11f10f46e58e9db2ca7ffbf"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_chains_test.cpp",
+      "bytes": 20051,
+      "sha256": "81acdb4a0679f064cff18015f7c749a75bfb9ef8068529163ecfc7b13543dfe3"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/invocation.json",
+      "bytes": 25212,
+      "sha256": "b5af8f92ae1c205291e3c409f097af6aaa9f4b426dd27ed2ebb1e776e5abd172"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/receipt.json",
+      "bytes": 55107,
+      "sha256": "fed6c13b06a28115e7cf8a4fafca9c8c7a1926b76cbf1eaeef82c4a7381890b0"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/source/native_edge_chains.hpp",
+      "bytes": 18223,
+      "sha256": "bc39ca22c1c1f80273d8ddbafa57941f9b07a66ac11f10f46e58e9db2ca7ffbf"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/source/native_edge_chains_test.cpp",
+      "bytes": 20051,
+      "sha256": "81acdb4a0679f064cff18015f7c749a75bfb9ef8068529163ecfc7b13543dfe3"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/guard_latest.json",
+      "bytes": 168,
+      "sha256": "dab13d8a228f30914146115356d9d52bb7118687bf37c116a404fa8e358afbf2"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/guard_receipt.json",
+      "bytes": 691,
+      "sha256": "8e43d15aad243b13c57d9cb83946ceaccee6fd0f72df62252d5c86fdc3fa644f"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/guard_reservation.json",
+      "bytes": 541,
+      "sha256": "390fbe00cb893d3332a00ccfec8298ebf2bb0d3a6b2ee4d1c0d5a544fb7cb481"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/guard_telemetry.jsonl",
+      "bytes": 136,
+      "sha256": "d7923978696afdd010ffb90530429b37b36a55168aa55ea87bc2610914a3f65e"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_green_v1/test_execution/stdout.txt",
+      "bytes": 2125,
+      "sha256": "30de90f206dbc6611df5002279a4bc38e8ffbe8fe63ee256e49f2d50f254a33a"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_fixtures_v1.py",
+      "bytes": 7990,
+      "sha256": "50177747bf2d2a82f7530580c5401bab335597a98e1504f75a5dcbb17b21e7db"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit/audit.json",
+      "bytes": 971,
+      "sha256": "6430c2bbed3a53c75a16a60b3670b793185dfd1bce1ecfcd2ea6f8640f98bb8a"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/guard_latest.json",
+      "bytes": 169,
+      "sha256": "53d93f1c10cf90ede57422dd280bf1da5b7c8dd0439546f627729c321f583c96"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/guard_receipt.json",
+      "bytes": 1205,
+      "sha256": "6cada13038982a3941aaaf0380debbaeab6a4e8531ae838afbd1a4137d2a257b"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/guard_reservation.json",
+      "bytes": 1052,
+      "sha256": "0842f8831036fe6c86a49fadf898c8f728456bcb955d81abd7620cfc902ff34c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/guard_telemetry.jsonl",
+      "bytes": 137,
+      "sha256": "c89d2c56828fbceae3958e5f5b9d2cbd602c3255063086925f6fb8d8add37e9c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/audit_execution/stdout.txt",
+      "bytes": 841,
+      "sha256": "39305820d0398d54fd5a62a349343dc9a40d7f4b828054fb7c07a1c74617160f"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/fixtures/expected.jsonl",
+      "bytes": 1713837,
+      "sha256": "d692a43e2dfd6cfd92ec87d35e10b2834733e67ef9a85d190ab988969e5ae310"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/fixtures/generation.json",
+      "bytes": 1007,
+      "sha256": "6da9e4adbdd922ac4dd455c66f436f75c8d2ea9ee328e5807abd176914cf9905"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/fixtures/requests.txt",
+      "bytes": 128700,
+      "sha256": "fa96dc5c5797e258c720585e4efa76759cb8df158ea2ce0440c96f3afd457c84"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/guard_latest.json",
+      "bytes": 152,
+      "sha256": "364e9bd888baaffce70879b8f95c40a6461654c1748395e09c157fb1bfd5749c"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/guard_receipt.json",
+      "bytes": 936,
+      "sha256": "3ea4015339d99a4a6119a63ab152002d923c7255c84beba172198edecf882024"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/guard_reservation.json",
+      "bytes": 778,
+      "sha256": "a2b54b056e86067481be120162c69dfa9211bfc6272b52dff257025615f25f47"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/guard_telemetry.jsonl",
+      "bytes": 120,
+      "sha256": "ca9810ca17164634160dc104954adc0f2bc774fda28e175e0ecc8a6aeef70b0a"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/generation_execution/stdout.txt",
+      "bytes": 897,
+      "sha256": "ba91bb944bcea7e1abe6cd775bac5d09c3bdd4c0ebd31560c2136c90ae1dbc99"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/invocation.json",
+      "bytes": 24595,
+      "sha256": "cc2612b28ec2427ad909762fcd55aa1501665e5990da96f4078bf991152cb135"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/guard_latest.json",
+      "bytes": 169,
+      "sha256": "87b63fcec6c0e2d98f1978de20cb6211e2ce7880365c325b85f2565c8af1f3c6"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/guard_receipt.json",
+      "bytes": 851,
+      "sha256": "217974a035f64649929c0cf46b210fe1305d127d0c2df8bcf22ef7efffb455a3"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/guard_reservation.json",
+      "bytes": 700,
+      "sha256": "e658d000659e50295665e8085aa683a172e07d3be2e73031512fb8f006657f57"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/guard_telemetry.jsonl",
+      "bytes": 137,
+      "sha256": "ba71c86162f8f7345bf954c65fdf24ed90cae2c7e43a25dd8f8c6692fa0a06de"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/native_execution/stdout.txt",
+      "bytes": 1713837,
+      "sha256": "d692a43e2dfd6cfd92ec87d35e10b2834733e67ef9a85d190ab988969e5ae310"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/receipt.json",
+      "bytes": 56222,
+      "sha256": "507e28548fa8b7139bfa83de1c027364a633d7c6c3d9d9d06f5c95a01420b482"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/source/NATIVE_EDGE_BATCH_PROTOCOL_V1.json",
+      "bytes": 13329,
+      "sha256": "59f939d5d0bb99fd5ce5af1494bfcc74462ab8dd795e90d0231640b20f321f43"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/source/independent_edge_oracle.py",
+      "bytes": 13628,
+      "sha256": "bca66cf17ab0036aecd3c7f6f141e925d50055385cd95d53fa9659299bab5315"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/source/native_edge_batch_v1.cpp",
+      "bytes": 15918,
+      "sha256": "b650b26b60630bd0408b09a4b3a17a44ec2b57b8f8ad1ecf43c24191e69f51b2"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/source/native_edge_chains.hpp",
+      "bytes": 18223,
+      "sha256": "bc39ca22c1c1f80273d8ddbafa57941f9b07a66ac11f10f46e58e9db2ca7ffbf"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_oracle_green_v1/source/native_edge_oracle_fixtures_v1.py",
+      "bytes": 7990,
+      "sha256": "50177747bf2d2a82f7530580c5401bab335597a98e1504f75a5dcbb17b21e7db"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/invocation.json",
+      "bytes": 25195,
+      "sha256": "07354d0e95def2253035527f9e26fa17af49c3f0185a01581a4360d0e67b5ebc"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/receipt.json",
+      "bytes": 53637,
+      "sha256": "be18a5b9a3da0121d82fc14be5fb7c1d5f6ab7ff900fc7bc7ca3e33370198234"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/source/native_edge_chains.hpp",
+      "bytes": 2826,
+      "sha256": "995f02fda1c1d047e48e0db7929ded9ffaacc53b6146901250a7fa9642192edd"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/source/native_edge_chains_test.cpp",
+      "bytes": 20051,
+      "sha256": "81acdb4a0679f064cff18015f7c749a75bfb9ef8068529163ecfc7b13543dfe3"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/guard_latest.json",
+      "bytes": 169,
+      "sha256": "af73a76682c120b05dfda0de20d866cb8631dc11fdb6587aefed320ef7133fd6"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/guard_receipt.json",
+      "bytes": 706,
+      "sha256": "b347e477c0d993e95667918f0823555b6aa637d8706a5138f673c8bccde5236e"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/guard_reservation.json",
+      "bytes": 537,
+      "sha256": "469e679b00f07e25b0020332583d46f9ed2c56b295fceaf325995858aeadccd6"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/guard_telemetry.jsonl",
+      "bytes": 137,
+      "sha256": "a546e87d4f9f53e3e94414f5a6bbcb86af2d75fc23b0ff47249b95ad7bd6a905"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/stderr.txt",
+      "bytes": 11009,
+      "sha256": "0e935f63a63fd8e2e08bcfac2603f33e7fb5b71782eb17583839eb4e1181ec2a"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/native_edge_red_v1/test_execution/stdout.txt",
+      "bytes": 68,
+      "sha256": "d18add0ccdf03655f1d55044579425330ce2de42bd922a2a4bbf30a88a18eb4d"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/prepare_native_edge_checkpoint_v34.py",
+      "bytes": 6701,
+      "sha256": "12505756d2712d6ad41819636f013b1c4d1829620355af844401ad2df0472af1"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/run_native_edge_checks_v1.py",
+      "bytes": 6750,
+      "sha256": "f47c089c8a05665791d4f16dbde035cd78dd426b0a6929c944414ef6437266f9"
+    },
+    {
+      "path": "artifacts/ordered_contour_verifier_experiment/run_native_edge_oracle_checks_v1.py",
+      "bytes": 8529,
+      "sha256": "c59c363db406c40630e8682d48210b9b950a238ef2c39f604145ac3900f01e3f"
+    },
+    {
+      "path": "docs/optimization_versions.md",
+      "bytes": 59403,
+      "sha256": "7b06923e45311b1130b28bda37f5195db61eea39665272aa5b675a63ea7a2e00"
+    }
+  ]
+}
