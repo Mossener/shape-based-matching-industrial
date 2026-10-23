@@ -1,8 +1,11 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 — 2026-10-23
 
 - Add real LED and magnetic-part matching examples, losslessly converted input images, supplied SMD models and a C++ reproduction command. Show observed results and identify template-source images and evaluation limits.
+- Add English and Chinese architecture/algorithm articles with module and data-flow diagrams, scoring and memory-layout explanations, integration limits, comparison with OpenCV methods and future optimization questions.
+- Update the CMake package version to 0.1.1. The seven production matcher files remain identical to verified V11; this release makes no new accuracy or speedup claim and does not promote local research verifiers or codecs.
+- Verify the 15 real-image examples against the published baseline: all 1,470 returned candidate rows agree. SIMD/OpenMP, scalar/OpenMP and serial integration checks pass on Windows/GCC/OpenCV 4.12, as does an installed external CMake consumer requesting exactly version 0.1.1.
 
 ## 0.1.0 — 2026-10-23
 

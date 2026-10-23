@@ -4,7 +4,9 @@
 
 一个根据边缘布局定位刚性目标的 C++ 库。它从模板提取稀疏梯度方向特征，在图像金字塔上搜索，返回位置、相似度、类别和模板编号，适合形状比纹理更稳定的目标。
 
-核心保持本项目的 V11 匹配行为。本仓库提供库与可复现示例，需针对自己的工件进行配置与验证。**v0.1.0 为初始源码发布版**，详见 [v0.1.0 发布页](https://github.com/Mossener/shape-based-matching-industrial/releases/tag/v0.1.0)。
+核心保持本项目的 V11 匹配行为。本仓库提供库与可复现示例，需针对自己的工件进行配置与验证。**v0.1.1 增加真实图像示例与架构文档**，详见 [v0.1.1 发布页](https://github.com/Mossener/shape-based-matching-industrial/releases/tag/v0.1.1)。
+
+完整架构图、评分与搜索算法、接入边界及后续优化方向见[架构与算法文章](docs/architecture.zh-CN.md)（[English](docs/architecture.md)）。
 
 ## 真实图像示例
 

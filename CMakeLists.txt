@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(shape_based_matching VERSION 0.1.0 LANGUAGES CXX)
+project(shape_based_matching VERSION 0.1.1 LANGUAGES CXX)
 
 include(GNUInstallDirs)
 include(CMakePackageConfigHelpers)

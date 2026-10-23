@@ -4,7 +4,9 @@
 
 A C++ library for locating rigid objects by their edge layout. It extracts sparse gradient-orientation features from a template, searches an image pyramid, and returns position, similarity, class ID and template ID. It can be useful when shape is more stable than texture.
 
-The core retains the project's V11 matching behavior. The repository provides the library and reproducible examples; configure and validate matching for your own parts. **v0.1.0** is the initial source release. See the [v0.1.0 release](https://github.com/Mossener/shape-based-matching-industrial/releases/tag/v0.1.0).
+The core retains the project's V11 matching behavior. The repository provides the library and reproducible examples; configure and validate matching for your own parts. **v0.1.1** adds real-image examples and architecture documentation. See the [v0.1.1 release](https://github.com/Mossener/shape-based-matching-industrial/releases/tag/v0.1.1).
+
+Read the [architecture and algorithms](docs/architecture.md) ([中文](docs/architecture.zh-CN.md)) for complete diagrams, scoring, search, integration constraints and directions for further optimization.
 
 ## Real-image examples
 
