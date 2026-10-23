@@ -1,0 +1,20 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-E",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_assertion_acceptance_green_v1\\source\\run_native_assertion_acceptance_v1.py",
+    "--child",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_assertion_acceptance_green_v1\\payload"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_assertion_acceptance_green_v1\\source",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864
+}

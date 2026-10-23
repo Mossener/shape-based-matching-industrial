@@ -1,0 +1,64 @@
+{
+  "schema": "ordered_coordinator_exit_checks_receipt_v1",
+  "phase": "RED",
+  "expected_phase_observed": true,
+  "unittest_methods": 2,
+  "assertion_failures": 1,
+  "sources_unchanged": true,
+  "executed_snapshots_equal": true,
+  "snapshot_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\source\\run_native_oracle_checks_v1.py",
+      "bytes": 8388,
+      "sha256": "61e9882beb9ef20231fda07eeae102ae7a43e513cd99ace5d1b91a6ccc5ba4a3"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\source\\test_native_coordinator_exit_v1.py",
+      "bytes": 4781,
+      "sha256": "d72b657dc4dc7ae9fffe62dff519a00f7b0c548bdb7e3ca59be04f4cfb0f5788"
+    }
+  ],
+  "invocation": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\invocation.json",
+    "bytes": 1889,
+    "sha256": "e6d85b856485bfa0a9aee52a15ddb48f99161ea3ea85bbc7e6a4fbfef18318d8"
+  },
+  "guard": {
+    "command": [
+      "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_native_coordinator_exit_v1"
+    ],
+    "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\source",
+    "started": true,
+    "passed": false,
+    "exit_code": 1,
+    "maximum_seconds": 60,
+    "maximum_rss_bytes": 536870912,
+    "maximum_output_bytes": 67108864,
+    "minimum_free_bytes": 0,
+    "maximum_execution_bytes": 67108864,
+    "pid": 14716,
+    "reason": "process_exit_nonzero",
+    "elapsed_seconds": 0.32800000000861473,
+    "peak_rss_bytes": 29442048,
+    "native_output_bytes": 0,
+    "samples": 7
+  },
+  "outputs": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\execution\\stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_red_v1\\execution\\stderr.txt",
+      "bytes": 1018,
+      "sha256": "a467d6b84cc4a072e7881bc61f9e0b6981be98a44435f52bfacd5a853fd126b4"
+    }
+  ],
+  "scope": "Mocked coordinator phases only; no compiler, solver, image, accuracy or performance evidence"
+}

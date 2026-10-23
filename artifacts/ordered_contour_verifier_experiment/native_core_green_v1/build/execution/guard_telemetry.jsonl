@@ -1,0 +1,4 @@
+{"elapsed_seconds":0.015000000013969839,"peak_rss_bytes":2048000,"native_output_bytes":0,"execution_bytes":710,"samples":1,"pid":23052}
+{"elapsed_seconds":1.062000000005355,"peak_rss_bytes":21348352,"native_output_bytes":10926,"execution_bytes":1016,"samples":20,"pid":23052}
+{"elapsed_seconds":2.0780000000086147,"peak_rss_bytes":21348352,"native_output_bytes":10926,"execution_bytes":1161,"samples":38,"pid":23052}
+{"elapsed_seconds":3.125,"peak_rss_bytes":21348352,"native_output_bytes":225725,"execution_bytes":1304,"samples":57,"pid":23052}

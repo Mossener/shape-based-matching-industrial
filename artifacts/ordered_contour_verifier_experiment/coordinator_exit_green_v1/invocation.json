@@ -1,0 +1,48 @@
+{
+  "schema": "ordered_coordinator_exit_checks_v1",
+  "suite": "coordinator_exit",
+  "phase": "GREEN",
+  "source_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_native_oracle_checks_v1.py",
+      "bytes": 8537,
+      "sha256": "16652e0c973b8f83fb2c793852dc2ce6a2bcdddea685d7c7269953fdcbcabf98"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\test_native_coordinator_exit_v1.py",
+      "bytes": 4781,
+      "sha256": "d72b657dc4dc7ae9fffe62dff519a00f7b0c548bdb7e3ca59be04f4cfb0f5788"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "bytes": 6376,
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f"
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_coordinator_exit_checks_v1.py",
+      "bytes": 4880,
+      "sha256": "cb8df3aac95c67260a6253912da74bae9294e87cb2bfcdbc93234c9d79bca082"
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "bytes": 101477,
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82"
+    }
+  ],
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_native_coordinator_exit_v1"
+  ],
+  "cwd": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\coordinator_exit_green_v1\\source",
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "monitoring": "50ms observed process peak working set and directory sizes; not an OS allocation sandbox",
+  "image_decodes": 0,
+  "native_calls": 0,
+  "production_promotion": false
+}

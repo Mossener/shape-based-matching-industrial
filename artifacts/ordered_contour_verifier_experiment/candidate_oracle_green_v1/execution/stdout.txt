@@ -1,0 +1,1 @@
+INDEPENDENT_CANDIDATE_EXHAUSTIVE {"candidate_comparisons": 6144, "chain_brute_force_comparisons": 6144, "direction_profiles": 2, "maximum_owned_template_samples": 3, "maximum_scene_chain_points": 5, "scene_occupancies": 512, "skipped_cases": 0, "templates": 3, "transforms": 2}

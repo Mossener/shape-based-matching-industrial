@@ -1,0 +1,25 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_candidate_faults_v1"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\candidate_faults_green_v1\\source",
+  "started": true,
+  "passed": true,
+  "exit_code": 0,
+  "maximum_seconds": 60,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 67108864,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 12908,
+  "reason": null,
+  "elapsed_seconds": 0.8429999999934807,
+  "peak_rss_bytes": 29577216,
+  "native_output_bytes": 0,
+  "samples": 17
+}

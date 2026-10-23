@@ -1,0 +1,15 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte\\request.txt"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 5,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 1048576,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864
+}

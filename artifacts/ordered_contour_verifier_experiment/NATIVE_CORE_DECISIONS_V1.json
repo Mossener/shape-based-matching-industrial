@@ -1,0 +1,21 @@
+{
+  "schema": "ordered_contour_native_core_decisions_v1",
+  "date": "2026-10-23",
+  "scope": "Native supplied-graph port and synthetic checks only; no image input",
+  "reference": "weighted_ordered_match.py and independent_tiny_oracle.py",
+  "algorithm": "Same exact sparse Fenwick recurrence, query whole template row before updates, strict scene prefix, complete prescribed cyclic cases and case/witness ties",
+  "integer_weights": "GMP mpz_class arbitrary precision nonnegative exact integer arithmetic; require strictly positive supplied scoring weights",
+  "physical_ids": "uint64, unique inside each supplied chain; input driver rejects negative or overflowing textual IDs",
+  "typed_api_boundary": "C++ bool and uint64 fields do not expose Python dynamic type checks; textual fixture parser must validate its own input domain",
+  "work_counters": "Checked uint64 increments, counters include every enumerated nonempty case; report maximum integer bit length",
+  "dependences": "Existing local GMP development headers/libraries; do not vendor or publish DLLs",
+  "tests_before_implementation": true,
+  "synthetic_run_limits": {"seconds": 60, "rss_bytes": 536870912, "output_bytes": 67108864},
+  "build_limits": {"seconds": 180, "job_committed_memory_bytes": 1073741824, "helper_peak_working_set_bytes": 1073741824, "output_bytes": 134217728},
+  "build_memory_semantics": "Windows job committed-memory limit includes all GCC children; helper peak working set is separately observed. No aggregate-RSS bound is claimed.",
+  "compiler": "F:/mysys2/ucrt64/bin/g++.exe",
+  "production_core_changed": false,
+  "real_pixel_execution": false,
+  "production_promotion": false,
+  "heldout_remains_sealed": true
+}

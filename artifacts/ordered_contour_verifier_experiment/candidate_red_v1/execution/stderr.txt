@@ -1,0 +1,1411 @@
+test_candidate_results_are_frozen_and_keep_immutable_tuples (test_candidate_compatibility.CandidateCompatibilityTests.test_candidate_results_are_frozen_and_keep_immutable_tuples) ... FAIL
+test_chain_with_no_owned_samples_keeps_full_zero_result (test_candidate_compatibility.CandidateCompatibilityTests.test_chain_with_no_owned_samples_keeps_full_zero_result) ... FAIL
+test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) ... 
+  test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=3) ... FAIL
+  test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=18) ... FAIL
+  test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=21) ... FAIL
+test_chebyshev_radius_two_includes_diagonal_boundary (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_radius_two_includes_diagonal_boundary) ... FAIL
+test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) ... 
+  test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(9223372036854775807, 0), match=(9223372036854775807, 0)) ... FAIL
+  test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(0, 0), match=(-9223372036854775808, 0)) ... FAIL
+  test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(0, 9223372036854775807), match=(0, 9223372036854775807)) ... FAIL
+test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) ... 
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(True, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(True, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, False)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, False)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(1.0, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(1.0, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 1.0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 1.0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=()) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=()) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0,)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0,)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 0, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 0, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl='00') ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match='00') ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=None) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=None) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(-9223372036854775809, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(-9223372036854775809, 0)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 9223372036854775808)) ... FAIL
+  test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 9223372036854775808)) ... FAIL
+test_core_receives_owned_chain_order_and_only_scene_chains_with_edges (test_candidate_compatibility.CandidateCompatibilityTests.test_core_receives_owned_chain_order_and_only_scene_chains_with_edges) ... FAIL
+test_different_template_chains_may_reuse_same_scene_pixel (test_candidate_compatibility.CandidateCompatibilityTests.test_different_template_chains_may_reuse_same_scene_pixel) ... FAIL
+test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) ... 
+  test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=13, d=20) ... FAIL
+  test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=20, d=20) ... FAIL
+  test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=65, d=100) ... FAIL
+test_independent_support_cannot_join_disconnected_scene_chains (test_candidate_compatibility.CandidateCompatibilityTests.test_independent_support_cannot_join_disconnected_scene_chains) ... FAIL
+test_independent_witness_chooses_smallest_physical_pixel (test_candidate_compatibility.CandidateCompatibilityTests.test_independent_witness_chooses_smallest_physical_pixel) ... FAIL
+test_junction_memberships_cannot_duplicate_support_inside_one_chain (test_candidate_compatibility.CandidateCompatibilityTests.test_junction_memberships_cannot_duplicate_support_inside_one_chain) ... FAIL
+test_nonzero_tl_negative_relative_and_asymmetric_padding_keep_frames (test_candidate_compatibility.CandidateCompatibilityTests.test_nonzero_tl_negative_relative_and_asymmetric_padding_keep_frames) ... FAIL
+test_one_scene_pixel_is_not_reused_inside_one_template_chain (test_candidate_compatibility.CandidateCompatibilityTests.test_one_scene_pixel_is_not_reused_inside_one_template_chain) ... FAIL
+test_original_subtraction_is_checked_even_for_outside_padded_centers (test_candidate_compatibility.CandidateCompatibilityTests.test_original_subtraction_is_checked_even_for_outside_padded_centers) ... 
+  test_original_subtraction_is_checked_even_for_outside_padded_centers (test_candidate_compatibility.CandidateCompatibilityTests.test_original_subtraction_is_checked_even_for_outside_padded_centers) (match=(-9223372036854775808, 0)) ... FAIL
+  test_original_subtraction_is_checked_even_for_outside_padded_centers (test_candidate_compatibility.CandidateCompatibilityTests.test_original_subtraction_is_checked_even_for_outside_padded_centers) (match=(0, -9223372036854775808)) ... FAIL
+test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) ... 
+  test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(-1, 0)) ... FAIL
+  test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(3, 0)) ... FAIL
+  test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(0, -1)) ... FAIL
+  test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(0, 3)) ... FAIL
+test_outside_diagnostics_are_sample_sorted_and_do_not_shrink_denominator (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_diagnostics_are_sample_sorted_and_do_not_shrink_denominator) ... FAIL
+test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) ... 
+  test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(-1, 0), match=(9223372036854775807, 0)) ... FAIL
+  test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(1, 0), match=(-9223372036854775808, 0)) ... FAIL
+  test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(0, -1), match=(0, 9223372036854775807)) ... FAIL
+  test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(0, 1), match=(0, -9223372036854775808)) ... FAIL
+test_padding_only_support_is_legal_but_marked_outside_original (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_only_support_is_legal_but_marked_outside_original) ... FAIL
+test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) ... 
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(True, 0, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, False, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 1.0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(-1, 0, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 0, -1)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=()) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 0, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding='0000') ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=None) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(3, 0, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(1, 0, 2, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 3, 0, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 1, 0, 2)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(9223372036854775807, 0, 1, 0)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 9223372036854775807, 0, 1)) ... FAIL
+  test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(9223372036854775808, 0, 0, 0)) ... FAIL
+test_relative_subtraction_checks_overflow_before_later_cancellation (test_candidate_compatibility.CandidateCompatibilityTests.test_relative_subtraction_checks_overflow_before_later_cancellation) ... 
+  test_relative_subtraction_checks_overflow_before_later_cancellation (test_candidate_compatibility.CandidateCompatibilityTests.test_relative_subtraction_checks_overflow_before_later_cancellation) (tl=(-9223372036854775808, 0)) ... FAIL
+  test_relative_subtraction_checks_overflow_before_later_cancellation (test_candidate_compatibility.CandidateCompatibilityTests.test_relative_subtraction_checks_overflow_before_later_cancellation) (tl=(0, -9223372036854775808)) ... FAIL
+test_same_singleton_returns_full_exact_evidence (test_candidate_compatibility.CandidateCompatibilityTests.test_same_singleton_returns_full_exact_evidence) ... FAIL
+test_scene_empty_is_legal_and_retains_dimensions (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_empty_is_legal_and_retains_dimensions) ... FAIL
+test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) ... 
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=()) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=[]) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((),)) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((0,), (0, 0))) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid='0') ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=None) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((True,),)) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((1.0,),)) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((-1,),)) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((8,),)) ... FAIL
+  test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((254,),)) ... FAIL
+test_scene_factory_snapshots_lists_and_freezes_membership_tuples (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_snapshots_lists_and_freezes_membership_tuples) ... FAIL
+test_scene_factory_thins_then_extracts_instead_of_using_eligible_pixels (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_thins_then_extracts_instead_of_using_eligible_pixels) ... FAIL
+test_scene_memberships_include_every_vertex_not_only_template_samples (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_memberships_include_every_vertex_not_only_template_samples) ... FAIL
+test_scene_shared_junction_has_both_chain_indices (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_shared_junction_has_both_chain_indices) ... FAIL
+test_template_canvas_pixel_is_used_directly_without_second_origin_adjustment (test_candidate_compatibility.CandidateCompatibilityTests.test_template_canvas_pixel_is_used_directly_without_second_origin_adjustment) ... FAIL
+test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) ... 
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=True, d=1) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=0, d=True) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1.0, d=2) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=2.0) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=0, d=0) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=-1) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=-1, d=20) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=21, d=20) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n='1', d=2) ... FAIL
+  test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=None) ... FAIL
+test_threshold_uses_arbitrary_precision_without_float (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_uses_arbitrary_precision_without_float) ... FAIL
+test_u_shape_and_long_false_line_have_support_but_incompatible_order (test_candidate_compatibility.CandidateCompatibilityTests.test_u_shape_and_long_false_line_have_support_but_incompatible_order) ... FAIL
+test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) ... 
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=7) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=0) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=1) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=6) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=2) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=5) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=4) ... FAIL
+  test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=255) ... FAIL
+
+======================================================================
+FAIL: test_candidate_results_are_frozen_and_keep_immutable_tuples (test_candidate_compatibility.CandidateCompatibilityTests.test_candidate_results_are_frozen_and_keep_immutable_tuples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 358, in test_candidate_results_are_frozen_and_keep_immutable_tuples
+    self.assertEqual(len(result.samples), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_chain_with_no_owned_samples_keeps_full_zero_result (test_candidate_compatibility.CandidateCompatibilityTests.test_chain_with_no_owned_samples_keeps_full_zero_result)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 244, in test_chain_with_no_owned_samples_keeps_full_zero_result
+    self.assertTotals(result, template.denominator, template.denominator,
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (6, 6, 6)
+
+First differing element 0:
+0
+6
+
+- (0, 0, 0)
++ (6, 6, 6)
+
+======================================================================
+FAIL: test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 136, in test_chebyshev_distance_three_is_not_supported
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=18)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 136, in test_chebyshev_distance_three_is_not_supported
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_chebyshev_distance_three_is_not_supported (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_distance_three_is_not_supported) (pixel=21)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 136, in test_chebyshev_distance_three_is_not_supported
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_chebyshev_radius_two_includes_diagonal_boundary (test_candidate_compatibility.CandidateCompatibilityTests.test_chebyshev_radius_two_includes_diagonal_boundary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 129, in test_chebyshev_radius_two_includes_diagonal_boundary
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(9223372036854775807, 0), match=(9223372036854775807, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 315, in test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow
+    self.assertEqual(self.support(result, 0).q_padded, expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 31, in support
+    self.assertIn(sample_id, by_id)
+AssertionError: 0 not found in {}
+
+======================================================================
+FAIL: test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(0, 0), match=(-9223372036854775808, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 315, in test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow
+    self.assertEqual(self.support(result, 0).q_padded, expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 31, in support
+    self.assertIn(sample_id, by_id)
+AssertionError: 0 not found in {}
+
+======================================================================
+FAIL: test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow) (tl=(0, 9223372036854775807), match=(0, 9223372036854775807))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 315, in test_coordinate_inputs_allow_builtin_int64_boundary_without_overflow
+    self.assertEqual(self.support(result, 0).q_padded, expected)
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 31, in support
+    self.assertIn(sample_id, by_id)
+AssertionError: 0 not found in {}
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(True, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(True, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, False))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, False))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(1.0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(1.0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 1.0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 1.0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0,))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl='00')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match='00')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(-9223372036854775809, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(-9223372036854775809, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (tl=(0, 9223372036854775808))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 341, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(tl=value), self.assertRaises(ValueError):
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64 (test_candidate_compatibility.CandidateCompatibilityTests.test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64) (match=(0, 9223372036854775808))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 343, in test_coordinate_pairs_reject_bool_float_bad_lengths_and_out_of_int64
+    with self.subTest(match=value), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_core_receives_owned_chain_order_and_only_scene_chains_with_edges (test_candidate_compatibility.CandidateCompatibilityTests.test_core_receives_owned_chain_order_and_only_scene_chains_with_edges)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 263, in test_core_receives_owned_chain_order_and_only_scene_chains_with_edges
+    self.assertEqual(solve_spy.call_count, 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_different_template_chains_may_reuse_same_scene_pixel (test_candidate_compatibility.CandidateCompatibilityTests.test_different_template_chains_may_reuse_same_scene_pixel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 232, in test_different_template_chains_may_reuse_same_scene_pixel
+    self.assertTotals(result, 2, 2, 2)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (2, 2, 2)
+
+First differing element 0:
+0
+2
+
+- (0, 0, 0)
++ (2, 2, 2)
+
+======================================================================
+FAIL: test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=13, d=20)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 373, in test_fixed_threshold_is_inclusive_and_exact
+    self.assertIs(compat.passes_threshold(numerator, denominator), expected)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=20, d=20)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 373, in test_fixed_threshold_is_inclusive_and_exact
+    self.assertIs(compat.passes_threshold(numerator, denominator), expected)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_fixed_threshold_is_inclusive_and_exact (test_candidate_compatibility.CandidateCompatibilityTests.test_fixed_threshold_is_inclusive_and_exact) (n=65, d=100)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 373, in test_fixed_threshold_is_inclusive_and_exact
+    self.assertIs(compat.passes_threshold(numerator, denominator), expected)
+AssertionError: False is not True
+
+======================================================================
+FAIL: test_independent_support_cannot_join_disconnected_scene_chains (test_candidate_compatibility.CandidateCompatibilityTests.test_independent_support_cannot_join_disconnected_scene_chains)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 179, in test_independent_support_cannot_join_disconnected_scene_chains
+    self.assertTotals(result, 6, 2, 8)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (6, 2, 8)
+
+First differing element 0:
+0
+6
+
+- (0, 0, 0)
++ (6, 2, 8)
+
+======================================================================
+FAIL: test_independent_witness_chooses_smallest_physical_pixel (test_candidate_compatibility.CandidateCompatibilityTests.test_independent_witness_chooses_smallest_physical_pixel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 165, in test_independent_witness_chooses_smallest_physical_pixel
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_junction_memberships_cannot_duplicate_support_inside_one_chain (test_candidate_compatibility.CandidateCompatibilityTests.test_junction_memberships_cannot_duplicate_support_inside_one_chain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 220, in test_junction_memberships_cannot_duplicate_support_inside_one_chain
+    self.assertTotals(result, 2, 1, 2)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (2, 1, 2)
+
+First differing element 0:
+0
+2
+
+- (0, 0, 0)
++ (2, 1, 2)
+
+======================================================================
+FAIL: test_nonzero_tl_negative_relative_and_asymmetric_padding_keep_frames (test_candidate_compatibility.CandidateCompatibilityTests.test_nonzero_tl_negative_relative_and_asymmetric_padding_keep_frames)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 276, in test_nonzero_tl_negative_relative_and_asymmetric_padding_keep_frames
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_one_scene_pixel_is_not_reused_inside_one_template_chain (test_candidate_compatibility.CandidateCompatibilityTests.test_one_scene_pixel_is_not_reused_inside_one_template_chain)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 192, in test_one_scene_pixel_is_not_reused_inside_one_template_chain
+    self.assertTotals(result, 3, 1, 3)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (3, 1, 3)
+
+First differing element 0:
+0
+3
+
+- (0, 0, 0)
++ (3, 1, 3)
+
+======================================================================
+FAIL: test_original_subtraction_is_checked_even_for_outside_padded_centers (test_candidate_compatibility.CandidateCompatibilityTests.test_original_subtraction_is_checked_even_for_outside_padded_centers) (match=(-9223372036854775808, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 334, in test_original_subtraction_is_checked_even_for_outside_padded_centers
+    with self.subTest(match=match), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_original_subtraction_is_checked_even_for_outside_padded_centers (test_candidate_compatibility.CandidateCompatibilityTests.test_original_subtraction_is_checked_even_for_outside_padded_centers) (match=(0, -9223372036854775808))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 334, in test_original_subtraction_is_checked_even_for_outside_padded_centers
+    with self.subTest(match=match), self.assertRaises(ValueError):
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(-1, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 144, in test_outside_center_cannot_be_rescued_by_nearby_foreground
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(3, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 144, in test_outside_center_cannot_be_rescued_by_nearby_foreground
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(0, -1))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 144, in test_outside_center_cannot_be_rescued_by_nearby_foreground
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_outside_center_cannot_be_rescued_by_nearby_foreground (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_center_cannot_be_rescued_by_nearby_foreground) (match=(0, 3))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 144, in test_outside_center_cannot_be_rescued_by_nearby_foreground
+    self.assertTotals(result, 0, 0, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_outside_diagnostics_are_sample_sorted_and_do_not_shrink_denominator (test_candidate_compatibility.CandidateCompatibilityTests.test_outside_diagnostics_are_sample_sorted_and_do_not_shrink_denominator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 303, in test_outside_diagnostics_are_sample_sorted_and_do_not_shrink_denominator
+    self.assertTotals(result, 1, 1, 3)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 3)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 3)
+
+======================================================================
+FAIL: test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(-1, 0), match=(9223372036854775807, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 328, in test_padded_addition_checks_each_axis_for_overflow
+    with self.subTest(tl=tl, match=match), self.assertRaises(ValueError):
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(1, 0), match=(-9223372036854775808, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 328, in test_padded_addition_checks_each_axis_for_overflow
+    with self.subTest(tl=tl, match=match), self.assertRaises(ValueError):
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(0, -1), match=(0, 9223372036854775807))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 328, in test_padded_addition_checks_each_axis_for_overflow
+    with self.subTest(tl=tl, match=match), self.assertRaises(ValueError):
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padded_addition_checks_each_axis_for_overflow (test_candidate_compatibility.CandidateCompatibilityTests.test_padded_addition_checks_each_axis_for_overflow) (tl=(0, 1), match=(0, -9223372036854775808))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 328, in test_padded_addition_checks_each_axis_for_overflow
+    with self.subTest(tl=tl, match=match), self.assertRaises(ValueError):
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_only_support_is_legal_but_marked_outside_original (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_only_support_is_legal_but_marked_outside_original)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 291, in test_padding_only_support_is_legal_but_marked_outside_original
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(True, 0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, False, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 1.0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(-1, 0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 0, -1))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 0, 0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding='0000')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(3, 0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(1, 0, 2, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 3, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 1, 0, 2))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(9223372036854775807, 0, 1, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(0, 9223372036854775807, 0, 1))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size (test_candidate_compatibility.CandidateCompatibilityTests.test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size) (padding=(9223372036854775808, 0, 0, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 353, in test_padding_rejects_bad_types_negative_values_and_nonpositive_original_size
+    with self.subTest(padding=value), self.assertRaises(ValueError):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_relative_subtraction_checks_overflow_before_later_cancellation (test_candidate_compatibility.CandidateCompatibilityTests.test_relative_subtraction_checks_overflow_before_later_cancellation) (tl=(-9223372036854775808, 0))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 322, in test_relative_subtraction_checks_overflow_before_later_cancellation
+    with self.subTest(tl=tl), self.assertRaises(ValueError):
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_relative_subtraction_checks_overflow_before_later_cancellation (test_candidate_compatibility.CandidateCompatibilityTests.test_relative_subtraction_checks_overflow_before_later_cancellation) (tl=(0, -9223372036854775808))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 322, in test_relative_subtraction_checks_overflow_before_later_cancellation
+    with self.subTest(tl=tl), self.assertRaises(ValueError):
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_same_singleton_returns_full_exact_evidence (test_candidate_compatibility.CandidateCompatibilityTests.test_same_singleton_returns_full_exact_evidence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 111, in test_same_singleton_returns_full_exact_evidence
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_scene_empty_is_legal_and_retains_dimensions (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_empty_is_legal_and_retains_dimensions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 92, in test_scene_empty_is_legal_and_retains_dimensions
+    self.assertEqual((prepared.thinning.width, prepared.thinning.height), (3, 2))
+AssertionError: Tuples differ: (1, 1) != (3, 2)
+
+First differing element 0:
+1
+3
+
+- (1, 1)
++ (3, 2)
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=())
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((0,), (0, 0)))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid='0')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((True,),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((1.0,),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((-1,),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((8,),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_rejects_malformed_supplied_grids (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_rejects_malformed_supplied_grids) (grid=((254,),))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 106, in test_scene_factory_rejects_malformed_supplied_grids
+    with self.subTest(grid=invalid), self.assertRaises(ValueError):
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_scene_factory_snapshots_lists_and_freezes_membership_tuples (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_snapshots_lists_and_freezes_membership_tuples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 79, in test_scene_factory_snapshots_lists_and_freezes_membership_tuples
+    self.assertEqual(prepared.thinning.labels, ((0, 0, 0),))
+AssertionError: Tuples differ: ((255,),) != ((0, 0, 0),)
+
+First differing element 0:
+(255,)
+(0, 0, 0)
+
+- ((255,),)
++ ((0, 0, 0),)
+
+======================================================================
+FAIL: test_scene_factory_thins_then_extracts_instead_of_using_eligible_pixels (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_factory_thins_then_extracts_instead_of_using_eligible_pixels)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 49, in test_scene_factory_thins_then_extracts_instead_of_using_eligible_pixels
+    self.assertEqual(prepared.thinning.eligible_labels, ((0, 0), (0, 0)))
+AssertionError: Tuples differ: ((255,),) != ((0, 0), (0, 0))
+
+First differing element 0:
+(255,)
+(0, 0)
+
+Second tuple contains 1 additional elements.
+First extra element 1:
+(0, 0)
+
+- ((255,),)
++ ((0, 0), (0, 0))
+
+======================================================================
+FAIL: test_scene_memberships_include_every_vertex_not_only_template_samples (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_memberships_include_every_vertex_not_only_template_samples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 57, in test_scene_memberships_include_every_vertex_not_only_template_samples
+    self.assertEqual(prepared.chains, (edge.Chain(0, (0, 1, 2, 3, 4)),))
+AssertionError: Tuples differ: () != (Chain(chain_id=0, pixel_ids=(0, 1, 2, 3, 4), closed=False, returning=False),)
+
+Second tuple contains 1 additional elements.
+First extra element 0:
+Chain(chain_id=0, pixel_ids=(0, 1, 2, 3, 4), closed=False, returning=False)
+
+- ()
++ (Chain(chain_id=0, pixel_ids=(0, 1, 2, 3, 4), closed=False, returning=False),)
+
+======================================================================
+FAIL: test_scene_shared_junction_has_both_chain_indices (test_candidate_compatibility.CandidateCompatibilityTests.test_scene_shared_junction_has_both_chain_indices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 64, in test_scene_shared_junction_has_both_chain_indices
+    self.assertEqual(prepared.chains,
+AssertionError: Tuples differ: () != (Chain(chain_id=0, pixel_ids=(1, 4), close[94 chars]rue))
+
+Second tuple contains 2 additional elements.
+First extra element 0:
+Chain(chain_id=0, pixel_ids=(1, 4), closed=False, returning=False)
+
+- ()
++ (Chain(chain_id=0, pixel_ids=(1, 4), closed=False, returning=False),
++  Chain(chain_id=1, pixel_ids=(4, 6, 10, 8), closed=True, returning=True))
+
+======================================================================
+FAIL: test_template_canvas_pixel_is_used_directly_without_second_origin_adjustment (test_candidate_compatibility.CandidateCompatibilityTests.test_template_canvas_pixel_is_used_directly_without_second_origin_adjustment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 284, in test_template_canvas_pixel_is_used_directly_without_second_origin_adjustment
+    self.assertTotals(result, 1, 1, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=True, d=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=0, d=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1.0, d=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=2.0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=0, d=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=-1, d=20)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=21, d=20)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n='1', d=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_rejects_noninteger_and_invalid_score_domains (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_rejects_noninteger_and_invalid_score_domains) (n=1, d=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 385, in test_threshold_rejects_noninteger_and_invalid_score_domains
+    with self.subTest(n=numerator, d=denominator), self.assertRaises(ValueError):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_threshold_uses_arbitrary_precision_without_float (test_candidate_compatibility.CandidateCompatibilityTests.test_threshold_uses_arbitrary_precision_without_float)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 377, in test_threshold_uses_arbitrary_precision_without_float
+    self.assertTrue(compat.passes_threshold(13 * factor, 20 * factor))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_u_shape_and_long_false_line_have_support_but_incompatible_order (test_candidate_compatibility.CandidateCompatibilityTests.test_u_shape_and_long_false_line_have_support_but_incompatible_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 208, in test_u_shape_and_long_false_line_have_support_but_incompatible_order
+    self.assertEqual(result.independent_numerator, template.denominator)
+AssertionError: 0 != 16
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (1, 1, 1)
+
+First differing element 0:
+0
+1
+
+- (0, 0, 0)
++ (1, 1, 1)
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=7, scene=5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+======================================================================
+FAIL: test_unsigned_circular_direction_difference_wraps_at_seven (test_candidate_compatibility.CandidateCompatibilityTests.test_unsigned_circular_direction_difference_wraps_at_seven) (template=0, scene=255)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 161, in test_unsigned_circular_direction_difference_wraps_at_seven
+    self.assertTotals(result, expected, expected, 1)
+  File "D:\h\shape_based_matching-master\artifacts\ordered_contour_verifier_experiment\candidate_red_v1\source\test_candidate_compatibility.py", line 35, in assertTotals
+    self.assertEqual((result.independent_numerator,
+AssertionError: Tuples differ: (0, 0, 0) != (0, 0, 1)
+
+First differing element 2:
+0
+1
+
+- (0, 0, 0)
+?        ^
+
++ (0, 0, 1)
+?        ^
+
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.027s
+
+FAILED (failures=110)

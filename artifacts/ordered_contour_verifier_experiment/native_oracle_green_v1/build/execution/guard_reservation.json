@@ -1,0 +1,17 @@
+{
+  "command": [
+    "F:\\mysys2\\ucrt64\\bin\\python.exe",
+    "-B",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_compile_child_v1.py",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\reservation.json"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\source",
+  "started": false,
+  "passed": false,
+  "exit_code": null,
+  "maximum_seconds": 180,
+  "maximum_rss_bytes": 1073741824,
+  "maximum_output_bytes": 134217728,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864
+}

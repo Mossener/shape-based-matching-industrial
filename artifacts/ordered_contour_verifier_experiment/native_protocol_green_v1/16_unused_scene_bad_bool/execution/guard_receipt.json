@@ -1,0 +1,21 @@
+{
+  "command": [
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+    "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool\\request.txt"
+  ],
+  "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool",
+  "started": true,
+  "passed": false,
+  "exit_code": 1,
+  "maximum_seconds": 5,
+  "maximum_rss_bytes": 536870912,
+  "maximum_output_bytes": 1048576,
+  "minimum_free_bytes": 0,
+  "maximum_execution_bytes": 67108864,
+  "pid": 25900,
+  "reason": "process_exit_nonzero",
+  "elapsed_seconds": 0.0629999999946449,
+  "peak_rss_bytes": 6316032,
+  "native_output_bytes": 0,
+  "samples": 2
+}

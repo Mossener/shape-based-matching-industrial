@@ -1,0 +1,174 @@
+FAIL empty_template_is_a_retained_zero_chain: template_chain_id expected=17 actual=0
+FAIL no_edges_keep_all_template_weight: total_weight expected=8 actual=0
+FAIL no_edges_keep_all_template_weight: work.maximum_integer_bits expected=4 actual=0
+FAIL no_scenes_keep_all_template_weight: total_weight expected=13 actual=0
+FAIL no_scenes_keep_all_template_weight: work.maximum_integer_bits expected=4 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: template_chain_id expected=9 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: numerator expected=7 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: independent_numerator expected=7 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: total_weight expected=7 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: case presence expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: witness expected=[(50,90)] actual=[]
+FAIL one_edge_has_weight_identity_and_one_direction: work.case_count expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: work.edge_states expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: work.fenwick_queries expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: work.fenwick_updates expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: work.fenwick_update_visits expected=1 actual=0
+FAIL one_edge_has_weight_identity_and_one_direction: work.maximum_integer_bits expected=3 actual=0
+FAIL open_open_keeps_supplied_topology_not_numeric_id_order: numerator expected=7 actual=0
+FAIL open_open_keeps_supplied_topology_not_numeric_id_order: independent_numerator expected=7 actual=0
+FAIL open_open_keeps_supplied_topology_not_numeric_id_order: total_weight expected=7 actual=0
+FAIL open_open_keeps_supplied_topology_not_numeric_id_order: case presence expected=1 actual=0
+FAIL open_open_keeps_supplied_topology_not_numeric_id_order: witness expected=[(1,30),(2,10)] actual=[]
+FAIL open_open_can_require_reverse_scene_direction: numerator expected=10 actual=0
+FAIL open_open_can_require_reverse_scene_direction: independent_numerator expected=10 actual=0
+FAIL open_open_can_require_reverse_scene_direction: total_weight expected=10 actual=0
+FAIL open_open_can_require_reverse_scene_direction: case presence expected=1 actual=0
+FAIL open_open_can_require_reverse_scene_direction: witness expected=[(1,30),(2,20),(3,10)] actual=[]
+FAIL open_open_can_require_reverse_scene_direction: two open-scene directions expected=2 actual=0
+FAIL open_open_can_require_reverse_scene_direction: all cases contribute states expected=6 actual=0
+FAIL same_template_row_cannot_chain_two_edges: numerator expected=7 actual=0
+FAIL same_template_row_cannot_chain_two_edges: independent_numerator expected=7 actual=0
+FAIL same_template_row_cannot_chain_two_edges: total_weight expected=7 actual=0
+FAIL same_template_row_cannot_chain_two_edges: case presence expected=1 actual=0
+FAIL same_template_row_cannot_chain_two_edges: witness expected=[(10,100)] actual=[]
+FAIL same_template_row_cannot_chain_two_edges: work.case_count expected=2 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.edge_states expected=4 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.fenwick_queries expected=4 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.fenwick_updates expected=4 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.fenwick_query_visits expected=2 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.fenwick_update_visits expected=6 actual=0
+FAIL same_template_row_cannot_chain_two_edges: work.maximum_integer_bits expected=3 actual=0
+FAIL strict_scene_prefix_prevents_pixel_reuse: numerator expected=7 actual=0
+FAIL strict_scene_prefix_prevents_pixel_reuse: independent_numerator expected=10 actual=0
+FAIL strict_scene_prefix_prevents_pixel_reuse: total_weight expected=10 actual=0
+FAIL strict_scene_prefix_prevents_pixel_reuse: case presence expected=1 actual=0
+FAIL strict_scene_prefix_prevents_pixel_reuse: witness expected=[(20,100)] actual=[]
+FAIL weight_optimum_can_use_fewer_points_than_count_optimum: numerator expected=14 actual=0
+FAIL weight_optimum_can_use_fewer_points_than_count_optimum: independent_numerator expected=20 actual=0
+FAIL weight_optimum_can_use_fewer_points_than_count_optimum: total_weight expected=20 actual=0
+FAIL weight_optimum_can_use_fewer_points_than_count_optimum: case presence expected=1 actual=0
+FAIL weight_optimum_can_use_fewer_points_than_count_optimum: witness expected=[(10,100),(40,200)] actual=[]
+FAIL open_closed_crosses_canonical_scene_seam_once: numerator expected=6 actual=0
+FAIL open_closed_crosses_canonical_scene_seam_once: independent_numerator expected=6 actual=0
+FAIL open_closed_crosses_canonical_scene_seam_once: total_weight expected=6 actual=0
+FAIL open_closed_crosses_canonical_scene_seam_once: case presence expected=1 actual=0
+FAIL open_closed_crosses_canonical_scene_seam_once: witness expected=[(1,30),(2,10),(3,20)] actual=[]
+FAIL open_closed_crosses_canonical_scene_seam_once: all incident scene cuts in both directions expected=6 actual=0
+FAIL open_closed_crosses_canonical_scene_seam_once: three edges per enumerated case expected=18 actual=0
+FAIL closed_open_rotates_template_sample_order: numerator expected=6 actual=0
+FAIL closed_open_rotates_template_sample_order: independent_numerator expected=6 actual=0
+FAIL closed_open_rotates_template_sample_order: total_weight expected=6 actual=0
+FAIL closed_open_rotates_template_sample_order: case presence expected=1 actual=0
+FAIL closed_open_rotates_template_sample_order: witness expected=[(3,10),(1,20),(2,30)] actual=[]
+FAIL closed_open_rotates_template_sample_order: all incident template cuts in both directions expected=6 actual=0
+FAIL closed_open_rotates_template_sample_order: three edges per enumerated case expected=18 actual=0
+FAIL closed_closed_fixes_template_cut_zero: numerator expected=6 actual=0
+FAIL closed_closed_fixes_template_cut_zero: independent_numerator expected=6 actual=0
+FAIL closed_closed_fixes_template_cut_zero: total_weight expected=6 actual=0
+FAIL closed_closed_fixes_template_cut_zero: case presence expected=1 actual=0
+FAIL closed_closed_fixes_template_cut_zero: witness expected=[(1,20),(2,30),(3,10)] actual=[]
+FAIL closed_closed_fixes_template_cut_zero: closed_closed does not rotate both sides expected=6 actual=0
+FAIL closed_closed_fixes_template_cut_zero: three edges per enumerated case expected=18 actual=0
+FAIL closed_scene_cannot_supply_two_laps: numerator expected=2 actual=0
+FAIL closed_scene_cannot_supply_two_laps: independent_numerator expected=4 actual=0
+FAIL closed_scene_cannot_supply_two_laps: total_weight expected=4 actual=0
+FAIL closed_scene_cannot_supply_two_laps: case presence expected=1 actual=0
+FAIL closed_scene_cannot_supply_two_laps: witness expected=[(1,10),(2,20)] actual=[]
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: numerator expected=5 actual=0
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: independent_numerator expected=5 actual=0
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: total_weight expected=5 actual=0
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: case presence expected=1 actual=0
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: witness expected=[(1,30)] actual=[]
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: one incident scene cut times two directions expected=2 actual=0
+FAIL cyclic_cut_enumeration_uses_only_incident_nodes: one edge per incident-cut case expected=2 actual=0
+FAIL one_template_chain_cannot_combine_scene_chains: numerator expected=9 actual=0
+FAIL one_template_chain_cannot_combine_scene_chains: independent_numerator expected=12 actual=0
+FAIL one_template_chain_cannot_combine_scene_chains: total_weight expected=12 actual=0
+FAIL one_template_chain_cannot_combine_scene_chains: case presence expected=1 actual=0
+FAIL one_template_chain_cannot_combine_scene_chains: witness expected=[(2,20),(3,30)] actual=[]
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: template_chain_id expected=6 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: numerator expected=3 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: independent_numerator expected=3 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: total_weight expected=3 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: case presence expected=1 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: witness expected=[(1,77)] actual=[]
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: template_chain_id expected=7 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: numerator expected=5 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: independent_numerator expected=5 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: total_weight expected=5 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: case presence expected=1 actual=0
+FAIL distinct_template_chains_may_reuse_a_scene_pixel: witness expected=[(2,77)] actual=[]
+FAIL shared_scene_membership_does_not_duplicate_independent_support: numerator expected=9 actual=0
+FAIL shared_scene_membership_does_not_duplicate_independent_support: independent_numerator expected=9 actual=0
+FAIL shared_scene_membership_does_not_duplicate_independent_support: total_weight expected=9 actual=0
+FAIL shared_scene_membership_does_not_duplicate_independent_support: case presence expected=1 actual=0
+FAIL shared_scene_membership_does_not_duplicate_independent_support: witness expected=[(1,77)] actual=[]
+FAIL scene_chain_case_tie_precedes_smaller_witness: numerator expected=7 actual=0
+FAIL scene_chain_case_tie_precedes_smaller_witness: independent_numerator expected=7 actual=0
+FAIL scene_chain_case_tie_precedes_smaller_witness: total_weight expected=7 actual=0
+FAIL scene_chain_case_tie_precedes_smaller_witness: case presence expected=1 actual=0
+FAIL scene_chain_case_tie_precedes_smaller_witness: witness expected=[(1,99)] actual=[]
+FAIL positive_direction_case_tie_precedes_smaller_witness: numerator expected=2 actual=0
+FAIL positive_direction_case_tie_precedes_smaller_witness: independent_numerator expected=2 actual=0
+FAIL positive_direction_case_tie_precedes_smaller_witness: total_weight expected=2 actual=0
+FAIL positive_direction_case_tie_precedes_smaller_witness: case presence expected=1 actual=0
+FAIL positive_direction_case_tie_precedes_smaller_witness: witness expected=[(100,90),(5,10)] actual=[]
+FAIL template_cut_case_tie_precedes_smaller_witness: numerator expected=2 actual=0
+FAIL template_cut_case_tie_precedes_smaller_witness: independent_numerator expected=3 actual=0
+FAIL template_cut_case_tie_precedes_smaller_witness: total_weight expected=3 actual=0
+FAIL template_cut_case_tie_precedes_smaller_witness: case presence expected=1 actual=0
+FAIL template_cut_case_tie_precedes_smaller_witness: witness expected=[(90,100),(50,200)] actual=[]
+FAIL scene_cut_case_tie_precedes_smaller_witness: numerator expected=2 actual=0
+FAIL scene_cut_case_tie_precedes_smaller_witness: independent_numerator expected=2 actual=0
+FAIL scene_cut_case_tie_precedes_smaller_witness: total_weight expected=2 actual=0
+FAIL scene_cut_case_tie_precedes_smaller_witness: case presence expected=1 actual=0
+FAIL scene_cut_case_tie_precedes_smaller_witness: witness expected=[(100,10),(5,90)] actual=[]
+FAIL witness_tie_uses_recursive_reversed_original_edges: numerator expected=2 actual=0
+FAIL witness_tie_uses_recursive_reversed_original_edges: independent_numerator expected=3 actual=0
+FAIL witness_tie_uses_recursive_reversed_original_edges: total_weight expected=3 actual=0
+FAIL witness_tie_uses_recursive_reversed_original_edges: case presence expected=1 actual=0
+FAIL witness_tie_uses_recursive_reversed_original_edges: witness expected=[(20,300),(10,200)] actual=[]
+FAIL witness_final_edge_tie_uses_ids_not_indices: numerator expected=1 actual=0
+FAIL witness_final_edge_tie_uses_ids_not_indices: independent_numerator expected=2 actual=0
+FAIL witness_final_edge_tie_uses_ids_not_indices: total_weight expected=2 actual=0
+FAIL witness_final_edge_tie_uses_ids_not_indices: case presence expected=1 actual=0
+FAIL witness_final_edge_tie_uses_ids_not_indices: witness expected=[(10,100)] actual=[]
+FAIL adjacent_2pow220_weights_remain_exact: numerator expected=1684996666696914987166688442938726917102321526408785780068975640577 actual=0
+FAIL adjacent_2pow220_weights_remain_exact: independent_numerator expected=3369993333393829974333376885877453834204643052817571560137951281153 actual=0
+FAIL adjacent_2pow220_weights_remain_exact: total_weight expected=3369993333393829974333376885877453834204643052817571560137951281153 actual=0
+FAIL adjacent_2pow220_weights_remain_exact: case presence expected=1 actual=0
+FAIL adjacent_2pow220_weights_remain_exact: witness expected=[(2,10)] actual=[]
+FAIL adjacent_2pow220_weights_remain_exact: full total weight bit length expected=222 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: numerator expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: independent_numerator expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: total_weight expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: case presence expected=1 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: witness expected=[(1,30),(2,10)] actual=[]
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: numerator expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: independent_numerator expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: total_weight expected=7 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: case presence expected=1 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: witness expected=[(1,30),(2,10)] actual=[]
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: all scene cases counted expected=3 actual=0
+FAIL edge_and_scene_input_permutation_preserves_canonical_result: all scene edge states counted expected=5 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: template_chain_id expected=18446744073709551615 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: numerator expected=4 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: independent_numerator expected=4 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: total_weight expected=4 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: case presence expected=1 actual=0
+FAIL uint64_maximum_physical_ids_are_preserved: witness expected=[(18446744073709551615,18446744073709551615)] actual=[]
+FAIL reject_zero_scoring_weight_without_scenes: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_negative_scoring_weight_without_edges: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_fewer_weights_than_samples: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_more_weights_than_samples: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_duplicate_template_physical_ids: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_duplicate_scene_physical_ids_even_without_edges: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_closed_scene_repeated_endpoint: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_duplicate_compatibility_edges: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_edge_with_unknown_template_sample: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_edge_with_unknown_scene_pixel: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_duplicate_scene_chain_ids_even_when_empty: expected std::invalid_argument before zero/unused shortcut
+FAIL validate_unused_scene_after_a_valid_matching_scene: expected std::invalid_argument before zero/unused shortcut
+FAIL validate_scene_edges_before_empty_template_shortcut: expected std::invalid_argument before zero/unused shortcut
+FAIL reject_edge_into_empty_scene_chain: expected std::invalid_argument before zero/unused shortcut

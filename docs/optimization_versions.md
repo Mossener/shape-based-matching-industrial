@@ -282,3 +282,13 @@
 - 本版只证明有限合成输入上的算法行为，没有真实图像准确率、原生速度或工业泛化收益。候选坐标与像素来源连接仍在下一阶段验证；留出场景、对象 25/29 及私有磁片/SMD 图像未使用或公开。
 
 详见[数学核心结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CORE_RESULTS_V1.md)、[链组件结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CHAIN_RESULTS_V1.md)与[阶段验收](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CHAIN_ACCEPTANCE_V1.json)。标签 `optimization-v32` 保存此合成验证检查点。
+
+## V33：候选坐标独立校验与 C++ 精确有序匹配核心
+
+- 新增候选坐标/兼容图数学原型，逐项检查 signed-int64 转换，保留完整链、越界分母、链内一对一和跨模板链复用。33 项手工测试经同字节 RED→GREEN，独立参考完成 6,144 个完整候选与逐链对照；7 项临时源码故障均被拒绝，包括合法 factory 网格在超过 2^53 的分母下出现的浮点阈值误收。
+- C++17/GMP 精确核心经 40 项固定测试 RED→GREEN，并通过独立部分单射参考的 25,024 个完整结果对照：24,912 个全域 tiny 图、100 个固定 seed 稀疏图、12 个多链/最大 ID/大整数等特殊抽象图。B/A/分母/case/witness 精确一致，0 跳过；work counters 另外与优化 Python 实现比较，不冒充独立计数 oracle。
+- bounded batch driver 的 33 个畸形输入验证通过。协调器末尾 pin 失败可能错误返回成功的问题经独立审查发现、实际 RED 复现和同测试 GREEN 修复，失败快照保留。编译 Job committed memory 与进程 observed working set 分别记录；元数据预检未纳入该守护的限制明确保留。
+- 唯一 C0 metadata 计划固定实际 V31 的 rgb_control/fallback、848×848 与补边 `[64,64,64,244]`，核对 2,400 份 manifest，声明 457,279 个完整候选及 390 个零组合；未读取 raw/bank/image payload，尚不是真实像素执行冻结。
+- 本版为候选/原生数学核心的合成正确性检查点，没有新增真实图像准确率或速度收益。生产默认继续 V11，native 链/候选/像素入口及完整开发审计继续推进；留出场景、对象 25/29 和私有磁片/SMD 图像未使用或公开。
+
+详见[候选合成结果](../artifacts/ordered_contour_verifier_experiment/SYNTHETIC_CANDIDATE_RESULTS_V1.md)、[原生核心结果](../artifacts/ordered_contour_verifier_experiment/NATIVE_CORE_RESULTS_V1.md)与其执行回执。标签 `optimization-v33` 保存此检查点。

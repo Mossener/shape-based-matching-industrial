@@ -1,0 +1,1383 @@
+{
+  "schema": "native_protocol_checks_v1",
+  "passed": true,
+  "cases": [
+    {
+      "name": "negative_request_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "UNSIGNED_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\00_negative_request_id\\request.txt",
+        "sha256": "b95ede4b6a78bcde4c88818b0e32246163f050ead42b76b7ed4b3f525ad809bd",
+        "bytes": 41
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\00_negative_request_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\00_negative_request_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 13384,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6356992,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\00_negative_request_id\\execution\\stdout.txt",
+        "sha256": "5b6d648871d4762878166ac1c197785b13102b8da1e4221c3c001149b1b3d92c",
+        "bytes": 53
+      }
+    },
+    {
+      "name": "overflow_request_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "UNSIGNED_OVERFLOW"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\01_overflow_request_id\\request.txt",
+        "sha256": "8d17ae6e6907359e08f202b7d3215eab3e3485dc68d28f8cdd9a3c74513a3a99",
+        "bytes": 59
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\01_overflow_request_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\01_overflow_request_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 5672,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\01_overflow_request_id\\execution\\stdout.txt",
+        "sha256": "fc6917b8d086d4b940438bb3757b500f6665aed82204a7b5128e4c36cf619656",
+        "bytes": 54
+      }
+    },
+    {
+      "name": "long_request_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "INTEGER_TOKEN_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\02_long_request_id\\request.txt",
+        "sha256": "f01e86dc7ab74205e8ac9d2506a489727431381ebb29aaee7a705ddda0352376",
+        "bytes": 60
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\02_long_request_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\02_long_request_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 25516,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6311936,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\02_long_request_id\\execution\\stdout.txt",
+        "sha256": "43feab3d1710c53823e0c9fcfaeefbe85b34e4074457164830e27f9498deb7d8",
+        "bytes": 56
+      }
+    },
+    {
+      "name": "negative_template_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNSIGNED_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\03_negative_template_id\\request.txt",
+        "sha256": "1c59f731dc1e1e575509230f418d0f40f66ec3dcc125b4ad53d83db14f74525c",
+        "bytes": 42
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\03_negative_template_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\03_negative_template_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 10616,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6311936,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\03_negative_template_id\\execution\\stdout.txt",
+        "sha256": "2cfcaf4f9e2f1652ef72fb5b570557cdaa3754ff4744bfd24ed9808faf324bf1",
+        "bytes": 54
+      }
+    },
+    {
+      "name": "template_bool_two",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "BOOLEAN_TOKEN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\04_template_bool_two\\request.txt",
+        "sha256": "c2a769b89a3ab79363ee1ecffbe99f1148a4857a88b02b25fd64aa61e522c98a",
+        "bytes": 41
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\04_template_bool_two\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\04_template_bool_two",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 1804,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\04_template_bool_two\\execution\\stdout.txt",
+        "sha256": "dd8f1de59902f71375ee93f0d1f4b6b3d3b98afe32166a2163c87d3084f4cd6f",
+        "bytes": 51
+      }
+    },
+    {
+      "name": "template_bool_00",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "BOOLEAN_TOKEN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\05_template_bool_00\\request.txt",
+        "sha256": "1fb7edb648cd78cb29bbd3ef0d6c20b8f600256dd3d4684cbf75e179d554be92",
+        "bytes": 42
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\05_template_bool_00\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\05_template_bool_00",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 32256,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6316032,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\05_template_bool_00\\execution\\stdout.txt",
+        "sha256": "dd8f1de59902f71375ee93f0d1f4b6b3d3b98afe32166a2163c87d3084f4cd6f",
+        "bytes": 51
+      }
+    },
+    {
+      "name": "sample_count_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "COUNT_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\06_sample_count_limit\\request.txt",
+        "sha256": "cad6e962374ab2c4f0a9d270f9473b2afbb1473bf1e6bdb500b3dd18cd611364",
+        "bytes": 41
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\06_sample_count_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\06_sample_count_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 8680,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\06_sample_count_limit\\execution\\stdout.txt",
+        "sha256": "d94e8e42475d4051274aa5060822fed960ce3f5ca4f3113558bf2ed3017e8642",
+        "bytes": 49
+      }
+    },
+    {
+      "name": "scene_count_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "COUNT_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\07_scene_count_limit\\request.txt",
+        "sha256": "e802d04127c6de17ebd4280639f6db4bad93c855fadbe7a43eaca704a4b69465",
+        "bytes": 42
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\07_scene_count_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\07_scene_count_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 9392,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6332416,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\07_scene_count_limit\\execution\\stdout.txt",
+        "sha256": "d94e8e42475d4051274aa5060822fed960ce3f5ca4f3113558bf2ed3017e8642",
+        "bytes": 49
+      }
+    },
+    {
+      "name": "negative_sample_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNSIGNED_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\08_negative_sample_id\\request.txt",
+        "sha256": "d6b8e0c2424d3ea65daca13d70a869d83bdca8c6bd4c0a966aa2a5f537e0ef8a",
+        "bytes": 46
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\08_negative_sample_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\08_negative_sample_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 9828,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\08_negative_sample_id\\execution\\stdout.txt",
+        "sha256": "2cfcaf4f9e2f1652ef72fb5b570557cdaa3754ff4744bfd24ed9808faf324bf1",
+        "bytes": 54
+      }
+    },
+    {
+      "name": "overflow_sample_id",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNSIGNED_OVERFLOW"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\09_overflow_sample_id\\request.txt",
+        "sha256": "687dd9bac3fc956cd6987180995a11b243bb06c20cada49664e1cc2dfe53c6ed",
+        "bytes": 64
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\09_overflow_sample_id\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\09_overflow_sample_id",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 19800,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6361088,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\09_overflow_sample_id\\execution\\stdout.txt",
+        "sha256": "24ba9d95c434313893c3c84d65c2354d51883116c24819eb0b979cec5c552809",
+        "bytes": 55
+      }
+    },
+    {
+      "name": "zero_weight",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "WEIGHT_NOT_POSITIVE"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\10_zero_weight\\request.txt",
+        "sha256": "6ba08f2ea262b9639a30866a2528b22cbf963017a1be56e9175361e815bef53b",
+        "bytes": 45
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\10_zero_weight\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\10_zero_weight",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 29388,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\10_zero_weight\\execution\\stdout.txt",
+        "sha256": "1a476972992def2a9d4b09941f47e77bccdd477425d6e3b9797650c786a46241",
+        "bytes": 57
+      }
+    },
+    {
+      "name": "negative_weight",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "WEIGHT_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\11_negative_weight\\request.txt",
+        "sha256": "65eabf0ef9ca901e2536df0a5327f82ad2920b1681b0527dcbf3bf9853dd2889",
+        "bytes": 46
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\11_negative_weight\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\11_negative_weight",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 15940,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6311936,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\11_negative_weight\\execution\\stdout.txt",
+        "sha256": "4a26ccee4c4c6645cce9579349a0042a0fb40f7c7d443c56b8bfb730d7e9587f",
+        "bytes": 52
+      }
+    },
+    {
+      "name": "floating_weight",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "WEIGHT_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\12_floating_weight\\request.txt",
+        "sha256": "3f4b99a6ae97d4200d8152c36e7eb431c0bc7c01a500f7b0f4489a172dc56cab",
+        "bytes": 47
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\12_floating_weight\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\12_floating_weight",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 34372,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.046999999991385266,
+        "peak_rss_bytes": 6332416,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\12_floating_weight\\execution\\stdout.txt",
+        "sha256": "4a26ccee4c4c6645cce9579349a0042a0fb40f7c7d443c56b8bfb730d7e9587f",
+        "bytes": 52
+      }
+    },
+    {
+      "name": "weight_token_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "WEIGHT_TOKEN_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\13_weight_token_limit\\request.txt",
+        "sha256": "60f35f2e0d58460cc74827f07794df93eb1962a8d634a08368fdcfc5fa4aacaa",
+        "bytes": 557
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\13_weight_token_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\13_weight_token_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 44968,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\13_weight_token_limit\\execution\\stdout.txt",
+        "sha256": "c0b790db92ecc42dc9b9d138f1a3ba2838afd18dc7962b0de069ac102da68c56",
+        "bytes": 56
+      }
+    },
+    {
+      "name": "duplicate_sample",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "DUPLICATE_SAMPLE"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\14_duplicate_sample\\request.txt",
+        "sha256": "6ff417a25466a20bce42bbabc9e6351e16a9da6cfe7f7478fbeeb27c25027b7a",
+        "bytes": 49
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\14_duplicate_sample\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\14_duplicate_sample",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 10628,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6344704,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\14_duplicate_sample\\execution\\stdout.txt",
+        "sha256": "7b0a0ef331818891b26fae19141a1e4d1d6f53140cb6fee47370390d853a256d",
+        "bytes": 54
+      }
+    },
+    {
+      "name": "duplicate_unused_scene",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "DUPLICATE_SCENE_CHAIN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\15_duplicate_unused_scene\\request.txt",
+        "sha256": "9be1b0720ef261fa3af7eb455a26d722484f5f2aca311545ab501c115d2a7a7b",
+        "bytes": 57
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\15_duplicate_unused_scene\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\15_duplicate_unused_scene",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 15728,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6328320,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\15_duplicate_unused_scene\\execution\\stdout.txt",
+        "sha256": "a5a003ef4773b148eda70a509d7ff75bc6d4147030ed154a1b412b011286889d",
+        "bytes": 59
+      }
+    },
+    {
+      "name": "unused_scene_bad_bool",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "BOOLEAN_TOKEN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool\\request.txt",
+        "sha256": "290673912125c4e69526920f7877f8db809aa63432553e2cc3002da006f60c3a",
+        "bytes": 49
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 25900,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6316032,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\16_unused_scene_bad_bool\\execution\\stdout.txt",
+        "sha256": "dd8f1de59902f71375ee93f0d1f4b6b3d3b98afe32166a2163c87d3084f4cd6f",
+        "bytes": 51
+      }
+    },
+    {
+      "name": "scene_pixel_count_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "COUNT_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\17_scene_pixel_count_limit\\request.txt",
+        "sha256": "1ee6147d49931e2dd0cf2f469c9593d54807c240ce842b7f6cdac8d90770dadb",
+        "bytes": 49
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\17_scene_pixel_count_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\17_scene_pixel_count_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 5020,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6352896,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\17_scene_pixel_count_limit\\execution\\stdout.txt",
+        "sha256": "d94e8e42475d4051274aa5060822fed960ce3f5ca4f3113558bf2ed3017e8642",
+        "bytes": 49
+      }
+    },
+    {
+      "name": "edge_count_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "COUNT_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\18_edge_count_limit\\request.txt",
+        "sha256": "23364398f4ac456220bb808d94b46fe35d7edee3f79aeee289f0bdea38002fec",
+        "bytes": 50
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\18_edge_count_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\18_edge_count_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 38440,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.046999999991385266,
+        "peak_rss_bytes": 6356992,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\18_edge_count_limit\\execution\\stdout.txt",
+        "sha256": "d94e8e42475d4051274aa5060822fed960ce3f5ca4f3113558bf2ed3017e8642",
+        "bytes": 49
+      }
+    },
+    {
+      "name": "edge_capacity",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "EDGE_CAPACITY"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\19_edge_capacity\\request.txt",
+        "sha256": "9e25b3aa85d2521b664c4b961dac9d100594f965c82409af41892e9dd4f30b91",
+        "bytes": 49
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\19_edge_capacity\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\19_edge_capacity",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 29872,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\19_edge_capacity\\execution\\stdout.txt",
+        "sha256": "e14d3c5c9c22fb042653868775b5816dcd57fa9da6ede1a6e501a31177ed6f0b",
+        "bytes": 51
+      }
+    },
+    {
+      "name": "duplicate_unused_pixel",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "DUPLICATE_PIXEL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\20_duplicate_unused_pixel\\request.txt",
+        "sha256": "1d54f783a1d2d2369c1684161e8843e199884d14932ec4180f813fc4d46d3e2b",
+        "bytes": 53
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\20_duplicate_unused_pixel\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\20_duplicate_unused_pixel",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 24728,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\20_duplicate_unused_pixel\\execution\\stdout.txt",
+        "sha256": "0407d25c489273153b58a617d5ec82c5994de6a9434d4264118a617eb7b025b9",
+        "bytes": 53
+      }
+    },
+    {
+      "name": "negative_unused_pixel",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNSIGNED_DECIMAL"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\21_negative_unused_pixel\\request.txt",
+        "sha256": "1401a0d1c500c8be59794543d3ad55f5ea139a1f758520c215d93b45cea5bbcb",
+        "bytes": 52
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\21_negative_unused_pixel\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\21_negative_unused_pixel",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 15496,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\21_negative_unused_pixel\\execution\\stdout.txt",
+        "sha256": "2cfcaf4f9e2f1652ef72fb5b570557cdaa3754ff4744bfd24ed9808faf324bf1",
+        "bytes": 54
+      }
+    },
+    {
+      "name": "unknown_sample",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNKNOWN_EDGE_ENDPOINT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\22_unknown_sample\\request.txt",
+        "sha256": "c244cc7caa760f225207c70df78a5ba76ce64a26fa856b632e9cf0a242fc6329",
+        "bytes": 59
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\22_unknown_sample\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\22_unknown_sample",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 29020,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6332416,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\22_unknown_sample\\execution\\stdout.txt",
+        "sha256": "8fcfb37f61083c759861d971970a34f0e3e48cbee22ff2c4565652ff0d689177",
+        "bytes": 59
+      }
+    },
+    {
+      "name": "unknown_pixel",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "UNKNOWN_EDGE_ENDPOINT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\23_unknown_pixel\\request.txt",
+        "sha256": "6c54e9f13809014f782d41cf475c9d8b0560ca5ba56a139942ad2ac1f19d2488",
+        "bytes": 59
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\23_unknown_pixel\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\23_unknown_pixel",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 26228,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\23_unknown_pixel\\execution\\stdout.txt",
+        "sha256": "8fcfb37f61083c759861d971970a34f0e3e48cbee22ff2c4565652ff0d689177",
+        "bytes": 59
+      }
+    },
+    {
+      "name": "duplicate_edge",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "DUPLICATE_EDGE"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\24_duplicate_edge\\request.txt",
+        "sha256": "3e76ea7caa2fdcd884d85d12f654d11f783723f5e9aaeaa8e406168de93c7582",
+        "bytes": 67
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\24_duplicate_edge\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\24_duplicate_edge",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 4148,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6336512,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\24_duplicate_edge\\execution\\stdout.txt",
+        "sha256": "4ecbd68a78a3d951c89af17f7596b93fedaff6d797f5a8f4b90518278dda0e40",
+        "bytes": 52
+      }
+    },
+    {
+      "name": "missing_token",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "MISSING_TOKEN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\25_missing_token\\request.txt",
+        "sha256": "2159c90d283ec1e8d349aab027e6854f069005786e9f1af68bd980927f1d10e1",
+        "bytes": 33
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\25_missing_token\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\25_missing_token",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 24644,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6328320,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\25_missing_token\\execution\\stdout.txt",
+        "sha256": "1a75212570aa6a0e2ba79943a8517983ed056c94819c1c10fbf482184a0ee9bb",
+        "bytes": 51
+      }
+    },
+    {
+      "name": "trailing_token",
+      "detected": true,
+      "error": [
+        "E1",
+        "77",
+        "EXTRA_TOKEN"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\26_trailing_token\\request.txt",
+        "sha256": "7becd1368ba757878d84836563345e08932315b8fb74c99cbaad00816694cbb5",
+        "bytes": 47
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\26_trailing_token\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\26_trailing_token",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 39124,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\26_trailing_token\\execution\\stdout.txt",
+        "sha256": "862914f9f2f26295a33520f2d664521ab1e2dec8a10f0765c6e7c37ee48e236c",
+        "bytes": 49
+      }
+    },
+    {
+      "name": "wrong_version",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "PROTOCOL_VERSION"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\27_wrong_version\\request.txt",
+        "sha256": "a92f26c41026d328eca4554d0a7208b074a065fb2fc4c1f7840cdc49ec917ebb",
+        "bytes": 41
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\27_wrong_version\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\27_wrong_version",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 17196,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\27_wrong_version\\execution\\stdout.txt",
+        "sha256": "fce00744298507ef58fda56855023eac1853f76286ecc6b4ed5dd4aeb7cbbc2e",
+        "bytes": 53
+      }
+    },
+    {
+      "name": "blank_line",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "EMPTY_REQUEST"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\28_blank_line\\request.txt",
+        "sha256": "e024647d557434c9e0564b3047114fc89155e4edcac1b92f4124b0d59d6a33ea",
+        "bytes": 28
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\28_blank_line\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\28_blank_line",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 40552,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\28_blank_line\\execution\\stdout.txt",
+        "sha256": "acd09a0ae53d2885b10178fca54a28091e3bcee7e888eea316bab9766ae5756c",
+        "bytes": 50
+      }
+    },
+    {
+      "name": "whitespace_line",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "EMPTY_REQUEST"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\29_whitespace_line\\request.txt",
+        "sha256": "874a573dfd91b9f6e1f6e46d1121d3ef7e35b3a16a1d1594701d70f9b5e8e925",
+        "bytes": 33
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\29_whitespace_line\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\29_whitespace_line",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 21540,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\29_whitespace_line\\execution\\stdout.txt",
+        "sha256": "acd09a0ae53d2885b10178fca54a28091e3bcee7e888eea316bab9766ae5756c",
+        "bytes": 50
+      }
+    },
+    {
+      "name": "nul_byte",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "INPUT_CHARACTER"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte\\request.txt",
+        "sha256": "23c985f05875fbe7c6459ac3e93683fadbd830feddcc00f5d80190f936de7d6c",
+        "bytes": 42
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 31964,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.062000000005355105,
+        "peak_rss_bytes": 6324224,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\30_nul_byte\\execution\\stdout.txt",
+        "sha256": "64077111461446970b87996bdd34d458625295613bafa698bfaf1990ccd9f444",
+        "bytes": 52
+      }
+    },
+    {
+      "name": "nonascii_byte",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "INPUT_CHARACTER"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\31_nonascii_byte\\request.txt",
+        "sha256": "2970b38eef181adfaf3e4d416debda153f1a5a54d6ecb24d4fd54db1cfe30211",
+        "bytes": 42
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\31_nonascii_byte\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\31_nonascii_byte",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 26748,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.046999999991385266,
+        "peak_rss_bytes": 6311936,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\31_nonascii_byte\\execution\\stdout.txt",
+        "sha256": "64077111461446970b87996bdd34d458625295613bafa698bfaf1990ccd9f444",
+        "bytes": 52
+      }
+    },
+    {
+      "name": "line_limit",
+      "detected": true,
+      "error": [
+        "E1",
+        "0",
+        "LINE_LIMIT"
+      ],
+      "request": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\32_line_limit\\request.txt",
+        "sha256": "b012f069ab308586e2321da38bc3b9017804f7e2c7041bb4ddd7e3732f58e1be",
+        "bytes": 65565
+      },
+      "guard": {
+        "command": [
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+          "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\32_line_limit\\request.txt"
+        ],
+        "working_directory": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\32_line_limit",
+        "started": true,
+        "passed": false,
+        "exit_code": 1,
+        "maximum_seconds": 5,
+        "maximum_rss_bytes": 536870912,
+        "maximum_output_bytes": 1048576,
+        "minimum_free_bytes": 0,
+        "maximum_execution_bytes": 67108864,
+        "pid": 37048,
+        "reason": "process_exit_nonzero",
+        "elapsed_seconds": 0.0629999999946449,
+        "peak_rss_bytes": 6320128,
+        "native_output_bytes": 0,
+        "samples": 2
+      },
+      "stdout": {
+        "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_protocol_green_v1\\32_line_limit\\execution\\stdout.txt",
+        "sha256": "b8fd911dbb3fc2a60064fd0dec90cd28a97da5c4aff9fac018c80d9e1cc2ed6e",
+        "bytes": 47
+      }
+    }
+  ],
+  "reference": {
+    "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\receipt.json",
+    "sha256": "04fb612e4225bccdf5ba86b516485b2ff2d862fbf8048b93b9e621ff03b6968c",
+    "bytes": 55576
+  },
+  "input_pins": [
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\run_native_protocol_checks_v1.py",
+      "sha256": "ef299d21a401d769c4789889ba36f61eb92e7111bfec3daced0c9b55d1a33375",
+      "bytes": 6962
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\receipt.json",
+      "sha256": "04fb612e4225bccdf5ba86b516485b2ff2d862fbf8048b93b9e621ff03b6968c",
+      "bytes": 55576
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\execution_guard.py",
+      "sha256": "d55e0b15484fffef5604217c35b9a5b098ff27329f48acabd5ddcd6f8a150a9f",
+      "bytes": 6376
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\rgb_stratified_features_experiment\\native_provenance.py",
+      "sha256": "1ad3bb79fbe1647d6d125d2a49c584dc856a5f41fcbaf2a57a60d37cfeba8a10",
+      "bytes": 6345
+    },
+    {
+      "path": "F:\\mysys2\\ucrt64\\bin\\python.exe",
+      "sha256": "de3c0c891cf8d7d4109705f5bce0042c53b07a091ebcb18f90f0cccf011e1f82",
+      "bytes": 101477
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_oracle_green_v1\\build\\payload\\native_batch.exe",
+      "sha256": "d674cdd81b44aaee8941ea0188e2fe02bdf3e8bd647fa4d1acdc27a8ff418a18",
+      "bytes": 210923
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_ordered_match.hpp",
+      "sha256": "1236a5555c781f639be34beef95ea187d5e57de6d629df1c96805029bc8b85a3",
+      "bytes": 15758
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\native_ordered_match_batch_v1.cpp",
+      "sha256": "28de3849fd1d8a1da4610424295eb7e704971ae91e64d68d8869bcf1e1af4f33",
+      "bytes": 14498
+    },
+    {
+      "path": "D:\\h\\shape_based_matching-master\\artifacts\\ordered_contour_verifier_experiment\\NATIVE_BATCH_PROTOCOL_V1.json",
+      "sha256": "1012a3811f26e46f3aa94a73742feea46c54b91087fe8882d69348b39de784ba",
+      "bytes": 9435
+    }
+  ],
+  "limitations": [
+    "No 64MiB whole-file or cumulative-output stress test",
+    "No allocation, OS I/O or work-counter-overflow fault injection",
+    "Per-invocation observed working-set watchdog, not OS allocation sandbox"
+  ]
+}
